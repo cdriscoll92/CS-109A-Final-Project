@@ -1,0 +1,865 @@
+"state_name","Location","Incumbent","Inc_party","Inc_first_elected","Candidate","Cand_party","district_num","state_abb","dist_id","Cand_party_abb","is_incumbent","years_in_congress"
+"Alabama","Alabama 1","Bradley Byrne","Republican",2013,"Bradley Byrne","Republican","1","AL","AL_1","R",1,5
+"Alabama","Alabama 1","Bradley Byrne","Republican",2013,"Robert Kennedy Jr.","Democratic","1","AL","AL_1","D",0,0
+"Alabama","Alabama 2","Martha Roby","Republican",2010,"Tabitha Isner","Democratic","2","AL","AL_2","D",0,0
+"Alabama","Alabama 2","Martha Roby","Republican",2010,"Martha Roby","Republican","2","AL","AL_2","R",1,8
+"Alabama","Alabama 3","Mike Rogers","Republican",2002,"Mallory Hagan","Democratic","3","AL","AL_3","D",0,0
+"Alabama","Alabama 3","Mike Rogers","Republican",2002,"Mike Rogers","Republican","3","AL","AL_3","R",1,16
+"Alabama","Alabama 4","Robert Aderholt","Republican",1996,"Robert Aderholt","Republican","4","AL","AL_4","R",1,22
+"Alabama","Alabama 4","Robert Aderholt","Republican",1996,"Lee Auman","Democratic","4","AL","AL_4","D",0,0
+"Alabama","Alabama 5","Mo Brooks","Republican",2010,"Mo Brooks","Republican","5","AL","AL_5","R",1,8
+"Alabama","Alabama 5","Mo Brooks","Republican",2010,"Peter Joffrion","Democratic","5","AL","AL_5","D",0,0
+"Alabama","Alabama 6","Gary Palmer","Republican",2014,"Danner Kline","Democratic","6","AL","AL_6","D",0,0
+"Alabama","Alabama 6","Gary Palmer","Republican",2014,"Gary Palmer","Republican","6","AL","AL_6","R",1,4
+"Alabama","Alabama 7","Terri Sewell","Democratic",2010,"Terri Sewell","Democratic","7","AL","AL_7","D",1,8
+"Alaska","Alaska 1","Don Young","Republican",1972,"Alyse Galvin","Undeclared/Democratic","1","AK","AK_1","D",0,0
+"Alaska","Alaska 1","Don Young","Republican",1972,"Don Young","Republican","1","AK","AK_1","R",1,46
+"Arizona","Arizona 1","Tom O'Halleran","Democratic",2016,"Tom O'Halleran","Democratic","1","AZ","AZ_1","D",1,2
+"Arizona","Arizona 1","Tom O'Halleran","Democratic",2016,"Wendy Rogers","Republican","1","AZ","AZ_1","R",0,0
+"Arizona","Arizona 2","Martha McSally","Republican",2014,"Ann Kirkpatrick","Democratic","2","AZ","AZ_2","D",0,0
+"Arizona","Arizona 2","Martha McSally","Republican",2014,"Lea Marquez-Peterson","Republican","2","AZ","AZ_2","R",0,0
+"Arizona","Arizona 3","Raúl Grijalva","Democratic",2002,"Raúl Grijalva","Democratic","3","AZ","AZ_3","D",1,16
+"Arizona","Arizona 3","Raúl Grijalva","Democratic",2002,"Nick Pierson","Republican","3","AZ","AZ_3","R",0,0
+"Arizona","Arizona 4","Paul Gosar","Republican",2010,"David Brill","Democratic","4","AZ","AZ_4","D",0,0
+"Arizona","Arizona 4","Paul Gosar","Republican",2010,"Paul Gosar","Republican","4","AZ","AZ_4","R",1,8
+"Arizona","Arizona 5","Andy Biggs","Republican",2016,"Andy Biggs","Republican","5","AZ","AZ_5","R",1,2
+"Arizona","Arizona 5","Andy Biggs","Republican",2016,"Joan Greene","Democratic","5","AZ","AZ_5","D",0,0
+"Arizona","Arizona 6","David Schweikert","Republican",2010,"Anita Malik","Democratic","6","AZ","AZ_6","D",0,0
+"Arizona","Arizona 6","David Schweikert","Republican",2010,"David Schweikert","Republican","6","AZ","AZ_6","R",1,8
+"Arizona","Arizona 7","Ruben Gallego","Democratic",2014,"Ruben Gallego","Democratic","7","AZ","AZ_7","D",1,4
+"Arizona","Arizona 8","Debbie Lesko","Republican",2018,"Debbie Lesko","Republican","8","AZ","AZ_8","R",1,0
+"Arizona","Arizona 8","Debbie Lesko","Republican",2018,"Hiral Tipirneni","Democratic","8","AZ","AZ_8","D",0,0
+"Arizona","Arizona 9","Kyrsten Sinema","Democratic",2012,"Steve Ferrara","Republican","9","AZ","AZ_9","R",0,0
+"Arizona","Arizona 9","Kyrsten Sinema","Democratic",2012,"Greg Stanton","Democratic","9","AZ","AZ_9","D",0,0
+"Arkansas","Arkansas 1","Rick Crawford","Republican",2010,"Rick Crawford","Republican","1","AR","AR_1","R",1,8
+"Arkansas","Arkansas 1","Rick Crawford","Republican",2010,"Chintan Desai","Democratic","1","AR","AR_1","D",0,0
+"Arkansas","Arkansas 2","French Hill","Republican",2014,"French Hill","Republican","2","AR","AR_2","R",1,4
+"Arkansas","Arkansas 2","French Hill","Republican",2014,"Clarke Tucker","Democratic","2","AR","AR_2","D",0,0
+"Arkansas","Arkansas 3","Steve Womack","Republican",2010,"Josh Mahony","Democratic","3","AR","AR_3","D",0,0
+"Arkansas","Arkansas 3","Steve Womack","Republican",2010,"Steve Womack","Republican","3","AR","AR_3","R",1,8
+"Arkansas","Arkansas 4","Bruce Westerman","Republican",2014,"Hayden Shamel","Democratic","4","AR","AR_4","D",0,0
+"Arkansas","Arkansas 4","Bruce Westerman","Republican",2014,"Bruce Westerman","Republican","4","AR","AR_4","R",1,4
+"California","California 1","Doug LaMalfa","Republican",2012,"Audrey Denney","Democratic","1","CA","CA_1","D",0,0
+"California","California 1","Doug LaMalfa","Republican",2012,"Doug LaMalfa","Republican","1","CA","CA_1","R",1,6
+"California","California 2","Jared Huffman","Democratic",2012,"Jared Huffman","Democratic","2","CA","CA_2","D",1,6
+"California","California 2","Jared Huffman","Democratic",2012,"Dale Mensing","Republican","2","CA","CA_2","R",0,0
+"California","California 3","John Garamendi","Democratic",2009,"John Garamendi","Democratic","3","CA","CA_3","D",1,9
+"California","California 3","John Garamendi","Democratic",2009,"Charlie Schaupp","Republican","3","CA","CA_3","R",0,0
+"California","California 4","Tom McClintock","Republican",2008,"Tom McClintock","Republican","4","CA","CA_4","R",1,10
+"California","California 4","Tom McClintock","Republican",2008,"Jessica Morse","Democratic","4","CA","CA_4","D",0,0
+"California","California 5","Mike Thompson","Democratic",1998,"Mike Thompson","Democratic","5","CA","CA_5","D",1,20
+"California","California 6","Doris Matsui","Democratic",2005,"Jrmar Jefferson","Democratic","6","CA","CA_6","D",0,0
+"California","California 6","Doris Matsui","Democratic",2005,"Doris Matsui","Democratic","6","CA","CA_6","D",1,13
+"California","California 7","Ami Bera","Democratic",2012,"Ami Bera","Democratic","7","CA","CA_7","D",1,6
+"California","California 7","Ami Bera","Democratic",2012,"Andrew Grant","Republican","7","CA","CA_7","R",0,0
+"California","California 8","Paul Cook","Republican",2012,"Paul Cook","Republican","8","CA","CA_8","R",1,6
+"California","California 8","Paul Cook","Republican",2012,"Tim Donnelly","Republican","8","CA","CA_8","R",0,0
+"California","California 9","Jerry McNerney","Democratic",2006,"Marla Livengood","Republican","9","CA","CA_9","R",0,0
+"California","California 9","Jerry McNerney","Democratic",2006,"Jerry McNerney","Democratic","9","CA","CA_9","D",1,12
+"California","California 10","Jeff Denham","Republican",2010,"Jeff Denham","Republican","10","CA","CA_10","R",1,8
+"California","California 10","Jeff Denham","Republican",2010,"Josh Harder","Democratic","10","CA","CA_10","D",0,0
+"California","California 11","Mark DeSaulnier","Democratic",2014,"Mark DeSaulnier","Democratic","11","CA","CA_11","D",1,4
+"California","California 11","Mark DeSaulnier","Democratic",2014,"John Fitzgerald","Republican","11","CA","CA_11","R",0,0
+"California","California 12","Nancy Pelosi","Democratic",1987,"Nancy Pelosi","Democratic","12","CA","CA_12","D",1,31
+"California","California 12","Nancy Pelosi","Democratic",1987,"Lisa Remmer","Republican","12","CA","CA_12","R",0,0
+"California","California 13","Barbara Lee","Democratic",1998,"Barbara Lee","Democratic","13","CA","CA_13","D",1,20
+"California","California 14","Jackie Speier","Democratic",2008,"Cristina Osmeña","Republican","14","CA","CA_14","R",0,0
+"California","California 14","Jackie Speier","Democratic",2008,"Jackie Speier","Democratic","14","CA","CA_14","D",1,10
+"California","California 15","Eric Swalwell","Democratic",2012,"Rudy Peters","Republican","15","CA","CA_15","R",0,0
+"California","California 15","Eric Swalwell","Democratic",2012,"Eric Swalwell","Democratic","15","CA","CA_15","D",1,6
+"California","California 16","Jim Costa","Democratic",2004,"Jim Costa","Democratic","16","CA","CA_16","D",1,14
+"California","California 16","Jim Costa","Democratic",2004,"Elizabeth Heng","Republican","16","CA","CA_16","R",0,0
+"California","California 17","Ro Khanna","Democratic",2016,"Ron Cohen","Republican","17","CA","CA_17","R",0,0
+"California","California 17","Ro Khanna","Democratic",2016,"Ro Khanna","Democratic","17","CA","CA_17","D",1,2
+"California","California 18","Anna Eshoo","Democratic",1992,"Anna Eshoo","Democratic","18","CA","CA_18","D",1,26
+"California","California 18","Anna Eshoo","Democratic",1992,"Christine Russell","Republican","18","CA","CA_18","R",0,0
+"California","California 19","Zoe Lofgren","Democratic",1994,"Justin Aguilera","Republican","19","CA","CA_19","R",0,0
+"California","California 19","Zoe Lofgren","Democratic",1994,"Zoe Lofgren","Democratic","19","CA","CA_19","D",1,24
+"California","California 20","Jimmy Panetta","Democratic",2016,"Jimmy Panetta","Democratic","20","CA","CA_20","D",1,2
+"California","California 21","David Valadao","Republican",2012,"T.J. Cox","Democratic","21","CA","CA_21","D",0,0
+"California","California 21","David Valadao","Republican",2012,"David Valadao","Republican","21","CA","CA_21","R",1,6
+"California","California 22","Devin Nunes","Republican",2002,"Andrew Janz","Democratic","22","CA","CA_22","D",0,0
+"California","California 22","Devin Nunes","Republican",2002,"Devin Nunes","Republican","22","CA","CA_22","R",1,16
+"California","California 23","Kevin McCarthy","Republican",2006,"Tatiana Matta","Democratic","23","CA","CA_23","D",0,0
+"California","California 23","Kevin McCarthy","Republican",2006,"Kevin McCarthy","Republican","23","CA","CA_23","R",1,12
+"California","California 24","Salud Carbajal","Democratic",2016,"Salud Carbajal","Democratic","24","CA","CA_24","D",1,2
+"California","California 24","Salud Carbajal","Democratic",2016,"Justin Fareed","Republican","24","CA","CA_24","R",0,0
+"California","California 25","Steve Knight","Republican",2014,"Katie Hill","Democratic","25","CA","CA_25","D",0,0
+"California","California 25","Steve Knight","Republican",2014,"Steve Knight","Republican","25","CA","CA_25","R",1,4
+"California","California 26","Julia Brownley","Democratic",2012,"Julia Brownley","Democratic","26","CA","CA_26","D",1,6
+"California","California 26","Julia Brownley","Democratic",2012,"Antonio Sabàto Jr.","Republican","26","CA","CA_26","R",0,0
+"California","California 27","Judy Chu","Democratic",2009,"Judy Chu","Democratic","27","CA","CA_27","D",1,9
+"California","California 27","Judy Chu","Democratic",2009,"Bryan Witt","Democratic","27","CA","CA_27","D",0,0
+"California","California 28","Adam Schiff","Democratic",2000,"Johnny Nalbandian","Republican","28","CA","CA_28","R",0,0
+"California","California 28","Adam Schiff","Democratic",2000,"Adam Schiff","Democratic","28","CA","CA_28","D",1,18
+"California","California 29","Tony Cárdenas","Democratic",2012,"Benito Bernal","Republican","29","CA","CA_29","R",0,0
+"California","California 29","Tony Cárdenas","Democratic",2012,"Tony Cárdenas","Democratic","29","CA","CA_29","D",1,6
+"California","California 30","Brad Sherman","Democratic",1996,"Mark Reed","Republican","30","CA","CA_30","R",0,0
+"California","California 30","Brad Sherman","Democratic",1996,"Brad Sherman","Democratic","30","CA","CA_30","D",1,22
+"California","California 31","Pete Aguilar","Democratic",2014,"Pete Aguilar","Democratic","31","CA","CA_31","D",1,4
+"California","California 31","Pete Aguilar","Democratic",2014,"Sean Flynn","Republican","31","CA","CA_31","R",0,0
+"California","California 32","Grace Napolitano","Democratic",1998,"Grace Napolitano","Democratic","32","CA","CA_32","D",1,20
+"California","California 32","Grace Napolitano","Democratic",1998,"Joshua Scott","Republican","32","CA","CA_32","R",0,0
+"California","California 33","Ted Lieu","Democratic",2014,"Ted Lieu","Democratic","33","CA","CA_33","D",1,4
+"California","California 33","Ted Lieu","Democratic",2014,"Kenneth Wright","Republican","33","CA","CA_33","R",0,0
+"California","California 34","Jimmy Gomez","Democratic",2017,"Jimmy Gomez","Democratic","34","CA","CA_34","D",1,1
+"California","California 35","Norma Torres","Democratic",2014,"Norma Torres","Democratic","35","CA","CA_35","D",1,4
+"California","California 35","Norma Torres","Democratic",2014,"Christian Valiente","Republican","35","CA","CA_35","R",0,0
+"California","California 36","Raul Ruiz","Democratic",2012,"Kimberlin Brown Pelzer","Republican","36","CA","CA_36","R",0,0
+"California","California 36","Raul Ruiz","Democratic",2012,"Raul Ruiz","Democratic","36","CA","CA_36","D",1,6
+"California","California 37","Karen Bass","Democratic",2010,"Karen Bass","Democratic","37","CA","CA_37","D",1,8
+"California","California 37","Karen Bass","Democratic",2010,"Ron Bassilian","Republican","37","CA","CA_37","R",0,0
+"California","California 38","Linda Sánchez","Democratic",2002,"Ryan Downing","Republican","38","CA","CA_38","R",0,0
+"California","California 38","Linda Sánchez","Democratic",2002,"Linda Sánchez","Democratic","38","CA","CA_38","D",1,16
+"California","California 39","Ed Royce","Republican",1992,"Gil Cisneros","Democratic","39","CA","CA_39","D",0,0
+"California","California 39","Ed Royce","Republican",1992,"Young Kim","Republican","39","CA","CA_39","R",0,0
+"California","California 40","Lucille Roybal-Allard","Democratic",1992,"Lucille Roybal-Allard","Democratic","40","CA","CA_40","D",1,26
+"California","California 41","Mark Takano","Democratic",2012,"Aja Smith","Republican","41","CA","CA_41","R",0,0
+"California","California 41","Mark Takano","Democratic",2012,"Mark Takano","Democratic","41","CA","CA_41","D",1,6
+"California","California 42","Ken Calvert","Republican",1992,"Ken Calvert","Republican","42","CA","CA_42","R",1,26
+"California","California 42","Ken Calvert","Republican",1992,"Julia Peacock","Democratic","42","CA","CA_42","D",0,0
+"California","California 43","Maxine Waters","Democratic",1990,"Omar Navarro","Republican","43","CA","CA_43","R",0,0
+"California","California 43","Maxine Waters","Democratic",1990,"Maxine Waters","Democratic","43","CA","CA_43","D",1,28
+"California","California 44","Nanette Barragán","Democratic",2016,"Nanette Barragán","Democratic","44","CA","CA_44","D",1,2
+"California","California 44","Nanette Barragán","Democratic",2016,"Aja Brown","Democratic","44","CA","CA_44","D",0,0
+"California","California 45","Mimi Walters","Republican",2014,"Katie Porter","Democratic","45","CA","CA_45","D",0,0
+"California","California 45","Mimi Walters","Republican",2014,"Mimi Walters","Republican","45","CA","CA_45","R",1,4
+"California","California 46","Lou Correa","Democratic",2016,"Lou Correa","Democratic","46","CA","CA_46","D",1,2
+"California","California 46","Lou Correa","Democratic",2016,"Russell Lambert","Republican","46","CA","CA_46","R",0,0
+"California","California 47","Alan Lowenthal","Democratic",2012,"John Briscoe","Republican","47","CA","CA_47","R",0,0
+"California","California 47","Alan Lowenthal","Democratic",2012,"Alan Lowenthal","Democratic","47","CA","CA_47","D",1,6
+"California","California 48","Dana Rohrabacher","Republican",1988,"Harley Rouda","Democratic","48","CA","CA_48","D",0,0
+"California","California 48","Dana Rohrabacher","Republican",1988,"Dana Rohrabacher","Republican","48","CA","CA_48","R",1,30
+"California","California 49","Darrell Issa","Republican",2000,"Diane Harkey","Republican","49","CA","CA_49","R",0,0
+"California","California 49","Darrell Issa","Republican",2000,"Mike Levin","Democratic","49","CA","CA_49","D",0,0
+"California","California 50","Duncan Hunter","Republican",2008,"Ammar Campa-Najjar","Democratic","50","CA","CA_50","D",0,0
+"California","California 50","Duncan Hunter","Republican",2008,"Duncan Hunter","Republican","50","CA","CA_50","R",1,10
+"California","California 51","Juan Vargas","Democratic",2012,"Juan Hidalgo Jr.","Republican","51","CA","CA_51","R",0,0
+"California","California 51","Juan Vargas","Democratic",2012,"Juan Vargas","Democratic","51","CA","CA_51","D",1,6
+"California","California 52","Scott Peters","Democratic",2012,"Scott Peters","Democratic","52","CA","CA_52","D",1,6
+"California","California 52","Scott Peters","Democratic",2012,"Omar Qudrat","Republican","52","CA","CA_52","R",0,0
+"California","California 53","Susan Davis","Democratic",2000,"Susan Davis","Democratic","53","CA","CA_53","D",1,18
+"California","California 53","Susan Davis","Democratic",2000,"Morgan Murtaugh","Republican","53","CA","CA_53","R",0,0
+"Colorado","Colorado 1","Diana DeGette","Democratic",1996,"Diana DeGette","Democratic","1","CO","CO_1","D",1,22
+"Colorado","Colorado 1","Diana DeGette","Democratic",1996,"Casper Stockham","Republican","1","CO","CO_1","R",0,0
+"Colorado","Colorado 2","Jared Polis","Democratic",2008,"Joe Neguse","Democratic","2","CO","CO_2","D",0,0
+"Colorado","Colorado 2","Jared Polis","Democratic",2008,"Peter Yu","Republican","2","CO","CO_2","R",0,0
+"Colorado","Colorado 3","Scott Tipton","Republican",2010,"Diane Mitsch Bush","Democratic","3","CO","CO_3","D",0,0
+"Colorado","Colorado 3","Scott Tipton","Republican",2010,"Scott Tipton","Republican","3","CO","CO_3","R",1,8
+"Colorado","Colorado 4","Ken Buck","Republican",2014,"Ken Buck","Republican","4","CO","CO_4","R",1,4
+"Colorado","Colorado 4","Ken Buck","Republican",2014,"Karen McCormick","Democratic","4","CO","CO_4","D",0,0
+"Colorado","Colorado 5","Doug Lamborn","Republican",2006,"Doug Lamborn","Republican","5","CO","CO_5","R",1,12
+"Colorado","Colorado 5","Doug Lamborn","Republican",2006,"Stephany Rose Spaulding","Democratic","5","CO","CO_5","D",0,0
+"Colorado","Colorado 6","Mike Coffman","Republican",2008,"Mike Coffman","Republican","6","CO","CO_6","R",1,10
+"Colorado","Colorado 6","Mike Coffman","Republican",2008,"Jason Crow","Democratic","6","CO","CO_6","D",0,0
+"Colorado","Colorado 7","Ed Perlmutter","Democratic",2006,"Mark Barrington","Republican","7","CO","CO_7","R",0,0
+"Colorado","Colorado 7","Ed Perlmutter","Democratic",2006,"Ed Perlmutter","Democratic","7","CO","CO_7","D",1,12
+"Connecticut","Connecticut 1","John Larson","Democratic",1998,"John Larson","Democratic","1","CT","CT_1","D",1,20
+"Connecticut","Connecticut 1","John Larson","Democratic",1998,"Jennifer Nye","Republican","1","CT","CT_1","R",0,0
+"Connecticut","Connecticut 2","Joe Courtney","Democratic",2006,"Joe Courtney","Democratic","2","CT","CT_2","D",1,12
+"Connecticut","Connecticut 2","Joe Courtney","Democratic",2006,"Danny Postemski","Republican","2","CT","CT_2","R",0,0
+"Connecticut","Connecticut 3","Rosa DeLauro","Democratic",1990,"Angel Cadena","Republican","3","CT","CT_3","R",0,0
+"Connecticut","Connecticut 3","Rosa DeLauro","Democratic",1990,"Rosa DeLauro","Democratic","3","CT","CT_3","D",1,28
+"Connecticut","Connecticut 4","Jim Himes","Democratic",2008,"Harry Arora","Republican","4","CT","CT_4","R",0,0
+"Connecticut","Connecticut 4","Jim Himes","Democratic",2008,"Jim Himes","Democratic","4","CT","CT_4","D",1,10
+"Connecticut","Connecticut 5","Elizabeth Esty","Democratic",2012,"Jahana Hayes","Democratic","5","CT","CT_5","D",0,0
+"Connecticut","Connecticut 5","Elizabeth Esty","Democratic",2012,"Manny Santos","Republican","5","CT","CT_5","R",0,0
+"Delaware","Delaware 1","Lisa Blunt Rochester","Democratic",2016,"Lisa Blunt Rochester","Democratic","1","DE","DE_1","D",1,2
+"Delaware","Delaware 1","Lisa Blunt Rochester","Democratic",2016,"Scott Walker","Republican","1","DE","DE_1","R",0,0
+"Florida","Florida 1","Matt Gaetz","Republican",2016,"Matt Gaetz","Republican","1","FL","FL_1","R",1,2
+"Florida","Florida 1","Matt Gaetz","Republican",2016,"Jennifer Zimmerman","Democratic","1","FL","FL_1","D",0,0
+"Florida","Florida 2","Neal Dunn","Republican",2016,"Neal Dunn","Republican","2","FL","FL_2","R",1,2
+"Florida","Florida 2","Neal Dunn","Republican",2016,"Bob Rackleff","Democratic","2","FL","FL_2","D",0,0
+"Florida","Florida 3","Ted Yoho","Republican",2012,"Yvonne Hayes Hinson","Democratic","3","FL","FL_3","D",0,0
+"Florida","Florida 3","Ted Yoho","Republican",2012,"Ted Yoho","Republican","3","FL","FL_3","R",1,6
+"Florida","Florida 4","John Rutherford","Republican",2016,"John Rutherford","Republican","4","FL","FL_4","R",1,2
+"Florida","Florida 4","John Rutherford","Republican",2016,"Ges Selmont","Democratic","4","FL","FL_4","D",0,0
+"Florida","Florida 5","Al Lawson","Democratic",2016,"Virginia Fuller","Republican","5","FL","FL_5","R",0,0
+"Florida","Florida 5","Al Lawson","Democratic",2016,"Al Lawson","Democratic","5","FL","FL_5","D",1,2
+"Florida","Florida 6","Ron DeSantis","Republican",2012,"Nancy Soderberg","Democratic","6","FL","FL_6","D",0,0
+"Florida","Florida 6","Ron DeSantis","Republican",2012,"Michael Waltz","Republican","6","FL","FL_6","R",0,0
+"Florida","Florida 7","Stephanie Murphy","Democratic",2016,"Mike Miller","Republican","7","FL","FL_7","R",0,0
+"Florida","Florida 7","Stephanie Murphy","Democratic",2016,"Stephanie Murphy","Democratic","7","FL","FL_7","D",1,2
+"Florida","Florida 8","Bill Posey","Republican",2008,"Sanjay Patel","Democratic","8","FL","FL_8","D",0,0
+"Florida","Florida 8","Bill Posey","Republican",2008,"Bill Posey","Republican","8","FL","FL_8","R",1,10
+"Florida","Florida 9","Darren Soto","Democratic",2016,"Wayne Liebnitzky","Republican","9","FL","FL_9","R",0,0
+"Florida","Florida 9","Darren Soto","Democratic",2016,"Darren Soto","Democratic","9","FL","FL_9","D",1,2
+"Florida","Florida 10","Val Demings","Democratic",2016,"Val Demings","Democratic","10","FL","FL_10","D",1,2
+"Florida","Florida 11","Daniel Webster","Republican",2010,"Dana Cottrell","Democratic","11","FL","FL_11","D",0,0
+"Florida","Florida 11","Daniel Webster","Republican",2010,"Daniel Webster","Republican","11","FL","FL_11","R",1,8
+"Florida","Florida 12","Gus Bilirakis","Republican",2006,"Gus Bilirakis","Republican","12","FL","FL_12","R",1,12
+"Florida","Florida 12","Gus Bilirakis","Republican",2006,"Chris Hunter","Democratic","12","FL","FL_12","D",0,0
+"Florida","Florida 13","Charlie Crist","Democratic",2016,"George Buck","Republican","13","FL","FL_13","R",0,0
+"Florida","Florida 13","Charlie Crist","Democratic",2016,"Charlie Crist","Democratic","13","FL","FL_13","D",1,2
+"Florida","Florida 14","Kathy Castor","Democratic",2006,"Kathy Castor","Democratic","14","FL","FL_14","D",1,12
+"Florida","Florida 15","Dennis Ross","Republican",2010,"Kristen Carlson","Democratic","15","FL","FL_15","D",0,0
+"Florida","Florida 15","Dennis Ross","Republican",2010,"Ross Spano","Republican","15","FL","FL_15","R",0,0
+"Florida","Florida 16","Vern Buchanan","Republican",2006,"Vern Buchanan","Republican","16","FL","FL_16","R",1,12
+"Florida","Florida 16","Vern Buchanan","Republican",2006,"David Shapiro","Democratic","16","FL","FL_16","D",0,0
+"Florida","Florida 17","Tom Rooney","Republican",2008,"Allen Ellison","Democratic","17","FL","FL_17","D",0,0
+"Florida","Florida 17","Tom Rooney","Republican",2008,"Greg Steube","Republican","17","FL","FL_17","R",0,0
+"Florida","Florida 18","Brian Mast","Republican",2016,"Lauren Baer","Democratic","18","FL","FL_18","D",0,0
+"Florida","Florida 18","Brian Mast","Republican",2016,"Brian Mast","Republican","18","FL","FL_18","R",1,2
+"Florida","Florida 19","Francis Rooney","Republican",2016,"David Holden","Democratic","19","FL","FL_19","D",0,0
+"Florida","Florida 19","Francis Rooney","Republican",2016,"Francis Rooney","Republican","19","FL","FL_19","R",1,2
+"Florida","Florida 20","Alcee Hastings","Democratic",1992,"Alcee Hastings","Democratic","20","FL","FL_20","D",1,26
+"Florida","Florida 21","Lois Frankel","Democratic",2012,"Lois Frankel","Democratic","21","FL","FL_21","D",1,6
+"Florida","Florida 22","Ted Deutch","Democratic",2010,"Ted Deutch","Democratic","22","FL","FL_22","D",1,8
+"Florida","Florida 22","Ted Deutch","Democratic",2010,"Nicolas Kimaz","Republican","22","FL","FL_22","R",0,0
+"Florida","Florida 23","Debbie Wasserman Schultz","Democratic",2004,"Joseph Kaufman","Republican","23","FL","FL_23","R",0,0
+"Florida","Florida 23","Debbie Wasserman Schultz","Democratic",2004,"Debbie Wasserman Schultz","Democratic","23","FL","FL_23","D",1,14
+"Florida","Florida 24","Frederica Wilson","Democratic",2010,"Frederica Wilson","Democratic","24","FL","FL_24","D",1,8
+"Florida","Florida 25","Mario Díaz-Balart","Republican",2002,"Mary Barzee Flores","Democratic","25","FL","FL_25","D",0,0
+"Florida","Florida 25","Mario Díaz-Balart","Republican",2002,"Mario Díaz-Balart","Republican","25","FL","FL_25","R",1,16
+"Florida","Florida 26","Carlos Curbelo","Republican",2014,"Carlos Curbelo","Republican","26","FL","FL_26","R",1,4
+"Florida","Florida 26","Carlos Curbelo","Republican",2014,"Debbie Mucarsel-Powell","Democratic","26","FL","FL_26","D",0,0
+"Florida","Florida 27","Ileana Ros-Lehtinen","Republican",1989,"Maria Elvira Salazar","Republican","27","FL","FL_27","R",0,0
+"Florida","Florida 27","Ileana Ros-Lehtinen","Republican",1989,"Donna Shalala","Democratic","27","FL","FL_27","D",0,0
+"Georgia","Georgia 1","Buddy Carter","Republican",2014,"Buddy Carter","Republican","1","GA","GA_1","R",1,4
+"Georgia","Georgia 1","Buddy Carter","Republican",2014,"Lisa Ring","Democratic","1","GA","GA_1","D",0,0
+"Georgia","Georgia 2","Sanford Bishop","Democratic",1992,"Sanford Bishop","Democratic","2","GA","GA_2","D",1,26
+"Georgia","Georgia 2","Sanford Bishop","Democratic",1992,"Herman West","Republican","2","GA","GA_2","R",0,0
+"Georgia","Georgia 3","Drew Ferguson","Republican",2016,"Chuck Enderlin","Democratic","3","GA","GA_3","D",0,0
+"Georgia","Georgia 3","Drew Ferguson","Republican",2016,"Drew Ferguson","Republican","3","GA","GA_3","R",1,2
+"Georgia","Georgia 4","Hank Johnson","Democratic",2006,"Hank Johnson","Democratic","4","GA","GA_4","D",1,12
+"Georgia","Georgia 4","Hank Johnson","Democratic",2006,"Joe Profit","Republican","4","GA","GA_4","R",0,0
+"Georgia","Georgia 5","John Lewis","Democratic",1986,"John Lewis","Democratic","5","GA","GA_5","D",1,32
+"Georgia","Georgia 6","Karen Handel","Republican",2017,"Karen Handel","Republican","6","GA","GA_6","R",1,1
+"Georgia","Georgia 6","Karen Handel","Republican",2017,"Lucy McBath","Democratic","6","GA","GA_6","D",0,0
+"Georgia","Georgia 7","Rob Woodall","Republican",2010,"Carolyn Bourdeaux","Democratic","7","GA","GA_7","D",0,0
+"Georgia","Georgia 7","Rob Woodall","Republican",2010,"Rob Woodall","Republican","7","GA","GA_7","R",1,8
+"Georgia","Georgia 8","Austin Scott","Republican",2010,"Austin Scott","Republican","8","GA","GA_8","R",1,8
+"Georgia","Georgia 9","Doug Collins","Republican",2012,"Doug Collins","Republican","9","GA","GA_9","R",1,6
+"Georgia","Georgia 9","Doug Collins","Republican",2012,"Josh McCall","Democratic","9","GA","GA_9","D",0,0
+"Georgia","Georgia 10","Jody Hice","Republican",2014,"Jody Hice","Republican","10","GA","GA_10","R",1,4
+"Georgia","Georgia 10","Jody Hice","Republican",2014,"Tabitha Johnson-Green","Democratic","10","GA","GA_10","D",0,0
+"Georgia","Georgia 11","Barry Loudermilk","Republican",2014,"Flynn Broady","Democratic","11","GA","GA_11","D",0,0
+"Georgia","Georgia 11","Barry Loudermilk","Republican",2014,"Barry Loudermilk","Republican","11","GA","GA_11","R",1,4
+"Georgia","Georgia 12","Rick Allen","Republican",2014,"Rick Allen","Republican","12","GA","GA_12","R",1,4
+"Georgia","Georgia 12","Rick Allen","Republican",2014,"Francys Johnson","Democratic","12","GA","GA_12","D",0,0
+"Georgia","Georgia 13","David Scott","Democratic",2002,"David Callahan","Republican","13","GA","GA_13","R",0,0
+"Georgia","Georgia 13","David Scott","Democratic",2002,"David Scott","Democratic","13","GA","GA_13","D",1,16
+"Georgia","Georgia 14","Tom Graves","Republican",2010,"Steve Foster","Democratic","14","GA","GA_14","D",0,0
+"Georgia","Georgia 14","Tom Graves","Republican",2010,"Tom Graves","Republican","14","GA","GA_14","R",1,8
+"Hawaii","Hawaii 1","Colleen Hanabusa","Democratic",2016,"Ed Case","Democratic","1","HI","HI_1","D",0,0
+"Hawaii","Hawaii 1","Colleen Hanabusa","Democratic",2016,"Campbell Cavasso","Republican","1","HI","HI_1","R",0,0
+"Hawaii","Hawaii 2","Tulsi Gabbard","Democratic",2012,"Brian Evans","Republican","2","HI","HI_2","R",0,0
+"Hawaii","Hawaii 2","Tulsi Gabbard","Democratic",2012,"Tulsi Gabbard","Democratic","2","HI","HI_2","D",1,6
+"Idaho","Idaho 1","Raúl Labrador","Republican",2010,"Russ Fulcher","Republican","1","ID","ID_1","R",0,0
+"Idaho","Idaho 1","Raúl Labrador","Republican",2010,"Cristina McNeil","Democratic","1","ID","ID_1","D",0,0
+"Idaho","Idaho 2","Mike Simpson","Republican",1998,"Mike Simpson","Republican","2","ID","ID_2","R",1,20
+"Idaho","Idaho 2","Mike Simpson","Republican",1998,"Aaron Swisher","Democratic","2","ID","ID_2","D",0,0
+"Illinois","Illinois 1","Bobby Rush","Democratic",1992,"Bobby Rush","Democratic","1","IL","IL_1","D",1,26
+"Illinois","Illinois 1","Bobby Rush","Democratic",1992,"Jimmy Tillman","Republican","1","IL","IL_1","R",0,0
+"Illinois","Illinois 2","Robin Kelly","Democratic",2013,"Robin Kelly","Democratic","2","IL","IL_2","D",1,5
+"Illinois","Illinois 2","Robin Kelly","Democratic",2013,"David Merkle","Republican","2","IL","IL_2","R",0,0
+"Illinois","Illinois 3","Dan Lipinski","Democratic",2004,"Arthur Jones","Republican","3","IL","IL_3","R",0,0
+"Illinois","Illinois 3","Dan Lipinski","Democratic",2004,"Dan Lipinski","Democratic","3","IL","IL_3","D",1,14
+"Illinois","Illinois 4","Luis Gutiérrez","Democratic",1992,"Jesús ""Chuy"" García","Democratic","4","IL","IL_4","D",0,0
+"Illinois","Illinois 4","Luis Gutiérrez","Democratic",1992,"Mark Lorch","Republican","4","IL","IL_4","R",0,0
+"Illinois","Illinois 5","Mike Quigley","Democratic",2008,"Tom Hanson","Republican","5","IL","IL_5","R",0,0
+"Illinois","Illinois 5","Mike Quigley","Democratic",2008,"Mike Quigley","Democratic","5","IL","IL_5","D",1,10
+"Illinois","Illinois 6","Peter Roskam","Republican",2006,"Sean Casten","Democratic","6","IL","IL_6","D",0,0
+"Illinois","Illinois 6","Peter Roskam","Republican",2006,"Peter Roskam","Republican","6","IL","IL_6","R",1,12
+"Illinois","Illinois 7","Danny Davis","Democratic",1996,"Craig Cameron","Republican","7","IL","IL_7","R",0,0
+"Illinois","Illinois 7","Danny Davis","Democratic",1996,"Danny Davis","Democratic","7","IL","IL_7","D",1,22
+"Illinois","Illinois 8","Raja Krishnamoorthi","Democratic",2016,"JD Diganvker","Republican","8","IL","IL_8","R",0,0
+"Illinois","Illinois 8","Raja Krishnamoorthi","Democratic",2016,"Raja Krishnamoorthi","Democratic","8","IL","IL_8","D",1,2
+"Illinois","Illinois 9","Jan Schakowsky","Democratic",1998,"John Elleson","Republican","9","IL","IL_9","R",0,0
+"Illinois","Illinois 9","Jan Schakowsky","Democratic",1998,"Jan Schakowsky","Democratic","9","IL","IL_9","D",1,20
+"Illinois","Illinois 10","Brad Schneider","Democratic",2016,"Douglas Bennett","Republican","10","IL","IL_10","R",0,0
+"Illinois","Illinois 10","Brad Schneider","Democratic",2016,"Brad Schneider","Democratic","10","IL","IL_10","D",1,2
+"Illinois","Illinois 11","Bill Foster","Democratic",2012,"Bill Foster","Democratic","11","IL","IL_11","D",1,6
+"Illinois","Illinois 11","Bill Foster","Democratic",2012,"Nick Stella","Republican","11","IL","IL_11","R",0,0
+"Illinois","Illinois 12","Mike Bost","Republican",2014,"Mike Bost","Republican","12","IL","IL_12","R",1,4
+"Illinois","Illinois 12","Mike Bost","Republican",2014,"Brendan Kelly","Democratic","12","IL","IL_12","D",0,0
+"Illinois","Illinois 13","Rodney Davis","Republican",2012,"Rodney Davis","Republican","13","IL","IL_13","R",1,6
+"Illinois","Illinois 13","Rodney Davis","Republican",2012,"Betsy Dirksen Londrigan","Democratic","13","IL","IL_13","D",0,0
+"Illinois","Illinois 14","Randy Hultgren","Republican",2010,"Randy Hultgren","Republican","14","IL","IL_14","R",1,8
+"Illinois","Illinois 14","Randy Hultgren","Republican",2010,"Lauren Underwood","Democratic","14","IL","IL_14","D",0,0
+"Illinois","Illinois 15","John Shimkus","Republican",1996,"Kevin Gaither","Democratic","15","IL","IL_15","D",0,0
+"Illinois","Illinois 15","John Shimkus","Republican",1996,"John Shimkus","Republican","15","IL","IL_15","R",1,22
+"Illinois","Illinois 16","Adam Kinzinger","Republican",2010,"Sara Dady","Democratic","16","IL","IL_16","D",0,0
+"Illinois","Illinois 16","Adam Kinzinger","Republican",2010,"Adam Kinzinger","Republican","16","IL","IL_16","R",1,8
+"Illinois","Illinois 17","Cheri Bustos","Democratic",2012,"Cheri Bustos","Democratic","17","IL","IL_17","D",1,6
+"Illinois","Illinois 17","Cheri Bustos","Democratic",2012,"Bill Fawell","Republican","17","IL","IL_17","R",0,0
+"Illinois","Illinois 18","Darin LaHood","Republican",2015,"Darin LaHood","Republican","18","IL","IL_18","R",1,3
+"Illinois","Illinois 18","Darin LaHood","Republican",2015,"Junius Rodriguez","Democratic","18","IL","IL_18","D",0,0
+"Indiana","Indiana 1","Pete Visclosky","Democratic",1984,"Mark Leyva","Republican","1","IN","IN_1","R",0,0
+"Indiana","Indiana 1","Pete Visclosky","Democratic",1984,"Pete Visclosky","Democratic","1","IN","IN_1","D",1,34
+"Indiana","Indiana 2","Jackie Walorski","Republican",2012,"Mel Hall","Democratic","2","IN","IN_2","D",0,0
+"Indiana","Indiana 2","Jackie Walorski","Republican",2012,"Jackie Walorski","Republican","2","IN","IN_2","R",1,6
+"Indiana","Indiana 3","Jim Banks","Republican",2016,"Jim Banks","Republican","3","IN","IN_3","R",1,2
+"Indiana","Indiana 3","Jim Banks","Republican",2016,"Courtney Tritch","Democratic","3","IN","IN_3","D",0,0
+"Indiana","Indiana 4","Todd Rokita","Republican",2010,"Jim Baird","Republican","4","IN","IN_4","R",0,0
+"Indiana","Indiana 4","Todd Rokita","Republican",2010,"Tobi Beck","Democratic","4","IN","IN_4","D",0,0
+"Indiana","Indiana 5","Susan Brooks","Republican",2012,"Susan Brooks","Republican","5","IN","IN_5","R",1,6
+"Indiana","Indiana 5","Susan Brooks","Republican",2012,"Dee Thornton","Democratic","5","IN","IN_5","D",0,0
+"Indiana","Indiana 6","Luke Messer","Republican",2012,"Jeannine Lake","Democratic","6","IN","IN_6","D",0,0
+"Indiana","Indiana 6","Luke Messer","Republican",2012,"Greg Pence","Republican","6","IN","IN_6","R",0,0
+"Indiana","Indiana 7","André Carson","Democratic",2008,"André Carson","Democratic","7","IN","IN_7","D",1,10
+"Indiana","Indiana 7","André Carson","Democratic",2008,"Wayne ""Gunny"" Harmon","Republican","7","IN","IN_7","R",0,0
+"Indiana","Indiana 8","Larry Bucshon","Republican",2010,"Larry Bucshon","Republican","8","IN","IN_8","R",1,8
+"Indiana","Indiana 8","Larry Bucshon","Republican",2010,"William Tanoos","Democratic","8","IN","IN_8","D",0,0
+"Indiana","Indiana 9","Trey Hollingsworth","Republican",2016,"Trey Hollingsworth","Republican","9","IN","IN_9","R",1,2
+"Indiana","Indiana 9","Trey Hollingsworth","Republican",2016,"Liz Watson","Democratic","9","IN","IN_9","D",0,0
+"Iowa","Iowa 1","Rod Blum","Republican",2014,"Rod Blum","Republican","1","IA","IA_1","R",1,4
+"Iowa","Iowa 1","Rod Blum","Republican",2014,"Abby Finkenauer","Democratic","1","IA","IA_1","D",0,0
+"Iowa","Iowa 2","Dave Loebsack","Democratic",2006,"Dave Loebsack","Democratic","2","IA","IA_2","D",1,12
+"Iowa","Iowa 2","Dave Loebsack","Democratic",2006,"Christopher Peters","Republican","2","IA","IA_2","R",0,0
+"Iowa","Iowa 3","David Young","Republican",2014,"Cindy Axne","Democratic","3","IA","IA_3","D",0,0
+"Iowa","Iowa 3","David Young","Republican",2014,"David Young","Republican","3","IA","IA_3","R",1,4
+"Iowa","Iowa 4","Steve King","Republican",2002,"Steve King","Republican","4","IA","IA_4","R",1,16
+"Iowa","Iowa 4","Steve King","Republican",2002,"J.D. Scholten","Democratic","4","IA","IA_4","D",0,0
+"Kansas","Kansas 1","Roger Marshall","Republican",2016,"Alan LaPolice","Democratic","1","KS","KS_1","D",0,0
+"Kansas","Kansas 1","Roger Marshall","Republican",2016,"Roger Marshall","Republican","1","KS","KS_1","R",1,2
+"Kansas","Kansas 2","Lynn Jenkins","Republican",2008,"Paul Davis","Democratic","2","KS","KS_2","D",0,0
+"Kansas","Kansas 2","Lynn Jenkins","Republican",2008,"Steve Watkins","Republican","2","KS","KS_2","R",0,0
+"Kansas","Kansas 3","Kevin Yoder","Republican",2010,"Sharice Davids","Democratic","3","KS","KS_3","D",0,0
+"Kansas","Kansas 3","Kevin Yoder","Republican",2010,"Kevin Yoder","Republican","3","KS","KS_3","R",1,8
+"Kansas","Kansas 4","Ron Estes","Republican",2017,"Ron Estes","Republican","4","KS","KS_4","R",1,1
+"Kansas","Kansas 4","Ron Estes","Republican",2017,"James Thompson","Democratic","4","KS","KS_4","D",0,0
+"Kentucky","Kentucky 1","James Comer","Republican",2016,"James Comer","Republican","1","KY","KY_1","R",1,2
+"Kentucky","Kentucky 1","James Comer","Republican",2016,"Paul Walker","Democratic","1","KY","KY_1","D",0,0
+"Kentucky","Kentucky 2","Brett Guthrie","Republican",2008,"Brett Guthrie","Republican","2","KY","KY_2","R",1,10
+"Kentucky","Kentucky 2","Brett Guthrie","Republican",2008,"Hank Linderman","Democratic","2","KY","KY_2","D",0,0
+"Kentucky","Kentucky 3","John Yarmuth","Democratic",2006,"Vickie Glisson","Republican","3","KY","KY_3","R",0,0
+"Kentucky","Kentucky 3","John Yarmuth","Democratic",2006,"John Yarmuth","Democratic","3","KY","KY_3","D",1,12
+"Kentucky","Kentucky 4","Thomas Massie","Republican",2012,"Seth Hall","Democratic","4","KY","KY_4","D",0,0
+"Kentucky","Kentucky 4","Thomas Massie","Republican",2012,"Thomas Massie","Republican","4","KY","KY_4","R",1,6
+"Kentucky","Kentucky 5","Hal Rogers","Republican",1980,"Hal Rogers","Republican","5","KY","KY_5","R",1,38
+"Kentucky","Kentucky 5","Hal Rogers","Republican",1980,"Kenneth Stepp","Democratic","5","KY","KY_5","D",0,0
+"Kentucky","Kentucky 6","Andy Barr","Republican",2012,"Andy Barr","Republican","6","KY","KY_6","R",1,6
+"Kentucky","Kentucky 6","Andy Barr","Republican",2012,"Amy McGrath","Democratic","6","KY","KY_6","D",0,0
+"Louisiana","Louisiana 1","Steve Scalise","Republican",2008,"Lee Ann Dugas","Democratic","1","LA","LA_1","D",0,0
+"Louisiana","Louisiana 1","Steve Scalise","Republican",2008,"Jim Francis","Democratic","1","LA","LA_1","D",0,0
+"Louisiana","Louisiana 1","Steve Scalise","Republican",2008,"Tammy Savoie","Democratic","1","LA","LA_1","D",0,0
+"Louisiana","Louisiana 1","Steve Scalise","Republican",2008,"Steve Scalise","Republican","1","LA","LA_1","R",1,10
+"Louisiana","Louisiana 2","Cedric Richmond","Democratic",2010,"Cedric Richmond","Democratic","2","LA","LA_2","D",1,8
+"Louisiana","Louisiana 3","Clay Higgins","Republican",2016,"Rob Anderson","Democratic","3","LA","LA_3","D",0,0
+"Louisiana","Louisiana 3","Clay Higgins","Republican",2016,"Josh Guillory","Republican","3","LA","LA_3","R",0,0
+"Louisiana","Louisiana 3","Clay Higgins","Republican",2016,"Clay Higgins","Republican","3","LA","LA_3","R",1,2
+"Louisiana","Louisiana 3","Clay Higgins","Republican",2016,"Mimi Methvin","Democratic","3","LA","LA_3","D",0,0
+"Louisiana","Louisiana 3","Clay Higgins","Republican",2016,"Larry Rader","Democratic","3","LA","LA_3","D",0,0
+"Louisiana","Louisiana 3","Clay Higgins","Republican",2016,"Verone Thomas","Democratic","3","LA","LA_3","D",0,0
+"Louisiana","Louisiana 4","Mike Johnson","Republican",2016,"Mike Johnson","Republican","4","LA","LA_4","R",1,2
+"Louisiana","Louisiana 4","Mike Johnson","Republican",2016,"Ryan Trundle","Democratic","4","LA","LA_4","D",0,0
+"Louisiana","Louisiana 5","Ralph Abraham","Republican",2014,"Ralph Abraham","Republican","5","LA","LA_5","R",1,4
+"Louisiana","Louisiana 5","Ralph Abraham","Republican",2014,"Jessee Carlton Fleenor","Democratic","5","LA","LA_5","D",0,0
+"Louisiana","Louisiana 6","Garret Graves","Republican",2014,"Justin DeWitt","Democratic","6","LA","LA_6","D",0,0
+"Louisiana","Louisiana 6","Garret Graves","Republican",2014,"Garret Graves","Republican","6","LA","LA_6","R",1,4
+"Louisiana","Louisiana 6","Garret Graves","Republican",2014,"Andie Saizan","Democratic","6","LA","LA_6","D",0,0
+"Maine","Maine 1","Chellie Pingree","Democratic",2008,"Mark Holbrook","Republican","1","ME","ME_1","R",0,0
+"Maine","Maine 1","Chellie Pingree","Democratic",2008,"Chellie Pingree","Democratic","1","ME","ME_1","D",1,10
+"Maine","Maine 2","Bruce Poliquin","Republican",2014,"Jared Golden","Democratic","2","ME","ME_2","D",0,0
+"Maine","Maine 2","Bruce Poliquin","Republican",2014,"Bruce Poliquin","Republican","2","ME","ME_2","R",1,4
+"Maryland","Maryland 1","Andy Harris","Republican",2010,"Jesse Colvin","Democratic","1","MD","MD_1","D",0,0
+"Maryland","Maryland 1","Andy Harris","Republican",2010,"Andy Harris","Republican","1","MD","MD_1","R",1,8
+"Maryland","Maryland 2","Dutch Ruppersberger","Democratic",2002,"Liz Matory","Republican","2","MD","MD_2","R",0,0
+"Maryland","Maryland 2","Dutch Ruppersberger","Democratic",2002,"Dutch Ruppersberger","Democratic","2","MD","MD_2","D",1,16
+"Maryland","Maryland 3","John Sarbanes","Democratic",2006,"Charles Anthony","Republican","3","MD","MD_3","R",0,0
+"Maryland","Maryland 3","John Sarbanes","Democratic",2006,"John Sarbanes","Democratic","3","MD","MD_3","D",1,12
+"Maryland","Maryland 4","Anthony Brown","Democratic",2016,"Anthony Brown","Democratic","4","MD","MD_4","D",1,2
+"Maryland","Maryland 4","Anthony Brown","Democratic",2016,"George McDermott","Republican","4","MD","MD_4","R",0,0
+"Maryland","Maryland 5","Steny Hoyer","Democratic",1981,"William Devine III","Republican","5","MD","MD_5","R",0,0
+"Maryland","Maryland 5","Steny Hoyer","Democratic",1981,"Steny Hoyer","Democratic","5","MD","MD_5","D",1,37
+"Maryland","Maryland 6","John Delaney","Democratic",2012,"Amie Hoeber","Republican","6","MD","MD_6","R",0,0
+"Maryland","Maryland 6","John Delaney","Democratic",2012,"David Trone","Democratic","6","MD","MD_6","D",0,0
+"Maryland","Maryland 7","Elijah Cummings","Democratic",1996,"Elijah Cummings","Democratic","7","MD","MD_7","D",1,22
+"Maryland","Maryland 7","Elijah Cummings","Democratic",1996,"Richmond Davis","Republican","7","MD","MD_7","R",0,0
+"Maryland","Maryland 8","Jamie Raskin","Democratic",2016,"Jamie Raskin","Democratic","8","MD","MD_8","D",1,2
+"Maryland","Maryland 8","Jamie Raskin","Democratic",2016,"John Walsh","Republican","8","MD","MD_8","R",0,0
+"Massachusetts","Massachusetts 1","Richard Neal","Democratic",1988,"Richard Neal","Democratic","1","MA","MA_1","D",1,30
+"Massachusetts","Massachusetts 2","Jim McGovern","Democratic",1996,"Tracy Lovvorn","Republican","2","MA","MA_2","R",0,0
+"Massachusetts","Massachusetts 2","Jim McGovern","Democratic",1996,"Jim McGovern","Democratic","2","MA","MA_2","D",1,22
+"Massachusetts","Massachusetts 3","Niki Tsongas","Democratic",2007,"Rick Green","Republican","3","MA","MA_3","R",0,0
+"Massachusetts","Massachusetts 3","Niki Tsongas","Democratic",2007,"Lori Trahan","Democratic","3","MA","MA_3","D",0,0
+"Massachusetts","Massachusetts 4","Joe Kennedy III","Democratic",2012,"Joe Kennedy III","Democratic","4","MA","MA_4","D",1,6
+"Massachusetts","Massachusetts 5","Katherine Clark","Democratic",2013,"Katherine Clark","Democratic","5","MA","MA_5","D",1,5
+"Massachusetts","Massachusetts 5","Katherine Clark","Democratic",2013,"John Hugo","Republican","5","MA","MA_5","R",0,0
+"Massachusetts","Massachusetts 6","Seth Moulton","Democratic",2014,"Seth Moulton","Democratic","6","MA","MA_6","D",1,4
+"Massachusetts","Massachusetts 6","Seth Moulton","Democratic",2014,"Joseph Schneider","Republican","6","MA","MA_6","R",0,0
+"Massachusetts","Massachusetts 7","Mike Capuano","Democratic",1998,"Ayanna Pressley","Democratic","7","MA","MA_7","D",0,0
+"Massachusetts","Massachusetts 8","Stephen Lynch","Democratic",2001,"Stephen Lynch","Democratic","8","MA","MA_8","D",1,17
+"Massachusetts","Massachusetts 9","Bill Keating","Democratic",2010,"Bill Keating","Democratic","9","MA","MA_9","D",1,8
+"Massachusetts","Massachusetts 9","Bill Keating","Democratic",2010,"Peter Tedeschi","Republican","9","MA","MA_9","R",0,0
+"Michigan","Michigan 1","Jack Bergman","Republican",2016,"Jack Bergman","Republican","1","MI","MI_1","R",1,2
+"Michigan","Michigan 1","Jack Bergman","Republican",2016,"Matt Morgan","Democratic","1","MI","MI_1","D",0,0
+"Michigan","Michigan 2","Bill Huizenga","Republican",2010,"Rob Davidson","Democratic","2","MI","MI_2","D",0,0
+"Michigan","Michigan 2","Bill Huizenga","Republican",2010,"Bill Huizenga","Republican","2","MI","MI_2","R",1,8
+"Michigan","Michigan 3","Justin Amash","Republican",2010,"Cathy Albro","Democratic","3","MI","MI_3","D",0,0
+"Michigan","Michigan 3","Justin Amash","Republican",2010,"Justin Amash","Republican","3","MI","MI_3","R",1,8
+"Michigan","Michigan 4","John Moolenaar","Republican",2014,"Jerry Hilliard","Democratic","4","MI","MI_4","D",0,0
+"Michigan","Michigan 4","John Moolenaar","Republican",2014,"John Moolenaar","Republican","4","MI","MI_4","R",1,4
+"Michigan","Michigan 5","Dan Kildee","Democratic",2012,"Dan Kildee","Democratic","5","MI","MI_5","D",1,6
+"Michigan","Michigan 5","Dan Kildee","Democratic",2012,"Travis Wines","Republican","5","MI","MI_5","R",0,0
+"Michigan","Michigan 6","Fred Upton","Republican",1986,"Matt Longjohn","Democratic","6","MI","MI_6","D",0,0
+"Michigan","Michigan 6","Fred Upton","Republican",1986,"Fred Upton","Republican","6","MI","MI_6","R",1,32
+"Michigan","Michigan 7","Tim Walberg","Republican",2010,"Gretchen Driskell","Democratic","7","MI","MI_7","D",0,0
+"Michigan","Michigan 7","Tim Walberg","Republican",2010,"Tim Walberg","Republican","7","MI","MI_7","R",1,8
+"Michigan","Michigan 8","Mike Bishop","Republican",2014,"Mike Bishop","Republican","8","MI","MI_8","R",1,4
+"Michigan","Michigan 8","Mike Bishop","Republican",2014,"Elissa Slotkin","Democratic","8","MI","MI_8","D",0,0
+"Michigan","Michigan 9","Sander Levin","Democratic",1982,"Andy Levin","Democratic","9","MI","MI_9","D",0,0
+"Michigan","Michigan 9","Sander Levin","Democratic",1982,"Candius Stearns","Republican","9","MI","MI_9","R",0,0
+"Michigan","Michigan 10","Paul Mitchell","Republican",2016,"Kimberly Bizon","Democratic","10","MI","MI_10","D",0,0
+"Michigan","Michigan 10","Paul Mitchell","Republican",2016,"Paul Mitchell","Republican","10","MI","MI_10","R",1,2
+"Michigan","Michigan 11","Dave Trott","Republican",2014,"Lena Epstein","Republican","11","MI","MI_11","R",0,0
+"Michigan","Michigan 11","Dave Trott","Republican",2014,"Haley Stevens","Democratic","11","MI","MI_11","D",0,0
+"Michigan","Michigan 12","Debbie Dingell","Democratic",2014,"Debbie Dingell","Democratic","12","MI","MI_12","D",1,4
+"Michigan","Michigan 12","Debbie Dingell","Democratic",2014,"Jeff Jones","Republican","12","MI","MI_12","R",0,0
+"Michigan","Michigan 13","","",NA,"Rashida Tlaib","Democratic","13","MI","MI_13","D",0,0
+"Michigan","Michigan 14","Brenda Lawrence","Democratic",2014,"Marc Herschfus","Republican","14","MI","MI_14","R",0,0
+"Michigan","Michigan 14","Brenda Lawrence","Democratic",2014,"Brenda Lawrence","Democratic","14","MI","MI_14","D",1,4
+"Minnesota","Minnesota 1","Tim Walz","Democratic",2006,"Dan Feehan","Democratic","1","MN","MN_1","D",0,0
+"Minnesota","Minnesota 1","Tim Walz","Democratic",2006,"Jim Hagedorn","Republican","1","MN","MN_1","R",0,0
+"Minnesota","Minnesota 2","Jason Lewis","Republican",2016,"Angie Craig","Democratic","2","MN","MN_2","D",0,0
+"Minnesota","Minnesota 2","Jason Lewis","Republican",2016,"Jason Lewis","Republican","2","MN","MN_2","R",1,2
+"Minnesota","Minnesota 3","Erik Paulsen","Republican",2008,"Erik Paulsen","Republican","3","MN","MN_3","R",1,10
+"Minnesota","Minnesota 3","Erik Paulsen","Republican",2008,"Dean Phillips","Democratic","3","MN","MN_3","D",0,0
+"Minnesota","Minnesota 4","Betty McCollum","Democratic",2000,"Betty McCollum","Democratic","4","MN","MN_4","D",1,18
+"Minnesota","Minnesota 4","Betty McCollum","Democratic",2000,"Greg Ryan","Republican","4","MN","MN_4","R",0,0
+"Minnesota","Minnesota 5","Keith Ellison","Democratic",2006,"Ilhan Omar","Democratic","5","MN","MN_5","D",0,0
+"Minnesota","Minnesota 5","Keith Ellison","Democratic",2006,"Jennifer Zielinski","Republican","5","MN","MN_5","R",0,0
+"Minnesota","Minnesota 6","Tom Emmer","Republican",2014,"Tom Emmer","Republican","6","MN","MN_6","R",1,4
+"Minnesota","Minnesota 6","Tom Emmer","Republican",2014,"Ian Todd","Democratic","6","MN","MN_6","D",0,0
+"Minnesota","Minnesota 7","Collin Peterson","Democratic",1990,"Dave Hughes","Republican","7","MN","MN_7","R",0,0
+"Minnesota","Minnesota 7","Collin Peterson","Democratic",1990,"Collin Peterson","Democratic","7","MN","MN_7","D",1,28
+"Minnesota","Minnesota 8","Rick Nolan","Democratic",2012,"Joe Radinovich","Democratic","8","MN","MN_8","D",0,0
+"Minnesota","Minnesota 8","Rick Nolan","Democratic",2012,"Pete Stauber","Republican","8","MN","MN_8","R",0,0
+"Mississippi","Mississippi 1","Trent Kelly","Republican",2015,"Trent Kelly","Republican","1","MS","MS_1","R",1,3
+"Mississippi","Mississippi 1","Trent Kelly","Republican",2015,"Randy Wadkins","Democratic","1","MS","MS_1","D",0,0
+"Mississippi","Mississippi 2","Bennie Thompson","Democratic",1992,"Bennie Thompson","Democratic","2","MS","MS_2","D",1,26
+"Mississippi","Mississippi 3","Gregg Harper","Republican",2008,"Michael Evans","Democratic","3","MS","MS_3","D",0,0
+"Mississippi","Mississippi 3","Gregg Harper","Republican",2008,"Michael Guest","Republican","3","MS","MS_3","R",0,0
+"Mississippi","Mississippi 4","Steven Palazzo","Republican",2010,"Jeramey Anderson","Democratic","4","MS","MS_4","D",0,0
+"Mississippi","Mississippi 4","Steven Palazzo","Republican",2010,"Steven Palazzo","Republican","4","MS","MS_4","R",1,8
+"Missouri","Missouri 1","Lacy Clay","Democratic",2000,"Lacy Clay","Democratic","1","MO","MO_1","D",1,18
+"Missouri","Missouri 1","Lacy Clay","Democratic",2000,"Robert Vroman","Republican","1","MO","MO_1","R",0,0
+"Missouri","Missouri 2","Ann Wagner","Republican",2012,"Cort VanOstran","Democratic","2","MO","MO_2","D",0,0
+"Missouri","Missouri 2","Ann Wagner","Republican",2012,"Ann Wagner","Republican","2","MO","MO_2","R",1,6
+"Missouri","Missouri 3","Blaine Luetkemeyer","Republican",2008,"Katy Geppert","Democratic","3","MO","MO_3","D",0,0
+"Missouri","Missouri 3","Blaine Luetkemeyer","Republican",2008,"Blaine Luetkemeyer","Republican","3","MO","MO_3","R",1,10
+"Missouri","Missouri 4","Vicky Hartzler","Republican",2010,"Vicky Hartzler","Republican","4","MO","MO_4","R",1,8
+"Missouri","Missouri 4","Vicky Hartzler","Republican",2010,"Renee Hoagenson","Democratic","4","MO","MO_4","D",0,0
+"Missouri","Missouri 5","Emanuel Cleaver","Democratic",2004,"Emanuel Cleaver","Democratic","5","MO","MO_5","D",1,14
+"Missouri","Missouri 5","Emanuel Cleaver","Democratic",2004,"Jacob Turk","Republican","5","MO","MO_5","R",0,0
+"Missouri","Missouri 6","Sam Graves","Republican",2000,"Sam Graves","Republican","6","MO","MO_6","R",1,18
+"Missouri","Missouri 6","Sam Graves","Republican",2000,"Henry Martin","Democratic","6","MO","MO_6","D",0,0
+"Missouri","Missouri 7","Billy Long","Republican",2010,"Billy Long","Republican","7","MO","MO_7","R",1,8
+"Missouri","Missouri 7","Billy Long","Republican",2010,"Jamie Schoolcraft","Democratic","7","MO","MO_7","D",0,0
+"Missouri","Missouri 8","Jason Smith","Republican",2013,"Kathy Ellis","Democratic","8","MO","MO_8","D",0,0
+"Missouri","Missouri 8","Jason Smith","Republican",2013,"Jason Smith","Republican","8","MO","MO_8","R",1,5
+"Montana","Montana 1","Greg Gianforte","Republican",2017,"Greg Gianforte","Republican","1","MT","MT_1","R",1,1
+"Montana","Montana 1","Greg Gianforte","Republican",2017,"Kathleen Williams","Democratic","1","MT","MT_1","D",0,0
+"Nebraska","Nebraska 1","Jeff Fortenberry","Republican",2004,"Jeff Fortenberry","Republican","1","NE","NE_1","R",1,14
+"Nebraska","Nebraska 1","Jeff Fortenberry","Republican",2004,"Jessica McClure","Democratic","1","NE","NE_1","D",0,0
+"Nebraska","Nebraska 2","Don Bacon","Republican",2016,"Don Bacon","Republican","2","NE","NE_2","R",1,2
+"Nebraska","Nebraska 2","Don Bacon","Republican",2016,"Kara Eastman","Democratic","2","NE","NE_2","D",0,0
+"Nebraska","Nebraska 3","Adrian Smith","Republican",2006,"Adrian Smith","Republican","3","NE","NE_3","R",1,12
+"Nebraska","Nebraska 3","Adrian Smith","Republican",2006,"Paul Theobald","Democratic","3","NE","NE_3","D",0,0
+"Nevada","Nevada 1","Dina Titus","Democratic",2012,"Joyce Bentley","Republican","1","NV","NV_1","R",0,0
+"Nevada","Nevada 1","Dina Titus","Democratic",2012,"Dina Titus","Democratic","1","NV","NV_1","D",1,6
+"Nevada","Nevada 2","Mark Amodei","Republican",2011,"Mark Amodei","Republican","2","NV","NV_2","R",1,7
+"Nevada","Nevada 2","Mark Amodei","Republican",2011,"Clint Koble","Democratic","2","NV","NV_2","D",0,0
+"Nevada","Nevada 3","Jacky Rosen","Democratic",2016,"Susie Lee","Democratic","3","NV","NV_3","D",0,0
+"Nevada","Nevada 3","Jacky Rosen","Democratic",2016,"Danny Tarkanian","Republican","3","NV","NV_3","R",0,0
+"Nevada","Nevada 4","Ruben Kihuen","Democratic",2016,"Cresent Hardy","Republican","4","NV","NV_4","R",0,0
+"Nevada","Nevada 4","Ruben Kihuen","Democratic",2016,"Steven Horsford","Democratic","4","NV","NV_4","D",0,0
+"New Hampshire","New Hampshire 1","Carol Shea-Porter","Democratic",2016,"Eddie Edwards","Republican","1","NH","NH_1","R",0,0
+"New Hampshire","New Hampshire 1","Carol Shea-Porter","Democratic",2016,"Chris Pappas","Democratic","1","NH","NH_1","D",0,0
+"New Hampshire","New Hampshire 2","Ann McLane Kuster","Democratic",2012,"Ann McLane Kuster","Democratic","2","NH","NH_2","D",1,6
+"New Hampshire","New Hampshire 2","Ann McLane Kuster","Democratic",2012,"Steve Negron","Republican","2","NH","NH_2","R",0,0
+"New Jersey","New Jersey 1","Donald Norcross","Democratic",2014,"Paul Dilks","Republican","1","NJ","NJ_1","R",0,0
+"New Jersey","New Jersey 1","Donald Norcross","Democratic",2014,"Donald Norcross","Democratic","1","NJ","NJ_1","D",1,4
+"New Jersey","New Jersey 2","Frank LoBiondo","Republican",1994,"Seth Grossman","Republican","2","NJ","NJ_2","R",0,0
+"New Jersey","New Jersey 2","Frank LoBiondo","Republican",1994,"Jeff Van Drew","Democratic","2","NJ","NJ_2","D",0,0
+"New Jersey","New Jersey 3","Tom MacArthur","Republican",2014,"Andy Kim","Democratic","3","NJ","NJ_3","D",0,0
+"New Jersey","New Jersey 3","Tom MacArthur","Republican",2014,"Tom MacArthur","Republican","3","NJ","NJ_3","R",1,4
+"New Jersey","New Jersey 4","Chris Smith","Republican",1980,"Chris Smith","Republican","4","NJ","NJ_4","R",1,38
+"New Jersey","New Jersey 4","Chris Smith","Republican",1980,"Josh Welle","Democratic","4","NJ","NJ_4","D",0,0
+"New Jersey","New Jersey 5","Josh Gottheimer","Democratic",2016,"Josh Gottheimer","Democratic","5","NJ","NJ_5","D",1,2
+"New Jersey","New Jersey 5","Josh Gottheimer","Democratic",2016,"John McCann","Republican","5","NJ","NJ_5","R",0,0
+"New Jersey","New Jersey 6","Frank Pallone","Democratic",1988,"Frank Pallone","Democratic","6","NJ","NJ_6","D",1,30
+"New Jersey","New Jersey 6","Frank Pallone","Democratic",1988,"Rich Pezzullo","Republican","6","NJ","NJ_6","R",0,0
+"New Jersey","New Jersey 7","Leonard Lance","Republican",2008,"Leonard Lance","Republican","7","NJ","NJ_7","R",1,10
+"New Jersey","New Jersey 7","Leonard Lance","Republican",2008,"Tom Malinowski","Democratic","7","NJ","NJ_7","D",0,0
+"New Jersey","New Jersey 8","Albio Sires","Democratic",2006,"John Muniz","Republican","8","NJ","NJ_8","R",0,0
+"New Jersey","New Jersey 8","Albio Sires","Democratic",2006,"Albio Sires","Democratic","8","NJ","NJ_8","D",1,12
+"New Jersey","New Jersey 9","Bill Pascrell","Democratic",1996,"Eric Fisher","Republican","9","NJ","NJ_9","R",0,0
+"New Jersey","New Jersey 9","Bill Pascrell","Democratic",1996,"Bill Pascrell","Democratic","9","NJ","NJ_9","D",1,22
+"New Jersey","New Jersey 10","Donald Payne","Democratic",2012,"Agha Khan","Republican","10","NJ","NJ_10","R",0,0
+"New Jersey","New Jersey 10","Donald Payne","Democratic",2012,"Donald Payne","Democratic","10","NJ","NJ_10","D",1,6
+"New Jersey","New Jersey 11","Rodney Frelinghuysen","Republican",1994,"Mikie Sherrill","Democratic","11","NJ","NJ_11","D",0,0
+"New Jersey","New Jersey 11","Rodney Frelinghuysen","Republican",1994,"Jay Webber","Republican","11","NJ","NJ_11","R",0,0
+"New Jersey","New Jersey 12","Bonnie Watson Coleman","Democratic",2014,"Daryl Kipnis","Republican","12","NJ","NJ_12","R",0,0
+"New Jersey","New Jersey 12","Bonnie Watson Coleman","Democratic",2014,"Bonnie Watson Coleman","Democratic","12","NJ","NJ_12","D",1,4
+"New Mexico","New Mexico 1","Michelle Luján Grisham","Democratic",2012,"Janice Arnold-Jones","Republican","1","NM","NM_1","R",0,0
+"New Mexico","New Mexico 1","Michelle Luján Grisham","Democratic",2012,"Deb Haaland","Democratic","1","NM","NM_1","D",0,0
+"New Mexico","New Mexico 2","Steve Pearce","Republican",2010,"Yvette Herrell","Republican","2","NM","NM_2","R",0,0
+"New Mexico","New Mexico 2","Steve Pearce","Republican",2010,"Xochitl Torres Small","Democratic","2","NM","NM_2","D",0,0
+"New Mexico","New Mexico 3","Ben Ray Luján","Democratic",2008,"Ben Ray Luján","Democratic","3","NM","NM_3","D",1,10
+"New Mexico","New Mexico 3","Ben Ray Luján","Democratic",2008,"Jerald McFall","Republican","3","NM","NM_3","R",0,0
+"New York","New York 1","Lee Zeldin","Republican",2014,"Perry Gershon","Democratic","1","NY","NY_1","D",0,0
+"New York","New York 1","Lee Zeldin","Republican",2014,"Lee Zeldin","Republican","1","NY","NY_1","R",1,4
+"New York","New York 2","Peter King","Republican",1992,"Liuba Grechen Shirley","Democratic","2","NY","NY_2","D",0,0
+"New York","New York 2","Peter King","Republican",1992,"Peter King","Republican","2","NY","NY_2","R",1,26
+"New York","New York 3","Tom Suozzi","Democratic",2016,"Dan DeBono","Republican","3","NY","NY_3","R",0,0
+"New York","New York 3","Tom Suozzi","Democratic",2016,"Tom Suozzi","Democratic","3","NY","NY_3","D",1,2
+"New York","New York 4","Kathleen Rice","Democratic",2014,"Ameer Benno","Republican","4","NY","NY_4","R",0,0
+"New York","New York 4","Kathleen Rice","Democratic",2014,"Kathleen Rice","Democratic","4","NY","NY_4","D",1,4
+"New York","New York 5","Gregory Meeks","Democratic",1998,"Gregory Meeks","Democratic","5","NY","NY_5","D",1,20
+"New York","New York 6","Grace Meng","Democratic",2012,"Grace Meng","Democratic","6","NY","NY_6","D",1,6
+"New York","New York 7","Nydia Velázquez","Democratic",1992,"Nydia Velázquez","Democratic","7","NY","NY_7","D",1,26
+"New York","New York 8","Hakeem Jeffries","Democratic",2012,"Hakeem Jeffries","Democratic","8","NY","NY_8","D",1,6
+"New York","New York 9","Yvette Clarke","Democratic",2006,"Yvette Clarke","Democratic","9","NY","NY_9","D",1,12
+"New York","New York 9","Yvette Clarke","Democratic",2006,"Lutchi Gayot","Republican","9","NY","NY_9","R",0,0
+"New York","New York 10","Jerry Nadler","Democratic",1992,"Naomi Levin","Republican","10","NY","NY_10","R",0,0
+"New York","New York 10","Jerry Nadler","Democratic",1992,"Jerry Nadler","Democratic","10","NY","NY_10","D",1,26
+"New York","New York 11","Dan Donovan","Republican",2015,"Dan Donovan","Republican","11","NY","NY_11","R",1,3
+"New York","New York 11","Dan Donovan","Republican",2015,"Max Rose","Democratic","11","NY","NY_11","D",0,0
+"New York","New York 12","Carolyn Maloney","Democratic",1992,"Carolyn Maloney","Democratic","12","NY","NY_12","D",1,26
+"New York","New York 12","Carolyn Maloney","Democratic",1992,"Eliot Rabin","Republican","12","NY","NY_12","R",0,0
+"New York","New York 13","Adriano Espaillat","Democratic",2016,"Jineea Butler","Republican","13","NY","NY_13","R",0,0
+"New York","New York 13","Adriano Espaillat","Democratic",2016,"Adriano Espaillat","Democratic","13","NY","NY_13","D",1,2
+"New York","New York 14","Joe Crowley","Democratic",1998,"Alexandria Ocasio-Cortez","Democratic","14","NY","NY_14","D",0,0
+"New York","New York 14","Joe Crowley","Democratic",1998,"Anthony Pappas","Republican","14","NY","NY_14","R",0,0
+"New York","New York 15","José Serrano","Democratic",1990,"Jason Gonzalez","Republican","15","NY","NY_15","R",0,0
+"New York","New York 15","José Serrano","Democratic",1990,"José Serrano","Democratic","15","NY","NY_15","D",1,28
+"New York","New York 16","Eliot Engel","Democratic",1988,"Eliot Engel","Democratic","16","NY","NY_16","D",1,30
+"New York","New York 17","Nita Lowey","Democratic",1988,"Nita Lowey","Democratic","17","NY","NY_17","D",1,30
+"New York","New York 18","Sean Patrick Maloney","Democratic",2012,"Sean Patrick Maloney","Democratic","18","NY","NY_18","D",1,6
+"New York","New York 18","Sean Patrick Maloney","Democratic",2012,"James O'Donnell","Republican","18","NY","NY_18","R",0,0
+"New York","New York 19","John Faso","Republican",2016,"Antonio Delgado","Democratic","19","NY","NY_19","D",0,0
+"New York","New York 19","John Faso","Republican",2016,"John Faso","Republican","19","NY","NY_19","R",1,2
+"New York","New York 20","Paul Tonko","Democratic",2008,"Paul Tonko","Democratic","20","NY","NY_20","D",1,10
+"New York","New York 20","Paul Tonko","Democratic",2008,"Francis Vitollo","Republican","20","NY","NY_20","R",0,0
+"New York","New York 21","Elise Stefanik","Republican",2014,"Tedra Cobb","Democratic","21","NY","NY_21","D",0,0
+"New York","New York 21","Elise Stefanik","Republican",2014,"Elise Stefanik","Republican","21","NY","NY_21","R",1,4
+"New York","New York 22","Claudia Tenney","Republican",2016,"Anthony Brindisi","Democratic","22","NY","NY_22","D",0,0
+"New York","New York 22","Claudia Tenney","Republican",2016,"Claudia Tenney","Republican","22","NY","NY_22","R",1,2
+"New York","New York 23","Tom Reed","Republican",2010,"Tracy Mitrano","Democratic","23","NY","NY_23","D",0,0
+"New York","New York 23","Tom Reed","Republican",2010,"Tom Reed","Republican","23","NY","NY_23","R",1,8
+"New York","New York 24","John Katko","Republican",2014,"Dana Balter","Democratic","24","NY","NY_24","D",0,0
+"New York","New York 24","John Katko","Republican",2014,"John Katko","Republican","24","NY","NY_24","R",1,4
+"New York","New York 25","","",NA,"Jim Maxwell","Republican","25","NY","NY_25","R",0,0
+"New York","New York 25","","",NA,"Joe Morelle","Democratic","25","NY","NY_25","D",0,0
+"New York","New York 26","Brian Higgins","Democratic",2004,"Brian Higgins","Democratic","26","NY","NY_26","D",1,14
+"New York","New York 26","Brian Higgins","Democratic",2004,"Renee Zeno","Republican","26","NY","NY_26","R",0,0
+"New York","New York 27","Chris Collins","Republican",2012,"Chris Collins","Republican","27","NY","NY_27","R",1,6
+"New York","New York 27","Chris Collins","Republican",2012,"Nate McMurray","Democratic","27","NY","NY_27","D",0,0
+"North Carolina","North Carolina 1","G. K. Butterfield","Democratic",2004,"Roger Allison","Republican","1","NC","NC_1","R",0,0
+"North Carolina","North Carolina 1","G. K. Butterfield","Democratic",2004,"G. K. Butterfield","Democratic","1","NC","NC_1","D",1,14
+"North Carolina","North Carolina 2","George Holding","Republican",2012,"Linda Coleman","Democratic","2","NC","NC_2","D",0,0
+"North Carolina","North Carolina 2","George Holding","Republican",2012,"George Holding","Republican","2","NC","NC_2","R",1,6
+"North Carolina","North Carolina 3","Walter Jones","Republican",1994,"Walter Jones","Republican","3","NC","NC_3","R",1,24
+"North Carolina","North Carolina 4","David Price","Democratic",1996,"David Price","Democratic","4","NC","NC_4","D",1,22
+"North Carolina","North Carolina 4","David Price","Democratic",1996,"Steve Von Loor","Republican","4","NC","NC_4","R",0,0
+"North Carolina","North Carolina 5","Virginia Foxx","Republican",2004,"DD Adams","Democratic","5","NC","NC_5","D",0,0
+"North Carolina","North Carolina 5","Virginia Foxx","Republican",2004,"Virginia Foxx","Republican","5","NC","NC_5","R",1,14
+"North Carolina","North Carolina 6","Mark Walker","Republican",2014,"Mark Walker","Republican","6","NC","NC_6","R",1,4
+"North Carolina","North Carolina 6","Mark Walker","Republican",2014,"Ryan Watts","Democratic","6","NC","NC_6","D",0,0
+"North Carolina","North Carolina 7","David Rouzer","Republican",2014,"Kyle Horton","Democratic","7","NC","NC_7","D",0,0
+"North Carolina","North Carolina 7","David Rouzer","Republican",2014,"David Rouzer","Republican","7","NC","NC_7","R",1,4
+"North Carolina","North Carolina 8","Richard Hudson","Republican",2012,"Richard Hudson","Republican","8","NC","NC_8","R",1,6
+"North Carolina","North Carolina 8","Richard Hudson","Republican",2012,"Frank McNeill","Democratic","8","NC","NC_8","D",0,0
+"North Carolina","North Carolina 9","Robert Pittenger","Republican",2012,"Mark Harris","Republican","9","NC","NC_9","R",0,0
+"North Carolina","North Carolina 9","Robert Pittenger","Republican",2012,"Dan McCready","Democratic","9","NC","NC_9","D",0,0
+"North Carolina","North Carolina 10","Patrick McHenry","Republican",2004,"David Brown","Democratic","10","NC","NC_10","D",0,0
+"North Carolina","North Carolina 10","Patrick McHenry","Republican",2004,"Patrick McHenry","Republican","10","NC","NC_10","R",1,14
+"North Carolina","North Carolina 11","Mark Meadows","Republican",2012,"Mark Meadows","Republican","11","NC","NC_11","R",1,6
+"North Carolina","North Carolina 11","Mark Meadows","Republican",2012,"Phillip Price","Democratic","11","NC","NC_11","D",0,0
+"North Carolina","North Carolina 12","Alma Adams","Democratic",2014,"Alma Adams","Democratic","12","NC","NC_12","D",1,4
+"North Carolina","North Carolina 12","Alma Adams","Democratic",2014,"Paul Wright","Republican","12","NC","NC_12","R",0,0
+"North Carolina","North Carolina 13","Ted Budd","Republican",2016,"Ted Budd","Republican","13","NC","NC_13","R",1,2
+"North Carolina","North Carolina 13","Ted Budd","Republican",2016,"Kathy Manning","Democratic","13","NC","NC_13","D",0,0
+"North Dakota","North Dakota 1","Kevin Cramer","Republican",2012,"Kelly Armstrong","Republican","1","ND","ND_1","R",0,0
+"North Dakota","North Dakota 1","Kevin Cramer","Republican",2012,"Mac Schneider","Democratic","1","ND","ND_1","D",0,0
+"Ohio","Ohio 1","Steve Chabot","Republican",2010,"Steve Chabot","Republican","1","OH","OH_1","R",1,8
+"Ohio","Ohio 1","Steve Chabot","Republican",2010,"Aftab Pureval","Democratic","1","OH","OH_1","D",0,0
+"Ohio","Ohio 2","Brad Wenstrup","Republican",2012,"Jill Schiller","Democratic","2","OH","OH_2","D",0,0
+"Ohio","Ohio 2","Brad Wenstrup","Republican",2012,"Brad Wenstrup","Republican","2","OH","OH_2","R",1,6
+"Ohio","Ohio 3","Joyce Beatty","Democratic",2012,"Joyce Beatty","Democratic","3","OH","OH_3","D",1,6
+"Ohio","Ohio 3","Joyce Beatty","Democratic",2012,"James Burgess","Republican","3","OH","OH_3","R",0,0
+"Ohio","Ohio 4","Jim Jordan","Republican",2006,"Janet Garrett","Democratic","4","OH","OH_4","D",0,0
+"Ohio","Ohio 4","Jim Jordan","Republican",2006,"Jim Jordan","Republican","4","OH","OH_4","R",1,12
+"Ohio","Ohio 5","Bob Latta","Republican",2006,"Michael Galbraith","Democratic","5","OH","OH_5","D",0,0
+"Ohio","Ohio 5","Bob Latta","Republican",2006,"Bob Latta","Republican","5","OH","OH_5","R",1,12
+"Ohio","Ohio 6","Bill Johnson","Republican",2010,"Bill Johnson","Republican","6","OH","OH_6","R",1,8
+"Ohio","Ohio 6","Bill Johnson","Republican",2010,"Shawna Roberts","Democratic","6","OH","OH_6","D",0,0
+"Ohio","Ohio 7","Bob Gibbs","Republican",2010,"Bob Gibbs","Republican","7","OH","OH_7","R",1,8
+"Ohio","Ohio 7","Bob Gibbs","Republican",2010,"Ken Harbaugh","Democratic","7","OH","OH_7","D",0,0
+"Ohio","Ohio 8","Warren Davidson","Republican",2016,"Warren Davidson","Republican","8","OH","OH_8","R",1,2
+"Ohio","Ohio 8","Warren Davidson","Republican",2016,"Vanessa Enoch","Democratic","8","OH","OH_8","D",0,0
+"Ohio","Ohio 9","Marcy Kaptur","Democratic",1982,"Marcy Kaptur","Democratic","9","OH","OH_9","D",1,36
+"Ohio","Ohio 9","Marcy Kaptur","Democratic",1982,"Steve Kraus","Republican","9","OH","OH_9","R",0,0
+"Ohio","Ohio 10","Mike Turner","Republican",2002,"Theresa Gasper","Democratic","10","OH","OH_10","D",0,0
+"Ohio","Ohio 10","Mike Turner","Republican",2002,"Mike Turner","Republican","10","OH","OH_10","R",1,16
+"Ohio","Ohio 11","Marcia Fudge","Democratic",2006,"Marcia Fudge","Democratic","11","OH","OH_11","D",1,12
+"Ohio","Ohio 11","Marcia Fudge","Democratic",2006,"Beverly Goldstein","Republican","11","OH","OH_11","R",0,0
+"Ohio","Ohio 12","Troy Balderson","Republican",2018,"Troy Balderson","Republican","12","OH","OH_12","R",1,0
+"Ohio","Ohio 12","Troy Balderson","Republican",2018,"Danny O'Connor","Democratic","12","OH","OH_12","D",0,0
+"Ohio","Ohio 13","Tim Ryan","Democratic",2002,"Chris DePizzo","Republican","13","OH","OH_13","R",0,0
+"Ohio","Ohio 13","Tim Ryan","Democratic",2002,"Tim Ryan","Democratic","13","OH","OH_13","D",1,16
+"Ohio","Ohio 14","David Joyce","Republican",2012,"David Joyce","Republican","14","OH","OH_14","R",1,6
+"Ohio","Ohio 14","David Joyce","Republican",2012,"Betsy Rader","Democratic","14","OH","OH_14","D",0,0
+"Ohio","Ohio 15","Steve Stivers","Republican",2010,"Rick Neal","Democratic","15","OH","OH_15","D",0,0
+"Ohio","Ohio 15","Steve Stivers","Republican",2010,"Steve Stivers","Republican","15","OH","OH_15","R",1,8
+"Ohio","Ohio 16","Jim Renacci","Republican",2010,"Anthony Gonzalez","Republican","16","OH","OH_16","R",0,0
+"Ohio","Ohio 16","Jim Renacci","Republican",2010,"Susan Moran Palmer","Democratic","16","OH","OH_16","D",0,0
+"Oklahoma","Oklahoma 1","Jim Bridenstine","Republican",2012,"Tim Gilpin","Democratic","1","OK","OK_1","D",0,0
+"Oklahoma","Oklahoma 1","Jim Bridenstine","Republican",2012,"Kevin Hern","Republican","1","OK","OK_1","R",0,0
+"Oklahoma","Oklahoma 2","Markwayne Mullin","Republican",2012,"Markwayne Mullin","Republican","2","OK","OK_2","R",1,6
+"Oklahoma","Oklahoma 2","Markwayne Mullin","Republican",2012,"Jason Nichols","Democratic","2","OK","OK_2","D",0,0
+"Oklahoma","Oklahoma 3","Frank Lucas","Republican",1994,"Frank Lucas","Republican","3","OK","OK_3","R",1,24
+"Oklahoma","Oklahoma 3","Frank Lucas","Republican",1994,"Frankie Robbins","Democratic","3","OK","OK_3","D",0,0
+"Oklahoma","Oklahoma 4","Tom Cole","Republican",2002,"Mary Brannon","Democratic","4","OK","OK_4","D",0,0
+"Oklahoma","Oklahoma 4","Tom Cole","Republican",2002,"Tom Cole","Republican","4","OK","OK_4","R",1,16
+"Oklahoma","Oklahoma 5","Steve Russell","Republican",2014,"Kendra Horn","Democratic","5","OK","OK_5","D",0,0
+"Oklahoma","Oklahoma 5","Steve Russell","Republican",2014,"Steve Russell","Republican","5","OK","OK_5","R",1,4
+"Oregon","Oregon 1","Suzanne Bonamici","Democratic",2012,"Suzanne Bonamici","Democratic","1","OR","OR_1","D",1,6
+"Oregon","Oregon 1","Suzanne Bonamici","Democratic",2012,"John Verbeek","Republican","1","OR","OR_1","R",0,0
+"Oregon","Oregon 2","Greg Walden","Republican",1998,"Jamie McLeod-Skinner","Democratic","2","OR","OR_2","D",0,0
+"Oregon","Oregon 2","Greg Walden","Republican",1998,"Greg Walden","Republican","2","OR","OR_2","R",1,20
+"Oregon","Oregon 3","Earl Blumenauer","Democratic",1996,"Earl Blumenauer","Democratic","3","OR","OR_3","D",1,22
+"Oregon","Oregon 4","Peter DeFazio","Democratic",1986,"Peter DeFazio","Democratic","4","OR","OR_4","D",1,32
+"Oregon","Oregon 4","Peter DeFazio","Democratic",1986,"Art Robinson","Republican","4","OR","OR_4","R",0,0
+"Oregon","Oregon 5","Kurt Schrader","Democratic",2008,"Mark Callahan","Republican","5","OR","OR_5","R",0,0
+"Oregon","Oregon 5","Kurt Schrader","Democratic",2008,"Kurt Schrader","Democratic","5","OR","OR_5","D",1,10
+"Pennsylvania","Pennsylvania 1","Brian Fitzpatrick
+Redistricted from the 8th district","Republican",2016,"Brian Fitzpatrick","Republican","1","PA","PA_1","R",0,0
+"Pennsylvania","Pennsylvania 1","Brian Fitzpatrick
+Redistricted from the 8th district","Republican",2016,"Scott Wallace","Democratic","1","PA","PA_1","D",0,0
+"Pennsylvania","Pennsylvania 2","Brendan Boyle
+Redistricted from the 13th district","Democratic",2014,"Brendan Boyle","Democratic","2","PA","PA_2","D",0,0
+"Pennsylvania","Pennsylvania 2","Brendan Boyle
+Redistricted from the 13th district","Democratic",2014,"David Torres","Republican","2","PA","PA_2","R",0,0
+"Pennsylvania","Pennsylvania 3","Dwight Evans","Democratic",2016,"Dwight Evans","Democratic","3","PA","PA_3","D",1,2
+"Pennsylvania","Pennsylvania 3","Dwight Evans","Democratic",2016,"Bryan Leib","Republican","3","PA","PA_3","R",0,0
+"Pennsylvania","Pennsylvania 4","","",NA,"Dan David","Republican","4","PA","PA_4","R",0,0
+"Pennsylvania","Pennsylvania 4","","",NA,"Madeleine Dean","Democratic","4","PA","PA_4","D",0,0
+"Pennsylvania","Pennsylvania 5","Pat Meehan","Republican",2010,"Pearl Kim","Republican","5","PA","PA_5","R",0,0
+"Pennsylvania","Pennsylvania 5","Pat Meehan","Republican",2010,"Mary Gay Scanlon","Democratic","5","PA","PA_5","D",0,0
+"Pennsylvania","Pennsylvania 6","Ryan Costello","Republican",2014,"Chrissy Houlahan","Democratic","6","PA","PA_6","D",0,0
+"Pennsylvania","Pennsylvania 6","Ryan Costello","Republican",2014,"Greg McCauley","Republican","6","PA","PA_6","R",0,0
+"Pennsylvania","Pennsylvania 7","Charlie Dent","Republican",2004,"Marty Nothstein","Republican","7","PA","PA_7","R",0,0
+"Pennsylvania","Pennsylvania 7","Charlie Dent","Republican",2004,"Susan Wild","Democratic","7","PA","PA_7","D",0,0
+"Pennsylvania","Pennsylvania 8","Matt Cartwright
+Redistricted from the 17th district","Democratic",2012,"Matt Cartwright","Democratic","8","PA","PA_8","D",0,0
+"Pennsylvania","Pennsylvania 8","Matt Cartwright
+Redistricted from the 17th district","Democratic",2012,"John Chrin","Republican","8","PA","PA_8","R",0,0
+"Pennsylvania","Pennsylvania 9","Lou Barletta
+Redistricted from the 11th district","Republican",2010,"Dan Meuser","Republican","9","PA","PA_9","R",0,0
+"Pennsylvania","Pennsylvania 9","Lou Barletta
+Redistricted from the 11th district","Republican",2010,"Denny Wolff","Democratic","9","PA","PA_9","D",0,0
+"Pennsylvania","Pennsylvania 10","Scott Perry
+Redistricted from the 4th district","Republican",2012,"Scott Perry","Republican","10","PA","PA_10","R",0,0
+"Pennsylvania","Pennsylvania 10","Scott Perry
+Redistricted from the 4th district","Republican",2012,"George Scott","Democratic","10","PA","PA_10","D",0,0
+"Pennsylvania","Pennsylvania 11","Lloyd Smucker
+Redistricted from the 16th district","Republican",2016,"Jess King","Democratic","11","PA","PA_11","D",0,0
+"Pennsylvania","Pennsylvania 11","Lloyd Smucker
+Redistricted from the 16th district","Republican",2016,"Lloyd Smucker","Republican","11","PA","PA_11","R",0,0
+"Pennsylvania","Pennsylvania 12","Tom Marino
+Redistricted from the 10th district","Republican",2010,"Marc Friedenberg","Democratic","12","PA","PA_12","D",0,0
+"Pennsylvania","Pennsylvania 12","Tom Marino
+Redistricted from the 10th district","Republican",2010,"Tom Marino","Republican","12","PA","PA_12","R",0,0
+"Pennsylvania","Pennsylvania 13","Bill Shuster
+Redistricted from the 9th district","Republican",2002,"John Joyce","Republican","13","PA","PA_13","R",0,0
+"Pennsylvania","Pennsylvania 13","Bill Shuster
+Redistricted from the 9th district","Republican",2002,"Brent Ottaway","Democratic","13","PA","PA_13","D",0,0
+"Pennsylvania","Pennsylvania 14","","",NA,"Bibiana Boerio","Democratic","14","PA","PA_14","D",0,0
+"Pennsylvania","Pennsylvania 14","","",NA,"Guy Reschenthaler","Republican","14","PA","PA_14","R",0,0
+"Pennsylvania","Pennsylvania 15","Glenn Thompson
+Redistricted from the 5th district","Republican",2008,"Susan Boser","Democratic","15","PA","PA_15","D",0,0
+"Pennsylvania","Pennsylvania 15","Glenn Thompson
+Redistricted from the 5th district","Republican",2008,"Glenn Thompson","Republican","15","PA","PA_15","R",0,0
+"Pennsylvania","Pennsylvania 16","Mike Kelly
+Redistricted from the 3rd district","Republican",2010,"Mike Kelly","Republican","16","PA","PA_16","R",0,0
+"Pennsylvania","Pennsylvania 16","Mike Kelly
+Redistricted from the 3rd district","Republican",2010,"Ron DiNicola","Democratic","16","PA","PA_16","D",0,0
+"Pennsylvania","Pennsylvania 17","Keith Rothfus
+Redistricted from the 12th district","Republican",2012,"Conor Lamb","Democratic","17","PA","PA_17","D",0,0
+"Pennsylvania","Pennsylvania 17","Keith Rothfus
+Redistricted from the 12th district","Republican",2012,"Keith Rothfus","Republican","17","PA","PA_17","R",0,0
+"Pennsylvania","Pennsylvania 18","Mike Doyle
+Redistricted from the 14th district","Democratic",1994,"Mike Doyle","Democratic","18","PA","PA_18","D",0,0
+"Rhode Island","Rhode Island 1","David Cicilline","Democratic",2010,"David Cicilline","Democratic","1","RI","RI_1","D",1,8
+"Rhode Island","Rhode Island 1","David Cicilline","Democratic",2010,"Patrick Donovan","Republican","1","RI","RI_1","R",0,0
+"Rhode Island","Rhode Island 2","James Langevin","Democratic",2000,"Sal Caiozzo","Republican","2","RI","RI_2","R",0,0
+"Rhode Island","Rhode Island 2","James Langevin","Democratic",2000,"James Langevin","Democratic","2","RI","RI_2","D",1,18
+"South Carolina","South Carolina 1","Mark Sanford","Republican",2013,"Katie Arrington","Republican","1","SC","SC_1","R",0,0
+"South Carolina","South Carolina 1","Mark Sanford","Republican",2013,"Joe Cunningham","Democratic","1","SC","SC_1","D",0,0
+"South Carolina","South Carolina 2","Joe Wilson","Republican",2001,"Sean Carrigan","Democratic","2","SC","SC_2","D",0,0
+"South Carolina","South Carolina 2","Joe Wilson","Republican",2001,"Joe Wilson","Republican","2","SC","SC_2","R",1,17
+"South Carolina","South Carolina 3","Jeff Duncan","Republican",2010,"Jeff Duncan","Republican","3","SC","SC_3","R",1,8
+"South Carolina","South Carolina 3","Jeff Duncan","Republican",2010,"Mary Geren","Democratic","3","SC","SC_3","D",0,0
+"South Carolina","South Carolina 4","Trey Gowdy","Republican",2010,"Brandon Brown","Democratic","4","SC","SC_4","D",0,0
+"South Carolina","South Carolina 4","Trey Gowdy","Republican",2010,"William Timmons","Republican","4","SC","SC_4","R",0,0
+"South Carolina","South Carolina 5","Ralph Norman","Republican",2017,"Ralph Norman","Republican","5","SC","SC_5","R",1,1
+"South Carolina","South Carolina 5","Ralph Norman","Republican",2017,"Archie Parnell","Democratic","5","SC","SC_5","D",0,0
+"South Carolina","South Carolina 6","Jim Clyburn","Democratic",1992,"Jim Clyburn","Democratic","6","SC","SC_6","D",1,26
+"South Carolina","South Carolina 6","Jim Clyburn","Democratic",1992,"Gerhard Gressmann","Republican","6","SC","SC_6","R",0,0
+"South Carolina","South Carolina 7","Tom Rice","Republican",2012,"Tom Rice","Republican","7","SC","SC_7","R",1,6
+"South Carolina","South Carolina 7","Tom Rice","Republican",2012,"Robert Williams","Democratic","7","SC","SC_7","D",0,0
+"South Dakota","South Dakota 1","Kristi Noem","Republican",2010,"Tim Bjorkman","Democratic","1","SD","SD_1","D",0,0
+"South Dakota","South Dakota 1","Kristi Noem","Republican",2010,"Dusty Johnson","Republican","1","SD","SD_1","R",0,0
+"Tennessee","Tennessee 1","Phil Roe","Republican",2008,"Marty Olsen","Democratic","1","TN","TN_1","D",0,0
+"Tennessee","Tennessee 1","Phil Roe","Republican",2008,"Phil Roe","Republican","1","TN","TN_1","R",1,10
+"Tennessee","Tennessee 2","Jimmy Duncan","Republican",1988,"Tim Burchett","Republican","2","TN","TN_2","R",0,0
+"Tennessee","Tennessee 2","Jimmy Duncan","Republican",1988,"Renee Hoyos","Democratic","2","TN","TN_2","D",0,0
+"Tennessee","Tennessee 3","Chuck Fleischmann","Republican",2010,"Chuck Fleischmann","Republican","3","TN","TN_3","R",1,8
+"Tennessee","Tennessee 3","Chuck Fleischmann","Republican",2010,"Danielle Mitchell","Democratic","3","TN","TN_3","D",0,0
+"Tennessee","Tennessee 4","Scott DesJarlais","Republican",2010,"Scott DesJarlais","Republican","4","TN","TN_4","R",1,8
+"Tennessee","Tennessee 4","Scott DesJarlais","Republican",2010,"Mariah Phillips","Democratic","4","TN","TN_4","D",0,0
+"Tennessee","Tennessee 5","Jim Cooper","Democratic",2002,"Jody Ball","Republican","5","TN","TN_5","R",0,0
+"Tennessee","Tennessee 5","Jim Cooper","Democratic",2002,"Jim Cooper","Democratic","5","TN","TN_5","D",1,16
+"Tennessee","Tennessee 6","Diane Black","Republican",2010,"Dawn Barlow","Democratic","6","TN","TN_6","D",0,0
+"Tennessee","Tennessee 6","Diane Black","Republican",2010,"John Rose","Republican","6","TN","TN_6","R",0,0
+"Tennessee","Tennessee 7","Marsha Blackburn","Republican",2002,"Mark Green","Republican","7","TN","TN_7","R",0,0
+"Tennessee","Tennessee 7","Marsha Blackburn","Republican",2002,"Justin Kanew","Democratic","7","TN","TN_7","D",0,0
+"Tennessee","Tennessee 8","David Kustoff","Republican",2016,"John Boatner","Democratic","8","TN","TN_8","D",0,0
+"Tennessee","Tennessee 8","David Kustoff","Republican",2016,"David Kustoff","Republican","8","TN","TN_8","R",1,2
+"Tennessee","Tennessee 8","David Kustoff","Republican",2016,"Erika Stotts Pearson","Democratic","8","TN","TN_8","D",0,0
+"Tennessee","Tennessee 9","Steve Cohen","Democratic",2006,"Charlotte Bergmann","Republican","9","TN","TN_9","R",0,0
+"Tennessee","Tennessee 9","Steve Cohen","Democratic",2006,"Steve Cohen","Democratic","9","TN","TN_9","D",1,12
+"Texas","Texas 1","Louie Gohmert","Republican",2004,"Louie Gohmert","Republican","1","TX","TX_1","R",1,14
+"Texas","Texas 1","Louie Gohmert","Republican",2004,"Shirley McKellar","Democratic","1","TX","TX_1","D",0,0
+"Texas","Texas 2","Ted Poe","Republican",2004,"Dan Crenshaw","Republican","2","TX","TX_2","R",0,0
+"Texas","Texas 2","Ted Poe","Republican",2004,"Todd Litton","Democratic","2","TX","TX_2","D",0,0
+"Texas","Texas 3","Sam Johnson","Republican",1991,"Lorie Burch","Democratic","3","TX","TX_3","D",0,0
+"Texas","Texas 3","Sam Johnson","Republican",1991,"Van Taylor","Republican","3","TX","TX_3","R",0,0
+"Texas","Texas 4","John Ratcliffe","Republican",2014,"Catherine Krantz","Democratic","4","TX","TX_4","D",0,0
+"Texas","Texas 4","John Ratcliffe","Republican",2014,"John Ratcliffe","Republican","4","TX","TX_4","R",1,4
+"Texas","Texas 5","Jeb Hensarling","Republican",2002,"Lance Gooden","Republican","5","TX","TX_5","R",0,0
+"Texas","Texas 5","Jeb Hensarling","Republican",2002,"Dan Wood","Democratic","5","TX","TX_5","D",0,0
+"Texas","Texas 6","Joe Barton","Republican",1984,"Jana Lynne Sanchez","Democratic","6","TX","TX_6","D",0,0
+"Texas","Texas 6","Joe Barton","Republican",1984,"Ron Wright","Republican","6","TX","TX_6","R",0,0
+"Texas","Texas 7","John Culberson","Republican",2000,"John Culberson","Republican","7","TX","TX_7","R",1,18
+"Texas","Texas 7","John Culberson","Republican",2000,"Lizzie Pannill Fletcher","Democratic","7","TX","TX_7","D",0,0
+"Texas","Texas 8","Kevin Brady","Republican",1996,"Kevin Brady","Republican","8","TX","TX_8","R",1,22
+"Texas","Texas 8","Kevin Brady","Republican",1996,"Steven David","Democratic","8","TX","TX_8","D",0,0
+"Texas","Texas 9","Al Green","Democratic",2004,"Al Green","Democratic","9","TX","TX_9","D",1,14
+"Texas","Texas 10","Michael McCaul","Republican",2004,"Michael McCaul","Republican","10","TX","TX_10","R",1,14
+"Texas","Texas 10","Michael McCaul","Republican",2004,"Mike Siegel","Democratic","10","TX","TX_10","D",0,0
+"Texas","Texas 11","Mike Conaway","Republican",2004,"Mike Conaway","Republican","11","TX","TX_11","R",1,14
+"Texas","Texas 11","Mike Conaway","Republican",2004,"Jennie Lou Leeder","Democratic","11","TX","TX_11","D",0,0
+"Texas","Texas 12","Kay Granger","Republican",1996,"Vanessa Adia","Democratic","12","TX","TX_12","D",0,0
+"Texas","Texas 12","Kay Granger","Republican",1996,"Kay Granger","Republican","12","TX","TX_12","R",1,22
+"Texas","Texas 13","Mac Thornberry","Republican",1994,"Greg Sagan","Democratic","13","TX","TX_13","D",0,0
+"Texas","Texas 13","Mac Thornberry","Republican",1994,"Mac Thornberry","Republican","13","TX","TX_13","R",1,24
+"Texas","Texas 14","Randy Weber","Republican",2012,"Adrienne Bell","Democratic","14","TX","TX_14","D",0,0
+"Texas","Texas 14","Randy Weber","Republican",2012,"Randy Weber","Republican","14","TX","TX_14","R",1,6
+"Texas","Texas 15","Vicente González","Democratic",2016,"Vicente González","Democratic","15","TX","TX_15","D",1,2
+"Texas","Texas 15","Vicente González","Democratic",2016,"Tim Westley","Republican","15","TX","TX_15","R",0,0
+"Texas","Texas 16","Beto O'Rourke","Democratic",2012,"Veronica Escobar","Democratic","16","TX","TX_16","D",0,0
+"Texas","Texas 16","Beto O'Rourke","Democratic",2012,"Rick Seeberger","Republican","16","TX","TX_16","R",0,0
+"Texas","Texas 17","Bill Flores","Republican",2010,"Bill Flores","Republican","17","TX","TX_17","R",1,8
+"Texas","Texas 17","Bill Flores","Republican",2010,"Rick Kennedy","Democratic","17","TX","TX_17","D",0,0
+"Texas","Texas 18","Sheila Jackson Lee","Democratic",1994,"Sheila Jackson Lee","Democratic","18","TX","TX_18","D",1,24
+"Texas","Texas 18","Sheila Jackson Lee","Democratic",1994,"Ava Pate","Republican","18","TX","TX_18","R",0,0
+"Texas","Texas 19","Jodey Arrington","Republican",2016,"Jodey Arrington","Republican","19","TX","TX_19","R",1,2
+"Texas","Texas 19","Jodey Arrington","Republican",2016,"Miguel Levario","Democratic","19","TX","TX_19","D",0,0
+"Texas","Texas 20","Joaquín Castro","Democratic",2012,"Joaquín Castro","Democratic","20","TX","TX_20","D",1,6
+"Texas","Texas 21","Lamar Smith","Republican",1986,"Joseph Kopser","Democratic","21","TX","TX_21","D",0,0
+"Texas","Texas 21","Lamar Smith","Republican",1986,"Chip Roy","Republican","21","TX","TX_21","R",0,0
+"Texas","Texas 22","Pete Olson","Republican",2008,"Sri Preston Kulkarni","Democratic","22","TX","TX_22","D",0,0
+"Texas","Texas 22","Pete Olson","Republican",2008,"Pete Olson","Republican","22","TX","TX_22","R",1,10
+"Texas","Texas 23","Will Hurd","Republican",2014,"Will Hurd","Republican","23","TX","TX_23","R",1,4
+"Texas","Texas 23","Will Hurd","Republican",2014,"Gina Ortiz Jones","Democratic","23","TX","TX_23","D",0,0
+"Texas","Texas 24","Kenny Marchant","Republican",2004,"Kenny Marchant","Republican","24","TX","TX_24","R",1,14
+"Texas","Texas 24","Kenny Marchant","Republican",2004,"Jan McDowell","Democratic","24","TX","TX_24","D",0,0
+"Texas","Texas 25","Roger Williams","Republican",2012,"Julie Oliver","Democratic","25","TX","TX_25","D",0,0
+"Texas","Texas 25","Roger Williams","Republican",2012,"Roger Williams","Republican","25","TX","TX_25","R",1,6
+"Texas","Texas 26","Michael Burgess","Republican",2002,"Michael Burgess","Republican","26","TX","TX_26","R",1,16
+"Texas","Texas 26","Michael Burgess","Republican",2002,"Linsey Fagan","Democratic","26","TX","TX_26","D",0,0
+"Texas","Texas 27","Michael Cloud","Republican",2018,"Michael Cloud","Republican","27","TX","TX_27","R",1,0
+"Texas","Texas 27","Michael Cloud","Republican",2018,"Eric Holguin","Democratic","27","TX","TX_27","D",0,0
+"Texas","Texas 28","Henry Cuellar","Democratic",2004,"Henry Cuellar","Democratic","28","TX","TX_28","D",1,14
+"Texas","Texas 29","Gene Green","Democratic",1992,"Phillip Aronoff","Republican","29","TX","TX_29","R",0,0
+"Texas","Texas 29","Gene Green","Democratic",1992,"Sylvia Garcia","Democratic","29","TX","TX_29","D",0,0
+"Texas","Texas 30","Eddie Bernice Johnson","Democratic",1992,"Eddie Bernice Johnson","Democratic","30","TX","TX_30","D",1,26
+"Texas","Texas 31","John Carter","Republican",2002,"John Carter","Republican","31","TX","TX_31","R",1,16
+"Texas","Texas 31","John Carter","Republican",2002,"Mary Jennings Hegar","Democratic","31","TX","TX_31","D",0,0
+"Texas","Texas 32","Pete Sessions","Republican",1996,"Colin Allred","Democratic","32","TX","TX_32","D",0,0
+"Texas","Texas 32","Pete Sessions","Republican",1996,"Pete Sessions","Republican","32","TX","TX_32","R",1,22
+"Texas","Texas 33","Marc Veasey","Democratic",2012,"Willie Billups","Republican","33","TX","TX_33","R",0,0
+"Texas","Texas 33","Marc Veasey","Democratic",2012,"Marc Veasey","Democratic","33","TX","TX_33","D",1,6
+"Texas","Texas 34","Filemon Vela Jr.","Democratic",2012,"Rey Gonzalez","Republican","34","TX","TX_34","R",0,0
+"Texas","Texas 34","Filemon Vela Jr.","Democratic",2012,"Filemon Vela Jr.","Democratic","34","TX","TX_34","D",1,6
+"Texas","Texas 35","Lloyd Doggett","Democratic",1994,"Lloyd Doggett","Democratic","35","TX","TX_35","D",1,24
+"Texas","Texas 35","Lloyd Doggett","Democratic",1994,"David Smalling","Republican","35","TX","TX_35","R",0,0
+"Texas","Texas 36","Brian Babin","Republican",2014,"Brian Babin","Republican","36","TX","TX_36","R",1,4
+"Texas","Texas 36","Brian Babin","Republican",2014,"Dayna Steele","Democratic","36","TX","TX_36","D",0,0
+"Utah","Utah 1","Rob Bishop","Republican",2002,"Rob Bishop","Republican","1","UT","UT_1","R",1,16
+"Utah","Utah 1","Rob Bishop","Republican",2002,"Lee Castillo","Democratic","1","UT","UT_1","D",0,0
+"Utah","Utah 2","Chris Stewart","Republican",2012,"Shireen Ghorbani","Democratic","2","UT","UT_2","D",0,0
+"Utah","Utah 2","Chris Stewart","Republican",2012,"Chris Stewart","Republican","2","UT","UT_2","R",1,6
+"Utah","Utah 3","John Curtis","Republican",2017,"John Curtis","Republican","3","UT","UT_3","R",1,1
+"Utah","Utah 3","John Curtis","Republican",2017,"James Singer","Democratic","3","UT","UT_3","D",0,0
+"Utah","Utah 4","Mia Love","Republican",2014,"Mia Love","Republican","4","UT","UT_4","R",1,4
+"Utah","Utah 4","Mia Love","Republican",2014,"Ben McAdams","Democratic","4","UT","UT_4","D",0,0
+"Vermont","Vermont 1","Peter Welch","Democratic",2006,"Anya Tynio","Republican","1","VT","VT_1","R",0,0
+"Vermont","Vermont 1","Peter Welch","Democratic",2006,"Peter Welch","Democratic","1","VT","VT_1","D",1,12
+"Virginia","Virginia 1","Rob Wittman","Republican",2007,"Vangie Williams","Democratic","1","VA","VA_1","D",0,0
+"Virginia","Virginia 1","Rob Wittman","Republican",2007,"Rob Wittman","Republican","1","VA","VA_1","R",1,11
+"Virginia","Virginia 2","Scott Taylor","Republican",2016,"Elaine Luria","Democratic","2","VA","VA_2","D",0,0
+"Virginia","Virginia 2","Scott Taylor","Republican",2016,"Scott Taylor","Republican","2","VA","VA_2","R",1,2
+"Virginia","Virginia 3","Bobby Scott","Democratic",1992,"Bobby Scott","Democratic","3","VA","VA_3","D",1,26
+"Virginia","Virginia 4","Donald McEachin","Democratic",2016,"Ryan McAdams","Republican","4","VA","VA_4","R",0,0
+"Virginia","Virginia 4","Donald McEachin","Democratic",2016,"Donald McEachin","Democratic","4","VA","VA_4","D",1,2
+"Virginia","Virginia 5","Tom Garrett","Republican",2016,"Leslie Cockburn","Democratic","5","VA","VA_5","D",0,0
+"Virginia","Virginia 5","Tom Garrett","Republican",2016,"Denver Riggleman","Republican","5","VA","VA_5","R",0,0
+"Virginia","Virginia 6","Bob Goodlatte","Republican",1992,"Ben Cline","Republican","6","VA","VA_6","R",0,0
+"Virginia","Virginia 6","Bob Goodlatte","Republican",1992,"Jennifer Lewis","Democratic","6","VA","VA_6","D",0,0
+"Virginia","Virginia 7","Dave Brat","Republican",2014,"Dave Brat","Republican","7","VA","VA_7","R",1,4
+"Virginia","Virginia 7","Dave Brat","Republican",2014,"Abigail Spanberger","Democratic","7","VA","VA_7","D",0,0
+"Virginia","Virginia 8","Don Beyer","Democratic",2014,"Don Beyer","Democratic","8","VA","VA_8","D",1,4
+"Virginia","Virginia 8","Don Beyer","Democratic",2014,"Thomas Oh","Republican","8","VA","VA_8","R",0,0
+"Virginia","Virginia 9","Morgan Griffith","Republican",2010,"Anthony Flaccavento","Democratic","9","VA","VA_9","D",0,0
+"Virginia","Virginia 9","Morgan Griffith","Republican",2010,"Morgan Griffith","Republican","9","VA","VA_9","R",1,8
+"Virginia","Virginia 10","Barbara Comstock","Republican",2014,"Barbara Comstock","Republican","10","VA","VA_10","R",1,4
+"Virginia","Virginia 10","Barbara Comstock","Republican",2014,"Jennifer Wexton","Democratic","10","VA","VA_10","D",0,0
+"Virginia","Virginia 11","Gerry Connolly","Democratic",2008,"Gerry Connolly","Democratic","11","VA","VA_11","D",1,10
+"Virginia","Virginia 11","Gerry Connolly","Democratic",2008,"Jeff Dove","Republican","11","VA","VA_11","R",0,0
+"Washington","Washington 1","Suzan DelBene","Democratic",2012,"Jeffrey Beeler","Republican","1","WA","WA_1","R",0,0
+"Washington","Washington 1","Suzan DelBene","Democratic",2012,"Suzan DelBene","Democratic","1","WA","WA_1","D",1,6
+"Washington","Washington 2","Rick Larsen","Democratic",2000,"Rick Larsen","Democratic","2","WA","WA_2","D",1,18
+"Washington","Washington 3","Jaime Herrera Beutler","Republican",2010,"Jaime Herrera Beutler","Republican","3","WA","WA_3","R",1,8
+"Washington","Washington 3","Jaime Herrera Beutler","Republican",2010,"Carolyn Long","Democratic","3","WA","WA_3","D",0,0
+"Washington","Washington 4","Dan Newhouse","Republican",2014,"Christine Brown","Democratic","4","WA","WA_4","D",0,0
+"Washington","Washington 4","Dan Newhouse","Republican",2014,"Dan Newhouse","Republican","4","WA","WA_4","R",1,4
+"Washington","Washington 5","Cathy McMorris Rodgers","Republican",2004,"Lisa Brown","Democratic","5","WA","WA_5","D",0,0
+"Washington","Washington 5","Cathy McMorris Rodgers","Republican",2004,"Cathy McMorris Rodgers","Republican","5","WA","WA_5","R",1,14
+"Washington","Washington 6","Derek Kilmer","Democratic",2012,"Douglas Dightman","Republican","6","WA","WA_6","R",0,0
+"Washington","Washington 6","Derek Kilmer","Democratic",2012,"Derek Kilmer","Democratic","6","WA","WA_6","D",1,6
+"Washington","Washington 7","Pramila Jayapal","Democratic",2016,"Pramila Jayapal","Democratic","7","WA","WA_7","D",1,2
+"Washington","Washington 7","Pramila Jayapal","Democratic",2016,"Craig Keller","Republican","7","WA","WA_7","R",0,0
+"Washington","Washington 8","Dave Reichert","Republican",2004,"Dino Rossi","Republican","8","WA","WA_8","R",0,0
+"Washington","Washington 8","Dave Reichert","Republican",2004,"Kim Schrier","Democratic","8","WA","WA_8","D",0,0
+"Washington","Washington 9","Adam Smith","Democratic",1996,"Adam Smith","Democratic","9","WA","WA_9","D",1,22
+"Washington","Washington 9","Adam Smith","Democratic",1996,"Sarah Smith","Democratic","9","WA","WA_9","D",0,0
+"Washington","Washington 10","Denny Heck","Democratic",2012,"Joseph Brumbles","Republican","10","WA","WA_10","R",0,0
+"Washington","Washington 10","Denny Heck","Democratic",2012,"Denny Heck","Democratic","10","WA","WA_10","D",1,6
+"West Virginia","West Virginia 1","David McKinley","Republican",2010,"Kendra Fershee","Democratic","1","WV","WV_1","D",0,0
+"West Virginia","West Virginia 1","David McKinley","Republican",2010,"David McKinley","Republican","1","WV","WV_1","R",1,8
+"West Virginia","West Virginia 2","Alex Mooney","Republican",2014,"Alex Mooney","Republican","2","WV","WV_2","R",1,4
+"West Virginia","West Virginia 2","Alex Mooney","Republican",2014,"Talley Sergent","Democratic","2","WV","WV_2","D",0,0
+"West Virginia","West Virginia 3","Evan Jenkins","Republican",2014,"Carol Miller","Republican","3","WV","WV_3","R",0,0
+"West Virginia","West Virginia 3","Evan Jenkins","Republican",2014,"Richard Ojeda","Democratic","3","WV","WV_3","D",0,0
+"Wisconsin","Wisconsin 1","Paul Ryan","Republican",1998,"Randy Bryce","Democratic","1","WI","WI_1","D",0,0
+"Wisconsin","Wisconsin 1","Paul Ryan","Republican",1998,"Bryan Steil","Republican","1","WI","WI_1","R",0,0
+"Wisconsin","Wisconsin 2","Mark Pocan","Democratic",2012,"Mark Pocan","Democratic","2","WI","WI_2","D",1,6
+"Wisconsin","Wisconsin 3","Ron Kind","Democratic",1996,"Ron Kind","Democratic","3","WI","WI_3","D",1,22
+"Wisconsin","Wisconsin 3","Ron Kind","Democratic",1996,"Steve Toft","Republican","3","WI","WI_3","R",0,0
+"Wisconsin","Wisconsin 4","Gwen Moore","Democratic",2004,"Gwen Moore","Democratic","4","WI","WI_4","D",1,14
+"Wisconsin","Wisconsin 4","Gwen Moore","Democratic",2004,"Tim Rogers","Republican","4","WI","WI_4","R",0,0
+"Wisconsin","Wisconsin 5","Jim Sensenbrenner","Republican",1978,"Tom Palzewicz","Democratic","5","WI","WI_5","D",0,0
+"Wisconsin","Wisconsin 5","Jim Sensenbrenner","Republican",1978,"Jim Sensenbrenner","Republican","5","WI","WI_5","R",1,40
+"Wisconsin","Wisconsin 6","Glenn Grothman","Republican",2014,"Glenn Grothman","Republican","6","WI","WI_6","R",1,4
+"Wisconsin","Wisconsin 6","Glenn Grothman","Republican",2014,"Dan Kohl","Democratic","6","WI","WI_6","D",0,0
+"Wisconsin","Wisconsin 7","Sean Duffy","Republican",2010,"Sean Duffy","Republican","7","WI","WI_7","R",1,8
+"Wisconsin","Wisconsin 7","Sean Duffy","Republican",2010,"Margaret Engebretson","Democratic","7","WI","WI_7","D",0,0
+"Wisconsin","Wisconsin 8","Mike Gallagher","Republican",2016,"Mike Gallagher","Republican","8","WI","WI_8","R",1,2
+"Wisconsin","Wisconsin 8","Mike Gallagher","Republican",2016,"Beau Liegeois","Democratic","8","WI","WI_8","D",0,0
+"Wyoming","Wyoming 1","Liz Cheney","Republican",2016,"Liz Cheney","Republican","1","WY","WY_1","R",1,2
+"Wyoming","Wyoming 1","Liz Cheney","Republican",2016,"Greg Hunter","Democratic","1","WY","WY_1","D",0,0

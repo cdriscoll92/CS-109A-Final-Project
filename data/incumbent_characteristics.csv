@@ -1,0 +1,864 @@
+,Location,Incumbent,Inc_party,Inc_first_elected,Candidate,Cand_party,state_name,district_num,state_abb,dist_id,Cand_party_abb,is_incumbent,years_in_congress,District,Representative,Assumed office,Born,Female,Black,Hispanic,Asian,Age
+0,Alabama 1,Bradley Byrne,Republican,2013.0,Bradley Byrne,Republican,Alabama,1,AL,AL_1,R,1,5,Alabama 1,Bradley Byrne,2014.0,1955.0,0.0,0.0,0.0,0.0,63.0
+1,Alabama 1,Bradley Byrne,Republican,2013.0,Robert Kennedy Jr.,Democratic,Alabama,1,AL,AL_1,D,0,0,,,,,,,,,
+2,Alabama 2,Martha Roby,Republican,2010.0,Tabitha Isner,Democratic,Alabama,2,AL,AL_2,D,0,0,,,,,,,,,
+3,Alabama 2,Martha Roby,Republican,2010.0,Martha Roby,Republican,Alabama,2,AL,AL_2,R,1,8,Alabama 2,Martha Roby,2011.0,1976.0,1.0,0.0,0.0,0.0,42.0
+4,Alabama 3,Mike Rogers,Republican,2002.0,Mallory Hagan,Democratic,Alabama,3,AL,AL_3,D,0,0,,,,,,,,,
+5,Alabama 3,Mike Rogers,Republican,2002.0,Mike Rogers,Republican,Alabama,3,AL,AL_3,R,1,16,Alabama 3,Mike Rogers,2003.0,1958.0,0.0,0.0,0.0,0.0,60.0
+6,Alabama 4,Robert Aderholt,Republican,1996.0,Robert Aderholt,Republican,Alabama,4,AL,AL_4,R,1,22,Alabama 4,Robert Aderholt,1997.0,1965.0,0.0,0.0,0.0,0.0,53.0
+7,Alabama 4,Robert Aderholt,Republican,1996.0,Lee Auman,Democratic,Alabama,4,AL,AL_4,D,0,0,,,,,,,,,
+8,Alabama 5,Mo Brooks,Republican,2010.0,Mo Brooks,Republican,Alabama,5,AL,AL_5,R,1,8,Alabama 5,Mo Brooks,2011.0,1954.0,0.0,0.0,0.0,0.0,64.0
+9,Alabama 5,Mo Brooks,Republican,2010.0,Peter Joffrion,Democratic,Alabama,5,AL,AL_5,D,0,0,,,,,,,,,
+10,Alabama 6,Gary Palmer,Republican,2014.0,Danner Kline,Democratic,Alabama,6,AL,AL_6,D,0,0,,,,,,,,,
+11,Alabama 6,Gary Palmer,Republican,2014.0,Gary Palmer,Republican,Alabama,6,AL,AL_6,R,1,4,Alabama 6,Gary Palmer,2015.0,1954.0,0.0,0.0,0.0,0.0,64.0
+12,Alabama 7,Terri Sewell,Democratic,2010.0,Terri Sewell,Democratic,Alabama,7,AL,AL_7,D,1,8,Alabama 7,Terri Sewell,2011.0,1965.0,1.0,1.0,0.0,0.0,53.0
+13,Alaska 1,Don Young,Republican,1972.0,Don Young,Republican,Alaska,1,AK,AK_1,R,1,46,Alaska at large,Don Young,1973.0,1933.0,0.0,0.0,0.0,0.0,85.0
+14,Arizona 1,Tom O'Halleran,Democratic,2016.0,Tom O'Halleran,Democratic,Arizona,1,AZ,AZ_1,D,1,2,Arizona 1,Tom O'Halleran,2017.0,1946.0,0.0,0.0,0.0,0.0,72.0
+15,Arizona 1,Tom O'Halleran,Democratic,2016.0,Wendy Rogers,Republican,Arizona,1,AZ,AZ_1,R,0,0,,,,,,,,,
+16,Arizona 2,Martha McSally,Republican,2014.0,Ann Kirkpatrick,Democratic,Arizona,2,AZ,AZ_2,D,0,0,,,,,,,,,
+17,Arizona 2,Martha McSally,Republican,2014.0,Lea Marquez-Peterson,Republican,Arizona,2,AZ,AZ_2,R,0,0,,,,,,,,,
+18,Arizona 3,Raúl Grijalva,Democratic,2002.0,Raúl Grijalva,Democratic,Arizona,3,AZ,AZ_3,D,1,16,Arizona 3,Raúl Grijalva,2003.0,1948.0,0.0,0.0,1.0,0.0,70.0
+19,Arizona 3,Raúl Grijalva,Democratic,2002.0,Nick Pierson,Republican,Arizona,3,AZ,AZ_3,R,0,0,,,,,,,,,
+20,Arizona 4,Paul Gosar,Republican,2010.0,David Brill,Democratic,Arizona,4,AZ,AZ_4,D,0,0,,,,,,,,,
+21,Arizona 4,Paul Gosar,Republican,2010.0,Paul Gosar,Republican,Arizona,4,AZ,AZ_4,R,1,8,Arizona 4,Paul Gosar,2011.0,1958.0,0.0,0.0,0.0,0.0,60.0
+22,Arizona 5,Andy Biggs,Republican,2016.0,Andy Biggs,Republican,Arizona,5,AZ,AZ_5,R,1,2,Arizona 5,Andy Biggs,2017.0,1958.0,0.0,0.0,0.0,0.0,60.0
+23,Arizona 5,Andy Biggs,Republican,2016.0,Joan Greene,Democratic,Arizona,5,AZ,AZ_5,D,0,0,,,,,,,,,
+24,Arizona 6,David Schweikert,Republican,2010.0,Anita Malik,Democratic,Arizona,6,AZ,AZ_6,D,0,0,,,,,,,,,
+25,Arizona 6,David Schweikert,Republican,2010.0,David Schweikert,Republican,Arizona,6,AZ,AZ_6,R,1,8,Arizona 6,David Schweikert,2011.0,1962.0,0.0,0.0,0.0,0.0,56.0
+26,Arizona 7,Ruben Gallego,Democratic,2014.0,Ruben Gallego,Democratic,Arizona,7,AZ,AZ_7,D,1,4,Arizona 7,Ruben Gallego,2015.0,1979.0,0.0,0.0,0.0,0.0,39.0
+27,Arizona 8,Debbie Lesko,Republican,2018.0,Debbie Lesko,Republican,Arizona,8,AZ,AZ_8,R,1,0,Arizona 8,Debbie Lesko,2018.0,1958.0,1.0,0.0,0.0,0.0,60.0
+28,Arizona 8,Debbie Lesko,Republican,2018.0,Hiral Tipirneni,Democratic,Arizona,8,AZ,AZ_8,D,0,0,,,,,,,,,
+29,Arizona 9,Kyrsten Sinema,Democratic,2012.0,Steve Ferrara,Republican,Arizona,9,AZ,AZ_9,R,0,0,,,,,,,,,
+30,Arizona 9,Kyrsten Sinema,Democratic,2012.0,Greg Stanton,Democratic,Arizona,9,AZ,AZ_9,D,0,0,,,,,,,,,
+31,Arkansas 1,Rick Crawford,Republican,2010.0,Rick Crawford,Republican,Arkansas,1,AR,AR_1,R,1,8,Arkansas 1,Rick Crawford,2011.0,1966.0,0.0,0.0,0.0,0.0,52.0
+32,Arkansas 1,Rick Crawford,Republican,2010.0,Chintan Desai,Democratic,Arkansas,1,AR,AR_1,D,0,0,,,,,,,,,
+33,Arkansas 2,French Hill,Republican,2014.0,French Hill,Republican,Arkansas,2,AR,AR_2,R,1,4,Arkansas 2,French Hill,2015.0,1956.0,0.0,0.0,0.0,0.0,62.0
+34,Arkansas 2,French Hill,Republican,2014.0,Clarke Tucker,Democratic,Arkansas,2,AR,AR_2,D,0,0,,,,,,,,,
+35,Arkansas 3,Steve Womack,Republican,2010.0,Josh Mahony,Democratic,Arkansas,3,AR,AR_3,D,0,0,,,,,,,,,
+36,Arkansas 3,Steve Womack,Republican,2010.0,Steve Womack,Republican,Arkansas,3,AR,AR_3,R,1,8,Arkansas 3,Steve Womack,2011.0,1957.0,0.0,0.0,0.0,0.0,61.0
+37,Arkansas 4,Bruce Westerman,Republican,2014.0,Hayden Shamel,Democratic,Arkansas,4,AR,AR_4,D,0,0,,,,,,,,,
+38,Arkansas 4,Bruce Westerman,Republican,2014.0,Bruce Westerman,Republican,Arkansas,4,AR,AR_4,R,1,4,Arkansas 4,Bruce Westerman,2015.0,1967.0,0.0,0.0,0.0,0.0,51.0
+39,California 1,Doug LaMalfa,Republican,2012.0,Audrey Denney,Democratic,California,1,CA,CA_1,D,0,0,,,,,,,,,
+40,California 1,Doug LaMalfa,Republican,2012.0,Doug LaMalfa,Republican,California,1,CA,CA_1,R,1,6,California 1,Doug LaMalfa,2013.0,1960.0,0.0,0.0,0.0,0.0,58.0
+41,California 2,Jared Huffman,Democratic,2012.0,Jared Huffman,Democratic,California,2,CA,CA_2,D,1,6,California 2,Jared Huffman,2013.0,1964.0,0.0,0.0,0.0,0.0,54.0
+42,California 2,Jared Huffman,Democratic,2012.0,Dale Mensing,Republican,California,2,CA,CA_2,R,0,0,,,,,,,,,
+43,California 3,John Garamendi,Democratic,2009.0,John Garamendi,Democratic,California,3,CA,CA_3,D,1,9,California 3,John Garamendi,2009.0,1945.0,0.0,0.0,0.0,0.0,73.0
+44,California 3,John Garamendi,Democratic,2009.0,Charlie Schaupp,Republican,California,3,CA,CA_3,R,0,0,,,,,,,,,
+45,California 4,Tom McClintock,Republican,2008.0,Tom McClintock,Republican,California,4,CA,CA_4,R,1,10,California 4,Tom McClintock,2009.0,1956.0,0.0,0.0,0.0,0.0,62.0
+46,California 4,Tom McClintock,Republican,2008.0,Jessica Morse,Democratic,California,4,CA,CA_4,D,0,0,,,,,,,,,
+47,California 5,Mike Thompson,Democratic,1998.0,Mike Thompson,Democratic,California,5,CA,CA_5,D,1,20,California 5,Mike Thompson,1999.0,1951.0,0.0,0.0,0.0,0.0,67.0
+48,California 6,Doris Matsui,Democratic,2005.0,Jrmar Jefferson,Democratic,California,6,CA,CA_6,D,0,0,,,,,,,,,
+49,California 6,Doris Matsui,Democratic,2005.0,Doris Matsui,Democratic,California,6,CA,CA_6,D,1,13,California 6,Doris Matsui,2005.0,1944.0,1.0,0.0,0.0,1.0,74.0
+50,California 7,Ami Bera,Democratic,2012.0,Ami Bera,Democratic,California,7,CA,CA_7,D,1,6,California 7,Ami Bera,2013.0,1965.0,0.0,0.0,0.0,1.0,53.0
+51,California 7,Ami Bera,Democratic,2012.0,Andrew Grant,Republican,California,7,CA,CA_7,R,0,0,,,,,,,,,
+52,California 8,Paul Cook,Republican,2012.0,Paul Cook,Republican,California,8,CA,CA_8,R,1,6,California 8,Paul Cook,2013.0,1943.0,0.0,0.0,0.0,0.0,75.0
+53,California 8,Paul Cook,Republican,2012.0,Tim Donnelly,Republican,California,8,CA,CA_8,R,0,0,,,,,,,,,
+54,California 9,Jerry McNerney,Democratic,2006.0,Marla Livengood,Republican,California,9,CA,CA_9,R,0,0,,,,,,,,,
+55,California 9,Jerry McNerney,Democratic,2006.0,Jerry McNerney,Democratic,California,9,CA,CA_9,D,1,12,California 9,Jerry McNerney,2007.0,1951.0,0.0,0.0,0.0,0.0,67.0
+56,California 10,Jeff Denham,Republican,2010.0,Jeff Denham,Republican,California,10,CA,CA_10,R,1,8,California 10,Jeff Denham,2011.0,1967.0,0.0,0.0,0.0,0.0,51.0
+57,California 10,Jeff Denham,Republican,2010.0,Josh Harder,Democratic,California,10,CA,CA_10,D,0,0,,,,,,,,,
+58,California 11,Mark DeSaulnier,Democratic,2014.0,Mark DeSaulnier,Democratic,California,11,CA,CA_11,D,1,4,California 11,Mark DeSaulnier,2015.0,1952.0,0.0,0.0,0.0,0.0,66.0
+59,California 11,Mark DeSaulnier,Democratic,2014.0,John Fitzgerald,Republican,California,11,CA,CA_11,R,0,0,,,,,,,,,
+60,California 12,Nancy Pelosi,Democratic,1987.0,Nancy Pelosi,Democratic,California,12,CA,CA_12,D,1,31,California 12,Nancy Pelosi,1987.0,1940.0,1.0,0.0,0.0,0.0,78.0
+61,California 12,Nancy Pelosi,Democratic,1987.0,Lisa Remmer,Republican,California,12,CA,CA_12,R,0,0,,,,,,,,,
+62,California 13,Barbara Lee,Democratic,1998.0,Barbara Lee,Democratic,California,13,CA,CA_13,D,1,20,California 13,Barbara Lee,1998.0,1946.0,1.0,1.0,0.0,0.0,72.0
+63,California 14,Jackie Speier,Democratic,2008.0,Cristina Osmeña,Republican,California,14,CA,CA_14,R,0,0,,,,,,,,,
+64,California 14,Jackie Speier,Democratic,2008.0,Jackie Speier,Democratic,California,14,CA,CA_14,D,1,10,California 14,Jackie Speier,2008.0,1950.0,1.0,0.0,0.0,0.0,68.0
+65,California 15,Eric Swalwell,Democratic,2012.0,Rudy Peters,Republican,California,15,CA,CA_15,R,0,0,,,,,,,,,
+66,California 15,Eric Swalwell,Democratic,2012.0,Eric Swalwell,Democratic,California,15,CA,CA_15,D,1,6,California 15,Eric Swalwell,2013.0,1980.0,0.0,0.0,0.0,0.0,38.0
+67,California 16,Jim Costa,Democratic,2004.0,Jim Costa,Democratic,California,16,CA,CA_16,D,1,14,California 16,Jim Costa,2005.0,1952.0,0.0,0.0,0.0,0.0,66.0
+68,California 16,Jim Costa,Democratic,2004.0,Elizabeth Heng,Republican,California,16,CA,CA_16,R,0,0,,,,,,,,,
+69,California 17,Ro Khanna,Democratic,2016.0,Ron Cohen,Republican,California,17,CA,CA_17,R,0,0,,,,,,,,,
+70,California 17,Ro Khanna,Democratic,2016.0,Ro Khanna,Democratic,California,17,CA,CA_17,D,1,2,California 17,Ro Khanna,2017.0,1976.0,0.0,0.0,0.0,1.0,42.0
+71,California 18,Anna Eshoo,Democratic,1992.0,Anna Eshoo,Democratic,California,18,CA,CA_18,D,1,26,California 18,Anna Eshoo,1993.0,1942.0,1.0,0.0,0.0,0.0,76.0
+72,California 18,Anna Eshoo,Democratic,1992.0,Christine Russell,Republican,California,18,CA,CA_18,R,0,0,,,,,,,,,
+73,California 19,Zoe Lofgren,Democratic,1994.0,Justin Aguilera,Republican,California,19,CA,CA_19,R,0,0,,,,,,,,,
+74,California 19,Zoe Lofgren,Democratic,1994.0,Zoe Lofgren,Democratic,California,19,CA,CA_19,D,1,24,California 19,Zoe Lofgren,1995.0,1947.0,1.0,0.0,0.0,0.0,71.0
+75,California 20,Jimmy Panetta,Democratic,2016.0,Jimmy Panetta,Democratic,California,20,CA,CA_20,D,1,2,California 20,Jimmy Panetta,2017.0,1969.0,0.0,0.0,0.0,0.0,49.0
+76,California 21,David Valadao,Republican,2012.0,T.J. Cox,Democratic,California,21,CA,CA_21,D,0,0,,,,,,,,,
+77,California 21,David Valadao,Republican,2012.0,David Valadao,Republican,California,21,CA,CA_21,R,1,6,California 21,David Valadao,2013.0,1977.0,0.0,0.0,0.0,0.0,41.0
+78,California 22,Devin Nunes,Republican,2002.0,Andrew Janz,Democratic,California,22,CA,CA_22,D,0,0,,,,,,,,,
+79,California 22,Devin Nunes,Republican,2002.0,Devin Nunes,Republican,California,22,CA,CA_22,R,1,16,California 22,Devin Nunes,2003.0,1973.0,0.0,0.0,0.0,0.0,45.0
+80,California 23,Kevin McCarthy,Republican,2006.0,Tatiana Matta,Democratic,California,23,CA,CA_23,D,0,0,,,,,,,,,
+81,California 23,Kevin McCarthy,Republican,2006.0,Kevin McCarthy,Republican,California,23,CA,CA_23,R,1,12,California 23,Kevin McCarthy,2007.0,1965.0,0.0,0.0,0.0,0.0,53.0
+82,California 24,Salud Carbajal,Democratic,2016.0,Salud Carbajal,Democratic,California,24,CA,CA_24,D,1,2,California 24,Salud Carbajal,2017.0,1964.0,0.0,0.0,1.0,0.0,54.0
+83,California 24,Salud Carbajal,Democratic,2016.0,Justin Fareed,Republican,California,24,CA,CA_24,R,0,0,,,,,,,,,
+84,California 25,Steve Knight,Republican,2014.0,Katie Hill,Democratic,California,25,CA,CA_25,D,0,0,,,,,,,,,
+85,California 25,Steve Knight,Republican,2014.0,Steve Knight,Republican,California,25,CA,CA_25,R,1,4,California 25,Steve Knight,2015.0,1966.0,0.0,0.0,0.0,0.0,52.0
+86,California 26,Julia Brownley,Democratic,2012.0,Julia Brownley,Democratic,California,26,CA,CA_26,D,1,6,California 26,Julia Brownley,2013.0,1952.0,1.0,0.0,0.0,0.0,66.0
+87,California 26,Julia Brownley,Democratic,2012.0,Antonio Sabàto Jr.,Republican,California,26,CA,CA_26,R,0,0,,,,,,,,,
+88,California 27,Judy Chu,Democratic,2009.0,Judy Chu,Democratic,California,27,CA,CA_27,D,1,9,California 27,Judy Chu,2009.0,1953.0,1.0,0.0,0.0,1.0,65.0
+89,California 27,Judy Chu,Democratic,2009.0,Bryan Witt,Democratic,California,27,CA,CA_27,D,0,0,,,,,,,,,
+90,California 28,Adam Schiff,Democratic,2000.0,Johnny Nalbandian,Republican,California,28,CA,CA_28,R,0,0,,,,,,,,,
+91,California 28,Adam Schiff,Democratic,2000.0,Adam Schiff,Democratic,California,28,CA,CA_28,D,1,18,California 28,Adam Schiff,2001.0,1960.0,0.0,0.0,0.0,0.0,58.0
+92,California 29,Tony Cárdenas,Democratic,2012.0,Benito Bernal,Republican,California,29,CA,CA_29,R,0,0,,,,,,,,,
+93,California 29,Tony Cárdenas,Democratic,2012.0,Tony Cárdenas,Democratic,California,29,CA,CA_29,D,1,6,California 29,Tony Cárdenas,2013.0,1963.0,0.0,0.0,1.0,0.0,55.0
+94,California 30,Brad Sherman,Democratic,1996.0,Mark Reed,Republican,California,30,CA,CA_30,R,0,0,,,,,,,,,
+95,California 30,Brad Sherman,Democratic,1996.0,Brad Sherman,Democratic,California,30,CA,CA_30,D,1,22,California 30,Brad Sherman,1997.0,1954.0,0.0,0.0,0.0,0.0,64.0
+96,California 31,Pete Aguilar,Democratic,2014.0,Pete Aguilar,Democratic,California,31,CA,CA_31,D,1,4,California 31,Pete Aguilar,2015.0,1979.0,0.0,0.0,1.0,0.0,39.0
+97,California 31,Pete Aguilar,Democratic,2014.0,Sean Flynn,Republican,California,31,CA,CA_31,R,0,0,,,,,,,,,
+98,California 32,Grace Napolitano,Democratic,1998.0,Grace Napolitano,Democratic,California,32,CA,CA_32,D,1,20,California 32,Grace Napolitano,1999.0,1936.0,1.0,0.0,1.0,0.0,82.0
+99,California 32,Grace Napolitano,Democratic,1998.0,Joshua Scott,Republican,California,32,CA,CA_32,R,0,0,,,,,,,,,
+100,California 33,Ted Lieu,Democratic,2014.0,Ted Lieu,Democratic,California,33,CA,CA_33,D,1,4,California 33,Ted Lieu,2015.0,1969.0,0.0,0.0,0.0,1.0,49.0
+101,California 33,Ted Lieu,Democratic,2014.0,Kenneth Wright,Republican,California,33,CA,CA_33,R,0,0,,,,,,,,,
+102,California 34,Jimmy Gomez,Democratic,2017.0,Jimmy Gomez,Democratic,California,34,CA,CA_34,D,1,1,California 34,Jimmy Gomez,2017.0,1974.0,0.0,0.0,1.0,0.0,44.0
+103,California 35,Norma Torres,Democratic,2014.0,Norma Torres,Democratic,California,35,CA,CA_35,D,1,4,California 35,Norma Torres,2015.0,1965.0,1.0,0.0,1.0,0.0,53.0
+104,California 35,Norma Torres,Democratic,2014.0,Christian Valiente,Republican,California,35,CA,CA_35,R,0,0,,,,,,,,,
+105,California 36,Raul Ruiz,Democratic,2012.0,Kimberlin Brown Pelzer,Republican,California,36,CA,CA_36,R,0,0,,,,,,,,,
+106,California 36,Raul Ruiz,Democratic,2012.0,Raul Ruiz,Democratic,California,36,CA,CA_36,D,1,6,California 36,Raul Ruiz,2013.0,1972.0,0.0,0.0,1.0,0.0,46.0
+107,California 37,Karen Bass,Democratic,2010.0,Karen Bass,Democratic,California,37,CA,CA_37,D,1,8,California 37,Karen Bass,2011.0,1953.0,1.0,1.0,0.0,0.0,65.0
+108,California 37,Karen Bass,Democratic,2010.0,Ron Bassilian,Republican,California,37,CA,CA_37,R,0,0,,,,,,,,,
+109,California 38,Linda Sánchez,Democratic,2002.0,Ryan Downing,Republican,California,38,CA,CA_38,R,0,0,,,,,,,,,
+110,California 38,Linda Sánchez,Democratic,2002.0,Linda Sánchez,Democratic,California,38,CA,CA_38,D,1,16,California 38,Linda Sánchez,2003.0,1969.0,1.0,0.0,1.0,0.0,49.0
+111,California 39,Ed Royce,Republican,1992.0,Gil Cisneros,Democratic,California,39,CA,CA_39,D,0,0,,,,,,,,,
+112,California 39,Ed Royce,Republican,1992.0,Young Kim,Republican,California,39,CA,CA_39,R,0,0,,,,,,,,,
+113,California 40,Lucille Roybal-Allard,Democratic,1992.0,Lucille Roybal-Allard,Democratic,California,40,CA,CA_40,D,1,26,California 40,Lucille Roybal-Allard,1993.0,1941.0,1.0,0.0,1.0,0.0,77.0
+114,California 41,Mark Takano,Democratic,2012.0,Aja Smith,Republican,California,41,CA,CA_41,R,0,0,,,,,,,,,
+115,California 41,Mark Takano,Democratic,2012.0,Mark Takano,Democratic,California,41,CA,CA_41,D,1,6,California 41,Mark Takano,2013.0,1960.0,0.0,0.0,0.0,1.0,58.0
+116,California 42,Ken Calvert,Republican,1992.0,Ken Calvert,Republican,California,42,CA,CA_42,R,1,26,California 42,Ken Calvert,1993.0,1953.0,0.0,0.0,0.0,0.0,65.0
+117,California 42,Ken Calvert,Republican,1992.0,Julia Peacock,Democratic,California,42,CA,CA_42,D,0,0,,,,,,,,,
+118,California 43,Maxine Waters,Democratic,1990.0,Omar Navarro,Republican,California,43,CA,CA_43,R,0,0,,,,,,,,,
+119,California 43,Maxine Waters,Democratic,1990.0,Maxine Waters,Democratic,California,43,CA,CA_43,D,1,28,California 43,Maxine Waters,1991.0,1938.0,1.0,1.0,0.0,0.0,80.0
+120,California 44,Nanette Barragán,Democratic,2016.0,Nanette Barragán,Democratic,California,44,CA,CA_44,D,1,2,California 44,Nanette Barragán,2017.0,1976.0,0.0,0.0,1.0,0.0,42.0
+121,California 44,Nanette Barragán,Democratic,2016.0,Aja Brown,Democratic,California,44,CA,CA_44,D,0,0,,,,,,,,,
+122,California 45,Mimi Walters,Republican,2014.0,Katie Porter,Democratic,California,45,CA,CA_45,D,0,0,,,,,,,,,
+123,California 45,Mimi Walters,Republican,2014.0,Mimi Walters,Republican,California,45,CA,CA_45,R,1,4,California 45,Mimi Walters,2015.0,1962.0,1.0,0.0,0.0,0.0,56.0
+124,California 46,Lou Correa,Democratic,2016.0,Lou Correa,Democratic,California,46,CA,CA_46,D,1,2,California 46,Lou Correa,2017.0,1958.0,0.0,0.0,1.0,0.0,60.0
+125,California 46,Lou Correa,Democratic,2016.0,Russell Lambert,Republican,California,46,CA,CA_46,R,0,0,,,,,,,,,
+126,California 47,Alan Lowenthal,Democratic,2012.0,John Briscoe,Republican,California,47,CA,CA_47,R,0,0,,,,,,,,,
+127,California 47,Alan Lowenthal,Democratic,2012.0,Alan Lowenthal,Democratic,California,47,CA,CA_47,D,1,6,California 47,Alan Lowenthal,2013.0,1941.0,0.0,0.0,0.0,0.0,77.0
+128,California 48,Dana Rohrabacher,Republican,1988.0,Harley Rouda,Democratic,California,48,CA,CA_48,D,0,0,,,,,,,,,
+129,California 48,Dana Rohrabacher,Republican,1988.0,Dana Rohrabacher,Republican,California,48,CA,CA_48,R,1,30,California 48,Dana Rohrabacher,1989.0,1947.0,0.0,0.0,0.0,0.0,71.0
+130,California 49,Darrell Issa,Republican,2000.0,Diane Harkey,Republican,California,49,CA,CA_49,R,0,0,,,,,,,,,
+131,California 49,Darrell Issa,Republican,2000.0,Mike Levin,Democratic,California,49,CA,CA_49,D,0,0,,,,,,,,,
+132,California 50,Duncan Hunter,Republican,2008.0,Ammar Campa-Najjar,Democratic,California,50,CA,CA_50,D,0,0,,,,,,,,,
+133,California 50,Duncan Hunter,Republican,2008.0,Duncan Hunter,Republican,California,50,CA,CA_50,R,1,10,,,,,,,,,
+134,California 51,Juan Vargas,Democratic,2012.0,Juan Hidalgo Jr.,Republican,California,51,CA,CA_51,R,0,0,,,,,,,,,
+135,California 51,Juan Vargas,Democratic,2012.0,Juan Vargas,Democratic,California,51,CA,CA_51,D,1,6,California 51,Juan Vargas,2013.0,1961.0,0.0,0.0,1.0,0.0,57.0
+136,California 52,Scott Peters,Democratic,2012.0,Scott Peters,Democratic,California,52,CA,CA_52,D,1,6,California 52,Scott Peters,2013.0,1958.0,0.0,0.0,0.0,0.0,60.0
+137,California 52,Scott Peters,Democratic,2012.0,Omar Qudrat,Republican,California,52,CA,CA_52,R,0,0,,,,,,,,,
+138,California 53,Susan Davis,Democratic,2000.0,Susan Davis,Democratic,California,53,CA,CA_53,D,1,18,California 53,Susan Davis,2001.0,1944.0,1.0,0.0,0.0,0.0,74.0
+139,California 53,Susan Davis,Democratic,2000.0,Morgan Murtaugh,Republican,California,53,CA,CA_53,R,0,0,,,,,,,,,
+140,Colorado 1,Diana DeGette,Democratic,1996.0,Diana DeGette,Democratic,Colorado,1,CO,CO_1,D,1,22,Colorado 1,Diana DeGette,1997.0,1957.0,1.0,0.0,0.0,0.0,61.0
+141,Colorado 1,Diana DeGette,Democratic,1996.0,Casper Stockham,Republican,Colorado,1,CO,CO_1,R,0,0,,,,,,,,,
+142,Colorado 2,Jared Polis,Democratic,2008.0,Joe Neguse,Democratic,Colorado,2,CO,CO_2,D,0,0,,,,,,,,,
+143,Colorado 2,Jared Polis,Democratic,2008.0,Peter Yu,Republican,Colorado,2,CO,CO_2,R,0,0,,,,,,,,,
+144,Colorado 3,Scott Tipton,Republican,2010.0,Diane Mitsch Bush,Democratic,Colorado,3,CO,CO_3,D,0,0,,,,,,,,,
+145,Colorado 3,Scott Tipton,Republican,2010.0,Scott Tipton,Republican,Colorado,3,CO,CO_3,R,1,8,Colorado 3,Scott Tipton,2011.0,1956.0,0.0,0.0,0.0,0.0,62.0
+146,Colorado 4,Ken Buck,Republican,2014.0,Ken Buck,Republican,Colorado,4,CO,CO_4,R,1,4,Colorado 4,Ken Buck,2015.0,1959.0,0.0,0.0,0.0,0.0,59.0
+147,Colorado 4,Ken Buck,Republican,2014.0,Karen McCormick,Democratic,Colorado,4,CO,CO_4,D,0,0,,,,,,,,,
+148,Colorado 5,Doug Lamborn,Republican,2006.0,Doug Lamborn,Republican,Colorado,5,CO,CO_5,R,1,12,Colorado 5,Doug Lamborn,2007.0,1954.0,0.0,0.0,0.0,0.0,64.0
+149,Colorado 5,Doug Lamborn,Republican,2006.0,Stephany Rose Spaulding,Democratic,Colorado,5,CO,CO_5,D,0,0,,,,,,,,,
+150,Colorado 6,Mike Coffman,Republican,2008.0,Mike Coffman,Republican,Colorado,6,CO,CO_6,R,1,10,Colorado 6,Mike Coffman,2009.0,1955.0,0.0,0.0,0.0,0.0,63.0
+151,Colorado 6,Mike Coffman,Republican,2008.0,Jason Crow,Democratic,Colorado,6,CO,CO_6,D,0,0,,,,,,,,,
+152,Colorado 7,Ed Perlmutter,Democratic,2006.0,Mark Barrington,Republican,Colorado,7,CO,CO_7,R,0,0,,,,,,,,,
+153,Colorado 7,Ed Perlmutter,Democratic,2006.0,Ed Perlmutter,Democratic,Colorado,7,CO,CO_7,D,1,12,Colorado 7,Ed Perlmutter,2007.0,1953.0,0.0,0.0,0.0,0.0,65.0
+154,Connecticut 1,John Larson,Democratic,1998.0,John Larson,Democratic,Connecticut,1,CT,CT_1,D,1,20,,,,,,,,,
+155,Connecticut 1,John Larson,Democratic,1998.0,Jennifer Nye,Republican,Connecticut,1,CT,CT_1,R,0,0,,,,,,,,,
+156,Connecticut 2,Joe Courtney,Democratic,2006.0,Joe Courtney,Democratic,Connecticut,2,CT,CT_2,D,1,12,Connecticut 2,Joe Courtney,2007.0,1953.0,0.0,0.0,0.0,0.0,65.0
+157,Connecticut 2,Joe Courtney,Democratic,2006.0,Danny Postemski,Republican,Connecticut,2,CT,CT_2,R,0,0,,,,,,,,,
+158,Connecticut 3,Rosa DeLauro,Democratic,1990.0,Angel Cadena,Republican,Connecticut,3,CT,CT_3,R,0,0,,,,,,,,,
+159,Connecticut 3,Rosa DeLauro,Democratic,1990.0,Rosa DeLauro,Democratic,Connecticut,3,CT,CT_3,D,1,28,Connecticut 3,Rosa DeLauro,1991.0,1943.0,1.0,0.0,0.0,0.0,75.0
+160,Connecticut 4,Jim Himes,Democratic,2008.0,Harry Arora,Republican,Connecticut,4,CT,CT_4,R,0,0,,,,,,,,,
+161,Connecticut 4,Jim Himes,Democratic,2008.0,Jim Himes,Democratic,Connecticut,4,CT,CT_4,D,1,10,Connecticut 4,Jim Himes,2009.0,1966.0,0.0,0.0,0.0,0.0,52.0
+162,Connecticut 5,Elizabeth Esty,Democratic,2012.0,Jahana Hayes,Democratic,Connecticut,5,CT,CT_5,D,0,0,,,,,,,,,
+163,Connecticut 5,Elizabeth Esty,Democratic,2012.0,Manny Santos,Republican,Connecticut,5,CT,CT_5,R,0,0,,,,,,,,,
+164,Delaware 1,Lisa Blunt Rochester,Democratic,2016.0,Lisa Blunt Rochester,Democratic,Delaware,1,DE,DE_1,D,1,2,Delaware at large,Lisa Blunt Rochester,2017.0,1962.0,1.0,1.0,0.0,0.0,56.0
+165,Delaware 1,Lisa Blunt Rochester,Democratic,2016.0,Scott Walker,Republican,Delaware,1,DE,DE_1,R,0,0,,,,,,,,,
+166,Florida 1,Matt Gaetz,Republican,2016.0,Matt Gaetz,Republican,Florida,1,FL,FL_1,R,1,2,Florida 1,Matt Gaetz,2017.0,1982.0,0.0,0.0,0.0,0.0,36.0
+167,Florida 1,Matt Gaetz,Republican,2016.0,Jennifer Zimmerman,Democratic,Florida,1,FL,FL_1,D,0,0,,,,,,,,,
+168,Florida 2,Neal Dunn,Republican,2016.0,Neal Dunn,Republican,Florida,2,FL,FL_2,R,1,2,Florida 2,Neal Dunn,2017.0,1953.0,0.0,0.0,0.0,0.0,65.0
+169,Florida 2,Neal Dunn,Republican,2016.0,Bob Rackleff,Democratic,Florida,2,FL,FL_2,D,0,0,,,,,,,,,
+170,Florida 3,Ted Yoho,Republican,2012.0,Yvonne Hayes Hinson,Democratic,Florida,3,FL,FL_3,D,0,0,,,,,,,,,
+171,Florida 3,Ted Yoho,Republican,2012.0,Ted Yoho,Republican,Florida,3,FL,FL_3,R,1,6,Florida 3,Ted Yoho,2013.0,1955.0,0.0,0.0,0.0,0.0,63.0
+172,Florida 4,John Rutherford,Republican,2016.0,John Rutherford,Republican,Florida,4,FL,FL_4,R,1,2,Florida 4,John Rutherford,2017.0,1952.0,0.0,0.0,0.0,0.0,66.0
+173,Florida 4,John Rutherford,Republican,2016.0,Ges Selmont,Democratic,Florida,4,FL,FL_4,D,0,0,,,,,,,,,
+174,Florida 5,Al Lawson,Democratic,2016.0,Virginia Fuller,Republican,Florida,5,FL,FL_5,R,0,0,,,,,,,,,
+175,Florida 5,Al Lawson,Democratic,2016.0,Al Lawson,Democratic,Florida,5,FL,FL_5,D,1,2,Florida 5,Al Lawson,2017.0,1948.0,0.0,1.0,0.0,0.0,70.0
+176,Florida 6,Ron DeSantis,Republican,2012.0,Nancy Soderberg,Democratic,Florida,6,FL,FL_6,D,0,0,,,,,,,,,
+177,Florida 6,Ron DeSantis,Republican,2012.0,Michael Waltz,Republican,Florida,6,FL,FL_6,R,0,0,,,,,,,,,
+178,Florida 7,Stephanie Murphy,Democratic,2016.0,Mike Miller,Republican,Florida,7,FL,FL_7,R,0,0,,,,,,,,,
+179,Florida 7,Stephanie Murphy,Democratic,2016.0,Stephanie Murphy,Democratic,Florida,7,FL,FL_7,D,1,2,Florida 7,Stephanie Murphy,2017.0,1978.0,1.0,0.0,0.0,1.0,40.0
+180,Florida 8,Bill Posey,Republican,2008.0,Sanjay Patel,Democratic,Florida,8,FL,FL_8,D,0,0,,,,,,,,,
+181,Florida 8,Bill Posey,Republican,2008.0,Bill Posey,Republican,Florida,8,FL,FL_8,R,1,10,Florida 8,Bill Posey,2009.0,1947.0,0.0,0.0,0.0,0.0,71.0
+182,Florida 9,Darren Soto,Democratic,2016.0,Wayne Liebnitzky,Republican,Florida,9,FL,FL_9,R,0,0,,,,,,,,,
+183,Florida 9,Darren Soto,Democratic,2016.0,Darren Soto,Democratic,Florida,9,FL,FL_9,D,1,2,Florida 9,Darren Soto,2017.0,1978.0,0.0,0.0,0.0,0.0,40.0
+184,Florida 10,Val Demings,Democratic,2016.0,Val Demings,Democratic,Florida,10,FL,FL_10,D,1,2,Florida 10,Val Demings,2017.0,1957.0,1.0,1.0,0.0,0.0,61.0
+185,Florida 11,Daniel Webster,Republican,2010.0,Dana Cottrell,Democratic,Florida,11,FL,FL_11,D,0,0,,,,,,,,,
+186,Florida 11,Daniel Webster,Republican,2010.0,Daniel Webster,Republican,Florida,11,FL,FL_11,R,1,8,Florida 11,Daniel Webster,2011.0,1949.0,0.0,0.0,0.0,0.0,69.0
+187,Florida 12,Gus Bilirakis,Republican,2006.0,Gus Bilirakis,Republican,Florida,12,FL,FL_12,R,1,12,Florida 12,Gus Bilirakis,2007.0,1963.0,0.0,0.0,0.0,0.0,55.0
+188,Florida 12,Gus Bilirakis,Republican,2006.0,Chris Hunter,Democratic,Florida,12,FL,FL_12,D,0,0,,,,,,,,,
+189,Florida 13,Charlie Crist,Democratic,2016.0,George Buck,Republican,Florida,13,FL,FL_13,R,0,0,,,,,,,,,
+190,Florida 13,Charlie Crist,Democratic,2016.0,Charlie Crist,Democratic,Florida,13,FL,FL_13,D,1,2,Florida 13,Charlie Crist,2017.0,1956.0,0.0,0.0,0.0,0.0,62.0
+191,Florida 14,Kathy Castor,Democratic,2006.0,Kathy Castor,Democratic,Florida,14,FL,FL_14,D,1,12,Florida 14,Kathy Castor,2007.0,1966.0,1.0,0.0,0.0,0.0,52.0
+192,Florida 15,Dennis Ross,Republican,2010.0,Kristen Carlson,Democratic,Florida,15,FL,FL_15,D,0,0,,,,,,,,,
+193,Florida 15,Dennis Ross,Republican,2010.0,Ross Spano,Republican,Florida,15,FL,FL_15,R,0,0,,,,,,,,,
+194,Florida 16,Vern Buchanan,Republican,2006.0,Vern Buchanan,Republican,Florida,16,FL,FL_16,R,1,12,Florida 16,Vern Buchanan,2007.0,1951.0,0.0,0.0,0.0,0.0,67.0
+195,Florida 16,Vern Buchanan,Republican,2006.0,David Shapiro,Democratic,Florida,16,FL,FL_16,D,0,0,,,,,,,,,
+196,Florida 17,Tom Rooney,Republican,2008.0,Allen Ellison,Democratic,Florida,17,FL,FL_17,D,0,0,,,,,,,,,
+197,Florida 17,Tom Rooney,Republican,2008.0,Greg Steube,Republican,Florida,17,FL,FL_17,R,0,0,,,,,,,,,
+198,Florida 18,Brian Mast,Republican,2016.0,Lauren Baer,Democratic,Florida,18,FL,FL_18,D,0,0,,,,,,,,,
+199,Florida 18,Brian Mast,Republican,2016.0,Brian Mast,Republican,Florida,18,FL,FL_18,R,1,2,Florida 18,Brian Mast,2017.0,1980.0,0.0,0.0,0.0,0.0,38.0
+200,Florida 19,Francis Rooney,Republican,2016.0,David Holden,Democratic,Florida,19,FL,FL_19,D,0,0,,,,,,,,,
+201,Florida 19,Francis Rooney,Republican,2016.0,Francis Rooney,Republican,Florida,19,FL,FL_19,R,1,2,Florida 19,Francis Rooney,2017.0,1953.0,0.0,0.0,0.0,0.0,65.0
+202,Florida 20,Alcee Hastings,Democratic,1992.0,Alcee Hastings,Democratic,Florida,20,FL,FL_20,D,1,26,Florida 20,Alcee Hastings,1993.0,1936.0,0.0,1.0,0.0,0.0,82.0
+203,Florida 21,Lois Frankel,Democratic,2012.0,Lois Frankel,Democratic,Florida,21,FL,FL_21,D,1,6,Florida 21,Lois Frankel,2013.0,1948.0,1.0,0.0,0.0,0.0,70.0
+204,Florida 22,Ted Deutch,Democratic,2010.0,Ted Deutch,Democratic,Florida,22,FL,FL_22,D,1,8,Florida 22,Ted Deutch,2010.0,1966.0,0.0,0.0,0.0,0.0,52.0
+205,Florida 22,Ted Deutch,Democratic,2010.0,Nicolas Kimaz,Republican,Florida,22,FL,FL_22,R,0,0,,,,,,,,,
+206,Florida 23,Debbie Wasserman Schultz,Democratic,2004.0,Joseph Kaufman,Republican,Florida,23,FL,FL_23,R,0,0,,,,,,,,,
+207,Florida 23,Debbie Wasserman Schultz,Democratic,2004.0,Debbie Wasserman Schultz,Democratic,Florida,23,FL,FL_23,D,1,14,Florida 23,Debbie Wasserman Schultz,2005.0,1966.0,1.0,0.0,0.0,0.0,52.0
+208,Florida 24,Frederica Wilson,Democratic,2010.0,Frederica Wilson,Democratic,Florida,24,FL,FL_24,D,1,8,Florida 24,Frederica Wilson,2011.0,1942.0,1.0,1.0,0.0,0.0,76.0
+209,Florida 25,Mario Díaz-Balart,Republican,2002.0,Mary Barzee Flores,Democratic,Florida,25,FL,FL_25,D,0,0,,,,,,,,,
+210,Florida 25,Mario Díaz-Balart,Republican,2002.0,Mario Díaz-Balart,Republican,Florida,25,FL,FL_25,R,1,16,Florida 25,Mario Díaz-Balart,2003.0,1961.0,0.0,0.0,1.0,0.0,57.0
+211,Florida 26,Carlos Curbelo,Republican,2014.0,Carlos Curbelo,Republican,Florida,26,FL,FL_26,R,1,4,Florida 26,Carlos Curbelo,2015.0,1980.0,0.0,0.0,1.0,0.0,38.0
+212,Florida 26,Carlos Curbelo,Republican,2014.0,Debbie Mucarsel-Powell,Democratic,Florida,26,FL,FL_26,D,0,0,,,,,,,,,
+213,Florida 27,Ileana Ros-Lehtinen,Republican,1989.0,Maria Elvira Salazar,Republican,Florida,27,FL,FL_27,R,0,0,,,,,,,,,
+214,Florida 27,Ileana Ros-Lehtinen,Republican,1989.0,Donna Shalala,Democratic,Florida,27,FL,FL_27,D,0,0,,,,,,,,,
+215,Georgia 1,Buddy Carter,Republican,2014.0,Buddy Carter,Republican,Georgia,1,GA,GA_1,R,1,4,Georgia 1,Buddy Carter,2015.0,1957.0,0.0,0.0,0.0,0.0,61.0
+216,Georgia 1,Buddy Carter,Republican,2014.0,Lisa Ring,Democratic,Georgia,1,GA,GA_1,D,0,0,,,,,,,,,
+217,Georgia 2,Sanford Bishop,Democratic,1992.0,Sanford Bishop,Democratic,Georgia,2,GA,GA_2,D,1,26,Georgia 2,Sanford Bishop,1993.0,1947.0,0.0,1.0,0.0,0.0,71.0
+218,Georgia 2,Sanford Bishop,Democratic,1992.0,Herman West,Republican,Georgia,2,GA,GA_2,R,0,0,,,,,,,,,
+219,Georgia 3,Drew Ferguson,Republican,2016.0,Chuck Enderlin,Democratic,Georgia,3,GA,GA_3,D,0,0,,,,,,,,,
+220,Georgia 3,Drew Ferguson,Republican,2016.0,Drew Ferguson,Republican,Georgia,3,GA,GA_3,R,1,2,Georgia 3,Drew Ferguson,2017.0,1966.0,0.0,0.0,0.0,0.0,52.0
+221,Georgia 4,Hank Johnson,Democratic,2006.0,Hank Johnson,Democratic,Georgia,4,GA,GA_4,D,1,12,Georgia 4,Hank Johnson,2007.0,1954.0,0.0,1.0,0.0,0.0,64.0
+222,Georgia 4,Hank Johnson,Democratic,2006.0,Joe Profit,Republican,Georgia,4,GA,GA_4,R,0,0,,,,,,,,,
+223,Georgia 5,John Lewis,Democratic,1986.0,John Lewis,Democratic,Georgia,5,GA,GA_5,D,1,32,Georgia 5,John Lewis,1987.0,1940.0,0.0,1.0,0.0,0.0,78.0
+224,Georgia 6,Karen Handel,Republican,2017.0,Karen Handel,Republican,Georgia,6,GA,GA_6,R,1,1,Georgia 6,Karen Handel,2017.0,1962.0,1.0,0.0,0.0,0.0,56.0
+225,Georgia 6,Karen Handel,Republican,2017.0,Lucy McBath,Democratic,Georgia,6,GA,GA_6,D,0,0,,,,,,,,,
+226,Georgia 7,Rob Woodall,Republican,2010.0,Carolyn Bourdeaux,Democratic,Georgia,7,GA,GA_7,D,0,0,,,,,,,,,
+227,Georgia 7,Rob Woodall,Republican,2010.0,Rob Woodall,Republican,Georgia,7,GA,GA_7,R,1,8,Georgia 7,Rob Woodall,2011.0,1970.0,0.0,0.0,0.0,0.0,48.0
+228,Georgia 8,Austin Scott,Republican,2010.0,Austin Scott,Republican,Georgia,8,GA,GA_8,R,1,8,Georgia 8,Austin Scott,2011.0,1969.0,0.0,0.0,0.0,0.0,49.0
+229,Georgia 9,Doug Collins,Republican,2012.0,Doug Collins,Republican,Georgia,9,GA,GA_9,R,1,6,Georgia 9,Doug Collins,2013.0,1966.0,0.0,0.0,0.0,0.0,52.0
+230,Georgia 9,Doug Collins,Republican,2012.0,Josh McCall,Democratic,Georgia,9,GA,GA_9,D,0,0,,,,,,,,,
+231,Georgia 10,Jody Hice,Republican,2014.0,Jody Hice,Republican,Georgia,10,GA,GA_10,R,1,4,Georgia 10,Jody Hice,2015.0,1960.0,0.0,0.0,0.0,0.0,58.0
+232,Georgia 10,Jody Hice,Republican,2014.0,Tabitha Johnson-Green,Democratic,Georgia,10,GA,GA_10,D,0,0,,,,,,,,,
+233,Georgia 11,Barry Loudermilk,Republican,2014.0,Flynn Broady,Democratic,Georgia,11,GA,GA_11,D,0,0,,,,,,,,,
+234,Georgia 11,Barry Loudermilk,Republican,2014.0,Barry Loudermilk,Republican,Georgia,11,GA,GA_11,R,1,4,Georgia 11,Barry Loudermilk,2015.0,1963.0,0.0,0.0,0.0,0.0,55.0
+235,Georgia 12,Rick Allen,Republican,2014.0,Rick Allen,Republican,Georgia,12,GA,GA_12,R,1,4,,,,,,,,,
+236,Georgia 12,Rick Allen,Republican,2014.0,Francys Johnson,Democratic,Georgia,12,GA,GA_12,D,0,0,,,,,,,,,
+237,Georgia 13,David Scott,Democratic,2002.0,David Callahan,Republican,Georgia,13,GA,GA_13,R,0,0,,,,,,,,,
+238,Georgia 13,David Scott,Democratic,2002.0,David Scott,Democratic,Georgia,13,GA,GA_13,D,1,16,Georgia 13,David Scott,2003.0,1945.0,0.0,1.0,0.0,0.0,73.0
+239,Georgia 14,Tom Graves,Republican,2010.0,Steve Foster,Democratic,Georgia,14,GA,GA_14,D,0,0,,,,,,,,,
+240,Georgia 14,Tom Graves,Republican,2010.0,Tom Graves,Republican,Georgia,14,GA,GA_14,R,1,8,Georgia 14,Tom Graves,2010.0,1970.0,0.0,0.0,0.0,0.0,48.0
+241,Hawaii 1,Colleen Hanabusa,Democratic,2016.0,Ed Case,Democratic,Hawaii,1,HI,HI_1,D,0,0,,,,,,,,,
+242,Hawaii 1,Colleen Hanabusa,Democratic,2016.0,Campbell Cavasso,Republican,Hawaii,1,HI,HI_1,R,0,0,,,,,,,,,
+243,Hawaii 2,Tulsi Gabbard,Democratic,2012.0,Brian Evans,Republican,Hawaii,2,HI,HI_2,R,0,0,,,,,,,,,
+244,Hawaii 2,Tulsi Gabbard,Democratic,2012.0,Tulsi Gabbard,Democratic,Hawaii,2,HI,HI_2,D,1,6,Hawaii 2,Tulsi Gabbard,2013.0,1981.0,1.0,0.0,0.0,1.0,37.0
+245,Idaho 1,Raúl Labrador,Republican,2010.0,Russ Fulcher,Republican,Idaho,1,ID,ID_1,R,0,0,,,,,,,,,
+246,Idaho 1,Raúl Labrador,Republican,2010.0,Cristina McNeil,Democratic,Idaho,1,ID,ID_1,D,0,0,,,,,,,,,
+247,Idaho 2,Mike Simpson,Republican,1998.0,Mike Simpson,Republican,Idaho,2,ID,ID_2,R,1,20,Idaho 2,Mike Simpson,1999.0,1950.0,0.0,0.0,0.0,0.0,68.0
+248,Idaho 2,Mike Simpson,Republican,1998.0,Aaron Swisher,Democratic,Idaho,2,ID,ID_2,D,0,0,,,,,,,,,
+249,Illinois 1,Bobby Rush,Democratic,1992.0,Bobby Rush,Democratic,Illinois,1,IL,IL_1,D,1,26,Illinois 1,Bobby Rush,1993.0,1946.0,0.0,1.0,0.0,0.0,72.0
+250,Illinois 1,Bobby Rush,Democratic,1992.0,Jimmy Tillman,Republican,Illinois,1,IL,IL_1,R,0,0,,,,,,,,,
+251,Illinois 2,Robin Kelly,Democratic,2013.0,Robin Kelly,Democratic,Illinois,2,IL,IL_2,D,1,5,Illinois 2,Robin Kelly,2013.0,1956.0,1.0,1.0,0.0,0.0,62.0
+252,Illinois 2,Robin Kelly,Democratic,2013.0,David Merkle,Republican,Illinois,2,IL,IL_2,R,0,0,,,,,,,,,
+253,Illinois 3,Dan Lipinski,Democratic,2004.0,Arthur Jones,Republican,Illinois,3,IL,IL_3,R,0,0,,,,,,,,,
+254,Illinois 3,Dan Lipinski,Democratic,2004.0,Dan Lipinski,Democratic,Illinois,3,IL,IL_3,D,1,14,Illinois 3,Dan Lipinski,2005.0,1966.0,0.0,0.0,0.0,0.0,52.0
+255,Illinois 4,Luis Gutiérrez,Democratic,1992.0,"Jesús ""Chuy"" García",Democratic,Illinois,4,IL,IL_4,D,0,0,,,,,,,,,
+256,Illinois 4,Luis Gutiérrez,Democratic,1992.0,Mark Lorch,Republican,Illinois,4,IL,IL_4,R,0,0,,,,,,,,,
+257,Illinois 5,Mike Quigley,Democratic,2008.0,Tom Hanson,Republican,Illinois,5,IL,IL_5,R,0,0,,,,,,,,,
+258,Illinois 5,Mike Quigley,Democratic,2008.0,Mike Quigley,Democratic,Illinois,5,IL,IL_5,D,1,10,Illinois 5,Mike Quigley,2009.0,1958.0,0.0,0.0,0.0,0.0,60.0
+259,Illinois 6,Peter Roskam,Republican,2006.0,Sean Casten,Democratic,Illinois,6,IL,IL_6,D,0,0,,,,,,,,,
+260,Illinois 6,Peter Roskam,Republican,2006.0,Peter Roskam,Republican,Illinois,6,IL,IL_6,R,1,12,Illinois 6,Peter Roskam,2007.0,1961.0,0.0,0.0,0.0,0.0,57.0
+261,Illinois 7,Danny Davis,Democratic,1996.0,Craig Cameron,Republican,Illinois,7,IL,IL_7,R,0,0,,,,,,,,,
+262,Illinois 7,Danny Davis,Democratic,1996.0,Danny Davis,Democratic,Illinois,7,IL,IL_7,D,1,22,,,,,,,,,
+263,Illinois 8,Raja Krishnamoorthi,Democratic,2016.0,JD Diganvker,Republican,Illinois,8,IL,IL_8,R,0,0,,,,,,,,,
+264,Illinois 8,Raja Krishnamoorthi,Democratic,2016.0,Raja Krishnamoorthi,Democratic,Illinois,8,IL,IL_8,D,1,2,Illinois 8,Raja Krishnamoorthi,2017.0,1973.0,0.0,0.0,0.0,1.0,45.0
+265,Illinois 9,Jan Schakowsky,Democratic,1998.0,John Elleson,Republican,Illinois,9,IL,IL_9,R,0,0,,,,,,,,,
+266,Illinois 9,Jan Schakowsky,Democratic,1998.0,Jan Schakowsky,Democratic,Illinois,9,IL,IL_9,D,1,20,Illinois 9,Jan Schakowsky,1999.0,1944.0,1.0,0.0,0.0,0.0,74.0
+267,Illinois 10,Brad Schneider,Democratic,2016.0,Douglas Bennett,Republican,Illinois,10,IL,IL_10,R,0,0,,,,,,,,,
+268,Illinois 10,Brad Schneider,Democratic,2016.0,Brad Schneider,Democratic,Illinois,10,IL,IL_10,D,1,2,Illinois 10,Brad Schneider,2017.0,1961.0,0.0,0.0,0.0,0.0,57.0
+269,Illinois 11,Bill Foster,Democratic,2012.0,Bill Foster,Democratic,Illinois,11,IL,IL_11,D,1,6,Illinois 11,Bill Foster,2013.0,1955.0,0.0,0.0,0.0,0.0,63.0
+270,Illinois 11,Bill Foster,Democratic,2012.0,Nick Stella,Republican,Illinois,11,IL,IL_11,R,0,0,,,,,,,,,
+271,Illinois 12,Mike Bost,Republican,2014.0,Mike Bost,Republican,Illinois,12,IL,IL_12,R,1,4,Illinois 12,Mike Bost,2015.0,1960.0,0.0,0.0,0.0,0.0,58.0
+272,Illinois 12,Mike Bost,Republican,2014.0,Brendan Kelly,Democratic,Illinois,12,IL,IL_12,D,0,0,,,,,,,,,
+273,Illinois 13,Rodney Davis,Republican,2012.0,Rodney Davis,Republican,Illinois,13,IL,IL_13,R,1,6,Illinois 13,Rodney Davis,2013.0,1970.0,0.0,0.0,0.0,0.0,48.0
+274,Illinois 13,Rodney Davis,Republican,2012.0,Betsy Dirksen Londrigan,Democratic,Illinois,13,IL,IL_13,D,0,0,,,,,,,,,
+275,Illinois 14,Randy Hultgren,Republican,2010.0,Randy Hultgren,Republican,Illinois,14,IL,IL_14,R,1,8,Illinois 14,Randy Hultgren,2011.0,1966.0,0.0,0.0,0.0,0.0,52.0
+276,Illinois 14,Randy Hultgren,Republican,2010.0,Lauren Underwood,Democratic,Illinois,14,IL,IL_14,D,0,0,,,,,,,,,
+277,Illinois 15,John Shimkus,Republican,1996.0,Kevin Gaither,Democratic,Illinois,15,IL,IL_15,D,0,0,,,,,,,,,
+278,Illinois 15,John Shimkus,Republican,1996.0,John Shimkus,Republican,Illinois,15,IL,IL_15,R,1,22,Illinois 15,John Shimkus,1997.0,1958.0,0.0,0.0,0.0,0.0,60.0
+279,Illinois 16,Adam Kinzinger,Republican,2010.0,Sara Dady,Democratic,Illinois,16,IL,IL_16,D,0,0,,,,,,,,,
+280,Illinois 16,Adam Kinzinger,Republican,2010.0,Adam Kinzinger,Republican,Illinois,16,IL,IL_16,R,1,8,Illinois 16,Adam Kinzinger,2011.0,1978.0,0.0,0.0,0.0,0.0,40.0
+281,Illinois 17,Cheri Bustos,Democratic,2012.0,Cheri Bustos,Democratic,Illinois,17,IL,IL_17,D,1,6,Illinois 17,Cheri Bustos,2013.0,1961.0,1.0,0.0,0.0,0.0,57.0
+282,Illinois 17,Cheri Bustos,Democratic,2012.0,Bill Fawell,Republican,Illinois,17,IL,IL_17,R,0,0,,,,,,,,,
+283,Illinois 18,Darin LaHood,Republican,2015.0,Darin LaHood,Republican,Illinois,18,IL,IL_18,R,1,3,Illinois 18,Darin LaHood,2015.0,1968.0,0.0,0.0,0.0,0.0,50.0
+284,Illinois 18,Darin LaHood,Republican,2015.0,Junius Rodriguez,Democratic,Illinois,18,IL,IL_18,D,0,0,,,,,,,,,
+285,Indiana 1,Pete Visclosky,Democratic,1984.0,Mark Leyva,Republican,Indiana,1,IN,IN_1,R,0,0,,,,,,,,,
+286,Indiana 1,Pete Visclosky,Democratic,1984.0,Pete Visclosky,Democratic,Indiana,1,IN,IN_1,D,1,34,Indiana 1,Pete Visclosky,1985.0,1949.0,0.0,0.0,0.0,0.0,69.0
+287,Indiana 2,Jackie Walorski,Republican,2012.0,Mel Hall,Democratic,Indiana,2,IN,IN_2,D,0,0,,,,,,,,,
+288,Indiana 2,Jackie Walorski,Republican,2012.0,Jackie Walorski,Republican,Indiana,2,IN,IN_2,R,1,6,Indiana 2,Jackie Walorski,2013.0,1963.0,1.0,0.0,0.0,0.0,55.0
+289,Indiana 3,Jim Banks,Republican,2016.0,Jim Banks,Republican,Indiana,3,IN,IN_3,R,1,2,Indiana 3,Jim Banks,2017.0,1979.0,0.0,0.0,0.0,0.0,39.0
+290,Indiana 3,Jim Banks,Republican,2016.0,Courtney Tritch,Democratic,Indiana,3,IN,IN_3,D,0,0,,,,,,,,,
+291,Indiana 4,Todd Rokita,Republican,2010.0,Jim Baird,Republican,Indiana,4,IN,IN_4,R,0,0,,,,,,,,,
+292,Indiana 4,Todd Rokita,Republican,2010.0,Tobi Beck,Democratic,Indiana,4,IN,IN_4,D,0,0,,,,,,,,,
+293,Indiana 5,Susan Brooks,Republican,2012.0,Susan Brooks,Republican,Indiana,5,IN,IN_5,R,1,6,Indiana 5,Susan Brooks,2013.0,1960.0,1.0,0.0,0.0,0.0,58.0
+294,Indiana 5,Susan Brooks,Republican,2012.0,Dee Thornton,Democratic,Indiana,5,IN,IN_5,D,0,0,,,,,,,,,
+295,Indiana 6,Luke Messer,Republican,2012.0,Jeannine Lake,Democratic,Indiana,6,IN,IN_6,D,0,0,,,,,,,,,
+296,Indiana 6,Luke Messer,Republican,2012.0,Greg Pence,Republican,Indiana,6,IN,IN_6,R,0,0,,,,,,,,,
+297,Indiana 7,André Carson,Democratic,2008.0,André Carson,Democratic,Indiana,7,IN,IN_7,D,1,10,Indiana 7,André Carson,2008.0,1974.0,0.0,1.0,0.0,0.0,44.0
+298,Indiana 7,André Carson,Democratic,2008.0,"Wayne ""Gunny"" Harmon",Republican,Indiana,7,IN,IN_7,R,0,0,,,,,,,,,
+299,Indiana 8,Larry Bucshon,Republican,2010.0,Larry Bucshon,Republican,Indiana,8,IN,IN_8,R,1,8,Indiana 8,Larry Bucshon,2011.0,1962.0,0.0,0.0,0.0,0.0,56.0
+300,Indiana 8,Larry Bucshon,Republican,2010.0,William Tanoos,Democratic,Indiana,8,IN,IN_8,D,0,0,,,,,,,,,
+301,Indiana 9,Trey Hollingsworth,Republican,2016.0,Trey Hollingsworth,Republican,Indiana,9,IN,IN_9,R,1,2,Indiana 9,Trey Hollingsworth,2017.0,1983.0,0.0,0.0,0.0,0.0,35.0
+302,Indiana 9,Trey Hollingsworth,Republican,2016.0,Liz Watson,Democratic,Indiana,9,IN,IN_9,D,0,0,,,,,,,,,
+303,Iowa 1,Rod Blum,Republican,2014.0,Rod Blum,Republican,Iowa,1,IA,IA_1,R,1,4,Iowa 1,Rod Blum,2015.0,1955.0,0.0,0.0,0.0,0.0,63.0
+304,Iowa 1,Rod Blum,Republican,2014.0,Abby Finkenauer,Democratic,Iowa,1,IA,IA_1,D,0,0,,,,,,,,,
+305,Iowa 2,Dave Loebsack,Democratic,2006.0,Dave Loebsack,Democratic,Iowa,2,IA,IA_2,D,1,12,Iowa 2,Dave Loebsack,2007.0,1952.0,0.0,0.0,0.0,0.0,66.0
+306,Iowa 2,Dave Loebsack,Democratic,2006.0,Christopher Peters,Republican,Iowa,2,IA,IA_2,R,0,0,,,,,,,,,
+307,Iowa 3,David Young,Republican,2014.0,Cindy Axne,Democratic,Iowa,3,IA,IA_3,D,0,0,,,,,,,,,
+308,Iowa 3,David Young,Republican,2014.0,David Young,Republican,Iowa,3,IA,IA_3,R,1,4,Iowa 3,David Young,2015.0,1968.0,0.0,0.0,0.0,0.0,50.0
+309,Iowa 4,Steve King,Republican,2002.0,Steve King,Republican,Iowa,4,IA,IA_4,R,1,16,Iowa 4,Steve King,2003.0,1949.0,0.0,0.0,0.0,0.0,69.0
+310,Iowa 4,Steve King,Republican,2002.0,J.D. Scholten,Democratic,Iowa,4,IA,IA_4,D,0,0,,,,,,,,,
+311,Kansas 1,Roger Marshall,Republican,2016.0,Alan LaPolice,Democratic,Kansas,1,KS,KS_1,D,0,0,,,,,,,,,
+312,Kansas 1,Roger Marshall,Republican,2016.0,Roger Marshall,Republican,Kansas,1,KS,KS_1,R,1,2,Kansas 1,Roger Marshall,2017.0,1960.0,0.0,0.0,0.0,0.0,58.0
+313,Kansas 2,Lynn Jenkins,Republican,2008.0,Paul Davis,Democratic,Kansas,2,KS,KS_2,D,0,0,,,,,,,,,
+314,Kansas 2,Lynn Jenkins,Republican,2008.0,Steve Watkins,Republican,Kansas,2,KS,KS_2,R,0,0,,,,,,,,,
+315,Kansas 3,Kevin Yoder,Republican,2010.0,Sharice Davids,Democratic,Kansas,3,KS,KS_3,D,0,0,,,,,,,,,
+316,Kansas 3,Kevin Yoder,Republican,2010.0,Kevin Yoder,Republican,Kansas,3,KS,KS_3,R,1,8,Kansas 3,Kevin Yoder,2011.0,1976.0,0.0,0.0,0.0,0.0,42.0
+317,Kansas 4,Ron Estes,Republican,2017.0,Ron Estes,Republican,Kansas,4,KS,KS_4,R,1,1,Kansas 4,Ron Estes,2017.0,1956.0,0.0,0.0,0.0,0.0,62.0
+318,Kansas 4,Ron Estes,Republican,2017.0,James Thompson,Democratic,Kansas,4,KS,KS_4,D,0,0,,,,,,,,,
+319,Kentucky 1,James Comer,Republican,2016.0,James Comer,Republican,Kentucky,1,KY,KY_1,R,1,2,Kentucky 1,James Comer,2016.0,1972.0,0.0,0.0,0.0,0.0,46.0
+320,Kentucky 1,James Comer,Republican,2016.0,Paul Walker,Democratic,Kentucky,1,KY,KY_1,D,0,0,,,,,,,,,
+321,Kentucky 2,Brett Guthrie,Republican,2008.0,Brett Guthrie,Republican,Kentucky,2,KY,KY_2,R,1,10,Kentucky 2,Brett Guthrie,2009.0,1964.0,0.0,0.0,0.0,0.0,54.0
+322,Kentucky 2,Brett Guthrie,Republican,2008.0,Hank Linderman,Democratic,Kentucky,2,KY,KY_2,D,0,0,,,,,,,,,
+323,Kentucky 3,John Yarmuth,Democratic,2006.0,Vickie Glisson,Republican,Kentucky,3,KY,KY_3,R,0,0,,,,,,,,,
+324,Kentucky 3,John Yarmuth,Democratic,2006.0,John Yarmuth,Democratic,Kentucky,3,KY,KY_3,D,1,12,Kentucky 3,John Yarmuth,2007.0,1947.0,0.0,0.0,0.0,0.0,71.0
+325,Kentucky 4,Thomas Massie,Republican,2012.0,Seth Hall,Democratic,Kentucky,4,KY,KY_4,D,0,0,,,,,,,,,
+326,Kentucky 4,Thomas Massie,Republican,2012.0,Thomas Massie,Republican,Kentucky,4,KY,KY_4,R,1,6,Kentucky 4,Thomas Massie,2012.0,1971.0,0.0,0.0,0.0,0.0,47.0
+327,Kentucky 5,Hal Rogers,Republican,1980.0,Hal Rogers,Republican,Kentucky,5,KY,KY_5,R,1,38,Kentucky 5,Hal Rogers,1981.0,1937.0,0.0,0.0,0.0,0.0,81.0
+328,Kentucky 5,Hal Rogers,Republican,1980.0,Kenneth Stepp,Democratic,Kentucky,5,KY,KY_5,D,0,0,,,,,,,,,
+329,Kentucky 6,Andy Barr,Republican,2012.0,Andy Barr,Republican,Kentucky,6,KY,KY_6,R,1,6,Kentucky 6,Andy Barr,2013.0,1973.0,0.0,0.0,0.0,0.0,45.0
+330,Kentucky 6,Andy Barr,Republican,2012.0,Amy McGrath,Democratic,Kentucky,6,KY,KY_6,D,0,0,,,,,,,,,
+331,Louisiana 1,Steve Scalise,Republican,2008.0,Lee Ann Dugas,Democratic,Louisiana,1,LA,LA_1,D,0,0,,,,,,,,,
+332,Louisiana 1,Steve Scalise,Republican,2008.0,Jim Francis,Democratic,Louisiana,1,LA,LA_1,D,0,0,,,,,,,,,
+333,Louisiana 1,Steve Scalise,Republican,2008.0,Tammy Savoie,Democratic,Louisiana,1,LA,LA_1,D,0,0,,,,,,,,,
+334,Louisiana 1,Steve Scalise,Republican,2008.0,Steve Scalise,Republican,Louisiana,1,LA,LA_1,R,1,10,Louisiana 1,Steve Scalise,2008.0,1965.0,0.0,0.0,0.0,0.0,53.0
+335,Louisiana 2,Cedric Richmond,Democratic,2010.0,Cedric Richmond,Democratic,Louisiana,2,LA,LA_2,D,1,8,Louisiana 2,Cedric Richmond,2011.0,1973.0,0.0,1.0,0.0,0.0,45.0
+336,Louisiana 3,Clay Higgins,Republican,2016.0,Rob Anderson,Democratic,Louisiana,3,LA,LA_3,D,0,0,,,,,,,,,
+337,Louisiana 3,Clay Higgins,Republican,2016.0,Josh Guillory,Republican,Louisiana,3,LA,LA_3,R,0,0,,,,,,,,,
+338,Louisiana 3,Clay Higgins,Republican,2016.0,Clay Higgins,Republican,Louisiana,3,LA,LA_3,R,1,2,Louisiana 3,Clay Higgins,2017.0,1961.0,0.0,0.0,0.0,0.0,57.0
+339,Louisiana 3,Clay Higgins,Republican,2016.0,Mimi Methvin,Democratic,Louisiana,3,LA,LA_3,D,0,0,,,,,,,,,
+340,Louisiana 3,Clay Higgins,Republican,2016.0,Larry Rader,Democratic,Louisiana,3,LA,LA_3,D,0,0,,,,,,,,,
+341,Louisiana 3,Clay Higgins,Republican,2016.0,Verone Thomas,Democratic,Louisiana,3,LA,LA_3,D,0,0,,,,,,,,,
+342,Louisiana 4,Mike Johnson,Republican,2016.0,Mike Johnson,Republican,Louisiana,4,LA,LA_4,R,1,2,Louisiana 4,Mike Johnson,2017.0,1972.0,0.0,0.0,0.0,0.0,46.0
+343,Louisiana 4,Mike Johnson,Republican,2016.0,Ryan Trundle,Democratic,Louisiana,4,LA,LA_4,D,0,0,,,,,,,,,
+344,Louisiana 5,Ralph Abraham,Republican,2014.0,Ralph Abraham,Republican,Louisiana,5,LA,LA_5,R,1,4,Louisiana 5,Ralph Abraham,2015.0,1954.0,0.0,0.0,0.0,0.0,64.0
+345,Louisiana 5,Ralph Abraham,Republican,2014.0,Jessee Carlton Fleenor,Democratic,Louisiana,5,LA,LA_5,D,0,0,,,,,,,,,
+346,Louisiana 6,Garret Graves,Republican,2014.0,Justin DeWitt,Democratic,Louisiana,6,LA,LA_6,D,0,0,,,,,,,,,
+347,Louisiana 6,Garret Graves,Republican,2014.0,Garret Graves,Republican,Louisiana,6,LA,LA_6,R,1,4,Louisiana 6,Garret Graves,2015.0,1972.0,0.0,0.0,0.0,0.0,46.0
+348,Louisiana 6,Garret Graves,Republican,2014.0,Andie Saizan,Democratic,Louisiana,6,LA,LA_6,D,0,0,,,,,,,,,
+349,Maine 1,Chellie Pingree,Democratic,2008.0,Mark Holbrook,Republican,Maine,1,ME,ME_1,R,0,0,,,,,,,,,
+350,Maine 1,Chellie Pingree,Democratic,2008.0,Chellie Pingree,Democratic,Maine,1,ME,ME_1,D,1,10,Maine 1,Chellie Pingree,2009.0,1955.0,1.0,0.0,0.0,0.0,63.0
+351,Maine 2,Bruce Poliquin,Republican,2014.0,Jared Golden,Democratic,Maine,2,ME,ME_2,D,0,0,,,,,,,,,
+352,Maine 2,Bruce Poliquin,Republican,2014.0,Bruce Poliquin,Republican,Maine,2,ME,ME_2,R,1,4,Maine 2,Bruce Poliquin,2015.0,1953.0,0.0,0.0,0.0,0.0,65.0
+353,Maryland 1,Andy Harris,Republican,2010.0,Jesse Colvin,Democratic,Maryland,1,MD,MD_1,D,0,0,,,,,,,,,
+354,Maryland 1,Andy Harris,Republican,2010.0,Andy Harris,Republican,Maryland,1,MD,MD_1,R,1,8,Maryland 1,Andy Harris,2011.0,1957.0,0.0,0.0,0.0,0.0,61.0
+355,Maryland 2,Dutch Ruppersberger,Democratic,2002.0,Liz Matory,Republican,Maryland,2,MD,MD_2,R,0,0,,,,,,,,,
+356,Maryland 2,Dutch Ruppersberger,Democratic,2002.0,Dutch Ruppersberger,Democratic,Maryland,2,MD,MD_2,D,1,16,Maryland 2,Dutch Ruppersberger,2003.0,1946.0,0.0,0.0,0.0,0.0,72.0
+357,Maryland 3,John Sarbanes,Democratic,2006.0,Charles Anthony,Republican,Maryland,3,MD,MD_3,R,0,0,,,,,,,,,
+358,Maryland 3,John Sarbanes,Democratic,2006.0,John Sarbanes,Democratic,Maryland,3,MD,MD_3,D,1,12,Maryland 3,John Sarbanes,2007.0,1962.0,0.0,0.0,0.0,0.0,56.0
+359,Maryland 4,Anthony Brown,Democratic,2016.0,Anthony Brown,Democratic,Maryland,4,MD,MD_4,D,1,2,,,,,,,,,
+360,Maryland 4,Anthony Brown,Democratic,2016.0,George McDermott,Republican,Maryland,4,MD,MD_4,R,0,0,,,,,,,,,
+361,Maryland 5,Steny Hoyer,Democratic,1981.0,William Devine III,Republican,Maryland,5,MD,MD_5,R,0,0,,,,,,,,,
+362,Maryland 5,Steny Hoyer,Democratic,1981.0,Steny Hoyer,Democratic,Maryland,5,MD,MD_5,D,1,37,Maryland 5,Steny Hoyer,1981.0,1939.0,0.0,0.0,0.0,0.0,79.0
+363,Maryland 6,John Delaney,Democratic,2012.0,Amie Hoeber,Republican,Maryland,6,MD,MD_6,R,0,0,,,,,,,,,
+364,Maryland 6,John Delaney,Democratic,2012.0,David Trone,Democratic,Maryland,6,MD,MD_6,D,0,0,,,,,,,,,
+365,Maryland 7,Elijah Cummings,Democratic,1996.0,Elijah Cummings,Democratic,Maryland,7,MD,MD_7,D,1,22,Maryland 7,Elijah Cummings,1996.0,1951.0,0.0,1.0,0.0,0.0,67.0
+366,Maryland 7,Elijah Cummings,Democratic,1996.0,Richmond Davis,Republican,Maryland,7,MD,MD_7,R,0,0,,,,,,,,,
+367,Maryland 8,Jamie Raskin,Democratic,2016.0,Jamie Raskin,Democratic,Maryland,8,MD,MD_8,D,1,2,Maryland 8,Jamie Raskin,2017.0,1962.0,0.0,0.0,0.0,0.0,56.0
+368,Maryland 8,Jamie Raskin,Democratic,2016.0,John Walsh,Republican,Maryland,8,MD,MD_8,R,0,0,,,,,,,,,
+369,Massachusetts 1,Richard Neal,Democratic,1988.0,Richard Neal,Democratic,Massachusetts,1,MA,MA_1,D,1,30,Massachusetts 1,Richard Neal,1989.0,1949.0,0.0,0.0,0.0,0.0,69.0
+370,Massachusetts 2,Jim McGovern,Democratic,1996.0,Tracy Lovvorn,Republican,Massachusetts,2,MA,MA_2,R,0,0,,,,,,,,,
+371,Massachusetts 2,Jim McGovern,Democratic,1996.0,Jim McGovern,Democratic,Massachusetts,2,MA,MA_2,D,1,22,Massachusetts 2,Jim McGovern,1997.0,1959.0,0.0,0.0,0.0,0.0,59.0
+372,Massachusetts 3,Niki Tsongas,Democratic,2007.0,Rick Green,Republican,Massachusetts,3,MA,MA_3,R,0,0,,,,,,,,,
+373,Massachusetts 3,Niki Tsongas,Democratic,2007.0,Lori Trahan,Democratic,Massachusetts,3,MA,MA_3,D,0,0,,,,,,,,,
+374,Massachusetts 4,Joe Kennedy III,Democratic,2012.0,Joe Kennedy III,Democratic,Massachusetts,4,MA,MA_4,D,1,6,,,,,,,,,
+375,Massachusetts 5,Katherine Clark,Democratic,2013.0,Katherine Clark,Democratic,Massachusetts,5,MA,MA_5,D,1,5,Massachusetts 5,Katherine Clark,2013.0,1963.0,1.0,0.0,0.0,0.0,55.0
+376,Massachusetts 5,Katherine Clark,Democratic,2013.0,John Hugo,Republican,Massachusetts,5,MA,MA_5,R,0,0,,,,,,,,,
+377,Massachusetts 6,Seth Moulton,Democratic,2014.0,Seth Moulton,Democratic,Massachusetts,6,MA,MA_6,D,1,4,Massachusetts 6,Seth Moulton,2015.0,1978.0,0.0,0.0,0.0,0.0,40.0
+378,Massachusetts 6,Seth Moulton,Democratic,2014.0,Joseph Schneider,Republican,Massachusetts,6,MA,MA_6,R,0,0,,,,,,,,,
+379,Massachusetts 7,Mike Capuano,Democratic,1998.0,Ayanna Pressley,Democratic,Massachusetts,7,MA,MA_7,D,0,0,,,,,,,,,
+380,Massachusetts 8,Stephen Lynch,Democratic,2001.0,Stephen Lynch,Democratic,Massachusetts,8,MA,MA_8,D,1,17,,,,,,,,,
+381,Massachusetts 9,Bill Keating,Democratic,2010.0,Bill Keating,Democratic,Massachusetts,9,MA,MA_9,D,1,8,Massachusetts 9,Bill Keating,2011.0,1952.0,0.0,0.0,0.0,0.0,66.0
+382,Massachusetts 9,Bill Keating,Democratic,2010.0,Peter Tedeschi,Republican,Massachusetts,9,MA,MA_9,R,0,0,,,,,,,,,
+383,Michigan 1,Jack Bergman,Republican,2016.0,Jack Bergman,Republican,Michigan,1,MI,MI_1,R,1,2,Michigan 1,Jack Bergman,2017.0,1947.0,0.0,0.0,0.0,0.0,71.0
+384,Michigan 1,Jack Bergman,Republican,2016.0,Matt Morgan,Democratic,Michigan,1,MI,MI_1,D,0,0,,,,,,,,,
+385,Michigan 2,Bill Huizenga,Republican,2010.0,Rob Davidson,Democratic,Michigan,2,MI,MI_2,D,0,0,,,,,,,,,
+386,Michigan 2,Bill Huizenga,Republican,2010.0,Bill Huizenga,Republican,Michigan,2,MI,MI_2,R,1,8,Michigan 2,Bill Huizenga,2011.0,1969.0,0.0,0.0,0.0,0.0,49.0
+387,Michigan 3,Justin Amash,Republican,2010.0,Cathy Albro,Democratic,Michigan,3,MI,MI_3,D,0,0,,,,,,,,,
+388,Michigan 3,Justin Amash,Republican,2010.0,Justin Amash,Republican,Michigan,3,MI,MI_3,R,1,8,Michigan 3,Justin Amash,2011.0,1980.0,0.0,0.0,0.0,0.0,38.0
+389,Michigan 4,John Moolenaar,Republican,2014.0,Jerry Hilliard,Democratic,Michigan,4,MI,MI_4,D,0,0,,,,,,,,,
+390,Michigan 4,John Moolenaar,Republican,2014.0,John Moolenaar,Republican,Michigan,4,MI,MI_4,R,1,4,Michigan 4,John Moolenaar,2015.0,1961.0,0.0,0.0,0.0,0.0,57.0
+391,Michigan 5,Dan Kildee,Democratic,2012.0,Dan Kildee,Democratic,Michigan,5,MI,MI_5,D,1,6,Michigan 5,Dan Kildee,2013.0,1958.0,0.0,0.0,0.0,0.0,60.0
+392,Michigan 5,Dan Kildee,Democratic,2012.0,Travis Wines,Republican,Michigan,5,MI,MI_5,R,0,0,,,,,,,,,
+393,Michigan 6,Fred Upton,Republican,1986.0,Matt Longjohn,Democratic,Michigan,6,MI,MI_6,D,0,0,,,,,,,,,
+394,Michigan 6,Fred Upton,Republican,1986.0,Fred Upton,Republican,Michigan,6,MI,MI_6,R,1,32,Michigan 6,Fred Upton,1987.0,1953.0,0.0,0.0,0.0,0.0,65.0
+395,Michigan 7,Tim Walberg,Republican,2010.0,Gretchen Driskell,Democratic,Michigan,7,MI,MI_7,D,0,0,,,,,,,,,
+396,Michigan 7,Tim Walberg,Republican,2010.0,Tim Walberg,Republican,Michigan,7,MI,MI_7,R,1,8,Michigan 7,Tim Walberg,2011.0,1951.0,0.0,0.0,0.0,0.0,67.0
+397,Michigan 8,Mike Bishop,Republican,2014.0,Mike Bishop,Republican,Michigan,8,MI,MI_8,R,1,4,Michigan 8,Mike Bishop,2015.0,1967.0,0.0,0.0,0.0,0.0,51.0
+398,Michigan 8,Mike Bishop,Republican,2014.0,Elissa Slotkin,Democratic,Michigan,8,MI,MI_8,D,0,0,,,,,,,,,
+399,Michigan 9,Sander Levin,Democratic,1982.0,Andy Levin,Democratic,Michigan,9,MI,MI_9,D,0,0,,,,,,,,,
+400,Michigan 9,Sander Levin,Democratic,1982.0,Candius Stearns,Republican,Michigan,9,MI,MI_9,R,0,0,,,,,,,,,
+401,Michigan 10,Paul Mitchell,Republican,2016.0,Kimberly Bizon,Democratic,Michigan,10,MI,MI_10,D,0,0,,,,,,,,,
+402,Michigan 10,Paul Mitchell,Republican,2016.0,Paul Mitchell,Republican,Michigan,10,MI,MI_10,R,1,2,Michigan 10,Paul Mitchell,2017.0,1961.0,0.0,0.0,0.0,0.0,57.0
+403,Michigan 11,Dave Trott,Republican,2014.0,Lena Epstein,Republican,Michigan,11,MI,MI_11,R,0,0,,,,,,,,,
+404,Michigan 11,Dave Trott,Republican,2014.0,Haley Stevens,Democratic,Michigan,11,MI,MI_11,D,0,0,,,,,,,,,
+405,Michigan 12,Debbie Dingell,Democratic,2014.0,Debbie Dingell,Democratic,Michigan,12,MI,MI_12,D,1,4,Michigan 12,Debbie Dingell,2015.0,1953.0,1.0,0.0,0.0,0.0,65.0
+406,Michigan 12,Debbie Dingell,Democratic,2014.0,Jeff Jones,Republican,Michigan,12,MI,MI_12,R,0,0,,,,,,,,,
+407,Michigan 13,,,,Rashida Tlaib,Democratic,Michigan,13,MI,MI_13,D,0,0,,,,,,,,,
+408,Michigan 14,Brenda Lawrence,Democratic,2014.0,Marc Herschfus,Republican,Michigan,14,MI,MI_14,R,0,0,,,,,,,,,
+409,Michigan 14,Brenda Lawrence,Democratic,2014.0,Brenda Lawrence,Democratic,Michigan,14,MI,MI_14,D,1,4,Michigan 14,Brenda Lawrence,2015.0,1954.0,1.0,1.0,0.0,0.0,64.0
+410,Minnesota 1,Tim Walz,Democratic,2006.0,Dan Feehan,Democratic,Minnesota,1,MN,MN_1,D,0,0,,,,,,,,,
+411,Minnesota 1,Tim Walz,Democratic,2006.0,Jim Hagedorn,Republican,Minnesota,1,MN,MN_1,R,0,0,,,,,,,,,
+412,Minnesota 2,Jason Lewis,Republican,2016.0,Angie Craig,Democratic,Minnesota,2,MN,MN_2,D,0,0,,,,,,,,,
+413,Minnesota 2,Jason Lewis,Republican,2016.0,Jason Lewis,Republican,Minnesota,2,MN,MN_2,R,1,2,Minnesota 2,Jason Lewis,2017.0,1955.0,0.0,0.0,0.0,0.0,63.0
+414,Minnesota 3,Erik Paulsen,Republican,2008.0,Erik Paulsen,Republican,Minnesota,3,MN,MN_3,R,1,10,Minnesota 3,Erik Paulsen,2009.0,1965.0,0.0,0.0,0.0,0.0,53.0
+415,Minnesota 3,Erik Paulsen,Republican,2008.0,Dean Phillips,Democratic,Minnesota,3,MN,MN_3,D,0,0,,,,,,,,,
+416,Minnesota 4,Betty McCollum,Democratic,2000.0,Betty McCollum,Democratic,Minnesota,4,MN,MN_4,D,1,18,Minnesota 4,Betty McCollum,2001.0,1954.0,1.0,0.0,0.0,0.0,64.0
+417,Minnesota 4,Betty McCollum,Democratic,2000.0,Greg Ryan,Republican,Minnesota,4,MN,MN_4,R,0,0,,,,,,,,,
+418,Minnesota 5,Keith Ellison,Democratic,2006.0,Ilhan Omar,Democratic,Minnesota,5,MN,MN_5,D,0,0,,,,,,,,,
+419,Minnesota 5,Keith Ellison,Democratic,2006.0,Jennifer Zielinski,Republican,Minnesota,5,MN,MN_5,R,0,0,,,,,,,,,
+420,Minnesota 6,Tom Emmer,Republican,2014.0,Tom Emmer,Republican,Minnesota,6,MN,MN_6,R,1,4,Minnesota 6,Tom Emmer,2015.0,1961.0,0.0,0.0,0.0,0.0,57.0
+421,Minnesota 6,Tom Emmer,Republican,2014.0,Ian Todd,Democratic,Minnesota,6,MN,MN_6,D,0,0,,,,,,,,,
+422,Minnesota 7,Collin Peterson,Democratic,1990.0,Dave Hughes,Republican,Minnesota,7,MN,MN_7,R,0,0,,,,,,,,,
+423,Minnesota 7,Collin Peterson,Democratic,1990.0,Collin Peterson,Democratic,Minnesota,7,MN,MN_7,D,1,28,Minnesota 7,Collin Peterson,1991.0,1944.0,0.0,0.0,0.0,0.0,74.0
+424,Minnesota 8,Rick Nolan,Democratic,2012.0,Joe Radinovich,Democratic,Minnesota,8,MN,MN_8,D,0,0,,,,,,,,,
+425,Minnesota 8,Rick Nolan,Democratic,2012.0,Pete Stauber,Republican,Minnesota,8,MN,MN_8,R,0,0,,,,,,,,,
+426,Mississippi 1,Trent Kelly,Republican,2015.0,Trent Kelly,Republican,Mississippi,1,MS,MS_1,R,1,3,Mississippi 1,Trent Kelly,2015.0,1966.0,0.0,0.0,0.0,0.0,52.0
+427,Mississippi 1,Trent Kelly,Republican,2015.0,Randy Wadkins,Democratic,Mississippi,1,MS,MS_1,D,0,0,,,,,,,,,
+428,Mississippi 2,Bennie Thompson,Democratic,1992.0,Bennie Thompson,Democratic,Mississippi,2,MS,MS_2,D,1,26,Mississippi 2,Bennie Thompson,1993.0,1948.0,0.0,1.0,0.0,0.0,70.0
+429,Mississippi 3,Gregg Harper,Republican,2008.0,Michael Evans,Democratic,Mississippi,3,MS,MS_3,D,0,0,,,,,,,,,
+430,Mississippi 3,Gregg Harper,Republican,2008.0,Michael Guest,Republican,Mississippi,3,MS,MS_3,R,0,0,,,,,,,,,
+431,Mississippi 4,Steven Palazzo,Republican,2010.0,Jeramey Anderson,Democratic,Mississippi,4,MS,MS_4,D,0,0,,,,,,,,,
+432,Mississippi 4,Steven Palazzo,Republican,2010.0,Steven Palazzo,Republican,Mississippi,4,MS,MS_4,R,1,8,Mississippi 4,Steven Palazzo,2011.0,1970.0,0.0,0.0,0.0,0.0,48.0
+433,Missouri 1,Lacy Clay,Democratic,2000.0,Lacy Clay,Democratic,Missouri,1,MO,MO_1,D,1,18,Missouri 1,Lacy Clay,2001.0,1956.0,0.0,1.0,0.0,0.0,62.0
+434,Missouri 1,Lacy Clay,Democratic,2000.0,Robert Vroman,Republican,Missouri,1,MO,MO_1,R,0,0,,,,,,,,,
+435,Missouri 2,Ann Wagner,Republican,2012.0,Cort VanOstran,Democratic,Missouri,2,MO,MO_2,D,0,0,,,,,,,,,
+436,Missouri 2,Ann Wagner,Republican,2012.0,Ann Wagner,Republican,Missouri,2,MO,MO_2,R,1,6,Missouri 2,Ann Wagner,2013.0,1962.0,1.0,0.0,0.0,0.0,56.0
+437,Missouri 3,Blaine Luetkemeyer,Republican,2008.0,Katy Geppert,Democratic,Missouri,3,MO,MO_3,D,0,0,,,,,,,,,
+438,Missouri 3,Blaine Luetkemeyer,Republican,2008.0,Blaine Luetkemeyer,Republican,Missouri,3,MO,MO_3,R,1,10,Missouri 3,Blaine Luetkemeyer,2009.0,1952.0,0.0,0.0,0.0,0.0,66.0
+439,Missouri 4,Vicky Hartzler,Republican,2010.0,Vicky Hartzler,Republican,Missouri,4,MO,MO_4,R,1,8,Missouri 4,Vicky Hartzler,2011.0,1960.0,1.0,0.0,0.0,0.0,58.0
+440,Missouri 4,Vicky Hartzler,Republican,2010.0,Renee Hoagenson,Democratic,Missouri,4,MO,MO_4,D,0,0,,,,,,,,,
+441,Missouri 5,Emanuel Cleaver,Democratic,2004.0,Emanuel Cleaver,Democratic,Missouri,5,MO,MO_5,D,1,14,Missouri 5,Emanuel Cleaver,2005.0,1944.0,0.0,1.0,0.0,0.0,74.0
+442,Missouri 5,Emanuel Cleaver,Democratic,2004.0,Jacob Turk,Republican,Missouri,5,MO,MO_5,R,0,0,,,,,,,,,
+443,Missouri 6,Sam Graves,Republican,2000.0,Sam Graves,Republican,Missouri,6,MO,MO_6,R,1,18,Missouri 6,Sam Graves,2001.0,1963.0,0.0,0.0,0.0,0.0,55.0
+444,Missouri 6,Sam Graves,Republican,2000.0,Henry Martin,Democratic,Missouri,6,MO,MO_6,D,0,0,,,,,,,,,
+445,Missouri 7,Billy Long,Republican,2010.0,Billy Long,Republican,Missouri,7,MO,MO_7,R,1,8,Missouri 7,Billy Long,2011.0,1955.0,0.0,0.0,0.0,0.0,63.0
+446,Missouri 7,Billy Long,Republican,2010.0,Jamie Schoolcraft,Democratic,Missouri,7,MO,MO_7,D,0,0,,,,,,,,,
+447,Missouri 8,Jason Smith,Republican,2013.0,Kathy Ellis,Democratic,Missouri,8,MO,MO_8,D,0,0,,,,,,,,,
+448,Missouri 8,Jason Smith,Republican,2013.0,Jason Smith,Republican,Missouri,8,MO,MO_8,R,1,5,,,,,,,,,
+449,Montana 1,Greg Gianforte,Republican,2017.0,Greg Gianforte,Republican,Montana,1,MT,MT_1,R,1,1,Montana at large,Greg Gianforte,2017.0,1961.0,0.0,0.0,0.0,0.0,57.0
+450,Montana 1,Greg Gianforte,Republican,2017.0,Kathleen Williams,Democratic,Montana,1,MT,MT_1,D,0,0,,,,,,,,,
+451,Nebraska 1,Jeff Fortenberry,Republican,2004.0,Jeff Fortenberry,Republican,Nebraska,1,NE,NE_1,R,1,14,Nebraska 1,Jeff Fortenberry,2005.0,1960.0,0.0,0.0,0.0,0.0,58.0
+452,Nebraska 1,Jeff Fortenberry,Republican,2004.0,Jessica McClure,Democratic,Nebraska,1,NE,NE_1,D,0,0,,,,,,,,,
+453,Nebraska 2,Don Bacon,Republican,2016.0,Don Bacon,Republican,Nebraska,2,NE,NE_2,R,1,2,Nebraska 2,Don Bacon,2017.0,1963.0,0.0,0.0,0.0,0.0,55.0
+454,Nebraska 2,Don Bacon,Republican,2016.0,Kara Eastman,Democratic,Nebraska,2,NE,NE_2,D,0,0,,,,,,,,,
+455,Nebraska 3,Adrian Smith,Republican,2006.0,Adrian Smith,Republican,Nebraska,3,NE,NE_3,R,1,12,Nebraska 3,Adrian Smith,2007.0,1970.0,0.0,0.0,0.0,0.0,48.0
+456,Nebraska 3,Adrian Smith,Republican,2006.0,Paul Theobald,Democratic,Nebraska,3,NE,NE_3,D,0,0,,,,,,,,,
+457,Nevada 1,Dina Titus,Democratic,2012.0,Joyce Bentley,Republican,Nevada,1,NV,NV_1,R,0,0,,,,,,,,,
+458,Nevada 1,Dina Titus,Democratic,2012.0,Dina Titus,Democratic,Nevada,1,NV,NV_1,D,1,6,Nevada 1,Dina Titus,2013.0,1950.0,1.0,0.0,0.0,0.0,68.0
+459,Nevada 2,Mark Amodei,Republican,2011.0,Mark Amodei,Republican,Nevada,2,NV,NV_2,R,1,7,Nevada 2,Mark Amodei,2011.0,1958.0,0.0,0.0,0.0,0.0,60.0
+460,Nevada 2,Mark Amodei,Republican,2011.0,Clint Koble,Democratic,Nevada,2,NV,NV_2,D,0,0,,,,,,,,,
+461,Nevada 3,Jacky Rosen,Democratic,2016.0,Susie Lee,Democratic,Nevada,3,NV,NV_3,D,0,0,,,,,,,,,
+462,Nevada 3,Jacky Rosen,Democratic,2016.0,Danny Tarkanian,Republican,Nevada,3,NV,NV_3,R,0,0,,,,,,,,,
+463,Nevada 4,Ruben Kihuen,Democratic,2016.0,Cresent Hardy,Republican,Nevada,4,NV,NV_4,R,0,0,,,,,,,,,
+464,Nevada 4,Ruben Kihuen,Democratic,2016.0,Steven Horsford,Democratic,Nevada,4,NV,NV_4,D,0,0,,,,,,,,,
+465,New Hampshire 1,Carol Shea-Porter,Democratic,2016.0,Eddie Edwards,Republican,New Hampshire,1,NH,NH_1,R,0,0,,,,,,,,,
+466,New Hampshire 1,Carol Shea-Porter,Democratic,2016.0,Chris Pappas,Democratic,New Hampshire,1,NH,NH_1,D,0,0,,,,,,,,,
+467,New Hampshire 2,Ann McLane Kuster,Democratic,2012.0,Ann McLane Kuster,Democratic,New Hampshire,2,NH,NH_2,D,1,6,New Hampshire 2,Ann McLane Kuster,2013.0,1956.0,1.0,0.0,0.0,0.0,62.0
+468,New Hampshire 2,Ann McLane Kuster,Democratic,2012.0,Steve Negron,Republican,New Hampshire,2,NH,NH_2,R,0,0,,,,,,,,,
+469,New Jersey 1,Donald Norcross,Democratic,2014.0,Paul Dilks,Republican,New Jersey,1,NJ,NJ_1,R,0,0,,,,,,,,,
+470,New Jersey 1,Donald Norcross,Democratic,2014.0,Donald Norcross,Democratic,New Jersey,1,NJ,NJ_1,D,1,4,New Jersey 1,Donald Norcross,2014.0,1958.0,0.0,0.0,0.0,0.0,60.0
+471,New Jersey 2,Frank LoBiondo,Republican,1994.0,Seth Grossman,Republican,New Jersey,2,NJ,NJ_2,R,0,0,,,,,,,,,
+472,New Jersey 2,Frank LoBiondo,Republican,1994.0,Jeff Van Drew,Democratic,New Jersey,2,NJ,NJ_2,D,0,0,,,,,,,,,
+473,New Jersey 3,Tom MacArthur,Republican,2014.0,Andy Kim,Democratic,New Jersey,3,NJ,NJ_3,D,0,0,,,,,,,,,
+474,New Jersey 3,Tom MacArthur,Republican,2014.0,Tom MacArthur,Republican,New Jersey,3,NJ,NJ_3,R,1,4,New Jersey 3,Tom MacArthur,2015.0,1960.0,0.0,0.0,0.0,0.0,58.0
+475,New Jersey 4,Chris Smith,Republican,1980.0,Chris Smith,Republican,New Jersey,4,NJ,NJ_4,R,1,38,New Jersey 4,Chris Smith,1981.0,1953.0,0.0,0.0,0.0,0.0,65.0
+476,New Jersey 4,Chris Smith,Republican,1980.0,Josh Welle,Democratic,New Jersey,4,NJ,NJ_4,D,0,0,,,,,,,,,
+477,New Jersey 5,Josh Gottheimer,Democratic,2016.0,Josh Gottheimer,Democratic,New Jersey,5,NJ,NJ_5,D,1,2,New Jersey 5,Josh Gottheimer,2017.0,1975.0,0.0,0.0,0.0,0.0,43.0
+478,New Jersey 5,Josh Gottheimer,Democratic,2016.0,John McCann,Republican,New Jersey,5,NJ,NJ_5,R,0,0,,,,,,,,,
+479,New Jersey 6,Frank Pallone,Democratic,1988.0,Frank Pallone,Democratic,New Jersey,6,NJ,NJ_6,D,1,30,New Jersey 6,Frank Pallone,1988.0,1951.0,0.0,0.0,0.0,0.0,67.0
+480,New Jersey 6,Frank Pallone,Democratic,1988.0,Rich Pezzullo,Republican,New Jersey,6,NJ,NJ_6,R,0,0,,,,,,,,,
+481,New Jersey 7,Leonard Lance,Republican,2008.0,Leonard Lance,Republican,New Jersey,7,NJ,NJ_7,R,1,10,New Jersey 7,Leonard Lance,2009.0,1952.0,0.0,0.0,0.0,0.0,66.0
+482,New Jersey 7,Leonard Lance,Republican,2008.0,Tom Malinowski,Democratic,New Jersey,7,NJ,NJ_7,D,0,0,,,,,,,,,
+483,New Jersey 8,Albio Sires,Democratic,2006.0,John Muniz,Republican,New Jersey,8,NJ,NJ_8,R,0,0,,,,,,,,,
+484,New Jersey 8,Albio Sires,Democratic,2006.0,Albio Sires,Democratic,New Jersey,8,NJ,NJ_8,D,1,12,New Jersey 8,Albio Sires,2006.0,1951.0,0.0,0.0,0.0,0.0,67.0
+485,New Jersey 9,Bill Pascrell,Democratic,1996.0,Eric Fisher,Republican,New Jersey,9,NJ,NJ_9,R,0,0,,,,,,,,,
+486,New Jersey 9,Bill Pascrell,Democratic,1996.0,Bill Pascrell,Democratic,New Jersey,9,NJ,NJ_9,D,1,22,New Jersey 9,Bill Pascrell,1997.0,1937.0,0.0,0.0,0.0,0.0,81.0
+487,New Jersey 10,Donald Payne,Democratic,2012.0,Agha Khan,Republican,New Jersey,10,NJ,NJ_10,R,0,0,,,,,,,,,
+488,New Jersey 10,Donald Payne,Democratic,2012.0,Donald Payne,Democratic,New Jersey,10,NJ,NJ_10,D,1,6,,,,,,,,,
+489,New Jersey 11,Rodney Frelinghuysen,Republican,1994.0,Mikie Sherrill,Democratic,New Jersey,11,NJ,NJ_11,D,0,0,,,,,,,,,
+490,New Jersey 11,Rodney Frelinghuysen,Republican,1994.0,Jay Webber,Republican,New Jersey,11,NJ,NJ_11,R,0,0,,,,,,,,,
+491,New Jersey 12,Bonnie Watson Coleman,Democratic,2014.0,Daryl Kipnis,Republican,New Jersey,12,NJ,NJ_12,R,0,0,,,,,,,,,
+492,New Jersey 12,Bonnie Watson Coleman,Democratic,2014.0,Bonnie Watson Coleman,Democratic,New Jersey,12,NJ,NJ_12,D,1,4,New Jersey 12,Bonnie Watson Coleman,2015.0,1945.0,1.0,1.0,0.0,0.0,73.0
+493,New Mexico 1,Michelle Luján Grisham,Democratic,2012.0,Janice Arnold-Jones,Republican,New Mexico,1,NM,NM_1,R,0,0,,,,,,,,,
+494,New Mexico 1,Michelle Luján Grisham,Democratic,2012.0,Deb Haaland,Democratic,New Mexico,1,NM,NM_1,D,0,0,,,,,,,,,
+495,New Mexico 2,Steve Pearce,Republican,2010.0,Yvette Herrell,Republican,New Mexico,2,NM,NM_2,R,0,0,,,,,,,,,
+496,New Mexico 2,Steve Pearce,Republican,2010.0,Xochitl Torres Small,Democratic,New Mexico,2,NM,NM_2,D,0,0,,,,,,,,,
+497,New Mexico 3,Ben Ray Luján,Democratic,2008.0,Ben Ray Luján,Democratic,New Mexico,3,NM,NM_3,D,1,10,,,,,,,,,
+498,New Mexico 3,Ben Ray Luján,Democratic,2008.0,Jerald McFall,Republican,New Mexico,3,NM,NM_3,R,0,0,,,,,,,,,
+499,New York 1,Lee Zeldin,Republican,2014.0,Perry Gershon,Democratic,New York,1,NY,NY_1,D,0,0,,,,,,,,,
+500,New York 1,Lee Zeldin,Republican,2014.0,Lee Zeldin,Republican,New York,1,NY,NY_1,R,1,4,New York 1,Lee Zeldin,2015.0,1980.0,0.0,0.0,0.0,0.0,38.0
+501,New York 2,Peter King,Republican,1992.0,Liuba Grechen Shirley,Democratic,New York,2,NY,NY_2,D,0,0,,,,,,,,,
+502,New York 2,Peter King,Republican,1992.0,Peter King,Republican,New York,2,NY,NY_2,R,1,26,New York 2,Peter King,1993.0,1944.0,0.0,0.0,0.0,0.0,74.0
+503,New York 3,Tom Suozzi,Democratic,2016.0,Dan DeBono,Republican,New York,3,NY,NY_3,R,0,0,,,,,,,,,
+504,New York 3,Tom Suozzi,Democratic,2016.0,Tom Suozzi,Democratic,New York,3,NY,NY_3,D,1,2,,,,,,,,,
+505,New York 4,Kathleen Rice,Democratic,2014.0,Ameer Benno,Republican,New York,4,NY,NY_4,R,0,0,,,,,,,,,
+506,New York 4,Kathleen Rice,Democratic,2014.0,Kathleen Rice,Democratic,New York,4,NY,NY_4,D,1,4,New York 4,Kathleen Rice,2015.0,1965.0,1.0,0.0,0.0,0.0,53.0
+507,New York 5,Gregory Meeks,Democratic,1998.0,Gregory Meeks,Democratic,New York,5,NY,NY_5,D,1,20,New York 5,Gregory Meeks,1998.0,1953.0,0.0,1.0,0.0,0.0,65.0
+508,New York 6,Grace Meng,Democratic,2012.0,Grace Meng,Democratic,New York,6,NY,NY_6,D,1,6,New York 6,Grace Meng,2013.0,1975.0,1.0,0.0,0.0,1.0,43.0
+509,New York 7,Nydia Velázquez,Democratic,1992.0,Nydia Velázquez,Democratic,New York,7,NY,NY_7,D,1,26,New York 7,Nydia Velázquez,1993.0,1953.0,1.0,0.0,1.0,0.0,65.0
+510,New York 8,Hakeem Jeffries,Democratic,2012.0,Hakeem Jeffries,Democratic,New York,8,NY,NY_8,D,1,6,New York 8,Hakeem Jeffries,2013.0,1970.0,0.0,1.0,0.0,0.0,48.0
+511,New York 9,Yvette Clarke,Democratic,2006.0,Yvette Clarke,Democratic,New York,9,NY,NY_9,D,1,12,New York 9,Yvette Clarke,2007.0,1964.0,1.0,1.0,0.0,0.0,54.0
+512,New York 9,Yvette Clarke,Democratic,2006.0,Lutchi Gayot,Republican,New York,9,NY,NY_9,R,0,0,,,,,,,,,
+513,New York 10,Jerry Nadler,Democratic,1992.0,Naomi Levin,Republican,New York,10,NY,NY_10,R,0,0,,,,,,,,,
+514,New York 10,Jerry Nadler,Democratic,1992.0,Jerry Nadler,Democratic,New York,10,NY,NY_10,D,1,26,,,,,,,,,
+515,New York 11,Dan Donovan,Republican,2015.0,Dan Donovan,Republican,New York,11,NY,NY_11,R,1,3,New York 11,Dan Donovan,2015.0,1956.0,0.0,0.0,0.0,0.0,62.0
+516,New York 11,Dan Donovan,Republican,2015.0,Max Rose,Democratic,New York,11,NY,NY_11,D,0,0,,,,,,,,,
+517,New York 12,Carolyn Maloney,Democratic,1992.0,Carolyn Maloney,Democratic,New York,12,NY,NY_12,D,1,26,New York 12,Carolyn Maloney,1993.0,1946.0,1.0,0.0,0.0,0.0,72.0
+518,New York 12,Carolyn Maloney,Democratic,1992.0,Eliot Rabin,Republican,New York,12,NY,NY_12,R,0,0,,,,,,,,,
+519,New York 13,Adriano Espaillat,Democratic,2016.0,Jineea Butler,Republican,New York,13,NY,NY_13,R,0,0,,,,,,,,,
+520,New York 13,Adriano Espaillat,Democratic,2016.0,Adriano Espaillat,Democratic,New York,13,NY,NY_13,D,1,2,New York 13,Adriano Espaillat,2017.0,1954.0,0.0,1.0,1.0,0.0,64.0
+521,New York 14,Joe Crowley,Democratic,1998.0,Alexandria Ocasio-Cortez,Democratic,New York,14,NY,NY_14,D,0,0,,,,,,,,,
+522,New York 14,Joe Crowley,Democratic,1998.0,Anthony Pappas,Republican,New York,14,NY,NY_14,R,0,0,,,,,,,,,
+523,New York 15,José Serrano,Democratic,1990.0,Jason Gonzalez,Republican,New York,15,NY,NY_15,R,0,0,,,,,,,,,
+524,New York 15,José Serrano,Democratic,1990.0,José Serrano,Democratic,New York,15,NY,NY_15,D,1,28,New York 15,José Serrano,1990.0,1943.0,0.0,0.0,1.0,0.0,75.0
+525,New York 16,Eliot Engel,Democratic,1988.0,Eliot Engel,Democratic,New York,16,NY,NY_16,D,1,30,New York 16,Eliot Engel,1989.0,1947.0,0.0,0.0,0.0,0.0,71.0
+526,New York 17,Nita Lowey,Democratic,1988.0,Nita Lowey,Democratic,New York,17,NY,NY_17,D,1,30,New York 17,Nita Lowey,1989.0,1937.0,1.0,0.0,0.0,0.0,81.0
+527,New York 18,Sean Patrick Maloney,Democratic,2012.0,Sean Patrick Maloney,Democratic,New York,18,NY,NY_18,D,1,6,New York 18,Sean Patrick Maloney,2013.0,1966.0,0.0,0.0,0.0,0.0,52.0
+528,New York 18,Sean Patrick Maloney,Democratic,2012.0,James O'Donnell,Republican,New York,18,NY,NY_18,R,0,0,,,,,,,,,
+529,New York 19,John Faso,Republican,2016.0,Antonio Delgado,Democratic,New York,19,NY,NY_19,D,0,0,,,,,,,,,
+530,New York 19,John Faso,Republican,2016.0,John Faso,Republican,New York,19,NY,NY_19,R,1,2,New York 19,John Faso,2017.0,1952.0,0.0,0.0,0.0,0.0,66.0
+531,New York 20,Paul Tonko,Democratic,2008.0,Paul Tonko,Democratic,New York,20,NY,NY_20,D,1,10,New York 20,Paul Tonko,2009.0,1949.0,0.0,0.0,0.0,0.0,69.0
+532,New York 20,Paul Tonko,Democratic,2008.0,Francis Vitollo,Republican,New York,20,NY,NY_20,R,0,0,,,,,,,,,
+533,New York 21,Elise Stefanik,Republican,2014.0,Tedra Cobb,Democratic,New York,21,NY,NY_21,D,0,0,,,,,,,,,
+534,New York 21,Elise Stefanik,Republican,2014.0,Elise Stefanik,Republican,New York,21,NY,NY_21,R,1,4,New York 21,Elise Stefanik,2015.0,1984.0,1.0,0.0,0.0,0.0,34.0
+535,New York 22,Claudia Tenney,Republican,2016.0,Anthony Brindisi,Democratic,New York,22,NY,NY_22,D,0,0,,,,,,,,,
+536,New York 22,Claudia Tenney,Republican,2016.0,Claudia Tenney,Republican,New York,22,NY,NY_22,R,1,2,New York 22,Claudia Tenney,2017.0,1961.0,1.0,0.0,0.0,0.0,57.0
+537,New York 23,Tom Reed,Republican,2010.0,Tracy Mitrano,Democratic,New York,23,NY,NY_23,D,0,0,,,,,,,,,
+538,New York 23,Tom Reed,Republican,2010.0,Tom Reed,Republican,New York,23,NY,NY_23,R,1,8,New York 23,Tom Reed,2010.0,1971.0,0.0,0.0,0.0,0.0,47.0
+539,New York 24,John Katko,Republican,2014.0,Dana Balter,Democratic,New York,24,NY,NY_24,D,0,0,,,,,,,,,
+540,New York 24,John Katko,Republican,2014.0,John Katko,Republican,New York,24,NY,NY_24,R,1,4,New York 24,John Katko,2015.0,1962.0,0.0,0.0,0.0,0.0,56.0
+541,New York 25,,,,Jim Maxwell,Republican,New York,25,NY,NY_25,R,0,0,,,,,,,,,
+542,New York 25,,,,Joe Morelle,Democratic,New York,25,NY,NY_25,D,0,0,,,,,,,,,
+543,New York 26,Brian Higgins,Democratic,2004.0,Brian Higgins,Democratic,New York,26,NY,NY_26,D,1,14,New York 26,Brian Higgins,2005.0,1959.0,0.0,0.0,0.0,0.0,59.0
+544,New York 26,Brian Higgins,Democratic,2004.0,Renee Zeno,Republican,New York,26,NY,NY_26,R,0,0,,,,,,,,,
+545,New York 27,Chris Collins,Republican,2012.0,Chris Collins,Republican,New York,27,NY,NY_27,R,1,6,New York 27,Chris Collins,2013.0,1950.0,0.0,0.0,0.0,0.0,68.0
+546,New York 27,Chris Collins,Republican,2012.0,Nate McMurray,Democratic,New York,27,NY,NY_27,D,0,0,,,,,,,,,
+547,North Carolina 1,G. K. Butterfield,Democratic,2004.0,Roger Allison,Republican,North Carolina,1,NC,NC_1,R,0,0,,,,,,,,,
+548,North Carolina 1,G. K. Butterfield,Democratic,2004.0,G. K. Butterfield,Democratic,North Carolina,1,NC,NC_1,D,1,14,North Carolina 1,G. K. Butterfield,2004.0,1947.0,0.0,0.0,0.0,0.0,71.0
+549,North Carolina 2,George Holding,Republican,2012.0,Linda Coleman,Democratic,North Carolina,2,NC,NC_2,D,0,0,,,,,,,,,
+550,North Carolina 2,George Holding,Republican,2012.0,George Holding,Republican,North Carolina,2,NC,NC_2,R,1,6,North Carolina 2,George Holding,2013.0,1968.0,0.0,0.0,0.0,0.0,50.0
+551,North Carolina 3,Walter Jones,Republican,1994.0,Walter Jones,Republican,North Carolina,3,NC,NC_3,R,1,24,North Carolina 3,Walter Jones,1995.0,1943.0,0.0,0.0,0.0,0.0,75.0
+552,North Carolina 4,David Price,Democratic,1996.0,David Price,Democratic,North Carolina,4,NC,NC_4,D,1,22,North Carolina 4,David Price,1997.0,1940.0,0.0,0.0,0.0,0.0,78.0
+553,North Carolina 4,David Price,Democratic,1996.0,Steve Von Loor,Republican,North Carolina,4,NC,NC_4,R,0,0,,,,,,,,,
+554,North Carolina 5,Virginia Foxx,Republican,2004.0,DD Adams,Democratic,North Carolina,5,NC,NC_5,D,0,0,,,,,,,,,
+555,North Carolina 5,Virginia Foxx,Republican,2004.0,Virginia Foxx,Republican,North Carolina,5,NC,NC_5,R,1,14,North Carolina 5,Virginia Foxx,2005.0,1943.0,1.0,0.0,0.0,0.0,75.0
+556,North Carolina 6,Mark Walker,Republican,2014.0,Mark Walker,Republican,North Carolina,6,NC,NC_6,R,1,4,North Carolina 6,Mark Walker,2015.0,1969.0,0.0,0.0,0.0,0.0,49.0
+557,North Carolina 6,Mark Walker,Republican,2014.0,Ryan Watts,Democratic,North Carolina,6,NC,NC_6,D,0,0,,,,,,,,,
+558,North Carolina 7,David Rouzer,Republican,2014.0,Kyle Horton,Democratic,North Carolina,7,NC,NC_7,D,0,0,,,,,,,,,
+559,North Carolina 7,David Rouzer,Republican,2014.0,David Rouzer,Republican,North Carolina,7,NC,NC_7,R,1,4,North Carolina 7,David Rouzer,2015.0,1972.0,0.0,0.0,0.0,0.0,46.0
+560,North Carolina 8,Richard Hudson,Republican,2012.0,Richard Hudson,Republican,North Carolina,8,NC,NC_8,R,1,6,North Carolina 8,Richard Hudson,2013.0,1971.0,0.0,0.0,0.0,0.0,47.0
+561,North Carolina 8,Richard Hudson,Republican,2012.0,Frank McNeill,Democratic,North Carolina,8,NC,NC_8,D,0,0,,,,,,,,,
+562,North Carolina 9,Robert Pittenger,Republican,2012.0,Mark Harris,Republican,North Carolina,9,NC,NC_9,R,0,0,,,,,,,,,
+563,North Carolina 9,Robert Pittenger,Republican,2012.0,Dan McCready,Democratic,North Carolina,9,NC,NC_9,D,0,0,,,,,,,,,
+564,North Carolina 10,Patrick McHenry,Republican,2004.0,David Brown,Democratic,North Carolina,10,NC,NC_10,D,0,0,,,,,,,,,
+565,North Carolina 10,Patrick McHenry,Republican,2004.0,Patrick McHenry,Republican,North Carolina,10,NC,NC_10,R,1,14,North Carolina 10,Patrick McHenry,2005.0,1975.0,0.0,0.0,0.0,0.0,43.0
+566,North Carolina 11,Mark Meadows,Republican,2012.0,Mark Meadows,Republican,North Carolina,11,NC,NC_11,R,1,6,North Carolina 11,Mark Meadows,2013.0,1959.0,0.0,0.0,0.0,0.0,59.0
+567,North Carolina 11,Mark Meadows,Republican,2012.0,Phillip Price,Democratic,North Carolina,11,NC,NC_11,D,0,0,,,,,,,,,
+568,North Carolina 12,Alma Adams,Democratic,2014.0,Alma Adams,Democratic,North Carolina,12,NC,NC_12,D,1,4,North Carolina 12,Alma Adams,2014.0,1946.0,1.0,1.0,0.0,0.0,72.0
+569,North Carolina 12,Alma Adams,Democratic,2014.0,Paul Wright,Republican,North Carolina,12,NC,NC_12,R,0,0,,,,,,,,,
+570,North Carolina 13,Ted Budd,Republican,2016.0,Ted Budd,Republican,North Carolina,13,NC,NC_13,R,1,2,North Carolina 13,Ted Budd,2017.0,1971.0,0.0,0.0,0.0,0.0,47.0
+571,North Carolina 13,Ted Budd,Republican,2016.0,Kathy Manning,Democratic,North Carolina,13,NC,NC_13,D,0,0,,,,,,,,,
+572,North Dakota 1,Kevin Cramer,Republican,2012.0,Kelly Armstrong,Republican,North Dakota,1,ND,ND_1,R,0,0,,,,,,,,,
+573,North Dakota 1,Kevin Cramer,Republican,2012.0,Mac Schneider,Democratic,North Dakota,1,ND,ND_1,D,0,0,,,,,,,,,
+574,Ohio 1,Steve Chabot,Republican,2010.0,Steve Chabot,Republican,Ohio,1,OH,OH_1,R,1,8,Ohio 1,Steve Chabot,2011.0,1953.0,0.0,0.0,0.0,0.0,65.0
+575,Ohio 1,Steve Chabot,Republican,2010.0,Aftab Pureval,Democratic,Ohio,1,OH,OH_1,D,0,0,,,,,,,,,
+576,Ohio 2,Brad Wenstrup,Republican,2012.0,Jill Schiller,Democratic,Ohio,2,OH,OH_2,D,0,0,,,,,,,,,
+577,Ohio 2,Brad Wenstrup,Republican,2012.0,Brad Wenstrup,Republican,Ohio,2,OH,OH_2,R,1,6,Ohio 2,Brad Wenstrup,2013.0,1958.0,0.0,0.0,0.0,0.0,60.0
+578,Ohio 3,Joyce Beatty,Democratic,2012.0,Joyce Beatty,Democratic,Ohio,3,OH,OH_3,D,1,6,Ohio 3,Joyce Beatty,2013.0,1950.0,1.0,1.0,0.0,0.0,68.0
+579,Ohio 3,Joyce Beatty,Democratic,2012.0,James Burgess,Republican,Ohio,3,OH,OH_3,R,0,0,,,,,,,,,
+580,Ohio 4,Jim Jordan,Republican,2006.0,Janet Garrett,Democratic,Ohio,4,OH,OH_4,D,0,0,,,,,,,,,
+581,Ohio 4,Jim Jordan,Republican,2006.0,Jim Jordan,Republican,Ohio,4,OH,OH_4,R,1,12,Ohio 4,Jim Jordan,2007.0,1964.0,0.0,0.0,0.0,0.0,54.0
+582,Ohio 5,Bob Latta,Republican,2006.0,Michael Galbraith,Democratic,Ohio,5,OH,OH_5,D,0,0,,,,,,,,,
+583,Ohio 5,Bob Latta,Republican,2006.0,Bob Latta,Republican,Ohio,5,OH,OH_5,R,1,12,Ohio 5,Bob Latta,2007.0,1956.0,0.0,0.0,0.0,0.0,62.0
+584,Ohio 6,Bill Johnson,Republican,2010.0,Bill Johnson,Republican,Ohio,6,OH,OH_6,R,1,8,Ohio 6,Bill Johnson,2011.0,1954.0,0.0,0.0,0.0,0.0,64.0
+585,Ohio 6,Bill Johnson,Republican,2010.0,Shawna Roberts,Democratic,Ohio,6,OH,OH_6,D,0,0,,,,,,,,,
+586,Ohio 7,Bob Gibbs,Republican,2010.0,Bob Gibbs,Republican,Ohio,7,OH,OH_7,R,1,8,Ohio 7,Bob Gibbs,2011.0,1954.0,0.0,0.0,0.0,0.0,64.0
+587,Ohio 7,Bob Gibbs,Republican,2010.0,Ken Harbaugh,Democratic,Ohio,7,OH,OH_7,D,0,0,,,,,,,,,
+588,Ohio 8,Warren Davidson,Republican,2016.0,Warren Davidson,Republican,Ohio,8,OH,OH_8,R,1,2,Ohio 8,Warren Davidson,2016.0,1970.0,0.0,0.0,0.0,0.0,48.0
+589,Ohio 8,Warren Davidson,Republican,2016.0,Vanessa Enoch,Democratic,Ohio,8,OH,OH_8,D,0,0,,,,,,,,,
+590,Ohio 9,Marcy Kaptur,Democratic,1982.0,Marcy Kaptur,Democratic,Ohio,9,OH,OH_9,D,1,36,Ohio 9,Marcy Kaptur,1983.0,1946.0,1.0,0.0,0.0,0.0,72.0
+591,Ohio 9,Marcy Kaptur,Democratic,1982.0,Steve Kraus,Republican,Ohio,9,OH,OH_9,R,0,0,,,,,,,,,
+592,Ohio 10,Mike Turner,Republican,2002.0,Theresa Gasper,Democratic,Ohio,10,OH,OH_10,D,0,0,,,,,,,,,
+593,Ohio 10,Mike Turner,Republican,2002.0,Mike Turner,Republican,Ohio,10,OH,OH_10,R,1,16,Ohio 10,Mike Turner,2003.0,1960.0,0.0,0.0,0.0,0.0,58.0
+594,Ohio 11,Marcia Fudge,Democratic,2006.0,Marcia Fudge,Democratic,Ohio,11,OH,OH_11,D,1,12,Ohio 11,Marcia Fudge,2008.0,1952.0,1.0,1.0,0.0,0.0,66.0
+595,Ohio 11,Marcia Fudge,Democratic,2006.0,Beverly Goldstein,Republican,Ohio,11,OH,OH_11,R,0,0,,,,,,,,,
+596,Ohio 12,Troy Balderson,Republican,2018.0,Troy Balderson,Republican,Ohio,12,OH,OH_12,R,1,0,Ohio 12,Troy Balderson,2018.0,1962.0,0.0,0.0,0.0,0.0,56.0
+597,Ohio 12,Troy Balderson,Republican,2018.0,Danny O'Connor,Democratic,Ohio,12,OH,OH_12,D,0,0,,,,,,,,,
+598,Ohio 13,Tim Ryan,Democratic,2002.0,Chris DePizzo,Republican,Ohio,13,OH,OH_13,R,0,0,,,,,,,,,
+599,Ohio 13,Tim Ryan,Democratic,2002.0,Tim Ryan,Democratic,Ohio,13,OH,OH_13,D,1,16,Ohio 13,Tim Ryan,2003.0,1973.0,0.0,0.0,0.0,0.0,45.0
+600,Ohio 14,David Joyce,Republican,2012.0,David Joyce,Republican,Ohio,14,OH,OH_14,R,1,6,Ohio 14,David Joyce,2013.0,1957.0,0.0,0.0,0.0,0.0,61.0
+601,Ohio 14,David Joyce,Republican,2012.0,Betsy Rader,Democratic,Ohio,14,OH,OH_14,D,0,0,,,,,,,,,
+602,Ohio 15,Steve Stivers,Republican,2010.0,Rick Neal,Democratic,Ohio,15,OH,OH_15,D,0,0,,,,,,,,,
+603,Ohio 15,Steve Stivers,Republican,2010.0,Steve Stivers,Republican,Ohio,15,OH,OH_15,R,1,8,Ohio 15,Steve Stivers,2011.0,1965.0,0.0,0.0,0.0,0.0,53.0
+604,Ohio 16,Jim Renacci,Republican,2010.0,Anthony Gonzalez,Republican,Ohio,16,OH,OH_16,R,0,0,,,,,,,,,
+605,Ohio 16,Jim Renacci,Republican,2010.0,Susan Moran Palmer,Democratic,Ohio,16,OH,OH_16,D,0,0,,,,,,,,,
+606,Oklahoma 1,Jim Bridenstine,Republican,2012.0,Tim Gilpin,Democratic,Oklahoma,1,OK,OK_1,D,0,0,,,,,,,,,
+607,Oklahoma 1,Jim Bridenstine,Republican,2012.0,Kevin Hern,Republican,Oklahoma,1,OK,OK_1,R,0,0,,,,,,,,,
+608,Oklahoma 2,Markwayne Mullin,Republican,2012.0,Markwayne Mullin,Republican,Oklahoma,2,OK,OK_2,R,1,6,Oklahoma 2,Markwayne Mullin,2013.0,1977.0,0.0,0.0,0.0,0.0,41.0
+609,Oklahoma 2,Markwayne Mullin,Republican,2012.0,Jason Nichols,Democratic,Oklahoma,2,OK,OK_2,D,0,0,,,,,,,,,
+610,Oklahoma 3,Frank Lucas,Republican,1994.0,Frank Lucas,Republican,Oklahoma,3,OK,OK_3,R,1,24,Oklahoma 3,Frank Lucas,1994.0,1960.0,0.0,0.0,0.0,0.0,58.0
+611,Oklahoma 3,Frank Lucas,Republican,1994.0,Frankie Robbins,Democratic,Oklahoma,3,OK,OK_3,D,0,0,,,,,,,,,
+612,Oklahoma 4,Tom Cole,Republican,2002.0,Mary Brannon,Democratic,Oklahoma,4,OK,OK_4,D,0,0,,,,,,,,,
+613,Oklahoma 4,Tom Cole,Republican,2002.0,Tom Cole,Republican,Oklahoma,4,OK,OK_4,R,1,16,Oklahoma 4,Tom Cole,2003.0,1949.0,0.0,0.0,0.0,0.0,69.0
+614,Oklahoma 5,Steve Russell,Republican,2014.0,Kendra Horn,Democratic,Oklahoma,5,OK,OK_5,D,0,0,,,,,,,,,
+615,Oklahoma 5,Steve Russell,Republican,2014.0,Steve Russell,Republican,Oklahoma,5,OK,OK_5,R,1,4,Oklahoma 5,Steve Russell,2015.0,1963.0,0.0,0.0,0.0,0.0,55.0
+616,Oregon 1,Suzanne Bonamici,Democratic,2012.0,Suzanne Bonamici,Democratic,Oregon,1,OR,OR_1,D,1,6,Oregon 1,Suzanne Bonamici,2012.0,1954.0,1.0,0.0,0.0,0.0,64.0
+617,Oregon 1,Suzanne Bonamici,Democratic,2012.0,John Verbeek,Republican,Oregon,1,OR,OR_1,R,0,0,,,,,,,,,
+618,Oregon 2,Greg Walden,Republican,1998.0,Jamie McLeod-Skinner,Democratic,Oregon,2,OR,OR_2,D,0,0,,,,,,,,,
+619,Oregon 2,Greg Walden,Republican,1998.0,Greg Walden,Republican,Oregon,2,OR,OR_2,R,1,20,Oregon 2,Greg Walden,1999.0,1957.0,0.0,0.0,0.0,0.0,61.0
+620,Oregon 3,Earl Blumenauer,Democratic,1996.0,Earl Blumenauer,Democratic,Oregon,3,OR,OR_3,D,1,22,Oregon 3,Earl Blumenauer,1996.0,1948.0,0.0,0.0,0.0,0.0,70.0
+621,Oregon 4,Peter DeFazio,Democratic,1986.0,Peter DeFazio,Democratic,Oregon,4,OR,OR_4,D,1,32,Oregon 4,Peter DeFazio,1987.0,1947.0,0.0,0.0,0.0,0.0,71.0
+622,Oregon 4,Peter DeFazio,Democratic,1986.0,Art Robinson,Republican,Oregon,4,OR,OR_4,R,0,0,,,,,,,,,
+623,Oregon 5,Kurt Schrader,Democratic,2008.0,Mark Callahan,Republican,Oregon,5,OR,OR_5,R,0,0,,,,,,,,,
+624,Oregon 5,Kurt Schrader,Democratic,2008.0,Kurt Schrader,Democratic,Oregon,5,OR,OR_5,D,1,10,Oregon 5,Kurt Schrader,2009.0,1951.0,0.0,0.0,0.0,0.0,67.0
+625,Pennsylvania 1,"Brian Fitzpatrick
+Redistricted from the 8th district",Republican,2016.0,Brian Fitzpatrick,Republican,Pennsylvania,1,PA,PA_1,R,0,0,Pennsylvania 8,Brian Fitzpatrick,2017.0,1973.0,0.0,0.0,0.0,0.0,45.0
+626,Pennsylvania 1,"Brian Fitzpatrick
+Redistricted from the 8th district",Republican,2016.0,Scott Wallace,Democratic,Pennsylvania,1,PA,PA_1,D,0,0,,,,,,,,,
+627,Pennsylvania 2,"Brendan Boyle
+Redistricted from the 13th district",Democratic,2014.0,Brendan Boyle,Democratic,Pennsylvania,2,PA,PA_2,D,0,0,,,,,,,,,
+628,Pennsylvania 2,"Brendan Boyle
+Redistricted from the 13th district",Democratic,2014.0,David Torres,Republican,Pennsylvania,2,PA,PA_2,R,0,0,,,,,,,,,
+629,Pennsylvania 3,Dwight Evans,Democratic,2016.0,Dwight Evans,Democratic,Pennsylvania,3,PA,PA_3,D,1,2,Pennsylvania 2,Dwight Evans,2016.0,1954.0,0.0,1.0,0.0,0.0,64.0
+630,Pennsylvania 3,Dwight Evans,Democratic,2016.0,Bryan Leib,Republican,Pennsylvania,3,PA,PA_3,R,0,0,,,,,,,,,
+631,Pennsylvania 4,,,,Dan David,Republican,Pennsylvania,4,PA,PA_4,R,0,0,,,,,,,,,
+632,Pennsylvania 4,,,,Madeleine Dean,Democratic,Pennsylvania,4,PA,PA_4,D,0,0,,,,,,,,,
+633,Pennsylvania 5,Pat Meehan,Republican,2010.0,Pearl Kim,Republican,Pennsylvania,5,PA,PA_5,R,0,0,,,,,,,,,
+634,Pennsylvania 5,Pat Meehan,Republican,2010.0,Mary Gay Scanlon,Democratic,Pennsylvania,5,PA,PA_5,D,0,0,,,,,,,,,
+635,Pennsylvania 6,Ryan Costello,Republican,2014.0,Chrissy Houlahan,Democratic,Pennsylvania,6,PA,PA_6,D,0,0,,,,,,,,,
+636,Pennsylvania 6,Ryan Costello,Republican,2014.0,Greg McCauley,Republican,Pennsylvania,6,PA,PA_6,R,0,0,,,,,,,,,
+637,Pennsylvania 7,Charlie Dent,Republican,2004.0,Marty Nothstein,Republican,Pennsylvania,7,PA,PA_7,R,0,0,,,,,,,,,
+638,Pennsylvania 7,Charlie Dent,Republican,2004.0,Susan Wild,Democratic,Pennsylvania,7,PA,PA_7,D,0,0,,,,,,,,,
+639,Pennsylvania 8,"Matt Cartwright
+Redistricted from the 17th district",Democratic,2012.0,Matt Cartwright,Democratic,Pennsylvania,8,PA,PA_8,D,0,0,Pennsylvania 17,Matt Cartwright,2013.0,1961.0,0.0,0.0,0.0,0.0,57.0
+640,Pennsylvania 8,"Matt Cartwright
+Redistricted from the 17th district",Democratic,2012.0,John Chrin,Republican,Pennsylvania,8,PA,PA_8,R,0,0,,,,,,,,,
+641,Pennsylvania 9,"Lou Barletta
+Redistricted from the 11th district",Republican,2010.0,Dan Meuser,Republican,Pennsylvania,9,PA,PA_9,R,0,0,,,,,,,,,
+642,Pennsylvania 9,"Lou Barletta
+Redistricted from the 11th district",Republican,2010.0,Denny Wolff,Democratic,Pennsylvania,9,PA,PA_9,D,0,0,,,,,,,,,
+643,Pennsylvania 10,"Scott Perry
+Redistricted from the 4th district",Republican,2012.0,Scott Perry,Republican,Pennsylvania,10,PA,PA_10,R,0,0,Pennsylvania 4,Scott Perry,2013.0,1962.0,0.0,0.0,0.0,0.0,56.0
+644,Pennsylvania 10,"Scott Perry
+Redistricted from the 4th district",Republican,2012.0,George Scott,Democratic,Pennsylvania,10,PA,PA_10,D,0,0,,,,,,,,,
+645,Pennsylvania 11,"Lloyd Smucker
+Redistricted from the 16th district",Republican,2016.0,Jess King,Democratic,Pennsylvania,11,PA,PA_11,D,0,0,,,,,,,,,
+646,Pennsylvania 11,"Lloyd Smucker
+Redistricted from the 16th district",Republican,2016.0,Lloyd Smucker,Republican,Pennsylvania,11,PA,PA_11,R,0,0,Pennsylvania 16,Lloyd Smucker,2017.0,1964.0,0.0,0.0,0.0,0.0,54.0
+647,Pennsylvania 12,"Tom Marino
+Redistricted from the 10th district",Republican,2010.0,Marc Friedenberg,Democratic,Pennsylvania,12,PA,PA_12,D,0,0,,,,,,,,,
+648,Pennsylvania 12,"Tom Marino
+Redistricted from the 10th district",Republican,2010.0,Tom Marino,Republican,Pennsylvania,12,PA,PA_12,R,0,0,Pennsylvania 10,Tom Marino,2011.0,1952.0,0.0,0.0,0.0,0.0,66.0
+649,Pennsylvania 13,"Bill Shuster
+Redistricted from the 9th district",Republican,2002.0,John Joyce,Republican,Pennsylvania,13,PA,PA_13,R,0,0,,,,,,,,,
+650,Pennsylvania 13,"Bill Shuster
+Redistricted from the 9th district",Republican,2002.0,Brent Ottaway,Democratic,Pennsylvania,13,PA,PA_13,D,0,0,,,,,,,,,
+651,Pennsylvania 14,,,,Bibiana Boerio,Democratic,Pennsylvania,14,PA,PA_14,D,0,0,,,,,,,,,
+652,Pennsylvania 14,,,,Guy Reschenthaler,Republican,Pennsylvania,14,PA,PA_14,R,0,0,,,,,,,,,
+653,Pennsylvania 15,"Glenn Thompson
+Redistricted from the 5th district",Republican,2008.0,Susan Boser,Democratic,Pennsylvania,15,PA,PA_15,D,0,0,,,,,,,,,
+654,Pennsylvania 15,"Glenn Thompson
+Redistricted from the 5th district",Republican,2008.0,Glenn Thompson,Republican,Pennsylvania,15,PA,PA_15,R,0,0,Pennsylvania 5,Glenn Thompson,2009.0,1959.0,0.0,0.0,0.0,0.0,59.0
+655,Pennsylvania 16,"Mike Kelly
+Redistricted from the 3rd district",Republican,2010.0,Mike Kelly,Republican,Pennsylvania,16,PA,PA_16,R,0,0,Pennsylvania 3,Mike Kelly,2011.0,1948.0,0.0,0.0,0.0,0.0,70.0
+656,Pennsylvania 16,"Mike Kelly
+Redistricted from the 3rd district",Republican,2010.0,Ron DiNicola,Democratic,Pennsylvania,16,PA,PA_16,D,0,0,,,,,,,,,
+657,Pennsylvania 17,"Keith Rothfus
+Redistricted from the 12th district",Republican,2012.0,Conor Lamb,Democratic,Pennsylvania,17,PA,PA_17,D,0,0,Pennsylvania 18,Conor Lamb,2018.0,1984.0,0.0,0.0,0.0,0.0,34.0
+658,Pennsylvania 17,"Keith Rothfus
+Redistricted from the 12th district",Republican,2012.0,Keith Rothfus,Republican,Pennsylvania,17,PA,PA_17,R,0,0,Pennsylvania 12,Keith Rothfus,2013.0,1962.0,0.0,0.0,0.0,0.0,56.0
+659,Pennsylvania 18,"Mike Doyle
+Redistricted from the 14th district",Democratic,1994.0,Mike Doyle,Democratic,Pennsylvania,18,PA,PA_18,D,0,0,,,,,,,,,
+660,Rhode Island 1,David Cicilline,Democratic,2010.0,David Cicilline,Democratic,Rhode Island,1,RI,RI_1,D,1,8,Rhode Island 1,David Cicilline,2011.0,1961.0,0.0,0.0,0.0,0.0,57.0
+661,Rhode Island 1,David Cicilline,Democratic,2010.0,Patrick Donovan,Republican,Rhode Island,1,RI,RI_1,R,0,0,,,,,,,,,
+662,Rhode Island 2,James Langevin,Democratic,2000.0,Sal Caiozzo,Republican,Rhode Island,2,RI,RI_2,R,0,0,,,,,,,,,
+663,Rhode Island 2,James Langevin,Democratic,2000.0,James Langevin,Democratic,Rhode Island,2,RI,RI_2,D,1,18,,,,,,,,,
+664,South Carolina 1,Mark Sanford,Republican,2013.0,Katie Arrington,Republican,South Carolina,1,SC,SC_1,R,0,0,,,,,,,,,
+665,South Carolina 1,Mark Sanford,Republican,2013.0,Joe Cunningham,Democratic,South Carolina,1,SC,SC_1,D,0,0,,,,,,,,,
+666,South Carolina 2,Joe Wilson,Republican,2001.0,Sean Carrigan,Democratic,South Carolina,2,SC,SC_2,D,0,0,,,,,,,,,
+667,South Carolina 2,Joe Wilson,Republican,2001.0,Joe Wilson,Republican,South Carolina,2,SC,SC_2,R,1,17,South Carolina 2,Joe Wilson,2001.0,1947.0,0.0,0.0,0.0,0.0,71.0
+668,South Carolina 3,Jeff Duncan,Republican,2010.0,Jeff Duncan,Republican,South Carolina,3,SC,SC_3,R,1,8,South Carolina 3,Jeff Duncan,2011.0,1966.0,0.0,0.0,0.0,0.0,52.0
+669,South Carolina 3,Jeff Duncan,Republican,2010.0,Mary Geren,Democratic,South Carolina,3,SC,SC_3,D,0,0,,,,,,,,,
+670,South Carolina 4,Trey Gowdy,Republican,2010.0,Brandon Brown,Democratic,South Carolina,4,SC,SC_4,D,0,0,,,,,,,,,
+671,South Carolina 4,Trey Gowdy,Republican,2010.0,William Timmons,Republican,South Carolina,4,SC,SC_4,R,0,0,,,,,,,,,
+672,South Carolina 5,Ralph Norman,Republican,2017.0,Ralph Norman,Republican,South Carolina,5,SC,SC_5,R,1,1,South Carolina 5,Ralph Norman,2017.0,1953.0,0.0,0.0,0.0,0.0,65.0
+673,South Carolina 5,Ralph Norman,Republican,2017.0,Archie Parnell,Democratic,South Carolina,5,SC,SC_5,D,0,0,,,,,,,,,
+674,South Carolina 6,Jim Clyburn,Democratic,1992.0,Jim Clyburn,Democratic,South Carolina,6,SC,SC_6,D,1,26,South Carolina 6,Jim Clyburn,1993.0,1940.0,0.0,1.0,0.0,0.0,78.0
+675,South Carolina 6,Jim Clyburn,Democratic,1992.0,Gerhard Gressmann,Republican,South Carolina,6,SC,SC_6,R,0,0,,,,,,,,,
+676,South Carolina 7,Tom Rice,Republican,2012.0,Tom Rice,Republican,South Carolina,7,SC,SC_7,R,1,6,South Carolina 7,Tom Rice,2013.0,1957.0,0.0,0.0,0.0,0.0,61.0
+677,South Carolina 7,Tom Rice,Republican,2012.0,Robert Williams,Democratic,South Carolina,7,SC,SC_7,D,0,0,,,,,,,,,
+678,South Dakota 1,Kristi Noem,Republican,2010.0,Tim Bjorkman,Democratic,South Dakota,1,SD,SD_1,D,0,0,,,,,,,,,
+679,South Dakota 1,Kristi Noem,Republican,2010.0,Dusty Johnson,Republican,South Dakota,1,SD,SD_1,R,0,0,,,,,,,,,
+680,Tennessee 1,Phil Roe,Republican,2008.0,Marty Olsen,Democratic,Tennessee,1,TN,TN_1,D,0,0,,,,,,,,,
+681,Tennessee 1,Phil Roe,Republican,2008.0,Phil Roe,Republican,Tennessee,1,TN,TN_1,R,1,10,Tennessee 1,Phil Roe,2009.0,1945.0,0.0,0.0,0.0,0.0,73.0
+682,Tennessee 2,Jimmy Duncan,Republican,1988.0,Tim Burchett,Republican,Tennessee,2,TN,TN_2,R,0,0,,,,,,,,,
+683,Tennessee 2,Jimmy Duncan,Republican,1988.0,Renee Hoyos,Democratic,Tennessee,2,TN,TN_2,D,0,0,,,,,,,,,
+684,Tennessee 3,Chuck Fleischmann,Republican,2010.0,Chuck Fleischmann,Republican,Tennessee,3,TN,TN_3,R,1,8,Tennessee 3,Chuck Fleischmann,2011.0,1962.0,0.0,0.0,0.0,0.0,56.0
+685,Tennessee 3,Chuck Fleischmann,Republican,2010.0,Danielle Mitchell,Democratic,Tennessee,3,TN,TN_3,D,0,0,,,,,,,,,
+686,Tennessee 4,Scott DesJarlais,Republican,2010.0,Scott DesJarlais,Republican,Tennessee,4,TN,TN_4,R,1,8,Tennessee 4,Scott DesJarlais,2011.0,1964.0,0.0,0.0,0.0,0.0,54.0
+687,Tennessee 4,Scott DesJarlais,Republican,2010.0,Mariah Phillips,Democratic,Tennessee,4,TN,TN_4,D,0,0,,,,,,,,,
+688,Tennessee 5,Jim Cooper,Democratic,2002.0,Jody Ball,Republican,Tennessee,5,TN,TN_5,R,0,0,,,,,,,,,
+689,Tennessee 5,Jim Cooper,Democratic,2002.0,Jim Cooper,Democratic,Tennessee,5,TN,TN_5,D,1,16,Tennessee 5,Jim Cooper,2003.0,1954.0,0.0,0.0,0.0,0.0,64.0
+690,Tennessee 6,Diane Black,Republican,2010.0,Dawn Barlow,Democratic,Tennessee,6,TN,TN_6,D,0,0,,,,,,,,,
+691,Tennessee 6,Diane Black,Republican,2010.0,John Rose,Republican,Tennessee,6,TN,TN_6,R,0,0,,,,,,,,,
+692,Tennessee 7,Marsha Blackburn,Republican,2002.0,Mark Green,Republican,Tennessee,7,TN,TN_7,R,0,0,,,,,,,,,
+693,Tennessee 7,Marsha Blackburn,Republican,2002.0,Justin Kanew,Democratic,Tennessee,7,TN,TN_7,D,0,0,,,,,,,,,
+694,Tennessee 8,David Kustoff,Republican,2016.0,John Boatner,Democratic,Tennessee,8,TN,TN_8,D,0,0,,,,,,,,,
+695,Tennessee 8,David Kustoff,Republican,2016.0,David Kustoff,Republican,Tennessee,8,TN,TN_8,R,1,2,Tennessee 8,David Kustoff,2017.0,1966.0,0.0,0.0,0.0,0.0,52.0
+696,Tennessee 8,David Kustoff,Republican,2016.0,Erika Stotts Pearson,Democratic,Tennessee,8,TN,TN_8,D,0,0,,,,,,,,,
+697,Tennessee 9,Steve Cohen,Democratic,2006.0,Charlotte Bergmann,Republican,Tennessee,9,TN,TN_9,R,0,0,,,,,,,,,
+698,Tennessee 9,Steve Cohen,Democratic,2006.0,Steve Cohen,Democratic,Tennessee,9,TN,TN_9,D,1,12,Tennessee 9,Steve Cohen,2007.0,1949.0,0.0,0.0,0.0,0.0,69.0
+699,Texas 1,Louie Gohmert,Republican,2004.0,Louie Gohmert,Republican,Texas,1,TX,TX_1,R,1,14,Texas 1,Louie Gohmert,2005.0,1953.0,0.0,0.0,0.0,0.0,65.0
+700,Texas 1,Louie Gohmert,Republican,2004.0,Shirley McKellar,Democratic,Texas,1,TX,TX_1,D,0,0,,,,,,,,,
+701,Texas 2,Ted Poe,Republican,2004.0,Dan Crenshaw,Republican,Texas,2,TX,TX_2,R,0,0,,,,,,,,,
+702,Texas 2,Ted Poe,Republican,2004.0,Todd Litton,Democratic,Texas,2,TX,TX_2,D,0,0,,,,,,,,,
+703,Texas 3,Sam Johnson,Republican,1991.0,Lorie Burch,Democratic,Texas,3,TX,TX_3,D,0,0,,,,,,,,,
+704,Texas 3,Sam Johnson,Republican,1991.0,Van Taylor,Republican,Texas,3,TX,TX_3,R,0,0,,,,,,,,,
+705,Texas 4,John Ratcliffe,Republican,2014.0,Catherine Krantz,Democratic,Texas,4,TX,TX_4,D,0,0,,,,,,,,,
+706,Texas 4,John Ratcliffe,Republican,2014.0,John Ratcliffe,Republican,Texas,4,TX,TX_4,R,1,4,Texas 4,John Ratcliffe,2015.0,1965.0,0.0,0.0,0.0,0.0,53.0
+707,Texas 5,Jeb Hensarling,Republican,2002.0,Lance Gooden,Republican,Texas,5,TX,TX_5,R,0,0,,,,,,,,,
+708,Texas 5,Jeb Hensarling,Republican,2002.0,Dan Wood,Democratic,Texas,5,TX,TX_5,D,0,0,,,,,,,,,
+709,Texas 6,Joe Barton,Republican,1984.0,Jana Lynne Sanchez,Democratic,Texas,6,TX,TX_6,D,0,0,,,,,,,,,
+710,Texas 6,Joe Barton,Republican,1984.0,Ron Wright,Republican,Texas,6,TX,TX_6,R,0,0,,,,,,,,,
+711,Texas 7,John Culberson,Republican,2000.0,John Culberson,Republican,Texas,7,TX,TX_7,R,1,18,Texas 7,John Culberson,2001.0,1956.0,0.0,0.0,0.0,0.0,62.0
+712,Texas 7,John Culberson,Republican,2000.0,Lizzie Pannill Fletcher,Democratic,Texas,7,TX,TX_7,D,0,0,,,,,,,,,
+713,Texas 8,Kevin Brady,Republican,1996.0,Kevin Brady,Republican,Texas,8,TX,TX_8,R,1,22,Texas 8,Kevin Brady,1997.0,1955.0,0.0,0.0,0.0,0.0,63.0
+714,Texas 8,Kevin Brady,Republican,1996.0,Steven David,Democratic,Texas,8,TX,TX_8,D,0,0,,,,,,,,,
+715,Texas 9,Al Green,Democratic,2004.0,Al Green,Democratic,Texas,9,TX,TX_9,D,1,14,Texas 9,Al Green,2005.0,1947.0,0.0,1.0,0.0,0.0,71.0
+716,Texas 10,Michael McCaul,Republican,2004.0,Michael McCaul,Republican,Texas,10,TX,TX_10,R,1,14,Texas 10,Michael McCaul,2005.0,1962.0,0.0,0.0,0.0,0.0,56.0
+717,Texas 10,Michael McCaul,Republican,2004.0,Mike Siegel,Democratic,Texas,10,TX,TX_10,D,0,0,,,,,,,,,
+718,Texas 11,Mike Conaway,Republican,2004.0,Mike Conaway,Republican,Texas,11,TX,TX_11,R,1,14,Texas 11,Mike Conaway,2005.0,1948.0,0.0,0.0,0.0,0.0,70.0
+719,Texas 11,Mike Conaway,Republican,2004.0,Jennie Lou Leeder,Democratic,Texas,11,TX,TX_11,D,0,0,,,,,,,,,
+720,Texas 12,Kay Granger,Republican,1996.0,Vanessa Adia,Democratic,Texas,12,TX,TX_12,D,0,0,,,,,,,,,
+721,Texas 12,Kay Granger,Republican,1996.0,Kay Granger,Republican,Texas,12,TX,TX_12,R,1,22,Texas 12,Kay Granger,1997.0,1943.0,1.0,0.0,0.0,0.0,75.0
+722,Texas 13,Mac Thornberry,Republican,1994.0,Greg Sagan,Democratic,Texas,13,TX,TX_13,D,0,0,,,,,,,,,
+723,Texas 13,Mac Thornberry,Republican,1994.0,Mac Thornberry,Republican,Texas,13,TX,TX_13,R,1,24,Texas 13,Mac Thornberry,1995.0,1958.0,0.0,0.0,0.0,0.0,60.0
+724,Texas 14,Randy Weber,Republican,2012.0,Adrienne Bell,Democratic,Texas,14,TX,TX_14,D,0,0,,,,,,,,,
+725,Texas 14,Randy Weber,Republican,2012.0,Randy Weber,Republican,Texas,14,TX,TX_14,R,1,6,Texas 14,Randy Weber,2013.0,1953.0,0.0,0.0,0.0,0.0,65.0
+726,Texas 15,Vicente González,Democratic,2016.0,Vicente González,Democratic,Texas,15,TX,TX_15,D,1,2,Texas 15,Vicente González,2017.0,1967.0,0.0,0.0,1.0,0.0,51.0
+727,Texas 15,Vicente González,Democratic,2016.0,Tim Westley,Republican,Texas,15,TX,TX_15,R,0,0,,,,,,,,,
+728,Texas 16,Beto O'Rourke,Democratic,2012.0,Veronica Escobar,Democratic,Texas,16,TX,TX_16,D,0,0,,,,,,,,,
+729,Texas 16,Beto O'Rourke,Democratic,2012.0,Rick Seeberger,Republican,Texas,16,TX,TX_16,R,0,0,,,,,,,,,
+730,Texas 17,Bill Flores,Republican,2010.0,Bill Flores,Republican,Texas,17,TX,TX_17,R,1,8,Texas 17,Bill Flores,2011.0,1954.0,0.0,0.0,0.0,0.0,64.0
+731,Texas 17,Bill Flores,Republican,2010.0,Rick Kennedy,Democratic,Texas,17,TX,TX_17,D,0,0,,,,,,,,,
+732,Texas 18,Sheila Jackson Lee,Democratic,1994.0,Sheila Jackson Lee,Democratic,Texas,18,TX,TX_18,D,1,24,Texas 18,Sheila Jackson Lee,1995.0,1950.0,1.0,1.0,0.0,0.0,68.0
+733,Texas 18,Sheila Jackson Lee,Democratic,1994.0,Ava Pate,Republican,Texas,18,TX,TX_18,R,0,0,,,,,,,,,
+734,Texas 19,Jodey Arrington,Republican,2016.0,Jodey Arrington,Republican,Texas,19,TX,TX_19,R,1,2,Texas 19,Jodey Arrington,2017.0,1972.0,0.0,0.0,0.0,0.0,46.0
+735,Texas 19,Jodey Arrington,Republican,2016.0,Miguel Levario,Democratic,Texas,19,TX,TX_19,D,0,0,,,,,,,,,
+736,Texas 20,Joaquín Castro,Democratic,2012.0,Joaquín Castro,Democratic,Texas,20,TX,TX_20,D,1,6,Texas 20,Joaquín Castro,2013.0,1974.0,0.0,0.0,1.0,0.0,44.0
+737,Texas 21,Lamar Smith,Republican,1986.0,Joseph Kopser,Democratic,Texas,21,TX,TX_21,D,0,0,,,,,,,,,
+738,Texas 21,Lamar Smith,Republican,1986.0,Chip Roy,Republican,Texas,21,TX,TX_21,R,0,0,,,,,,,,,
+739,Texas 22,Pete Olson,Republican,2008.0,Sri Preston Kulkarni,Democratic,Texas,22,TX,TX_22,D,0,0,,,,,,,,,
+740,Texas 22,Pete Olson,Republican,2008.0,Pete Olson,Republican,Texas,22,TX,TX_22,R,1,10,Texas 22,Pete Olson,2009.0,1962.0,0.0,0.0,0.0,0.0,56.0
+741,Texas 23,Will Hurd,Republican,2014.0,Will Hurd,Republican,Texas,23,TX,TX_23,R,1,4,Texas 23,Will Hurd,2015.0,1977.0,0.0,1.0,0.0,0.0,41.0
+742,Texas 23,Will Hurd,Republican,2014.0,Gina Ortiz Jones,Democratic,Texas,23,TX,TX_23,D,0,0,,,,,,,,,
+743,Texas 24,Kenny Marchant,Republican,2004.0,Kenny Marchant,Republican,Texas,24,TX,TX_24,R,1,14,Texas 24,Kenny Marchant,2005.0,1951.0,0.0,0.0,0.0,0.0,67.0
+744,Texas 24,Kenny Marchant,Republican,2004.0,Jan McDowell,Democratic,Texas,24,TX,TX_24,D,0,0,,,,,,,,,
+745,Texas 25,Roger Williams,Republican,2012.0,Julie Oliver,Democratic,Texas,25,TX,TX_25,D,0,0,,,,,,,,,
+746,Texas 25,Roger Williams,Republican,2012.0,Roger Williams,Republican,Texas,25,TX,TX_25,R,1,6,Texas 25,Roger Williams,2013.0,1949.0,0.0,0.0,0.0,0.0,69.0
+747,Texas 26,Michael Burgess,Republican,2002.0,Michael Burgess,Republican,Texas,26,TX,TX_26,R,1,16,Texas 26,Michael Burgess,2003.0,1950.0,0.0,0.0,0.0,0.0,68.0
+748,Texas 26,Michael Burgess,Republican,2002.0,Linsey Fagan,Democratic,Texas,26,TX,TX_26,D,0,0,,,,,,,,,
+749,Texas 27,Michael Cloud,Republican,2018.0,Michael Cloud,Republican,Texas,27,TX,TX_27,R,1,0,Texas 27,Michael Cloud,2018.0,1975.0,0.0,0.0,0.0,0.0,43.0
+750,Texas 27,Michael Cloud,Republican,2018.0,Eric Holguin,Democratic,Texas,27,TX,TX_27,D,0,0,,,,,,,,,
+751,Texas 28,Henry Cuellar,Democratic,2004.0,Henry Cuellar,Democratic,Texas,28,TX,TX_28,D,1,14,Texas 28,Henry Cuellar,2005.0,1955.0,0.0,0.0,1.0,0.0,63.0
+752,Texas 29,Gene Green,Democratic,1992.0,Phillip Aronoff,Republican,Texas,29,TX,TX_29,R,0,0,,,,,,,,,
+753,Texas 29,Gene Green,Democratic,1992.0,Sylvia Garcia,Democratic,Texas,29,TX,TX_29,D,0,0,,,,,,,,,
+754,Texas 30,Eddie Bernice Johnson,Democratic,1992.0,Eddie Bernice Johnson,Democratic,Texas,30,TX,TX_30,D,1,26,,,,,,,,,
+755,Texas 31,John Carter,Republican,2002.0,John Carter,Republican,Texas,31,TX,TX_31,R,1,16,Texas 31,John Carter,2003.0,1941.0,0.0,0.0,0.0,0.0,77.0
+756,Texas 31,John Carter,Republican,2002.0,Mary Jennings Hegar,Democratic,Texas,31,TX,TX_31,D,0,0,,,,,,,,,
+757,Texas 32,Pete Sessions,Republican,1996.0,Colin Allred,Democratic,Texas,32,TX,TX_32,D,0,0,,,,,,,,,
+758,Texas 32,Pete Sessions,Republican,1996.0,Pete Sessions,Republican,Texas,32,TX,TX_32,R,1,22,Texas 32,Pete Sessions,1997.0,1955.0,0.0,0.0,0.0,0.0,63.0
+759,Texas 33,Marc Veasey,Democratic,2012.0,Willie Billups,Republican,Texas,33,TX,TX_33,R,0,0,,,,,,,,,
+760,Texas 33,Marc Veasey,Democratic,2012.0,Marc Veasey,Democratic,Texas,33,TX,TX_33,D,1,6,Texas 33,Marc Veasey,2013.0,1971.0,0.0,1.0,0.0,0.0,47.0
+761,Texas 34,Filemon Vela Jr.,Democratic,2012.0,Rey Gonzalez,Republican,Texas,34,TX,TX_34,R,0,0,,,,,,,,,
+762,Texas 34,Filemon Vela Jr.,Democratic,2012.0,Filemon Vela Jr.,Democratic,Texas,34,TX,TX_34,D,1,6,Texas 34,Filemon Vela Jr.,2013.0,1963.0,0.0,0.0,1.0,0.0,55.0
+763,Texas 35,Lloyd Doggett,Democratic,1994.0,Lloyd Doggett,Democratic,Texas,35,TX,TX_35,D,1,24,Texas 35,Lloyd Doggett,1995.0,1946.0,0.0,0.0,0.0,0.0,72.0
+764,Texas 35,Lloyd Doggett,Democratic,1994.0,David Smalling,Republican,Texas,35,TX,TX_35,R,0,0,,,,,,,,,
+765,Texas 36,Brian Babin,Republican,2014.0,Brian Babin,Republican,Texas,36,TX,TX_36,R,1,4,Texas 36,Brian Babin,2015.0,1948.0,0.0,0.0,0.0,0.0,70.0
+766,Texas 36,Brian Babin,Republican,2014.0,Dayna Steele,Democratic,Texas,36,TX,TX_36,D,0,0,,,,,,,,,
+767,Utah 1,Rob Bishop,Republican,2002.0,Rob Bishop,Republican,Utah,1,UT,UT_1,R,1,16,Utah 1,Rob Bishop,2003.0,1951.0,0.0,0.0,0.0,0.0,67.0
+768,Utah 1,Rob Bishop,Republican,2002.0,Lee Castillo,Democratic,Utah,1,UT,UT_1,D,0,0,,,,,,,,,
+769,Utah 2,Chris Stewart,Republican,2012.0,Shireen Ghorbani,Democratic,Utah,2,UT,UT_2,D,0,0,,,,,,,,,
+770,Utah 2,Chris Stewart,Republican,2012.0,Chris Stewart,Republican,Utah,2,UT,UT_2,R,1,6,Utah 2,Chris Stewart,2013.0,1960.0,0.0,0.0,0.0,0.0,58.0
+771,Utah 3,John Curtis,Republican,2017.0,John Curtis,Republican,Utah,3,UT,UT_3,R,1,1,Utah 3,John Curtis,2017.0,1960.0,0.0,0.0,0.0,0.0,58.0
+772,Utah 3,John Curtis,Republican,2017.0,James Singer,Democratic,Utah,3,UT,UT_3,D,0,0,,,,,,,,,
+773,Utah 4,Mia Love,Republican,2014.0,Mia Love,Republican,Utah,4,UT,UT_4,R,1,4,Utah 4,Mia Love,2015.0,1975.0,1.0,1.0,0.0,0.0,43.0
+774,Utah 4,Mia Love,Republican,2014.0,Ben McAdams,Democratic,Utah,4,UT,UT_4,D,0,0,,,,,,,,,
+775,Vermont 1,Peter Welch,Democratic,2006.0,Anya Tynio,Republican,Vermont,1,VT,VT_1,R,0,0,,,,,,,,,
+776,Vermont 1,Peter Welch,Democratic,2006.0,Peter Welch,Democratic,Vermont,1,VT,VT_1,D,1,12,Vermont at large,Peter Welch,2007.0,1947.0,0.0,0.0,0.0,0.0,71.0
+777,Virginia 1,Rob Wittman,Republican,2007.0,Vangie Williams,Democratic,Virginia,1,VA,VA_1,D,0,0,,,,,,,,,
+778,Virginia 1,Rob Wittman,Republican,2007.0,Rob Wittman,Republican,Virginia,1,VA,VA_1,R,1,11,Virginia 1,Rob Wittman,2007.0,1959.0,0.0,0.0,0.0,0.0,59.0
+779,Virginia 2,Scott Taylor,Republican,2016.0,Elaine Luria,Democratic,Virginia,2,VA,VA_2,D,0,0,,,,,,,,,
+780,Virginia 2,Scott Taylor,Republican,2016.0,Scott Taylor,Republican,Virginia,2,VA,VA_2,R,1,2,Virginia 2,Scott Taylor,2017.0,1979.0,0.0,0.0,0.0,0.0,39.0
+781,Virginia 3,Bobby Scott,Democratic,1992.0,Bobby Scott,Democratic,Virginia,3,VA,VA_3,D,1,26,Virginia 3,Bobby Scott,1993.0,1947.0,0.0,1.0,0.0,0.0,71.0
+782,Virginia 4,Donald McEachin,Democratic,2016.0,Ryan McAdams,Republican,Virginia,4,VA,VA_4,R,0,0,,,,,,,,,
+783,Virginia 4,Donald McEachin,Democratic,2016.0,Donald McEachin,Democratic,Virginia,4,VA,VA_4,D,1,2,Virginia 4,Donald McEachin,2017.0,1961.0,0.0,1.0,0.0,0.0,57.0
+784,Virginia 5,Tom Garrett,Republican,2016.0,Leslie Cockburn,Democratic,Virginia,5,VA,VA_5,D,0,0,,,,,,,,,
+785,Virginia 5,Tom Garrett,Republican,2016.0,Denver Riggleman,Republican,Virginia,5,VA,VA_5,R,0,0,,,,,,,,,
+786,Virginia 6,Bob Goodlatte,Republican,1992.0,Ben Cline,Republican,Virginia,6,VA,VA_6,R,0,0,,,,,,,,,
+787,Virginia 6,Bob Goodlatte,Republican,1992.0,Jennifer Lewis,Democratic,Virginia,6,VA,VA_6,D,0,0,,,,,,,,,
+788,Virginia 7,Dave Brat,Republican,2014.0,Dave Brat,Republican,Virginia,7,VA,VA_7,R,1,4,Virginia 7,Dave Brat,2014.0,1964.0,0.0,0.0,0.0,0.0,54.0
+789,Virginia 7,Dave Brat,Republican,2014.0,Abigail Spanberger,Democratic,Virginia,7,VA,VA_7,D,0,0,,,,,,,,,
+790,Virginia 8,Don Beyer,Democratic,2014.0,Don Beyer,Democratic,Virginia,8,VA,VA_8,D,1,4,Virginia 8,Don Beyer,2015.0,1950.0,0.0,0.0,0.0,0.0,68.0
+791,Virginia 8,Don Beyer,Democratic,2014.0,Thomas Oh,Republican,Virginia,8,VA,VA_8,R,0,0,,,,,,,,,
+792,Virginia 9,Morgan Griffith,Republican,2010.0,Anthony Flaccavento,Democratic,Virginia,9,VA,VA_9,D,0,0,,,,,,,,,
+793,Virginia 9,Morgan Griffith,Republican,2010.0,Morgan Griffith,Republican,Virginia,9,VA,VA_9,R,1,8,Virginia 9,Morgan Griffith,2011.0,1958.0,0.0,0.0,0.0,0.0,60.0
+794,Virginia 10,Barbara Comstock,Republican,2014.0,Barbara Comstock,Republican,Virginia,10,VA,VA_10,R,1,4,Virginia 10,Barbara Comstock,2015.0,1959.0,1.0,0.0,0.0,0.0,59.0
+795,Virginia 10,Barbara Comstock,Republican,2014.0,Jennifer Wexton,Democratic,Virginia,10,VA,VA_10,D,0,0,,,,,,,,,
+796,Virginia 11,Gerry Connolly,Democratic,2008.0,Gerry Connolly,Democratic,Virginia,11,VA,VA_11,D,1,10,Virginia 11,Gerry Connolly,2009.0,1950.0,0.0,0.0,0.0,0.0,68.0
+797,Virginia 11,Gerry Connolly,Democratic,2008.0,Jeff Dove,Republican,Virginia,11,VA,VA_11,R,0,0,,,,,,,,,
+798,Washington 1,Suzan DelBene,Democratic,2012.0,Jeffrey Beeler,Republican,Washington,1,WA,WA_1,R,0,0,,,,,,,,,
+799,Washington 1,Suzan DelBene,Democratic,2012.0,Suzan DelBene,Democratic,Washington,1,WA,WA_1,D,1,6,Washington 1,Suzan DelBene,2012.0,1962.0,1.0,0.0,0.0,0.0,56.0
+800,Washington 2,Rick Larsen,Democratic,2000.0,Rick Larsen,Democratic,Washington,2,WA,WA_2,D,1,18,Washington 2,Rick Larsen,2001.0,1965.0,0.0,0.0,0.0,0.0,53.0
+801,Washington 3,Jaime Herrera Beutler,Republican,2010.0,Jaime Herrera Beutler,Republican,Washington,3,WA,WA_3,R,1,8,Washington 3,Jaime Herrera Beutler,2011.0,1978.0,1.0,0.0,1.0,0.0,40.0
+802,Washington 3,Jaime Herrera Beutler,Republican,2010.0,Carolyn Long,Democratic,Washington,3,WA,WA_3,D,0,0,,,,,,,,,
+803,Washington 4,Dan Newhouse,Republican,2014.0,Christine Brown,Democratic,Washington,4,WA,WA_4,D,0,0,,,,,,,,,
+804,Washington 4,Dan Newhouse,Republican,2014.0,Dan Newhouse,Republican,Washington,4,WA,WA_4,R,1,4,Washington 4,Dan Newhouse,2015.0,1955.0,0.0,0.0,0.0,0.0,63.0
+805,Washington 5,Cathy McMorris Rodgers,Republican,2004.0,Lisa Brown,Democratic,Washington,5,WA,WA_5,D,0,0,,,,,,,,,
+806,Washington 5,Cathy McMorris Rodgers,Republican,2004.0,Cathy McMorris Rodgers,Republican,Washington,5,WA,WA_5,R,1,14,Washington 5,Cathy McMorris Rodgers,2005.0,1969.0,1.0,0.0,0.0,0.0,49.0
+807,Washington 6,Derek Kilmer,Democratic,2012.0,Douglas Dightman,Republican,Washington,6,WA,WA_6,R,0,0,,,,,,,,,
+808,Washington 6,Derek Kilmer,Democratic,2012.0,Derek Kilmer,Democratic,Washington,6,WA,WA_6,D,1,6,Washington 6,Derek Kilmer,2013.0,1974.0,0.0,0.0,0.0,0.0,44.0
+809,Washington 7,Pramila Jayapal,Democratic,2016.0,Pramila Jayapal,Democratic,Washington,7,WA,WA_7,D,1,2,Washington 7,Pramila Jayapal,2017.0,1965.0,1.0,0.0,0.0,1.0,53.0
+810,Washington 7,Pramila Jayapal,Democratic,2016.0,Craig Keller,Republican,Washington,7,WA,WA_7,R,0,0,,,,,,,,,
+811,Washington 8,Dave Reichert,Republican,2004.0,Dino Rossi,Republican,Washington,8,WA,WA_8,R,0,0,,,,,,,,,
+812,Washington 8,Dave Reichert,Republican,2004.0,Kim Schrier,Democratic,Washington,8,WA,WA_8,D,0,0,,,,,,,,,
+813,Washington 9,Adam Smith,Democratic,1996.0,Adam Smith,Democratic,Washington,9,WA,WA_9,D,1,22,Washington 9,Adam Smith,1997.0,1965.0,0.0,0.0,0.0,0.0,53.0
+814,Washington 9,Adam Smith,Democratic,1996.0,Sarah Smith,Democratic,Washington,9,WA,WA_9,D,0,0,,,,,,,,,
+815,Washington 10,Denny Heck,Democratic,2012.0,Joseph Brumbles,Republican,Washington,10,WA,WA_10,R,0,0,,,,,,,,,
+816,Washington 10,Denny Heck,Democratic,2012.0,Denny Heck,Democratic,Washington,10,WA,WA_10,D,1,6,,,,,,,,,
+817,West Virginia 1,David McKinley,Republican,2010.0,Kendra Fershee,Democratic,West Virginia,1,WV,WV_1,D,0,0,,,,,,,,,
+818,West Virginia 1,David McKinley,Republican,2010.0,David McKinley,Republican,West Virginia,1,WV,WV_1,R,1,8,West Virginia 1,David McKinley,2011.0,1947.0,0.0,0.0,0.0,0.0,71.0
+819,West Virginia 2,Alex Mooney,Republican,2014.0,Alex Mooney,Republican,West Virginia,2,WV,WV_2,R,1,4,West Virginia 2,Alex Mooney,2015.0,1971.0,0.0,0.0,0.0,0.0,47.0
+820,West Virginia 2,Alex Mooney,Republican,2014.0,Talley Sergent,Democratic,West Virginia,2,WV,WV_2,D,0,0,,,,,,,,,
+821,West Virginia 3,Evan Jenkins,Republican,2014.0,Carol Miller,Republican,West Virginia,3,WV,WV_3,R,0,0,,,,,,,,,
+822,West Virginia 3,Evan Jenkins,Republican,2014.0,Richard Ojeda,Democratic,West Virginia,3,WV,WV_3,D,0,0,,,,,,,,,
+823,Wisconsin 1,Paul Ryan,Republican,1998.0,Randy Bryce,Democratic,Wisconsin,1,WI,WI_1,D,0,0,,,,,,,,,
+824,Wisconsin 1,Paul Ryan,Republican,1998.0,Bryan Steil,Republican,Wisconsin,1,WI,WI_1,R,0,0,,,,,,,,,
+825,Wisconsin 2,Mark Pocan,Democratic,2012.0,Mark Pocan,Democratic,Wisconsin,2,WI,WI_2,D,1,6,Wisconsin 2,Mark Pocan,2013.0,1964.0,0.0,0.0,0.0,0.0,54.0
+826,Wisconsin 3,Ron Kind,Democratic,1996.0,Ron Kind,Democratic,Wisconsin,3,WI,WI_3,D,1,22,Wisconsin 3,Ron Kind,1997.0,1963.0,0.0,0.0,0.0,0.0,55.0
+827,Wisconsin 3,Ron Kind,Democratic,1996.0,Steve Toft,Republican,Wisconsin,3,WI,WI_3,R,0,0,,,,,,,,,
+828,Wisconsin 4,Gwen Moore,Democratic,2004.0,Gwen Moore,Democratic,Wisconsin,4,WI,WI_4,D,1,14,Wisconsin 4,Gwen Moore,2005.0,1951.0,1.0,1.0,0.0,0.0,67.0
+829,Wisconsin 4,Gwen Moore,Democratic,2004.0,Tim Rogers,Republican,Wisconsin,4,WI,WI_4,R,0,0,,,,,,,,,
+830,Wisconsin 5,Jim Sensenbrenner,Republican,1978.0,Tom Palzewicz,Democratic,Wisconsin,5,WI,WI_5,D,0,0,,,,,,,,,
+831,Wisconsin 5,Jim Sensenbrenner,Republican,1978.0,Jim Sensenbrenner,Republican,Wisconsin,5,WI,WI_5,R,1,40,Wisconsin 5,Jim Sensenbrenner,1979.0,1943.0,0.0,0.0,0.0,0.0,75.0
+832,Wisconsin 6,Glenn Grothman,Republican,2014.0,Glenn Grothman,Republican,Wisconsin,6,WI,WI_6,R,1,4,Wisconsin 6,Glenn Grothman,2015.0,1955.0,0.0,0.0,0.0,0.0,63.0
+833,Wisconsin 6,Glenn Grothman,Republican,2014.0,Dan Kohl,Democratic,Wisconsin,6,WI,WI_6,D,0,0,,,,,,,,,
+834,Wisconsin 7,Sean Duffy,Republican,2010.0,Sean Duffy,Republican,Wisconsin,7,WI,WI_7,R,1,8,Wisconsin 7,Sean Duffy,2011.0,1971.0,0.0,0.0,0.0,0.0,47.0
+835,Wisconsin 7,Sean Duffy,Republican,2010.0,Margaret Engebretson,Democratic,Wisconsin,7,WI,WI_7,D,0,0,,,,,,,,,
+836,Wisconsin 8,Mike Gallagher,Republican,2016.0,Mike Gallagher,Republican,Wisconsin,8,WI,WI_8,R,1,2,Wisconsin 8,Mike Gallagher,2017.0,1984.0,0.0,0.0,0.0,0.0,34.0
+837,Wisconsin 8,Mike Gallagher,Republican,2016.0,Beau Liegeois,Democratic,Wisconsin,8,WI,WI_8,D,0,0,,,,,,,,,
+838,Wyoming 1,Liz Cheney,Republican,2016.0,Liz Cheney,Republican,Wyoming,1,WY,WY_1,R,1,2,Wyoming at large,Liz Cheney,2017.0,1966.0,1.0,0.0,0.0,0.0,52.0
+839,Wyoming 1,Liz Cheney,Republican,2016.0,Greg Hunter,Democratic,Wyoming,1,WY,WY_1,D,0,0,,,,,,,,,

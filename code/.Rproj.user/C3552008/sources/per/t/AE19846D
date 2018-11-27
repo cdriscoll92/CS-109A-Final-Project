@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541519403427.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3532035736",
+    "id" : "AE19846D",
+    "lastKnownWriteTime" : 1541551676,
+    "last_content_update" : 1541551676248,
+    "path" : "~/Dropbox/Classes/CS 109A/CS 109A Final project/code/candidate_info_cleaning.R",
+    "project_path" : "candidate_info_cleaning.R",
+    "properties" : {
+        "cursorPosition" : "71,61",
+        "scrollLine" : "57"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

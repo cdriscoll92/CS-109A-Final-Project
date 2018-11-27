@@ -1,0 +1,15 @@
+set.seed(02143)
+df <- data.frame(non_vegetation_x = runif(500, 0, 1),
+                 non_vegetation_y = runif(500, -0.3, 1.5),
+                 vegetation_x = c(rnorm(50, 0.2, 0.2),
+                                  rnorm(450, 0.7, 0.05)))
+
+df$vegetation_y <- df$vegetation_x + rnorm(500, 0.2, 0.2)
+
+plot(df$non_vegetation_x, df$non_vegetation_y,
+     xlim = c(0, 1),
+     ylim = c(-0.3, 1.5),
+     xlab = "Latitude",
+     ylab = "Longitude",
+     main = "Tree versus non-tree")
+points(df$vegetation_x, df$vegetation_y, pch = 19, col = "green")
