@@ -32,3 +32,5 @@ paginate_path: "blog/page:num"
 gems:
   - jekyll-paginate
 # permalink: /blog/:year/:month/:day/:title
+
+theme: jekyll-theme-minimal
