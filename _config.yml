@@ -1,6 +1,34 @@
 name: Colleen Driscoll
 markdown: kramdown
 
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Progress
+tagline:             A responsive blog theme that illustrates reading progress. Suited for continous reading.
+url:                 http://cdriscoll92.github.io
+baseurl:             /progress-for-jekyll
+analytics_id:
+
+# Owner/author information
+owner:
+  name:           Colleen Driscoll
+  avatar:         avatar.png
+  email:          cdriscoll@g.harvard.edu
+  location:       "Cambridge, MA"
 
 
-permalink: /blog/:year/:month/:day/:title
+# Custom vars
+version:             2.0.0
+github:
+  repo:              
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Gems
+gems:
+  - jekyll-paginate
+# permalink: /blog/:year/:month/:day/:title
