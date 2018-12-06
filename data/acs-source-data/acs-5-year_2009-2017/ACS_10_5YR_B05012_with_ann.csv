@@ -1,0 +1,438 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD01,HD02_VD01,HD01_VD02,HD02_VD02,HD01_VD03,HD02_VD03
+Id,Id2,Geography,Estimate; Total:,Margin of Error; Total:,Estimate; Total: - Native,Margin of Error; Total: - Native,Estimate; Total: - Foreign-Born,Margin of Error; Total: - Foreign-Born
+5001100US0101,0101,"Congressional District 1 (111th Congress), Alabama",677124,737,656822,1492,20302,1272
+5001100US0102,0102,"Congressional District 2 (111th Congress), Alabama",666019,1976,648502,2414,17517,1047
+5001100US0103,0103,"Congressional District 3 (111th Congress), Alabama",671363,1971,652649,2227,18714,941
+5001100US0104,0104,"Congressional District 4 (111th Congress), Alabama",656059,1221,631907,1342,24152,796
+5001100US0105,0105,"Congressional District 5 (111th Congress), Alabama",699978,967,670316,1477,29662,1103
+5001100US0106,0106,"Congressional District 6 (111th Congress), Alabama",732630,2429,700764,2645,31866,1504
+5001100US0107,0107,"Congressional District 7 (111th Congress), Alabama",609478,2704,593756,2643,15722,1153
+5001100US0200,0200,"Congressional District (at Large) (111th Congress), Alaska",691189,*****,641427,1708,49762,1708
+5001100US0401,0401,"Congressional District 1 (111th Congress), Arizona",747702,2193,697908,2704,49794,1946
+5001100US0402,0402,"Congressional District 2 (111th Congress), Arizona",938691,3449,849311,4173,89380,3376
+5001100US0403,0403,"Congressional District 3 (111th Congress), Arizona",708717,4907,607121,4958,101596,3380
+5001100US0404,0404,"Congressional District 4 (111th Congress), Arizona",693056,5744,483611,5200,209445,4299
+5001100US0405,0405,"Congressional District 5 (111th Congress), Arizona",662452,2947,576863,3758,85589,2760
+5001100US0406,0406,"Congressional District 6 (111th Congress), Arizona",931574,3562,829383,3921,102191,2723
+5001100US0407,0407,"Congressional District 7 (111th Congress), Arizona",827686,4824,653273,4784,174413,3161
+5001100US0408,0408,"Congressional District 8 (111th Congress), Arizona",736938,3931,664721,3984,72217,2671
+5001100US0501,0501,"Congressional District 1 (111th Congress), Arkansas",683062,*****,671871,757,11191,757
+5001100US0502,0502,"Congressional District 2 (111th Congress), Arkansas",733457,*****,701962,1250,31495,1250
+5001100US0503,0503,"Congressional District 3 (111th Congress), Arkansas",799905,*****,738024,1246,61881,1246
+5001100US0504,0504,"Congressional District 4 (111th Congress), Arkansas",656260,*****,638381,797,17879,797
+5001100US0601,0601,"Congressional District 1 (111th Congress), California",694789,1981,591483,3080,103306,2762
+5001100US0602,0602,"Congressional District 2 (111th Congress), California",702992,1985,627249,2135,75743,1716
+5001100US0603,0603,"Congressional District 3 (111th Congress), California",768243,3253,649411,3765,118832,2890
+5001100US0604,0604,"Congressional District 4 (111th Congress), California",760078,1463,696432,2441,63646,1915
+5001100US0605,0605,"Congressional District 5 (111th Congress), California",691447,3112,533790,3882,157657,3335
+5001100US0606,0606,"Congressional District 6 (111th Congress), California",651689,1160,537152,2652,114537,2503
+5001100US0607,0607,"Congressional District 7 (111th Congress), California",650971,1898,487152,2995,163819,2910
+5001100US0608,0608,"Congressional District 8 (111th Congress), California",648162,2505,418004,3650,230158,3586
+5001100US0609,0609,"Congressional District 9 (111th Congress), California",638175,1291,468245,3103,169930,3061
+5001100US0610,0610,"Congressional District 10 (111th Congress), California",695701,2262,549955,3782,145746,3645
+5001100US0611,0611,"Congressional District 11 (111th Congress), California",775046,4155,621569,5194,153477,3419
+5001100US0612,0612,"Congressional District 12 (111th Congress), California",643421,2677,413023,3738,230398,3992
+5001100US0613,0613,"Congressional District 13 (111th Congress), California",652485,1410,404158,2993,248327,2692
+5001100US0614,0614,"Congressional District 14 (111th Congress), California",643428,2334,441181,3172,202247,2736
+5001100US0615,0615,"Congressional District 15 (111th Congress), California",664069,3304,417426,3826,246643,3407
+5001100US0616,0616,"Congressional District 16 (111th Congress), California",656799,3779,405995,4255,250804,3956
+5001100US0617,0617,"Congressional District 17 (111th Congress), California",649410,1547,474591,3533,174819,3175
+5001100US0618,0618,"Congressional District 18 (111th Congress), California",714420,3893,531396,4336,183024,4061
+5001100US0619,0619,"Congressional District 19 (111th Congress), California",748172,3755,624091,4136,124081,3030
+5001100US0620,0620,"Congressional District 20 (111th Congress), California",719179,5190,500406,5085,218773,3483
+5001100US0621,0621,"Congressional District 21 (111th Congress), California",766633,2889,606828,3300,159805,2807
+5001100US0622,0622,"Congressional District 22 (111th Congress), California",774988,4263,675759,3682,99229,2595
+5001100US0623,0623,"Congressional District 23 (111th Congress), California",682294,2292,503969,3525,178325,3575
+5001100US0624,0624,"Congressional District 24 (111th Congress), California",673157,2026,553950,2681,119207,2690
+5001100US0625,0625,"Congressional District 25 (111th Congress), California",811708,5018,657266,5435,154442,3532
+5001100US0626,0626,"Congressional District 26 (111th Congress), California",688374,2452,516952,3366,171422,3156
+5001100US0627,0627,"Congressional District 27 (111th Congress), California",673599,5609,413848,4665,259751,4382
+5001100US0628,0628,"Congressional District 28 (111th Congress), California",648160,5155,375251,4615,272909,4202
+5001100US0629,0629,"Congressional District 29 (111th Congress), California",642141,2125,356422,4219,285719,3860
+5001100US0630,0630,"Congressional District 30 (111th Congress), California",655332,4531,487862,4023,167470,3782
+5001100US0631,0631,"Congressional District 31 (111th Congress), California",623460,5172,300960,3760,322500,3567
+5001100US0632,0632,"Congressional District 32 (111th Congress), California",638388,2710,371527,4244,266861,4157
+5001100US0633,0633,"Congressional District 33 (111th Congress), California",643701,5258,409369,5491,234332,4605
+5001100US0634,0634,"Congressional District 34 (111th Congress), California",641344,3924,355963,3478,285381,3560
+5001100US0635,0635,"Congressional District 35 (111th Congress), California",655203,4571,438945,4459,216258,3630
+5001100US0636,0636,"Congressional District 36 (111th Congress), California",659571,3493,475637,4208,183934,3760
+5001100US0637,0637,"Congressional District 37 (111th Congress), California",645349,3022,449551,3922,195798,3344
+5001100US0638,0638,"Congressional District 38 (111th Congress), California",642321,3751,400763,3635,241558,3281
+5001100US0639,0639,"Congressional District 39 (111th Congress), California",643494,3099,421472,3916,222022,3440
+5001100US0640,0640,"Congressional District 40 (111th Congress), California",659533,3290,454455,4019,205078,4060
+5001100US0641,0641,"Congressional District 41 (111th Congress), California",777326,3871,659821,4630,117505,3311
+5001100US0642,0642,"Congressional District 42 (111th Congress), California",667134,2594,498254,3891,168880,3763
+5001100US0643,0643,"Congressional District 43 (111th Congress), California",731376,3330,516935,4420,214441,3960
+5001100US0644,0644,"Congressional District 44 (111th Congress), California",827746,3457,636209,3816,191537,3093
+5001100US0645,0645,"Congressional District 45 (111th Congress), California",873781,3559,679948,4486,193833,3330
+5001100US0646,0646,"Congressional District 46 (111th Congress), California",643163,3072,487376,3674,155787,3376
+5001100US0647,0647,"Congressional District 47 (111th Congress), California",624885,4101,325035,3747,299850,3478
+5001100US0648,0648,"Congressional District 48 (111th Congress), California",705558,1949,525716,3116,179842,3164
+5001100US0649,0649,"Congressional District 49 (111th Congress), California",773251,4242,618749,4836,154502,3486
+5001100US0650,0650,"Congressional District 50 (111th Congress), California",737327,3669,567804,4418,169523,3857
+5001100US0651,0651,"Congressional District 51 (111th Congress), California",732145,4080,482772,3907,249373,3451
+5001100US0652,0652,"Congressional District 52 (111th Congress), California",667164,4050,563282,4521,103882,3165
+5001100US0653,0653,"Congressional District 53 (111th Congress), California",639008,4130,493459,4000,145549,3193
+5001100US0801,0801,"Congressional District 1 (111th Congress), Colorado",638493,887,533555,2474,104938,2566
+5001100US0802,0802,"Congressional District 2 (111th Congress), Colorado",711312,1699,633232,3006,78080,2848
+5001100US0803,0803,"Congressional District 3 (111th Congress), Colorado",692623,276,654898,1519,37725,1521
+5001100US0804,0804,"Congressional District 4 (111th Congress), Colorado",706805,956,649054,2164,57751,1877
+5001100US0805,0805,"Congressional District 5 (111th Congress), Colorado",701838,661,653159,1995,48679,1838
+5001100US0806,0806,"Congressional District 6 (111th Congress), Colorado",770811,2519,716332,3123,54479,1792
+5001100US0807,0807,"Congressional District 7 (111th Congress), Colorado",665179,2805,567062,3423,98117,3075
+5001100US0901,0901,"Congressional District 1 (111th Congress), Connecticut",706556,822,605435,2226,101121,2192
+5001100US0902,0902,"Congressional District 2 (111th Congress), Connecticut",724646,664,675114,1929,49532,1877
+5001100US0903,0903,"Congressional District 3 (111th Congress), Connecticut",707713,1396,625376,3194,82337,2668
+5001100US0904,0904,"Congressional District 4 (111th Congress), Connecticut",698418,626,554358,2963,144060,2892
+5001100US0905,0905,"Congressional District 5 (111th Congress), Connecticut",708504,1183,616374,2932,92130,2628
+5001100US1000,1000,"Congressional District (at Large) (111th Congress), Delaware",881278,*****,808747,2249,72531,2249
+5001100US1198,1198,"Delegate District (at Large) (111th Congress), District of Columbia",584400,*****,508342,2109,76058,2109
+5001100US1201,1201,"Congressional District 1 (111th Congress), Florida",691673,1208,653016,1776,38657,1413
+5001100US1202,1202,"Congressional District 2 (111th Congress), Florida",722780,1583,685167,2198,37613,1549
+5001100US1203,1203,"Congressional District 3 (111th Congress), Florida",657444,6059,578057,6195,79387,2949
+5001100US1204,1204,"Congressional District 4 (111th Congress), Florida",727944,3545,665272,3943,62672,2257
+5001100US1205,1205,"Congressional District 5 (111th Congress), Florida",909672,3483,838831,4070,70841,2473
+5001100US1206,1206,"Congressional District 6 (111th Congress), Florida",800372,4461,736380,4771,63992,2281
+5001100US1207,1207,"Congressional District 7 (111th Congress), Florida",800390,3869,728178,4703,72212,2567
+5001100US1208,1208,"Congressional District 8 (111th Congress), Florida",793390,5314,666038,6153,127352,3685
+5001100US1209,1209,"Congressional District 9 (111th Congress), Florida",748521,5036,660435,4760,88086,3136
+5001100US1210,1210,"Congressional District 10 (111th Congress), Florida",632360,2759,561372,3111,70988,2166
+5001100US1211,1211,"Congressional District 11 (111th Congress), Florida",674050,3967,562834,4330,111216,3289
+5001100US1212,1212,"Congressional District 12 (111th Congress), Florida",810398,4560,714519,4355,95879,3159
+5001100US1213,1213,"Congressional District 13 (111th Congress), Florida",749095,2200,657649,2761,91446,2721
+5001100US1214,1214,"Congressional District 14 (111th Congress), Florida",848196,2716,715326,3707,132870,3987
+5001100US1215,1215,"Congressional District 15 (111th Congress), Florida",797517,2311,695978,3675,101539,3080
+5001100US1216,1216,"Congressional District 16 (111th Congress), Florida",785893,3272,676989,3562,108904,3162
+5001100US1217,1217,"Congressional District 17 (111th Congress), Florida",649459,5166,409651,5469,239808,4524
+5001100US1218,1218,"Congressional District 18 (111th Congress), Florida",684490,4053,323500,4625,360990,4733
+5001100US1219,1219,"Congressional District 19 (111th Congress), Florida",728946,4559,553840,5043,175106,3871
+5001100US1220,1220,"Congressional District 20 (111th Congress), Florida",681085,3847,456744,4446,224341,4677
+5001100US1221,1221,"Congressional District 21 (111th Congress), Florida",674396,4506,289022,4689,385374,4667
+5001100US1222,1222,"Congressional District 22 (111th Congress), Florida",683288,5428,544677,4943,138611,3288
+5001100US1223,1223,"Congressional District 23 (111th Congress), Florida",681896,5817,471092,5801,210804,4769
+5001100US1224,1224,"Congressional District 24 (111th Congress), Florida",778677,4452,693565,4184,85112,2681
+5001100US1225,1225,"Congressional District 25 (111th Congress), Florida",799688,5231,423978,6107,375710,4615
+5001100US1301,1301,"Congressional District 1 (111th Congress), Georgia",706740,2094,673953,2124,32787,1377
+5001100US1302,1302,"Congressional District 2 (111th Congress), Georgia",632091,1863,613926,2196,18165,1090
+5001100US1303,1303,"Congressional District 3 (111th Congress), Georgia",790476,3525,750985,3449,39491,1700
+5001100US1304,1304,"Congressional District 4 (111th Congress), Georgia",652410,3868,517594,3599,134816,3310
+5001100US1305,1305,"Congressional District 5 (111th Congress), Georgia",621008,3557,555469,3441,65539,2631
+5001100US1306,1306,"Congressional District 6 (111th Congress), Georgia",743020,3031,627503,3471,115517,2743
+5001100US1307,1307,"Congressional District 7 (111th Congress), Georgia",880763,3553,715358,3908,165405,3650
+5001100US1308,1308,"Congressional District 8 (111th Congress), Georgia",702807,1828,674640,2201,28167,1335
+5001100US1309,1309,"Congressional District 9 (111th Congress), Georgia",800457,1299,723822,2417,76635,1845
+5001100US1310,1310,"Congressional District 10 (111th Congress), Georgia",718988,1907,679388,2460,39600,1642
+5001100US1311,1311,"Congressional District 11 (111th Congress), Georgia",774024,3396,710736,3796,63288,2387
+5001100US1312,1312,"Congressional District 12 (111th Congress), Georgia",682424,2785,656813,2729,25611,1277
+5001100US1313,1313,"Congressional District 13 (111th Congress), Georgia",763607,4645,659606,4535,104001,2702
+5001100US1501,1501,"Congressional District 1 (111th Congress), Hawaii",651363,4275,499929,4886,151434,3103
+5001100US1502,1502,"Congressional District 2 (111th Congress), Hawaii",682228,4275,597485,4342,84743,3003
+5001100US1601,1601,"Congressional District 1 (111th Congress), Idaho",816163,1478,774972,2187,41191,1738
+5001100US1602,1602,"Congressional District 2 (111th Congress), Idaho",710634,1478,662466,1866,48168,1522
+5001100US1701,1701,"Congressional District 1 (111th Congress), Illinois",602790,5525,562625,5249,40165,2015
+5001100US1702,1702,"Congressional District 2 (111th Congress), Illinois",614084,4787,571806,4720,42278,2044
+5001100US1703,1703,"Congressional District 3 (111th Congress), Illinois",654740,4304,507457,4255,147283,3659
+5001100US1704,1704,"Congressional District 4 (111th Congress), Illinois",590012,5461,374719,5240,215293,4223
+5001100US1705,1705,"Congressional District 5 (111th Congress), Illinois",656661,5248,473054,4668,183607,4043
+5001100US1706,1706,"Congressional District 6 (111th Congress), Illinois",653006,1578,505487,3187,147519,3031
+5001100US1707,1707,"Congressional District 7 (111th Congress), Illinois",618825,5366,553233,5450,65592,2070
+5001100US1708,1708,"Congressional District 8 (111th Congress), Illinois",725249,2022,598015,2417,127234,2543
+5001100US1709,1709,"Congressional District 9 (111th Congress), Illinois",624222,3813,427331,4121,196891,4001
+5001100US1710,1710,"Congressional District 10 (111th Congress), Illinois",650636,1514,511025,2702,139611,2562
+5001100US1711,1711,"Congressional District 11 (111th Congress), Illinois",753379,1734,709823,2273,43556,1720
+5001100US1712,1712,"Congressional District 12 (111th Congress), Illinois",663212,521,648557,1017,14655,881
+5001100US1713,1713,"Congressional District 13 (111th Congress), Illinois",758577,1790,640912,3349,117665,2857
+5001100US1714,1714,"Congressional District 14 (111th Congress), Illinois",818417,1191,698897,2631,119520,2597
+5001100US1715,1715,"Congressional District 15 (111th Congress), Illinois",679419,1442,645305,1721,34114,1098
+5001100US1716,1716,"Congressional District 16 (111th Congress), Illinois",716138,912,662106,2242,54032,1958
+5001100US1717,1717,"Congressional District 17 (111th Congress), Illinois",632503,1768,613265,1977,19238,1083
+5001100US1718,1718,"Congressional District 18 (111th Congress), Illinois",664509,1493,646418,1646,18091,922
+5001100US1719,1719,"Congressional District 19 (111th Congress), Illinois",668980,1820,658628,1924,10352,743
+5001100US1801,1801,"Congressional District 1 (111th Congress), Indiana",701237,314,661748,1642,39489,1658
+5001100US1802,1802,"Congressional District 2 (111th Congress), Indiana",679346,1291,644725,1960,34621,1601
+5001100US1803,1803,"Congressional District 3 (111th Congress), Indiana",718587,1235,684190,1793,34397,1291
+5001100US1804,1804,"Congressional District 4 (111th Congress), Indiana",774798,1700,737969,1946,36829,1037
+5001100US1805,1805,"Congressional District 5 (111th Congress), Indiana",789374,2578,756111,2625,33263,1449
+5001100US1806,1806,"Congressional District 6 (111th Congress), Indiana",674496,1576,661250,1744,13246,769
+5001100US1807,1807,"Congressional District 7 (111th Congress), Indiana",668432,2867,611132,3056,57300,2002
+5001100US1808,1808,"Congressional District 8 (111th Congress), Indiana",690926,344,677625,880,13301,823
+5001100US1809,1809,"Congressional District 9 (111th Congress), Indiana",720202,1089,697348,1272,22854,868
+5001100US1901,1901,"Congressional District 1 (111th Congress), Iowa",591061,*****,575953,915,15108,915
+5001100US1902,1902,"Congressional District 2 (111th Congress), Iowa",613464,*****,585406,1074,28058,1074
+5001100US1903,1903,"Congressional District 3 (111th Congress), Iowa",631575,*****,595530,1351,36045,1351
+5001100US1904,1904,"Congressional District 4 (111th Congress), Iowa",604061,*****,581346,1041,22715,1041
+5001100US1905,1905,"Congressional District 5 (111th Congress), Iowa",576106,*****,553351,902,22755,902
+5001100US2001,2001,"Congressional District 1 (111th Congress), Kansas",650151,425,605111,1305,45040,1266
+5001100US2002,2002,"Congressional District 2 (111th Congress), Kansas",700699,1053,678800,1234,21899,836
+5001100US2003,2003,"Congressional District 3 (111th Congress), Kansas",752081,1013,684064,2078,68017,1875
+5001100US2004,2004,"Congressional District 4 (111th Congress), Kansas",706398,174,664215,1434,42183,1418
+5001100US2101,2101,"Congressional District 1 (111th Congress), Kentucky",684207,827,672598,1282,11609,1015
+5001100US2102,2102,"Congressional District 2 (111th Congress), Kentucky",744366,1109,722225,1622,22141,1239
+5001100US2103,2103,"Congressional District 3 (111th Congress), Kentucky",709600,1023,668717,2018,40883,1737
+5001100US2104,2104,"Congressional District 4 (111th Congress), Kentucky",731932,612,715629,1041,16303,904
+5001100US2105,2105,"Congressional District 5 (111th Congress), Kentucky",670841,422,666535,734,4306,587
+5001100US2106,2106,"Congressional District 6 (111th Congress), Kentucky",744882,750,709330,1533,35552,1248
+5001100US2201,2201,"Congressional District 1 (111th Congress), Louisiana",667724,2723,626980,2837,40744,1762
+5001100US2202,2202,"Congressional District 2 (111th Congress), Louisiana",453668,2819,420387,2943,33281,1669
+5001100US2203,2203,"Congressional District 3 (111th Congress), Louisiana",628138,1584,610208,1748,17930,1218
+5001100US2204,2204,"Congressional District 4 (111th Congress), Louisiana",659131,498,644534,1097,14597,914
+5001100US2205,2205,"Congressional District 5 (111th Congress), Louisiana",641861,1302,631624,1587,10237,1064
+5001100US2206,2206,"Congressional District 6 (111th Congress), Louisiana",711872,1404,686241,2000,25631,1327
+5001100US2207,2207,"Congressional District 7 (111th Congress), Louisiana",667546,730,652269,1179,15277,867
+5001100US2301,2301,"Congressional District 1 (111th Congress), Maine",668076,146,642459,1080,25617,1059
+5001100US2302,2302,"Congressional District 2 (111th Congress), Maine",659589,146,641295,794,18294,791
+5001100US2401,2401,"Congressional District 1 (111th Congress), Maryland",733753,2748,699272,3090,34481,1561
+5001100US2402,2402,"Congressional District 2 (111th Congress), Maryland",689940,4369,631867,4898,58073,2574
+5001100US2403,2403,"Congressional District 3 (111th Congress), Maryland",708443,5051,622641,4844,85802,3320
+5001100US2404,2404,"Congressional District 4 (111th Congress), Maryland",702105,4255,547097,4007,155008,3530
+5001100US2405,2405,"Congressional District 5 (111th Congress), Maryland",756668,2821,672140,3183,84528,2358
+5001100US2406,2406,"Congressional District 6 (111th Congress), Maryland",735079,1396,696962,1895,38117,1407
+5001100US2407,2407,"Congressional District 7 (111th Congress), Maryland",660523,4453,599204,4338,61319,2214
+5001100US2408,2408,"Congressional District 8 (111th Congress), Maryland",709912,3697,476707,3728,233205,3361
+5001100US2501,2501,"Congressional District 1 (111th Congress), Massachusetts",643079,311,599895,1868,43184,1812
+5001100US2502,2502,"Congressional District 2 (111th Congress), Massachusetts",657091,286,606721,2010,50370,1952
+5001100US2503,2503,"Congressional District 3 (111th Congress), Massachusetts",657820,1303,568919,3020,88901,2914
+5001100US2504,2504,"Congressional District 4 (111th Congress), Massachusetts",651798,1319,563514,2410,88284,2198
+5001100US2505,2505,"Congressional District 5 (111th Congress), Massachusetts",651655,324,549734,2738,101921,2674
+5001100US2506,2506,"Congressional District 6 (111th Congress), Massachusetts",643476,80,569884,2163,73592,2170
+5001100US2507,2507,"Congressional District 7 (111th Congress), Massachusetts",637550,329,491995,3352,145555,3317
+5001100US2508,2508,"Congressional District 8 (111th Congress), Massachusetts",646389,2846,457472,3712,188917,3675
+5001100US2509,2509,"Congressional District 9 (111th Congress), Massachusetts",642662,2900,539195,3482,103467,3047
+5001100US2510,2510,"Congressional District 10 (111th Congress), Massachusetts",645576,342,587512,1957,58064,1979
+5001100US2601,2601,"Congressional District 1 (111th Congress), Michigan",656230,393,644221,812,12009,655
+5001100US2602,2602,"Congressional District 2 (111th Congress), Michigan",698401,542,672142,1264,26259,1107
+5001100US2603,2603,"Congressional District 3 (111th Congress), Michigan",692416,284,648353,1485,44063,1415
+5001100US2604,2604,"Congressional District 4 (111th Congress), Michigan",686137,454,672624,901,13513,726
+5001100US2605,2605,"Congressional District 5 (111th Congress), Michigan",646613,470,633249,1080,13364,961
+5001100US2606,2606,"Congressional District 6 (111th Congress), Michigan",670991,509,642518,1286,28473,1211
+5001100US2607,2607,"Congressional District 7 (111th Congress), Michigan",680402,214,659952,1191,20450,1191
+5001100US2608,2608,"Congressional District 8 (111th Congress), Michigan",705271,643,668564,1705,36707,1513
+5001100US2609,2609,"Congressional District 9 (111th Congress), Michigan",659466,733,567198,2471,92268,2266
+5001100US2610,2610,"Congressional District 10 (111th Congress), Michigan",717134,935,669423,1854,47711,1745
+5001100US2611,2611,"Congressional District 11 (111th Congress), Michigan",691726,862,632493,1627,59233,1526
+5001100US2612,2612,"Congressional District 12 (111th Congress), Michigan",644564,1146,585944,2048,58620,1919
+5001100US2613,2613,"Congressional District 13 (111th Congress), Michigan",540874,3048,505058,3257,35816,1660
+5001100US2614,2614,"Congressional District 14 (111th Congress), Michigan",578261,3093,529474,3378,48787,1597
+5001100US2615,2615,"Congressional District 15 (111th Congress), Michigan",684201,1139,629940,1956,54261,1937
+5001100US2701,2701,"Congressional District 1 (111th Congress), Minnesota",639740,132,607857,1085,31883,1075
+5001100US2702,2702,"Congressional District 2 (111th Congress), Minnesota",720097,592,670733,1642,49364,1566
+5001100US2703,2703,"Congressional District 3 (111th Congress), Minnesota",639968,561,570747,2622,69221,2548
+5001100US2704,2704,"Congressional District 4 (111th Congress), Minnesota",608988,597,535879,2355,73109,2326
+5001100US2705,2705,"Congressional District 5 (111th Congress), Minnesota",611650,441,525150,2602,86500,2556
+5001100US2706,2706,"Congressional District 6 (111th Congress), Minnesota",741269,637,711157,1515,30112,1349
+5001100US2707,2707,"Congressional District 7 (111th Congress), Minnesota",623429,555,606823,893,16606,732
+5001100US2708,2708,"Congressional District 8 (111th Congress), Minnesota",656773,386,646617,623,10156,511
+5001100US2801,2801,"Congressional District 1 (111th Congress), Mississippi",777476,313,760975,895,16501,822
+5001100US2802,2802,"Congressional District 2 (111th Congress), Mississippi",674718,1873,664223,1932,10495,968
+5001100US2803,2803,"Congressional District 3 (111th Congress), Mississippi",750209,2310,736005,2605,14204,1015
+5001100US2804,2804,"Congressional District 4 (111th Congress), Mississippi",739588,1022,717270,1395,22318,1136
+5001100US2901,2901,"Congressional District 1 (111th Congress), Missouri",590880,3100,563629,3421,27251,1374
+5001100US2902,2902,"Congressional District 2 (111th Congress), Missouri",693987,1912,659475,2314,34512,1523
+5001100US2903,2903,"Congressional District 3 (111th Congress), Missouri",622705,3084,585927,3027,36778,1822
+5001100US2904,2904,"Congressional District 4 (111th Congress), Missouri",672194,1298,656893,1698,15301,1007
+5001100US2905,2905,"Congressional District 5 (111th Congress), Missouri",628294,1075,592103,1842,36191,1451
+5001100US2906,2906,"Congressional District 6 (111th Congress), Missouri",680151,1121,659823,1536,20328,1101
+5001100US2907,2907,"Congressional District 7 (111th Congress), Missouri",708446,844,687041,1365,21405,960
+5001100US2908,2908,"Congressional District 8 (111th Congress), Missouri",650857,696,641972,907,8885,720
+5001100US2909,2909,"Congressional District 9 (111th Congress), Missouri",674800,1252,658753,1501,16047,902
+5001100US3000,3000,"Congressional District (at Large) (111th Congress), Montana",973739,*****,954620,947,19119,947
+5001100US3101,3101,"Congressional District 1 (111th Congress), Nebraska",615175,821,581215,1494,33960,1238
+5001100US3102,3102,"Congressional District 2 (111th Congress), Nebraska",624827,798,576202,1560,48625,1500
+5001100US3103,3103,"Congressional District 3 (111th Congress), Nebraska",559123,249,535410,959,23713,885
+5001100US3201,3201,"Congressional District 1 (111th Congress), Nevada",805035,4247,604607,4895,200428,3683
+5001100US3202,3202,"Congressional District 2 (111th Congress), Nevada",823084,2141,716412,2727,106672,2588
+5001100US3203,3203,"Congressional District 3 (111th Congress), Nevada",1005212,4160,803430,4300,201782,3815
+5001100US3301,3301,"Congressional District 1 (111th Congress), New Hampshire",656515,82,621902,1705,34613,1709
+5001100US3302,3302,"Congressional District 2 (111th Congress), New Hampshire",657424,82,623038,1477,34386,1455
+5001100US3401,3401,"Congressional District 1 (111th Congress), New Jersey",668011,478,613959,1788,54052,1824
+5001100US3402,3402,"Congressional District 2 (111th Congress), New Jersey",688851,1225,619203,2373,69648,2695
+5001100US3403,3403,"Congressional District 3 (111th Congress), New Jersey",678541,1114,620035,2648,58506,2311
+5001100US3404,3404,"Congressional District 4 (111th Congress), New Jersey",715340,1640,627794,2657,87546,2337
+5001100US3405,3405,"Congressional District 5 (111th Congress), New Jersey",662551,768,562998,2507,99553,2298
+5001100US3406,3406,"Congressional District 6 (111th Congress), New Jersey",664028,2200,508475,3272,155553,2924
+5001100US3407,3407,"Congressional District 7 (111th Congress), New Jersey",666245,1839,533078,2662,133167,2811
+5001100US3408,3408,"Congressional District 8 (111th Congress), New Jersey",655236,1253,476040,3507,179196,3337
+5001100US3409,3409,"Congressional District 9 (111th Congress), New Jersey",654879,2182,420931,4044,233948,3523
+5001100US3410,3410,"Congressional District 10 (111th Congress), New Jersey",630266,3900,462242,4940,168024,3975
+5001100US3411,3411,"Congressional District 11 (111th Congress), New Jersey",671645,1034,552708,2524,118937,2490
+5001100US3412,3412,"Congressional District 12 (111th Congress), New Jersey",693308,2349,551817,3393,141491,2752
+5001100US3413,3413,"Congressional District 13 (111th Congress), New Jersey",672676,3739,398438,4542,274238,4861
+5001100US3501,3501,"Congressional District 1 (111th Congress), New Mexico",689123,1880,611782,3375,77341,2879
+5001100US3502,3502,"Congressional District 2 (111th Congress), New Mexico",650580,1820,575749,2983,74831,2342
+5001100US3503,3503,"Congressional District 3 (111th Congress), New Mexico",673419,2112,629821,2800,43598,1954
+5001100US3601,3601,"Congressional District 1 (111th Congress), New York",698114,639,621464,2601,76650,2547
+5001100US3602,3602,"Congressional District 2 (111th Congress), New York",677603,2996,554837,3940,122766,3171
+5001100US3603,3603,"Congressional District 3 (111th Congress), New York",642162,3556,560108,3718,82054,2558
+5001100US3604,3604,"Congressional District 4 (111th Congress), New York",656263,2383,489450,3777,166813,3186
+5001100US3605,3605,"Congressional District 5 (111th Congress), New York",652316,5518,336092,3946,316224,4262
+5001100US3606,3606,"Congressional District 6 (111th Congress), New York",651056,5725,365551,5033,285505,4272
+5001100US3607,3607,"Congressional District 7 (111th Congress), New York",658309,6160,393596,5148,264713,4120
+5001100US3608,3608,"Congressional District 8 (111th Congress), New York",680695,5762,458980,5235,221715,3523
+5001100US3609,3609,"Congressional District 9 (111th Congress), New York",650324,5371,380097,4963,270227,4464
+5001100US3610,3610,"Congressional District 10 (111th Congress), New York",671527,6028,470498,5243,201029,3811
+5001100US3611,3611,"Congressional District 11 (111th Congress), New York",635908,5070,387033,4824,248875,4351
+5001100US3612,3612,"Congressional District 12 (111th Congress), New York",673256,5760,400918,4704,272338,4181
+5001100US3613,3613,"Congressional District 13 (111th Congress), New York",674242,3535,493667,3703,180575,3977
+5001100US3614,3614,"Congressional District 14 (111th Congress), New York",637631,5445,452699,4461,184932,3461
+5001100US3615,3615,"Congressional District 15 (111th Congress), New York",659614,4330,439991,4644,219623,4257
+5001100US3616,3616,"Congressional District 16 (111th Congress), New York",673627,4839,436993,5256,236634,4116
+5001100US3617,3617,"Congressional District 17 (111th Congress), New York",672924,5197,469291,5535,203633,4116
+5001100US3618,3618,"Congressional District 18 (111th Congress), New York",669537,2644,506818,3879,162719,3451
+5001100US3619,3619,"Congressional District 19 (111th Congress), New York",696098,1028,612343,2473,83755,2237
+5001100US3620,3620,"Congressional District 20 (111th Congress), New York",680064,1088,650604,1533,29460,1191
+5001100US3621,3621,"Congressional District 21 (111th Congress), New York",676812,503,626338,1979,50474,1853
+5001100US3622,3622,"Congressional District 22 (111th Congress), New York",677957,925,609644,2368,68313,2279
+5001100US3623,3623,"Congressional District 23 (111th Congress), New York",662780,736,640025,1116,22755,884
+5001100US3624,3624,"Congressional District 24 (111th Congress), New York",656298,874,627103,1901,29195,1533
+5001100US3625,3625,"Congressional District 25 (111th Congress), New York",665206,1006,623854,1662,41352,1506
+5001100US3626,3626,"Congressional District 26 (111th Congress), New York",669731,783,632855,1609,36876,1248
+5001100US3627,3627,"Congressional District 27 (111th Congress), New York",632812,2140,603149,2624,29663,1925
+5001100US3628,3628,"Congressional District 28 (111th Congress), New York",616258,2536,577623,2551,38635,1680
+5001100US3629,3629,"Congressional District 29 (111th Congress), New York",660628,875,628056,1602,32572,1427
+5001100US3701,3701,"Congressional District 1 (111th Congress), North Carolina",631529,3241,609784,3300,21745,1392
+5001100US3702,3702,"Congressional District 2 (111th Congress), North Carolina",716190,3637,657323,3897,58867,2259
+5001100US3703,3703,"Congressional District 3 (111th Congress), North Carolina",712491,3425,676146,3677,36345,1335
+5001100US3704,3704,"Congressional District 4 (111th Congress), North Carolina",787014,2866,687557,3184,99457,2522
+5001100US3705,3705,"Congressional District 5 (111th Congress), North Carolina",683885,2464,649287,2275,34598,1502
+5001100US3706,3706,"Congressional District 6 (111th Congress), North Carolina",699308,3733,656771,3849,42537,1729
+5001100US3707,3707,"Congressional District 7 (111th Congress), North Carolina",719299,1945,682566,2359,36733,1426
+5001100US3708,3708,"Congressional District 8 (111th Congress), North Carolina",691368,2835,632639,3398,58729,2216
+5001100US3709,3709,"Congressional District 9 (111th Congress), North Carolina",819888,3679,745432,3520,74456,2565
+5001100US3710,3710,"Congressional District 10 (111th Congress), North Carolina",679767,1914,650748,2308,29019,1105
+5001100US3711,3711,"Congressional District 11 (111th Congress), North Carolina",692598,1103,658613,1760,33985,1317
+5001100US3712,3712,"Congressional District 12 (111th Congress), North Carolina",705121,5706,626891,5347,78230,3087
+5001100US3713,3713,"Congressional District 13 (111th Congress), North Carolina",732720,4578,654466,4221,78254,2791
+5001100US3800,3800,"Congressional District (at Large) (111th Congress), North Dakota",659858,*****,644051,978,15807,978
+5001100US3901,3901,"Congressional District 1 (111th Congress), Ohio",595205,1777,572624,2226,22581,1263
+5001100US3902,3902,"Congressional District 2 (111th Congress), Ohio",670670,1766,645301,2192,25369,1241
+5001100US3903,3903,"Congressional District 3 (111th Congress), Ohio",642315,1390,623162,1691,19153,1081
+5001100US3904,3904,"Congressional District 4 (111th Congress), Ohio",634600,464,624800,953,9800,842
+5001100US3905,3905,"Congressional District 5 (111th Congress), Ohio",630962,806,618768,1061,12194,745
+5001100US3906,3906,"Congressional District 6 (111th Congress), Ohio",624551,622,614923,1030,9628,819
+5001100US3907,3907,"Congressional District 7 (111th Congress), Ohio",676955,1904,655945,1980,21010,1242
+5001100US3908,3908,"Congressional District 8 (111th Congress), Ohio",659944,1339,635402,1745,24542,1205
+5001100US3909,3909,"Congressional District 9 (111th Congress), Ohio",622019,220,602688,1073,19331,1069
+5001100US3910,3910,"Congressional District 10 (111th Congress), Ohio",600256,2858,553056,3390,47200,1859
+5001100US3911,3911,"Congressional District 11 (111th Congress), Ohio",555538,2766,525406,2978,30132,1336
+5001100US3912,3912,"Congressional District 12 (111th Congress), Ohio",732103,3445,675908,3587,56195,2177
+5001100US3913,3913,"Congressional District 13 (111th Congress), Ohio",643665,1808,616839,2205,26826,1429
+5001100US3914,3914,"Congressional District 14 (111th Congress), Ohio",645668,951,615742,1741,29926,1342
+5001100US3915,3915,"Congressional District 15 (111th Congress), Ohio",673708,3292,622563,3400,51145,1935
+5001100US3916,3916,"Congressional District 16 (111th Congress), Ohio",644278,608,631282,1036,12996,857
+5001100US3917,3917,"Congressional District 17 (111th Congress), Ohio",608336,1772,591431,1805,16905,1211
+5001100US3918,3918,"Congressional District 18 (111th Congress), Ohio",651658,1165,645830,1339,5828,657
+5001100US4001,4001,"Congressional District 1 (111th Congress), Oklahoma",735690,924,687357,1794,48333,1585
+5001100US4002,4002,"Congressional District 2 (111th Congress), Oklahoma",722305,730,708290,1181,14015,828
+5001100US4003,4003,"Congressional District 3 (111th Congress), Oklahoma",719052,841,689591,1445,29461,1243
+5001100US4004,4004,"Congressional District 4 (111th Congress), Oklahoma",763036,1266,729741,1880,33295,1458
+5001100US4005,4005,"Congressional District 5 (111th Congress), Oklahoma",735256,1150,667572,2145,67684,1889
+5001100US4101,4101,"Congressional District 1 (111th Congress), Oregon",782216,1749,676077,2537,106139,1976
+5001100US4102,4102,"Congressional District 2 (111th Congress), Oregon",760899,829,713983,1585,46916,1557
+5001100US4103,4103,"Congressional District 3 (111th Congress), Oregon",741792,2863,641645,3535,100147,2818
+5001100US4104,4104,"Congressional District 4 (111th Congress), Oregon",731888,1209,696219,1781,35669,1333
+5001100US4105,4105,"Congressional District 5 (111th Congress), Oregon",745130,2363,669103,2963,76027,2233
+5001100US4201,4201,"Congressional District 1 (111th Congress), Pennsylvania",648477,5301,569976,5127,78501,2985
+5001100US4202,4202,"Congressional District 2 (111th Congress), Pennsylvania",617131,5650,564451,5350,52680,2290
+5001100US4203,4203,"Congressional District 3 (111th Congress), Pennsylvania",640580,1015,625493,1439,15087,924
+5001100US4204,4204,"Congressional District 4 (111th Congress), Pennsylvania",643630,800,624648,1121,18982,982
+5001100US4205,4205,"Congressional District 5 (111th Congress), Pennsylvania",651688,777,636879,1012,14809,752
+5001100US4206,4206,"Congressional District 6 (111th Congress), Pennsylvania",717367,2076,662427,2493,54940,1770
+5001100US4207,4207,"Congressional District 7 (111th Congress), Pennsylvania",668126,701,609599,1781,58527,1743
+5001100US4208,4208,"Congressional District 8 (111th Congress), Pennsylvania",669299,1285,614758,2162,54541,1762
+5001100US4209,4209,"Congressional District 9 (111th Congress), Pennsylvania",664701,1496,653689,1690,11012,791
+5001100US4210,4210,"Congressional District 10 (111th Congress), Pennsylvania",666633,803,650012,1102,16621,909
+5001100US4211,4211,"Congressional District 11 (111th Congress), Pennsylvania",682974,661,646393,1746,36581,1654
+5001100US4212,4212,"Congressional District 12 (111th Congress), Pennsylvania",614480,2112,607149,2311,7331,649
+5001100US4213,4213,"Congressional District 13 (111th Congress), Pennsylvania",671165,4848,589237,4457,81928,2686
+5001100US4214,4214,"Congressional District 14 (111th Congress), Pennsylvania",590107,1308,562095,1834,28012,1383
+5001100US4215,4215,"Congressional District 15 (111th Congress), Pennsylvania",711324,562,658886,1953,52438,1904
+5001100US4216,4216,"Congressional District 16 (111th Congress), Pennsylvania",710569,1747,663971,2503,46598,2123
+5001100US4217,4217,"Congressional District 17 (111th Congress), Pennsylvania",676182,993,651556,1420,24626,1090
+5001100US4218,4218,"Congressional District 18 (111th Congress), Pennsylvania",650445,1852,628251,2697,22194,1447
+5001100US4219,4219,"Congressional District 19 (111th Congress), Pennsylvania",717827,599,688903,1642,28924,1411
+5001100US4401,4401,"Congressional District 1 (111th Congress), Rhode Island",523375,1886,453796,2470,69579,2348
+5001100US4402,4402,"Congressional District 2 (111th Congress), Rhode Island",533014,1886,469045,2304,63969,2319
+5001100US4501,4501,"Congressional District 1 (111th Congress), South Carolina",825314,2316,776253,2727,49061,1830
+5001100US4502,4502,"Congressional District 2 (111th Congress), South Carolina",797635,2983,750705,3187,46930,1465
+5001100US4503,4503,"Congressional District 3 (111th Congress), South Carolina",711295,1734,686325,2166,24970,1066
+5001100US4504,4504,"Congressional District 4 (111th Congress), South Carolina",750127,769,699440,1632,50687,1494
+5001100US4505,4505,"Congressional District 5 (111th Congress), South Carolina",749068,1626,726432,1837,22636,950
+5001100US4506,4506,"Congressional District 6 (111th Congress), South Carolina",677989,3999,660014,4011,17975,1058
+5001100US4600,4600,"Congressional District (at Large) (111th Congress), South Dakota",799462,*****,780799,1163,18663,1164
+5001100US4701,4701,"Congressional District 1 (111th Congress), Tennessee",676858,1071,658771,1335,18087,837
+5001100US4702,4702,"Congressional District 2 (111th Congress), Tennessee",710198,934,684729,1423,25469,1161
+5001100US4703,4703,"Congressional District 3 (111th Congress), Tennessee",680072,833,656555,1242,23517,1046
+5001100US4704,4704,"Congressional District 4 (111th Congress), Tennessee",679715,1292,666221,1472,13494,919
+5001100US4705,4705,"Congressional District 5 (111th Congress), Tennessee",688469,1717,617736,2926,70733,2506
+5001100US4706,4706,"Congressional District 6 (111th Congress), Tennessee",765750,1173,730689,1905,35061,1346
+5001100US4707,4707,"Congressional District 7 (111th Congress), Tennessee",766798,3159,732468,3275,34330,1248
+5001100US4708,4708,"Congressional District 8 (111th Congress), Tennessee",656125,2375,642491,2379,13634,856
+5001100US4709,4709,"Congressional District 9 (111th Congress), Tennessee",610983,3358,572008,3412,38975,1677
+5001100US4801,4801,"Congressional District 1 (111th Congress), Texas",708897,463,656164,1652,52733,1566
+5001100US4802,4802,"Congressional District 2 (111th Congress), Texas",755618,4481,667753,4474,87865,2589
+5001100US4803,4803,"Congressional District 3 (111th Congress), Texas",813018,3258,627816,3740,185202,3193
+5001100US4804,4804,"Congressional District 4 (111th Congress), Texas",813646,1487,754824,2228,58822,1848
+5001100US4805,4805,"Congressional District 5 (111th Congress), Texas",708807,2808,632554,3118,76253,2660
+5001100US4806,4806,"Congressional District 6 (111th Congress), Texas",786162,2047,681157,3768,105005,3342
+5001100US4807,4807,"Congressional District 7 (111th Congress), Texas",762032,5530,585272,5642,176760,3961
+5001100US4808,4808,"Congressional District 8 (111th Congress), Texas",801094,1214,735073,1952,66021,1796
+5001100US4809,4809,"Congressional District 9 (111th Congress), Texas",712671,6671,458291,5652,254380,4439
+5001100US4810,4810,"Congressional District 10 (111th Congress), Texas",922082,5200,760681,5254,161401,4072
+5001100US4811,4811,"Congressional District 11 (111th Congress), Texas",695286,484,638418,1807,56868,1811
+5001100US4812,4812,"Congressional District 12 (111th Congress), Texas",800623,3593,690922,4098,109701,2724
+5001100US4813,4813,"Congressional District 13 (111th Congress), Texas",666053,684,614974,1854,51079,1632
+5001100US4814,4814,"Congressional District 14 (111th Congress), Texas",750607,2448,671613,3379,78994,2555
+5001100US4815,4815,"Congressional District 15 (111th Congress), Texas",759240,3689,606399,4823,152841,4160
+5001100US4816,4816,"Congressional District 16 (111th Congress), Texas",730966,2044,537693,3062,193273,2755
+5001100US4817,4817,"Congressional District 17 (111th Congress), Texas",738346,823,674579,2220,63767,2151
+5001100US4818,4818,"Congressional District 18 (111th Congress), Texas",698626,7157,535016,5884,163610,4316
+5001100US4819,4819,"Congressional District 19 (111th Congress), Texas",683504,409,631741,2004,51763,1980
+5001100US4820,4820,"Congressional District 20 (111th Congress), Texas",690971,5059,587842,5389,103129,2992
+5001100US4821,4821,"Congressional District 21 (111th Congress), Texas",822785,4796,748188,4855,74597,2668
+5001100US4822,4822,"Congressional District 22 (111th Congress), Texas",869322,3972,701054,4586,168268,3395
+5001100US4823,4823,"Congressional District 23 (111th Congress), Texas",813479,5575,689087,5358,124392,3179
+5001100US4824,4824,"Congressional District 24 (111th Congress), Texas",771389,3077,622559,3817,148830,2686
+5001100US4825,4825,"Congressional District 25 (111th Congress), Texas",774395,3916,665164,4342,109231,3057
+5001100US4826,4826,"Congressional District 26 (111th Congress), Texas",867862,3213,756590,3613,111272,3135
+5001100US4827,4827,"Congressional District 27 (111th Congress), Texas",726932,1710,610610,2892,116322,2657
+5001100US4828,4828,"Congressional District 28 (111th Congress), Texas",815320,3193,620475,4717,194845,3677
+5001100US4829,4829,"Congressional District 29 (111th Congress), Texas",672160,5890,445109,5792,227051,5122
+5001100US4830,4830,"Congressional District 30 (111th Congress), Texas",690294,4991,550621,4243,139673,3189
+5001100US4831,4831,"Congressional District 31 (111th Congress), Texas",854207,604,779676,2128,74531,2097
+5001100US4832,4832,"Congressional District 32 (111th Congress), Texas",635497,4254,460399,4249,175098,3744
+5001100US4901,4901,"Congressional District 1 (111th Congress), Utah",870579,1580,801602,2241,68977,2297
+5001100US4902,4902,"Congressional District 2 (111th Congress), Utah",865134,2166,806377,2576,58757,2051
+5001100US4903,4903,"Congressional District 3 (111th Congress), Utah",921523,1611,830974,2702,90549,2149
+5001100US5000,5000,"Congressional District (at Large) (111th Congress), Vermont",624258,*****,599421,1071,24837,1071
+5001100US5101,5101,"Congressional District 1 (111th Congress), Virginia",769761,3210,717788,3091,51973,1817
+5001100US5102,5102,"Congressional District 2 (111th Congress), Virginia",641217,2863,587884,3113,53333,1883
+5001100US5103,5103,"Congressional District 3 (111th Congress), Virginia",668989,4339,634300,4252,34689,1659
+5001100US5104,5104,"Congressional District 4 (111th Congress), Virginia",729286,2115,697735,2398,31551,1379
+5001100US5105,5105,"Congressional District 5 (111th Congress), Virginia",678897,1320,652107,2089,26790,1606
+5001100US5106,5106,"Congressional District 6 (111th Congress), Virginia",695556,1226,663933,1820,31623,1555
+5001100US5107,5107,"Congressional District 7 (111th Congress), Virginia",740969,3533,684461,3471,56508,1791
+5001100US5108,5108,"Congressional District 8 (111th Congress), Virginia",662319,3098,483501,3639,178818,3294
+5001100US5109,5109,"Congressional District 9 (111th Congress), Virginia",653420,1169,638266,1596,15154,934
+5001100US5110,5110,"Congressional District 10 (111th Congress), Virginia",832310,3198,659125,3501,173185,3654
+5001100US5111,5111,"Congressional District 11 (111th Congress), Virginia",769030,3673,574567,3382,194463,3249
+5001100US5301,5301,"Congressional District 1 (111th Congress), Washington",721710,2902,604044,3515,117666,2426
+5001100US5302,5302,"Congressional District 2 (111th Congress), Washington",744005,1992,673099,2465,70906,2371
+5001100US5303,5303,"Congressional District 3 (111th Congress), Washington",759500,1833,699048,3188,60452,2397
+5001100US5304,5304,"Congressional District 4 (111th Congress), Washington",744200,539,629951,2492,114249,2497
+5001100US5305,5305,"Congressional District 5 (111th Congress), Washington",709458,355,669350,1527,40108,1481
+5001100US5306,5306,"Congressional District 6 (111th Congress), Washington",699289,2758,640607,2914,58682,1786
+5001100US5307,5307,"Congressional District 7 (111th Congress), Washington",685056,2946,560044,3783,125012,2748
+5001100US5308,5308,"Congressional District 8 (111th Congress), Washington",782739,3565,648311,3813,134428,3278
+5001100US5309,5309,"Congressional District 9 (111th Congress), Washington",715340,4276,604097,4711,111243,3149
+5001100US5401,5401,"Congressional District 1 (111th Congress), West Virginia",610785,*****,601727,589,9058,589
+5001100US5402,5402,"Congressional District 2 (111th Congress), West Virginia",641571,*****,631649,618,9922,618
+5001100US5403,5403,"Congressional District 3 (111th Congress), West Virginia",588446,*****,583509,502,4937,502
+5001100US5501,5501,"Congressional District 1 (111th Congress), Wisconsin",719817,604,681675,1652,38142,1549
+5001100US5502,5502,"Congressional District 2 (111th Congress), Wisconsin",738674,743,692806,1364,45868,1285
+5001100US5503,5503,"Congressional District 3 (111th Congress), Wisconsin",722995,473,706460,974,16535,748
+5001100US5504,5504,"Congressional District 4 (111th Congress), Wisconsin",663624,722,601594,2023,62030,1909
+5001100US5505,5505,"Congressional District 5 (111th Congress), Wisconsin",701782,953,668228,1699,33554,1288
+5001100US5506,5506,"Congressional District 6 (111th Congress), Wisconsin",701234,329,678425,1009,22809,979
+5001100US5507,5507,"Congressional District 7 (111th Congress), Wisconsin",686792,556,671785,847,15007,636
+5001100US5508,5508,"Congressional District 8 (111th Congress), Wisconsin",703029,471,678987,1001,24042,953
+5001100US5600,5600,"Congressional District (at Large) (111th Congress), Wyoming",545579,*****,528867,974,16712,974
