@@ -1,6 +1,6 @@
 def clea_clean(clea_file_name, state_abb_df):
     ## Read in data
-    clea_results = pd.read_excel(clea_file_name)
+    clea_results = pd.read_csv(clea_file_name)
     democrat_code = 180
     republican_code = 583
     election_month_int = 11

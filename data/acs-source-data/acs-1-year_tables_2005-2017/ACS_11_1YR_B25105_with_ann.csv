@@ -1,0 +1,439 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD01,HD02_VD01
+Id,Id2,Geography,Estimate; Median monthly housing costs,Margin of Error; Median monthly housing costs
+5001200US0101,0101,"Congressional District 1 (112th Congress), Alabama",793,26
+5001200US0102,0102,"Congressional District 2 (112th Congress), Alabama",683,16
+5001200US0103,0103,"Congressional District 3 (112th Congress), Alabama",686,16
+5001200US0104,0104,"Congressional District 4 (112th Congress), Alabama",574,20
+5001200US0105,0105,"Congressional District 5 (112th Congress), Alabama",721,20
+5001200US0106,0106,"Congressional District 6 (112th Congress), Alabama",964,25
+5001200US0107,0107,"Congressional District 7 (112th Congress), Alabama",705,17
+5001200US0200,0200,"Congressional District (at Large) (112th Congress), Alaska",1186,31
+5001200US0401,0401,"Congressional District 1 (112th Congress), Arizona",721,24
+5001200US0402,0402,"Congressional District 2 (112th Congress), Arizona",982,21
+5001200US0403,0403,"Congressional District 3 (112th Congress), Arizona",1132,28
+5001200US0404,0404,"Congressional District 4 (112th Congress), Arizona",829,22
+5001200US0405,0405,"Congressional District 5 (112th Congress), Arizona",1113,27
+5001200US0406,0406,"Congressional District 6 (112th Congress), Arizona",1095,22
+5001200US0407,0407,"Congressional District 7 (112th Congress), Arizona",786,22
+5001200US0408,0408,"Congressional District 8 (112th Congress), Arizona",918,26
+5001200US0501,0501,"Congressional District 1 (112th Congress), Arkansas",586,11
+5001200US0502,0502,"Congressional District 2 (112th Congress), Arkansas",777,18
+5001200US0503,0503,"Congressional District 3 (112th Congress), Arkansas",700,17
+5001200US0504,0504,"Congressional District 4 (112th Congress), Arkansas",538,12
+5001200US0601,0601,"Congressional District 1 (112th Congress), California",1158,33
+5001200US0602,0602,"Congressional District 2 (112th Congress), California",923,24
+5001200US0603,0603,"Congressional District 3 (112th Congress), California",1341,31
+5001200US0604,0604,"Congressional District 4 (112th Congress), California",1362,48
+5001200US0605,0605,"Congressional District 5 (112th Congress), California",1046,26
+5001200US0606,0606,"Congressional District 6 (112th Congress), California",1540,45
+5001200US0607,0607,"Congressional District 7 (112th Congress), California",1386,37
+5001200US0608,0608,"Congressional District 8 (112th Congress), California",1561,40
+5001200US0609,0609,"Congressional District 9 (112th Congress), California",1329,35
+5001200US0610,0610,"Congressional District 10 (112th Congress), California",1736,50
+5001200US0611,0611,"Congressional District 11 (112th Congress), California",1632,44
+5001200US0612,0612,"Congressional District 12 (112th Congress), California",1848,40
+5001200US0613,0613,"Congressional District 13 (112th Congress), California",1621,38
+5001200US0614,0614,"Congressional District 14 (112th Congress), California",1806,57
+5001200US0615,0615,"Congressional District 15 (112th Congress), California",1775,48
+5001200US0616,0616,"Congressional District 16 (112th Congress), California",1670,46
+5001200US0617,0617,"Congressional District 17 (112th Congress), California",1362,35
+5001200US0618,0618,"Congressional District 18 (112th Congress), California",949,20
+5001200US0619,0619,"Congressional District 19 (112th Congress), California",1070,28
+5001200US0620,0620,"Congressional District 20 (112th Congress), California",848,19
+5001200US0621,0621,"Congressional District 21 (112th Congress), California",961,23
+5001200US0622,0622,"Congressional District 22 (112th Congress), California",1101,25
+5001200US0623,0623,"Congressional District 23 (112th Congress), California",1423,37
+5001200US0624,0624,"Congressional District 24 (112th Congress), California",1787,48
+5001200US0625,0625,"Congressional District 25 (112th Congress), California",1367,33
+5001200US0626,0626,"Congressional District 26 (112th Congress), California",1598,52
+5001200US0627,0627,"Congressional District 27 (112th Congress), California",1518,49
+5001200US0628,0628,"Congressional District 28 (112th Congress), California",1377,24
+5001200US0629,0629,"Congressional District 29 (112th Congress), California",1380,23
+5001200US0630,0630,"Congressional District 30 (112th Congress), California",1822,42
+5001200US0631,0631,"Congressional District 31 (112th Congress), California",994,16
+5001200US0632,0632,"Congressional District 32 (112th Congress), California",1234,24
+5001200US0633,0633,"Congressional District 33 (112th Congress), California",1222,24
+5001200US0634,0634,"Congressional District 34 (112th Congress), California",1080,21
+5001200US0635,0635,"Congressional District 35 (112th Congress), California",1149,24
+5001200US0636,0636,"Congressional District 36 (112th Congress), California",1573,45
+5001200US0637,0637,"Congressional District 37 (112th Congress), California",1178,25
+5001200US0638,0638,"Congressional District 38 (112th Congress), California",1287,35
+5001200US0639,0639,"Congressional District 39 (112th Congress), California",1361,30
+5001200US0640,0640,"Congressional District 40 (112th Congress), California",1568,43
+5001200US0641,0641,"Congressional District 41 (112th Congress), California",1097,29
+5001200US0642,0642,"Congressional District 42 (112th Congress), California",1951,58
+5001200US0643,0643,"Congressional District 43 (112th Congress), California",1203,28
+5001200US0644,0644,"Congressional District 44 (112th Congress), California",1615,46
+5001200US0645,0645,"Congressional District 45 (112th Congress), California",1241,34
+5001200US0646,0646,"Congressional District 46 (112th Congress), California",1610,35
+5001200US0647,0647,"Congressional District 47 (112th Congress), California",1351,24
+5001200US0648,0648,"Congressional District 48 (112th Congress), California",1918,34
+5001200US0649,0649,"Congressional District 49 (112th Congress), California",1467,38
+5001200US0650,0650,"Congressional District 50 (112th Congress), California",1723,40
+5001200US0651,0651,"Congressional District 51 (112th Congress), California",1208,32
+5001200US0652,0652,"Congressional District 52 (112th Congress), California",1502,42
+5001200US0653,0653,"Congressional District 53 (112th Congress), California",1277,35
+5001200US0801,0801,"Congressional District 1 (112th Congress), Colorado",998,22
+5001200US0802,0802,"Congressional District 2 (112th Congress), Colorado",1299,30
+5001200US0803,0803,"Congressional District 3 (112th Congress), Colorado",869,22
+5001200US0804,0804,"Congressional District 4 (112th Congress), Colorado",989,28
+5001200US0805,0805,"Congressional District 5 (112th Congress), Colorado",1072,24
+5001200US0806,0806,"Congressional District 6 (112th Congress), Colorado",1541,27
+5001200US0807,0807,"Congressional District 7 (112th Congress), Colorado",1057,26
+5001200US0901,0901,"Congressional District 1 (112th Congress), Connecticut",1209,25
+5001200US0902,0902,"Congressional District 2 (112th Congress), Connecticut",1292,38
+5001200US0903,0903,"Congressional District 3 (112th Congress), Connecticut",1327,27
+5001200US0904,0904,"Congressional District 4 (112th Congress), Connecticut",1794,52
+5001200US0905,0905,"Congressional District 5 (112th Congress), Connecticut",1296,33
+5001200US1000,1000,"Congressional District (at Large) (112th Congress), Delaware",1113,21
+5001200US1198,1198,"Delegate District (at Large) (112th Congress), District of Columbia",1401,32
+5001200US1201,1201,"Congressional District 1 (112th Congress), Florida",907,27
+5001200US1202,1202,"Congressional District 2 (112th Congress), Florida",899,24
+5001200US1203,1203,"Congressional District 3 (112th Congress), Florida",837,16
+5001200US1204,1204,"Congressional District 4 (112th Congress), Florida",1016,29
+5001200US1205,1205,"Congressional District 5 (112th Congress), Florida",788,23
+5001200US1206,1206,"Congressional District 6 (112th Congress), Florida",890,24
+5001200US1207,1207,"Congressional District 7 (112th Congress), Florida",995,30
+5001200US1208,1208,"Congressional District 8 (112th Congress), Florida",1044,30
+5001200US1209,1209,"Congressional District 9 (112th Congress), Florida",1013,28
+5001200US1210,1210,"Congressional District 10 (112th Congress), Florida",934,21
+5001200US1211,1211,"Congressional District 11 (112th Congress), Florida",921,18
+5001200US1212,1212,"Congressional District 12 (112th Congress), Florida",878,15
+5001200US1213,1213,"Congressional District 13 (112th Congress), Florida",891,22
+5001200US1214,1214,"Congressional District 14 (112th Congress), Florida",942,22
+5001200US1215,1215,"Congressional District 15 (112th Congress), Florida",941,22
+5001200US1216,1216,"Congressional District 16 (112th Congress), Florida",902,27
+5001200US1217,1217,"Congressional District 17 (112th Congress), Florida",1035,28
+5001200US1218,1218,"Congressional District 18 (112th Congress), Florida",1151,34
+5001200US1219,1219,"Congressional District 19 (112th Congress), Florida",1085,25
+5001200US1220,1220,"Congressional District 20 (112th Congress), Florida",1306,34
+5001200US1221,1221,"Congressional District 21 (112th Congress), Florida",1237,29
+5001200US1222,1222,"Congressional District 22 (112th Congress), Florida",1320,30
+5001200US1223,1223,"Congressional District 23 (112th Congress), Florida",984,20
+5001200US1224,1224,"Congressional District 24 (112th Congress), Florida",1100,26
+5001200US1225,1225,"Congressional District 25 (112th Congress), Florida",1340,40
+5001200US1301,1301,"Congressional District 1 (112th Congress), Georgia",755,21
+5001200US1302,1302,"Congressional District 2 (112th Congress), Georgia",663,11
+5001200US1303,1303,"Congressional District 3 (112th Congress), Georgia",1035,26
+5001200US1304,1304,"Congressional District 4 (112th Congress), Georgia",1048,21
+5001200US1305,1305,"Congressional District 5 (112th Congress), Georgia",1055,28
+5001200US1306,1306,"Congressional District 6 (112th Congress), Georgia",1325,43
+5001200US1307,1307,"Congressional District 7 (112th Congress), Georgia",1231,30
+5001200US1308,1308,"Congressional District 8 (112th Congress), Georgia",758,17
+5001200US1309,1309,"Congressional District 9 (112th Congress), Georgia",843,23
+5001200US1310,1310,"Congressional District 10 (112th Congress), Georgia",822,20
+5001200US1311,1311,"Congressional District 11 (112th Congress), Georgia",950,27
+5001200US1312,1312,"Congressional District 12 (112th Congress), Georgia",750,24
+5001200US1313,1313,"Congressional District 13 (112th Congress), Georgia",1016,29
+5001200US1501,1501,"Congressional District 1 (112th Congress), Hawaii",1454,36
+5001200US1502,1502,"Congressional District 2 (112th Congress), Hawaii",1392,47
+5001200US1601,1601,"Congressional District 1 (112th Congress), Idaho",869,26
+5001200US1602,1602,"Congressional District 2 (112th Congress), Idaho",729,19
+5001200US1701,1701,"Congressional District 1 (112th Congress), Illinois",971,20
+5001200US1702,1702,"Congressional District 2 (112th Congress), Illinois",1055,27
+5001200US1703,1703,"Congressional District 3 (112th Congress), Illinois",1105,35
+5001200US1704,1704,"Congressional District 4 (112th Congress), Illinois",983,23
+5001200US1705,1705,"Congressional District 5 (112th Congress), Illinois",1156,28
+5001200US1706,1706,"Congressional District 6 (112th Congress), Illinois",1414,38
+5001200US1707,1707,"Congressional District 7 (112th Congress), Illinois",1281,36
+5001200US1708,1708,"Congressional District 8 (112th Congress), Illinois",1466,27
+5001200US1709,1709,"Congressional District 9 (112th Congress), Illinois",1162,31
+5001200US1710,1710,"Congressional District 10 (112th Congress), Illinois",1601,39
+5001200US1711,1711,"Congressional District 11 (112th Congress), Illinois",1036,26
+5001200US1712,1712,"Congressional District 12 (112th Congress), Illinois",743,19
+5001200US1713,1713,"Congressional District 13 (112th Congress), Illinois",1639,39
+5001200US1714,1714,"Congressional District 14 (112th Congress), Illinois",1326,43
+5001200US1715,1715,"Congressional District 15 (112th Congress), Illinois",764,13
+5001200US1716,1716,"Congressional District 16 (112th Congress), Illinois",998,20
+5001200US1717,1717,"Congressional District 17 (112th Congress), Illinois",658,14
+5001200US1718,1718,"Congressional District 18 (112th Congress), Illinois",732,13
+5001200US1719,1719,"Congressional District 19 (112th Congress), Illinois",720,11
+5001200US1801,1801,"Congressional District 1 (112th Congress), Indiana",879,17
+5001200US1802,1802,"Congressional District 2 (112th Congress), Indiana",728,12
+5001200US1803,1803,"Congressional District 3 (112th Congress), Indiana",750,14
+5001200US1804,1804,"Congressional District 4 (112th Congress), Indiana",888,17
+5001200US1805,1805,"Congressional District 5 (112th Congress), Indiana",929,21
+5001200US1806,1806,"Congressional District 6 (112th Congress), Indiana",689,13
+5001200US1807,1807,"Congressional District 7 (112th Congress), Indiana",777,13
+5001200US1808,1808,"Congressional District 8 (112th Congress), Indiana",707,14
+5001200US1809,1809,"Congressional District 9 (112th Congress), Indiana",762,14
+5001200US1901,1901,"Congressional District 1 (112th Congress), Iowa",729,13
+5001200US1902,1902,"Congressional District 2 (112th Congress), Iowa",780,19
+5001200US1903,1903,"Congressional District 3 (112th Congress), Iowa",865,19
+5001200US1904,1904,"Congressional District 4 (112th Congress), Iowa",690,13
+5001200US1905,1905,"Congressional District 5 (112th Congress), Iowa",644,10
+5001200US2001,2001,"Congressional District 1 (112th Congress), Kansas",633,12
+5001200US2002,2002,"Congressional District 2 (112th Congress), Kansas",757,15
+5001200US2003,2003,"Congressional District 3 (112th Congress), Kansas",1080,20
+5001200US2004,2004,"Congressional District 4 (112th Congress), Kansas",787,15
+5001200US2101,2101,"Congressional District 1 (112th Congress), Kentucky",575,14
+5001200US2102,2102,"Congressional District 2 (112th Congress), Kentucky",693,16
+5001200US2103,2103,"Congressional District 3 (112th Congress), Kentucky",808,19
+5001200US2104,2104,"Congressional District 4 (112th Congress), Kentucky",800,17
+5001200US2105,2105,"Congressional District 5 (112th Congress), Kentucky",474,13
+5001200US2106,2106,"Congressional District 6 (112th Congress), Kentucky",772,17
+5001200US2201,2201,"Congressional District 1 (112th Congress), Louisiana",891,20
+5001200US2202,2202,"Congressional District 2 (112th Congress), Louisiana",889,22
+5001200US2203,2203,"Congressional District 3 (112th Congress), Louisiana",653,25
+5001200US2204,2204,"Congressional District 4 (112th Congress), Louisiana",662,19
+5001200US2205,2205,"Congressional District 5 (112th Congress), Louisiana",557,15
+5001200US2206,2206,"Congressional District 6 (112th Congress), Louisiana",833,22
+5001200US2207,2207,"Congressional District 7 (112th Congress), Louisiana",630,16
+5001200US2301,2301,"Congressional District 1 (112th Congress), Maine",1008,24
+5001200US2302,2302,"Congressional District 2 (112th Congress), Maine",720,13
+5001200US2401,2401,"Congressional District 1 (112th Congress), Maryland",1261,40
+5001200US2402,2402,"Congressional District 2 (112th Congress), Maryland",1151,22
+5001200US2403,2403,"Congressional District 3 (112th Congress), Maryland",1425,34
+5001200US2404,2404,"Congressional District 4 (112th Congress), Maryland",1606,37
+5001200US2405,2405,"Congressional District 5 (112th Congress), Maryland",1705,32
+5001200US2406,2406,"Congressional District 6 (112th Congress), Maryland",1269,37
+5001200US2407,2407,"Congressional District 7 (112th Congress), Maryland",1144,26
+5001200US2408,2408,"Congressional District 8 (112th Congress), Maryland",1724,32
+5001200US2501,2501,"Congressional District 1 (112th Congress), Massachusetts",972,21
+5001200US2502,2502,"Congressional District 2 (112th Congress), Massachusetts",1075,33
+5001200US2503,2503,"Congressional District 3 (112th Congress), Massachusetts",1213,29
+5001200US2504,2504,"Congressional District 4 (112th Congress), Massachusetts",1363,33
+5001200US2505,2505,"Congressional District 5 (112th Congress), Massachusetts",1387,37
+5001200US2506,2506,"Congressional District 6 (112th Congress), Massachusetts",1473,39
+5001200US2507,2507,"Congressional District 7 (112th Congress), Massachusetts",1444,26
+5001200US2508,2508,"Congressional District 8 (112th Congress), Massachusetts",1392,24
+5001200US2509,2509,"Congressional District 9 (112th Congress), Massachusetts",1489,41
+5001200US2510,2510,"Congressional District 10 (112th Congress), Massachusetts",1469,31
+5001200US2601,2601,"Congressional District 1 (112th Congress), Michigan",628,10
+5001200US2602,2602,"Congressional District 2 (112th Congress), Michigan",776,14
+5001200US2603,2603,"Congressional District 3 (112th Congress), Michigan",874,18
+5001200US2604,2604,"Congressional District 4 (112th Congress), Michigan",753,12
+5001200US2605,2605,"Congressional District 5 (112th Congress), Michigan",753,16
+5001200US2606,2606,"Congressional District 6 (112th Congress), Michigan",782,15
+5001200US2607,2607,"Congressional District 7 (112th Congress), Michigan",828,16
+5001200US2608,2608,"Congressional District 8 (112th Congress), Michigan",1009,24
+5001200US2609,2609,"Congressional District 9 (112th Congress), Michigan",1159,27
+5001200US2610,2610,"Congressional District 10 (112th Congress), Michigan",941,22
+5001200US2611,2611,"Congressional District 11 (112th Congress), Michigan",1069,20
+5001200US2612,2612,"Congressional District 12 (112th Congress), Michigan",890,16
+5001200US2613,2613,"Congressional District 13 (112th Congress), Michigan",741,16
+5001200US2614,2614,"Congressional District 14 (112th Congress), Michigan",801,23
+5001200US2615,2615,"Congressional District 15 (112th Congress), Michigan",965,19
+5001200US2701,2701,"Congressional District 1 (112th Congress), Minnesota",791,19
+5001200US2702,2702,"Congressional District 2 (112th Congress), Minnesota",1338,20
+5001200US2703,2703,"Congressional District 3 (112th Congress), Minnesota",1305,28
+5001200US2704,2704,"Congressional District 4 (112th Congress), Minnesota",986,23
+5001200US2705,2705,"Congressional District 5 (112th Congress), Minnesota",1005,23
+5001200US2706,2706,"Congressional District 6 (112th Congress), Minnesota",1223,25
+5001200US2707,2707,"Congressional District 7 (112th Congress), Minnesota",722,15
+5001200US2708,2708,"Congressional District 8 (112th Congress), Minnesota",782,13
+5001200US2801,2801,"Congressional District 1 (112th Congress), Mississippi",661,17
+5001200US2802,2802,"Congressional District 2 (112th Congress), Mississippi",613,20
+5001200US2803,2803,"Congressional District 3 (112th Congress), Mississippi",645,24
+5001200US2804,2804,"Congressional District 4 (112th Congress), Mississippi",733,19
+5001200US2901,2901,"Congressional District 1 (112th Congress), Missouri",875,19
+5001200US2902,2902,"Congressional District 2 (112th Congress), Missouri",1199,29
+5001200US2903,2903,"Congressional District 3 (112th Congress), Missouri",885,21
+5001200US2904,2904,"Congressional District 4 (112th Congress), Missouri",696,16
+5001200US2905,2905,"Congressional District 5 (112th Congress), Missouri",870,15
+5001200US2906,2906,"Congressional District 6 (112th Congress), Missouri",841,23
+5001200US2907,2907,"Congressional District 7 (112th Congress), Missouri",704,17
+5001200US2908,2908,"Congressional District 8 (112th Congress), Missouri",556,12
+5001200US2909,2909,"Congressional District 9 (112th Congress), Missouri",736,15
+5001200US3000,3000,"Congressional District (at Large) (112th Congress), Montana",726,15
+5001200US3101,3101,"Congressional District 1 (112th Congress), Nebraska",791,17
+5001200US3102,3102,"Congressional District 2 (112th Congress), Nebraska",949,20
+5001200US3103,3103,"Congressional District 3 (112th Congress), Nebraska",615,13
+5001200US3201,3201,"Congressional District 1 (112th Congress), Nevada",982,17
+5001200US3202,3202,"Congressional District 2 (112th Congress), Nevada",991,27
+5001200US3203,3203,"Congressional District 3 (112th Congress), Nevada",1174,28
+5001200US3301,3301,"Congressional District 1 (112th Congress), New Hampshire",1251,38
+5001200US3302,3302,"Congressional District 2 (112th Congress), New Hampshire",1192,27
+5001200US3401,3401,"Congressional District 1 (112th Congress), New Jersey",1259,32
+5001200US3402,3402,"Congressional District 2 (112th Congress), New Jersey",1240,26
+5001200US3403,3403,"Congressional District 3 (112th Congress), New Jersey",1485,33
+5001200US3404,3404,"Congressional District 4 (112th Congress), New Jersey",1486,33
+5001200US3405,3405,"Congressional District 5 (112th Congress), New Jersey",1975,54
+5001200US3406,3406,"Congressional District 6 (112th Congress), New Jersey",1496,31
+5001200US3407,3407,"Congressional District 7 (112th Congress), New Jersey",1965,49
+5001200US3408,3408,"Congressional District 8 (112th Congress), New Jersey",1443,30
+5001200US3409,3409,"Congressional District 9 (112th Congress), New Jersey",1450,30
+5001200US3410,3410,"Congressional District 10 (112th Congress), New Jersey",1201,22
+5001200US3411,3411,"Congressional District 11 (112th Congress), New Jersey",1968,52
+5001200US3412,3412,"Congressional District 12 (112th Congress), New Jersey",1713,38
+5001200US3413,3413,"Congressional District 13 (112th Congress), New Jersey",1215,17
+5001200US3501,3501,"Congressional District 1 (112th Congress), New Mexico",850,19
+5001200US3502,3502,"Congressional District 2 (112th Congress), New Mexico",604,19
+5001200US3503,3503,"Congressional District 3 (112th Congress), New Mexico",811,20
+5001200US3601,3601,"Congressional District 1 (112th Congress), New York",1889,41
+5001200US3602,3602,"Congressional District 2 (112th Congress), New York",2042,54
+5001200US3603,3603,"Congressional District 3 (112th Congress), New York",2106,59
+5001200US3604,3604,"Congressional District 4 (112th Congress), New York",1972,58
+5001200US3605,3605,"Congressional District 5 (112th Congress), New York",1431,25
+5001200US3606,3606,"Congressional District 6 (112th Congress), New York",1418,32
+5001200US3607,3607,"Congressional District 7 (112th Congress), New York",1177,21
+5001200US3608,3608,"Congressional District 8 (112th Congress), New York",1556,44
+5001200US3609,3609,"Congressional District 9 (112th Congress), New York",1262,25
+5001200US3610,3610,"Congressional District 10 (112th Congress), New York",1175,25
+5001200US3611,3611,"Congressional District 11 (112th Congress), New York",1185,18
+5001200US3612,3612,"Congressional District 12 (112th Congress), New York",1187,21
+5001200US3613,3613,"Congressional District 13 (112th Congress), New York",1378,36
+5001200US3614,3614,"Congressional District 14 (112th Congress), New York",1666,34
+5001200US3615,3615,"Congressional District 15 (112th Congress), New York",1035,27
+5001200US3616,3616,"Congressional District 16 (112th Congress), New York",934,19
+5001200US3617,3617,"Congressional District 17 (112th Congress), New York",1299,27
+5001200US3618,3618,"Congressional District 18 (112th Congress), New York",1850,56
+5001200US3619,3619,"Congressional District 19 (112th Congress), New York",1732,63
+5001200US3620,3620,"Congressional District 20 (112th Congress), New York",1013,23
+5001200US3621,3621,"Congressional District 21 (112th Congress), New York",946,16
+5001200US3622,3622,"Congressional District 22 (112th Congress), New York",998,22
+5001200US3623,3623,"Congressional District 23 (112th Congress), New York",771,14
+5001200US3624,3624,"Congressional District 24 (112th Congress), New York",755,13
+5001200US3625,3625,"Congressional District 25 (112th Congress), New York",909,17
+5001200US3626,3626,"Congressional District 26 (112th Congress), New York",888,16
+5001200US3627,3627,"Congressional District 27 (112th Congress), New York",731,13
+5001200US3628,3628,"Congressional District 28 (112th Congress), New York",756,15
+5001200US3629,3629,"Congressional District 29 (112th Congress), New York",827,14
+5001200US3701,3701,"Congressional District 1 (112th Congress), North Carolina",688,17
+5001200US3702,3702,"Congressional District 2 (112th Congress), North Carolina",848,22
+5001200US3703,3703,"Congressional District 3 (112th Congress), North Carolina",885,23
+5001200US3704,3704,"Congressional District 4 (112th Congress), North Carolina",1108,26
+5001200US3705,3705,"Congressional District 5 (112th Congress), North Carolina",711,21
+5001200US3706,3706,"Congressional District 6 (112th Congress), North Carolina",826,21
+5001200US3707,3707,"Congressional District 7 (112th Congress), North Carolina",791,20
+5001200US3708,3708,"Congressional District 8 (112th Congress), North Carolina",827,16
+5001200US3709,3709,"Congressional District 9 (112th Congress), North Carolina",1105,24
+5001200US3710,3710,"Congressional District 10 (112th Congress), North Carolina",703,17
+5001200US3711,3711,"Congressional District 11 (112th Congress), North Carolina",688,27
+5001200US3712,3712,"Congressional District 12 (112th Congress), North Carolina",835,16
+5001200US3713,3713,"Congressional District 13 (112th Congress), North Carolina",882,18
+5001200US3800,3800,"Congressional District (at Large) (112th Congress), North Dakota",671,12
+5001200US3901,3901,"Congressional District 1 (112th Congress), Ohio",829,23
+5001200US3902,3902,"Congressional District 2 (112th Congress), Ohio",971,23
+5001200US3903,3903,"Congressional District 3 (112th Congress), Ohio",861,19
+5001200US3904,3904,"Congressional District 4 (112th Congress), Ohio",698,14
+5001200US3905,3905,"Congressional District 5 (112th Congress), Ohio",748,16
+5001200US3906,3906,"Congressional District 6 (112th Congress), Ohio",612,16
+5001200US3907,3907,"Congressional District 7 (112th Congress), Ohio",855,15
+5001200US3908,3908,"Congressional District 8 (112th Congress), Ohio",854,18
+5001200US3909,3909,"Congressional District 9 (112th Congress), Ohio",766,19
+5001200US3910,3910,"Congressional District 10 (112th Congress), Ohio",814,21
+5001200US3911,3911,"Congressional District 11 (112th Congress), Ohio",786,13
+5001200US3912,3912,"Congressional District 12 (112th Congress), Ohio",1028,29
+5001200US3913,3913,"Congressional District 13 (112th Congress), Ohio",871,18
+5001200US3914,3914,"Congressional District 14 (112th Congress), Ohio",962,19
+5001200US3915,3915,"Congressional District 15 (112th Congress), Ohio",950,19
+5001200US3916,3916,"Congressional District 16 (112th Congress), Ohio",784,21
+5001200US3917,3917,"Congressional District 17 (112th Congress), Ohio",689,16
+5001200US3918,3918,"Congressional District 18 (112th Congress), Ohio",686,12
+5001200US4001,4001,"Congressional District 1 (112th Congress), Oklahoma",819,17
+5001200US4002,4002,"Congressional District 2 (112th Congress), Oklahoma",562,11
+5001200US4003,4003,"Congressional District 3 (112th Congress), Oklahoma",624,11
+5001200US4004,4004,"Congressional District 4 (112th Congress), Oklahoma",770,17
+5001200US4005,4005,"Congressional District 5 (112th Congress), Oklahoma",780,12
+5001200US4101,4101,"Congressional District 1 (112th Congress), Oregon",1143,27
+5001200US4102,4102,"Congressional District 2 (112th Congress), Oregon",857,22
+5001200US4103,4103,"Congressional District 3 (112th Congress), Oregon",1065,25
+5001200US4104,4104,"Congressional District 4 (112th Congress), Oregon",822,21
+5001200US4105,4105,"Congressional District 5 (112th Congress), Oregon",1000,30
+5001200US4201,4201,"Congressional District 1 (112th Congress), Pennsylvania",821,14
+5001200US4202,4202,"Congressional District 2 (112th Congress), Pennsylvania",876,18
+5001200US4203,4203,"Congressional District 3 (112th Congress), Pennsylvania",675,11
+5001200US4204,4204,"Congressional District 4 (112th Congress), Pennsylvania",862,16
+5001200US4205,4205,"Congressional District 5 (112th Congress), Pennsylvania",662,15
+5001200US4206,4206,"Congressional District 6 (112th Congress), Pennsylvania",1293,35
+5001200US4207,4207,"Congressional District 7 (112th Congress), Pennsylvania",1347,29
+5001200US4208,4208,"Congressional District 8 (112th Congress), Pennsylvania",1407,31
+5001200US4209,4209,"Congressional District 9 (112th Congress), Pennsylvania",682,13
+5001200US4210,4210,"Congressional District 10 (112th Congress), Pennsylvania",779,18
+5001200US4211,4211,"Congressional District 11 (112th Congress), Pennsylvania",805,21
+5001200US4212,4212,"Congressional District 12 (112th Congress), Pennsylvania",598,12
+5001200US4213,4213,"Congressional District 13 (112th Congress), Pennsylvania",1127,22
+5001200US4214,4214,"Congressional District 14 (112th Congress), Pennsylvania",703,13
+5001200US4215,4215,"Congressional District 15 (112th Congress), Pennsylvania",1082,25
+5001200US4216,4216,"Congressional District 16 (112th Congress), Pennsylvania",1000,24
+5001200US4217,4217,"Congressional District 17 (112th Congress), Pennsylvania",848,16
+5001200US4218,4218,"Congressional District 18 (112th Congress), Pennsylvania",866,18
+5001200US4219,4219,"Congressional District 19 (112th Congress), Pennsylvania",992,23
+5001200US4401,4401,"Congressional District 1 (112th Congress), Rhode Island",1107,29
+5001200US4402,4402,"Congressional District 2 (112th Congress), Rhode Island",1169,32
+5001200US4501,4501,"Congressional District 1 (112th Congress), South Carolina",961,26
+5001200US4502,4502,"Congressional District 2 (112th Congress), South Carolina",912,22
+5001200US4503,4503,"Congressional District 3 (112th Congress), South Carolina",674,20
+5001200US4504,4504,"Congressional District 4 (112th Congress), South Carolina",779,19
+5001200US4505,4505,"Congressional District 5 (112th Congress), South Carolina",707,14
+5001200US4506,4506,"Congressional District 6 (112th Congress), South Carolina",657,20
+5001200US4600,4600,"Congressional District (at Large) (112th Congress), South Dakota",693,16
+5001200US4701,4701,"Congressional District 1 (112th Congress), Tennessee",606,16
+5001200US4702,4702,"Congressional District 2 (112th Congress), Tennessee",801,19
+5001200US4703,4703,"Congressional District 3 (112th Congress), Tennessee",697,16
+5001200US4704,4704,"Congressional District 4 (112th Congress), Tennessee",597,15
+5001200US4705,4705,"Congressional District 5 (112th Congress), Tennessee",919,21
+5001200US4706,4706,"Congressional District 6 (112th Congress), Tennessee",816,23
+5001200US4707,4707,"Congressional District 7 (112th Congress), Tennessee",1026,35
+5001200US4708,4708,"Congressional District 8 (112th Congress), Tennessee",662,19
+5001200US4709,4709,"Congressional District 9 (112th Congress), Tennessee",870,18
+5001200US4801,4801,"Congressional District 1 (112th Congress), Texas",683,16
+5001200US4802,4802,"Congressional District 2 (112th Congress), Texas",969,29
+5001200US4803,4803,"Congressional District 3 (112th Congress), Texas",1220,24
+5001200US4804,4804,"Congressional District 4 (112th Congress), Texas",870,17
+5001200US4805,4805,"Congressional District 5 (112th Congress), Texas",850,18
+5001200US4806,4806,"Congressional District 6 (112th Congress), Texas",983,31
+5001200US4807,4807,"Congressional District 7 (112th Congress), Texas",1185,27
+5001200US4808,4808,"Congressional District 8 (112th Congress), Texas",850,21
+5001200US4809,4809,"Congressional District 9 (112th Congress), Texas",841,22
+5001200US4810,4810,"Congressional District 10 (112th Congress), Texas",1143,24
+5001200US4811,4811,"Congressional District 11 (112th Congress), Texas",686,16
+5001200US4812,4812,"Congressional District 12 (112th Congress), Texas",951,22
+5001200US4813,4813,"Congressional District 13 (112th Congress), Texas",666,13
+5001200US4814,4814,"Congressional District 14 (112th Congress), Texas",892,28
+5001200US4815,4815,"Congressional District 15 (112th Congress), Texas",592,23
+5001200US4816,4816,"Congressional District 16 (112th Congress), Texas",765,23
+5001200US4817,4817,"Congressional District 17 (112th Congress), Texas",782,22
+5001200US4818,4818,"Congressional District 18 (112th Congress), Texas",817,24
+5001200US4819,4819,"Congressional District 19 (112th Congress), Texas",673,15
+5001200US4820,4820,"Congressional District 20 (112th Congress), Texas",766,18
+5001200US4821,4821,"Congressional District 21 (112th Congress), Texas",1077,23
+5001200US4822,4822,"Congressional District 22 (112th Congress), Texas",1204,34
+5001200US4823,4823,"Congressional District 23 (112th Congress), Texas",813,25
+5001200US4824,4824,"Congressional District 24 (112th Congress), Texas",1091,30
+5001200US4825,4825,"Congressional District 25 (112th Congress), Texas",976,20
+5001200US4826,4826,"Congressional District 26 (112th Congress), Texas",1158,23
+5001200US4827,4827,"Congressional District 27 (112th Congress), Texas",726,18
+5001200US4828,4828,"Congressional District 28 (112th Congress), Texas",687,29
+5001200US4829,4829,"Congressional District 29 (112th Congress), Texas",741,19
+5001200US4830,4830,"Congressional District 30 (112th Congress), Texas",867,22
+5001200US4831,4831,"Congressional District 31 (112th Congress), Texas",995,23
+5001200US4832,4832,"Congressional District 32 (112th Congress), Texas",974,20
+5001200US4901,4901,"Congressional District 1 (112th Congress), Utah",958,18
+5001200US4902,4902,"Congressional District 2 (112th Congress), Utah",980,24
+5001200US4903,4903,"Congressional District 3 (112th Congress), Utah",1118,20
+5001200US5000,5000,"Congressional District (at Large) (112th Congress), Vermont",1042,20
+5001200US5101,5101,"Congressional District 1 (112th Congress), Virginia",1317,29
+5001200US5102,5102,"Congressional District 2 (112th Congress), Virginia",1281,24
+5001200US5103,5103,"Congressional District 3 (112th Congress), Virginia",989,19
+5001200US5104,5104,"Congressional District 4 (112th Congress), Virginia",1153,26
+5001200US5105,5105,"Congressional District 5 (112th Congress), Virginia",751,20
+5001200US5106,5106,"Congressional District 6 (112th Congress), Virginia",817,20
+5001200US5107,5107,"Congressional District 7 (112th Congress), Virginia",1168,25
+5001200US5108,5108,"Congressional District 8 (112th Congress), Virginia",1730,34
+5001200US5109,5109,"Congressional District 9 (112th Congress), Virginia",563,16
+5001200US5110,5110,"Congressional District 10 (112th Congress), Virginia",1803,50
+5001200US5111,5111,"Congressional District 11 (112th Congress), Virginia",1963,54
+5001200US5301,5301,"Congressional District 1 (112th Congress), Washington",1506,35
+5001200US5302,5302,"Congressional District 2 (112th Congress), Washington",1191,31
+5001200US5303,5303,"Congressional District 3 (112th Congress), Washington",1059,24
+5001200US5304,5304,"Congressional District 4 (112th Congress), Washington",814,19
+5001200US5305,5305,"Congressional District 5 (112th Congress), Washington",814,20
+5001200US5306,5306,"Congressional District 6 (112th Congress), Washington",975,20
+5001200US5307,5307,"Congressional District 7 (112th Congress), Washington",1246,30
+5001200US5308,5308,"Congressional District 8 (112th Congress), Washington",1666,31
+5001200US5309,5309,"Congressional District 9 (112th Congress), Washington",1169,26
+5001200US5401,5401,"Congressional District 1 (112th Congress), West Virginia",548,11
+5001200US5402,5402,"Congressional District 2 (112th Congress), West Virginia",635,19
+5001200US5403,5403,"Congressional District 3 (112th Congress), West Virginia",482,15
+5001200US5501,5501,"Congressional District 1 (112th Congress), Wisconsin",994,20
+5001200US5502,5502,"Congressional District 2 (112th Congress), Wisconsin",1035,23
+5001200US5503,5503,"Congressional District 3 (112th Congress), Wisconsin",851,17
+5001200US5504,5504,"Congressional District 4 (112th Congress), Wisconsin",829,14
+5001200US5505,5505,"Congressional District 5 (112th Congress), Wisconsin",1179,27
+5001200US5506,5506,"Congressional District 6 (112th Congress), Wisconsin",824,16
+5001200US5507,5507,"Congressional District 7 (112th Congress), Wisconsin",742,12
+5001200US5508,5508,"Congressional District 8 (112th Congress), Wisconsin",840,14
+5001200US5600,5600,"Congressional District (at Large) (112th Congress), Wyoming",826,20
+5001200US7298,7298,"Resident Commissioner District (at Large) (112th Congress), Puerto Rico",325,10

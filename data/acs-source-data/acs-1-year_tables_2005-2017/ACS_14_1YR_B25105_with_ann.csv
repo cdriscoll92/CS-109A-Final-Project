@@ -1,0 +1,439 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD01,HD02_VD01
+Id,Id2,Geography,Estimate; Median monthly housing costs,Margin of Error; Median monthly housing costs
+5001400US0101,0101,"Congressional District 1 (114th Congress), Alabama",798,26
+5001400US0102,0102,"Congressional District 2 (114th Congress), Alabama",698,14
+5001400US0103,0103,"Congressional District 3 (114th Congress), Alabama",684,14
+5001400US0104,0104,"Congressional District 4 (114th Congress), Alabama",590,16
+5001400US0105,0105,"Congressional District 5 (114th Congress), Alabama",741,24
+5001400US0106,0106,"Congressional District 6 (114th Congress), Alabama",935,20
+5001400US0107,0107,"Congressional District 7 (114th Congress), Alabama",702,17
+5001400US0200,0200,"Congressional District (at Large) (114th Congress), Alaska",1258,29
+5001400US0401,0401,"Congressional District 1 (114th Congress), Arizona",770,26
+5001400US0402,0402,"Congressional District 2 (114th Congress), Arizona",843,14
+5001400US0403,0403,"Congressional District 3 (114th Congress), Arizona",844,18
+5001400US0404,0404,"Congressional District 4 (114th Congress), Arizona",788,19
+5001400US0405,0405,"Congressional District 5 (114th Congress), Arizona",1134,19
+5001400US0406,0406,"Congressional District 6 (114th Congress), Arizona",1104,22
+5001400US0407,0407,"Congressional District 7 (114th Congress), Arizona",814,18
+5001400US0408,0408,"Congressional District 8 (114th Congress), Arizona",1070,17
+5001400US0409,0409,"Congressional District 9 (114th Congress), Arizona",955,15
+5001400US0501,0501,"Congressional District 1 (114th Congress), Arkansas",612,11
+5001400US0502,0502,"Congressional District 2 (114th Congress), Arkansas",783,10
+5001400US0503,0503,"Congressional District 3 (114th Congress), Arkansas",736,16
+5001400US0504,0504,"Congressional District 4 (114th Congress), Arkansas",559,13
+5001400US0601,0601,"Congressional District 1 (114th Congress), California",927,20
+5001400US0602,0602,"Congressional District 2 (114th Congress), California",1436,40
+5001400US0603,0603,"Congressional District 3 (114th Congress), California",1191,21
+5001400US0604,0604,"Congressional District 4 (114th Congress), California",1353,33
+5001400US0605,0605,"Congressional District 5 (114th Congress), California",1426,30
+5001400US0606,0606,"Congressional District 6 (114th Congress), California",1041,22
+5001400US0607,0607,"Congressional District 7 (114th Congress), California",1299,30
+5001400US0608,0608,"Congressional District 8 (114th Congress), California",1028,24
+5001400US0609,0609,"Congressional District 9 (114th Congress), California",1204,24
+5001400US0610,0610,"Congressional District 10 (114th Congress), California",1149,25
+5001400US0611,0611,"Congressional District 11 (114th Congress), California",1525,30
+5001400US0612,0612,"Congressional District 12 (114th Congress), California",1719,33
+5001400US0613,0613,"Congressional District 13 (114th Congress), California",1413,24
+5001400US0614,0614,"Congressional District 14 (114th Congress), California",1940,40
+5001400US0615,0615,"Congressional District 15 (114th Congress), California",1868,38
+5001400US0616,0616,"Congressional District 16 (114th Congress), California",888,18
+5001400US0617,0617,"Congressional District 17 (114th Congress), California",2015,31
+5001400US0618,0618,"Congressional District 18 (114th Congress), California",2044,48
+5001400US0619,0619,"Congressional District 19 (114th Congress), California",1834,38
+5001400US0620,0620,"Congressional District 20 (114th Congress), California",1420,33
+5001400US0621,0621,"Congressional District 21 (114th Congress), California",863,23
+5001400US0622,0622,"Congressional District 22 (114th Congress), California",1073,33
+5001400US0623,0623,"Congressional District 23 (114th Congress), California",1052,28
+5001400US0624,0624,"Congressional District 24 (114th Congress), California",1436,34
+5001400US0625,0625,"Congressional District 25 (114th Congress), California",1594,30
+5001400US0626,0626,"Congressional District 26 (114th Congress), California",1665,36
+5001400US0627,0627,"Congressional District 27 (114th Congress), California",1444,28
+5001400US0628,0628,"Congressional District 28 (114th Congress), California",1433,26
+5001400US0629,0629,"Congressional District 29 (114th Congress), California",1311,26
+5001400US0630,0630,"Congressional District 30 (114th Congress), California",1704,29
+5001400US0631,0631,"Congressional District 31 (114th Congress), California",1267,26
+5001400US0632,0632,"Congressional District 32 (114th Congress), California",1373,31
+5001400US0633,0633,"Congressional District 33 (114th Congress), California",2081,47
+5001400US0634,0634,"Congressional District 34 (114th Congress), California",1064,15
+5001400US0635,0635,"Congressional District 35 (114th Congress), California",1315,26
+5001400US0636,0636,"Congressional District 36 (114th Congress), California",1034,23
+5001400US0637,0637,"Congressional District 37 (114th Congress), California",1397,21
+5001400US0638,0638,"Congressional District 38 (114th Congress), California",1406,29
+5001400US0639,0639,"Congressional District 39 (114th Congress), California",1715,42
+5001400US0640,0640,"Congressional District 40 (114th Congress), California",1105,15
+5001400US0641,0641,"Congressional District 41 (114th Congress), California",1291,25
+5001400US0642,0642,"Congressional District 42 (114th Congress), California",1634,33
+5001400US0643,0643,"Congressional District 43 (114th Congress), California",1245,25
+5001400US0644,0644,"Congressional District 44 (114th Congress), California",1223,20
+5001400US0645,0645,"Congressional District 45 (114th Congress), California",1971,39
+5001400US0646,0646,"Congressional District 46 (114th Congress), California",1419,19
+5001400US0647,0647,"Congressional District 47 (114th Congress), California",1360,28
+5001400US0648,0648,"Congressional District 48 (114th Congress), California",1800,30
+5001400US0649,0649,"Congressional District 49 (114th Congress), California",1825,47
+5001400US0650,0650,"Congressional District 50 (114th Congress), California",1502,34
+5001400US0651,0651,"Congressional District 51 (114th Congress), California",1093,22
+5001400US0652,0652,"Congressional District 52 (114th Congress), California",1839,42
+5001400US0653,0653,"Congressional District 53 (114th Congress), California",1481,39
+5001400US0801,0801,"Congressional District 1 (114th Congress), Colorado",1129,16
+5001400US0802,0802,"Congressional District 2 (114th Congress), Colorado",1283,24
+5001400US0803,0803,"Congressional District 3 (114th Congress), Colorado",892,18
+5001400US0804,0804,"Congressional District 4 (114th Congress), Colorado",1162,23
+5001400US0805,0805,"Congressional District 5 (114th Congress), Colorado",1080,20
+5001400US0806,0806,"Congressional District 6 (114th Congress), Colorado",1292,23
+5001400US0807,0807,"Congressional District 7 (114th Congress), Colorado",1158,17
+5001400US0901,0901,"Congressional District 1 (114th Congress), Connecticut",1235,23
+5001400US0902,0902,"Congressional District 2 (114th Congress), Connecticut",1264,34
+5001400US0903,0903,"Congressional District 3 (114th Congress), Connecticut",1344,26
+5001400US0904,0904,"Congressional District 4 (114th Congress), Connecticut",1897,45
+5001400US0905,0905,"Congressional District 5 (114th Congress), Connecticut",1282,32
+5001400US1000,1000,"Congressional District (at Large) (114th Congress), Delaware",1093,18
+5001400US1198,1198,"Delegate District (at Large) (114th Congress), District of Columbia",1513,37
+5001400US1201,1201,"Congressional District 1 (114th Congress), Florida",932,22
+5001400US1202,1202,"Congressional District 2 (114th Congress), Florida",844,17
+5001400US1203,1203,"Congressional District 3 (114th Congress), Florida",803,22
+5001400US1204,1204,"Congressional District 4 (114th Congress), Florida",1047,22
+5001400US1205,1205,"Congressional District 5 (114th Congress), Florida",836,12
+5001400US1206,1206,"Congressional District 6 (114th Congress), Florida",892,18
+5001400US1207,1207,"Congressional District 7 (114th Congress), Florida",1081,18
+5001400US1208,1208,"Congressional District 8 (114th Congress), Florida",865,15
+5001400US1209,1209,"Congressional District 9 (114th Congress), Florida",1069,21
+5001400US1210,1210,"Congressional District 10 (114th Congress), Florida",993,26
+5001400US1211,1211,"Congressional District 11 (114th Congress), Florida",685,17
+5001400US1212,1212,"Congressional District 12 (114th Congress), Florida",934,21
+5001400US1213,1213,"Congressional District 13 (114th Congress), Florida",913,17
+5001400US1214,1214,"Congressional District 14 (114th Congress), Florida",931,15
+5001400US1215,1215,"Congressional District 15 (114th Congress), Florida",920,21
+5001400US1216,1216,"Congressional District 16 (114th Congress), Florida",908,23
+5001400US1217,1217,"Congressional District 17 (114th Congress), Florida",730,18
+5001400US1218,1218,"Congressional District 18 (114th Congress), Florida",1083,21
+5001400US1219,1219,"Congressional District 19 (114th Congress), Florida",971,17
+5001400US1220,1220,"Congressional District 20 (114th Congress), Florida",993,19
+5001400US1221,1221,"Congressional District 21 (114th Congress), Florida",1175,29
+5001400US1222,1222,"Congressional District 22 (114th Congress), Florida",1181,22
+5001400US1223,1223,"Congressional District 23 (114th Congress), Florida",1316,23
+5001400US1224,1224,"Congressional District 24 (114th Congress), Florida",1058,21
+5001400US1225,1225,"Congressional District 25 (114th Congress), Florida",1148,25
+5001400US1226,1226,"Congressional District 26 (114th Congress), Florida",1299,26
+5001400US1227,1227,"Congressional District 27 (114th Congress), Florida",1140,20
+5001400US1301,1301,"Congressional District 1 (114th Congress), Georgia",901,19
+5001400US1302,1302,"Congressional District 2 (114th Congress), Georgia",700,13
+5001400US1303,1303,"Congressional District 3 (114th Congress), Georgia",923,23
+5001400US1304,1304,"Congressional District 4 (114th Congress), Georgia",1000,23
+5001400US1305,1305,"Congressional District 5 (114th Congress), Georgia",1015,21
+5001400US1306,1306,"Congressional District 6 (114th Congress), Georgia",1273,27
+5001400US1307,1307,"Congressional District 7 (114th Congress), Georgia",1186,21
+5001400US1308,1308,"Congressional District 8 (114th Congress), Georgia",703,20
+5001400US1309,1309,"Congressional District 9 (114th Congress), Georgia",786,21
+5001400US1310,1310,"Congressional District 10 (114th Congress), Georgia",865,23
+5001400US1311,1311,"Congressional District 11 (114th Congress), Georgia",1111,21
+5001400US1312,1312,"Congressional District 12 (114th Congress), Georgia",726,17
+5001400US1313,1313,"Congressional District 13 (114th Congress), Georgia",1022,21
+5001400US1314,1314,"Congressional District 14 (114th Congress), Georgia",770,16
+5001400US1501,1501,"Congressional District 1 (114th Congress), Hawaii",1591,40
+5001400US1502,1502,"Congressional District 2 (114th Congress), Hawaii",1379,40
+5001400US1601,1601,"Congressional District 1 (114th Congress), Idaho",853,20
+5001400US1602,1602,"Congressional District 2 (114th Congress), Idaho",766,13
+5001400US1701,1701,"Congressional District 1 (114th Congress), Illinois",1040,28
+5001400US1702,1702,"Congressional District 2 (114th Congress), Illinois",990,20
+5001400US1703,1703,"Congressional District 3 (114th Congress), Illinois",1150,26
+5001400US1704,1704,"Congressional District 4 (114th Congress), Illinois",985,19
+5001400US1705,1705,"Congressional District 5 (114th Congress), Illinois",1389,33
+5001400US1706,1706,"Congressional District 6 (114th Congress), Illinois",1567,35
+5001400US1707,1707,"Congressional District 7 (114th Congress), Illinois",1228,25
+5001400US1708,1708,"Congressional District 8 (114th Congress), Illinois",1253,26
+5001400US1709,1709,"Congressional District 9 (114th Congress), Illinois",1262,31
+5001400US1710,1710,"Congressional District 10 (114th Congress), Illinois",1353,23
+5001400US1711,1711,"Congressional District 11 (114th Congress), Illinois",1318,26
+5001400US1712,1712,"Congressional District 12 (114th Congress), Illinois",717,14
+5001400US1713,1713,"Congressional District 13 (114th Congress), Illinois",762,13
+5001400US1714,1714,"Congressional District 14 (114th Congress), Illinois",1536,36
+5001400US1715,1715,"Congressional District 15 (114th Congress), Illinois",661,11
+5001400US1716,1716,"Congressional District 16 (114th Congress), Illinois",842,17
+5001400US1717,1717,"Congressional District 17 (114th Congress), Illinois",683,10
+5001400US1718,1718,"Congressional District 18 (114th Congress), Illinois",802,14
+5001400US1801,1801,"Congressional District 1 (114th Congress), Indiana",884,16
+5001400US1802,1802,"Congressional District 2 (114th Congress), Indiana",740,15
+5001400US1803,1803,"Congressional District 3 (114th Congress), Indiana",723,10
+5001400US1804,1804,"Congressional District 4 (114th Congress), Indiana",819,14
+5001400US1805,1805,"Congressional District 5 (114th Congress), Indiana",976,18
+5001400US1806,1806,"Congressional District 6 (114th Congress), Indiana",750,14
+5001400US1807,1807,"Congressional District 7 (114th Congress), Indiana",803,13
+5001400US1808,1808,"Congressional District 8 (114th Congress), Indiana",712,14
+5001400US1809,1809,"Congressional District 9 (114th Congress), Indiana",830,13
+5001400US1901,1901,"Congressional District 1 (114th Congress), Iowa",774,12
+5001400US1902,1902,"Congressional District 2 (114th Congress), Iowa",788,14
+5001400US1903,1903,"Congressional District 3 (114th Congress), Iowa",925,15
+5001400US1904,1904,"Congressional District 4 (114th Congress), Iowa",670,11
+5001400US2001,2001,"Congressional District 1 (114th Congress), Kansas",708,12
+5001400US2002,2002,"Congressional District 2 (114th Congress), Kansas",779,16
+5001400US2003,2003,"Congressional District 3 (114th Congress), Kansas",1074,16
+5001400US2004,2004,"Congressional District 4 (114th Congress), Kansas",788,13
+5001400US2101,2101,"Congressional District 1 (114th Congress), Kentucky",606,12
+5001400US2102,2102,"Congressional District 2 (114th Congress), Kentucky",718,12
+5001400US2103,2103,"Congressional District 3 (114th Congress), Kentucky",819,12
+5001400US2104,2104,"Congressional District 4 (114th Congress), Kentucky",856,17
+5001400US2105,2105,"Congressional District 5 (114th Congress), Kentucky",487,13
+5001400US2106,2106,"Congressional District 6 (114th Congress), Kentucky",786,13
+5001400US2201,2201,"Congressional District 1 (114th Congress), Louisiana",907,21
+5001400US2202,2202,"Congressional District 2 (114th Congress), Louisiana",838,14
+5001400US2203,2203,"Congressional District 3 (114th Congress), Louisiana",663,18
+5001400US2204,2204,"Congressional District 4 (114th Congress), Louisiana",657,16
+5001400US2205,2205,"Congressional District 5 (114th Congress), Louisiana",581,15
+5001400US2206,2206,"Congressional District 6 (114th Congress), Louisiana",871,20
+5001400US2301,2301,"Congressional District 1 (114th Congress), Maine",1019,30
+5001400US2302,2302,"Congressional District 2 (114th Congress), Maine",730,17
+5001400US2401,2401,"Congressional District 1 (114th Congress), Maryland",1165,29
+5001400US2402,2402,"Congressional District 2 (114th Congress), Maryland",1203,20
+5001400US2403,2403,"Congressional District 3 (114th Congress), Maryland",1492,30
+5001400US2404,2404,"Congressional District 4 (114th Congress), Maryland",1481,21
+5001400US2405,2405,"Congressional District 5 (114th Congress), Maryland",1707,26
+5001400US2406,2406,"Congressional District 6 (114th Congress), Maryland",1394,31
+5001400US2407,2407,"Congressional District 7 (114th Congress), Maryland",1150,20
+5001400US2408,2408,"Congressional District 8 (114th Congress), Maryland",1717,27
+5001400US2501,2501,"Congressional District 1 (114th Congress), Massachusetts",975,17
+5001400US2502,2502,"Congressional District 2 (114th Congress), Massachusetts",1166,23
+5001400US2503,2503,"Congressional District 3 (114th Congress), Massachusetts",1292,27
+5001400US2504,2504,"Congressional District 4 (114th Congress), Massachusetts",1579,39
+5001400US2505,2505,"Congressional District 5 (114th Congress), Massachusetts",1595,34
+5001400US2506,2506,"Congressional District 6 (114th Congress), Massachusetts",1488,35
+5001400US2507,2507,"Congressional District 7 (114th Congress), Massachusetts",1437,25
+5001400US2508,2508,"Congressional District 8 (114th Congress), Massachusetts",1517,33
+5001400US2509,2509,"Congressional District 9 (114th Congress), Massachusetts",1185,40
+5001400US2601,2601,"Congressional District 1 (114th Congress), Michigan",706,12
+5001400US2602,2602,"Congressional District 2 (114th Congress), Michigan",801,16
+5001400US2603,2603,"Congressional District 3 (114th Congress), Michigan",841,14
+5001400US2604,2604,"Congressional District 4 (114th Congress), Michigan",730,12
+5001400US2605,2605,"Congressional District 5 (114th Congress), Michigan",731,15
+5001400US2606,2606,"Congressional District 6 (114th Congress), Michigan",774,15
+5001400US2607,2607,"Congressional District 7 (114th Congress), Michigan",841,15
+5001400US2608,2608,"Congressional District 8 (114th Congress), Michigan",1016,21
+5001400US2609,2609,"Congressional District 9 (114th Congress), Michigan",897,17
+5001400US2610,2610,"Congressional District 10 (114th Congress), Michigan",909,22
+5001400US2611,2611,"Congressional District 11 (114th Congress), Michigan",1136,22
+5001400US2612,2612,"Congressional District 12 (114th Congress), Michigan",951,17
+5001400US2613,2613,"Congressional District 13 (114th Congress), Michigan",720,14
+5001400US2614,2614,"Congressional District 14 (114th Congress), Michigan",885,13
+5001400US2701,2701,"Congressional District 1 (114th Congress), Minnesota",812,17
+5001400US2702,2702,"Congressional District 2 (114th Congress), Minnesota",1218,25
+5001400US2703,2703,"Congressional District 3 (114th Congress), Minnesota",1294,27
+5001400US2704,2704,"Congressional District 4 (114th Congress), Minnesota",1049,25
+5001400US2705,2705,"Congressional District 5 (114th Congress), Minnesota",1031,19
+5001400US2706,2706,"Congressional District 6 (114th Congress), Minnesota",1152,23
+5001400US2707,2707,"Congressional District 7 (114th Congress), Minnesota",745,14
+5001400US2708,2708,"Congressional District 8 (114th Congress), Minnesota",808,16
+5001400US2801,2801,"Congressional District 1 (114th Congress), Mississippi",685,17
+5001400US2802,2802,"Congressional District 2 (114th Congress), Mississippi",639,14
+5001400US2803,2803,"Congressional District 3 (114th Congress), Mississippi",677,16
+5001400US2804,2804,"Congressional District 4 (114th Congress), Mississippi",711,20
+5001400US2901,2901,"Congressional District 1 (114th Congress), Missouri",843,12
+5001400US2902,2902,"Congressional District 2 (114th Congress), Missouri",1154,18
+5001400US2903,2903,"Congressional District 3 (114th Congress), Missouri",889,21
+5001400US2904,2904,"Congressional District 4 (114th Congress), Missouri",731,18
+5001400US2905,2905,"Congressional District 5 (114th Congress), Missouri",838,15
+5001400US2906,2906,"Congressional District 6 (114th Congress), Missouri",785,14
+5001400US2907,2907,"Congressional District 7 (114th Congress), Missouri",720,15
+5001400US2908,2908,"Congressional District 8 (114th Congress), Missouri",599,13
+5001400US3000,3000,"Congressional District (at Large) (114th Congress), Montana",744,15
+5001400US3101,3101,"Congressional District 1 (114th Congress), Nebraska",836,14
+5001400US3102,3102,"Congressional District 2 (114th Congress), Nebraska",1005,18
+5001400US3103,3103,"Congressional District 3 (114th Congress), Nebraska",657,11
+5001400US3201,3201,"Congressional District 1 (114th Congress), Nevada",855,11
+5001400US3202,3202,"Congressional District 2 (114th Congress), Nevada",949,22
+5001400US3203,3203,"Congressional District 3 (114th Congress), Nevada",1187,19
+5001400US3204,3204,"Congressional District 4 (114th Congress), Nevada",1020,19
+5001400US3301,3301,"Congressional District 1 (114th Congress), New Hampshire",1242,28
+5001400US3302,3302,"Congressional District 2 (114th Congress), New Hampshire",1215,25
+5001400US3401,3401,"Congressional District 1 (114th Congress), New Jersey",1282,27
+5001400US3402,3402,"Congressional District 2 (114th Congress), New Jersey",1249,30
+5001400US3403,3403,"Congressional District 3 (114th Congress), New Jersey",1505,29
+5001400US3404,3404,"Congressional District 4 (114th Congress), New Jersey",1560,43
+5001400US3405,3405,"Congressional District 5 (114th Congress), New Jersey",1824,50
+5001400US3406,3406,"Congressional District 6 (114th Congress), New Jersey",1540,31
+5001400US3407,3407,"Congressional District 7 (114th Congress), New Jersey",1919,45
+5001400US3408,3408,"Congressional District 8 (114th Congress), New Jersey",1276,25
+5001400US3409,3409,"Congressional District 9 (114th Congress), New Jersey",1412,23
+5001400US3410,3410,"Congressional District 10 (114th Congress), New Jersey",1237,22
+5001400US3411,3411,"Congressional District 11 (114th Congress), New Jersey",1926,45
+5001400US3412,3412,"Congressional District 12 (114th Congress), New Jersey",1567,39
+5001400US3501,3501,"Congressional District 1 (114th Congress), New Mexico",892,21
+5001400US3502,3502,"Congressional District 2 (114th Congress), New Mexico",640,17
+5001400US3503,3503,"Congressional District 3 (114th Congress), New Mexico",776,27
+5001400US3601,3601,"Congressional District 1 (114th Congress), New York",1925,52
+5001400US3602,3602,"Congressional District 2 (114th Congress), New York",2012,53
+5001400US3603,3603,"Congressional District 3 (114th Congress), New York",2139,50
+5001400US3604,3604,"Congressional District 4 (114th Congress), New York",2060,61
+5001400US3605,3605,"Congressional District 5 (114th Congress), New York",1490,30
+5001400US3606,3606,"Congressional District 6 (114th Congress), New York",1350,23
+5001400US3607,3607,"Congressional District 7 (114th Congress), New York",1315,27
+5001400US3608,3608,"Congressional District 8 (114th Congress), New York",1211,24
+5001400US3609,3609,"Congressional District 9 (114th Congress), New York",1295,23
+5001400US3610,3610,"Congressional District 10 (114th Congress), New York",1753,52
+5001400US3611,3611,"Congressional District 11 (114th Congress), New York",1392,27
+5001400US3612,3612,"Congressional District 12 (114th Congress), New York",1925,32
+5001400US3613,3613,"Congressional District 13 (114th Congress), New York",1103,20
+5001400US3614,3614,"Congressional District 14 (114th Congress), New York",1361,15
+5001400US3615,3615,"Congressional District 15 (114th Congress), New York",1010,17
+5001400US3616,3616,"Congressional District 16 (114th Congress), New York",1441,26
+5001400US3617,3617,"Congressional District 17 (114th Congress), New York",1901,41
+5001400US3618,3618,"Congressional District 18 (114th Congress), New York",1526,40
+5001400US3619,3619,"Congressional District 19 (114th Congress), New York",1050,22
+5001400US3620,3620,"Congressional District 20 (114th Congress), New York",1064,18
+5001400US3621,3621,"Congressional District 21 (114th Congress), New York",853,15
+5001400US3622,3622,"Congressional District 22 (114th Congress), New York",796,14
+5001400US3623,3623,"Congressional District 23 (114th Congress), New York",760,13
+5001400US3624,3624,"Congressional District 24 (114th Congress), New York",868,11
+5001400US3625,3625,"Congressional District 25 (114th Congress), New York",939,17
+5001400US3626,3626,"Congressional District 26 (114th Congress), New York",774,11
+5001400US3627,3627,"Congressional District 27 (114th Congress), New York",883,15
+5001400US3701,3701,"Congressional District 1 (114th Congress), North Carolina",740,14
+5001400US3702,3702,"Congressional District 2 (114th Congress), North Carolina",871,16
+5001400US3703,3703,"Congressional District 3 (114th Congress), North Carolina",893,25
+5001400US3704,3704,"Congressional District 4 (114th Congress), North Carolina",965,16
+5001400US3705,3705,"Congressional District 5 (114th Congress), North Carolina",757,18
+5001400US3706,3706,"Congressional District 6 (114th Congress), North Carolina",838,16
+5001400US3707,3707,"Congressional District 7 (114th Congress), North Carolina",818,17
+5001400US3708,3708,"Congressional District 8 (114th Congress), North Carolina",734,19
+5001400US3709,3709,"Congressional District 9 (114th Congress), North Carolina",1200,19
+5001400US3710,3710,"Congressional District 10 (114th Congress), North Carolina",734,21
+5001400US3711,3711,"Congressional District 11 (114th Congress), North Carolina",649,15
+5001400US3712,3712,"Congressional District 12 (114th Congress), North Carolina",848,11
+5001400US3713,3713,"Congressional District 13 (114th Congress), North Carolina",1039,22
+5001400US3800,3800,"Congressional District (at Large) (114th Congress), North Dakota",733,10
+5001400US3901,3901,"Congressional District 1 (114th Congress), Ohio",899,21
+5001400US3902,3902,"Congressional District 2 (114th Congress), Ohio",851,15
+5001400US3903,3903,"Congressional District 3 (114th Congress), Ohio",868,12
+5001400US3904,3904,"Congressional District 4 (114th Congress), Ohio",731,10
+5001400US3905,3905,"Congressional District 5 (114th Congress), Ohio",791,14
+5001400US3906,3906,"Congressional District 6 (114th Congress), Ohio",633,11
+5001400US3907,3907,"Congressional District 7 (114th Congress), Ohio",748,15
+5001400US3908,3908,"Congressional District 8 (114th Congress), Ohio",824,12
+5001400US3909,3909,"Congressional District 9 (114th Congress), Ohio",750,15
+5001400US3910,3910,"Congressional District 10 (114th Congress), Ohio",822,13
+5001400US3911,3911,"Congressional District 11 (114th Congress), Ohio",756,14
+5001400US3912,3912,"Congressional District 12 (114th Congress), Ohio",1053,21
+5001400US3913,3913,"Congressional District 13 (114th Congress), Ohio",699,13
+5001400US3914,3914,"Congressional District 14 (114th Congress), Ohio",962,19
+5001400US3915,3915,"Congressional District 15 (114th Congress), Ohio",942,18
+5001400US3916,3916,"Congressional District 16 (114th Congress), Ohio",905,16
+5001400US4001,4001,"Congressional District 1 (114th Congress), Oklahoma",858,11
+5001400US4002,4002,"Congressional District 2 (114th Congress), Oklahoma",577,10
+5001400US4003,4003,"Congressional District 3 (114th Congress), Oklahoma",674,12
+5001400US4004,4004,"Congressional District 4 (114th Congress), Oklahoma",789,17
+5001400US4005,4005,"Congressional District 5 (114th Congress), Oklahoma",801,12
+5001400US4101,4101,"Congressional District 1 (114th Congress), Oregon",1190,21
+5001400US4102,4102,"Congressional District 2 (114th Congress), Oregon",838,19
+5001400US4103,4103,"Congressional District 3 (114th Congress), Oregon",1155,22
+5001400US4104,4104,"Congressional District 4 (114th Congress), Oregon",878,19
+5001400US4105,4105,"Congressional District 5 (114th Congress), Oregon",1020,23
+5001400US4201,4201,"Congressional District 1 (114th Congress), Pennsylvania",959,20
+5001400US4202,4202,"Congressional District 2 (114th Congress), Pennsylvania",913,17
+5001400US4203,4203,"Congressional District 3 (114th Congress), Pennsylvania",702,11
+5001400US4204,4204,"Congressional District 4 (114th Congress), Pennsylvania",980,19
+5001400US4205,4205,"Congressional District 5 (114th Congress), Pennsylvania",679,13
+5001400US4206,4206,"Congressional District 6 (114th Congress), Pennsylvania",1306,28
+5001400US4207,4207,"Congressional District 7 (114th Congress), Pennsylvania",1395,28
+5001400US4208,4208,"Congressional District 8 (114th Congress), Pennsylvania",1395,28
+5001400US4209,4209,"Congressional District 9 (114th Congress), Pennsylvania",660,15
+5001400US4210,4210,"Congressional District 10 (114th Congress), Pennsylvania",792,16
+5001400US4211,4211,"Congressional District 11 (114th Congress), Pennsylvania",839,19
+5001400US4212,4212,"Congressional District 12 (114th Congress), Pennsylvania",790,15
+5001400US4213,4213,"Congressional District 13 (114th Congress), Pennsylvania",1124,16
+5001400US4214,4214,"Congressional District 14 (114th Congress), Pennsylvania",765,12
+5001400US4215,4215,"Congressional District 15 (114th Congress), Pennsylvania",1033,22
+5001400US4216,4216,"Congressional District 16 (114th Congress), Pennsylvania",971,18
+5001400US4217,4217,"Congressional District 17 (114th Congress), Pennsylvania",869,19
+5001400US4218,4218,"Congressional District 18 (114th Congress), Pennsylvania",833,15
+5001400US4401,4401,"Congressional District 1 (114th Congress), Rhode Island",1078,25
+5001400US4402,4402,"Congressional District 2 (114th Congress), Rhode Island",1173,30
+5001400US4501,4501,"Congressional District 1 (114th Congress), South Carolina",1126,22
+5001400US4502,4502,"Congressional District 2 (114th Congress), South Carolina",866,18
+5001400US4503,4503,"Congressional District 3 (114th Congress), South Carolina",663,16
+5001400US4504,4504,"Congressional District 4 (114th Congress), South Carolina",785,13
+5001400US4505,4505,"Congressional District 5 (114th Congress), South Carolina",721,18
+5001400US4506,4506,"Congressional District 6 (114th Congress), South Carolina",716,19
+5001400US4507,4507,"Congressional District 7 (114th Congress), South Carolina",708,17
+5001400US4600,4600,"Congressional District (at Large) (114th Congress), South Dakota",713,12
+5001400US4701,4701,"Congressional District 1 (114th Congress), Tennessee",603,17
+5001400US4702,4702,"Congressional District 2 (114th Congress), Tennessee",773,15
+5001400US4703,4703,"Congressional District 3 (114th Congress), Tennessee",699,17
+5001400US4704,4704,"Congressional District 4 (114th Congress), Tennessee",778,18
+5001400US4705,4705,"Congressional District 5 (114th Congress), Tennessee",960,16
+5001400US4706,4706,"Congressional District 6 (114th Congress), Tennessee",739,16
+5001400US4707,4707,"Congressional District 7 (114th Congress), Tennessee",815,22
+5001400US4708,4708,"Congressional District 8 (114th Congress), Tennessee",840,16
+5001400US4709,4709,"Congressional District 9 (114th Congress), Tennessee",864,14
+5001400US4801,4801,"Congressional District 1 (114th Congress), Texas",704,17
+5001400US4802,4802,"Congressional District 2 (114th Congress), Texas",1197,25
+5001400US4803,4803,"Congressional District 3 (114th Congress), Texas",1384,26
+5001400US4804,4804,"Congressional District 4 (114th Congress), Texas",752,19
+5001400US4805,4805,"Congressional District 5 (114th Congress), Texas",841,17
+5001400US4806,4806,"Congressional District 6 (114th Congress), Texas",1049,22
+5001400US4807,4807,"Congressional District 7 (114th Congress), Texas",1221,29
+5001400US4808,4808,"Congressional District 8 (114th Congress), Texas",1035,39
+5001400US4809,4809,"Congressional District 9 (114th Congress), Texas",893,20
+5001400US4810,4810,"Congressional District 10 (114th Congress), Texas",1133,20
+5001400US4811,4811,"Congressional District 11 (114th Congress), Texas",759,20
+5001400US4812,4812,"Congressional District 12 (114th Congress), Texas",1079,20
+5001400US4813,4813,"Congressional District 13 (114th Congress), Texas",722,16
+5001400US4814,4814,"Congressional District 14 (114th Congress), Texas",834,15
+5001400US4815,4815,"Congressional District 15 (114th Congress), Texas",666,19
+5001400US4816,4816,"Congressional District 16 (114th Congress), Texas",773,20
+5001400US4817,4817,"Congressional District 17 (114th Congress), Texas",893,18
+5001400US4818,4818,"Congressional District 18 (114th Congress), Texas",883,21
+5001400US4819,4819,"Congressional District 19 (114th Congress), Texas",736,16
+5001400US4820,4820,"Congressional District 20 (114th Congress), Texas",888,19
+5001400US4821,4821,"Congressional District 21 (114th Congress), Texas",1128,21
+5001400US4822,4822,"Congressional District 22 (114th Congress), Texas",1366,31
+5001400US4823,4823,"Congressional District 23 (114th Congress), Texas",762,23
+5001400US4824,4824,"Congressional District 24 (114th Congress), Texas",1142,19
+5001400US4825,4825,"Congressional District 25 (114th Congress), Texas",1069,26
+5001400US4826,4826,"Congressional District 26 (114th Congress), Texas",1346,32
+5001400US4827,4827,"Congressional District 27 (114th Congress), Texas",806,19
+5001400US4828,4828,"Congressional District 28 (114th Congress), Texas",739,18
+5001400US4829,4829,"Congressional District 29 (114th Congress), Texas",789,18
+5001400US4830,4830,"Congressional District 30 (114th Congress), Texas",920,20
+5001400US4831,4831,"Congressional District 31 (114th Congress), Texas",1076,22
+5001400US4832,4832,"Congressional District 32 (114th Congress), Texas",1168,22
+5001400US4833,4833,"Congressional District 33 (114th Congress), Texas",773,14
+5001400US4834,4834,"Congressional District 34 (114th Congress), Texas",603,15
+5001400US4835,4835,"Congressional District 35 (114th Congress), Texas",884,14
+5001400US4836,4836,"Congressional District 36 (114th Congress), Texas",787,20
+5001400US4901,4901,"Congressional District 1 (114th Congress), Utah",968,18
+5001400US4902,4902,"Congressional District 2 (114th Congress), Utah",935,26
+5001400US4903,4903,"Congressional District 3 (114th Congress), Utah",1081,23
+5001400US4904,4904,"Congressional District 4 (114th Congress), Utah",1124,23
+5001400US5000,5000,"Congressional District (at Large) (114th Congress), Vermont",1058,23
+5001400US5101,5101,"Congressional District 1 (114th Congress), Virginia",1346,28
+5001400US5102,5102,"Congressional District 2 (114th Congress), Virginia",1216,19
+5001400US5103,5103,"Congressional District 3 (114th Congress), Virginia",976,15
+5001400US5104,5104,"Congressional District 4 (114th Congress), Virginia",1142,19
+5001400US5105,5105,"Congressional District 5 (114th Congress), Virginia",800,19
+5001400US5106,5106,"Congressional District 6 (114th Congress), Virginia",840,14
+5001400US5107,5107,"Congressional District 7 (114th Congress), Virginia",1211,20
+5001400US5108,5108,"Congressional District 8 (114th Congress), Virginia",1839,32
+5001400US5109,5109,"Congressional District 9 (114th Congress), Virginia",593,12
+5001400US5110,5110,"Congressional District 10 (114th Congress), Virginia",1965,38
+5001400US5111,5111,"Congressional District 11 (114th Congress), Virginia",1839,27
+5001400US5301,5301,"Congressional District 1 (114th Congress), Washington",1518,33
+5001400US5302,5302,"Congressional District 2 (114th Congress), Washington",1204,23
+5001400US5303,5303,"Congressional District 3 (114th Congress), Washington",1008,23
+5001400US5304,5304,"Congressional District 4 (114th Congress), Washington",848,23
+5001400US5305,5305,"Congressional District 5 (114th Congress), Washington",858,20
+5001400US5306,5306,"Congressional District 6 (114th Congress), Washington",1059,27
+5001400US5307,5307,"Congressional District 7 (114th Congress), Washington",1403,27
+5001400US5308,5308,"Congressional District 8 (114th Congress), Washington",1385,31
+5001400US5309,5309,"Congressional District 9 (114th Congress), Washington",1342,29
+5001400US5310,5310,"Congressional District 10 (114th Congress), Washington",1140,23
+5001400US5401,5401,"Congressional District 1 (114th Congress), West Virginia",571,12
+5001400US5402,5402,"Congressional District 2 (114th Congress), West Virginia",641,21
+5001400US5403,5403,"Congressional District 3 (114th Congress), West Virginia",491,19
+5001400US5501,5501,"Congressional District 1 (114th Congress), Wisconsin",1013,25
+5001400US5502,5502,"Congressional District 2 (114th Congress), Wisconsin",1033,20
+5001400US5503,5503,"Congressional District 3 (114th Congress), Wisconsin",811,13
+5001400US5504,5504,"Congressional District 4 (114th Congress), Wisconsin",875,12
+5001400US5505,5505,"Congressional District 5 (114th Congress), Wisconsin",1083,20
+5001400US5506,5506,"Congressional District 6 (114th Congress), Wisconsin",843,14
+5001400US5507,5507,"Congressional District 7 (114th Congress), Wisconsin",799,10
+5001400US5508,5508,"Congressional District 8 (114th Congress), Wisconsin",839,15
+5001400US5600,5600,"Congressional District (at Large) (114th Congress), Wyoming",831,23
+5001400US7298,7298,"Resident Commissioner District (at Large) (114th Congress), Puerto Rico",363,10

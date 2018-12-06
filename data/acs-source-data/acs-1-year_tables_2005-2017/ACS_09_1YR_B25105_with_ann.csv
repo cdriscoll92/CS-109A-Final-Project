@@ -1,0 +1,439 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD01,HD02_VD01
+Id,Id2,Geography,Estimate; Median monthly housing costs,Margin of Error; Median monthly housing costs
+5001100US0101,0101,"Congressional District 1 (111th Congress), Alabama",759,17
+5001100US0102,0102,"Congressional District 2 (111th Congress), Alabama",658,17
+5001100US0103,0103,"Congressional District 3 (111th Congress), Alabama",654,20
+5001100US0104,0104,"Congressional District 4 (111th Congress), Alabama",563,18
+5001100US0105,0105,"Congressional District 5 (111th Congress), Alabama",684,13
+5001100US0106,0106,"Congressional District 6 (111th Congress), Alabama",951,21
+5001100US0107,0107,"Congressional District 7 (111th Congress), Alabama",705,16
+5001100US0200,0200,"Congressional District (at Large) (111th Congress), Alaska",1193,33
+5001100US0401,0401,"Congressional District 1 (111th Congress), Arizona",744,20
+5001100US0402,0402,"Congressional District 2 (111th Congress), Arizona",1088,19
+5001100US0403,0403,"Congressional District 3 (111th Congress), Arizona",1207,28
+5001100US0404,0404,"Congressional District 4 (111th Congress), Arizona",904,22
+5001100US0405,0405,"Congressional District 5 (111th Congress), Arizona",1164,26
+5001100US0406,0406,"Congressional District 6 (111th Congress), Arizona",1203,26
+5001100US0407,0407,"Congressional District 7 (111th Congress), Arizona",838,22
+5001100US0408,0408,"Congressional District 8 (111th Congress), Arizona",910,25
+5001100US0501,0501,"Congressional District 1 (111th Congress), Arkansas",572,13
+5001100US0502,0502,"Congressional District 2 (111th Congress), Arkansas",735,15
+5001100US0503,0503,"Congressional District 3 (111th Congress), Arkansas",658,18
+5001100US0504,0504,"Congressional District 4 (111th Congress), Arkansas",537,11
+5001100US0601,0601,"Congressional District 1 (111th Congress), California",1142,36
+5001100US0602,0602,"Congressional District 2 (111th Congress), California",944,26
+5001100US0603,0603,"Congressional District 3 (111th Congress), California",1446,43
+5001100US0604,0604,"Congressional District 4 (111th Congress), California",1386,46
+5001100US0605,0605,"Congressional District 5 (111th Congress), California",1045,26
+5001100US0606,0606,"Congressional District 6 (111th Congress), California",1597,46
+5001100US0607,0607,"Congressional District 7 (111th Congress), California",1498,51
+5001100US0608,0608,"Congressional District 8 (111th Congress), California",1528,35
+5001100US0609,0609,"Congressional District 9 (111th Congress), California",1254,30
+5001100US0610,0610,"Congressional District 10 (111th Congress), California",1723,41
+5001100US0611,0611,"Congressional District 11 (111th Congress), California",1720,40
+5001100US0612,0612,"Congressional District 12 (111th Congress), California",1802,61
+5001100US0613,0613,"Congressional District 13 (111th Congress), California",1605,42
+5001100US0614,0614,"Congressional District 14 (111th Congress), California",1801,52
+5001100US0615,0615,"Congressional District 15 (111th Congress), California",1806,63
+5001100US0616,0616,"Congressional District 16 (111th Congress), California",1713,51
+5001100US0617,0617,"Congressional District 17 (111th Congress), California",1389,47
+5001100US0618,0618,"Congressional District 18 (111th Congress), California",980,21
+5001100US0619,0619,"Congressional District 19 (111th Congress), California",1154,39
+5001100US0620,0620,"Congressional District 20 (111th Congress), California",834,26
+5001100US0621,0621,"Congressional District 21 (111th Congress), California",990,26
+5001100US0622,0622,"Congressional District 22 (111th Congress), California",1181,31
+5001100US0623,0623,"Congressional District 23 (111th Congress), California",1365,41
+5001100US0624,0624,"Congressional District 24 (111th Congress), California",1781,44
+5001100US0625,0625,"Congressional District 25 (111th Congress), California",1477,40
+5001100US0626,0626,"Congressional District 26 (111th Congress), California",1629,45
+5001100US0627,0627,"Congressional District 27 (111th Congress), California",1526,49
+5001100US0628,0628,"Congressional District 28 (111th Congress), California",1386,35
+5001100US0629,0629,"Congressional District 29 (111th Congress), California",1399,28
+5001100US0630,0630,"Congressional District 30 (111th Congress), California",1873,52
+5001100US0631,0631,"Congressional District 31 (111th Congress), California",991,18
+5001100US0632,0632,"Congressional District 32 (111th Congress), California",1279,46
+5001100US0633,0633,"Congressional District 33 (111th Congress), California",1193,22
+5001100US0634,0634,"Congressional District 34 (111th Congress), California",1021,29
+5001100US0635,0635,"Congressional District 35 (111th Congress), California",1155,29
+5001100US0636,0636,"Congressional District 36 (111th Congress), California",1533,43
+5001100US0637,0637,"Congressional District 37 (111th Congress), California",1201,26
+5001100US0638,0638,"Congressional District 38 (111th Congress), California",1328,39
+5001100US0639,0639,"Congressional District 39 (111th Congress), California",1353,38
+5001100US0640,0640,"Congressional District 40 (111th Congress), California",1489,30
+5001100US0641,0641,"Congressional District 41 (111th Congress), California",1118,31
+5001100US0642,0642,"Congressional District 42 (111th Congress), California",2022,63
+5001100US0643,0643,"Congressional District 43 (111th Congress), California",1264,37
+5001100US0644,0644,"Congressional District 44 (111th Congress), California",1660,59
+5001100US0645,0645,"Congressional District 45 (111th Congress), California",1302,37
+5001100US0646,0646,"Congressional District 46 (111th Congress), California",1610,35
+5001100US0647,0647,"Congressional District 47 (111th Congress), California",1331,34
+5001100US0648,0648,"Congressional District 48 (111th Congress), California",1901,34
+5001100US0649,0649,"Congressional District 49 (111th Congress), California",1525,42
+5001100US0650,0650,"Congressional District 50 (111th Congress), California",1822,48
+5001100US0651,0651,"Congressional District 51 (111th Congress), California",1231,39
+5001100US0652,0652,"Congressional District 52 (111th Congress), California",1607,41
+5001100US0653,0653,"Congressional District 53 (111th Congress), California",1240,25
+5001100US0801,0801,"Congressional District 1 (111th Congress), Colorado",1004,25
+5001100US0802,0802,"Congressional District 2 (111th Congress), Colorado",1318,26
+5001100US0803,0803,"Congressional District 3 (111th Congress), Colorado",857,23
+5001100US0804,0804,"Congressional District 4 (111th Congress), Colorado",1008,29
+5001100US0805,0805,"Congressional District 5 (111th Congress), Colorado",1054,20
+5001100US0806,0806,"Congressional District 6 (111th Congress), Colorado",1591,23
+5001100US0807,0807,"Congressional District 7 (111th Congress), Colorado",1033,30
+5001100US0901,0901,"Congressional District 1 (111th Congress), Connecticut",1202,24
+5001100US0902,0902,"Congressional District 2 (111th Congress), Connecticut",1347,30
+5001100US0903,0903,"Congressional District 3 (111th Congress), Connecticut",1362,29
+5001100US0904,0904,"Congressional District 4 (111th Congress), Connecticut",1851,53
+5001100US0905,0905,"Congressional District 5 (111th Congress), Connecticut",1328,29
+5001100US1000,1000,"Congressional District (at Large) (111th Congress), Delaware",1096,24
+5001100US1198,1198,"Delegate District (at Large) (111th Congress), District of Columbia",1292,34
+5001100US1201,1201,"Congressional District 1 (111th Congress), Florida",881,21
+5001100US1202,1202,"Congressional District 2 (111th Congress), Florida",852,19
+5001100US1203,1203,"Congressional District 3 (111th Congress), Florida",825,19
+5001100US1204,1204,"Congressional District 4 (111th Congress), Florida",1039,24
+5001100US1205,1205,"Congressional District 5 (111th Congress), Florida",823,16
+5001100US1206,1206,"Congressional District 6 (111th Congress), Florida",887,19
+5001100US1207,1207,"Congressional District 7 (111th Congress), Florida",1075,25
+5001100US1208,1208,"Congressional District 8 (111th Congress), Florida",1110,21
+5001100US1209,1209,"Congressional District 9 (111th Congress), Florida",1056,28
+5001100US1210,1210,"Congressional District 10 (111th Congress), Florida",948,25
+5001100US1211,1211,"Congressional District 11 (111th Congress), Florida",958,19
+5001100US1212,1212,"Congressional District 12 (111th Congress), Florida",896,21
+5001100US1213,1213,"Congressional District 13 (111th Congress), Florida",984,20
+5001100US1214,1214,"Congressional District 14 (111th Congress), Florida",1052,23
+5001100US1215,1215,"Congressional District 15 (111th Congress), Florida",999,22
+5001100US1216,1216,"Congressional District 16 (111th Congress), Florida",983,23
+5001100US1217,1217,"Congressional District 17 (111th Congress), Florida",1025,33
+5001100US1218,1218,"Congressional District 18 (111th Congress), Florida",1148,30
+5001100US1219,1219,"Congressional District 19 (111th Congress), Florida",1151,26
+5001100US1220,1220,"Congressional District 20 (111th Congress), Florida",1400,29
+5001100US1221,1221,"Congressional District 21 (111th Congress), Florida",1225,31
+5001100US1222,1222,"Congressional District 22 (111th Congress), Florida",1379,31
+5001100US1223,1223,"Congressional District 23 (111th Congress), Florida",1085,28
+5001100US1224,1224,"Congressional District 24 (111th Congress), Florida",1134,28
+5001100US1225,1225,"Congressional District 25 (111th Congress), Florida",1421,31
+5001100US1301,1301,"Congressional District 1 (111th Congress), Georgia",722,19
+5001100US1302,1302,"Congressional District 2 (111th Congress), Georgia",633,13
+5001100US1303,1303,"Congressional District 3 (111th Congress), Georgia",998,23
+5001100US1304,1304,"Congressional District 4 (111th Congress), Georgia",1054,21
+5001100US1305,1305,"Congressional District 5 (111th Congress), Georgia",1112,30
+5001100US1306,1306,"Congressional District 6 (111th Congress), Georgia",1427,32
+5001100US1307,1307,"Congressional District 7 (111th Congress), Georgia",1265,20
+5001100US1308,1308,"Congressional District 8 (111th Congress), Georgia",739,18
+5001100US1309,1309,"Congressional District 9 (111th Congress), Georgia",849,28
+5001100US1310,1310,"Congressional District 10 (111th Congress), Georgia",771,25
+5001100US1311,1311,"Congressional District 11 (111th Congress), Georgia",976,19
+5001100US1312,1312,"Congressional District 12 (111th Congress), Georgia",684,14
+5001100US1313,1313,"Congressional District 13 (111th Congress), Georgia",1048,20
+5001100US1501,1501,"Congressional District 1 (111th Congress), Hawaii",1459,44
+5001100US1502,1502,"Congressional District 2 (111th Congress), Hawaii",1432,55
+5001100US1601,1601,"Congressional District 1 (111th Congress), Idaho",904,23
+5001100US1602,1602,"Congressional District 2 (111th Congress), Idaho",772,15
+5001100US1701,1701,"Congressional District 1 (111th Congress), Illinois",946,18
+5001100US1702,1702,"Congressional District 2 (111th Congress), Illinois",988,22
+5001100US1703,1703,"Congressional District 3 (111th Congress), Illinois",1113,39
+5001100US1704,1704,"Congressional District 4 (111th Congress), Illinois",1025,31
+5001100US1705,1705,"Congressional District 5 (111th Congress), Illinois",1185,36
+5001100US1706,1706,"Congressional District 6 (111th Congress), Illinois",1445,39
+5001100US1707,1707,"Congressional District 7 (111th Congress), Illinois",1250,32
+5001100US1708,1708,"Congressional District 8 (111th Congress), Illinois",1491,27
+5001100US1709,1709,"Congressional District 9 (111th Congress), Illinois",1136,35
+5001100US1710,1710,"Congressional District 10 (111th Congress), Illinois",1615,48
+5001100US1711,1711,"Congressional District 11 (111th Congress), Illinois",1020,26
+5001100US1712,1712,"Congressional District 12 (111th Congress), Illinois",719,13
+5001100US1713,1713,"Congressional District 13 (111th Congress), Illinois",1632,34
+5001100US1714,1714,"Congressional District 14 (111th Congress), Illinois",1384,31
+5001100US1715,1715,"Congressional District 15 (111th Congress), Illinois",733,17
+5001100US1716,1716,"Congressional District 16 (111th Congress), Illinois",977,24
+5001100US1717,1717,"Congressional District 17 (111th Congress), Illinois",656,14
+5001100US1718,1718,"Congressional District 18 (111th Congress), Illinois",748,16
+5001100US1719,1719,"Congressional District 19 (111th Congress), Illinois",694,14
+5001100US1801,1801,"Congressional District 1 (111th Congress), Indiana",898,20
+5001100US1802,1802,"Congressional District 2 (111th Congress), Indiana",760,13
+5001100US1803,1803,"Congressional District 3 (111th Congress), Indiana",768,15
+5001100US1804,1804,"Congressional District 4 (111th Congress), Indiana",906,17
+5001100US1805,1805,"Congressional District 5 (111th Congress), Indiana",967,19
+5001100US1806,1806,"Congressional District 6 (111th Congress), Indiana",703,14
+5001100US1807,1807,"Congressional District 7 (111th Congress), Indiana",793,15
+5001100US1808,1808,"Congressional District 8 (111th Congress), Indiana",698,15
+5001100US1809,1809,"Congressional District 9 (111th Congress), Indiana",755,14
+5001100US1901,1901,"Congressional District 1 (111th Congress), Iowa",729,18
+5001100US1902,1902,"Congressional District 2 (111th Congress), Iowa",743,16
+5001100US1903,1903,"Congressional District 3 (111th Congress), Iowa",845,19
+5001100US1904,1904,"Congressional District 4 (111th Congress), Iowa",675,13
+5001100US1905,1905,"Congressional District 5 (111th Congress), Iowa",624,18
+5001100US2001,2001,"Congressional District 1 (111th Congress), Kansas",600,11
+5001100US2002,2002,"Congressional District 2 (111th Congress), Kansas",732,14
+5001100US2003,2003,"Congressional District 3 (111th Congress), Kansas",1075,16
+5001100US2004,2004,"Congressional District 4 (111th Congress), Kansas",747,16
+5001100US2101,2101,"Congressional District 1 (111th Congress), Kentucky",561,17
+5001100US2102,2102,"Congressional District 2 (111th Congress), Kentucky",686,12
+5001100US2103,2103,"Congressional District 3 (111th Congress), Kentucky",810,18
+5001100US2104,2104,"Congressional District 4 (111th Congress), Kentucky",786,23
+5001100US2105,2105,"Congressional District 5 (111th Congress), Kentucky",426,19
+5001100US2106,2106,"Congressional District 6 (111th Congress), Kentucky",743,18
+5001100US2201,2201,"Congressional District 1 (111th Congress), Louisiana",881,25
+5001100US2202,2202,"Congressional District 2 (111th Congress), Louisiana",902,25
+5001100US2203,2203,"Congressional District 3 (111th Congress), Louisiana",647,27
+5001100US2204,2204,"Congressional District 4 (111th Congress), Louisiana",646,15
+5001100US2205,2205,"Congressional District 5 (111th Congress), Louisiana",537,15
+5001100US2206,2206,"Congressional District 6 (111th Congress), Louisiana",789,21
+5001100US2207,2207,"Congressional District 7 (111th Congress), Louisiana",610,20
+5001100US2301,2301,"Congressional District 1 (111th Congress), Maine",1027,22
+5001100US2302,2302,"Congressional District 2 (111th Congress), Maine",707,15
+5001100US2401,2401,"Congressional District 1 (111th Congress), Maryland",1283,40
+5001100US2402,2402,"Congressional District 2 (111th Congress), Maryland",1173,23
+5001100US2403,2403,"Congressional District 3 (111th Congress), Maryland",1409,31
+5001100US2404,2404,"Congressional District 4 (111th Congress), Maryland",1664,36
+5001100US2405,2405,"Congressional District 5 (111th Congress), Maryland",1720,46
+5001100US2406,2406,"Congressional District 6 (111th Congress), Maryland",1212,41
+5001100US2407,2407,"Congressional District 7 (111th Congress), Maryland",1118,26
+5001100US2408,2408,"Congressional District 8 (111th Congress), Maryland",1730,43
+5001100US2501,2501,"Congressional District 1 (111th Congress), Massachusetts",975,22
+5001100US2502,2502,"Congressional District 2 (111th Congress), Massachusetts",1058,30
+5001100US2503,2503,"Congressional District 3 (111th Congress), Massachusetts",1240,43
+5001100US2504,2504,"Congressional District 4 (111th Congress), Massachusetts",1410,37
+5001100US2505,2505,"Congressional District 5 (111th Congress), Massachusetts",1432,44
+5001100US2506,2506,"Congressional District 6 (111th Congress), Massachusetts",1451,37
+5001100US2507,2507,"Congressional District 7 (111th Congress), Massachusetts",1483,29
+5001100US2508,2508,"Congressional District 8 (111th Congress), Massachusetts",1380,28
+5001100US2509,2509,"Congressional District 9 (111th Congress), Massachusetts",1472,33
+5001100US2510,2510,"Congressional District 10 (111th Congress), Massachusetts",1378,33
+5001100US2601,2601,"Congressional District 1 (111th Congress), Michigan",659,14
+5001100US2602,2602,"Congressional District 2 (111th Congress), Michigan",816,20
+5001100US2603,2603,"Congressional District 3 (111th Congress), Michigan",916,20
+5001100US2604,2604,"Congressional District 4 (111th Congress), Michigan",759,14
+5001100US2605,2605,"Congressional District 5 (111th Congress), Michigan",746,15
+5001100US2606,2606,"Congressional District 6 (111th Congress), Michigan",761,16
+5001100US2607,2607,"Congressional District 7 (111th Congress), Michigan",837,20
+5001100US2608,2608,"Congressional District 8 (111th Congress), Michigan",1037,25
+5001100US2609,2609,"Congressional District 9 (111th Congress), Michigan",1230,25
+5001100US2610,2610,"Congressional District 10 (111th Congress), Michigan",1030,26
+5001100US2611,2611,"Congressional District 11 (111th Congress), Michigan",1145,33
+5001100US2612,2612,"Congressional District 12 (111th Congress), Michigan",916,23
+5001100US2613,2613,"Congressional District 13 (111th Congress), Michigan",786,24
+5001100US2614,2614,"Congressional District 14 (111th Congress), Michigan",852,22
+5001100US2615,2615,"Congressional District 15 (111th Congress), Michigan",970,24
+5001100US2701,2701,"Congressional District 1 (111th Congress), Minnesota",776,17
+5001100US2702,2702,"Congressional District 2 (111th Congress), Minnesota",1357,24
+5001100US2703,2703,"Congressional District 3 (111th Congress), Minnesota",1340,24
+5001100US2704,2704,"Congressional District 4 (111th Congress), Minnesota",974,21
+5001100US2705,2705,"Congressional District 5 (111th Congress), Minnesota",1058,27
+5001100US2706,2706,"Congressional District 6 (111th Congress), Minnesota",1313,22
+5001100US2707,2707,"Congressional District 7 (111th Congress), Minnesota",697,13
+5001100US2708,2708,"Congressional District 8 (111th Congress), Minnesota",782,18
+5001100US2801,2801,"Congressional District 1 (111th Congress), Mississippi",651,14
+5001100US2802,2802,"Congressional District 2 (111th Congress), Mississippi",601,12
+5001100US2803,2803,"Congressional District 3 (111th Congress), Mississippi",659,17
+5001100US2804,2804,"Congressional District 4 (111th Congress), Mississippi",712,22
+5001100US2901,2901,"Congressional District 1 (111th Congress), Missouri",854,21
+5001100US2902,2902,"Congressional District 2 (111th Congress), Missouri",1208,26
+5001100US2903,2903,"Congressional District 3 (111th Congress), Missouri",863,21
+5001100US2904,2904,"Congressional District 4 (111th Congress), Missouri",629,16
+5001100US2905,2905,"Congressional District 5 (111th Congress), Missouri",846,14
+5001100US2906,2906,"Congressional District 6 (111th Congress), Missouri",809,21
+5001100US2907,2907,"Congressional District 7 (111th Congress), Missouri",684,13
+5001100US2908,2908,"Congressional District 8 (111th Congress), Missouri",518,11
+5001100US2909,2909,"Congressional District 9 (111th Congress), Missouri",720,19
+5001100US3000,3000,"Congressional District (at Large) (111th Congress), Montana",691,16
+5001100US3101,3101,"Congressional District 1 (111th Congress), Nebraska",757,16
+5001100US3102,3102,"Congressional District 2 (111th Congress), Nebraska",942,20
+5001100US3103,3103,"Congressional District 3 (111th Congress), Nebraska",613,12
+5001100US3201,3201,"Congressional District 1 (111th Congress), Nevada",1131,24
+5001100US3202,3202,"Congressional District 2 (111th Congress), Nevada",1057,29
+5001100US3203,3203,"Congressional District 3 (111th Congress), Nevada",1332,20
+5001100US3301,3301,"Congressional District 1 (111th Congress), New Hampshire",1279,44
+5001100US3302,3302,"Congressional District 2 (111th Congress), New Hampshire",1192,26
+5001100US3401,3401,"Congressional District 1 (111th Congress), New Jersey",1246,30
+5001100US3402,3402,"Congressional District 2 (111th Congress), New Jersey",1216,25
+5001100US3403,3403,"Congressional District 3 (111th Congress), New Jersey",1537,33
+5001100US3404,3404,"Congressional District 4 (111th Congress), New Jersey",1504,45
+5001100US3405,3405,"Congressional District 5 (111th Congress), New Jersey",1975,50
+5001100US3406,3406,"Congressional District 6 (111th Congress), New Jersey",1484,37
+5001100US3407,3407,"Congressional District 7 (111th Congress), New Jersey",1917,49
+5001100US3408,3408,"Congressional District 8 (111th Congress), New Jersey",1472,34
+5001100US3409,3409,"Congressional District 9 (111th Congress), New Jersey",1442,28
+5001100US3410,3410,"Congressional District 10 (111th Congress), New Jersey",1161,25
+5001100US3411,3411,"Congressional District 11 (111th Congress), New Jersey",2001,52
+5001100US3412,3412,"Congressional District 12 (111th Congress), New Jersey",1723,40
+5001100US3413,3413,"Congressional District 13 (111th Congress), New Jersey",1198,23
+5001100US3501,3501,"Congressional District 1 (111th Congress), New Mexico",856,18
+5001100US3502,3502,"Congressional District 2 (111th Congress), New Mexico",572,17
+5001100US3503,3503,"Congressional District 3 (111th Congress), New Mexico",732,24
+5001100US3601,3601,"Congressional District 1 (111th Congress), New York",1871,52
+5001100US3602,3602,"Congressional District 2 (111th Congress), New York",2137,61
+5001100US3603,3603,"Congressional District 3 (111th Congress), New York",2043,63
+5001100US3604,3604,"Congressional District 4 (111th Congress), New York",1887,64
+5001100US3605,3605,"Congressional District 5 (111th Congress), New York",1394,29
+5001100US3606,3606,"Congressional District 6 (111th Congress), New York",1352,38
+5001100US3607,3607,"Congressional District 7 (111th Congress), New York",1068,19
+5001100US3608,3608,"Congressional District 8 (111th Congress), New York",1445,47
+5001100US3609,3609,"Congressional District 9 (111th Congress), New York",1208,20
+5001100US3610,3610,"Congressional District 10 (111th Congress), New York",1090,25
+5001100US3611,3611,"Congressional District 11 (111th Congress), New York",1113,21
+5001100US3612,3612,"Congressional District 12 (111th Congress), New York",1115,23
+5001100US3613,3613,"Congressional District 13 (111th Congress), New York",1292,40
+5001100US3614,3614,"Congressional District 14 (111th Congress), New York",1635,34
+5001100US3615,3615,"Congressional District 15 (111th Congress), New York",955,26
+5001100US3616,3616,"Congressional District 16 (111th Congress), New York",868,16
+5001100US3617,3617,"Congressional District 17 (111th Congress), New York",1214,22
+5001100US3618,3618,"Congressional District 18 (111th Congress), New York",1810,59
+5001100US3619,3619,"Congressional District 19 (111th Congress), New York",1746,55
+5001100US3620,3620,"Congressional District 20 (111th Congress), New York",1012,30
+5001100US3621,3621,"Congressional District 21 (111th Congress), New York",952,17
+5001100US3622,3622,"Congressional District 22 (111th Congress), New York",966,20
+5001100US3623,3623,"Congressional District 23 (111th Congress), New York",758,14
+5001100US3624,3624,"Congressional District 24 (111th Congress), New York",755,14
+5001100US3625,3625,"Congressional District 25 (111th Congress), New York",881,16
+5001100US3626,3626,"Congressional District 26 (111th Congress), New York",917,24
+5001100US3627,3627,"Congressional District 27 (111th Congress), New York",749,15
+5001100US3628,3628,"Congressional District 28 (111th Congress), New York",752,14
+5001100US3629,3629,"Congressional District 29 (111th Congress), New York",831,15
+5001100US3701,3701,"Congressional District 1 (111th Congress), North Carolina",669,14
+5001100US3702,3702,"Congressional District 2 (111th Congress), North Carolina",842,19
+5001100US3703,3703,"Congressional District 3 (111th Congress), North Carolina",831,21
+5001100US3704,3704,"Congressional District 4 (111th Congress), North Carolina",1094,27
+5001100US3705,3705,"Congressional District 5 (111th Congress), North Carolina",708,23
+5001100US3706,3706,"Congressional District 6 (111th Congress), North Carolina",797,19
+5001100US3707,3707,"Congressional District 7 (111th Congress), North Carolina",788,17
+5001100US3708,3708,"Congressional District 8 (111th Congress), North Carolina",799,18
+5001100US3709,3709,"Congressional District 9 (111th Congress), North Carolina",1112,20
+5001100US3710,3710,"Congressional District 10 (111th Congress), North Carolina",684,18
+5001100US3711,3711,"Congressional District 11 (111th Congress), North Carolina",680,19
+5001100US3712,3712,"Congressional District 12 (111th Congress), North Carolina",819,19
+5001100US3713,3713,"Congressional District 13 (111th Congress), North Carolina",869,18
+5001100US3800,3800,"Congressional District (at Large) (111th Congress), North Dakota",630,12
+5001100US3901,3901,"Congressional District 1 (111th Congress), Ohio",795,21
+5001100US3902,3902,"Congressional District 2 (111th Congress), Ohio",971,24
+5001100US3903,3903,"Congressional District 3 (111th Congress), Ohio",864,17
+5001100US3904,3904,"Congressional District 4 (111th Congress), Ohio",720,16
+5001100US3905,3905,"Congressional District 5 (111th Congress), Ohio",754,17
+5001100US3906,3906,"Congressional District 6 (111th Congress), Ohio",620,20
+5001100US3907,3907,"Congressional District 7 (111th Congress), Ohio",853,20
+5001100US3908,3908,"Congressional District 8 (111th Congress), Ohio",844,21
+5001100US3909,3909,"Congressional District 9 (111th Congress), Ohio",770,15
+5001100US3910,3910,"Congressional District 10 (111th Congress), Ohio",825,21
+5001100US3911,3911,"Congressional District 11 (111th Congress), Ohio",786,17
+5001100US3912,3912,"Congressional District 12 (111th Congress), Ohio",1035,23
+5001100US3913,3913,"Congressional District 13 (111th Congress), Ohio",878,16
+5001100US3914,3914,"Congressional District 14 (111th Congress), Ohio",1010,29
+5001100US3915,3915,"Congressional District 15 (111th Congress), Ohio",949,15
+5001100US3916,3916,"Congressional District 16 (111th Congress), Ohio",798,23
+5001100US3917,3917,"Congressional District 17 (111th Congress), Ohio",716,21
+5001100US3918,3918,"Congressional District 18 (111th Congress), Ohio",642,15
+5001100US4001,4001,"Congressional District 1 (111th Congress), Oklahoma",800,16
+5001100US4002,4002,"Congressional District 2 (111th Congress), Oklahoma",525,12
+5001100US4003,4003,"Congressional District 3 (111th Congress), Oklahoma",592,10
+5001100US4004,4004,"Congressional District 4 (111th Congress), Oklahoma",708,15
+5001100US4005,4005,"Congressional District 5 (111th Congress), Oklahoma",737,18
+5001100US4101,4101,"Congressional District 1 (111th Congress), Oregon",1145,29
+5001100US4102,4102,"Congressional District 2 (111th Congress), Oregon",836,21
+5001100US4103,4103,"Congressional District 3 (111th Congress), Oregon",1108,26
+5001100US4104,4104,"Congressional District 4 (111th Congress), Oregon",829,20
+5001100US4105,4105,"Congressional District 5 (111th Congress), Oregon",1043,33
+5001100US4201,4201,"Congressional District 1 (111th Congress), Pennsylvania",812,22
+5001100US4202,4202,"Congressional District 2 (111th Congress), Pennsylvania",859,17
+5001100US4203,4203,"Congressional District 3 (111th Congress), Pennsylvania",694,15
+5001100US4204,4204,"Congressional District 4 (111th Congress), Pennsylvania",888,22
+5001100US4205,4205,"Congressional District 5 (111th Congress), Pennsylvania",646,15
+5001100US4206,4206,"Congressional District 6 (111th Congress), Pennsylvania",1249,30
+5001100US4207,4207,"Congressional District 7 (111th Congress), Pennsylvania",1281,31
+5001100US4208,4208,"Congressional District 8 (111th Congress), Pennsylvania",1425,42
+5001100US4209,4209,"Congressional District 9 (111th Congress), Pennsylvania",650,13
+5001100US4210,4210,"Congressional District 10 (111th Congress), Pennsylvania",743,18
+5001100US4211,4211,"Congressional District 11 (111th Congress), Pennsylvania",783,18
+5001100US4212,4212,"Congressional District 12 (111th Congress), Pennsylvania",585,14
+5001100US4213,4213,"Congressional District 13 (111th Congress), Pennsylvania",1093,25
+5001100US4214,4214,"Congressional District 14 (111th Congress), Pennsylvania",709,17
+5001100US4215,4215,"Congressional District 15 (111th Congress), Pennsylvania",1044,24
+5001100US4216,4216,"Congressional District 16 (111th Congress), Pennsylvania",973,23
+5001100US4217,4217,"Congressional District 17 (111th Congress), Pennsylvania",819,19
+5001100US4218,4218,"Congressional District 18 (111th Congress), Pennsylvania",856,19
+5001100US4219,4219,"Congressional District 19 (111th Congress), Pennsylvania",971,24
+5001100US4401,4401,"Congressional District 1 (111th Congress), Rhode Island",1115,33
+5001100US4402,4402,"Congressional District 2 (111th Congress), Rhode Island",1192,35
+5001100US4501,4501,"Congressional District 1 (111th Congress), South Carolina",972,17
+5001100US4502,4502,"Congressional District 2 (111th Congress), South Carolina",894,20
+5001100US4503,4503,"Congressional District 3 (111th Congress), South Carolina",639,12
+5001100US4504,4504,"Congressional District 4 (111th Congress), South Carolina",740,16
+5001100US4505,4505,"Congressional District 5 (111th Congress), South Carolina",656,14
+5001100US4506,4506,"Congressional District 6 (111th Congress), South Carolina",638,17
+5001100US4600,4600,"Congressional District (at Large) (111th Congress), South Dakota",649,17
+5001100US4701,4701,"Congressional District 1 (111th Congress), Tennessee",578,20
+5001100US4702,4702,"Congressional District 2 (111th Congress), Tennessee",769,17
+5001100US4703,4703,"Congressional District 3 (111th Congress), Tennessee",688,14
+5001100US4704,4704,"Congressional District 4 (111th Congress), Tennessee",586,17
+5001100US4705,4705,"Congressional District 5 (111th Congress), Tennessee",924,17
+5001100US4706,4706,"Congressional District 6 (111th Congress), Tennessee",821,18
+5001100US4707,4707,"Congressional District 7 (111th Congress), Tennessee",998,20
+5001100US4708,4708,"Congressional District 8 (111th Congress), Tennessee",665,18
+5001100US4709,4709,"Congressional District 9 (111th Congress), Tennessee",830,17
+5001100US4801,4801,"Congressional District 1 (111th Congress), Texas",651,20
+5001100US4802,4802,"Congressional District 2 (111th Congress), Texas",926,24
+5001100US4803,4803,"Congressional District 3 (111th Congress), Texas",1246,27
+5001100US4804,4804,"Congressional District 4 (111th Congress), Texas",829,21
+5001100US4805,4805,"Congressional District 5 (111th Congress), Texas",843,21
+5001100US4806,4806,"Congressional District 6 (111th Congress), Texas",974,21
+5001100US4807,4807,"Congressional District 7 (111th Congress), Texas",1209,22
+5001100US4808,4808,"Congressional District 8 (111th Congress), Texas",793,27
+5001100US4809,4809,"Congressional District 9 (111th Congress), Texas",861,17
+5001100US4810,4810,"Congressional District 10 (111th Congress), Texas",1152,17
+5001100US4811,4811,"Congressional District 11 (111th Congress), Texas",664,17
+5001100US4812,4812,"Congressional District 12 (111th Congress), Texas",963,20
+5001100US4813,4813,"Congressional District 13 (111th Congress), Texas",630,13
+5001100US4814,4814,"Congressional District 14 (111th Congress), Texas",879,20
+5001100US4815,4815,"Congressional District 15 (111th Congress), Texas",571,19
+5001100US4816,4816,"Congressional District 16 (111th Congress), Texas",699,22
+5001100US4817,4817,"Congressional District 17 (111th Congress), Texas",787,20
+5001100US4818,4818,"Congressional District 18 (111th Congress), Texas",825,18
+5001100US4819,4819,"Congressional District 19 (111th Congress), Texas",658,16
+5001100US4820,4820,"Congressional District 20 (111th Congress), Texas",745,16
+5001100US4821,4821,"Congressional District 21 (111th Congress), Texas",1079,25
+5001100US4822,4822,"Congressional District 22 (111th Congress), Texas",1224,27
+5001100US4823,4823,"Congressional District 23 (111th Congress), Texas",772,26
+5001100US4824,4824,"Congressional District 24 (111th Congress), Texas",1141,23
+5001100US4825,4825,"Congressional District 25 (111th Congress), Texas",961,17
+5001100US4826,4826,"Congressional District 26 (111th Congress), Texas",1112,24
+5001100US4827,4827,"Congressional District 27 (111th Congress), Texas",716,16
+5001100US4828,4828,"Congressional District 28 (111th Congress), Texas",696,20
+5001100US4829,4829,"Congressional District 29 (111th Congress), Texas",729,21
+5001100US4830,4830,"Congressional District 30 (111th Congress), Texas",859,18
+5001100US4831,4831,"Congressional District 31 (111th Congress), Texas",1006,21
+5001100US4832,4832,"Congressional District 32 (111th Congress), Texas",971,19
+5001100US4901,4901,"Congressional District 1 (111th Congress), Utah",993,20
+5001100US4902,4902,"Congressional District 2 (111th Congress), Utah",982,23
+5001100US4903,4903,"Congressional District 3 (111th Congress), Utah",1137,24
+5001100US5000,5000,"Congressional District (at Large) (111th Congress), Vermont",1028,20
+5001100US5101,5101,"Congressional District 1 (111th Congress), Virginia",1279,29
+5001100US5102,5102,"Congressional District 2 (111th Congress), Virginia",1234,21
+5001100US5103,5103,"Congressional District 3 (111th Congress), Virginia",980,20
+5001100US5104,5104,"Congressional District 4 (111th Congress), Virginia",1144,33
+5001100US5105,5105,"Congressional District 5 (111th Congress), Virginia",731,20
+5001100US5106,5106,"Congressional District 6 (111th Congress), Virginia",779,17
+5001100US5107,5107,"Congressional District 7 (111th Congress), Virginia",1193,23
+5001100US5108,5108,"Congressional District 8 (111th Congress), Virginia",1690,28
+5001100US5109,5109,"Congressional District 9 (111th Congress), Virginia",539,19
+5001100US5110,5110,"Congressional District 10 (111th Congress), Virginia",1923,40
+5001100US5111,5111,"Congressional District 11 (111th Congress), Virginia",2026,45
+5001100US5301,5301,"Congressional District 1 (111th Congress), Washington",1501,34
+5001100US5302,5302,"Congressional District 2 (111th Congress), Washington",1183,33
+5001100US5303,5303,"Congressional District 3 (111th Congress), Washington",1032,29
+5001100US5304,5304,"Congressional District 4 (111th Congress), Washington",829,21
+5001100US5305,5305,"Congressional District 5 (111th Congress), Washington",808,20
+5001100US5306,5306,"Congressional District 6 (111th Congress), Washington",980,26
+5001100US5307,5307,"Congressional District 7 (111th Congress), Washington",1255,33
+5001100US5308,5308,"Congressional District 8 (111th Congress), Washington",1687,38
+5001100US5309,5309,"Congressional District 9 (111th Congress), Washington",1196,24
+5001100US5401,5401,"Congressional District 1 (111th Congress), West Virginia",529,14
+5001100US5402,5402,"Congressional District 2 (111th Congress), West Virginia",597,16
+5001100US5403,5403,"Congressional District 3 (111th Congress), West Virginia",440,13
+5001100US5501,5501,"Congressional District 1 (111th Congress), Wisconsin",1043,28
+5001100US5502,5502,"Congressional District 2 (111th Congress), Wisconsin",1028,23
+5001100US5503,5503,"Congressional District 3 (111th Congress), Wisconsin",839,15
+5001100US5504,5504,"Congressional District 4 (111th Congress), Wisconsin",839,14
+5001100US5505,5505,"Congressional District 5 (111th Congress), Wisconsin",1177,21
+5001100US5506,5506,"Congressional District 6 (111th Congress), Wisconsin",821,19
+5001100US5507,5507,"Congressional District 7 (111th Congress), Wisconsin",728,12
+5001100US5508,5508,"Congressional District 8 (111th Congress), Wisconsin",815,22
+5001100US5600,5600,"Congressional District (at Large) (111th Congress), Wyoming",786,28
+5001100US7298,7298,"Resident Commissioner District (at Large) (111th Congress), Puerto Rico",285,8
