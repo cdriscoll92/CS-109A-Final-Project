@@ -1,0 +1,438 @@
+year,district,unemp_rate
+2015,"Congressional District 1 (114th Congress), Alabama",7.1
+2015,"Congressional District 2 (114th Congress), Alabama",7.9
+2015,"Congressional District 3 (114th Congress), Alabama",7.1
+2015,"Congressional District 4 (114th Congress), Alabama",6.0
+2015,"Congressional District 5 (114th Congress), Alabama",7.2
+2015,"Congressional District 6 (114th Congress), Alabama",5.1
+2015,"Congressional District 7 (114th Congress), Alabama",10.2
+2015,"Congressional District (at Large) (114th Congress), Alaska",7.9
+2015,"Congressional District 1 (114th Congress), Arizona",10.6
+2015,"Congressional District 2 (114th Congress), Arizona",7.2
+2015,"Congressional District 3 (114th Congress), Arizona",9.5
+2015,"Congressional District 4 (114th Congress), Arizona",7.9
+2015,"Congressional District 5 (114th Congress), Arizona",4.2
+2015,"Congressional District 6 (114th Congress), Arizona",5.2
+2015,"Congressional District 7 (114th Congress), Arizona",7.6
+2015,"Congressional District 8 (114th Congress), Arizona",5.7
+2015,"Congressional District 9 (114th Congress), Arizona",5.4
+2015,"Congressional District 1 (114th Congress), Arkansas",6.5
+2015,"Congressional District 2 (114th Congress), Arkansas",5.4
+2015,"Congressional District 3 (114th Congress), Arkansas",4.4
+2015,"Congressional District 4 (114th Congress), Arkansas",7.4
+2015,"Congressional District 1 (114th Congress), California",7.9
+2015,"Congressional District 2 (114th Congress), California",6.0
+2015,"Congressional District 3 (114th Congress), California",9.0
+2015,"Congressional District 4 (114th Congress), California",7.6
+2015,"Congressional District 5 (114th Congress), California",6.1
+2015,"Congressional District 6 (114th Congress), California",8.3
+2015,"Congressional District 7 (114th Congress), California",8.3
+2015,"Congressional District 8 (114th Congress), California",12.2
+2015,"Congressional District 9 (114th Congress), California",10.0
+2015,"Congressional District 10 (114th Congress), California",10.9
+2015,"Congressional District 11 (114th Congress), California",6.8
+2015,"Congressional District 12 (114th Congress), California",4.8
+2015,"Congressional District 13 (114th Congress), California",6.3
+2015,"Congressional District 14 (114th Congress), California",5.6
+2015,"Congressional District 15 (114th Congress), California",4.4
+2015,"Congressional District 16 (114th Congress), California",11.6
+2015,"Congressional District 17 (114th Congress), California",5.1
+2015,"Congressional District 18 (114th Congress), California",3.7
+2015,"Congressional District 19 (114th Congress), California",6.3
+2015,"Congressional District 20 (114th Congress), California",6.0
+2015,"Congressional District 21 (114th Congress), California",12.4
+2015,"Congressional District 22 (114th Congress), California",8.0
+2015,"Congressional District 23 (114th Congress), California",8.6
+2015,"Congressional District 24 (114th Congress), California",5.7
+2015,"Congressional District 25 (114th Congress), California",7.4
+2015,"Congressional District 26 (114th Congress), California",7.1
+2015,"Congressional District 27 (114th Congress), California",5.6
+2015,"Congressional District 28 (114th Congress), California",6.6
+2015,"Congressional District 29 (114th Congress), California",7.5
+2015,"Congressional District 30 (114th Congress), California",6.0
+2015,"Congressional District 31 (114th Congress), California",8.2
+2015,"Congressional District 32 (114th Congress), California",7.5
+2015,"Congressional District 33 (114th Congress), California",5.7
+2015,"Congressional District 34 (114th Congress), California",7.9
+2015,"Congressional District 35 (114th Congress), California",9.0
+2015,"Congressional District 36 (114th Congress), California",10.5
+2015,"Congressional District 37 (114th Congress), California",7.8
+2015,"Congressional District 38 (114th Congress), California",6.4
+2015,"Congressional District 39 (114th Congress), California",6.6
+2015,"Congressional District 40 (114th Congress), California",8.6
+2015,"Congressional District 41 (114th Congress), California",9.7
+2015,"Congressional District 42 (114th Congress), California",9.1
+2015,"Congressional District 43 (114th Congress), California",7.7
+2015,"Congressional District 44 (114th Congress), California",9.7
+2015,"Congressional District 45 (114th Congress), California",5.2
+2015,"Congressional District 46 (114th Congress), California",5.9
+2015,"Congressional District 47 (114th Congress), California",5.6
+2015,"Congressional District 48 (114th Congress), California",5.0
+2015,"Congressional District 49 (114th Congress), California",5.4
+2015,"Congressional District 50 (114th Congress), California",6.8
+2015,"Congressional District 51 (114th Congress), California",11.5
+2015,"Congressional District 52 (114th Congress), California",5.1
+2015,"Congressional District 53 (114th Congress), California",7.5
+2015,"Congressional District 1 (114th Congress), Colorado",4.9
+2015,"Congressional District 2 (114th Congress), Colorado",4.5
+2015,"Congressional District 3 (114th Congress), Colorado",7.1
+2015,"Congressional District 4 (114th Congress), Colorado",4.7
+2015,"Congressional District 5 (114th Congress), Colorado",6.4
+2015,"Congressional District 6 (114th Congress), Colorado",4.5
+2015,"Congressional District 7 (114th Congress), Colorado",4.7
+2015,"Congressional District 1 (114th Congress), Connecticut",7.0
+2015,"Congressional District 2 (114th Congress), Connecticut",6.2
+2015,"Congressional District 3 (114th Congress), Connecticut",6.8
+2015,"Congressional District 4 (114th Congress), Connecticut",7.7
+2015,"Congressional District 5 (114th Congress), Connecticut",7.0
+2015,"Congressional District (at Large) (114th Congress), Delaware",5.8
+2015,"Delegate District (at Large) (114th Congress), District of Columbia",7.3
+2015,"Congressional District 1 (114th Congress), Florida",7.3
+2015,"Congressional District 2 (114th Congress), Florida",8.3
+2015,"Congressional District 3 (114th Congress), Florida",8.2
+2015,"Congressional District 4 (114th Congress), Florida",5.2
+2015,"Congressional District 5 (114th Congress), Florida",10.4
+2015,"Congressional District 6 (114th Congress), Florida",6.7
+2015,"Congressional District 7 (114th Congress), Florida",6.5
+2015,"Congressional District 8 (114th Congress), Florida",6.8
+2015,"Congressional District 9 (114th Congress), Florida",6.1
+2015,"Congressional District 10 (114th Congress), Florida",5.7
+2015,"Congressional District 11 (114th Congress), Florida",9.3
+2015,"Congressional District 12 (114th Congress), Florida",6.3
+2015,"Congressional District 13 (114th Congress), Florida",5.3
+2015,"Congressional District 14 (114th Congress), Florida",8.3
+2015,"Congressional District 15 (114th Congress), Florida",6.6
+2015,"Congressional District 16 (114th Congress), Florida",6.5
+2015,"Congressional District 17 (114th Congress), Florida",7.4
+2015,"Congressional District 18 (114th Congress), Florida",5.7
+2015,"Congressional District 19 (114th Congress), Florida",6.4
+2015,"Congressional District 20 (114th Congress), Florida",11.7
+2015,"Congressional District 21 (114th Congress), Florida",6.6
+2015,"Congressional District 22 (114th Congress), Florida",6.5
+2015,"Congressional District 23 (114th Congress), Florida",5.8
+2015,"Congressional District 24 (114th Congress), Florida",9.4
+2015,"Congressional District 25 (114th Congress), Florida",5.6
+2015,"Congressional District 26 (114th Congress), Florida",5.4
+2015,"Congressional District 27 (114th Congress), Florida",6.2
+2015,"Congressional District 1 (114th Congress), Georgia",8.0
+2015,"Congressional District 2 (114th Congress), Georgia",11.3
+2015,"Congressional District 3 (114th Congress), Georgia",8.0
+2015,"Congressional District 4 (114th Congress), Georgia",8.9
+2015,"Congressional District 5 (114th Congress), Georgia",8.2
+2015,"Congressional District 6 (114th Congress), Georgia",5.2
+2015,"Congressional District 7 (114th Congress), Georgia",5.8
+2015,"Congressional District 8 (114th Congress), Georgia",7.9
+2015,"Congressional District 9 (114th Congress), Georgia",5.1
+2015,"Congressional District 10 (114th Congress), Georgia",6.3
+2015,"Congressional District 11 (114th Congress), Georgia",4.9
+2015,"Congressional District 12 (114th Congress), Georgia",7.4
+2015,"Congressional District 13 (114th Congress), Georgia",8.2
+2015,"Congressional District 14 (114th Congress), Georgia",5.4
+2015,"Congressional District 1 (114th Congress), Hawaii",4.0
+2015,"Congressional District 2 (114th Congress), Hawaii",5.9
+2015,"Congressional District 1 (114th Congress), Idaho",5.9
+2015,"Congressional District 2 (114th Congress), Idaho",4.8
+2015,"Congressional District 1 (114th Congress), Illinois",13.0
+2015,"Congressional District 2 (114th Congress), Illinois",14.5
+2015,"Congressional District 3 (114th Congress), Illinois",6.7
+2015,"Congressional District 4 (114th Congress), Illinois",7.1
+2015,"Congressional District 5 (114th Congress), Illinois",4.6
+2015,"Congressional District 6 (114th Congress), Illinois",4.4
+2015,"Congressional District 7 (114th Congress), Illinois",10.4
+2015,"Congressional District 8 (114th Congress), Illinois",5.4
+2015,"Congressional District 9 (114th Congress), Illinois",5.5
+2015,"Congressional District 10 (114th Congress), Illinois",5.6
+2015,"Congressional District 11 (114th Congress), Illinois",5.3
+2015,"Congressional District 12 (114th Congress), Illinois",8.1
+2015,"Congressional District 13 (114th Congress), Illinois",6.2
+2015,"Congressional District 14 (114th Congress), Illinois",4.2
+2015,"Congressional District 15 (114th Congress), Illinois",5.8
+2015,"Congressional District 16 (114th Congress), Illinois",7.1
+2015,"Congressional District 17 (114th Congress), Illinois",7.9
+2015,"Congressional District 18 (114th Congress), Illinois",4.8
+2015,"Congressional District 1 (114th Congress), Indiana",8.1
+2015,"Congressional District 2 (114th Congress), Indiana",5.3
+2015,"Congressional District 3 (114th Congress), Indiana",4.7
+2015,"Congressional District 4 (114th Congress), Indiana",4.9
+2015,"Congressional District 5 (114th Congress), Indiana",4.3
+2015,"Congressional District 6 (114th Congress), Indiana",5.4
+2015,"Congressional District 7 (114th Congress), Indiana",9.1
+2015,"Congressional District 8 (114th Congress), Indiana",5.1
+2015,"Congressional District 9 (114th Congress), Indiana",5.4
+2015,"Congressional District 1 (114th Congress), Iowa",3.5
+2015,"Congressional District 2 (114th Congress), Iowa",4.7
+2015,"Congressional District 3 (114th Congress), Iowa",4.7
+2015,"Congressional District 4 (114th Congress), Iowa",3.7
+2015,"Congressional District 1 (114th Congress), Kansas",4.8
+2015,"Congressional District 2 (114th Congress), Kansas",5.1
+2015,"Congressional District 3 (114th Congress), Kansas",4.2
+2015,"Congressional District 4 (114th Congress), Kansas",4.5
+2015,"Congressional District 1 (114th Congress), Kentucky",6.3
+2015,"Congressional District 2 (114th Congress), Kentucky",6.6
+2015,"Congressional District 3 (114th Congress), Kentucky",6.1
+2015,"Congressional District 4 (114th Congress), Kentucky",5.2
+2015,"Congressional District 5 (114th Congress), Kentucky",10.0
+2015,"Congressional District 6 (114th Congress), Kentucky",5.9
+2015,"Congressional District 1 (114th Congress), Louisiana",5.8
+2015,"Congressional District 2 (114th Congress), Louisiana",9.3
+2015,"Congressional District 3 (114th Congress), Louisiana",7.2
+2015,"Congressional District 4 (114th Congress), Louisiana",7.4
+2015,"Congressional District 5 (114th Congress), Louisiana",8.2
+2015,"Congressional District 6 (114th Congress), Louisiana",5.0
+2015,"Congressional District 1 (114th Congress), Maine",4.4
+2015,"Congressional District 2 (114th Congress), Maine",6.4
+2015,"Congressional District 1 (114th Congress), Maryland",5.2
+2015,"Congressional District 2 (114th Congress), Maryland",5.7
+2015,"Congressional District 3 (114th Congress), Maryland",5.4
+2015,"Congressional District 4 (114th Congress), Maryland",5.6
+2015,"Congressional District 5 (114th Congress), Maryland",4.7
+2015,"Congressional District 6 (114th Congress), Maryland",4.5
+2015,"Congressional District 7 (114th Congress), Maryland",8.4
+2015,"Congressional District 8 (114th Congress), Maryland",4.6
+2015,"Congressional District 1 (114th Congress), Massachusetts",6.9
+2015,"Congressional District 2 (114th Congress), Massachusetts",6.5
+2015,"Congressional District 3 (114th Congress), Massachusetts",5.9
+2015,"Congressional District 4 (114th Congress), Massachusetts",5.3
+2015,"Congressional District 5 (114th Congress), Massachusetts",3.9
+2015,"Congressional District 6 (114th Congress), Massachusetts",5.1
+2015,"Congressional District 7 (114th Congress), Massachusetts",6.7
+2015,"Congressional District 8 (114th Congress), Massachusetts",5.7
+2015,"Congressional District 9 (114th Congress), Massachusetts",6.5
+2015,"Congressional District 1 (114th Congress), Michigan",6.7
+2015,"Congressional District 2 (114th Congress), Michigan",5.4
+2015,"Congressional District 3 (114th Congress), Michigan",6.2
+2015,"Congressional District 4 (114th Congress), Michigan",6.6
+2015,"Congressional District 5 (114th Congress), Michigan",9.5
+2015,"Congressional District 6 (114th Congress), Michigan",6.6
+2015,"Congressional District 7 (114th Congress), Michigan",5.4
+2015,"Congressional District 8 (114th Congress), Michigan",5.9
+2015,"Congressional District 9 (114th Congress), Michigan",6.7
+2015,"Congressional District 10 (114th Congress), Michigan",6.0
+2015,"Congressional District 11 (114th Congress), Michigan",4.2
+2015,"Congressional District 12 (114th Congress), Michigan",6.5
+2015,"Congressional District 13 (114th Congress), Michigan",14.6
+2015,"Congressional District 14 (114th Congress), Michigan",12.8
+2015,"Congressional District 1 (114th Congress), Minnesota",3.9
+2015,"Congressional District 2 (114th Congress), Minnesota",3.7
+2015,"Congressional District 3 (114th Congress), Minnesota",3.7
+2015,"Congressional District 4 (114th Congress), Minnesota",5.1
+2015,"Congressional District 5 (114th Congress), Minnesota",5.0
+2015,"Congressional District 6 (114th Congress), Minnesota",3.9
+2015,"Congressional District 7 (114th Congress), Minnesota",3.3
+2015,"Congressional District 8 (114th Congress), Minnesota",4.6
+2015,"Congressional District 1 (114th Congress), Mississippi",7.7
+2015,"Congressional District 2 (114th Congress), Mississippi",11.8
+2015,"Congressional District 3 (114th Congress), Mississippi",7.0
+2015,"Congressional District 4 (114th Congress), Mississippi",9.4
+2015,"Congressional District 1 (114th Congress), Missouri",8.7
+2015,"Congressional District 2 (114th Congress), Missouri",3.4
+2015,"Congressional District 3 (114th Congress), Missouri",4.3
+2015,"Congressional District 4 (114th Congress), Missouri",5.7
+2015,"Congressional District 5 (114th Congress), Missouri",5.0
+2015,"Congressional District 6 (114th Congress), Missouri",4.7
+2015,"Congressional District 7 (114th Congress), Missouri",4.8
+2015,"Congressional District 8 (114th Congress), Missouri",6.5
+2015,"Congressional District (at Large) (114th Congress), Montana",4.5
+2015,"Congressional District 1 (114th Congress), Nebraska",3.2
+2015,"Congressional District 2 (114th Congress), Nebraska",3.5
+2015,"Congressional District 3 (114th Congress), Nebraska",2.9
+2015,"Congressional District 1 (114th Congress), Nevada",10.4
+2015,"Congressional District 2 (114th Congress), Nevada",6.5
+2015,"Congressional District 3 (114th Congress), Nevada",6.4
+2015,"Congressional District 4 (114th Congress), Nevada",8.7
+2015,"Congressional District 1 (114th Congress), New Hampshire",4.5
+2015,"Congressional District 2 (114th Congress), New Hampshire",3.9
+2015,"Congressional District 1 (114th Congress), New Jersey",7.8
+2015,"Congressional District 2 (114th Congress), New Jersey",8.2
+2015,"Congressional District 3 (114th Congress), New Jersey",7.3
+2015,"Congressional District 4 (114th Congress), New Jersey",5.0
+2015,"Congressional District 5 (114th Congress), New Jersey",4.7
+2015,"Congressional District 6 (114th Congress), New Jersey",5.9
+2015,"Congressional District 7 (114th Congress), New Jersey",5.1
+2015,"Congressional District 8 (114th Congress), New Jersey",7.8
+2015,"Congressional District 9 (114th Congress), New Jersey",4.7
+2015,"Congressional District 10 (114th Congress), New Jersey",11.6
+2015,"Congressional District 11 (114th Congress), New Jersey",4.4
+2015,"Congressional District 12 (114th Congress), New Jersey",6.8
+2015,"Congressional District 1 (114th Congress), New Mexico",6.4
+2015,"Congressional District 2 (114th Congress), New Mexico",7.9
+2015,"Congressional District 3 (114th Congress), New Mexico",8.0
+2015,"Congressional District 1 (114th Congress), New York",4.7
+2015,"Congressional District 2 (114th Congress), New York",5.5
+2015,"Congressional District 3 (114th Congress), New York",4.4
+2015,"Congressional District 4 (114th Congress), New York",4.8
+2015,"Congressional District 5 (114th Congress), New York",9.2
+2015,"Congressional District 6 (114th Congress), New York",6.0
+2015,"Congressional District 7 (114th Congress), New York",6.5
+2015,"Congressional District 8 (114th Congress), New York",9.2
+2015,"Congressional District 9 (114th Congress), New York",7.3
+2015,"Congressional District 10 (114th Congress), New York",5.3
+2015,"Congressional District 11 (114th Congress), New York",6.0
+2015,"Congressional District 12 (114th Congress), New York",4.2
+2015,"Congressional District 13 (114th Congress), New York",10.6
+2015,"Congressional District 14 (114th Congress), New York",6.6
+2015,"Congressional District 15 (114th Congress), New York",11.3
+2015,"Congressional District 16 (114th Congress), New York",7.5
+2015,"Congressional District 17 (114th Congress), New York",6.1
+2015,"Congressional District 18 (114th Congress), New York",5.9
+2015,"Congressional District 19 (114th Congress), New York",6.1
+2015,"Congressional District 20 (114th Congress), New York",5.5
+2015,"Congressional District 21 (114th Congress), New York",6.2
+2015,"Congressional District 22 (114th Congress), New York",6.5
+2015,"Congressional District 23 (114th Congress), New York",6.1
+2015,"Congressional District 24 (114th Congress), New York",6.6
+2015,"Congressional District 25 (114th Congress), New York",6.7
+2015,"Congressional District 26 (114th Congress), New York",5.6
+2015,"Congressional District 27 (114th Congress), New York",4.4
+2015,"Congressional District 1 (114th Congress), North Carolina",9.1
+2015,"Congressional District 2 (114th Congress), North Carolina",7.0
+2015,"Congressional District 3 (114th Congress), North Carolina",9.2
+2015,"Congressional District 4 (114th Congress), North Carolina",6.0
+2015,"Congressional District 5 (114th Congress), North Carolina",7.0
+2015,"Congressional District 6 (114th Congress), North Carolina",5.7
+2015,"Congressional District 7 (114th Congress), North Carolina",6.3
+2015,"Congressional District 8 (114th Congress), North Carolina",7.6
+2015,"Congressional District 9 (114th Congress), North Carolina",5.0
+2015,"Congressional District 10 (114th Congress), North Carolina",7.6
+2015,"Congressional District 11 (114th Congress), North Carolina",5.6
+2015,"Congressional District 12 (114th Congress), North Carolina",9.1
+2015,"Congressional District 13 (114th Congress), North Carolina",5.1
+2015,"Congressional District (at Large) (114th Congress), North Dakota",2.6
+2015,"Congressional District 1 (114th Congress), Ohio",6.9
+2015,"Congressional District 2 (114th Congress), Ohio",5.3
+2015,"Congressional District 3 (114th Congress), Ohio",7.7
+2015,"Congressional District 4 (114th Congress), Ohio",6.0
+2015,"Congressional District 5 (114th Congress), Ohio",4.7
+2015,"Congressional District 6 (114th Congress), Ohio",6.7
+2015,"Congressional District 7 (114th Congress), Ohio",5.4
+2015,"Congressional District 8 (114th Congress), Ohio",5.7
+2015,"Congressional District 9 (114th Congress), Ohio",8.9
+2015,"Congressional District 10 (114th Congress), Ohio",7.3
+2015,"Congressional District 11 (114th Congress), Ohio",12.4
+2015,"Congressional District 12 (114th Congress), Ohio",4.8
+2015,"Congressional District 13 (114th Congress), Ohio",7.3
+2015,"Congressional District 14 (114th Congress), Ohio",4.5
+2015,"Congressional District 15 (114th Congress), Ohio",5.2
+2015,"Congressional District 16 (114th Congress), Ohio",4.2
+2015,"Congressional District 1 (114th Congress), Oklahoma",5.6
+2015,"Congressional District 2 (114th Congress), Oklahoma",6.6
+2015,"Congressional District 3 (114th Congress), Oklahoma",5.2
+2015,"Congressional District 4 (114th Congress), Oklahoma",5.3
+2015,"Congressional District 5 (114th Congress), Oklahoma",4.8
+2015,"Congressional District 1 (114th Congress), Oregon",5.8
+2015,"Congressional District 2 (114th Congress), Oregon",7.6
+2015,"Congressional District 3 (114th Congress), Oregon",6.6
+2015,"Congressional District 4 (114th Congress), Oregon",8.1
+2015,"Congressional District 5 (114th Congress), Oregon",6.3
+2015,"Congressional District 1 (114th Congress), Pennsylvania",10.3
+2015,"Congressional District 2 (114th Congress), Pennsylvania",10.3
+2015,"Congressional District 3 (114th Congress), Pennsylvania",5.9
+2015,"Congressional District 4 (114th Congress), Pennsylvania",5.1
+2015,"Congressional District 5 (114th Congress), Pennsylvania",6.1
+2015,"Congressional District 6 (114th Congress), Pennsylvania",4.5
+2015,"Congressional District 7 (114th Congress), Pennsylvania",4.7
+2015,"Congressional District 8 (114th Congress), Pennsylvania",5.2
+2015,"Congressional District 9 (114th Congress), Pennsylvania",6.6
+2015,"Congressional District 10 (114th Congress), Pennsylvania",5.2
+2015,"Congressional District 11 (114th Congress), Pennsylvania",5.3
+2015,"Congressional District 12 (114th Congress), Pennsylvania",5.3
+2015,"Congressional District 13 (114th Congress), Pennsylvania",7.7
+2015,"Congressional District 14 (114th Congress), Pennsylvania",6.7
+2015,"Congressional District 15 (114th Congress), Pennsylvania",5.2
+2015,"Congressional District 16 (114th Congress), Pennsylvania",6.6
+2015,"Congressional District 17 (114th Congress), Pennsylvania",7.6
+2015,"Congressional District 18 (114th Congress), Pennsylvania",5.0
+2015,"Congressional District 1 (114th Congress), Rhode Island",5.7
+2015,"Congressional District 2 (114th Congress), Rhode Island",6.7
+2015,"Congressional District 1 (114th Congress), South Carolina",4.8
+2015,"Congressional District 2 (114th Congress), South Carolina",7.2
+2015,"Congressional District 3 (114th Congress), South Carolina",7.0
+2015,"Congressional District 4 (114th Congress), South Carolina",6.3
+2015,"Congressional District 5 (114th Congress), South Carolina",7.6
+2015,"Congressional District 6 (114th Congress), South Carolina",10.2
+2015,"Congressional District 7 (114th Congress), South Carolina",8.7
+2015,"Congressional District (at Large) (114th Congress), South Dakota",4.0
+2015,"Congressional District 1 (114th Congress), Tennessee",6.3
+2015,"Congressional District 2 (114th Congress), Tennessee",5.5
+2015,"Congressional District 3 (114th Congress), Tennessee",7.2
+2015,"Congressional District 4 (114th Congress), Tennessee",6.0
+2015,"Congressional District 5 (114th Congress), Tennessee",5.0
+2015,"Congressional District 6 (114th Congress), Tennessee",5.2
+2015,"Congressional District 7 (114th Congress), Tennessee",6.3
+2015,"Congressional District 8 (114th Congress), Tennessee",4.9
+2015,"Congressional District 9 (114th Congress), Tennessee",9.9
+2015,"Congressional District 1 (114th Congress), Texas",6.6
+2015,"Congressional District 2 (114th Congress), Texas",4.4
+2015,"Congressional District 3 (114th Congress), Texas",3.7
+2015,"Congressional District 4 (114th Congress), Texas",6.4
+2015,"Congressional District 5 (114th Congress), Texas",5.8
+2015,"Congressional District 6 (114th Congress), Texas",4.8
+2015,"Congressional District 7 (114th Congress), Texas",4.7
+2015,"Congressional District 8 (114th Congress), Texas",5.2
+2015,"Congressional District 9 (114th Congress), Texas",6.7
+2015,"Congressional District 10 (114th Congress), Texas",4.4
+2015,"Congressional District 11 (114th Congress), Texas",4.2
+2015,"Congressional District 12 (114th Congress), Texas",6.3
+2015,"Congressional District 13 (114th Congress), Texas",4.6
+2015,"Congressional District 14 (114th Congress), Texas",6.9
+2015,"Congressional District 15 (114th Congress), Texas",7.7
+2015,"Congressional District 16 (114th Congress), Texas",6.3
+2015,"Congressional District 17 (114th Congress), Texas",4.5
+2015,"Congressional District 18 (114th Congress), Texas",7.0
+2015,"Congressional District 19 (114th Congress), Texas",4.5
+2015,"Congressional District 20 (114th Congress), Texas",6.2
+2015,"Congressional District 21 (114th Congress), Texas",4.4
+2015,"Congressional District 22 (114th Congress), Texas",3.7
+2015,"Congressional District 23 (114th Congress), Texas",7.1
+2015,"Congressional District 24 (114th Congress), Texas",3.4
+2015,"Congressional District 25 (114th Congress), Texas",4.5
+2015,"Congressional District 26 (114th Congress), Texas",4.5
+2015,"Congressional District 27 (114th Congress), Texas",6.5
+2015,"Congressional District 28 (114th Congress), Texas",8.3
+2015,"Congressional District 29 (114th Congress), Texas",5.9
+2015,"Congressional District 30 (114th Congress), Texas",6.4
+2015,"Congressional District 31 (114th Congress), Texas",5.9
+2015,"Congressional District 32 (114th Congress), Texas",4.2
+2015,"Congressional District 33 (114th Congress), Texas",6.2
+2015,"Congressional District 34 (114th Congress), Texas",8.3
+2015,"Congressional District 35 (114th Congress), Texas",5.4
+2015,"Congressional District 36 (114th Congress), Texas",7.5
+2015,"Congressional District 1 (114th Congress), Utah",4.5
+2015,"Congressional District 2 (114th Congress), Utah",4.0
+2015,"Congressional District 3 (114th Congress), Utah",3.8
+2015,"Congressional District 4 (114th Congress), Utah",3.5
+2015,"Congressional District (at Large) (114th Congress), Vermont",3.8
+2015,"Congressional District 1 (114th Congress), Virginia",4.7
+2015,"Congressional District 2 (114th Congress), Virginia",5.8
+2015,"Congressional District 3 (114th Congress), Virginia",9.1
+2015,"Congressional District 4 (114th Congress), Virginia",6.1
+2015,"Congressional District 5 (114th Congress), Virginia",5.5
+2015,"Congressional District 6 (114th Congress), Virginia",5.3
+2015,"Congressional District 7 (114th Congress), Virginia",5.0
+2015,"Congressional District 8 (114th Congress), Virginia",4.6
+2015,"Congressional District 9 (114th Congress), Virginia",6.4
+2015,"Congressional District 10 (114th Congress), Virginia",3.5
+2015,"Congressional District 11 (114th Congress), Virginia",5.0
+2015,"Congressional District 1 (114th Congress), Washington",4.3
+2015,"Congressional District 2 (114th Congress), Washington",6.0
+2015,"Congressional District 3 (114th Congress), Washington",5.9
+2015,"Congressional District 4 (114th Congress), Washington",6.3
+2015,"Congressional District 5 (114th Congress), Washington",7.5
+2015,"Congressional District 6 (114th Congress), Washington",7.3
+2015,"Congressional District 7 (114th Congress), Washington",4.8
+2015,"Congressional District 8 (114th Congress), Washington",5.2
+2015,"Congressional District 9 (114th Congress), Washington",5.8
+2015,"Congressional District 10 (114th Congress), Washington",7.5
+2015,"Congressional District 1 (114th Congress), West Virginia",6.4
+2015,"Congressional District 2 (114th Congress), West Virginia",6.9
+2015,"Congressional District 3 (114th Congress), West Virginia",8.9
+2015,"Congressional District 1 (114th Congress), Wisconsin",4.8
+2015,"Congressional District 2 (114th Congress), Wisconsin",4.3
+2015,"Congressional District 3 (114th Congress), Wisconsin",3.8
+2015,"Congressional District 4 (114th Congress), Wisconsin",7.6
+2015,"Congressional District 5 (114th Congress), Wisconsin",3.0
+2015,"Congressional District 6 (114th Congress), Wisconsin",3.8
+2015,"Congressional District 7 (114th Congress), Wisconsin",3.5
+2015,"Congressional District 8 (114th Congress), Wisconsin",3.4
+2015,"Congressional District (at Large) (114th Congress), Wyoming",4.8
+2015,"Resident Commissioner District (at Large) (114th Congress), Puerto Rico",18.9

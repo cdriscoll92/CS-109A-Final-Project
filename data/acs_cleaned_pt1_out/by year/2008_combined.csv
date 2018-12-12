@@ -1,0 +1,438 @@
+year,district,black_pop,total_pop,white_pop,mortgage_cost,median_age,bach_deg_num,median_HH_income,high_school_num,unemp_rate
+2008,"Congressional District 1 (110th Congress), Alabama",181824,672708,461248,736,37.3,65397.0,22473.0,149143.0,7.2
+2008,"Congressional District 2 (110th Congress), Alabama",202187,651681,428880,638,37.0,52767.0,21318.0,142511.0,6.6
+2008,"Congressional District 3 (110th Congress), Alabama",218573,665665,430171,654,36.9,49883.0,20190.0,135228.0,8.0
+2008,"Congressional District 4 (110th Congress), Alabama",30093,650786,596758,556,38.7,36796.0,20120.0,149766.0,6.4
+2008,"Congressional District 5 (110th Congress), Alabama",124371,689993,531875,678,38.4,86221.0,24552.0,135224.0,6.8
+2008,"Congressional District 6 (110th Congress), Alabama",90697,739397,624447,946,37.9,106058.0,31082.0,134805.0,4.6
+2008,"Congressional District 7 (110th Congress), Alabama",372898,591670,203172,661,35.4,42465.0,18289.0,127411.0,10.0
+2008,"Congressional District (at Large) (110th Congress), Alaska",24883,686293,474317,1166,33.0,74728.0,30271.0,112556.0,7.7
+2008,"Congressional District 1 (110th Congress), Arizona",15555,767469,524455,747,35.9,57798.0,21428.0,140821.0,7.1
+2008,"Congressional District 2 (110th Congress), Arizona",33058,991439,825461,1119,38.1,92666.0,27718.0,186673.0,6.2
+2008,"Congressional District 3 (110th Congress), Arizona",28312,734739,615789,1211,36.7,98853.0,30822.0,113511.0,5.1
+2008,"Congressional District 4 (110th Congress), Arizona",53502,753506,573413,966,28.4,33056.0,21836.0,115730.0,6.7
+2008,"Congressional District 5 (110th Congress), Arizona",21910,689554,591093,1170,36.8,125388.0,32384.0,77345.0,4.5
+2008,"Congressional District 6 (110th Congress), Arizona",25761,957920,813968,1193,35.1,106722.0,29921.0,157946.0,5.3
+2008,"Congressional District 7 (110th Congress), Arizona",30100,840106,599306,820,31.6,48764.0,20915.0,140414.0,9.2
+2008,"Congressional District 8 (110th Congress), Arizona",27560,765447,660502,906,41.0,103757.0,26804.0,115671.0,5.1
+2008,"Congressional District 1 (110th Congress), Arkansas",114123,676900,546764,568,38.5,41013.0,18822.0,173853.0,7.7
+2008,"Congressional District 2 (110th Congress), Arkansas",148501,725377,538506,737,36.7,74950.0,23395.0,155007.0,6.0
+2008,"Congressional District 3 (110th Congress), Arkansas",19582,790522,693070,668,35.1,70148.0,21384.0,167818.0,4.7
+2008,"Congressional District 4 (110th Congress), Arkansas",160430,662591,469283,553,39.0,48244.0,18806.0,166430.0,8.7
+2008,"Congressional District 1 (110th Congress), California",13474,685423,541322,1134,36.0,79278.0,24170.0,107326.0,7.7
+2008,"Congressional District 2 (110th Congress), California",7820,710375,571074,936,35.5,65583.0,20732.0,103098.0,10.7
+2008,"Congressional District 3 (110th Congress), California",47494,784306,564117,1478,37.3,101245.0,31186.0,114930.0,7.4
+2008,"Congressional District 4 (110th Congress), California",12217,755610,645039,1335,39.8,105531.0,30548.0,126259.0,7.2
+2008,"Congressional District 5 (110th Congress), California",94166,678719,361070,1094,32.9,75419.0,25036.0,97161.0,10.4
+2008,"Congressional District 6 (110th Congress), California",14993,649613,531774,1640,41.0,114016.0,34113.0,74506.0,5.5
+2008,"Congressional District 7 (110th Congress), California",93664,657472,348105,1510,36.4,79752.0,31123.0,96216.0,7.7
+2008,"Congressional District 8 (110th Congress), California",44705,664963,363967,1499,40.1,158842.0,36289.0,73338.0,6.1
+2008,"Congressional District 9 (110th Congress), California",126853,623814,301173,1325,36.7,94540.0,30326.0,71198.0,6.8
+2008,"Congressional District 10 (110th Congress), California",56114,696175,465529,1827,38.0,115744.0,39360.0,82243.0,6.3
+2008,"Congressional District 11 (110th Congress), California",38527,802588,547764,1816,34.8,100216.0,32247.0,108186.0,8.6
+2008,"Congressional District 12 (110th Congress), California",17792,662783,371681,1817,41.2,129141.0,38264.0,82426.0,5.2
+2008,"Congressional District 13 (110th Congress), California",52460,647397,259193,1610,38.0,96546.0,34487.0,106145.0,6.7
+2008,"Congressional District 14 (110th Congress), California",18116,653246,420056,1843,38.9,130204.0,42791.0,54413.0,4.6
+2008,"Congressional District 15 (110th Congress), California",12817,671729,332137,1826,37.6,118752.0,40276.0,74678.0,6.3
+2008,"Congressional District 16 (110th Congress), California",22315,655743,337124,1793,34.8,80678.0,30897.0,84910.0,6.6
+2008,"Congressional District 17 (110th Congress), California",16080,642682,501493,1393,33.3,65503.0,24877.0,76651.0,8.7
+2008,"Congressional District 18 (110th Congress), California",45951,686109,445543,998,30.1,29534.0,19335.0,106083.0,12.7
+2008,"Congressional District 19 (110th Congress), California",31614,767694,592560,1130,33.7,60884.0,23620.0,123376.0,9.2
+2008,"Congressional District 20 (110th Congress), California",45961,702874,406212,815,28.3,20416.0,16646.0,91991.0,11.9
+2008,"Congressional District 21 (110th Congress), California",18625,766227,556205,989,30.1,55651.0,21567.0,103341.0,8.6
+2008,"Congressional District 22 (110th Congress), California",44187,768635,571192,1149,33.0,68230.0,24893.0,121536.0,7.8
+2008,"Congressional District 23 (110th Congress), California",11430,669291,448802,1445,32.4,71079.0,24069.0,71203.0,6.3
+2008,"Congressional District 24 (110th Congress), California",8497,666524,500336,1805,38.3,95268.0,35479.0,85014.0,5.4
+2008,"Congressional District 25 (110th Congress), California",75199,819973,550286,1575,32.4,74326.0,28745.0,125048.0,8.6
+2008,"Congressional District 26 (110th Congress), California",28611,688705,415125,1656,37.7,89841.0,33522.0,91186.0,6.6
+2008,"Congressional District 27 (110th Congress), California",31078,683277,375247,1495,35.9,84458.0,26830.0,102463.0,6.1
+2008,"Congressional District 28 (110th Congress), California",23977,635023,346087,1321,33.0,75170.0,24140.0,74236.0,6.9
+2008,"Congressional District 29 (110th Congress), California",34680,655941,388891,1399,39.4,107687.0,26664.0,85823.0,6.5
+2008,"Congressional District 30 (110th Congress), California",21694,668045,529276,1864,41.0,154196.0,41820.0,63225.0,5.1
+2008,"Congressional District 31 (110th Congress), California",29258,630150,270013,942,33.4,54022.0,16811.0,84468.0,8.1
+2008,"Congressional District 32 (110th Congress), California",15539,651858,269730,1259,34.2,45935.0,21491.0,91967.0,7.6
+2008,"Congressional District 33 (110th Congress), California",177748,651169,210471,1159,34.3,92380.0,22942.0,77050.0,8.3
+2008,"Congressional District 34 (110th Congress), California",28213,662692,322291,989,29.9,31529.0,18170.0,87762.0,6.2
+2008,"Congressional District 35 (110th Congress), California",190697,664849,267212,1126,30.7,40783.0,21175.0,90920.0,8.6
+2008,"Congressional District 36 (110th Congress), California",31709,662427,418167,1486,38.2,123425.0,34826.0,82060.0,5.9
+2008,"Congressional District 37 (110th Congress), California",152256,674130,247761,1188,29.3,51539.0,21211.0,83086.0,8.9
+2008,"Congressional District 38 (110th Congress), California",19139,629942,383698,1255,32.7,40005.0,22979.0,102664.0,7.9
+2008,"Congressional District 39 (110th Congress), California",33929,635955,306844,1276,32.7,45974.0,23721.0,94415.0,6.3
+2008,"Congressional District 40 (110th Congress), California",19699,670944,391377,1531,36.7,93930.0,30383.0,88784.0,6.3
+2008,"Congressional District 41 (110th Congress), California",45233,760575,559501,1165,33.4,59994.0,24684.0,132432.0,11.2
+2008,"Congressional District 42 (110th Congress), California",17776,680405,441009,2057,37.6,116326.0,37183.0,82414.0,4.7
+2008,"Congressional District 43 (110th Congress), California",82951,731136,365379,1261,28.2,36460.0,21597.0,111434.0,10.5
+2008,"Congressional District 44 (110th Congress), California",48007,831454,549676,1740,31.0,83698.0,28380.0,116848.0,8.9
+2008,"Congressional District 45 (110th Congress), California",53915,860052,571368,1388,33.3,78262.0,24873.0,137842.0,9.2
+2008,"Congressional District 46 (110th Congress), California",8457,632809,458143,1605,41.0,116177.0,36908.0,75572.0,5.0
+2008,"Congressional District 47 (110th Congress), California",9451,657705,294076,1361,29.8,35506.0,20836.0,83735.0,8.9
+2008,"Congressional District 48 (110th Congress), California",8833,721557,494572,2000,38.1,149273.0,41164.0,61299.0,5.1
+2008,"Congressional District 49 (110th Congress), California",34975,785949,528782,1541,31.6,71787.0,26443.0,113921.0,9.8
+2008,"Congressional District 50 (110th Congress), California",15457,747880,569419,1854,36.9,136127.0,35943.0,74998.0,5.3
+2008,"Congressional District 51 (110th Congress), California",59870,706342,461328,1265,32.3,56650.0,22769.0,88607.0,8.7
+2008,"Congressional District 52 (110th Congress), California",26040,663810,531031,1597,36.2,83480.0,31914.0,93513.0,7.2
+2008,"Congressional District 53 (110th Congress), California",40338,621920,461760,1251,32.2,91124.0,27224.0,69309.0,7.3
+2008,"Congressional District 1 (110th Congress), Colorado",61401,664177,516446,968,35.3,101384.0,27354.0,95734.0,5.1
+2008,"Congressional District 2 (110th Congress), Colorado",6904,718514,622932,1336,34.5,125932.0,33350.0,96122.0,3.9
+2008,"Congressional District 3 (110th Congress), Colorado",7181,699759,616071,852,37.8,77275.0,24314.0,133229.0,5.0
+2008,"Congressional District 4 (110th Congress), Colorado",7482,714265,644475,980,34.1,98512.0,25672.0,106049.0,4.8
+2008,"Congressional District 5 (110th Congress), Colorado",38575,694515,575770,1082,35.7,93343.0,27700.0,108397.0,5.9
+2008,"Congressional District 6 (110th Congress), Colorado",21392,794480,704081,1612,37.8,167672.0,40470.0,93040.0,4.5
+2008,"Congressional District 7 (110th Congress), Colorado",44621,653746,505893,1082,35.6,84376.0,27449.0,114362.0,5.4
+2008,"Congressional District 1 (110th Congress), Connecticut",94621,700635,506775,1186,40.0,93130.0,31557.0,136738.0,6.5
+2008,"Congressional District 2 (110th Congress), Connecticut",27522,715709,632723,1328,39.3,93147.0,33030.0,147524.0,5.4
+2008,"Congressional District 3 (110th Congress), Connecticut",92181,690290,533440,1283,37.9,84792.0,31348.0,140691.0,6.7
+2008,"Congressional District 4 (110th Congress), Connecticut",79800,685254,533159,1888,39.5,118021.0,37420.0,99716.0,7.3
+2008,"Congressional District 5 (110th Congress), Connecticut",37025,709364,599647,1334,39.8,92886.0,32475.0,137081.0,6.2
+2008,"Congressional District (at Large) (110th Congress), Delaware",179664,873092,634981,1079,38.3,96864.0,29062.0,182263.0,6.6
+2008,"Delegate District (at Large) (110th Congress), District of Columbia",316278,591833,221911,1222,34.9,87093.0,35087.0,80069.0,7.8
+2008,"Congressional District 1 (110th Congress), Florida",100904,697561,546015,868,38.6,68002.0,23504.0,140495.0,7.6
+2008,"Congressional District 2 (110th Congress), Florida",158303,712155,515684,834,36.5,72390.0,23909.0,141171.0,6.8
+2008,"Congressional District 3 (110th Congress), Florida",334844,642194,252823,822,34.4,37137.0,20222.0,148187.0,10.8
+2008,"Congressional District 4 (110th Congress), Florida",103369,720593,564365,1033,38.2,84881.0,29941.0,144591.0,6.2
+2008,"Congressional District 5 (110th Congress), Florida",55949,920242,811919,799,43.3,79819.0,22341.0,236793.0,9.7
+2008,"Congressional District 6 (110th Congress), Florida",115012,807026,636498,928,37.8,76483.0,25152.0,170384.0,6.8
+2008,"Congressional District 7 (110th Congress), Florida",73031,791861,666262,1058,40.9,100517.0,26365.0,154668.0,6.7
+2008,"Congressional District 8 (110th Congress), Florida",77502,785414,604487,1106,36.7,104446.0,26137.0,154003.0,7.1
+2008,"Congressional District 9 (110th Congress), Florida",40726,751120,663765,1050,42.0,100519.0,26831.0,150079.0,6.3
+2008,"Congressional District 10 (110th Congress), Florida",34339,620733,548072,953,46.9,81765.0,27055.0,147184.0,6.3
+2008,"Congressional District 11 (110th Congress), Florida",186980,673992,441617,946,35.3,72000.0,23291.0,132082.0,8.2
+2008,"Congressional District 12 (110th Congress), Florida",116929,782178,611466,917,37.6,72273.0,24400.0,179924.0,7.1
+2008,"Congressional District 13 (110th Congress), Florida",40841,735802,660103,984,47.3,91823.0,26134.0,175914.0,8.6
+2008,"Congressional District 14 (110th Congress), Florida",51937,830717,725933,1141,45.5,115940.0,28178.0,189118.0,8.1
+2008,"Congressional District 15 (110th Congress), Florida",71184,790487,653206,1049,41.1,90783.0,24666.0,171002.0,7.6
+2008,"Congressional District 16 (110th Congress), Florida",60034,770915,656629,1020,43.5,80189.0,23665.0,179298.0,9.3
+2008,"Congressional District 17 (110th Congress), Florida",379875,654706,231640,1057,35.6,47897.0,20070.0,127933.0,9.6
+2008,"Congressional District 18 (110th Congress), Florida",43086,635294,560040,1163,42.6,95969.0,20856.0,108547.0,5.9
+2008,"Congressional District 19 (110th Congress), Florida",86123,733322,589504,1174,45.9,104880.0,26726.0,157366.0,7.4
+2008,"Congressional District 20 (110th Congress), Florida",70523,672717,539724,1378,41.7,107552.0,31042.0,121246.0,5.9
+2008,"Congressional District 21 (110th Congress), Florida",51753,670760,570408,1298,40.9,86418.0,21492.0,121815.0,6.4
+2008,"Congressional District 22 (110th Congress), Florida",44520,678528,595106,1432,45.3,125033.0,31777.0,123290.0,5.9
+2008,"Congressional District 23 (110th Congress), Florida",368479,664303,249141,1100,34.6,51255.0,21356.0,133014.0,10.8
+2008,"Congressional District 24 (110th Congress), Florida",64052,773638,643237,1124,39.7,98228.0,26824.0,153026.0,6.1
+2008,"Congressional District 25 (110th Congress), Florida",85074,812082,677858,1447,35.8,88267.0,24341.0,141865.0,6.7
+2008,"Congressional District 1 (110th Congress), Georgia",169274,684659,479089,717,34.3,51531.0,22729.0,147377.0,5.9
+2008,"Congressional District 2 (110th Congress), Georgia",303608,632731,302790,616,34.6,39168.0,20647.0,140199.0,8.7
+2008,"Congressional District 3 (110th Congress), Georgia",191516,795402,570628,1006,35.8,82063.0,27178.0,162722.0,6.9
+2008,"Congressional District 4 (110th Congress), Georgia",376651,687734,207371,1075,34.7,86154.0,26753.0,113174.0,9.9
+2008,"Congressional District 5 (110th Congress), Georgia",345231,676513,278529,1063,35.8,121998.0,28665.0,96282.0,8.0
+2008,"Congressional District 6 (110th Congress), Georgia",82003,834530,662460,1448,36.7,187001.0,39079.0,90969.0,4.3
+2008,"Congressional District 7 (110th Congress), Georgia",192242,901363,568152,1277,34.6,131817.0,30818.0,139222.0,7.7
+2008,"Congressional District 8 (110th Congress), Georgia",238572,710179,439780,744,35.4,54867.0,22354.0,154234.0,6.6
+2008,"Congressional District 9 (110th Congress), Georgia",28677,803245,712207,852,35.5,69872.0,25218.0,160659.0,5.9
+2008,"Congressional District 10 (110th Congress), Georgia",131227,712068,548435,759,35.0,64105.0,22400.0,144463.0,6.0
+2008,"Congressional District 11 (110th Congress), Georgia",119071,780150,604307,961,34.8,84450.0,26672.0,156979.0,6.9
+2008,"Congressional District 12 (110th Congress), Georgia",301098,681527,352849,681,33.2,41109.0,19927.0,156303.0,7.3
+2008,"Congressional District 13 (110th Congress), Georgia",424865,785643,272220,1074,33.3,85899.0,29540.0,154517.0,7.8
+2008,"Congressional District 1 (110th Congress), Hawaii",21401,640537,128939,1453,39.7,92375.0,30631.0,121353.0,3.2
+2008,"Congressional District 2 (110th Congress), Hawaii",9265,647661,219807,1450,36.8,75306.0,29046.0,129472.0,4.9
+2008,"Congressional District 1 (110th Congress), Idaho",5249,811711,753873,881,35.8,85906.0,23634.0,151365.0,6.1
+2008,"Congressional District 2 (110th Congress), Idaho",2709,712105,658764,766,32.6,73227.0,22688.0,114735.0,4.8
+2008,"Congressional District 1 (110th Congress), Illinois",386176,620843,193271,981,34.9,49784.0,22055.0,110797.0,13.9
+2008,"Congressional District 2 (110th Congress), Illinois",432076,630933,167275,1064,36.1,57236.0,25966.0,111994.0,10.9
+2008,"Congressional District 3 (110th Congress), Illinois",42544,684703,492801,1131,36.4,66252.0,28805.0,131510.0,6.7
+2008,"Congressional District 4 (110th Congress), Illinois",35657,618313,343393,989,30.5,49478.0,22027.0,91448.0,7.6
+2008,"Congressional District 5 (110th Congress), Illinois",22491,652585,464917,1186,35.7,106957.0,31751.0,98234.0,6.1
+2008,"Congressional District 6 (110th Congress), Illinois",23536,664005,518978,1426,37.8,107573.0,33297.0,107942.0,6.3
+2008,"Congressional District 7 (110th Congress), Illinois",336465,629923,222070,1229,34.9,84961.0,27542.0,90765.0,11.0
+2008,"Congressional District 8 (110th Congress), Illinois",31092,731338,591564,1518,36.1,110836.0,35032.0,114347.0,6.3
+2008,"Congressional District 9 (110th Congress), Illinois",68231,632803,427497,1142,38.9,110048.0,30611.0,91544.0,5.0
+2008,"Congressional District 10 (110th Congress), Illinois",27821,661538,518441,1652,40.2,125613.0,36029.0,76211.0,4.7
+2008,"Congressional District 11 (110th Congress), Illinois",66759,758739,645125,1063,33.7,70802.0,26905.0,159766.0,8.1
+2008,"Congressional District 12 (110th Congress), Illinois",104616,650303,522046,717,36.3,54364.0,23606.0,133136.0,7.1
+2008,"Congressional District 13 (110th Congress), Illinois",47667,781423,620977,1620,36.6,142103.0,37432.0,103613.0,4.9
+2008,"Congressional District 14 (110th Congress), Illinois",41762,823661,661468,1401,32.4,100086.0,30004.0,129747.0,6.2
+2008,"Congressional District 15 (110th Congress), Illinois",41506,668140,583795,731,34.7,69958.0,25195.0,138359.0,5.4
+2008,"Congressional District 16 (110th Congress), Illinois",43596,734606,647171,1016,36.9,77062.0,27075.0,157964.0,6.3
+2008,"Congressional District 17 (110th Congress), Illinois",49500,630745,551977,644,38.3,48900.0,21863.0,150517.0,6.1
+2008,"Congressional District 18 (110th Congress), Illinois",51062,660836,584827,748,38.3,74521.0,26642.0,142667.0,4.7
+2008,"Congressional District 19 (110th Congress), Illinois",28060,666127,622739,675,39.7,58476.0,25270.0,154991.0,5.8
+2008,"Congressional District 1 (110th Congress), Indiana",130969,700114,506968,931,37.3,63182.0,25885.0,173107.0,6.4
+2008,"Congressional District 2 (110th Congress), Indiana",56096,668746,563996,763,37.4,53601.0,23532.0,163946.0,8.2
+2008,"Congressional District 3 (110th Congress), Indiana",40460,720781,632109,770,35.7,68834.0,26407.0,156052.0,7.3
+2008,"Congressional District 4 (110th Congress), Indiana",22845,779990,719684,920,35.1,88034.0,26584.0,171340.0,5.2
+2008,"Congressional District 5 (110th Congress), Indiana",31902,800232,733406,972,36.9,124511.0,30874.0,151498.0,5.5
+2008,"Congressional District 6 (110th Congress), Indiana",20050,670691,623799,716,39.0,48825.0,23763.0,179390.0,8.5
+2008,"Congressional District 7 (110th Congress), Indiana",201498,650746,392178,784,35.5,65012.0,22751.0,132857.0,9.2
+2008,"Congressional District 8 (110th Congress), Indiana",26040,682817,636040,677,37.8,50438.0,22899.0,170434.0,5.8
+2008,"Congressional District 9 (110th Congress), Indiana",17623,702675,659382,747,36.6,54655.0,23759.0,167976.0,6.7
+2008,"Congressional District 1 (110th Congress), Iowa",22547,588537,541892,698,38.4,60811.0,25339.0,136774.0,4.0
+2008,"Congressional District 2 (110th Congress), Iowa",15748,611407,565133,728,36.8,72859.0,25231.0,122291.0,4.0
+2008,"Congressional District 3 (110th Congress), Iowa",24131,638411,574953,864,37.2,87164.0,29234.0,129587.0,4.0
+2008,"Congressional District 4 (110th Congress), Iowa",8802,596295,564918,690,38.7,62435.0,23869.0,136197.0,3.8
+2008,"Congressional District 5 (110th Congress), Iowa",4993,567907,536232,643,40.4,51976.0,23923.0,143568.0,3.6
+2008,"Congressional District 1 (110th Congress), Kansas",14449,650719,604614,605,38.9,61821.0,23539.0,133536.0,3.1
+2008,"Congressional District 2 (110th Congress), Kansas",34140,700427,616925,744,35.8,76178.0,24481.0,143742.0,4.3
+2008,"Congressional District 3 (110th Congress), Kansas",63256,753526,619269,1085,35.0,135783.0,31984.0,101209.0,5.2
+2008,"Congressional District 4 (110th Congress), Kansas",45751,697462,575960,738,36.0,79508.0,26090.0,126169.0,4.9
+2008,"Congressional District 1 (110th Congress), Kentucky",48376,681746,613759,535,38.6,35327.0,19689.0,172032.0,7.8
+2008,"Congressional District 2 (110th Congress), Kentucky",39495,747242,681973,661,36.9,47825.0,22313.0,187512.0,6.3
+2008,"Congressional District 3 (110th Congress), Kentucky",143720,691399,515151,794,39.0,79454.0,26557.0,141787.0,7.0
+2008,"Congressional District 4 (110th Congress), Kentucky",19597,727611,686486,774,37.5,66447.0,24802.0,171329.0,5.4
+2008,"Congressional District 5 (110th Congress), Kentucky",8521,676993,658137,399,38.9,27567.0,14597.0,169879.0,10.2
+2008,"Congressional District 6 (110th Congress), Kentucky",57119,744254,646779,747,36.5,80491.0,24065.0,146863.0,5.7
+2008,"Congressional District 1 (110th Congress), Louisiana",107014,671724,531384,878,38.5,82313.0,25783.0,134160.0,4.6
+2008,"Congressional District 2 (110th Congress), Louisiana",274357,469262,160983,892,37.0,34395.0,19037.0,103053.0,10.1
+2008,"Congressional District 3 (110th Congress), Louisiana",171948,626177,426232,637,35.5,41200.0,22654.0,156868.0,4.7
+2008,"Congressional District 4 (110th Congress), Louisiana",217877,647385,402808,638,35.4,50601.0,21923.0,154558.0,7.5
+2008,"Congressional District 5 (110th Congress), Louisiana",216114,635719,403327,566,35.9,47006.0,19096.0,151585.0,6.6
+2008,"Congressional District 6 (110th Congress), Louisiana",245982,701222,432005,817,33.6,78035.0,25196.0,137227.0,5.0
+2008,"Congressional District 7 (110th Congress), Louisiana",171770,659307,468041,597,35.1,56422.0,21769.0,153334.0,5.1
+2008,"Congressional District 1 (110th Congress), Maine",8745,667199,636859,1017,42.1,95839.0,26437.0,146825.0,5.1
+2008,"Congressional District 2 (110th Congress), Maine",3587,649257,624420,708,41.5,57263.0,20813.0,178135.0,6.8
+2008,"Congressional District 1 (110th Congress), Maryland",81697,721118,609441,1247,40.1,91956.0,32183.0,155422.0,4.2
+2008,"Congressional District 2 (110th Congress), Maryland",231094,699352,422530,1158,36.1,70538.0,31258.0,144728.0,6.0
+2008,"Congressional District 3 (110th Congress), Maryland",134085,689925,501216,1362,37.2,108826.0,36678.0,103976.0,4.6
+2008,"Congressional District 4 (110th Congress), Maryland",370565,679854,202105,1694,36.0,90628.0,37968.0,104609.0,6.8
+2008,"Congressional District 5 (110th Congress), Maryland",267043,741163,413297,1675,36.3,88631.0,40232.0,133800.0,4.0
+2008,"Congressional District 6 (110th Congress), Maryland",48075,735261,649383,1241,38.5,87521.0,30541.0,160746.0,5.1
+2008,"Congressional District 7 (110th Congress), Maryland",372904,658713,227547,1084,37.3,76679.0,26565.0,112878.0,8.3
+2008,"Congressional District 8 (110th Congress), Maryland",119948,708211,423892,1695,39.5,124506.0,40204.0,70707.0,4.5
+2008,"Congressional District 1 (110th Congress), Massachusetts",13286,638057,591397,993,39.6,76845.0,26133.0,135856.0,6.1
+2008,"Congressional District 2 (110th Congress), Massachusetts",40532,664504,553895,1078,37.7,77190.0,28722.0,138005.0,7.2
+2008,"Congressional District 3 (110th Congress), Massachusetts",26099,639470,559441,1209,38.5,97625.0,31414.0,115404.0,5.9
+2008,"Congressional District 4 (110th Congress), Massachusetts",18385,674634,593511,1439,38.8,94226.0,31621.0,111526.0,5.5
+2008,"Congressional District 5 (110th Congress), Massachusetts",19287,649762,502577,1425,38.6,92852.0,32388.0,109976.0,5.4
+2008,"Congressional District 6 (110th Congress), Massachusetts",19326,647346,578454,1454,41.8,109080.0,33679.0,114062.0,5.7
+2008,"Congressional District 7 (110th Congress), Massachusetts",33284,656052,539932,1456,39.7,102878.0,33571.0,115490.0,5.1
+2008,"Congressional District 8 (110th Congress), Massachusetts",140241,649819,360209,1340,31.3,93903.0,26400.0,88247.0,7.8
+2008,"Congressional District 9 (110th Congress), Massachusetts",82527,639053,499582,1467,39.1,99651.0,34146.0,121058.0,5.8
+2008,"Congressional District 10 (110th Congress), Massachusetts",14031,639270,584394,1456,42.7,111799.0,33039.0,122508.0,5.1
+2008,"Congressional District 1 (110th Congress), Michigan",6954,651919,609131,640,43.1,54221.0,20426.0,174013.0,9.8
+2008,"Congressional District 2 (110th Congress), Michigan",31044,694682,612893,850,36.6,61578.0,22343.0,155603.0,8.8
+2008,"Congressional District 3 (110th Congress), Michigan",54386,694621,579559,902,35.3,83172.0,24933.0,127478.0,7.8
+2008,"Congressional District 4 (110th Congress), Michigan",17247,681360,634346,774,38.6,61116.0,21282.0,156938.0,9.9
+2008,"Congressional District 5 (110th Congress), Michigan",110316,636803,498198,753,37.9,50679.0,23279.0,148035.0,11.1
+2008,"Congressional District 6 (110th Congress), Michigan",57582,675374,579130,793,37.3,66886.0,22650.0,140415.0,8.6
+2008,"Congressional District 7 (110th Congress), Michigan",37739,677051,607428,876,38.8,65847.0,25371.0,153198.0,7.7
+2008,"Congressional District 8 (110th Congress), Michigan",31505,703008,628167,1083,36.8,87374.0,27449.0,119770.0,6.9
+2008,"Congressional District 9 (110th Congress), Michigan",65223,660887,523440,1247,40.9,119359.0,35460.0,86909.0,6.4
+2008,"Congressional District 10 (110th Congress), Michigan",18482,725820,674560,1043,38.6,67210.0,27506.0,157658.0,8.8
+2008,"Congressional District 11 (110th Congress), Michigan",64354,737189,619134,1193,38.9,102362.0,31900.0,134888.0,8.1
+2008,"Congressional District 12 (110th Congress), Michigan",117919,621619,464834,935,39.5,61987.0,26391.0,135898.0,10.5
+2008,"Congressional District 13 (110th Congress), Michigan",338555,558280,173255,804,35.3,29488.0,17980.0,117310.0,17.8
+2008,"Congressional District 14 (110th Congress), Michigan",352534,591652,214836,866,37.2,34710.0,20340.0,125288.0,15.9
+2008,"Congressional District 15 (110th Congress), Michigan",85038,693157,545932,1009,35.6,69689.0,25986.0,130833.0,9.5
+2008,"Congressional District 1 (110th Congress), Minnesota",10712,632809,595214,754,38.1,72383.0,26482.0,130400.0,3.7
+2008,"Congressional District 2 (110th Congress), Minnesota",24184,722891,647963,1399,35.1,121549.0,35554.0,113749.0,3.5
+2008,"Congressional District 3 (110th Congress), Minnesota",42743,663360,554904,1394,40.2,128871.0,37619.0,94900.0,4.6
+2008,"Congressional District 4 (110th Congress), Minnesota",45720,602931,478327,994,37.5,92118.0,30426.0,97531.0,6.5
+2008,"Congressional District 5 (110th Congress), Minnesota",85097,591467,441560,1043,35.8,108442.0,29109.0,79817.0,7.1
+2008,"Congressional District 6 (110th Congress), Minnesota",12619,743130,693691,1334,34.6,97177.0,32669.0,140009.0,4.1
+2008,"Congressional District 7 (110th Congress), Minnesota",4832,614645,576365,681,39.8,59811.0,23722.0,144439.0,4.2
+2008,"Congressional District 8 (110th Congress), Minnesota",4692,649160,613057,763,39.8,64275.0,23633.0,150016.0,6.2
+2008,"Congressional District 1 (110th Congress), Mississippi",217402,782765,546795,645,35.9,56263.0,20748.0,156879.0,7.0
+2008,"Congressional District 2 (110th Congress), Mississippi",444271,670638,211867,611,34.3,51180.0,17085.0,120165.0,11.0
+2008,"Congressional District 3 (110th Congress), Mississippi",263247,751519,468524,641,35.9,71864.0,21124.0,139366.0,6.7
+2008,"Congressional District 4 (110th Congress), Mississippi",176574,733696,528166,684,35.6,55057.0,21718.0,143584.0,6.8
+2008,"Congressional District 1 (110th Congress), Missouri",325006,594535,245065,824,38.3,59617.0,23469.0,111889.0,9.9
+2008,"Congressional District 2 (110th Congress), Missouri",21059,697292,639692,1201,39.2,123745.0,35049.0,102819.0,4.8
+2008,"Congressional District 3 (110th Congress), Missouri",54587,647115,562449,872,38.2,72493.0,27184.0,121537.0,5.0
+2008,"Congressional District 4 (110th Congress), Missouri",20889,656485,606834,672,37.4,51345.0,21967.0,168384.0,6.0
+2008,"Congressional District 5 (110th Congress), Missouri",146593,630314,435798,857,37.2,67750.0,27404.0,121769.0,7.8
+2008,"Congressional District 6 (110th Congress), Missouri",21893,681018,628773,809,37.6,75080.0,27316.0,156874.0,4.4
+2008,"Congressional District 7 (110th Congress), Missouri",10306,701624,655136,683,36.0,68356.0,22117.0,152663.0,5.3
+2008,"Congressional District 8 (110th Congress), Missouri",31831,636818,587497,526,38.7,37359.0,18155.0,165861.0,7.4
+2008,"Congressional District 9 (110th Congress), Missouri",26035,666404,614202,693,36.0,66106.0,22402.0,151564.0,5.7
+2008,"Congressional District (at Large) (110th Congress), Montana",5205,967440,867054,686,39.1,121576.0,22859.0,200319.0,4.7
+2008,"Congressional District 1 (110th Congress), Nebraska",10035,613863,567062,775,35.3,74806.0,25273.0,113450.0,3.9
+2008,"Congressional District 2 (110th Congress), Nebraska",59256,618946,499613,950,33.9,87744.0,28215.0,94095.0,4.8
+2008,"Congressional District 3 (110th Congress), Nebraska",1887,550623,519033,583,40.6,50541.0,22761.0,133350.0,3.2
+2008,"Congressional District 1 (110th Congress), Nevada",101127,823038,591055,1155,33.9,62991.0,27165.0,153197.0,8.4
+2008,"Congressional District 2 (110th Congress), Nevada",22124,810552,683955,1076,37.6,77410.0,27521.0,149669.0,7.4
+2008,"Congressional District 3 (110th Congress), Nevada",68965,966577,733906,1367,36.2,114338.0,31970.0,183737.0,6.4
+2008,"Congressional District 1 (110th Congress), New Hampshire",7224,658228,624860,1268,39.7,99838.0,30632.0,127302.0,4.3
+2008,"Congressional District 2 (110th Congress), New Hampshire",5716,657581,622850,1200,40.8,92631.0,29806.0,135226.0,4.7
+2008,"Congressional District 1 (110th Congress), New Jersey",117469,677495,481867,1234,36.8,75321.0,29867.0,160300.0,7.6
+2008,"Congressional District 2 (110th Congress), New Jersey",97030,683805,507253,1221,38.5,70638.0,28466.0,168726.0,6.6
+2008,"Congressional District 3 (110th Congress), New Jersey",63123,682179,567688,1486,41.6,96205.0,34241.0,156762.0,6.4
+2008,"Congressional District 4 (110th Congress), New Jersey",65398,716440,590933,1477,38.6,94193.0,32156.0,147597.0,5.4
+2008,"Congressional District 5 (110th Congress), New Jersey",13189,672703,574028,1955,41.9,125182.0,40921.0,122853.0,4.8
+2008,"Congressional District 6 (110th Congress), New Jersey",96266,650895,442579,1504,36.3,93882.0,32184.0,128377.0,6.5
+2008,"Congressional District 7 (110th Congress), New Jersey",40894,682187,528289,1913,40.6,124550.0,42106.0,115302.0,5.4
+2008,"Congressional District 8 (110th Congress), New Jersey",88359,646995,375112,1432,37.6,91739.0,30929.0,129952.0,5.1
+2008,"Congressional District 9 (110th Congress), New Jersey",49379,639443,450832,1383,39.8,110877.0,35842.0,123552.0,5.1
+2008,"Congressional District 10 (110th Congress), New Jersey",367835,629510,172647,1112,34.8,56326.0,26712.0,133363.0,9.5
+2008,"Congressional District 11 (110th Congress), New Jersey",20750,664897,561599,1978,41.3,130291.0,42495.0,104212.0,3.7
+2008,"Congressional District 12 (110th Congress), New Jersey",81812,693671,487464,1673,39.8,122592.0,40843.0,110078.0,4.9
+2008,"Congressional District 13 (110th Congress), New Jersey",81494,642441,403830,1178,35.2,74237.0,26222.0,126575.0,6.5
+2008,"Congressional District 1 (110th Congress), New Mexico",21807,677533,488250,853,36.6,72059.0,25003.0,111332.0,5.5
+2008,"Congressional District 2 (110th Congress), New Mexico",13506,645473,523545,584,35.3,44129.0,19005.0,109190.0,6.1
+2008,"Congressional District 3 (110th Congress), New Mexico",9880,661350,445685,742,36.2,62412.0,23649.0,113817.0,6.4
+2008,"Congressional District 1 (110th Congress), New York",34402,713084,623710,1861,39.3,81989.0,35496.0,143176.0,3.9
+2008,"Congressional District 2 (110th Congress), New York",74249,687113,540876,2129,39.2,92548.0,35177.0,127598.0,5.4
+2008,"Congressional District 3 (110th Congress), New York",14140,652004,585687,2014,43.1,96559.0,37160.0,129843.0,3.9
+2008,"Congressional District 4 (110th Congress), New York",134609,669702,431802,1942,39.4,91886.0,33415.0,115727.0,5.1
+2008,"Congressional District 5 (110th Congress), New York",28038,669591,361018,1347,40.6,106459.0,28479.0,116274.0,6.0
+2008,"Congressional District 6 (110th Congress), New York",360426,686631,118666,1294,37.2,67669.0,26753.0,136513.0,8.4
+2008,"Congressional District 7 (110th Congress), New York",136530,696508,270915,1065,37.6,74283.0,26328.0,136629.0,6.7
+2008,"Congressional District 8 (110th Congress), New York",37852,720094,539207,1355,38.3,145955.0,34335.0,92445.0,5.8
+2008,"Congressional District 9 (110th Congress), New York",35187,679578,469782,1149,42.0,101936.0,30260.0,136389.0,6.5
+2008,"Congressional District 10 (110th Congress), New York",427302,697685,177020,1087,31.9,61443.0,25674.0,124988.0,8.6
+2008,"Congressional District 11 (110th Congress), New York",377897,663042,205113,1076,35.3,76741.0,27276.0,119817.0,7.9
+2008,"Congressional District 12 (110th Congress), New York",71872,681862,346353,1038,33.9,75259.0,22916.0,114720.0,6.1
+2008,"Congressional District 13 (110th Congress), New York",51988,702017,524660,1295,39.3,79792.0,31681.0,164572.0,5.5
+2008,"Congressional District 14 (110th Congress), New York",29243,654566,503786,1552,38.9,181629.0,53765.0,59119.0,5.3
+2008,"Congressional District 15 (110th Congress), New York",216414,671752,226226,909,35.6,77999.0,21465.0,77130.0,9.3
+2008,"Congressional District 16 (110th Congress), New York",236795,668186,104899,851,28.4,28518.0,13708.0,92987.0,11.4
+2008,"Congressional District 17 (110th Congress), New York",225910,681421,305178,1236,36.2,80147.0,30037.0,113768.0,6.5
+2008,"Congressional District 18 (110th Congress), New York",74280,673537,498977,1794,40.6,101633.0,38466.0,93435.0,4.7
+2008,"Congressional District 19 (110th Congress), New York",39934,706181,590887,1764,38.7,95556.0,36184.0,123713.0,4.7
+2008,"Congressional District 20 (110th Congress), New York",17375,684669,642854,979,40.4,75800.0,27198.0,152061.0,5.2
+2008,"Congressional District 21 (110th Congress), New York",52876,655918,551252,906,38.9,70512.0,27887.0,130298.0,6.2
+2008,"Congressional District 22 (110th Congress), New York",61519,665606,545946,976,36.4,63957.0,24162.0,131821.0,6.2
+2008,"Congressional District 23 (110th Congress), New York",21422,662898,611842,748,37.0,44214.0,21756.0,170187.0,7.8
+2008,"Congressional District 24 (110th Congress), New York",23541,647115,594834,742,39.0,58703.0,22809.0,152974.0,6.8
+2008,"Congressional District 25 (110th Congress), New York",52511,656134,568474,891,39.4,80095.0,27825.0,120640.0,4.6
+2008,"Congressional District 26 (110th Congress), New York",23687,657650,603722,927,40.1,70802.0,26839.0,137383.0,5.3
+2008,"Congressional District 27 (110th Congress), New York",37336,627105,561976,744,39.7,57332.0,23970.0,144241.0,6.3
+2008,"Congressional District 28 (110th Congress), New York",179673,598124,381244,763,37.0,58311.0,21991.0,117049.0,8.6
+2008,"Congressional District 29 (110th Congress), New York",24223,660524,605938,817,39.2,70756.0,24201.0,139193.0,5.8
+2008,"Congressional District 1 (110th Congress), North Carolina",297877,608207,277743,672,38.5,37839.0,18841.0,132401.0,9.6
+2008,"Congressional District 2 (110th Congress), North Carolina",213377,743484,451706,801,33.2,57356.0,22819.0,142069.0,8.8
+2008,"Congressional District 3 (110th Congress), North Carolina",117185,691217,527306,813,35.4,70157.0,25079.0,123588.0,6.3
+2008,"Congressional District 4 (110th Congress), North Carolina",151172,794794,546558,1132,35.5,156503.0,33741.0,77239.0,4.5
+2008,"Congressional District 5 (110th Congress), North Carolina",51134,680121,592036,702,39.7,70207.0,23246.0,143094.0,6.4
+2008,"Congressional District 6 (110th Congress), North Carolina",68402,691907,577903,795,39.5,82525.0,26428.0,140236.0,5.9
+2008,"Congressional District 7 (110th Congress), North Carolina",149549,703638,465738,749,37.5,72170.0,22030.0,134036.0,6.7
+2008,"Congressional District 8 (110th Congress), North Carolina",186172,672835,425667,791,34.7,59173.0,23319.0,124232.0,7.5
+2008,"Congressional District 9 (110th Congress), North Carolina",118813,847888,665853,1130,36.8,149885.0,33694.0,118239.0,5.3
+2008,"Congressional District 10 (110th Congress), North Carolina",60864,681682,580188,671,39.1,54198.0,21940.0,148904.0,7.2
+2008,"Congressional District 11 (110th Congress), North Carolina",29630,670597,607100,634,42.0,75607.0,21943.0,140918.0,5.9
+2008,"Congressional District 12 (110th Congress), North Carolina",313212,704404,314654,806,34.2,76530.0,22441.0,134311.0,8.7
+2008,"Congressional District 13 (110th Congress), North Carolina",200098,731640,459578,852,35.4,98163.0,25494.0,121615.0,6.4
+2008,"Congressional District (at Large) (110th Congress), North Dakota",6115,641481,583732,620,37.0,85130.0,24488.0,113472.0,3.2
+2008,"Congressional District 1 (110th Congress), Ohio",183377,625600,417631,846,37.9,62773.0,24860.0,134972.0,7.2
+2008,"Congressional District 2 (110th Congress), Ohio",33975,684232,628659,1004,38.1,93927.0,29102.0,135251.0,6.1
+2008,"Congressional District 3 (110th Congress), Ohio",101466,640381,512482,867,38.7,65345.0,25443.0,133030.0,7.9
+2008,"Congressional District 4 (110th Congress), Ohio",30425,629526,577993,728,38.1,40386.0,23968.0,189454.0,6.2
+2008,"Congressional District 5 (110th Congress), Ohio",7838,628167,599238,733,38.2,45462.0,24583.0,185238.0,7.4
+2008,"Congressional District 6 (110th Congress), Ohio",15403,609740,578198,604,39.8,47790.0,20605.0,172682.0,5.9
+2008,"Congressional District 7 (110th Congress), Ohio",61958,681363,590808,884,36.7,59311.0,25995.0,162329.0,6.3
+2008,"Congressional District 8 (110th Congress), Ohio",40912,652270,585639,868,36.2,57612.0,24704.0,160881.0,6.2
+2008,"Congressional District 9 (110th Congress), Ohio",89528,621048,503095,808,37.9,55111.0,24062.0,142647.0,8.7
+2008,"Congressional District 10 (110th Congress), Ohio",44251,593065,518017,844,41.7,70284.0,25142.0,133437.0,7.7
+2008,"Congressional District 11 (110th Congress), Ohio",322353,548080,203845,797,38.2,51833.0,22312.0,100833.0,11.8
+2008,"Congressional District 12 (110th Congress), Ohio",147663,704615,506884,1041,35.6,116542.0,31555.0,116677.0,5.4
+2008,"Congressional District 13 (110th Congress), Ohio",73787,640590,531951,897,40.2,75708.0,25914.0,143049.0,7.2
+2008,"Congressional District 14 (110th Congress), Ohio",21047,653214,609178,1033,40.7,88248.0,28487.0,145722.0,5.1
+2008,"Congressional District 15 (110th Congress), Ohio",57538,673028,566894,956,34.2,98304.0,29260.0,117071.0,5.4
+2008,"Congressional District 16 (110th Congress), Ohio",30097,653595,603522,783,39.1,63350.0,23522.0,176222.0,6.1
+2008,"Congressional District 17 (110th Congress), Ohio",73088,604607,509341,719,39.1,53505.0,21977.0,170358.0,8.9
+2008,"Congressional District 18 (110th Congress), Ohio",11423,642789,616378,621,38.4,33739.0,21237.0,194015.0,8.3
+2008,"Congressional District 1 (110th Congress), Oklahoma",66516,738830,564990,827,36.3,91286.0,25907.0,137255.0,3.7
+2008,"Congressional District 2 (110th Congress), Oklahoma",28769,712827,506359,528,38.3,44757.0,18793.0,177184.0,6.7
+2008,"Congressional District 3 (110th Congress), Oklahoma",24884,712077,580715,582,36.7,65151.0,21589.0,161622.0,3.8
+2008,"Congressional District 4 (110th Congress), Oklahoma",47286,737843,586008,698,35.5,68439.0,23423.0,158958.0,4.2
+2008,"Congressional District 5 (110th Congress), Oklahoma",93546,740784,523249,716,35.0,83884.0,23924.0,123254.0,5.0
+2008,"Congressional District 1 (110th Congress), Oregon",12027,794185,654511,1133,36.7,122347.0,30763.0,109276.0,6.3
+2008,"Congressional District 2 (110th Congress), Oregon",2569,757621,695592,817,39.7,74067.0,22152.0,161094.0,7.0
+2008,"Congressional District 3 (110th Congress), Oregon",39900,755180,606494,1102,36.9,107426.0,27340.0,119835.0,7.0
+2008,"Congressional District 4 (110th Congress), Oregon",5066,729731,668042,802,40.2,70416.0,22312.0,147902.0,7.0
+2008,"Congressional District 5 (110th Congress), Oregon",6081,753343,661414,1014,37.5,91111.0,25461.0,123145.0,6.2
+2008,"Congressional District 1 (110th Congress), Pennsylvania",290231,606632,193780,781,33.4,36830.0,18453.0,129920.0,12.2
+2008,"Congressional District 2 (110th Congress), Pennsylvania",352379,586216,187518,820,35.3,53802.0,20938.0,118885.0,9.1
+2008,"Congressional District 3 (110th Congress), Pennsylvania",22806,635712,597635,697,40.0,58584.0,21754.0,190478.0,6.2
+2008,"Congressional District 4 (110th Congress), Pennsylvania",22099,648623,606772,862,43.6,95628.0,26241.0,161506.0,4.8
+2008,"Congressional District 5 (110th Congress), Pennsylvania",11946,641235,611209,644,38.7,48204.0,19709.0,198716.0,6.2
+2008,"Congressional District 6 (110th Congress), Pennsylvania",49085,703735,601840,1284,38.7,114839.0,32758.0,132468.0,4.3
+2008,"Congressional District 7 (110th Congress), Pennsylvania",59727,669020,564019,1300,39.9,113281.0,35738.0,125689.0,4.5
+2008,"Congressional District 8 (110th Congress), Pennsylvania",27260,668390,603270,1390,41.6,94591.0,34425.0,151755.0,4.8
+2008,"Congressional District 9 (110th Congress), Pennsylvania",14119,658862,635636,643,40.6,47665.0,22534.0,216807.0,5.2
+2008,"Congressional District 10 (110th Congress), Pennsylvania",12782,652754,623018,752,42.1,57184.0,22492.0,193948.0,5.7
+2008,"Congressional District 11 (110th Congress), Pennsylvania",34021,668851,602993,766,40.3,56889.0,22011.0,190069.0,6.4
+2008,"Congressional District 12 (110th Congress), Pennsylvania",22085,617797,583261,577,42.5,48985.0,20449.0,202945.0,6.1
+2008,"Congressional District 13 (110th Congress), Pennsylvania",62489,676134,543430,1072,41.5,92819.0,31967.0,143936.0,5.6
+2008,"Congressional District 14 (110th Congress), Pennsylvania",136733,574861,412202,713,40.0,60610.0,21708.0,134327.0,6.4
+2008,"Congressional District 15 (110th Congress), Pennsylvania",35014,713689,614044,1068,39.7,83456.0,28078.0,166722.0,5.6
+2008,"Congressional District 16 (110th Congress), Pennsylvania",32136,697108,610549,1002,37.2,78755.0,27538.0,163879.0,4.7
+2008,"Congressional District 17 (110th Congress), Pennsylvania",53091,669349,585122,811,40.3,60194.0,26955.0,197123.0,4.9
+2008,"Congressional District 18 (110th Congress), Pennsylvania",20338,645194,599645,849,43.2,101209.0,29436.0,149217.0,4.5
+2008,"Congressional District 19 (110th Congress), Pennsylvania",29716,714117,652161,953,39.3,78650.0,27806.0,195818.0,4.7
+2008,"Congressional District 1 (110th Congress), Rhode Island",33405,522130,441595,1055,38.5,64440.0,26563.0,96144.0,6.7
+2008,"Congressional District 2 (110th Congress), Rhode Island",23764,528658,432791,1198,39.1,68094.0,27937.0,101053.0,8.2
+2008,"Congressional District 1 (110th Congress), South Carolina",161910,818365,615635,951,37.4,94810.0,25918.0,161477.0,6.2
+2008,"Congressional District 2 (110th Congress), South Carolina",209844,783942,526924,871,36.8,101459.0,27280.0,133182.0,6.8
+2008,"Congressional District 3 (110th Congress), South Carolina",136163,695317,533002,640,39.1,59774.0,21527.0,148709.0,8.4
+2008,"Congressional District 4 (110th Congress), South Carolina",146498,756653,573819,708,37.7,86520.0,23211.0,142114.0,7.3
+2008,"Congressional District 5 (110th Congress), South Carolina",229964,741335,484459,647,38.1,60893.0,22292.0,166865.0,8.3
+2008,"Congressional District 6 (110th Congress), South Carolina",373417,684188,292143,607,36.8,45744.0,18786.0,161361.0,10.0
+2008,"Congressional District (at Large) (110th Congress), South Dakota",7595,804194,700446,665,37.6,92952.0,24583.0,169985.0,3.7
+2008,"Congressional District 1 (110th Congress), Tennessee",15762,672694,638300,560,40.4,55161.0,20171.0,170310.0,7.7
+2008,"Congressional District 2 (110th Congress), Tennessee",42821,716506,643850,723,38.4,88583.0,24042.0,149485.0,5.4
+2008,"Congressional District 3 (110th Congress), Tennessee",75859,685476,588358,667,39.3,64891.0,21522.0,146376.0,7.9
+2008,"Congressional District 4 (110th Congress), Tennessee",26237,679236,631757,553,39.5,41220.0,19497.0,184618.0,7.3
+2008,"Congressional District 5 (110th Congress), Tennessee",169433,700860,484983,897,36.8,90219.0,26955.0,128278.0,5.6
+2008,"Congressional District 6 (110th Congress), Tennessee",57296,765069,672676,780,35.3,69593.0,24272.0,176341.0,6.0
+2008,"Congressional District 7 (110th Congress), Tennessee",105016,756487,614215,1032,37.7,110266.0,30485.0,130468.0,6.0
+2008,"Congressional District 8 (110th Congress), Tennessee",150578,652370,482208,647,37.9,46688.0,20733.0,169142.0,7.2
+2008,"Congressional District 9 (110th Congress), Tennessee",372525,586190,180615,861,34.4,54298.0,21884.0,103993.0,10.1
+2008,"Congressional District 1 (110th Congress), Texas",125170,696248,529798,643,36.1,59471.0,20920.0,135241.0,5.3
+2008,"Congressional District 2 (110th Congress), Texas",149051,773072,532885,938,35.2,84759.0,29631.0,135289.0,5.9
+2008,"Congressional District 3 (110th Congress), Texas",86504,845481,578670,1270,33.4,151871.0,32345.0,96272.0,4.6
+2008,"Congressional District 4 (110th Congress), Texas",81972,812636,665477,814,35.5,81667.0,23973.0,160143.0,5.3
+2008,"Congressional District 5 (110th Congress), Texas",102976,733117,550963,860,35.8,59544.0,24322.0,141608.0,5.9
+2008,"Congressional District 6 (110th Congress), Texas",118617,783790,546520,988,33.3,85420.0,27094.0,133029.0,5.3
+2008,"Congressional District 7 (110th Congress), Texas",72467,751034,557983,1200,37.0,161019.0,40706.0,78270.0,3.5
+2008,"Congressional District 8 (110th Congress), Texas",66512,795104,684518,810,35.5,80009.0,25577.0,166727.0,4.8
+2008,"Congressional District 9 (110th Congress), Texas",256604,693304,265253,834,30.7,57783.0,21698.0,109776.0,6.6
+2008,"Congressional District 10 (110th Congress), Texas",106270,955363,691158,1183,33.6,140513.0,31801.0,134904.0,4.1
+2008,"Congressional District 11 (110th Congress), Texas",29576,695280,605208,634,36.0,54991.0,23260.0,143226.0,3.3
+2008,"Congressional District 12 (110th Congress), Texas",49497,813561,648546,950,33.1,79771.0,27024.0,134368.0,5.5
+2008,"Congressional District 13 (110th Congress), Texas",41631,653635,545500,652,35.7,53045.0,22303.0,130182.0,3.6
+2008,"Congressional District 14 (110th Congress), Texas",61752,756644,618692,868,35.7,81369.0,26840.0,130674.0,4.6
+2008,"Congressional District 15 (110th Congress), Texas",12194,760723,594850,567,29.8,43427.0,16068.0,118404.0,6.5
+2008,"Congressional District 16 (110th Congress), Texas",21519,705211,573889,681,31.4,54557.0,17666.0,99712.0,4.9
+2008,"Congressional District 17 (110th Congress), Texas",71506,737508,596642,774,31.8,65536.0,21192.0,133805.0,4.6
+2008,"Congressional District 18 (110th Congress), Texas",255994,673067,292088,792,32.2,49761.0,23057.0,114180.0,7.0
+2008,"Congressional District 19 (110th Congress), Texas",35446,669198,568978,661,33.2,60896.0,21914.0,110506.0,3.9
+2008,"Congressional District 20 (110th Congress), Texas",44309,677981,522471,741,32.0,43456.0,19713.0,122667.0,6.0
+2008,"Congressional District 21 (110th Congress), Texas",52198,828925,692346,1043,35.4,129261.0,29994.0,105179.0,4.4
+2008,"Congressional District 22 (110th Congress), Texas",110716,873878,588854,1211,33.8,129163.0,33961.0,122885.0,4.5
+2008,"Congressional District 23 (110th Congress), Texas",23189,788817,643070,762,33.0,71926.0,20917.0,117350.0,5.1
+2008,"Congressional District 24 (110th Congress), Texas",98923,772580,534257,1113,34.3,123932.0,32433.0,111000.0,5.0
+2008,"Congressional District 25 (110th Congress), Texas",61022,789252,546195,961,32.1,101844.0,25870.0,107944.0,5.6
+2008,"Congressional District 26 (110th Congress), Texas",119571,875556,623366,1155,33.0,116322.0,30176.0,116914.0,5.5
+2008,"Congressional District 27 (110th Congress), Texas",17587,705633,628945,761,31.9,47063.0,18694.0,104213.0,6.2
+2008,"Congressional District 28 (110th Congress), Texas",11529,802335,689518,669,29.1,50260.0,16916.0,113597.0,6.6
+2008,"Congressional District 29 (110th Congress), Texas",65599,686198,409783,729,29.8,19008.0,20848.0,106542.0,6.8
+2008,"Congressional District 30 (110th Congress), Texas",285018,710531,319887,867,31.6,49287.0,21981.0,108716.0,7.3
+2008,"Congressional District 31 (110th Congress), Texas",104172,841984,646708,982,31.9,97029.0,28726.0,133412.0,5.9
+2008,"Congressional District 32 (110th Congress), Texas",41161,669328,478299,963,34.1,98983.0,27024.0,71268.0,4.9
+2008,"Congressional District 1 (110th Congress), Utah",15154,884032,811415,965,28.8,96812.0,24980.0,129824.0,4.0
+2008,"Congressional District 2 (110th Congress), Utah",4371,877753,799868,989,31.1,116046.0,26655.0,119263.0,4.0
+2008,"Congressional District 3 (110th Congress), Utah",10476,974639,878238,1090,26.5,93273.0,23037.0,130808.0,4.1
+2008,"Congressional District (at Large) (110th Congress), Vermont",4650,621270,595770,1024,41.5,85431.0,25462.0,141969.0,4.9
+2008,"Congressional District 1 (110th Congress), Virginia",150433,759591,555431,1254,37.3,93668.0,32809.0,139386.0,4.6
+2008,"Congressional District 2 (110th Congress), Virginia",142105,641363,441885,1205,35.0,74418.0,29656.0,110489.0,5.2
+2008,"Congressional District 3 (110th Congress), Virginia",375009,670723,256041,919,33.9,56064.0,23113.0,124019.0,8.5
+2008,"Congressional District 4 (110th Congress), Virginia",237257,722546,450300,1082,37.0,72437.0,27688.0,141049.0,6.2
+2008,"Congressional District 5 (110th Congress), Virginia",151448,665495,486883,688,39.4,58352.0,22567.0,138920.0,5.8
+2008,"Congressional District 6 (110th Congress), Virginia",75400,683159,582417,764,38.9,72248.0,23774.0,150477.0,4.3
+2008,"Congressional District 7 (110th Congress), Virginia",123252,739402,571749,1185,38.2,118233.0,33628.0,126561.0,4.3
+2008,"Congressional District 8 (110th Congress), Virginia",91657,676038,452819,1686,38.5,143928.0,49306.0,60626.0,3.5
+2008,"Congressional District 9 (110th Congress), Virginia",24117,646843,605329,492,39.8,45622.0,18459.0,137799.0,5.8
+2008,"Congressional District 10 (110th Congress), Virginia",57932,805507,603586,1907,35.8,150801.0,42171.0,94444.0,3.8
+2008,"Congressional District 11 (110th Congress), Virginia",91822,758422,493972,2079,37.4,141262.0,45898.0,74330.0,3.5
+2008,"Congressional District 1 (110th Congress), Washington",17913,695036,547476,1527,38.6,128291.0,38240.0,84229.0,4.3
+2008,"Congressional District 2 (110th Congress), Washington",7910,746399,656712,1159,37.0,87290.0,27695.0,131569.0,5.6
+2008,"Congressional District 3 (110th Congress), Washington",11563,766377,680958,1065,36.7,81268.0,27783.0,135095.0,7.9
+2008,"Congressional District 4 (110th Congress), Washington",7796,737770,568206,783,33.2,56080.0,22109.0,123832.0,6.8
+2008,"Congressional District 5 (110th Congress), Washington",9485,708462,628285,797,36.3,77291.0,23005.0,121504.0,6.1
+2008,"Congressional District 6 (110th Congress), Washington",37862,692925,549117,947,39.1,73625.0,25260.0,132200.0,6.9
+2008,"Congressional District 7 (110th Congress), Washington",51459,674904,484269,1245,38.5,151038.0,33331.0,66633.0,4.6
+2008,"Congressional District 8 (110th Congress), Washington",21828,806333,625801,1644,38.3,143100.0,40132.0,108416.0,4.0
+2008,"Congressional District 9 (110th Congress), Washington",53703,721018,523485,1177,37.3,72904.0,30975.0,138065.0,5.0
+2008,"Congressional District 1 (110th Congress), West Virginia",10954,594612,569777,527,40.8,46164.0,20794.0,170538.0,4.9
+2008,"Congressional District 2 (110th Congress), West Virginia",26922,634584,590505,588,40.3,49472.0,22954.0,178698.0,6.8
+2008,"Congressional District 3 (110th Congress), West Virginia",23883,585272,551804,441,40.8,35219.0,18262.0,166645.0,5.1
+2008,"Congressional District 1 (110th Congress), Wisconsin",34164,728817,648286,1044,39.4,84166.0,29176.0,164140.0,5.3
+2008,"Congressional District 2 (110th Congress), Wisconsin",28676,741583,666647,1044,35.8,99466.0,30001.0,134089.0,4.5
+2008,"Congressional District 3 (110th Congress), Wisconsin",5185,717051,686124,834,37.0,72997.0,25109.0,166054.0,4.7
+2008,"Congressional District 4 (110th Congress), Wisconsin",224783,663737,368105,832,32.8,58596.0,22098.0,123846.0,8.1
+2008,"Congressional District 5 (110th Congress), Wisconsin",15616,706383,656075,1188,41.7,121361.0,33428.0,127992.0,3.8
+2008,"Congressional District 6 (110th Congress), Wisconsin",8902,689644,651266,834,39.6,65924.0,26265.0,185924.0,4.9
+2008,"Congressional District 7 (110th Congress), Wisconsin",3156,681761,647589,743,40.7,63003.0,24622.0,183484.0,5.2
+2008,"Congressional District 8 (110th Congress), Wisconsin",4903,698992,648805,825,39.1,76757.0,26685.0,178473.0,5.1
+2008,"Congressional District (at Large) (110th Congress), Wyoming",5660,532668,489365,760,36.6,54987.0,27157.0,106916.0,3.3
+2008,"Resident Commissioner District (at Large) (110th Congress), Puerto Rico",282951,3954037,2994236,315,35.9,,,,14.8

@@ -1,0 +1,438 @@
+year,district,unemp_rate
+2005,"Congressional District 1 (109th Congress), Alabama",6.3
+2005,"Congressional District 2 (109th Congress), Alabama",6.7
+2005,"Congressional District 3 (109th Congress), Alabama",8.8
+2005,"Congressional District 4 (109th Congress), Alabama",6.9
+2005,"Congressional District 5 (109th Congress), Alabama",7.0
+2005,"Congressional District 6 (109th Congress), Alabama",4.2
+2005,"Congressional District 7 (109th Congress), Alabama",11.4
+2005,"Congressional District (at Large) (109th Congress), Alaska",8.6
+2005,"Congressional District 1 (109th Congress), Arizona",8.8
+2005,"Congressional District 2 (109th Congress), Arizona",6.8
+2005,"Congressional District 3 (109th Congress), Arizona",4.2
+2005,"Congressional District 4 (109th Congress), Arizona",8.0
+2005,"Congressional District 5 (109th Congress), Arizona",5.1
+2005,"Congressional District 6 (109th Congress), Arizona",4.5
+2005,"Congressional District 7 (109th Congress), Arizona",9.1
+2005,"Congressional District 8 (109th Congress), Arizona",5.3
+2005,"Congressional District 1 (109th Congress), Arkansas",7.7
+2005,"Congressional District 2 (109th Congress), Arkansas",6.1
+2005,"Congressional District 3 (109th Congress), Arkansas",5.3
+2005,"Congressional District 4 (109th Congress), Arkansas",9.0
+2005,"Congressional District 1 (109th Congress), California",6.6
+2005,"Congressional District 2 (109th Congress), California",9.4
+2005,"Congressional District 3 (109th Congress), California",6.4
+2005,"Congressional District 4 (109th Congress), California",6.2
+2005,"Congressional District 5 (109th Congress), California",8.3
+2005,"Congressional District 6 (109th Congress), California",6.0
+2005,"Congressional District 7 (109th Congress), California",7.6
+2005,"Congressional District 8 (109th Congress), California",6.9
+2005,"Congressional District 9 (109th Congress), California",9.0
+2005,"Congressional District 10 (109th Congress), California",6.2
+2005,"Congressional District 11 (109th Congress), California",6.4
+2005,"Congressional District 12 (109th Congress), California",6.1
+2005,"Congressional District 13 (109th Congress), California",8.1
+2005,"Congressional District 14 (109th Congress), California",6.1
+2005,"Congressional District 15 (109th Congress), California",7.0
+2005,"Congressional District 16 (109th Congress), California",7.2
+2005,"Congressional District 17 (109th Congress), California",8.2
+2005,"Congressional District 18 (109th Congress), California",13.9
+2005,"Congressional District 19 (109th Congress), California",8.1
+2005,"Congressional District 20 (109th Congress), California",14.4
+2005,"Congressional District 21 (109th Congress), California",8.9
+2005,"Congressional District 22 (109th Congress), California",7.6
+2005,"Congressional District 23 (109th Congress), California",6.3
+2005,"Congressional District 24 (109th Congress), California",4.3
+2005,"Congressional District 25 (109th Congress), California",9.3
+2005,"Congressional District 26 (109th Congress), California",4.7
+2005,"Congressional District 27 (109th Congress), California",6.5
+2005,"Congressional District 28 (109th Congress), California",9.2
+2005,"Congressional District 29 (109th Congress), California",5.6
+2005,"Congressional District 30 (109th Congress), California",5.3
+2005,"Congressional District 31 (109th Congress), California",9.8
+2005,"Congressional District 32 (109th Congress), California",7.6
+2005,"Congressional District 33 (109th Congress), California",10.3
+2005,"Congressional District 34 (109th Congress), California",6.8
+2005,"Congressional District 35 (109th Congress), California",9.0
+2005,"Congressional District 36 (109th Congress), California",4.7
+2005,"Congressional District 37 (109th Congress), California",8.9
+2005,"Congressional District 38 (109th Congress), California",8.3
+2005,"Congressional District 39 (109th Congress), California",6.7
+2005,"Congressional District 40 (109th Congress), California",6.1
+2005,"Congressional District 41 (109th Congress), California",7.5
+2005,"Congressional District 42 (109th Congress), California",5.4
+2005,"Congressional District 43 (109th Congress), California",8.5
+2005,"Congressional District 44 (109th Congress), California",6.7
+2005,"Congressional District 45 (109th Congress), California",6.5
+2005,"Congressional District 46 (109th Congress), California",4.8
+2005,"Congressional District 47 (109th Congress), California",8.1
+2005,"Congressional District 48 (109th Congress), California",3.7
+2005,"Congressional District 49 (109th Congress), California",5.5
+2005,"Congressional District 50 (109th Congress), California",4.6
+2005,"Congressional District 51 (109th Congress), California",7.2
+2005,"Congressional District 52 (109th Congress), California",5.2
+2005,"Congressional District 53 (109th Congress), California",6.7
+2005,"Congressional District 1 (109th Congress), Colorado",6.8
+2005,"Congressional District 2 (109th Congress), Colorado",6.0
+2005,"Congressional District 3 (109th Congress), Colorado",6.1
+2005,"Congressional District 4 (109th Congress), Colorado",6.2
+2005,"Congressional District 5 (109th Congress), Colorado",6.8
+2005,"Congressional District 6 (109th Congress), Colorado",4.5
+2005,"Congressional District 7 (109th Congress), Colorado",7.2
+2005,"Congressional District 1 (109th Congress), Connecticut",7.7
+2005,"Congressional District 2 (109th Congress), Connecticut",4.7
+2005,"Congressional District 3 (109th Congress), Connecticut",6.4
+2005,"Congressional District 4 (109th Congress), Connecticut",6.6
+2005,"Congressional District 5 (109th Congress), Connecticut",6.3
+2005,"Congressional District (at Large) (109th Congress), Delaware",5.6
+2005,"Delegate District (at Large) (109th Congress), District of Columbia",9.1
+2005,"Congressional District 1 (109th Congress), Florida",6.7
+2005,"Congressional District 2 (109th Congress), Florida",7.1
+2005,"Congressional District 3 (109th Congress), Florida",9.0
+2005,"Congressional District 4 (109th Congress), Florida",5.7
+2005,"Congressional District 5 (109th Congress), Florida",6.2
+2005,"Congressional District 6 (109th Congress), Florida",5.6
+2005,"Congressional District 7 (109th Congress), Florida",4.7
+2005,"Congressional District 8 (109th Congress), Florida",6.0
+2005,"Congressional District 9 (109th Congress), Florida",4.8
+2005,"Congressional District 10 (109th Congress), Florida",5.3
+2005,"Congressional District 11 (109th Congress), Florida",7.3
+2005,"Congressional District 12 (109th Congress), Florida",5.5
+2005,"Congressional District 13 (109th Congress), Florida",5.1
+2005,"Congressional District 14 (109th Congress), Florida",4.8
+2005,"Congressional District 15 (109th Congress), Florida",6.1
+2005,"Congressional District 16 (109th Congress), Florida",6.0
+2005,"Congressional District 17 (109th Congress), Florida",11.6
+2005,"Congressional District 18 (109th Congress), Florida",6.4
+2005,"Congressional District 19 (109th Congress), Florida",5.7
+2005,"Congressional District 20 (109th Congress), Florida",5.8
+2005,"Congressional District 21 (109th Congress), Florida",6.4
+2005,"Congressional District 22 (109th Congress), Florida",4.7
+2005,"Congressional District 23 (109th Congress), Florida",10.0
+2005,"Congressional District 24 (109th Congress), Florida",5.1
+2005,"Congressional District 25 (109th Congress), Florida",6.6
+2005,"Congressional District 1 (109th Congress), Georgia",7.0
+2005,"Congressional District 2 (109th Congress), Georgia",9.4
+2005,"Congressional District 3 (109th Congress), Georgia",8.5
+2005,"Congressional District 4 (109th Congress), Georgia",9.2
+2005,"Congressional District 5 (109th Congress), Georgia",8.4
+2005,"Congressional District 6 (109th Congress), Georgia",3.8
+2005,"Congressional District 7 (109th Congress), Georgia",5.4
+2005,"Congressional District 8 (109th Congress), Georgia",6.6
+2005,"Congressional District 9 (109th Congress), Georgia",7.2
+2005,"Congressional District 10 (109th Congress), Georgia",6.5
+2005,"Congressional District 11 (109th Congress), Georgia",8.3
+2005,"Congressional District 12 (109th Congress), Georgia",8.8
+2005,"Congressional District 13 (109th Congress), Georgia",8.6
+2005,"Congressional District 1 (109th Congress), Hawaii",3.8
+2005,"Congressional District 2 (109th Congress), Hawaii",5.0
+2005,"Congressional District 1 (109th Congress), Idaho",5.6
+2005,"Congressional District 2 (109th Congress), Idaho",5.9
+2005,"Congressional District 1 (109th Congress), Illinois",14.5
+2005,"Congressional District 2 (109th Congress), Illinois",15.4
+2005,"Congressional District 3 (109th Congress), Illinois",8.7
+2005,"Congressional District 4 (109th Congress), Illinois",9.3
+2005,"Congressional District 5 (109th Congress), Illinois",6.9
+2005,"Congressional District 6 (109th Congress), Illinois",5.7
+2005,"Congressional District 7 (109th Congress), Illinois",10.6
+2005,"Congressional District 8 (109th Congress), Illinois",5.9
+2005,"Congressional District 9 (109th Congress), Illinois",6.6
+2005,"Congressional District 10 (109th Congress), Illinois",5.4
+2005,"Congressional District 11 (109th Congress), Illinois",7.5
+2005,"Congressional District 12 (109th Congress), Illinois",9.8
+2005,"Congressional District 13 (109th Congress), Illinois",5.6
+2005,"Congressional District 14 (109th Congress), Illinois",6.0
+2005,"Congressional District 15 (109th Congress), Illinois",7.3
+2005,"Congressional District 16 (109th Congress), Illinois",7.3
+2005,"Congressional District 17 (109th Congress), Illinois",7.9
+2005,"Congressional District 18 (109th Congress), Illinois",6.0
+2005,"Congressional District 19 (109th Congress), Illinois",6.2
+2005,"Congressional District 1 (109th Congress), Indiana",8.1
+2005,"Congressional District 2 (109th Congress), Indiana",7.4
+2005,"Congressional District 3 (109th Congress), Indiana",6.4
+2005,"Congressional District 4 (109th Congress), Indiana",6.1
+2005,"Congressional District 5 (109th Congress), Indiana",5.2
+2005,"Congressional District 6 (109th Congress), Indiana",7.2
+2005,"Congressional District 7 (109th Congress), Indiana",10.6
+2005,"Congressional District 8 (109th Congress), Indiana",5.8
+2005,"Congressional District 9 (109th Congress), Indiana",6.2
+2005,"Congressional District 1 (109th Congress), Iowa",5.4
+2005,"Congressional District 2 (109th Congress), Iowa",5.9
+2005,"Congressional District 3 (109th Congress), Iowa",5.0
+2005,"Congressional District 4 (109th Congress), Iowa",4.2
+2005,"Congressional District 5 (109th Congress), Iowa",5.1
+2005,"Congressional District 1 (109th Congress), Kansas",4.5
+2005,"Congressional District 2 (109th Congress), Kansas",5.4
+2005,"Congressional District 3 (109th Congress), Kansas",5.2
+2005,"Congressional District 4 (109th Congress), Kansas",7.0
+2005,"Congressional District 1 (109th Congress), Kentucky",7.4
+2005,"Congressional District 2 (109th Congress), Kentucky",7.1
+2005,"Congressional District 3 (109th Congress), Kentucky",7.7
+2005,"Congressional District 4 (109th Congress), Kentucky",6.9
+2005,"Congressional District 5 (109th Congress), Kentucky",10.2
+2005,"Congressional District 6 (109th Congress), Kentucky",6.6
+2005,"Congressional District 1 (109th Congress), Louisiana",7.5
+2005,"Congressional District 2 (109th Congress), Louisiana",13.3
+2005,"Congressional District 3 (109th Congress), Louisiana",8.4
+2005,"Congressional District 4 (109th Congress), Louisiana",9.0
+2005,"Congressional District 5 (109th Congress), Louisiana",10.0
+2005,"Congressional District 6 (109th Congress), Louisiana",7.1
+2005,"Congressional District 7 (109th Congress), Louisiana",8.2
+2005,"Congressional District 1 (109th Congress), Maine",4.3
+2005,"Congressional District 2 (109th Congress), Maine",7.3
+2005,"Congressional District 1 (109th Congress), Maryland",4.5
+2005,"Congressional District 2 (109th Congress), Maryland",6.5
+2005,"Congressional District 3 (109th Congress), Maryland",4.6
+2005,"Congressional District 4 (109th Congress), Maryland",6.8
+2005,"Congressional District 5 (109th Congress), Maryland",4.4
+2005,"Congressional District 6 (109th Congress), Maryland",4.5
+2005,"Congressional District 7 (109th Congress), Maryland",10.0
+2005,"Congressional District 8 (109th Congress), Maryland",5.1
+2005,"Congressional District 1 (109th Congress), Massachusetts",6.9
+2005,"Congressional District 2 (109th Congress), Massachusetts",7.2
+2005,"Congressional District 3 (109th Congress), Massachusetts",6.0
+2005,"Congressional District 4 (109th Congress), Massachusetts",6.4
+2005,"Congressional District 5 (109th Congress), Massachusetts",5.0
+2005,"Congressional District 6 (109th Congress), Massachusetts",5.1
+2005,"Congressional District 7 (109th Congress), Massachusetts",6.2
+2005,"Congressional District 8 (109th Congress), Massachusetts",8.2
+2005,"Congressional District 9 (109th Congress), Massachusetts",6.6
+2005,"Congressional District 10 (109th Congress), Massachusetts",6.4
+2005,"Congressional District 1 (109th Congress), Michigan",8.5
+2005,"Congressional District 2 (109th Congress), Michigan",8.2
+2005,"Congressional District 3 (109th Congress), Michigan",7.7
+2005,"Congressional District 4 (109th Congress), Michigan",8.5
+2005,"Congressional District 5 (109th Congress), Michigan",9.1
+2005,"Congressional District 6 (109th Congress), Michigan",8.9
+2005,"Congressional District 7 (109th Congress), Michigan",7.9
+2005,"Congressional District 8 (109th Congress), Michigan",6.7
+2005,"Congressional District 9 (109th Congress), Michigan",6.2
+2005,"Congressional District 10 (109th Congress), Michigan",8.7
+2005,"Congressional District 11 (109th Congress), Michigan",6.4
+2005,"Congressional District 12 (109th Congress), Michigan",8.7
+2005,"Congressional District 13 (109th Congress), Michigan",17.3
+2005,"Congressional District 14 (109th Congress), Michigan",17.0
+2005,"Congressional District 15 (109th Congress), Michigan",8.0
+2005,"Congressional District 1 (109th Congress), Minnesota",4.6
+2005,"Congressional District 2 (109th Congress), Minnesota",4.7
+2005,"Congressional District 3 (109th Congress), Minnesota",4.3
+2005,"Congressional District 4 (109th Congress), Minnesota",6.6
+2005,"Congressional District 5 (109th Congress), Minnesota",7.9
+2005,"Congressional District 6 (109th Congress), Minnesota",4.7
+2005,"Congressional District 7 (109th Congress), Minnesota",5.3
+2005,"Congressional District 8 (109th Congress), Minnesota",6.6
+2005,"Congressional District 1 (109th Congress), Mississippi",8.0
+2005,"Congressional District 2 (109th Congress), Mississippi",12.8
+2005,"Congressional District 3 (109th Congress), Mississippi",7.7
+2005,"Congressional District 4 (109th Congress), Mississippi",9.1
+2005,"Congressional District 1 (109th Congress), Missouri",9.8
+2005,"Congressional District 2 (109th Congress), Missouri",4.1
+2005,"Congressional District 3 (109th Congress), Missouri",6.5
+2005,"Congressional District 4 (109th Congress), Missouri",6.8
+2005,"Congressional District 5 (109th Congress), Missouri",7.7
+2005,"Congressional District 6 (109th Congress), Missouri",5.9
+2005,"Congressional District 7 (109th Congress), Missouri",5.6
+2005,"Congressional District 8 (109th Congress), Missouri",8.4
+2005,"Congressional District 9 (109th Congress), Missouri",6.1
+2005,"Congressional District (at Large) (109th Congress), Montana",5.3
+2005,"Congressional District 1 (109th Congress), Nebraska",4.4
+2005,"Congressional District 2 (109th Congress), Nebraska",6.5
+2005,"Congressional District 3 (109th Congress), Nebraska",3.8
+2005,"Congressional District 1 (109th Congress), Nevada",6.3
+2005,"Congressional District 2 (109th Congress), Nevada",5.1
+2005,"Congressional District 3 (109th Congress), Nevada",6.0
+2005,"Congressional District 1 (109th Congress), New Hampshire",4.7
+2005,"Congressional District 2 (109th Congress), New Hampshire",5.0
+2005,"Congressional District 1 (109th Congress), New Jersey",7.2
+2005,"Congressional District 2 (109th Congress), New Jersey",7.2
+2005,"Congressional District 3 (109th Congress), New Jersey",6.1
+2005,"Congressional District 4 (109th Congress), New Jersey",5.1
+2005,"Congressional District 5 (109th Congress), New Jersey",4.0
+2005,"Congressional District 6 (109th Congress), New Jersey",6.2
+2005,"Congressional District 7 (109th Congress), New Jersey",4.0
+2005,"Congressional District 8 (109th Congress), New Jersey",7.1
+2005,"Congressional District 9 (109th Congress), New Jersey",7.2
+2005,"Congressional District 10 (109th Congress), New Jersey",11.0
+2005,"Congressional District 11 (109th Congress), New Jersey",5.0
+2005,"Congressional District 12 (109th Congress), New Jersey",5.5
+2005,"Congressional District 13 (109th Congress), New Jersey",6.8
+2005,"Congressional District 1 (109th Congress), New Mexico",7.2
+2005,"Congressional District 2 (109th Congress), New Mexico",8.4
+2005,"Congressional District 3 (109th Congress), New Mexico",6.3
+2005,"Congressional District 1 (109th Congress), New York",4.5
+2005,"Congressional District 2 (109th Congress), New York",4.5
+2005,"Congressional District 3 (109th Congress), New York",4.5
+2005,"Congressional District 4 (109th Congress), New York",3.9
+2005,"Congressional District 5 (109th Congress), New York",6.3
+2005,"Congressional District 6 (109th Congress), New York",8.8
+2005,"Congressional District 7 (109th Congress), New York",8.5
+2005,"Congressional District 8 (109th Congress), New York",5.9
+2005,"Congressional District 9 (109th Congress), New York",7.2
+2005,"Congressional District 10 (109th Congress), New York",10.5
+2005,"Congressional District 11 (109th Congress), New York",9.3
+2005,"Congressional District 12 (109th Congress), New York",9.4
+2005,"Congressional District 13 (109th Congress), New York",7.0
+2005,"Congressional District 14 (109th Congress), New York",5.4
+2005,"Congressional District 15 (109th Congress), New York",10.4
+2005,"Congressional District 16 (109th Congress), New York",13.9
+2005,"Congressional District 17 (109th Congress), New York",8.4
+2005,"Congressional District 18 (109th Congress), New York",5.4
+2005,"Congressional District 19 (109th Congress), New York",5.4
+2005,"Congressional District 20 (109th Congress), New York",4.8
+2005,"Congressional District 21 (109th Congress), New York",6.8
+2005,"Congressional District 22 (109th Congress), New York",7.2
+2005,"Congressional District 23 (109th Congress), New York",7.1
+2005,"Congressional District 24 (109th Congress), New York",6.9
+2005,"Congressional District 25 (109th Congress), New York",6.6
+2005,"Congressional District 26 (109th Congress), New York",5.5
+2005,"Congressional District 27 (109th Congress), New York",9.1
+2005,"Congressional District 28 (109th Congress), New York",8.8
+2005,"Congressional District 29 (109th Congress), New York",6.3
+2005,"Congressional District 1 (109th Congress), North Carolina",10.2
+2005,"Congressional District 2 (109th Congress), North Carolina",6.5
+2005,"Congressional District 3 (109th Congress), North Carolina",6.7
+2005,"Congressional District 4 (109th Congress), North Carolina",5.6
+2005,"Congressional District 5 (109th Congress), North Carolina",5.2
+2005,"Congressional District 6 (109th Congress), North Carolina",6.8
+2005,"Congressional District 7 (109th Congress), North Carolina",7.2
+2005,"Congressional District 8 (109th Congress), North Carolina",8.5
+2005,"Congressional District 9 (109th Congress), North Carolina",6.3
+2005,"Congressional District 10 (109th Congress), North Carolina",7.4
+2005,"Congressional District 11 (109th Congress), North Carolina",5.9
+2005,"Congressional District 12 (109th Congress), North Carolina",9.6
+2005,"Congressional District 13 (109th Congress), North Carolina",7.1
+2005,"Congressional District (at Large) (109th Congress), North Dakota",3.8
+2005,"Congressional District 1 (109th Congress), Ohio",8.0
+2005,"Congressional District 2 (109th Congress), Ohio",6.9
+2005,"Congressional District 3 (109th Congress), Ohio",7.3
+2005,"Congressional District 4 (109th Congress), Ohio",6.7
+2005,"Congressional District 5 (109th Congress), Ohio",6.3
+2005,"Congressional District 6 (109th Congress), Ohio",7.8
+2005,"Congressional District 7 (109th Congress), Ohio",7.4
+2005,"Congressional District 8 (109th Congress), Ohio",6.4
+2005,"Congressional District 9 (109th Congress), Ohio",8.2
+2005,"Congressional District 10 (109th Congress), Ohio",7.3
+2005,"Congressional District 11 (109th Congress), Ohio",13.6
+2005,"Congressional District 12 (109th Congress), Ohio",6.1
+2005,"Congressional District 13 (109th Congress), Ohio",6.8
+2005,"Congressional District 14 (109th Congress), Ohio",5.7
+2005,"Congressional District 15 (109th Congress), Ohio",6.6
+2005,"Congressional District 16 (109th Congress), Ohio",6.7
+2005,"Congressional District 17 (109th Congress), Ohio",7.7
+2005,"Congressional District 18 (109th Congress), Ohio",8.8
+2005,"Congressional District 1 (109th Congress), Oklahoma",6.0
+2005,"Congressional District 2 (109th Congress), Oklahoma",7.9
+2005,"Congressional District 3 (109th Congress), Oklahoma",5.6
+2005,"Congressional District 4 (109th Congress), Oklahoma",5.4
+2005,"Congressional District 5 (109th Congress), Oklahoma",8.1
+2005,"Congressional District 1 (109th Congress), Oregon",6.8
+2005,"Congressional District 2 (109th Congress), Oregon",6.8
+2005,"Congressional District 3 (109th Congress), Oregon",8.4
+2005,"Congressional District 4 (109th Congress), Oregon",8.0
+2005,"Congressional District 5 (109th Congress), Oregon",7.6
+2005,"Congressional District 1 (109th Congress), Pennsylvania",14.3
+2005,"Congressional District 2 (109th Congress), Pennsylvania",12.1
+2005,"Congressional District 3 (109th Congress), Pennsylvania",6.3
+2005,"Congressional District 4 (109th Congress), Pennsylvania",5.6
+2005,"Congressional District 5 (109th Congress), Pennsylvania",6.5
+2005,"Congressional District 6 (109th Congress), Pennsylvania",4.4
+2005,"Congressional District 7 (109th Congress), Pennsylvania",5.1
+2005,"Congressional District 8 (109th Congress), Pennsylvania",4.6
+2005,"Congressional District 9 (109th Congress), Pennsylvania",5.9
+2005,"Congressional District 10 (109th Congress), Pennsylvania",6.9
+2005,"Congressional District 11 (109th Congress), Pennsylvania",8.4
+2005,"Congressional District 12 (109th Congress), Pennsylvania",7.6
+2005,"Congressional District 13 (109th Congress), Pennsylvania",6.3
+2005,"Congressional District 14 (109th Congress), Pennsylvania",9.0
+2005,"Congressional District 15 (109th Congress), Pennsylvania",6.8
+2005,"Congressional District 16 (109th Congress), Pennsylvania",4.5
+2005,"Congressional District 17 (109th Congress), Pennsylvania",5.6
+2005,"Congressional District 18 (109th Congress), Pennsylvania",5.3
+2005,"Congressional District 19 (109th Congress), Pennsylvania",5.4
+2005,"Congressional District 1 (109th Congress), Rhode Island",6.4
+2005,"Congressional District 2 (109th Congress), Rhode Island",5.9
+2005,"Congressional District 1 (109th Congress), South Carolina",5.4
+2005,"Congressional District 2 (109th Congress), South Carolina",6.2
+2005,"Congressional District 3 (109th Congress), South Carolina",8.5
+2005,"Congressional District 4 (109th Congress), South Carolina",7.6
+2005,"Congressional District 5 (109th Congress), South Carolina",10.6
+2005,"Congressional District 6 (109th Congress), South Carolina",10.5
+2005,"Congressional District (at Large) (109th Congress), South Dakota",4.9
+2005,"Congressional District 1 (109th Congress), Tennessee",6.8
+2005,"Congressional District 2 (109th Congress), Tennessee",6.6
+2005,"Congressional District 3 (109th Congress), Tennessee",6.5
+2005,"Congressional District 4 (109th Congress), Tennessee",7.8
+2005,"Congressional District 5 (109th Congress), Tennessee",6.3
+2005,"Congressional District 6 (109th Congress), Tennessee",6.5
+2005,"Congressional District 7 (109th Congress), Tennessee",5.5
+2005,"Congressional District 8 (109th Congress), Tennessee",8.2
+2005,"Congressional District 9 (109th Congress), Tennessee",10.6
+2005,"Congressional District 1 (109th Congress), Texas",8.4
+2005,"Congressional District 2 (109th Congress), Texas",7.7
+2005,"Congressional District 3 (109th Congress), Texas",5.3
+2005,"Congressional District 4 (109th Congress), Texas",7.7
+2005,"Congressional District 5 (109th Congress), Texas",8.5
+2005,"Congressional District 6 (109th Congress), Texas",7.8
+2005,"Congressional District 7 (109th Congress), Texas",4.8
+2005,"Congressional District 8 (109th Congress), Texas",8.9
+2005,"Congressional District 9 (109th Congress), Texas",9.2
+2005,"Congressional District 10 (109th Congress), Texas",6.9
+2005,"Congressional District 11 (109th Congress), Texas",4.3
+2005,"Congressional District 12 (109th Congress), Texas",6.6
+2005,"Congressional District 13 (109th Congress), Texas",5.8
+2005,"Congressional District 14 (109th Congress), Texas",8.2
+2005,"Congressional District 15 (109th Congress), Texas",9.8
+2005,"Congressional District 16 (109th Congress), Texas",11.7
+2005,"Congressional District 17 (109th Congress), Texas",8.5
+2005,"Congressional District 18 (109th Congress), Texas",10.8
+2005,"Congressional District 19 (109th Congress), Texas",6.4
+2005,"Congressional District 20 (109th Congress), Texas",7.4
+2005,"Congressional District 21 (109th Congress), Texas",5.0
+2005,"Congressional District 22 (109th Congress), Texas",6.8
+2005,"Congressional District 23 (109th Congress), Texas",5.3
+2005,"Congressional District 24 (109th Congress), Texas",6.6
+2005,"Congressional District 25 (109th Congress), Texas",9.5
+2005,"Congressional District 26 (109th Congress), Texas",6.3
+2005,"Congressional District 27 (109th Congress), Texas",8.0
+2005,"Congressional District 28 (109th Congress), Texas",9.4
+2005,"Congressional District 29 (109th Congress), Texas",12.0
+2005,"Congressional District 30 (109th Congress), Texas",10.3
+2005,"Congressional District 31 (109th Congress), Texas",6.9
+2005,"Congressional District 32 (109th Congress), Texas",7.1
+2005,"Congressional District 1 (109th Congress), Utah",5.5
+2005,"Congressional District 2 (109th Congress), Utah",5.3
+2005,"Congressional District 3 (109th Congress), Utah",5.3
+2005,"Congressional District (at Large) (109th Congress), Vermont",5.3
+2005,"Congressional District 1 (109th Congress), Virginia",4.4
+2005,"Congressional District 2 (109th Congress), Virginia",5.4
+2005,"Congressional District 3 (109th Congress), Virginia",8.9
+2005,"Congressional District 4 (109th Congress), Virginia",6.4
+2005,"Congressional District 5 (109th Congress), Virginia",7.0
+2005,"Congressional District 6 (109th Congress), Virginia",4.4
+2005,"Congressional District 7 (109th Congress), Virginia",4.5
+2005,"Congressional District 8 (109th Congress), Virginia",3.6
+2005,"Congressional District 9 (109th Congress), Virginia",7.0
+2005,"Congressional District 10 (109th Congress), Virginia",3.6
+2005,"Congressional District 11 (109th Congress), Virginia",3.8
+2005,"Congressional District 1 (109th Congress), Washington",5.8
+2005,"Congressional District 2 (109th Congress), Washington",6.0
+2005,"Congressional District 3 (109th Congress), Washington",8.2
+2005,"Congressional District 4 (109th Congress), Washington",9.4
+2005,"Congressional District 5 (109th Congress), Washington",7.9
+2005,"Congressional District 6 (109th Congress), Washington",8.0
+2005,"Congressional District 7 (109th Congress), Washington",6.4
+2005,"Congressional District 8 (109th Congress), Washington",5.7
+2005,"Congressional District 9 (109th Congress), Washington",8.0
+2005,"Congressional District 1 (109th Congress), West Virginia",7.5
+2005,"Congressional District 2 (109th Congress), West Virginia",7.3
+2005,"Congressional District 3 (109th Congress), West Virginia",6.9
+2005,"Congressional District 1 (109th Congress), Wisconsin",6.0
+2005,"Congressional District 2 (109th Congress), Wisconsin",5.2
+2005,"Congressional District 3 (109th Congress), Wisconsin",4.7
+2005,"Congressional District 4 (109th Congress), Wisconsin",12.2
+2005,"Congressional District 5 (109th Congress), Wisconsin",4.7
+2005,"Congressional District 6 (109th Congress), Wisconsin",6.0
+2005,"Congressional District 7 (109th Congress), Wisconsin",5.7
+2005,"Congressional District 8 (109th Congress), Wisconsin",6.3
+2005,"Congressional District (at Large) (109th Congress), Wyoming",5.3
+2005,"Resident Commissioner District (at Large) (109th Congress), Puerto Rico",15.2

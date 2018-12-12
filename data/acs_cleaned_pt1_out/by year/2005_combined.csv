@@ -1,0 +1,438 @@
+year,district,black_pop,total_pop,white_pop,mortgage_cost,median_age,bach_deg_num,high_school_num,median_HH_income,unemp_rate
+2005,"Congressional District 1 (109th Congress), Alabama",180257,643536,442165,615,37.3,57034.0,143509.0,20188.0,6.3
+2005,"Congressional District 2 (109th Congress), Alabama",187758,629035,424567,545,37.2,51116.0,132776.0,20268.0,6.7
+2005,"Congressional District 3 (109th Congress), Alabama",193818,616491,402707,532,36.6,43940.0,134542.0,18797.0,8.8
+2005,"Congressional District 4 (109th Congress), Alabama",30069,634109,582022,468,38.9,34474.0,146741.0,18606.0,6.9
+2005,"Congressional District 5 (109th Congress), Alabama",107583,649666,509757,593,38.6,77298.0,128359.0,22070.0,7.0
+2005,"Congressional District 6 (109th Congress), Alabama",63646,679525,596136,774,37.6,97495.0,125765.0,27068.0,4.2
+2005,"Congressional District 7 (109th Congress), Alabama",381199,590196,196273,571,35.3,37550.0,130291.0,16201.0,11.4
+2005,"Congressional District (at Large) (109th Congress), Alaska",22103,641724,443874,976,33.9,66674.0,112102.0,26161.0,8.6
+2005,"Congressional District 1 (109th Congress), Arizona",7223,674569,450112,619,36.3,50918.0,123808.0,19587.0,8.8
+2005,"Congressional District 2 (109th Congress), Arizona",25123,848603,697394,921,38.6,80340.0,167075.0,25682.0,6.8
+2005,"Congressional District 3 (109th Congress), Arizona",19424,654168,544038,944,36.3,85211.0,104771.0,29186.0,4.2
+2005,"Congressional District 4 (109th Congress), Arizona",44527,676666,441828,747,27.6,29142.0,102778.0,20099.0,8.0
+2005,"Congressional District 5 (109th Congress), Arizona",21953,676482,566335,985,34.9,112789.0,82158.0,29083.0,5.1
+2005,"Congressional District 6 (109th Congress), Arizona",23043,869666,720093,1016,34.4,103139.0,135136.0,29250.0,4.5
+2005,"Congressional District 7 (109th Congress), Arizona",17418,730215,436932,676,30.7,42814.0,127400.0,20044.0,9.1
+2005,"Congressional District 8 (109th Congress), Arizona",22058,699470,584072,772,40.7,97194.0,105770.0,24927.0,5.3
+2005,"Congressional District 1 (109th Congress), Arkansas",108653,658744,534459,504,37.8,41012.0,166285.0,17111.0,7.7
+2005,"Congressional District 2 (109th Congress), Arkansas",135452,678284,509029,672,36.1,74322.0,146581.0,22591.0,6.1
+2005,"Congressional District 3 (109th Congress), Arkansas",15984,722962,630985,598,35.4,66477.0,157963.0,20687.0,5.3
+2005,"Congressional District 4 (109th Congress), Arkansas",154171,641441,460596,473,39.0,41258.0,161024.0,17210.0,9.0
+2005,"Congressional District 1 (109th Congress), California",7015,653052,524535,967,36.6,72362.0,111028.0,23614.0,6.6
+2005,"Congressional District 2 (109th Congress), California",7333,687982,543345,794,36.7,61162.0,122937.0,20541.0,9.4
+2005,"Congressional District 3 (109th Congress), California",36703,733436,534977,1249,35.7,96595.0,109769.0,31105.0,6.4
+2005,"Congressional District 4 (109th Congress), California",6921,711823,617260,1211,39.6,101590.0,111905.0,27813.0,6.2
+2005,"Congressional District 5 (109th Congress), California",98993,664084,328182,939,32.5,68049.0,97542.0,23369.0,8.3
+2005,"Congressional District 6 (109th Congress), California",10511,616098,499064,1513,40.4,109967.0,73626.0,32832.0,6.0
+2005,"Congressional District 7 (109th Congress), California",102525,632578,310771,1395,35.6,76225.0,102372.0,29644.0,7.6
+2005,"Congressional District 8 (109th Congress), California",44277,590357,320956,1223,38.9,142620.0,68124.0,31446.0,6.9
+2005,"Congressional District 9 (109th Congress), California",137618,600061,265114,1139,36.2,90950.0,73172.0,27270.0,9.0
+2005,"Congressional District 10 (109th Congress), California",46150,688345,435056,1574,36.7,106095.0,86758.0,35461.0,6.2
+2005,"Congressional District 11 (109th Congress), California",33000,748682,538309,1563,35.3,99367.0,101946.0,33449.0,6.4
+2005,"Congressional District 12 (109th Congress), California",16264,618033,326275,1544,40.5,132450.0,75703.0,37081.0,6.1
+2005,"Congressional District 13 (109th Congress), California",48372,636098,250407,1451,35.9,95019.0,102647.0,34131.0,8.1
+2005,"Congressional District 14 (109th Congress), California",15057,633985,418035,1574,38.7,123824.0,56199.0,41602.0,6.1
+2005,"Congressional District 15 (109th Congress), California",14451,640335,323644,1497,36.7,113958.0,74939.0,37241.0,7.0
+2005,"Congressional District 16 (109th Congress), California",18635,624586,322078,1592,33.8,86941.0,74856.0,30915.0,7.2
+2005,"Congressional District 17 (109th Congress), California",11496,614457,428994,1288,33.0,64338.0,75560.0,24436.0,8.2
+2005,"Congressional District 18 (109th Congress), California",35269,690722,449574,904,29.2,30760.0,105911.0,17684.0,13.9
+2005,"Congressional District 19 (109th Congress), California",25530,710736,541652,987,33.4,62517.0,114373.0,24639.0,8.1
+2005,"Congressional District 20 (109th Congress), California",32573,635440,344398,666,27.0,16477.0,81923.0,14825.0,14.4
+2005,"Congressional District 21 (109th Congress), California",17527,715887,481728,790,30.0,49468.0,97631.0,20105.0,8.9
+2005,"Congressional District 22 (109th Congress), California",43135,697345,503674,963,33.7,59018.0,122203.0,24436.0,7.6
+2005,"Congressional District 23 (109th Congress), California",17196,637713,463321,1260,31.8,67148.0,78105.0,22420.0,6.3
+2005,"Congressional District 24 (109th Congress), California",10570,654325,498815,1595,38.5,91507.0,87103.0,33014.0,4.3
+2005,"Congressional District 25 (109th Congress), California",65676,737052,463404,1244,32.0,60036.0,118505.0,24937.0,9.3
+2005,"Congressional District 26 (109th Congress), California",37028,674267,435917,1408,38.1,99816.0,89909.0,32179.0,4.7
+2005,"Congressional District 27 (109th Congress), California",35515,660583,372328,1251,35.5,85931.0,100608.0,25705.0,6.5
+2005,"Congressional District 28 (109th Congress), California",21442,660746,362536,1140,32.2,74298.0,75391.0,20963.0,9.2
+2005,"Congressional District 29 (109th Congress), California",36745,625959,337230,1155,38.5,105229.0,91129.0,26195.0,5.6
+2005,"Congressional District 30 (109th Congress), California",14926,625978,506471,1560,39.8,149470.0,61868.0,41971.0,5.3
+2005,"Congressional District 31 (109th Congress), California",25173,627026,249630,799,30.8,48066.0,82176.0,15879.0,9.8
+2005,"Congressional District 32 (109th Congress), California",18412,656869,301689,1088,31.3,44149.0,106588.0,19459.0,7.6
+2005,"Congressional District 33 (109th Congress), California",175237,631055,221667,961,34.2,87406.0,85980.0,21304.0,10.3
+2005,"Congressional District 34 (109th Congress), California",19872,642980,325100,841,28.3,29491.0,86925.0,16416.0,6.8
+2005,"Congressional District 35 (109th Congress), California",208010,694954,230691,958,30.2,43018.0,101834.0,19657.0,9.0
+2005,"Congressional District 36 (109th Congress), California",24531,645474,397498,1278,36.7,118955.0,76396.0,33813.0,4.7
+2005,"Congressional District 37 (109th Congress), California",152635,672447,197678,955,30.5,52020.0,97652.0,20488.0,8.9
+2005,"Congressional District 38 (109th Congress), California",19946,634108,315276,1090,31.3,36854.0,93153.0,20927.0,8.3
+2005,"Congressional District 39 (109th Congress), California",30941,676378,332626,1132,30.4,45763.0,98418.0,21965.0,6.7
+2005,"Congressional District 40 (109th Congress), California",13912,666966,374718,1362,34.6,88963.0,87970.0,27455.0,6.1
+2005,"Congressional District 41 (109th Congress), California",45253,738921,532283,965,33.3,49293.0,130208.0,22716.0,7.5
+2005,"Congressional District 42 (109th Congress), California",11191,660277,417802,1753,36.2,111446.0,78928.0,38026.0,5.4
+2005,"Congressional District 43 (109th Congress), California",89689,711338,439005,1041,27.4,24409.0,105779.0,20523.0,8.5
+2005,"Congressional District 44 (109th Congress), California",40374,775789,496761,1413,31.3,78320.0,107188.0,26699.0,6.7
+2005,"Congressional District 45 (109th Congress), California",48796,761228,478038,1146,34.1,65122.0,128334.0,24159.0,6.5
+2005,"Congressional District 46 (109th Congress), California",12444,652218,430303,1425,38.5,109426.0,76232.0,34492.0,4.8
+2005,"Congressional District 47 (109th Congress), California",12666,634302,294524,1168,27.8,29350.0,84756.0,19806.0,8.1
+2005,"Congressional District 48 (109th Congress), California",9223,673241,483637,1715,38.8,145503.0,65960.0,41266.0,3.7
+2005,"Congressional District 49 (109th Congress), California",25235,706786,439326,1338,32.9,73811.0,104806.0,26330.0,5.5
+2005,"Congressional District 50 (109th Congress), California",10061,688418,497127,1592,37.2,118927.0,73502.0,32764.0,4.6
+2005,"Congressional District 51 (109th Congress), California",43565,664793,370005,1046,31.5,46802.0,91688.0,21485.0,7.2
+2005,"Congressional District 52 (109th Congress), California",38173,675557,534162,1433,35.2,86973.0,91490.0,31974.0,5.2
+2005,"Congressional District 53 (109th Congress), California",39738,566898,383740,1115,32.1,87954.0,68725.0,27068.0,6.7
+2005,"Congressional District 1 (109th Congress), Colorado",58069,602608,439753,888,34.4,95879.0,82493.0,26644.0,6.8
+2005,"Congressional District 2 (109th Congress), Colorado",7913,658330,561217,1221,33.5,116348.0,89087.0,30662.0,6.0
+2005,"Congressional District 3 (109th Congress), Colorado",3209,643636,557143,721,37.0,77116.0,128063.0,21653.0,6.1
+2005,"Congressional District 4 (109th Congress), Colorado",3113,658599,590808,934,33.4,90638.0,109040.0,24384.0,6.2
+2005,"Congressional District 5 (109th Congress), Colorado",33625,641475,528883,956,34.5,82998.0,102695.0,25553.0,6.8
+2005,"Congressional District 6 (109th Congress), Colorado",18178,721347,642985,1482,36.1,147742.0,81101.0,37360.0,4.5
+2005,"Congressional District 7 (109th Congress), Colorado",41622,636249,488265,1006,34.4,74760.0,114194.0,28183.0,7.2
+2005,"Congressional District 1 (109th Congress), Connecticut",93328,677295,501664,989,39.6,86578.0,138812.0,30937.0,7.7
+2005,"Congressional District 2 (109th Congress), Connecticut",17648,674703,606874,1102,39.6,85436.0,148604.0,32041.0,4.7
+2005,"Congressional District 3 (109th Congress), Connecticut",83460,668110,525793,1113,39.0,76656.0,148471.0,30655.0,6.4
+2005,"Congressional District 4 (109th Congress), Connecticut",76444,676963,522665,1551,39.4,116243.0,107680.0,33784.0,6.6
+2005,"Congressional District 5 (109th Congress), Connecticut",38889,697680,599085,1127,38.8,94186.0,132134.0,29527.0,6.3
+2005,"Congressional District (at Large) (109th Congress), Delaware",163052,818587,602213,896,37.9,90574.0,181831.0,27911.0,5.6
+2005,"Delegate District (at Large) (109th Congress), District of Columbia",292445,515118,166813,973,35.9,74565.0,78164.0,31643.0,9.1
+2005,"Congressional District 1 (109th Congress), Florida",87732,641007,511023,705,38.8,66245.0,133252.0,22689.0,6.7
+2005,"Congressional District 2 (109th Congress), Florida",132682,648945,486981,710,37.0,67008.0,123600.0,22091.0,7.1
+2005,"Congressional District 3 (109th Congress), Florida",317538,615663,244811,700,33.4,33680.0,146153.0,19517.0,9.0
+2005,"Congressional District 4 (109th Congress), Florida",101348,665615,517175,854,36.5,80764.0,130783.0,27715.0,5.7
+2005,"Congressional District 5 (109th Congress), Florida",37924,795671,710466,666,43.4,72878.0,206353.0,20907.0,6.2
+2005,"Congressional District 6 (109th Congress), Florida",96612,717375,572005,744,38.7,69552.0,157556.0,22568.0,5.6
+2005,"Congressional District 7 (109th Congress), Florida",70105,746836,630832,867,40.6,92161.0,149061.0,24431.0,4.7
+2005,"Congressional District 8 (109th Congress), Florida",65081,724820,563787,927,36.9,90742.0,133989.0,25306.0,6.0
+2005,"Congressional District 9 (109th Congress), Florida",33806,716257,632412,877,40.6,94172.0,147408.0,26128.0,4.8
+2005,"Congressional District 10 (109th Congress), Florida",31317,630633,561347,799,45.0,80230.0,138235.0,24763.0,5.3
+2005,"Congressional District 11 (109th Congress), Florida",185809,645231,398454,783,35.3,61718.0,130855.0,21897.0,7.3
+2005,"Congressional District 12 (109th Congress), Florida",105260,722870,546357,763,37.1,57871.0,169006.0,21947.0,5.5
+2005,"Congressional District 13 (109th Congress), Florida",32007,713669,638822,849,46.5,89300.0,170930.0,23988.0,5.1
+2005,"Congressional District 14 (109th Congress), Florida",45159,769458,676739,936,44.9,97109.0,182020.0,25628.0,4.8
+2005,"Congressional District 15 (109th Congress), Florida",66138,733821,607953,838,42.0,82129.0,157713.0,22785.0,6.1
+2005,"Congressional District 16 (109th Congress), Florida",51104,728130,623927,828,44.1,69302.0,175843.0,22685.0,6.0
+2005,"Congressional District 17 (109th Congress), Florida",394642,657770,207337,858,32.7,42535.0,132292.0,17715.0,11.6
+2005,"Congressional District 18 (109th Congress), Florida",41519,621856,526561,899,41.2,80574.0,112092.0,19342.0,6.4
+2005,"Congressional District 19 (109th Congress), Florida",64262,709119,578178,963,44.9,98482.0,152691.0,25650.0,5.7
+2005,"Congressional District 20 (109th Congress), Florida",72029,687558,548659,1147,39.3,103855.0,125734.0,29082.0,5.8
+2005,"Congressional District 21 (109th Congress), Florida",55344,673259,553045,1089,38.9,78015.0,114302.0,20737.0,6.4
+2005,"Congressional District 22 (109th Congress), Florida",31599,661636,574857,1190,44.6,114258.0,119206.0,30609.0,4.7
+2005,"Congressional District 23 (109th Congress), Florida",376709,668936,230233,880,32.7,43692.0,143282.0,19728.0,10.0
+2005,"Congressional District 24 (109th Congress), Florida",51523,727351,600792,938,38.3,93934.0,140018.0,24407.0,5.1
+2005,"Congressional District 25 (109th Congress), Florida",66379,759025,598779,1223,33.9,76528.0,127249.0,23355.0,6.6
+2005,"Congressional District 1 (109th Congress), Georgia",136901,640914,465592,638,34.6,52738.0,138683.0,21566.0,7.0
+2005,"Congressional District 2 (109th Congress), Georgia",268894,603237,304684,546,34.2,37689.0,127475.0,18685.0,9.4
+2005,"Congressional District 3 (109th Congress), Georgia",238348,604348,348410,555,35.4,32179.0,143017.0,19269.0,8.5
+2005,"Congressional District 4 (109th Congress), Georgia",340666,626517,207550,990,34.2,90952.0,96102.0,27540.0,9.2
+2005,"Congressional District 5 (109th Congress), Georgia",329344,616802,239963,943,34.1,112440.0,86802.0,27170.0,8.4
+2005,"Congressional District 6 (109th Congress), Georgia",74240,743367,585596,1357,36.6,173139.0,70897.0,37459.0,3.8
+2005,"Congressional District 7 (109th Congress), Georgia",100015,794699,603000,1215,34.5,126742.0,125111.0,32381.0,5.4
+2005,"Congressional District 8 (109th Congress), Georgia",123585,742669,582653,963,35.4,83209.0,149630.0,28545.0,6.6
+2005,"Congressional District 9 (109th Congress), Georgia",97435,702359,579380,699,35.8,57302.0,155992.0,21943.0,7.2
+2005,"Congressional District 10 (109th Congress), Georgia",28822,748180,642538,765,34.6,62915.0,155431.0,24026.0,6.5
+2005,"Congressional District 11 (109th Congress), Georgia",198910,644653,384194,745,33.6,52371.0,141431.0,21143.0,8.3
+2005,"Congressional District 12 (109th Congress), Georgia",263497,609303,315633,688,32.0,43725.0,122454.0,19119.0,8.8
+2005,"Congressional District 13 (109th Congress), Georgia",370739,744094,257727,922,31.5,67428.0,156660.0,24860.0,8.6
+2005,"Congressional District 1 (109th Congress), Hawaii",14970,608588,110505,1088,41.0,89728.0,117986.0,27225.0,3.8
+2005,"Congressional District 2 (109th Congress), Hawaii",9269,629570,198407,1152,35.9,66130.0,135130.0,26291.0,5.0
+2005,"Congressional District 1 (109th Congress), Idaho",2687,735075,671680,779,35.8,72407.0,146234.0,21445.0,5.6
+2005,"Congressional District 2 (109th Congress), Idaho",3244,660559,609599,653,33.4,67189.0,113759.0,20513.0,5.9
+2005,"Congressional District 1 (109th Congress), Illinois",395584,633296,187754,849,35.4,48820.0,120092.0,21939.0,14.5
+2005,"Congressional District 2 (109th Congress), Illinois",456478,671118,154565,930,34.3,58977.0,123946.0,24245.0,15.4
+2005,"Congressional District 3 (109th Congress), Illinois",40282,646509,467850,953,35.5,59165.0,128765.0,26134.0,8.7
+2005,"Congressional District 4 (109th Congress), Illinois",31849,647949,228534,899,28.6,41322.0,96571.0,19162.0,9.3
+2005,"Congressional District 5 (109th Congress), Illinois",16392,611050,447764,1085,36.1,98671.0,99132.0,28035.0,6.9
+2005,"Congressional District 6 (109th Congress), Illinois",18813,650482,524837,1281,37.0,95461.0,111907.0,32321.0,5.7
+2005,"Congressional District 7 (109th Congress), Illinois",335000,599066,202991,1053,34.1,78316.0,78655.0,28017.0,10.6
+2005,"Congressional District 8 (109th Congress), Illinois",28858,716099,589816,1340,35.5,109293.0,116549.0,32982.0,5.9
+2005,"Congressional District 9 (109th Congress), Illinois",57869,579451,399246,1013,39.9,109214.0,75728.0,30583.0,6.6
+2005,"Congressional District 10 (109th Congress), Illinois",27889,646395,542595,1419,38.6,126806.0,71570.0,36326.0,5.4
+2005,"Congressional District 11 (109th Congress), Illinois",51351,696088,594042,881,34.7,62715.0,156048.0,26065.0,7.5
+2005,"Congressional District 12 (109th Congress), Illinois",101653,629650,504924,601,36.2,52719.0,129141.0,21324.0,9.8
+2005,"Congressional District 13 (109th Congress), Illinois",43825,748189,603155,1463,35.8,139272.0,98731.0,36382.0,5.6
+2005,"Congressional District 14 (109th Congress), Illinois",34342,752346,637957,1222,32.7,92241.0,124631.0,27646.0,6.0
+2005,"Congressional District 15 (109th Congress), Illinois",31286,634699,565713,644,35.7,67188.0,139543.0,22345.0,7.3
+2005,"Congressional District 16 (109th Congress), Illinois",38857,702138,609209,911,36.4,69641.0,158912.0,26769.0,7.3
+2005,"Congressional District 17 (109th Congress), Illinois",42445,606797,542228,551,38.8,44941.0,155290.0,20607.0,7.9
+2005,"Congressional District 18 (109th Congress), Illinois",37724,635587,579153,665,38.7,67821.0,148890.0,25011.0,6.0
+2005,"Congressional District 19 (109th Congress), Illinois",13116,633442,603699,594,39.4,57528.0,148930.0,22985.0,6.2
+2005,"Congressional District 1 (109th Congress), Indiana",129624,684232,490482,797,36.6,54587.0,166064.0,23923.0,8.1
+2005,"Congressional District 2 (109th Congress), Indiana",52680,660967,566821,710,36.1,45129.0,167946.0,23381.0,7.4
+2005,"Congressional District 3 (109th Congress), Indiana",39015,690345,600965,712,35.2,56760.0,161029.0,25110.0,6.4
+2005,"Congressional District 4 (109th Congress), Indiana",16000,703149,658922,838,34.9,73623.0,162661.0,25736.0,6.1
+2005,"Congressional District 5 (109th Congress), Indiana",29639,756005,694864,891,35.9,107828.0,151721.0,29931.0,5.2
+2005,"Congressional District 6 (109th Congress), Indiana",23427,651278,612187,652,38.3,46320.0,183048.0,21831.0,7.2
+2005,"Congressional District 7 (109th Congress), Indiana",195688,624585,374641,709,34.5,56544.0,127298.0,22250.0,10.6
+2005,"Congressional District 8 (109th Congress), Indiana",20796,650429,613909,617,38.0,48157.0,169600.0,21835.0,5.8
+2005,"Congressional District 9 (109th Congress), Indiana",15508,672382,634813,658,36.2,45603.0,178975.0,22496.0,6.2
+2005,"Congressional District 1 (109th Congress), Iowa",21504,564773,523240,621,39.0,59182.0,142619.0,23045.0,5.4
+2005,"Congressional District 2 (109th Congress), Iowa",12932,575799,535258,681,37.6,69354.0,125214.0,23480.0,5.9
+2005,"Congressional District 3 (109th Congress), Iowa",20236,596535,543281,761,37.3,76682.0,136543.0,27559.0,5.0
+2005,"Congressional District 4 (109th Congress), Iowa",4619,563115,538786,607,39.2,61789.0,136177.0,23492.0,4.2
+2005,"Congressional District 5 (109th Congress), Iowa",3536,562319,535313,572,40.4,50157.0,151888.0,22484.0,5.1
+2005,"Congressional District 1 (109th Congress), Kansas",9553,630963,557423,522,38.7,56388.0,139994.0,20923.0,4.5
+2005,"Congressional District 2 (109th Congress), Kansas",26626,647206,576329,646,36.0,63699.0,144101.0,22201.0,5.4
+2005,"Congressional District 3 (109th Congress), Kansas",66772,712144,581047,941,34.8,131982.0,97372.0,29163.0,5.2
+2005,"Congressional District 4 (109th Congress), Kansas",44504,672303,554683,665,36.0,68287.0,139243.0,23265.0,7.0
+2005,"Congressional District 1 (109th Congress), Kentucky",45443,651474,590361,485,39.1,37835.0,170746.0,18491.0,7.4
+2005,"Congressional District 2 (109th Congress), Kentucky",35430,695283,637898,591,36.8,45815.0,173001.0,20839.0,7.1
+2005,"Congressional District 3 (109th Congress), Kentucky",133658,668451,502325,732,38.6,74683.0,129083.0,24850.0,7.7
+2005,"Congressional District 4 (109th Congress), Kentucky",18230,698326,663389,690,36.8,55604.0,168797.0,23248.0,6.9
+2005,"Congressional District 5 (109th Congress), Kentucky",3706,668444,654789,375,37.8,27104.0,161902.0,14521.0,10.2
+2005,"Congressional District 6 (109th Congress), Kentucky",55545,676655,597928,682,36.2,71443.0,137964.0,22360.0,6.6
+2005,"Congressional District 1 (109th Congress), Louisiana",97728,656817,524680,735,37.6,80489.0,130489.0,22607.0,7.5
+2005,"Congressional District 2 (109th Congress), Louisiana",386251,598453,181940,683,34.5,55312.0,116162.0,18358.0,13.3
+2005,"Congressional District 3 (109th Congress), Louisiana",165235,641737,450028,549,35.5,37360.0,167951.0,19478.0,8.4
+2005,"Congressional District 4 (109th Congress), Louisiana",209765,624942,391943,518,35.4,48921.0,147399.0,19332.0,9.0
+2005,"Congressional District 5 (109th Congress), Louisiana",197526,599698,387958,504,35.9,42959.0,140931.0,17001.0,10.0
+2005,"Congressional District 6 (109th Congress), Louisiana",209469,635075,404044,693,34.0,63258.0,133825.0,22782.0,7.1
+2005,"Congressional District 7 (109th Congress), Louisiana",159711,633025,454670,512,35.2,46789.0,140872.0,17963.0,8.2
+2005,"Congressional District 1 (109th Congress), Maine",5882,651227,627055,861,41.1,95347.0,146871.0,25310.0,4.3
+2005,"Congressional District 2 (109th Congress), Maine",2906,632446,612470,582,41.3,57397.0,178434.0,20189.0,7.3
+2005,"Congressional District 1 (109th Congress), Maryland",73458,699018,596729,999,39.7,87924.0,147730.0,29635.0,4.5
+2005,"Congressional District 2 (109th Congress), Maryland",220827,677610,412361,916,36.2,64671.0,145919.0,27781.0,6.5
+2005,"Congressional District 3 (109th Congress), Maryland",112448,664785,495777,1074,36.4,102664.0,100296.0,33724.0,4.6
+2005,"Congressional District 4 (109th Congress), Maryland",393095,684109,191970,1302,35.4,82181.0,107703.0,34416.0,6.8
+2005,"Congressional District 5 (109th Congress), Maryland",252146,719639,399468,1349,36.0,85599.0,130145.0,36691.0,4.4
+2005,"Congressional District 6 (109th Congress), Maryland",30964,700023,637453,1004,38.3,82583.0,152526.0,30003.0,4.5
+2005,"Congressional District 7 (109th Congress), Maryland",366441,624405,213397,858,37.5,67089.0,107209.0,24473.0,10.0
+2005,"Congressional District 8 (109th Congress), Maryland",115535,691729,409334,1409,37.9,119060.0,63567.0,37331.0,5.1
+2005,"Congressional District 1 (109th Congress), Massachusetts",11218,611889,570828,845,39.2,72834.0,128645.0,25864.0,6.9
+2005,"Congressional District 2 (109th Congress), Massachusetts",38985,639125,533183,887,37.7,71349.0,137817.0,25925.0,7.2
+2005,"Congressional District 3 (109th Congress), Massachusetts",24010,640062,563133,1107,37.7,93599.0,122780.0,30115.0,6.0
+2005,"Congressional District 4 (109th Congress), Massachusetts",15674,613443,548629,1159,39.1,88855.0,102058.0,31796.0,6.4
+2005,"Congressional District 5 (109th Congress), Massachusetts",14557,641884,506271,1215,37.2,84034.0,114685.0,31440.0,5.0
+2005,"Congressional District 6 (109th Congress), Massachusetts",16385,626120,568069,1254,40.5,100757.0,116306.0,31760.0,5.1
+2005,"Congressional District 7 (109th Congress), Massachusetts",30454,595119,485893,1269,39.7,100543.0,111573.0,31349.0,6.2
+2005,"Congressional District 8 (109th Congress), Massachusetts",120696,555569,313595,1232,32.9,84609.0,85499.0,26496.0,8.2
+2005,"Congressional District 9 (109th Congress), Massachusetts",81210,610988,467647,1339,37.4,92785.0,111875.0,31375.0,6.6
+2005,"Congressional District 10 (109th Congress), Massachusetts",9906,648661,599178,1254,41.8,106606.0,132828.0,31507.0,6.4
+2005,"Congressional District 1 (109th Congress), Michigan",846,646075,615579,566,42.2,53803.0,173627.0,19746.0,8.5
+2005,"Congressional District 2 (109th Congress), Michigan",27214,671485,605534,766,36.1,61343.0,148398.0,23325.0,8.2
+2005,"Congressional District 3 (109th Congress), Michigan",54700,672650,565408,808,34.4,72812.0,123312.0,24132.0,7.7
+2005,"Congressional District 4 (109th Congress), Michigan",10635,660152,620199,694,38.4,56508.0,155651.0,21256.0,8.5
+2005,"Congressional District 5 (109th Congress), Michigan",118629,643726,495730,688,36.4,49212.0,145255.0,22598.0,9.1
+2005,"Congressional District 6 (109th Congress), Michigan",56467,653621,566401,701,37.1,59890.0,138997.0,21920.0,8.9
+2005,"Congressional District 7 (109th Congress), Michigan",32253,664267,600997,782,37.8,61860.0,148770.0,24628.0,7.9
+2005,"Congressional District 8 (109th Congress), Michigan",32671,683207,613278,990,35.7,86312.0,113274.0,28376.0,6.7
+2005,"Congressional District 9 (109th Congress), Michigan",64965,659970,525819,1179,39.7,118132.0,85028.0,35035.0,6.2
+2005,"Congressional District 10 (109th Congress), Michigan",15243,710286,667805,952,37.8,59932.0,160104.0,27184.0,8.7
+2005,"Congressional District 11 (109th Congress), Michigan",50653,700201,590535,1095,37.8,96817.0,122103.0,32566.0,6.4
+2005,"Congressional District 12 (109th Congress), Michigan",105937,639254,498814,870,37.7,63632.0,140371.0,26690.0,8.7
+2005,"Congressional District 13 (109th Congress), Michigan",354493,593816,188092,749,33.0,32968.0,118794.0,17919.0,17.3
+2005,"Congressional District 14 (109th Congress), Michigan",373173,610728,212956,795,35.3,35968.0,131958.0,21301.0,17.0
+2005,"Congressional District 15 (109th Congress), Michigan",81131,656145,523461,929,34.5,68124.0,120817.0,26447.0,8.0
+2005,"Congressional District 1 (109th Congress), Minnesota",7656,604740,569401,672,38.1,65760.0,130314.0,24414.0,4.6
+2005,"Congressional District 2 (109th Congress), Minnesota",18374,689400,622651,1254,34.9,108108.0,108176.0,33613.0,4.7
+2005,"Congressional District 3 (109th Congress), Minnesota",38217,634853,539610,1243,39.0,128718.0,89342.0,34821.0,4.3
+2005,"Congressional District 4 (109th Congress), Minnesota",47771,576259,453799,950,36.4,86990.0,96885.0,28725.0,6.6
+2005,"Congressional District 5 (109th Congress), Minnesota",76578,567479,400628,905,34.2,101416.0,85988.0,27102.0,7.9
+2005,"Congressional District 6 (109th Congress), Minnesota",11377,691691,645749,1166,34.4,88971.0,125247.0,31112.0,4.7
+2005,"Congressional District 7 (109th Congress), Minnesota",2584,600193,563350,587,39.0,52858.0,137216.0,21557.0,5.3
+2005,"Congressional District 8 (109th Congress), Minnesota",2603,625233,594852,678,39.7,57661.0,150384.0,21674.0,6.6
+2005,"Congressional District 1 (109th Congress), Mississippi",195395,732298,520078,555,35.9,49510.0,166901.0,18824.0,8.0
+2005,"Congressional District 2 (109th Congress), Mississippi",432091,663479,216655,551,33.9,50000.0,117668.0,16298.0,12.8
+2005,"Congressional District 3 (109th Congress), Mississippi",240403,709704,449688,567,36.2,66708.0,135319.0,19655.0,7.7
+2005,"Congressional District 4 (109th Congress), Mississippi",162186,718675,530023,578,36.0,52133.0,155673.0,19307.0,9.1
+2005,"Congressional District 1 (109th Congress), Missouri",314002,583541,245043,745,36.5,55758.0,112895.0,23236.0,9.8
+2005,"Congressional District 2 (109th Congress), Missouri",18728,673242,622957,1083,38.5,116777.0,102855.0,32040.0,4.1
+2005,"Congressional District 3 (109th Congress), Missouri",61403,621291,534953,759,37.6,69729.0,121338.0,26108.0,6.5
+2005,"Congressional District 4 (109th Congress), Missouri",14184,626263,589006,576,38.1,45106.0,170316.0,20277.0,6.8
+2005,"Congressional District 5 (109th Congress), Missouri",147808,620470,429018,788,36.3,71374.0,124016.0,24998.0,7.7
+2005,"Congressional District 6 (109th Congress), Missouri",18564,629878,585494,687,38.0,69567.0,150294.0,24515.0,5.9
+2005,"Congressional District 7 (109th Congress), Missouri",8769,643983,604330,597,36.8,55051.0,154764.0,20181.0,5.6
+2005,"Congressional District 8 (109th Congress), Missouri",25621,620501,576379,459,38.4,31907.0,169508.0,16766.0,8.4
+2005,"Congressional District 9 (109th Congress), Missouri",18899,612741,573147,616,36.5,57480.0,143765.0,21756.0,6.1
+2005,"Congressional District (at Large) (109th Congress), Montana",4135,910651,824721,625,40.2,114067.0,197873.0,20785.0,5.3
+2005,"Congressional District 1 (109th Congress), Nebraska",8400,572745,529147,702,35.8,69572.0,116806.0,24034.0,4.4
+2005,"Congressional District 2 (109th Congress), Nebraska",57159,587927,482646,861,33.6,90872.0,89696.0,26397.0,6.5
+2005,"Congressional District 3 (109th Congress), Nebraska",2830,546304,517678,533,39.9,48420.0,133636.0,20618.0,3.8
+2005,"Congressional District 1 (109th Congress), Nevada",96600,752152,532275,966,33.2,52972.0,153248.0,25167.0,6.3
+2005,"Congressional District 2 (109th Congress), Nevada",18103,754420,625268,930,36.5,74574.0,152305.0,26609.0,5.1
+2005,"Congressional District 3 (109th Congress), Nevada",56151,874709,653992,1151,36.0,90807.0,173119.0,28872.0,6.0
+2005,"Congressional District 1 (109th Congress), New Hampshire",7171,646143,615984,1136,39.8,87193.0,136562.0,29653.0,4.7
+2005,"Congressional District 2 (109th Congress), New Hampshire",3285,626343,598632,1008,39.2,87358.0,129060.0,27416.0,5.0
+2005,"Congressional District 1 (109th Congress), New Jersey",115503,650916,455150,1018,36.4,73943.0,151821.0,26617.0,7.2
+2005,"Congressional District 2 (109th Congress), New Jersey",84073,656659,498883,1015,38.2,68017.0,154744.0,26815.0,7.2
+2005,"Congressional District 3 (109th Congress), New Jersey",60999,684357,575999,1236,40.2,97189.0,157866.0,31075.0,6.1
+2005,"Congressional District 4 (109th Congress), New Jersey",55031,675532,563204,1205,38.8,88198.0,147926.0,30129.0,5.1
+2005,"Congressional District 5 (109th Congress), New Jersey",10770,661926,571211,1595,40.5,116518.0,118327.0,38307.0,4.0
+2005,"Congressional District 6 (109th Congress), New Jersey",97683,636680,403620,1247,36.8,88057.0,128589.0,30817.0,6.2
+2005,"Congressional District 7 (109th Congress), New Jersey",30684,660932,528947,1580,39.4,127686.0,105355.0,40370.0,4.0
+2005,"Congressional District 8 (109th Congress), New Jersey",85492,641671,369444,1206,37.2,82027.0,123011.0,27750.0,7.1
+2005,"Congressional District 9 (109th Congress), New Jersey",49090,653934,439670,1169,39.3,102011.0,138117.0,31089.0,7.2
+2005,"Congressional District 10 (109th Congress), New Jersey",371052,641021,169315,976,33.8,59622.0,137376.0,23053.0,11.0
+2005,"Congressional District 11 (109th Congress), New Jersey",15533,662801,563728,1681,39.6,131781.0,95410.0,41213.0,5.0
+2005,"Congressional District 12 (109th Congress), New Jersey",70676,668015,484540,1574,38.3,121749.0,99225.0,39075.0,5.5
+2005,"Congressional District 13 (109th Congress), New Jersey",84381,626983,331215,985,34.1,75298.0,112663.0,24507.0,6.8
+2005,"Congressional District 1 (109th Congress), New Mexico",16205,640640,460396,774,36.3,70630.0,106168.0,23246.0,7.2
+2005,"Congressional District 2 (109th Congress), New Mexico",9566,610044,442242,489,36.1,42622.0,120489.0,16388.0,8.4
+2005,"Congressional District 3 (109th Congress), New Mexico",9833,636516,409191,630,36.1,58752.0,118892.0,21109.0,6.3
+2005,"Congressional District 1 (109th Congress), New York",30702,671433,589680,1625,38.6,78191.0,135590.0,35704.0,4.5
+2005,"Congressional District 2 (109th Congress), New York",66745,663555,525544,1770,37.7,84819.0,134446.0,34454.0,4.5
+2005,"Congressional District 3 (109th Congress), New York",11495,632873,567388,1752,41.2,88438.0,137417.0,36605.0,4.5
+2005,"Congressional District 4 (109th Congress), New York",128795,653818,417656,1585,39.0,89695.0,122814.0,33253.0,3.9
+2005,"Congressional District 5 (109th Congress), New York",26297,639410,362577,1177,40.5,100204.0,109847.0,27447.0,6.3
+2005,"Congressional District 6 (109th Congress), New York",356594,649516,115446,1168,35.8,61613.0,132897.0,26264.0,8.8
+2005,"Congressional District 7 (109th Congress), New York",110478,656162,267263,933,35.9,63071.0,147675.0,24375.0,8.5
+2005,"Congressional District 8 (109th Congress), New York",38767,683778,513116,1196,37.4,148954.0,86067.0,36330.0,5.9
+2005,"Congressional District 9 (109th Congress), New York",29254,634440,433223,1040,40.4,99408.0,135684.0,29045.0,7.2
+2005,"Congressional District 10 (109th Congress), New York",420130,660270,132015,884,33.2,53141.0,127900.0,22200.0,10.5
+2005,"Congressional District 11 (109th Congress), New York",377946,648527,183022,948,33.3,80181.0,124396.0,25604.0,9.3
+2005,"Congressional District 12 (109th Congress), New York",64386,619184,285054,880,34.3,59702.0,114804.0,19755.0,9.4
+2005,"Congressional District 13 (109th Congress), New York",46408,669362,491235,1125,37.4,75644.0,153064.0,29640.0,7.0
+2005,"Congressional District 14 (109th Congress), New York",29022,646804,476928,1363,38.3,180712.0,68439.0,45697.0,5.4
+2005,"Congressional District 15 (109th Congress), New York",190330,633679,171343,751,35.3,76421.0,88032.0,20263.0,10.4
+2005,"Congressional District 16 (109th Congress), New York",202782,655639,89065,732,28.1,22315.0,103792.0,13514.0,13.9
+2005,"Congressional District 17 (109th Congress), New York",210530,654942,307317,1020,35.3,71709.0,118453.0,27319.0,8.4
+2005,"Congressional District 18 (109th Congress), New York",60538,639537,478792,1541,39.7,103713.0,92010.0,35891.0,5.4
+2005,"Congressional District 19 (109th Congress), New York",30462,662574,572982,1511,38.3,92739.0,117822.0,36190.0,5.4
+2005,"Congressional District 20 (109th Congress), New York",12067,654640,619976,845,40.4,69554.0,149783.0,26475.0,4.8
+2005,"Congressional District 21 (109th Congress), New York",49510,634066,543878,779,39.0,66006.0,138524.0,26655.0,6.8
+2005,"Congressional District 22 (109th Congress), New York",54133,632325,513340,834,37.7,60640.0,141194.0,22975.0,7.2
+2005,"Congressional District 23 (109th Congress), New York",7763,619357,592253,623,37.8,44898.0,153761.0,21515.0,7.1
+2005,"Congressional District 24 (109th Congress), New York",12922,612464,578504,643,39.6,53564.0,142207.0,21780.0,6.9
+2005,"Congressional District 25 (109th Congress), New York",47470,645491,562047,777,39.0,76440.0,130828.0,26136.0,6.6
+2005,"Congressional District 26 (109th Congress), New York",16332,635883,596894,826,39.8,67607.0,141111.0,26010.0,5.5
+2005,"Congressional District 27 (109th Congress), New York",30787,623156,561911,670,39.9,55133.0,150485.0,22553.0,9.1
+2005,"Congressional District 28 (109th Congress), New York",180805,587960,366972,699,36.2,50334.0,119619.0,20463.0,8.8
+2005,"Congressional District 29 (109th Congress), New York",14612,634430,593222,745,40.0,68858.0,141292.0,23642.0,6.3
+2005,"Congressional District 1 (109th Congress), North Carolina",309106,596939,261792,595,36.8,34395.0,134085.0,16713.0,10.2
+2005,"Congressional District 2 (109th Congress), North Carolina",183108,630166,397506,733,34.3,46885.0,132500.0,22228.0,6.5
+2005,"Congressional District 3 (109th Congress), North Carolina",91991,610367,479638,715,36.3,60388.0,121049.0,22595.0,6.7
+2005,"Congressional District 4 (109th Congress), North Carolina",135517,693159,474824,978,34.5,135734.0,74430.0,31641.0,5.6
+2005,"Congressional District 5 (109th Congress), North Carolina",46057,637364,564161,644,38.9,65043.0,136810.0,21769.0,5.2
+2005,"Congressional District 6 (109th Congress), North Carolina",67473,658250,557439,730,38.8,77990.0,137822.0,24100.0,6.8
+2005,"Congressional District 7 (109th Congress), North Carolina",135671,656703,432479,655,36.4,63596.0,138104.0,18757.0,7.2
+2005,"Congressional District 8 (109th Congress), North Carolina",179605,638700,395035,728,34.2,56389.0,134130.0,21474.0,8.5
+2005,"Congressional District 9 (109th Congress), North Carolina",93268,733818,594125,1002,35.5,132176.0,107501.0,30069.0,6.3
+2005,"Congressional District 10 (109th Congress), North Carolina",57636,639117,544486,597,38.3,54234.0,148800.0,20748.0,7.4
+2005,"Congressional District 11 (109th Congress), North Carolina",25143,633115,577853,575,41.1,69620.0,136137.0,20976.0,5.9
+2005,"Congressional District 12 (109th Congress), North Carolina",272405,630020,301371,742,33.5,58650.0,124383.0,21463.0,9.6
+2005,"Congressional District 13 (109th Congress), North Carolina",168718,653323,424762,777,35.0,96409.0,113104.0,24235.0,7.1
+2005,"Congressional District (at Large) (109th Congress), North Dakota",4981,609645,557952,531,39.1,77591.0,119819.0,22563.0,3.8
+2005,"Congressional District 1 (109th Congress), Ohio",166531,586819,394929,740,36.7,58037.0,134522.0,23785.0,8.0
+2005,"Congressional District 2 (109th Congress), Ohio",31763,644431,590739,885,37.5,84634.0,133988.0,26132.0,6.9
+2005,"Congressional District 3 (109th Congress), Ohio",103882,629544,503445,765,38.0,64614.0,137614.0,24879.0,7.3
+2005,"Congressional District 4 (109th Congress), Ohio",21870,610254,566974,651,37.8,40458.0,183426.0,22492.0,6.7
+2005,"Congressional District 5 (109th Congress), Ohio",6090,614878,587164,679,37.6,39924.0,183001.0,23764.0,6.3
+2005,"Congressional District 6 (109th Congress), Ohio",10251,593432,569754,539,40.6,39192.0,175639.0,19268.0,7.8
+2005,"Congressional District 7 (109th Congress), Ohio",48139,628345,555685,799,36.9,52604.0,155623.0,24915.0,7.4
+2005,"Congressional District 8 (109th Congress), Ohio",31237,629795,573961,776,36.3,50446.0,163211.0,23995.0,6.4
+2005,"Congressional District 9 (109th Congress), Ohio",85108,606199,486794,737,37.3,55361.0,140248.0,23246.0,8.2
+2005,"Congressional District 10 (109th Congress), Ohio",47643,611778,524808,783,39.0,70767.0,142174.0,24233.0,7.3
+2005,"Congressional District 11 (109th Congress), Ohio",325010,554155,203550,752,38.5,50618.0,109174.0,21115.0,13.6
+2005,"Congressional District 12 (109th Congress), Ohio",145225,672635,485256,915,35.0,106329.0,117520.0,29271.0,6.1
+2005,"Congressional District 13 (109th Congress), Ohio",76460,640996,530510,840,38.7,71332.0,146010.0,25254.0,6.8
+2005,"Congressional District 14 (109th Congress), Ohio",21639,651598,608178,952,39.6,86193.0,141437.0,27167.0,5.7
+2005,"Congressional District 15 (109th Congress), Ohio",55214,626845,525692,867,33.9,87009.0,116381.0,27307.0,6.6
+2005,"Congressional District 16 (109th Congress), Ohio",29033,627815,581732,734,38.7,58271.0,173992.0,23075.0,6.7
+2005,"Congressional District 17 (109th Congress), Ohio",68354,595187,510243,659,39.0,46022.0,173644.0,21501.0,7.7
+2005,"Congressional District 18 (109th Congress), Ohio",10459,630900,608606,582,37.7,32929.0,187655.0,20217.0,8.8
+2005,"Congressional District 1 (109th Congress), Oklahoma",62045,699783,526156,708,36.0,90923.0,129277.0,23419.0,6.0
+2005,"Congressional District 2 (109th Congress), Oklahoma",23088,681402,482888,451,38.2,44650.0,172028.0,17327.0,7.9
+2005,"Congressional District 3 (109th Congress), Oklahoma",19480,660052,545455,527,38.0,59064.0,155906.0,20260.0,5.6
+2005,"Congressional District 4 (109th Congress), Oklahoma",44499,697604,551847,617,35.7,63852.0,148564.0,21505.0,5.4
+2005,"Congressional District 5 (109th Congress), Oklahoma",93982,694655,483314,631,35.1,82552.0,115613.0,21577.0,8.1
+2005,"Congressional District 1 (109th Congress), Oregon",8678,739013,615358,961,35.4,111348.0,109348.0,27105.0,6.8
+2005,"Congressional District 2 (109th Congress), Oregon",3114,721136,659416,705,39.0,68067.0,142745.0,21031.0,6.8
+2005,"Congressional District 3 (109th Congress), Oregon",35824,696643,564903,923,36.1,90628.0,117122.0,23816.0,8.4
+2005,"Congressional District 4 (109th Congress), Oregon",4682,694495,631025,728,39.7,68643.0,138402.0,20410.0,8.0
+2005,"Congressional District 5 (109th Congress), Oregon",6011,708822,619027,883,36.6,84783.0,119680.0,23593.0,7.6
+2005,"Congressional District 1 (109th Congress), Pennsylvania",315621,616755,197740,696,33.1,35516.0,140384.0,17031.0,14.3
+2005,"Congressional District 2 (109th Congress), Pennsylvania",343582,568754,178069,730,35.7,58233.0,113172.0,21458.0,12.1
+2005,"Congressional District 3 (109th Congress), Pennsylvania",19516,613076,580473,618,40.4,58724.0,188018.0,20914.0,6.3
+2005,"Congressional District 4 (109th Congress), Pennsylvania",23405,638384,598971,783,41.6,89670.0,156657.0,25074.0,5.6
+2005,"Congressional District 5 (109th Congress), Pennsylvania",3579,604746,586740,563,39.2,48363.0,189672.0,19099.0,6.5
+2005,"Congressional District 6 (109th Congress), Pennsylvania",51123,682399,589728,1101,38.5,105502.0,139574.0,31199.0,4.4
+2005,"Congressional District 7 (109th Congress), Pennsylvania",53994,637800,543422,1122,40.3,103407.0,125598.0,31661.0,5.1
+2005,"Congressional District 8 (109th Congress), Pennsylvania",22840,659034,599838,1211,40.1,95066.0,153066.0,31214.0,4.6
+2005,"Congressional District 9 (109th Congress), Pennsylvania",6728,628995,610159,529,40.7,41967.0,211793.0,20844.0,5.9
+2005,"Congressional District 10 (109th Congress), Pennsylvania",10212,621263,599366,626,41.6,55105.0,191805.0,21340.0,6.9
+2005,"Congressional District 11 (109th Congress), Pennsylvania",25863,644518,593748,669,40.2,52146.0,192607.0,20453.0,8.4
+2005,"Congressional District 12 (109th Congress), Pennsylvania",20856,607549,578432,499,42.1,45863.0,209026.0,19427.0,7.6
+2005,"Congressional District 13 (109th Congress), Pennsylvania",40279,632940,525590,912,40.2,82540.0,154227.0,29625.0,6.3
+2005,"Congressional District 14 (109th Congress), Pennsylvania",132370,571380,411123,649,40.5,62066.0,140320.0,20234.0,9.0
+2005,"Congressional District 15 (109th Congress), Pennsylvania",27411,665540,578060,906,39.2,77260.0,164697.0,26441.0,6.8
+2005,"Congressional District 16 (109th Congress), Pennsylvania",30158,655025,585500,854,36.8,73302.0,155951.0,25512.0,4.5
+2005,"Congressional District 17 (109th Congress), Pennsylvania",45081,627657,554840,682,40.5,56270.0,192487.0,25129.0,5.6
+2005,"Congressional District 18 (109th Congress), Pennsylvania",14954,637083,602773,787,42.5,90682.0,158505.0,25584.0,5.3
+2005,"Congressional District 19 (109th Congress), Pennsylvania",20964,666249,617572,804,39.6,68881.0,183373.0,25925.0,5.4
+2005,"Congressional District 1 (109th Congress), Rhode Island",31043,511049,425093,935,38.2,61509.0,104210.0,26090.0,6.4
+2005,"Congressional District 2 (109th Congress), Rhode Island",20800,521613,431221,1023,38.5,64451.0,101514.0,27833.0,5.9
+2005,"Congressional District 1 (109th Congress), South Carolina",157165,744104,554968,820,36.5,91329.0,144787.0,24296.0,5.4
+2005,"Congressional District 2 (109th Congress), South Carolina",189517,709275,485668,777,36.7,93842.0,126108.0,25539.0,6.2
+2005,"Congressional District 3 (109th Congress), South Carolina",133955,675255,521647,583,37.6,58521.0,150063.0,20795.0,8.5
+2005,"Congressional District 4 (109th Congress), South Carolina",135093,687302,514262,662,37.5,73646.0,137459.0,22617.0,7.6
+2005,"Congressional District 5 (109th Congress), South Carolina",217043,690283,448582,587,36.9,52567.0,155541.0,20564.0,10.6
+2005,"Congressional District 6 (109th Congress), South Carolina",341715,607742,249302,563,37.3,39839.0,142851.0,17005.0,10.5
+2005,"Congressional District (at Large) (109th Congress), South Dakota",6166,746033,656165,576,37.0,85688.0,158891.0,22074.0,4.9
+2005,"Congressional District 1 (109th Congress), Tennessee",11705,639305,610981,500,40.0,49734.0,170944.0,18738.0,6.8
+2005,"Congressional District 2 (109th Congress), Tennessee",38319,663265,602070,642,38.6,73532.0,145396.0,21828.0,6.6
+2005,"Congressional District 3 (109th Congress), Tennessee",70706,633554,542707,585,39.0,58215.0,147032.0,21446.0,6.5
+2005,"Congressional District 4 (109th Congress), Tennessee",26311,647356,603823,500,39.6,38701.0,185954.0,18435.0,7.8
+2005,"Congressional District 5 (109th Congress), Tennessee",152999,615735,426710,772,36.2,78249.0,121987.0,25170.0,6.3
+2005,"Congressional District 6 (109th Congress), Tennessee",47867,693261,612071,679,35.8,62482.0,172455.0,22131.0,6.5
+2005,"Congressional District 7 (109th Congress), Tennessee",82743,692098,578308,881,37.0,96524.0,124287.0,28062.0,5.5
+2005,"Congressional District 8 (109th Congress), Tennessee",146477,630457,464591,564,37.2,38449.0,164279.0,19451.0,8.2
+2005,"Congressional District 9 (109th Congress), Tennessee",377160,595559,184454,763,33.5,56303.0,116410.0,20395.0,10.6
+2005,"Congressional District 1 (109th Congress), Texas",118701,664756,501413,573,36.2,51753.0,139150.0,18819.0,8.4
+2005,"Congressional District 2 (109th Congress), Texas",140554,685115,467028,795,35.9,75606.0,124112.0,25317.0,7.7
+2005,"Congressional District 3 (109th Congress), Texas",89176,793790,539694,1139,32.3,143638.0,82445.0,32652.0,5.3
+2005,"Congressional District 4 (109th Congress), Texas",66648,709717,589224,700,35.8,67293.0,147871.0,22402.0,7.7
+2005,"Congressional District 5 (109th Congress), Texas",82599,669399,526719,772,36.4,63035.0,134711.0,23508.0,8.5
+2005,"Congressional District 6 (109th Congress), Texas",106054,725580,500207,884,33.1,76892.0,125525.0,26055.0,7.8
+2005,"Congressional District 7 (109th Congress), Texas",51625,712888,534278,1033,36.2,146373.0,78662.0,36448.0,4.8
+2005,"Congressional District 8 (109th Congress), Texas",49607,714823,616759,691,35.5,70494.0,153774.0,21951.0,8.9
+2005,"Congressional District 9 (109th Congress), Texas",231046,670003,298225,754,29.7,62428.0,101582.0,19953.0,9.2
+2005,"Congressional District 10 (109th Congress), Texas",65475,792644,618282,1044,33.3,122934.0,114742.0,29856.0,6.9
+2005,"Congressional District 11 (109th Congress), Texas",23439,646112,545437,541,36.8,52427.0,127142.0,20061.0,4.3
+2005,"Congressional District 12 (109th Congress), Texas",40967,730087,559120,851,33.4,73084.0,131655.0,24714.0,6.6
+2005,"Congressional District 13 (109th Congress), Texas",27723,623544,514207,560,36.4,51420.0,123551.0,20445.0,5.8
+2005,"Congressional District 14 (109th Congress), Texas",68369,700548,539024,719,35.6,68744.0,121629.0,22138.0,8.2
+2005,"Congressional District 15 (109th Congress), Texas",14652,722494,535438,493,29.6,43710.0,116044.0,15109.0,9.8
+2005,"Congressional District 16 (109th Congress), Texas",16919,682915,533517,584,30.9,45831.0,93834.0,15512.0,11.7
+2005,"Congressional District 17 (109th Congress), Texas",63255,671846,546574,690,32.5,60161.0,121066.0,19604.0,8.5
+2005,"Congressional District 18 (109th Congress), Texas",233711,625271,271897,697,31.7,39704.0,106390.0,19071.0,10.8
+2005,"Congressional District 19 (109th Congress), Texas",31327,620796,503655,573,33.8,51425.0,112584.0,18641.0,6.4
+2005,"Congressional District 20 (109th Congress), Texas",38085,624254,364919,655,32.1,37571.0,112208.0,19335.0,7.4
+2005,"Congressional District 21 (109th Congress), Texas",29005,742497,605368,1022,36.1,143647.0,90734.0,32374.0,5.0
+2005,"Congressional District 22 (109th Congress), Texas",102468,790889,525185,1075,33.8,111316.0,109878.0,31151.0,6.8
+2005,"Congressional District 23 (109th Congress), Texas",11436,724795,560960,728,34.6,84517.0,101618.0,22016.0,5.3
+2005,"Congressional District 24 (109th Congress), Texas",83849,741456,505419,1031,33.6,117573.0,94145.0,31182.0,6.6
+2005,"Congressional District 25 (109th Congress), Texas",39424,688908,438091,614,29.5,48436.0,106251.0,15422.0,9.5
+2005,"Congressional District 26 (109th Congress), Texas",101350,750608,562446,994,32.5,101541.0,114650.0,27146.0,6.3
+2005,"Congressional District 27 (109th Congress), Texas",14137,676728,542249,637,31.3,44177.0,102135.0,16434.0,8.0
+2005,"Congressional District 28 (109th Congress), Texas",44763,717206,500609,635,29.4,37206.0,126611.0,17049.0,9.4
+2005,"Congressional District 29 (109th Congress), Texas",66910,652649,396441,633,28.7,16140.0,107881.0,16901.0,12.0
+2005,"Congressional District 30 (109th Congress), Texas",249790,625819,261113,771,31.5,40754.0,101815.0,19657.0,10.3
+2005,"Congressional District 31 (109th Congress), Texas",85958,725076,545315,848,32.2,87847.0,118070.0,26693.0,6.9
+2005,"Congressional District 32 (109th Congress), Texas",53328,646952,472443,849,32.8,97590.0,69878.0,24567.0,7.1
+2005,"Congressional District 1 (109th Congress), Utah",10968,802523,720398,859,28.7,86178.0,128066.0,22708.0,5.5
+2005,"Congressional District 2 (109th Congress), Utah",3439,787289,722444,807,31.0,101302.0,112550.0,22536.0,5.3
+2005,"Congressional District 3 (109th Congress), Utah",3918,837538,735935,939,26.3,78872.0,121113.0,21515.0,5.3
+2005,"Congressional District (at Large) (109th Congress), Vermont",2932,602290,581874,849,40.7,84510.0,134142.0,24589.0,5.3
+2005,"Congressional District 1 (109th Congress), Virginia",132897,718099,533336,1065,36.5,86900.0,136578.0,30454.0,4.4
+2005,"Congressional District 2 (109th Congress), Virginia",132543,616889,422953,1021,35.1,74938.0,106586.0,28522.0,5.4
+2005,"Congressional District 3 (109th Congress), Virginia",346507,606959,233467,797,34.7,50674.0,121032.0,22366.0,8.9
+2005,"Congressional District 4 (109th Congress), Virginia",216695,678575,429034,886,36.3,62389.0,139175.0,27285.0,6.4
+2005,"Congressional District 5 (109th Congress), Virginia",143226,637275,470171,591,40.9,54256.0,146336.0,21046.0,7.0
+2005,"Congressional District 6 (109th Congress), Virginia",65669,630257,540818,645,40.2,66281.0,148036.0,22752.0,4.4
+2005,"Congressional District 7 (109th Congress), Virginia",116456,701239,547086,994,38.2,111955.0,118521.0,30517.0,4.5
+2005,"Congressional District 8 (109th Congress), Virginia",83426,638999,439420,1402,37.3,136946.0,65911.0,43984.0,3.6
+2005,"Congressional District 9 (109th Congress), Virginia",21795,615812,580560,433,39.9,42633.0,140792.0,16943.0,7.0
+2005,"Congressional District 10 (109th Congress), Virginia",59283,773667,575863,1625,34.7,141161.0,96949.0,40448.0,3.6
+2005,"Congressional District 11 (109th Congress), Virginia",78695,714837,486573,1791,36.9,135926.0,77694.0,43588.0,3.8
+2005,"Congressional District 1 (109th Congress), Washington",16308,698305,558739,1216,37.9,121114.0,93132.0,32939.0,5.8
+2005,"Congressional District 2 (109th Congress), Washington",7477,692515,612223,989,36.5,74745.0,126731.0,25697.0,6.0
+2005,"Congressional District 3 (109th Congress), Washington",9868,728014,644999,894,36.4,74570.0,137029.0,25839.0,8.2
+2005,"Congressional District 4 (109th Congress), Washington",7151,699682,560220,691,33.4,53372.0,114571.0,20103.0,9.4
+2005,"Congressional District 5 (109th Congress), Washington",6224,655142,589823,654,36.8,67518.0,118343.0,20117.0,7.9
+2005,"Congressional District 6 (109th Congress), Washington",37192,665425,527901,789,37.8,69178.0,132263.0,24006.0,8.0
+2005,"Congressional District 7 (109th Congress), Washington",50839,621207,425021,1017,37.2,139825.0,74336.0,29792.0,6.4
+2005,"Congressional District 8 (109th Congress), Washington",24075,715538,567992,1353,37.2,127675.0,100423.0,35645.0,5.7
+2005,"Congressional District 9 (109th Congress), Washington",43152,670510,501099,979,36.1,72296.0,127086.0,27604.0,8.0
+2005,"Congressional District 1 (109th Congress), West Virginia",9956,580068,557783,480,40.4,44042.0,172184.0,18487.0,7.5
+2005,"Congressional District 2 (109th Congress), West Virginia",22054,613729,576736,521,40.6,48869.0,178319.0,21405.0,7.3
+2005,"Congressional District 3 (109th Congress), West Virginia",22260,577953,547970,396,41.4,33102.0,168257.0,16263.0,6.9
+2005,"Congressional District 1 (109th Congress), Wisconsin",32157,688714,614633,919,38.4,72628.0,161268.0,27850.0,6.0
+2005,"Congressional District 2 (109th Congress), Wisconsin",24903,688666,617140,908,35.9,99275.0,125419.0,27633.0,5.2
+2005,"Congressional District 3 (109th Congress), Wisconsin",3379,673250,649980,725,37.2,64983.0,160387.0,23494.0,4.7
+2005,"Congressional District 4 (109th Congress), Wisconsin",226080,629773,312546,726,32.7,51557.0,124409.0,21768.0,12.2
+2005,"Congressional District 5 (109th Congress), Wisconsin",10386,687865,649617,1083,40.5,122475.0,127377.0,31954.0,4.7
+2005,"Congressional District 6 (109th Congress), Wisconsin",4274,658110,628702,745,39.1,61451.0,180250.0,24847.0,6.0
+2005,"Congressional District 7 (109th Congress), Wisconsin",1779,668862,637890,674,39.9,58007.0,181859.0,22864.0,5.7
+2005,"Congressional District 8 (109th Congress), Wisconsin",4992,680511,623849,767,38.8,72419.0,172059.0,24803.0,6.3
+2005,"Congressional District (at Large) (109th Congress), Wyoming",3317,495226,457681,612,39.1,51488.0,111970.0,22590.0,5.3
+2005,"Resident Commissioner District (at Large) (109th Congress), Puerto Rico",276503,3865280,2953015,253,34.4,,,,15.2

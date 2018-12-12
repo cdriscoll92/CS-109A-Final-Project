@@ -141,7 +141,7 @@
     \def\gt{>}
     \def\lt{<}
     % Document parameters
-    \title{Milestone\_3}
+    \title{Combined notebook}
     
     
     
@@ -280,175 +280,408 @@
     
 
     
-    \section{CS 109A}\label{cs-109a}
+    \section{Combined notebook}\label{combined-notebook}
 
-\subsection{Milestone 3}\label{milestone-3}
-
-\subsubsection{Colleen Driscoll, Oliver Mayor and Pooja
-Tyagi}\label{colleen-driscoll-oliver-mayor-and-pooja-tyagi}
-
-\subsubsection{28 November 2018}\label{november-2018}
-
-    \subsection{Progress Summary}\label{progress-summary}
-
-In Milestone 3, we present the results of exploratory data analysis with
-respect to U.S. House of Representative elections since 1990, dependent
-on data availability.
-
-Because results for the 2018 election are not yet finalized
-(\href{https://www.cnn.com/2018/11/28/politics/why-california-is-still-counting-ballots/index.html}{some
-districts have not yet finished counting}), we report base model results
-to 'predict' the results of the 2016 election.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-\subsubsection{Research Question: Which candidates will be elected to
-the U.S. House of Representatives in
-2018?}\label{research-question-which-candidates-will-be-elected-to-the-u.s.-house-of-representatives-in-2018}
-
-To address this question, the team has accumulated economic, social, and
-political data on U.S. Congressional Districts and the representatives
-elected from them. To train accurate models, this data has been
-collected for the past several decades, based on what is readily
-available.
-
-\subsubsection{Data Summary}\label{data-summary}
-
-\textbf{Political Outcomes}
-
-\begin{itemize}
-\tightlist
-\item
-  As our main outcome of interest, we aim to predict which candidate
-  will win the election for each of the 435 races for Congress.
-  Simplifying this, without loss of generality, we model whether the
-  \emph{Democratic} candidate in each district will win; additionally,
-  the two-party nature of politics allows us to operationalize the
-  binary outcome as one where we predict that the Democrat candidate
-  will win the election if her odds of winning are greater than those of
-  the Republican candidate (that is, if the log-odds is greater than
-  zero). In training datasets, if the Democratic proportion of the
-  two-party vote is greater than 0.5, then the Democrat candidate wins.
-  (Note: There have been a handful of independent members of the House
-  of Representatives of 435 {[}no more than two per term{]}. However, as
-  all of the top candidates 2018 election were either Democrats or
-  Republicans, it is safe to ignore third parties/independent candidates
-  in our analysis).
-\item
-  \textbf{Data sources:}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    2018 election: As of writing, the results of at least one
-    Congressional district have not yet been finalized; upon the
-    certification of all results, the test set data will be compiled
-    either from official state election boards or downloaded from other
-    academics/media.
-  \item
-    1980 - 2016 outcomes: Data collected based on official records by
-    the \href{http://www.electiondataarchive.org/}{Constituency-Level
-    Elections Archive}. Following the modeling plan outlined above, we
-    calculated the Democratic share of the two-party vote for each
-    district across 19 elections.
-  \end{itemize}
-\end{itemize}
-
-\textbf{Political Explanatory Variables} - Candidate data * Incumbency
-status: \href{https://www.jstor.org/stable/2111475}{Much research in
-political science} has shown the large positive effect on a candidate's
-chances of being elected if she is the current holder of the seat (the
-incumbent). Taking this into account, we create a binary variable for
-whether the incumbent is running in the election. Next, we combine this
-binary variable with another that indicates whether the incumbent is a
-Democrat or Republican, forming an interaction term. When the
-interaction term indicates that there is a Democratic incumbent running
-for re-election, we expect predicted Democratic vote share to be higher.
-When there is a Republican incumbent running for re-election, we expect
-Democratic vote share to be lower. * Ideological position(s): Political
-scientists have developed techniques to estimate the ideological
-position of elected representatives, especially those in Congress.
-\href{https://voteview.com/about}{Poole and Rosenthal} have developed
-DW-NOMINATE (Dynamic Weighted NOMINAl Three-step Estimation) scores,
-which are an aggregate measure of a Congressmember's lifetime public
-voting record in office over two dimensions, which broadly reflect
-differences in preferences on economic and social policy. We also
-include the
-\href{https://onlinelibrary.wiley.com/doi/abs/10.3162/036298004X201294}{Nokken-Poole
-score}, which does not make assumptions about ideological stability in
-members of Congress over time, allowing for more fluctuations within the
-same legislator over time. Both measures provide for different
-understandings of the ideology of the incumbent (essentially, how long a
-memory constituents have); thus, we include both in our dataset.
-
-\begin{itemize}
-\tightlist
-\item
-  Contextual data
-
-  \begin{itemize}
-  \tightlist
-  \item
-    District prior vote share: For each district, we have a long record
-    of voting. It is likely the case that a district's partisanship, as
-    measured by its most recent vote results, predicts the next future
-    results very well. However, politics is cyclical and all data is
-    subject to random variation. Thus, we include results from multiple
-    years prior to 2018 to train the model. A potential issue with this
-    is the changing nature of districts over time due to redrawing of
-    district boundaries (redistricting). In the next Milestone, we will
-    have a systematic method to deal with redistricting, based on
-    weighting results from districts that once composed the current
-    district.
-  \end{itemize}
-\end{itemize}
-
-\textbf{Socio-economic Data}
-
-In the next Milestone, we present data from the
-\href{census.gov}{American Community Survey}. There, we obtain variables
-on median district age, unemployment rate, household income, educational
-attainment, and racial/ethnic backgrounds. Regression results using
-these covariates are not presented at this stage; however, summary
-statistics are, and these variables will be incorporated in the final
-model to maximize predictive power.
+    \subsection{Scraping 2018 Results}\label{scraping-2018-results}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}307}]:} \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
-          \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
-          \PY{k+kn}{import} \PY{n+nn}{re}
-          \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
-          \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
-          \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{LogisticRegression}
-          \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{cross\PYZus{}validation} \PY{k}{import} \PY{n}{train\PYZus{}test\PYZus{}split}
+{\color{incolor}In [{\color{incolor} }]:} \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+        \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
+        \PY{k+kn}{import} \PY{n+nn}{re}
+        \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
+        \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+        \PY{k+kn}{import} \PY{n+nn}{seaborn} \PY{k}{as} \PY{n+nn}{snsplt}
+        
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{LogisticRegression}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{cross\PYZus{}validation} \PY{k}{import} \PY{n}{train\PYZus{}test\PYZus{}split}
+        \PY{k+kn}{import} \PY{n+nn}{os}
+        
+        \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{cm}
+        \PY{k+kn}{from} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{patches} \PY{k}{import} \PY{n}{Polygon}
+        \PY{k+kn}{from} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{collections} \PY{k}{import} \PY{n}{PatchCollection}
+        \PY{k+kn}{from} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{colors} \PY{k}{import} \PY{n}{Normalize}
+        \PY{k+kn}{import} \PY{n+nn}{seaborn} \PY{k}{as} \PY{n+nn}{sns}
+        
+        \PY{k+kn}{from} \PY{n+nn}{collections} \PY{k}{import} \PY{n}{Counter}
+        
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{ensemble} \PY{k}{import} \PY{n}{RandomForestClassifier}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{datasets} \PY{k}{import} \PY{n}{make\PYZus{}classification}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{metrics} \PY{k}{import} \PY{n}{accuracy\PYZus{}score}
+        
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{ensemble} \PY{k}{import} \PY{n}{BaggingClassifier}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn} \PY{k}{import} \PY{n}{tree}
+        
+        \PY{k+kn}{from} \PY{n+nn}{sklearn} \PY{k}{import} \PY{n}{linear\PYZus{}model}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{preprocessing} \PY{k}{import} \PY{n}{PolynomialFeatures}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{Lasso}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{RidgeCV}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{LassoCV}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{LinearRegression}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn} \PY{k}{import} \PY{n}{preprocessing}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn} \PY{k}{import} \PY{n}{linear\PYZus{}model}
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{LogisticRegressionCV}
+        
+        \PY{k+kn}{import} \PY{n+nn}{warnings}
+        \PY{n}{warnings}\PY{o}{.}\PY{n}{filterwarnings}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ignore}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-/anaconda3/lib/python3.6/site-packages/sklearn/cross\_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model\_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
-  "This module will be removed in 0.20.", DeprecationWarning)
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}212}]:} \PY{n}{data\PYZus{}folder} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{https://raw.githubusercontent.com/cdriscoll92/CS\PYZhy{}109A\PYZhy{}Final\PYZhy{}Project/master/data/}\PY{l+s+s2}{\PYZdq{}}
-          \PY{c+c1}{\PYZsh{} local\PYZus{}data\PYZus{}folder = \PYZsq{}/Users/poojatyagi/Dropbox (MIT)/CS 109A Final project/Data\PYZsq{}}
-          \PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/data/}\PY{l+s+s2}{\PYZdq{}}
+{\color{incolor}In [{\color{incolor} }]:} \PY{k+kn}{from} \PY{n+nn}{bs4} \PY{k}{import} \PY{n}{BeautifulSoup}
+        \PY{k+kn}{import} \PY{n+nn}{time}
+        \PY{k+kn}{import} \PY{n+nn}{requests}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}21}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Reading in state abbreviations file to get the correct district ID columns}
-         \PY{n}{state\PYZus{}abbs} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{state\PYZus{}abbreviations\PYZus{}correspondence\PYZus{}table.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{data\PYZus{}folder} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{https://raw.githubusercontent.com/cdriscoll92/CS\PYZhy{}109A\PYZhy{}Final\PYZhy{}Project/master/data/}\PY{l+s+s2}{\PYZdq{}}
+        \PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/data/}\PY{l+s+s2}{\PYZdq{}}
 \end{Verbatim}
 
 
-    Reading in and cleaning data from the
-\href{http://www.electiondataarchive.org/}{Constituency-Level Elections
-Archive}:
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{politico\PYZus{}url\PYZus{}front} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{https://www.politico.com/election\PYZhy{}results/2018/}\PY{l+s+s2}{\PYZdq{}}
+\end{Verbatim}
+
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}4}]:} \PY{k}{def} \PY{n+nf}{clea\PYZus{}clean}\PY{p}{(}\PY{n}{clea\PYZus{}file\PYZus{}name}\PY{p}{,} \PY{n}{state\PYZus{}abb\PYZus{}df}\PY{p}{)}\PY{p}{:}
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Reading in state abbreviations file to get the correct district ID columns}
+        \PY{n}{state\PYZus{}abbs} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{state\PYZus{}abbreviations\PYZus{}correspondence\PYZus{}table.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}\PYZsh{} Politico site formatting for names}
+        \PY{n}{states} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n}{state\PYZus{}abbs}\PY{o}{.}\PY{n}{state\PYZus{}name}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{lower}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+        \PY{n}{states\PYZus{}lower} \PY{o}{=} \PY{p}{[}\PY{n}{x}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{states}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{BS\PYZus{}html\PYZus{}parsed\PYZus{}from\PYZus{}html}\PY{p}{(}\PY{n}{URL}\PY{p}{)}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{}\PYZsh{} requires BeautifulSoup, time, requests}
+            \PY{n}{time}\PY{o}{.}\PY{n}{sleep}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}
+            \PY{n}{bs\PYZus{}out} \PY{o}{=} \PY{n}{BeautifulSoup}\PY{p}{(}\PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{URL}\PY{p}{)}\PY{o}{.}\PY{n}{text}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{html.parser}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{k}{return}\PY{p}{(}\PY{n}{bs\PYZus{}out}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{results\PYZus{}2018} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,}
+                       \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{party}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,}
+                       \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{votes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{\PYZcb{}}
+        \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{abb} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{state\PYZus{}abbs}\PY{o}{.}\PY{n}{state\PYZus{}abb}\PY{p}{)}\PY{p}{:}
+            \PY{n}{state\PYZus{}url} \PY{o}{=} \PY{n}{politico\PYZus{}url\PYZus{}front} \PY{o}{+} \PY{n}{states\PYZus{}lower}\PY{p}{[}\PY{n}{i}\PY{p}{]}
+            \PY{c+c1}{\PYZsh{}\PYZsh{} Get state page}
+            \PY{n}{BS\PYZus{}page\PYZus{}state\PYZus{}i} \PY{o}{=} \PY{n}{BS\PYZus{}html\PYZus{}parsed\PYZus{}from\PYZus{}html}\PY{p}{(}\PY{n}{state\PYZus{}url}\PY{p}{)}
+        
+            \PY{c+c1}{\PYZsh{}\PYZsh{} Figure out how many districts there are in the state}
+            \PY{n}{district\PYZus{}links} \PY{o}{=} \PY{n}{BS\PYZus{}page\PYZus{}state\PYZus{}i}\PY{o}{.}\PY{n}{findAll}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{div}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PYZbs{}
+                                    \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{district\PYZhy{}links}\PY{l+s+s2}{\PYZdq{}}\PY{p}{\PYZcb{}}\PY{p}{)}
+        
+            \PY{c+c1}{\PYZsh{}\PYZsh{} At\PYZhy{}large districts don\PYZsq{}t have links and are referenced}
+            \PY{c+c1}{\PYZsh{}\PYZsh{} differently from multi\PYZhy{}district states    }
+            \PY{k}{if} \PY{n+nb}{len}\PY{p}{(}\PY{n}{district\PYZus{}links}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{l+m+mi}{0}\PY{p}{:}
+                \PY{n}{district\PYZus{}n} \PY{o}{=} \PY{n+nb}{len}\PY{p}{(}\PY{n}{district\PYZus{}links}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{.}\PY{n}{findAll}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{a}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
+                \PY{n}{districts\PYZus{}formatted} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+si}{\PYZob{}num:02d\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{num}\PY{o}{=}\PY{n}{k}\PY{p}{)} \PY{k}{for} \PY{n}{k} \PYZbs{}
+                                    \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{district\PYZus{}n}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{]}
+            \PY{k}{else}\PY{p}{:}
+                \PY{n}{districts\PYZus{}formatted} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{00}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+            \PY{c+c1}{\PYZsh{}\PYZsh{} Get district tables}
+            \PY{n}{dist\PYZus{}ids} \PY{o}{=} \PY{p}{[}\PY{n}{abb}\PY{o}{+}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{+}\PY{n}{dist\PYZus{}i} \PY{k}{for} \PY{n}{dist\PYZus{}i} \PY{o+ow}{in} \PY{n}{districts\PYZus{}formatted}\PY{p}{]}
+            \PY{k}{for} \PY{n}{district} \PY{o+ow}{in} \PY{n}{dist\PYZus{}ids}\PY{p}{:}
+                \PY{c+c1}{\PYZsh{}\PYZsh{} Get the section on the page for this district}
+                \PY{n}{district\PYZus{}html} \PY{o}{=} \PY{n}{BS\PYZus{}page\PYZus{}state\PYZus{}i}\PY{o}{.}\PY{n}{findAll}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{section}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                                        \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{n}{district}\PY{p}{\PYZcb{}}\PY{p}{)}
+                \PY{c+c1}{\PYZsh{}\PYZsh{} Get the table where the results are}
+                \PY{n}{results\PYZus{}table} \PY{o}{=} \PY{n}{district\PYZus{}html}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{.}\PY{n}{findAll}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{tr}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+                
+                \PY{c+c1}{\PYZsh{}\PYZsh{} Table composed of headers and footers; only}
+                \PY{c+c1}{\PYZsh{}\PYZsh{} grab candidate/vote information}
+                \PY{n}{last\PYZus{}candidate\PYZus{}index} \PY{o}{=} \PY{n+nb}{len}\PY{p}{(}\PY{n}{results\PYZus{}table}\PY{p}{)}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}
+                \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{last\PYZus{}candidate\PYZus{}index}\PY{p}{)}\PY{p}{:}
+                    \PY{c+c1}{\PYZsh{}\PYZsh{} Get party and number of votes for each cand.}
+                    \PY{n}{party} \PY{o}{=} \PY{n}{results\PYZus{}table}\PY{p}{[}\PY{n}{j}\PY{p}{]}\PY{o}{.}\PY{n}{find}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{td}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                                  \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{party}\PY{l+s+s2}{\PYZdq{}}\PY{p}{\PYZcb{}}\PY{p}{)}
+                    \PY{n}{votes} \PY{o}{=} \PY{n}{results\PYZus{}table}\PY{p}{[}\PY{n}{j}\PY{p}{]}\PY{o}{.}\PY{n}{find}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{td}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                                  \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{class}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{vote\PYZhy{}count}\PY{l+s+s2}{\PYZdq{}}\PY{p}{\PYZcb{}}\PY{p}{)}
+        
+                    \PY{c+c1}{\PYZsh{}\PYZsh{} Add these results to the results dictionary}
+                    \PY{n}{results\PYZus{}2018}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{district}\PY{p}{)}
+                    \PY{n}{results\PYZus{}2018}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{party}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{party}\PY{o}{.}\PY{n}{text}\PY{p}{)}
+                    \PY{n}{results\PYZus{}2018}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{votes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{votes}\PY{o}{.}\PY{n}{text}\PY{p}{)}
+        
+        \PY{n}{results\PYZus{}2018\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{results\PYZus{}2018}\PY{p}{)}
+        \PY{n}{results\PYZus{}2018\PYZus{}df}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{election\PYZus{}results/2018\PYZus{}scraped.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Redistricting variable}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{redist\PYZus{}data\PYZus{}path} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/redistricting/}\PY{l+s+s2}{\PYZdq{}}
+        
+        \PY{n}{states\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{redist\PYZus{}data\PYZus{}apath} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{FIPS.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{states\PYZus{}df}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+        \PY{n}{state\PYZus{}names} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{x} \PY{p}{:} \PY{n+nb}{str}\PY{o}{.}\PY{n}{lower}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{p}{,} \PY{n}{states\PYZus{}df}\PY{o}{.}\PY{n}{name}\PY{o}{.}\PY{n}{values}\PY{p}{)}\PY{p}{)}
+        \PY{n}{state\PYZus{}abbrs} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n}{states\PYZus{}df}\PY{o}{.}\PY{n}{abbr}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+        \PY{n}{state\PYZus{}fips} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n}{states\PYZus{}df}\PY{o}{.}\PY{n}{fips\PYZus{}code}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{abbr\PYZus{}for\PYZus{}state}\PY{p}{(}\PY{n}{state\PYZus{}name}\PY{p}{,} \PY{n}{state\PYZus{}names}\PY{p}{,} \PY{n}{state\PYZus{}abbrs}\PY{p}{)}\PY{p}{:}
+            \PY{k}{try}\PY{p}{:}
+                \PY{n}{i} \PY{o}{=} \PY{n}{state\PYZus{}names}\PY{o}{.}\PY{n}{index}\PY{p}{(}\PY{n}{state\PYZus{}name}\PY{o}{.}\PY{n}{lower}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+            \PY{k}{except} \PY{n+ne}{ValueError}\PY{p}{:}
+                \PY{k}{return} \PY{k+kc}{None}
+            \PY{k}{return} \PY{n}{state\PYZus{}abbrs}\PY{p}{[}\PY{n}{i}\PY{p}{]}
+        
+        \PY{k}{def} \PY{n+nf}{dist\PYZus{}id\PYZus{}from\PYZus{}lewis}\PY{p}{(}\PY{n}{state\PYZus{}name}\PY{p}{,} \PY{n}{lewis\PYZus{}no}\PY{p}{,} \PY{n}{at\PYZus{}large}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{:}
+            \PY{n}{result\PYZus{}state} \PY{o}{=} \PY{n}{abbr\PYZus{}for\PYZus{}state}\PY{p}{(}\PY{n}{state\PYZus{}name}\PY{p}{,} \PY{n}{state\PYZus{}names}\PY{p}{,} \PY{n}{state\PYZus{}abbrs}\PY{p}{)}
+            \PY{k}{if} \PY{n}{lewis\PYZus{}no} \PY{o}{==} \PY{l+m+mi}{0}\PY{p}{:}
+                \PY{n}{result\PYZus{}num} \PY{o}{=} \PY{n}{at\PYZus{}large}
+            \PY{k}{else}\PY{p}{:}
+                \PY{n}{result\PYZus{}num} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}:d\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{int}\PY{p}{(}\PY{n}{lewis\PYZus{}no}\PY{p}{)}\PY{p}{)}
+            \PY{k}{return} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZus{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{result\PYZus{}state}\PY{p}{,} \PY{n}{result\PYZus{}num}\PY{p}{)}
+        
+        \PY{k}{def} \PY{n+nf}{map\PYZus{}id\PYZus{}from\PYZus{}lewis}\PY{p}{(}\PY{n}{state\PYZus{}names}\PY{p}{,} \PY{n}{lewis\PYZus{}nos}\PY{p}{,} \PY{n}{at\PYZus{}large}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{s}\PY{p}{,} \PY{n}{n} \PY{p}{:} \PY{n}{dist\PYZus{}id\PYZus{}from\PYZus{}lewis}\PY{p}{(}\PY{n}{s}\PY{p}{,} \PY{n}{n}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{,}
+                                     \PY{n}{state\PYZus{}names}\PY{p}{,} \PY{n}{lewis\PYZus{}nos}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    No states have been redistricted to a single at large district since the
+2000 census. So we will ignore at-large districts in order to further
+minimize errors in producing the data.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{district\PYZus{}hist\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}
+            \PY{n}{redist\PYZus{}data\PYZus{}path} \PY{o}{+}
+            \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{e6311\PYZus{}post1948\PYZhy{}shapeless.csv}\PY{l+s+s2}{\PYZdq{}}
+        \PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{n}{by}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{congress}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lewis\PYZus{}dist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} filter for date range}
+        \PY{n}{years\PYZus{}min} \PY{o}{=} \PY{l+m+mi}{2000}
+        \PY{n}{years\PYZus{}max} \PY{o}{=} \PY{l+m+mi}{2017}
+        \PY{n}{rows\PYZus{}in\PYZus{}years\PYZus{}range} \PY{o}{=} \PY{p}{(}\PY{n}{district\PYZus{}hist\PYZus{}df}\PY{o}{.}\PY{n}{year} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{n}{years\PYZus{}min}\PY{p}{)} \PY{o}{\PYZam{}} \PY{p}{(}\PY{n}{district\PYZus{}hist\PYZus{}df}\PY{o}{.}\PY{n}{year} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{n}{years\PYZus{}max}\PY{p}{)}
+        \PY{n}{district\PYZus{}hist\PYZus{}df} \PY{o}{=} \PY{n}{district\PYZus{}hist\PYZus{}df}\PY{p}{[}\PY{n}{rows\PYZus{}in\PYZus{}years\PYZus{}range}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} ignore at\PYZhy{}large districts}
+        \PY{n}{district\PYZus{}hist\PYZus{}df} \PY{o}{=} \PY{n}{district\PYZus{}hist\PYZus{}df}\PY{p}{[}\PY{n}{district\PYZus{}hist\PYZus{}df}\PY{o}{.}\PY{n}{lewis\PYZus{}dist} \PY{o}{!=} \PY{l+m+mi}{0}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{LEWIS\PYZus{}MOD} \PY{o}{=} \PY{l+m+mi}{1000}
+        \PY{n}{FIPS\PYZus{}MOD} \PY{o}{=} \PY{l+m+mi}{1000000000} 
+        
+        \PY{k}{def} \PY{n+nf}{abbr\PYZus{}from\PYZus{}fips}\PY{p}{(}\PY{n}{fips}\PY{p}{)}\PY{p}{:}
+            \PY{k}{try}\PY{p}{:}
+                \PY{n}{i} \PY{o}{=} \PY{n}{state\PYZus{}fips}\PY{o}{.}\PY{n}{index}\PY{p}{(}\PY{n}{fips}\PY{p}{)}
+            \PY{k}{except} \PY{n+ne}{ValueError}\PY{p}{:}
+                \PY{k}{return} \PY{k+kc}{None}
+            \PY{k}{return} \PY{n}{state\PYZus{}abbrs}\PY{p}{[}\PY{n}{i}\PY{p}{]}
+        
+        \PY{k}{def} \PY{n+nf}{statename\PYZus{}from\PYZus{}fips}\PY{p}{(}\PY{n}{fips}\PY{p}{)}\PY{p}{:}
+            \PY{k}{try}\PY{p}{:}
+                \PY{n}{i} \PY{o}{=} \PY{n}{state\PYZus{}fips}\PY{o}{.}\PY{n}{index}\PY{p}{(}\PY{n}{fips}\PY{p}{)}
+            \PY{k}{except} \PY{n+ne}{ValueError}\PY{p}{:}
+                \PY{k}{return} \PY{k+kc}{None}
+            \PY{k}{return} \PY{n}{state\PYZus{}names}\PY{p}{[}\PY{n}{i}\PY{p}{]}
+        
+        \PY{k}{def} \PY{n+nf}{dist\PYZus{}id\PYZus{}from\PYZus{}geomuid}\PY{p}{(}\PY{n}{geomuid}\PY{p}{,} \PY{n}{at\PYZus{}large}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{:}
+            \PY{n}{lewis} \PY{o}{=} \PY{n}{geomuid} \PY{o}{\PYZpc{}} \PY{n}{LEWIS\PYZus{}MOD}
+            \PY{k}{if} \PY{n}{lewis} \PY{o}{==} \PY{l+m+mi}{0} \PY{o+ow}{and} \PY{n}{at\PYZus{}large} \PY{o}{!=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{0}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}
+                \PY{n}{lewis} \PY{o}{=} \PY{n}{at\PYZus{}large}
+            \PY{n}{fips\PYZus{}code} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n}{geomuid} \PY{o}{/} \PY{n}{FIPS\PYZus{}MOD}\PY{p}{)}
+            \PY{k}{return} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZus{}}\PY{l+s+si}{\PYZob{}:d\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{abbr\PYZus{}from\PYZus{}fips}\PY{p}{(}\PY{n}{fips\PYZus{}code}\PY{p}{)}\PY{p}{,} \PY{n+nb}{int}\PY{p}{(}\PY{n}{lewis}\PY{p}{)}\PY{p}{)}
+        
+        \PY{k}{def} \PY{n+nf}{dists\PYZus{}from\PYZus{}geomuids}\PY{p}{(}\PY{n}{geomuids}\PY{p}{,} \PY{n}{at\PYZus{}large}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{g} \PY{p}{:} \PY{n}{dist\PYZus{}id\PYZus{}from\PYZus{}geomuid}\PY{p}{(}\PY{n}{g}\PY{p}{,} \PY{n}{at\PYZus{}large}\PY{p}{)}\PY{p}{,} \PY{n}{geomuids}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+        
+        \PY{k}{def} \PY{n+nf}{get\PYZus{}all\PYZus{}year\PYZus{}dist}\PY{p}{(}\PY{n}{df}\PY{p}{)}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{} obtain a table of all congressional contests}
+            \PY{n}{years} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{values}
+            \PY{n}{dist\PYZus{}ids} \PY{o}{=} \PY{n}{dists\PYZus{}from\PYZus{}geomuids}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{geom\PYZus{}uid}\PY{p}{)}
+            \PY{n}{data} \PY{o}{=} \PY{p}{\PYZob{}} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{years}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{dist\PYZus{}ids} \PY{p}{\PYZcb{}}
+            \PY{k}{return} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{p}{)}
+        
+        \PY{n}{district\PYZus{}hist\PYZus{}df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{dists\PYZus{}from\PYZus{}geomuids}\PY{p}{(}\PY{n}{district\PYZus{}hist\PYZus{}df}\PY{o}{.}\PY{n}{geom\PYZus{}uid}\PY{p}{)}
+        \PY{n}{all\PYZus{}possible} \PY{o}{=} \PY{n}{get\PYZus{}all\PYZus{}year\PYZus{}dist}\PY{p}{(}\PY{n}{district\PYZus{}hist\PYZus{}df}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{congress\PYZus{}info} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{congress\PYZus{}numbers.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{CON\PYZus{}START\PYZus{}MOD} \PY{o}{=} \PY{l+m+mi}{1000000}
+        \PY{n}{CON\PYZus{}END\PYZus{}MOD} \PY{o}{=} \PY{l+m+mi}{1000}
+        
+        \PY{k}{def} \PY{n+nf}{election\PYZus{}year}\PY{p}{(}\PY{n}{congress\PYZus{}no}\PY{p}{)}\PY{p}{:}
+            \PY{n}{results} \PY{o}{=} \PY{n}{congress\PYZus{}info}\PY{p}{[}\PY{n}{congress\PYZus{}info}\PY{o}{.}\PY{n}{congress} \PY{o}{==} \PY{n}{congress\PYZus{}no}\PY{p}{]}\PY{o}{.}\PY{n}{congressional\PYZus{}election}\PY{o}{.}\PY{n}{values}
+            \PY{k}{return} \PY{n}{results}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+        
+        \PY{k}{def} \PY{n+nf}{congress\PYZus{}no}\PY{p}{(}\PY{n}{year}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{n}{congress\PYZus{}info}\PY{p}{[}\PY{p}{(}\PY{n}{congress\PYZus{}info}\PY{o}{.}\PY{n}{start} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{n}{year}\PY{p}{)} \PY{o}{\PYZam{}} \PY{p}{(}\PY{n}{congress\PYZus{}info}\PY{o}{.}\PY{n}{end} \PY{o}{\PYZgt{}} \PY{n}{year}\PY{p}{)}\PY{p}{]}\PY{o}{.}\PY{n}{congress}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+        
+        \PY{k}{def} \PY{n+nf}{start\PYZus{}congress}\PY{p}{(}\PY{n}{geomuid}\PY{p}{)}\PY{p}{:}
+            \PY{n}{result} \PY{o}{=} \PY{n}{geomuid} \PY{o}{\PYZpc{}} \PY{n}{FIPS\PYZus{}MOD}
+            \PY{n}{result} \PY{o}{\PYZhy{}}\PY{o}{=} \PY{p}{(}\PY{n}{result} \PY{o}{\PYZpc{}} \PY{n}{CON\PYZus{}START\PYZus{}MOD}\PY{p}{)}
+            \PY{n}{result} \PY{o}{/}\PY{o}{=} \PY{n}{CON\PYZus{}START\PYZus{}MOD}
+            \PY{k}{return} \PY{n}{result}
+        
+        \PY{k}{def} \PY{n+nf}{end\PYZus{}congress}\PY{p}{(}\PY{n}{geomuid}\PY{p}{)}\PY{p}{:}
+            \PY{n}{result} \PY{o}{=} \PY{n}{geomuid} \PY{o}{\PYZpc{}} \PY{n}{CON\PYZus{}START\PYZus{}MOD}
+            \PY{n}{result} \PY{o}{\PYZhy{}}\PY{o}{=} \PY{p}{(}\PY{n}{result} \PY{o}{\PYZpc{}} \PY{n}{CON\PYZus{}END\PYZus{}MOD}\PY{p}{)}
+            \PY{n}{result} \PY{o}{/}\PY{o}{=} \PY{n}{CON\PYZus{}END\PYZus{}MOD}
+            \PY{k}{return} \PY{n}{result}
+        
+        \PY{k}{def} \PY{n+nf}{year\PYZus{}from\PYZus{}geomuid}\PY{p}{(}\PY{n}{geomuid}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{n}{election\PYZus{}year}\PY{p}{(}\PY{n}{start\PYZus{}congress}\PY{p}{(}\PY{n}{geomuid}\PY{p}{)}\PY{p}{)}
+        
+        \PY{n}{texas\PYZus{}1\PYZus{}2004\PYZus{}} \PY{o}{=} \PY{l+m+mi}{48109109001}
+        
+        \PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{congress }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{l+m+mi}{114}\PY{p}{,} \PY{n}{election\PYZus{}year}\PY{p}{(}\PY{l+m+mi}{114}\PY{p}{)}\PY{p}{)}\PY{p}{,}
+         \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{: congress \PYZsh{} }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{l+m+mi}{2008}\PY{p}{,} \PY{n}{congress\PYZus{}no}\PY{p}{(}\PY{l+m+mi}{2008}\PY{p}{)}\PY{p}{)}\PY{p}{,}
+         \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{: congress \PYZsh{} }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{l+m+mi}{2007}\PY{p}{,} \PY{n}{congress\PYZus{}no}\PY{p}{(}\PY{l+m+mi}{2007}\PY{p}{)}\PY{p}{)}\PY{p}{,}
+         \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{[}\PY{l+s+si}{\PYZob{}:011d\PYZcb{}}\PY{l+s+s2}{]: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ congress, election year }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Texas 1st District, 2004}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                                                \PY{n}{texas\PYZus{}1\PYZus{}2004\PYZus{}}\PY{p}{,}
+                                                                \PY{n}{start\PYZus{}congress}\PY{p}{(}\PY{n}{texas\PYZus{}1\PYZus{}2004\PYZus{}}\PY{p}{)}\PY{p}{,}
+                                                                \PY{n}{end\PYZus{}congress}\PY{p}{(}\PY{n}{texas\PYZus{}1\PYZus{}2004\PYZus{}}\PY{p}{)}\PY{p}{,}
+                                                                \PY{n}{year\PYZus{}from\PYZus{}geomuid}\PY{p}{(}\PY{n}{texas\PYZus{}1\PYZus{}2004\PYZus{}}\PY{p}{)}
+                                                               \PY{p}{)}
+        \PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{get\PYZus{}redistricting}\PY{p}{(}\PY{n}{df}\PY{p}{,} \PY{n}{geom\PYZus{}uid\PYZus{}col}\PY{p}{,} \PY{n}{ignore\PYZus{}years}\PY{o}{=}\PY{p}{[}\PY{p}{]}\PY{p}{)}\PY{p}{:}  
+            \PY{n}{unique\PYZus{}districts} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{geom\PYZus{}uid\PYZus{}col}\PY{p}{]}\PY{o}{.}\PY{n}{drop\PYZus{}duplicates}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{values}
+            \PY{n}{dist\PYZus{}id} \PY{o}{=} \PY{n}{dists\PYZus{}from\PYZus{}geomuids}\PY{p}{(}\PY{n}{unique\PYZus{}districts}\PY{p}{)}
+            \PY{n}{get\PYZus{}years} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{vectorize}\PY{p}{(}\PY{n}{year\PYZus{}from\PYZus{}geomuid}\PY{p}{)}
+            \PY{n}{years} \PY{o}{=} \PY{n}{get\PYZus{}years}\PY{p}{(}\PY{n}{unique\PYZus{}districts}\PY{p}{)}
+            \PY{n}{redistricted} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{full}\PY{p}{(}\PY{n}{dist\PYZus{}id}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{k+kc}{True}\PY{p}{,} \PY{n}{dtype}\PY{o}{=}\PY{n+nb}{bool}\PY{p}{)}
+            \PY{n}{data} \PY{o}{=} \PY{p}{\PYZob{}}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{years}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{dist\PYZus{}id}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{redistricted}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{redistricted}
+                   \PY{p}{\PYZcb{}}
+            \PY{n}{redist\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{p}{)}
+            \PY{k}{if} \PY{n+nb}{len}\PY{p}{(}\PY{n}{ignore\PYZus{}years}\PY{p}{)} \PY{o}{\PYZgt{}} \PY{l+m+mi}{0}\PY{p}{:}
+                \PY{n}{redist\PYZus{}df} \PY{o}{=} \PY{n}{redist\PYZus{}df}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{o}{\PYZti{}}\PY{n}{redist\PYZus{}df}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{isin}\PY{p}{(}\PY{n}{ignore\PYZus{}years}\PY{p}{)}\PY{p}{]}
+            \PY{k}{return} \PY{n}{redist\PYZus{}df}
+        
+        \PY{n}{redist\PYZus{}} \PY{o}{=} \PY{n}{get\PYZus{}redistricting}\PY{p}{(}\PY{n}{district\PYZus{}hist\PYZus{}df}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{geom\PYZus{}uid}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ignore\PYZus{}years}\PY{o}{=}\PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1990}\PY{p}{,}\PY{l+m+mi}{1999}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{redist\PYZus{}}\PY{o}{.}\PY{n}{shape}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} validate by getting redistricting counts by year}
+        \PY{k}{def} \PY{n+nf}{states\PYZus{}redistricting}\PY{p}{(}\PY{n}{df}\PY{p}{)}\PY{p}{:}
+            \PY{n}{get\PYZus{}state} \PY{o}{=} \PY{k}{lambda} \PY{n}{dist} \PY{p}{:} \PY{n}{dist}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{:}\PY{l+m+mi}{2}\PY{p}{]}
+            \PY{n}{get\PYZus{}states\PYZus{}from\PYZus{}id} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{vectorize}\PY{p}{(}\PY{n}{get\PYZus{}state}\PY{p}{)}
+            \PY{n}{states} \PY{o}{=} \PY{n}{get\PYZus{}states\PYZus{}from\PYZus{}id}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{dist\PYZus{}id}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+            \PY{n}{years} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{values}
+            \PY{n}{data} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{years}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{states}\PY{p}{\PYZcb{}}
+            \PY{k}{return} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{p}{)}\PY{o}{.}\PY{n}{drop\PYZus{}duplicates}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{df\PYZus{}states} \PY{o}{=} \PY{n}{states\PYZus{}redistricting}\PY{p}{(}\PY{n}{redist\PYZus{}}\PY{p}{)}
+        \PY{n}{display}\PY{p}{(}\PY{n}{df\PYZus{}states}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{count}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+        \PY{n}{display}\PY{p}{(}\PY{n}{df\PYZus{}states}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{df\PYZus{}states}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{isin}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{1998}\PY{p}{,} \PY{l+m+mi}{2000}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+        
+        \PY{n}{display}\PY{p}{(}\PY{n}{redist\PYZus{}}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{dists\PYZus{}for\PYZus{}state}\PY{p}{(}\PY{n}{state\PYZus{}abbr}\PY{p}{,}\PY{n}{dist\PYZus{}count}\PY{p}{)}\PY{p}{:}
+            \PY{k}{return} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZus{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{state\PYZus{}abbr}\PY{p}{,} \PY{n}{c}\PY{p}{)} \PY{k}{for} \PY{n}{c} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{dist\PYZus{}count} \PY{o}{+} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{latest\PYZus{}district\PYZus{}count}\PY{p}{(}\PY{n}{df}\PY{p}{,} \PY{n}{state\PYZus{}abbr}\PY{p}{)}\PY{p}{:}
+            \PY{n}{states} \PY{o}{=} \PY{n}{get\PYZus{}states\PYZus{}from\PYZus{}id}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{dist\PYZus{}id}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+            \PY{n}{state\PYZus{}i} \PY{o}{=} \PY{n}{states} \PY{o}{==} \PY{n}{state\PYZus{}abbr}
+            \PY{n}{state\PYZus{}rows} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{state\PYZus{}i}\PY{p}{]}
+            \PY{n}{latest\PYZus{}year} \PY{o}{=} \PY{n}{state\PYZus{}rows}\PY{p}{[}\PY{n}{state\PYZus{}rows}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{n}{np}\PY{o}{.}\PY{n}{max}\PY{p}{(}\PY{n}{state\PYZus{}rows}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{values}\PY{p}{)}\PY{p}{]}
+            \PY{k}{return} \PY{n}{latest\PYZus{}year}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+        
+        \PY{k}{def} \PY{n+nf}{generate\PYZus{}redist\PYZus{}rows}\PY{p}{(}\PY{n}{state}\PY{p}{,} \PY{n}{year}\PY{p}{,} \PY{n}{dist\PYZus{}count}\PY{p}{,} \PY{n}{is\PYZus{}redist}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}\PY{p}{:}
+            \PY{n}{dists} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{dist\PYZus{}count} \PY{o}{+} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{:}
+                \PY{n}{dists}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZus{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{state}\PY{p}{,} \PY{n}{i}\PY{p}{)}\PY{p}{)}
+            \PY{n}{years} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{full}\PY{p}{(}\PY{n}{dist\PYZus{}count}\PY{p}{,} \PY{n}{year}\PY{p}{,} \PY{n}{dtype}\PY{o}{=}\PY{n+nb}{int}\PY{p}{)}
+            \PY{n}{redist} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{full}\PY{p}{(}\PY{n}{dist\PYZus{}count}\PY{p}{,} \PY{n}{is\PYZus{}redist}\PY{p}{,} \PY{n}{dtype}\PY{o}{=}\PY{n+nb}{bool}\PY{p}{)}
+            \PY{n}{data} \PY{o}{=} \PY{p}{\PYZob{}} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{years}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{dists}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{redistricted}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{redist} \PY{p}{\PYZcb{}}
+            \PY{k}{return} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data}\PY{p}{)}
+        
+        \PY{k}{def} \PY{n+nf}{generate\PYZus{}redist\PYZus{}multi}\PY{p}{(}\PY{n}{state\PYZus{}tuples}\PY{p}{)}\PY{p}{:}
+            \PY{n}{df} \PY{o}{=} \PY{k+kc}{None}
+            \PY{k}{for} \PY{n}{st} \PY{o+ow}{in} \PY{n}{state\PYZus{}tuples}\PY{p}{:}
+                \PY{n}{result} \PY{o}{=} \PY{n}{generate\PYZus{}redist\PYZus{}rows}\PY{p}{(}\PY{n}{st}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n}{st}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,} \PY{n}{st}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
+                \PY{k}{if} \PY{n}{df} \PY{o+ow}{is} \PY{k+kc}{None}\PY{p}{:}
+                    \PY{n}{df} \PY{o}{=} \PY{n}{result}
+                \PY{k}{else}\PY{p}{:}
+                    \PY{n}{df} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{result}\PY{p}{)}
+            \PY{k}{return} \PY{n}{df}
+        
+        \PY{n}{additional\PYZus{}redistricting} \PY{o}{=} \PY{p}{[}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{NC}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{2016}\PY{p}{,} \PY{l+m+mi}{13}\PY{p}{)}\PY{p}{,}
+                                    \PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{PA}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{2018}\PY{p}{,} \PY{l+m+mi}{18}\PY{p}{)}\PY{p}{,}
+                                    \PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{VA}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{2016}\PY{p}{,} \PY{l+m+mi}{11}\PY{p}{)}\PY{p}{]}
+        \PY{n}{redist\PYZus{}df} \PY{o}{=} \PY{n}{redist\PYZus{}}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{generate\PYZus{}redist\PYZus{}multi}\PY{p}{(}\PY{n}{additional\PYZus{}redistricting}\PY{p}{)}\PY{p}{,} \PY{n}{sort}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+        \PY{n}{redist\PYZus{}df}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{n}{redist\PYZus{}data\PYZus{}path} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{redist\PYZus{}2000\PYZhy{}2018.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                                          \PY{n}{index}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    \subsection{Data Cleaning}\label{data-cleaning}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Reading in state abbreviations file to get the correct district ID columns}
+        \PY{n}{state\PYZus{}abbs} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{state\PYZus{}abbreviations\PYZus{}correspondence\PYZus{}table.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Grouping CLEA by district\PYZhy{}year to get the }
+        \PY{c+c1}{\PYZsh{}\PYZsh{} democratic share of the two\PYZhy{}party vote}
+        \PY{k}{def} \PY{n+nf}{group\PYZus{}to\PYZus{}D\PYZus{}vote}\PY{p}{(}\PY{n}{groupby\PYZus{}obj}\PY{p}{,} \PY{n}{democrat\PYZus{}code}\PY{p}{)}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{}\PYZsh{} Groupby object with \PYZdq{}yr\PYZdq{}, \PYZdq{}dist\PYZus{}id\PYZdq{}, \PYZdq{}pty\PYZdq{}, \PYZdq{}\PYZdq{}}
+            \PY{n}{years} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            \PY{n}{dist\PYZus{}ids} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            \PY{n}{dem\PYZus{}shares} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            
+            \PY{k}{for} \PY{n}{name}\PY{p}{,} \PY{n}{group} \PY{o+ow}{in} \PY{n}{groupby\PYZus{}obj}\PY{p}{:}
+                \PY{n}{dem\PYZus{}share} \PY{o}{=} \PY{l+m+mi}{0}
+                \PY{n}{years}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{yr}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
+                \PY{n}{dist\PYZus{}ids}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{dist\PYZus{}id}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
+        
+                \PY{k}{if} \PY{n}{democrat\PYZus{}code} \PY{o+ow}{in} \PY{n}{group}\PY{o}{.}\PY{n}{pty}\PY{o}{.}\PY{n}{values}\PY{p}{:} \PY{c+c1}{\PYZsh{}\PYZsh{} If a Democrat ran}
+                    \PY{n}{total\PYZus{}votes} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{cv1}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+                    \PY{n}{dem\PYZus{}votes} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{cv1}\PY{p}{[}\PY{n}{group}\PY{o}{.}\PY{n}{pty} \PY{o}{==} \PY{n}{democrat\PYZus{}code}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+                    \PY{n}{dem\PYZus{}share} \PY{o}{=} \PY{n}{dem\PYZus{}votes}\PY{o}{/}\PY{n}{total\PYZus{}votes}
+                \PY{n}{dem\PYZus{}shares}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{dem\PYZus{}share}\PY{p}{)}
+            
+            \PY{n}{dem\PYZus{}vote\PYZus{}share\PYZus{}dict} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{years}\PY{p}{,}
+                                   \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{dist\PYZus{}ids}\PY{p}{,}
+                                   \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{dem\PYZus{}shares}
+                                  \PY{p}{\PYZcb{}}
+            \PY{k}{return}\PY{p}{(}\PY{n}{dem\PYZus{}vote\PYZus{}share\PYZus{}dict}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{clea\PYZus{}clean}\PY{p}{(}\PY{n}{clea\PYZus{}file\PYZus{}name}\PY{p}{,} \PY{n}{state\PYZus{}abb\PYZus{}df}\PY{p}{)}\PY{p}{:}
             \PY{c+c1}{\PYZsh{}\PYZsh{} Read in data}
             \PY{n}{clea\PYZus{}results} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{clea\PYZus{}file\PYZus{}name}\PY{p}{)}
             \PY{n}{democrat\PYZus{}code} \PY{o}{=} \PY{l+m+mi}{180}
@@ -483,76 +716,38 @@ Archive}:
             \PY{c+c1}{\PYZsh{}\PYZsh{} Grouping CLEA by district\PYZhy{}year to get the democratic share of the }
             \PY{c+c1}{\PYZsh{}\PYZsh{} two\PYZhy{}party vote}
             \PY{n}{grouped} \PY{o}{=} \PY{n}{clea\PYZus{}merged}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{yr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
-        
-            \PY{n}{years} \PY{o}{=} \PY{p}{[}\PY{p}{]}
-            \PY{n}{dist\PYZus{}ids} \PY{o}{=} \PY{p}{[}\PY{p}{]}
-            \PY{n}{dem\PYZus{}shares} \PY{o}{=} \PY{p}{[}\PY{p}{]}
-        
-            \PY{k}{for} \PY{n}{name}\PY{p}{,} \PY{n}{group} \PY{o+ow}{in} \PY{n}{grouped}\PY{p}{:}
-                \PY{n}{dem\PYZus{}share} \PY{o}{=} \PY{l+m+mi}{0}
-                \PY{n}{years}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{yr}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
-                \PY{n}{dist\PYZus{}ids}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{dist\PYZus{}id}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
-        
-                \PY{k}{if} \PY{n}{democrat\PYZus{}code} \PY{o+ow}{in} \PY{n}{group}\PY{o}{.}\PY{n}{pty}\PY{o}{.}\PY{n}{values}\PY{p}{:} \PY{c+c1}{\PYZsh{}\PYZsh{} If a Democrat ran}
-                    \PY{n}{total\PYZus{}votes} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{cv1}\PY{o}{.}\PY{n}{values}\PY{p}{)}
-                    \PY{n}{dem\PYZus{}votes} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{group}\PY{o}{.}\PY{n}{cv1}\PY{p}{[}\PY{n}{group}\PY{o}{.}\PY{n}{pty} \PY{o}{==} \PY{n}{democrat\PYZus{}code}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}
-                    \PY{n}{dem\PYZus{}share} \PY{o}{=} \PY{n}{dem\PYZus{}votes}\PY{o}{/}\PY{n}{total\PYZus{}votes}
-                \PY{n}{dem\PYZus{}shares}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{dem\PYZus{}share}\PY{p}{)}
             
-            \PY{n}{dem\PYZus{}vote\PYZus{}share\PYZus{}dict} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{years}\PY{p}{,}
-                               \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{dist\PYZus{}ids}\PY{p}{,}
-                               \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{dem\PYZus{}shares}
-                              \PY{p}{\PYZcb{}}
-            \PY{n}{dem\PYZus{}vote\PYZus{}share} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{dem\PYZus{}vote\PYZus{}share\PYZus{}dict}\PY{p}{)}
+            \PY{n}{dem\PYZus{}vote\PYZus{}share} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{group\PYZus{}to\PYZus{}D\PYZus{}vote}\PY{p}{(}\PY{n}{grouped}\PY{p}{,} 
+                                                         \PY{n}{democrat\PYZus{}code}\PY{p}{)}\PY{p}{)}
             
             \PY{k}{return} \PY{n}{dem\PYZus{}vote\PYZus{}share}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}321}]:} \PY{n}{clea\PYZus{}cleaned} \PY{o}{=} \PY{n}{clea\PYZus{}clean}\PY{p}{(}\PY{n}{data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{election\PYZus{}results/clea\PYZus{}20180507.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                                    \PY{n}{state\PYZus{}abbs}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{clea\PYZus{}cleaned} \PY{o}{=} \PY{n}{clea\PYZus{}clean}\PY{p}{(}\PY{n}{data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{election\PYZus{}results/clea\PYZus{}20180507.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                  \PY{n}{state\PYZus{}abbs}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}322}]:} \PY{n}{results\PYZus{}2016} \PY{o}{=} \PY{n}{clea\PYZus{}cleaned}\PY{p}{[}\PY{n}{clea\PYZus{}cleaned}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2016}\PY{p}{]}
-          \PY{n}{results\PYZus{}2016} \PY{o}{=} \PY{n}{results\PYZus{}2016}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{results\PYZus{}2018\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} 
+                                   \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{election\PYZus{}results/2018\PYZus{}scraped\PYZus{}cleaned.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{grouped\PYZus{}2018} \PY{o}{=} \PY{n}{results\PYZus{}2018\PYZus{}df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{yr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+        \PY{n}{results\PYZus{}2018} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{group\PYZus{}to\PYZus{}D\PYZus{}vote}\PY{p}{(}\PY{n}{grouped\PYZus{}2018}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
+        \PY{n}{election\PYZus{}results} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{clea\PYZus{}cleaned}\PY{p}{,} \PY{n}{results\PYZus{}2018}\PY{p}{]}\PY{p}{,}
+                                     \PY{n}{ignore\PYZus{}index}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}\PYZsh{} Make sure that no observations were lost/added in the concatenation}
+        \PY{k}{assert} \PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{clea\PYZus{}cleaned}\PY{p}{)}\PY{o}{+} \PY{n+nb}{len}\PY{p}{(}\PY{n}{results\PYZus{}2018}\PY{p}{)} \PY{o}{==}\PYZbs{}
+                \PY{n+nb}{len}\PY{p}{(}\PY{n}{election\PYZus{}results}\PY{p}{)}\PY{p}{)}\PY{p}{,} \PYZbs{}
+        \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Combined DataFrame not same length as two DFs combined}\PY{l+s+s2}{\PYZdq{}}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}327}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} If Democratic vote share is \PYZgt{}0.50, the Democrat won; else}
-          \PY{c+c1}{\PYZsh{}\PYZsh{} the Republican did}
-          \PY{n}{results\PYZus{}2016}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}won\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{n}{results\PYZus{}2016}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{)}
-          \PY{n}{results\PYZus{}2016}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}328}]:} \PY{n}{results\PYZus{}2016}\PY{p}{[}\PY{l+m+mi}{20}\PY{p}{:}\PY{l+m+mi}{25}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}328}]:}     dist\_id  dem\_won\_2016
-          353    AZ\_9           1.0
-          372    CA\_1           0.0
-          391   CA\_10           0.0
-          410   CA\_11           1.0
-          429   CA\_12           1.0
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}329}]:} \PY{n}{clea\PYZus{}cleaned} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{clea\PYZus{}cleaned}\PY{p}{,} \PY{n}{results\PYZus{}2016}\PY{p}{,}
-                                 \PY{n}{on} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{dist\PYZus{}id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-\end{Verbatim}
-
-
-    NOMINATE Data summary
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}6}]:} \PY{k}{def} \PY{n+nf}{drop\PYZus{}secondary\PYZus{}members}\PY{p}{(}\PY{n}{nominate\PYZus{}df}\PY{p}{)}\PY{p}{:}
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{drop\PYZus{}secondary\PYZus{}members}\PY{p}{(}\PY{n}{nominate\PYZus{}df}\PY{p}{)}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{}\PYZsh{} Support function for NOMINATE cleaning}
             \PY{c+c1}{\PYZsh{}\PYZsh{} Districts where there was more than one member of Congress serving, }
             \PY{c+c1}{\PYZsh{}\PYZsh{} assign the one who voted the most number of times to the district}
             \PY{n}{multiple\PYZus{}member\PYZus{}districts} \PY{o}{=} \PY{n}{nominate\PYZus{}df}\PY{o}{.}\PY{n}{dist\PYZus{}id}\PYZbs{}
@@ -572,11 +767,15 @@ Archive}:
         
             \PY{c+c1}{\PYZsh{}\PYZsh{} Only keeping the main member in each district}
             \PY{n}{nominate\PYZus{}df} \PY{o}{=} \PY{n}{nominate\PYZus{}df}\PY{p}{[}\PY{n}{nominate\PYZus{}df}\PY{o}{.}\PY{n}{main\PYZus{}member} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{]}
-            \PY{n}{nominate\PYZus{}df}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{main\PYZus{}member}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+            \PY{n}{nominate\PYZus{}df} \PY{o}{=} \PY{n}{nominate\PYZus{}df}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{main\PYZus{}member}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,}
+                                           \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
         
             \PY{k}{return} \PY{n}{nominate\PYZus{}df}
-        
-        \PY{k}{def} \PY{n+nf}{nom\PYZus{}scores\PYZus{}clean}\PY{p}{(}\PY{n}{nom\PYZus{}file\PYZus{}name}\PY{p}{,} \PY{n}{cols\PYZus{}keep}\PY{p}{)}\PY{p}{:}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{nominate\PYZus{}scores\PYZus{}clean}\PY{p}{(}\PY{n}{nom\PYZus{}file\PYZus{}name}\PY{p}{,} \PY{n}{cols\PYZus{}keep}\PY{p}{)}\PY{p}{:}
             \PY{n}{nominate\PYZus{}scores} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{nom\PYZus{}file\PYZus{}name}\PY{p}{)}
             \PY{n}{nominate\PYZus{}scores} \PY{o}{=} \PY{n}{nominate\PYZus{}scores}\PY{p}{[}\PY{n}{cols\PYZus{}keep}\PY{p}{]}
             
@@ -610,17 +809,14 @@ Archive}:
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}7}]:} \PY{n}{session\PYZus{}nums} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{096}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{097}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{098}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{099}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{100}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{101}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{102}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{103}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{104}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{105}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{106}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{107}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{108}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{109}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{110}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{111}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{112}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{113}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                        \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{114}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{115}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-        
-        \PY{n}{nominate\PYZus{}csvs} \PY{o}{=} \PY{p}{[}\PY{n}{data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nominate\PYZus{}scores/H}\PY{l+s+s2}{\PYZdq{}} \PY{o}{+} \PY{n}{x} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZus{}members.csv}\PY{l+s+s2}{\PYZdq{}} \PYZbs{}
-                         \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{session\PYZus{}nums}\PY{p}{]}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{nominate\PYZus{}csvs} \PY{o}{=} \PY{n}{os}\PY{o}{.}\PY{n}{listdir}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nominate\PYZus{}scores}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{nominate\PYZus{}csvs\PYZus{}full} \PY{o}{=} \PY{p}{[}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nominate\PYZus{}scores/}\PY{l+s+s2}{\PYZdq{}} \PY{o}{+} \PY{n}{x} \PYZbs{}
+                             \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{nominate\PYZus{}csvs}\PY{p}{]}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}8}]:} \PY{n}{nom\PYZus{}cols\PYZus{}keep} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{congress}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{icpsr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{nom\PYZus{}cols\PYZus{}keep} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{congress}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{icpsr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}abbrev}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{party\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bioname}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{born}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nominate\PYZus{}dim1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nominate\PYZus{}dim2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nominate\PYZus{}number\PYZus{}of\PYZus{}votes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nokken\PYZus{}poole\PYZus{}dim1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nokken\PYZus{}poole\PYZus{}dim2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
@@ -628,564 +824,705 @@ Archive}:
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}9}]:} \PY{n}{nom\PYZus{}combined} \PY{o}{=} \PY{n}{nom\PYZus{}scores\PYZus{}clean}\PY{p}{(}\PY{n}{nominate\PYZus{}csvs}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{nom\PYZus{}combined} \PY{o}{=} \PY{n}{nominate\PYZus{}scores\PYZus{}clean}\PY{p}{(}\PY{n}{nominate\PYZus{}csvs\PYZus{}full}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}
                                         \PY{n}{nom\PYZus{}cols\PYZus{}keep}\PY{p}{)}
         
-        \PY{k}{for} \PY{n}{file\PYZus{}path} \PY{o+ow}{in} \PY{n}{nominate\PYZus{}csvs}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{:}\PY{p}{]}\PY{p}{:}
-            \PY{n}{df} \PY{o}{=} \PY{n}{nom\PYZus{}scores\PYZus{}clean}\PY{p}{(}\PY{n}{file\PYZus{}path}\PY{p}{,} \PY{n}{nom\PYZus{}cols\PYZus{}keep}\PY{p}{)}
+        \PY{k}{for} \PY{n}{file\PYZus{}path} \PY{o+ow}{in} \PY{n}{nominate\PYZus{}csvs\PYZus{}full}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{:}\PY{p}{]}\PY{p}{:}
+            \PY{n}{df} \PY{o}{=} \PY{n}{nominate\PYZus{}scores\PYZus{}clean}\PY{p}{(}\PY{n}{file\PYZus{}path}\PY{p}{,} \PY{n}{nom\PYZus{}cols\PYZus{}keep}\PY{p}{)}
             \PY{n}{nom\PYZus{}combined} \PY{o}{=} \PY{n}{nom\PYZus{}combined}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{df}\PY{p}{,} \PY{n}{ignore\PYZus{}index} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
             
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-/anaconda3/lib/python3.6/site-packages/pandas/core/frame.py:3694: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html\#indexing-view-versus-copy
-  errors=errors)
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}332}]:} \PY{n}{merged\PYZus{}elections\PYZus{}ideology} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{clea\PYZus{}cleaned}\PY{p}{,} \PY{n}{nom\PYZus{}combined}\PY{p}{,} \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} 
-                                               \PY{n}{on} \PY{o}{=} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{year}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{dist\PYZus{}id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
-          \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{\PYZhy{}} \PYZbs{}
-          \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{born}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-          \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}abbrev}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bioname}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{born}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
-                                         \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{merged\PYZus{}elections\PYZus{}ideology} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{election\PYZus{}results}\PY{p}{,} \PY{n}{nom\PYZus{}combined}\PY{p}{,} \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} 
+                                             \PY{n}{on} \PY{o}{=} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{year}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{dist\PYZus{}id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{\PYZhy{}} \PYZbs{}
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{born}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}incumbent}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{l+m+mi}{0}
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}incumbent}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{[}\PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{o}{.}\PY{n}{party\PYZus{}code} \PY{o}{==} \PY{l+m+mi}{100}\PY{p}{]} \PY{o}{=} \PY{l+m+mi}{1}
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology} \PY{o}{=} \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PYZbs{}
+            \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}abbrev}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bioname}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{born}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{party\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
+                                                                   \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}333}]:} \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{[}\PY{l+m+mi}{2000}\PY{p}{:}\PY{l+m+mi}{2005}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}333}]:}       year dist\_id  dem\_vote\_share  dem\_won\_2016  congress    icpsr  \textbackslash{}
-          2000  2014    GA\_1        0.390865           0.0     113.0  29338.0   
-          2001  2016    GA\_1        0.000000           0.0     114.0  21513.0   
-          2002  1980   GA\_10        0.802200           0.0      96.0  14404.0   
-          2003  1982   GA\_10        1.000000           0.0      97.0  14404.0   
-          2004  1984   GA\_10        1.000000           0.0      98.0  14404.0   
-          
-                party\_code  nominate\_dim1  nominate\_dim2  nokken\_poole\_dim1  \textbackslash{}
-          2000       200.0          0.540          0.302              0.690   
-          2001       200.0          0.572          0.370              0.551   
-          2002       100.0         -0.028          0.639             -0.063   
-          2003       100.0         -0.028          0.639             -0.025   
-          2004       100.0         -0.028          0.639             -0.003   
-          
-                nokken\_poole\_dim2   age  
-          2000             -0.059  59.0  
-          2001              0.272  59.0  
-          2002              0.675  58.0  
-          2003              0.838  60.0  
-          2004              0.631  62.0  
-\end{Verbatim}
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{lag\PYZus{}columns}\PY{p}{(}\PY{n}{df}\PY{p}{,} \PY{n}{by\PYZus{}cols}\PY{p}{,} \PY{n}{lag\PYZus{}cols}\PY{p}{,} \PY{n}{n\PYZus{}lag\PYZus{}terms}\PY{p}{)}\PY{p}{:}
+            \PY{n}{df}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{n}{by} \PY{o}{=} \PY{n}{by\PYZus{}cols}\PY{p}{,}\PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+            \PY{c+c1}{\PYZsh{} 1) Create new columns}
+            \PY{n}{new\PYZus{}col\PYZus{}names} \PY{o}{=} \PY{p}{[}\PY{n}{x}\PY{o}{+}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZus{}lag}\PY{l+s+s2}{\PYZdq{}}\PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{i}\PY{p}{)} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n+nb}{list}\PY{p}{(}\PY{n}{lag\PYZus{}cols}\PY{p}{)} \PYZbs{}
+                             \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{n}{n\PYZus{}lag\PYZus{}terms}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{]}
+            \PY{k}{for} \PY{n}{new\PYZus{}col\PYZus{}name} \PY{o+ow}{in} \PY{n}{new\PYZus{}col\PYZus{}names}\PY{p}{:}
+                \PY{n}{df}\PY{p}{[}\PY{n}{new\PYZus{}col\PYZus{}name}\PY{p}{]} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{NaN}\PY{l+s+s1}{\PYZsq{}}
+            \PY{n}{new\PYZus{}columns\PYZus{}dict} \PY{o}{=} \PY{p}{\PYZob{}}\PY{n}{x}\PY{p}{:} \PY{p}{[}\PY{p}{]} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{new\PYZus{}col\PYZus{}names}\PY{p}{\PYZcb{}}
             
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}249}]:} \PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{row\PYZus{}n} \PY{o}{=} \PY{l+m+mi}{4}\PY{p}{,}\PY{l+m+mi}{5}
-          
-          \PY{n}{fig}\PY{p}{,} \PY{n}{ax}  \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{n}{nrows}\PY{o}{=}\PY{n}{row\PYZus{}n}\PY{p}{,} \PY{n}{ncols}\PY{o}{=}\PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{col\PYZus{}n}\PY{p}{,}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{row\PYZus{}n}\PY{p}{)}\PY{p}{)}
-          \PY{n}{fig}\PY{o}{.}\PY{n}{suptitle}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Histogram of Democratic Share of Two\PYZhy{}Party Vote, 1980 \PYZhy{} 2016}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                      \PY{n}{y} \PY{o}{=} \PY{l+m+mf}{1.03}\PY{p}{)}
-          \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{year} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{unique}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{p}{:}
-              \PY{n}{histogram\PYZus{}values} \PY{o}{=} \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}\PY{p}{[}
-                  \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{n}{year}\PY{p}{]}\PY{o}{.}\PY{n}{values}
-              \PY{n}{republican\PYZus{}winners} \PY{o}{=} \PY{p}{[}\PY{n}{x} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{histogram\PYZus{}values} \PY{k}{if} \PY{n}{x} \PY{o}{\PYZlt{}} \PY{l+m+mf}{0.5}\PY{p}{]}
-              \PY{n}{democrat\PYZus{}winners} \PY{o}{=} \PY{p}{[}\PY{n}{x} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{histogram\PYZus{}values} \PY{k}{if} \PY{n}{x} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mf}{0.5}\PY{p}{]}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{i} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}\PY{p}{]}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{republican\PYZus{}winners}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{red}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                                     \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Rep. winner}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{i} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}\PY{p}{]}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{democrat\PYZus{}winners}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{blue}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                                     \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Dem. winner}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{i} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{70}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{i} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{n}{year}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{i} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Democratic Share of the Two\PYZhy{}Party Vote}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{i} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Count}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{i} \PY{o}{\PYZpc{}} \PY{l+m+mi}{4}\PY{p}{]}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{tight\PYZus{}layout}\PY{p}{(}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
-\end{Verbatim}
-
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_19_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
-    Above, we see the proportion of votes given to the Democratic candidate
-in each district since 1980. If the Democratic share of the vote is over
-50\%, then by American electoral rules, the Democrat wins the election
-(blue shaded bars). If the Democratic share of the vote is below 50\%,
-then the Republican share is over 50\%, given the American two-party
-system, so the Republican candidate wins.
-
-One striking element of the figure above is the number of extreme values
-at 0 and 1, which indicate candidates that run unopposed. The number of
-candidates that ran unopposed seems to be highest between 1998 and 2004,
-although has remained high over the range of years available. Obviously,
-if a candidate runs unopposed, predicting the outcome is trivial.
-
-Finally, the margins of victory are worth noting. While many margins of
-victory were small in 1980 (there are many observations in the range
-(0.4, 0.6), 2004 provides an example of well-divided elections, whose
-result was very clear. That said, there does not appear to be a pattern
-in when the results will be well-separated across the two parties; such
-distinctions could be made through more thorough analysis of more
-covariates.
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}93}]:} \PY{n}{ntl\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{national\PYZus{}government\PYZus{}makeup.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-         \PY{n}{ntl\PYZus{}df} \PY{o}{=} \PY{n}{ntl\PYZus{}df}\PY{p}{[}\PY{n}{ntl\PYZus{}df}\PY{o}{.}\PY{n}{year} \PY{o}{\PYZlt{}} \PY{l+m+mi}{2018}\PY{p}{]} \PY{c+c1}{\PYZsh{}\PYZsh{} Dropping 2018 results}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}95}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Years in which there was a Republican/Democratic President}
-         \PY{n}{R\PYZus{}pres\PYZus{}year\PYZus{}ranges} \PY{o}{=} \PY{p}{[}\PY{p}{[}\PY{l+m+mf}{1980.1}\PY{p}{,}\PY{l+m+mi}{1992}\PY{p}{]}\PY{p}{,} \PY{p}{[}\PY{l+m+mf}{2000.1}\PY{p}{,} \PY{l+m+mi}{2008}\PY{p}{]}\PY{p}{,} \PY{p}{[}\PY{l+m+mf}{2016.1}\PY{p}{,} \PY{l+m+mi}{2018}\PY{p}{]}\PY{p}{]}
-         \PY{n}{D\PYZus{}pres\PYZus{}year\PYZus{}ranges} \PY{o}{=} \PY{p}{[}\PY{p}{[}\PY{l+m+mi}{1978}\PY{p}{,} \PY{l+m+mi}{1980}\PY{p}{]}\PY{p}{,} \PY{p}{[}\PY{l+m+mf}{1992.1}\PY{p}{,}\PY{l+m+mi}{2000}\PY{p}{]}\PY{p}{,} \PY{p}{[}\PY{l+m+mf}{2008.1}\PY{p}{,} \PY{l+m+mi}{2016}\PY{p}{]}\PY{p}{]}
-\end{Verbatim}
-
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}102}]:} \PY{n}{year\PYZus{}low}\PY{p}{,} \PY{n}{year\PYZus{}high} \PY{o}{=} \PY{l+m+mi}{1980}\PY{p}{,} \PY{l+m+mi}{2018}
-          \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{n}{year\PYZus{}low}\PY{p}{,} \PY{n}{year\PYZus{}high}\PY{o}{+}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
-          
-          \PY{n}{fig}\PY{p}{,} \PY{n}{ax} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{p}{)}
-          \PY{n}{ax}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{ntl\PYZus{}df}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{values}\PY{p}{,}\PY{n}{ntl\PYZus{}df}\PY{o}{.}\PY{n}{house}\PY{o}{.}\PY{n}{values}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{o\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                 \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{black}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                 \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Percent Ds in House}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{ax}\PY{o}{.}\PY{n}{axhline}\PY{p}{(}\PY{l+m+mf}{0.5}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{black}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{linestyle} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{ax}\PY{o}{.}\PY{n}{set\PYZus{}xlim}\PY{p}{(}\PY{n}{year\PYZus{}low}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.5}\PY{p}{,} \PY{n}{year\PYZus{}high}\PY{o}{+}\PY{l+m+mf}{0.5}\PY{p}{)}
-          \PY{n}{ax}\PY{o}{.}\PY{n}{set\PYZus{}ylim}\PY{p}{(}\PY{l+m+mf}{0.4}\PY{p}{,} \PY{l+m+mf}{0.65}\PY{p}{)}
-          \PY{c+c1}{\PYZsh{}\PYZsh{} Republican presidents}
-          \PY{k}{for} \PY{n}{year\PYZus{}range} \PY{o+ow}{in} \PY{n}{R\PYZus{}pres\PYZus{}year\PYZus{}ranges}\PY{p}{:}
-              \PY{n}{ax}\PY{o}{.}\PY{n}{fill\PYZus{}between}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+m+mf}{0.7}\PY{p}{,} \PY{n}{where} \PY{o}{=} \PY{p}{(}\PY{n}{x} \PY{o}{\PYZgt{}} \PY{n}{year\PYZus{}range}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{\PYZhy{}} \PY{l+m+mi}{1}\PY{p}{)} \PY{o}{\PYZam{}}
-                              \PY{p}{(}\PY{n}{x} \PY{o}{\PYZlt{}} \PY{n}{year\PYZus{}range}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{+} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
-                              \PY{n}{facecolor} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{red}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                             \PY{n}{alpha} \PY{o}{=} \PY{l+m+mf}{0.5}\PY{p}{)}
-          \PY{c+c1}{\PYZsh{}\PYZsh{} Democrat presidents}
-          \PY{k}{for} \PY{n}{year\PYZus{}range} \PY{o+ow}{in} \PY{n}{D\PYZus{}pres\PYZus{}year\PYZus{}ranges}\PY{p}{:}
-              \PY{n}{ax}\PY{o}{.}\PY{n}{fill\PYZus{}between}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+m+mf}{0.7}\PY{p}{,} \PY{n}{where} \PY{o}{=} \PY{p}{(}\PY{n}{x} \PY{o}{\PYZgt{}} \PY{n}{year\PYZus{}range}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{\PYZhy{}} \PY{l+m+mi}{1}\PY{p}{)} \PY{o}{\PYZam{}}
-                              \PY{p}{(}\PY{n}{x} \PY{o}{\PYZlt{}} \PY{n}{year\PYZus{}range}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
-                              \PY{n}{facecolor} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{royalblue}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                             \PY{n}{alpha} \PY{o}{=} \PY{l+m+mf}{0.5}\PY{p}{)}
-          \PY{n}{ax}\PY{o}{.}\PY{n}{fill\PYZus{}between}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{,} \PY{n}{facecolor} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{royalblue}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{alpha} \PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{,}
-                         \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Dem. President}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{ax}\PY{o}{.}\PY{n}{fill\PYZus{}between}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{,} \PY{n}{facecolor} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{red}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{alpha} \PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{,}
-                         \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Rep. President}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Democrat Seat Share in U.S. House}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s2}{By Party of President}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Year}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Democrat Seat Share}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
-\end{Verbatim}
-
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_23_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
-    Above, we see the percent seats held by Democrats in the House over time
-and under Presidents from different parties. This plot shows the midterm
-advantage enjoyed by the non-presidential party in American politics
--\/- at midterm elections (two years after the President was
-(re)elected), voters tend to support the party in opposition. This is
-seen in the graph above by steep drop-offs in the proportion of House
-seats held be Democrats 1994-1996 and 2008-2010. Additionally,
-Republicans lost a large share of seats 1982-1984 and 2006-2008.
-
-In terms of modeling, this suggests that we should include a dummy
-variable indicating whether the election was a Presidential or midterm
-election. Given that the 2018 election is a midterm election under a
-Republican President, we expect the Democratic Party (the opposition
-party) to gain seats this election.
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}220}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Getting csv files on socioeconomic data}
-          \PY{c+c1}{\PYZsh{}state\PYZus{}csv\PYZus{}files = os.listdir(local\PYZus{}data\PYZus{}folder + \PYZdq{}Socio\PYZhy{}economicData/2018\PYZdq{})}
-          \PY{n}{state\PYZus{}csv\PYZus{}files} \PY{o}{=} \PY{n}{os}\PY{o}{.}\PY{n}{listdir}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder}\PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Socio\PYZhy{}economicData/2018/}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{state\PYZus{}csv\PYZus{}files} \PY{o}{=} \PY{p}{[}\PY{n}{x} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{state\PYZus{}csv\PYZus{}files} \PY{k}{if} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{csv}\PY{l+s+s2}{\PYZdq{}} \PY{o+ow}{in} \PY{n}{x}\PY{p}{]}
-          \PY{n}{socioeconomic\PYZus{}file\PYZus{}paths} \PY{o}{=} \PY{p}{[}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Socio\PYZhy{}economicData/2018/}\PY{l+s+s2}{\PYZdq{}} \PY{o}{+} \PY{n}{x} \PYZbs{}
-                                      \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{state\PYZus{}csv\PYZus{}files}\PY{p}{]}
-          
-          \PY{n+nb}{len}\PY{p}{(}\PY{n}{socioeconomic\PYZus{}file\PYZus{}paths}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}220}]:} 50
-\end{Verbatim}
+            \PY{c+c1}{\PYZsh{} Unique district IDs, for example}
+            \PY{n}{groupby\PYZus{}values} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{by\PYZus{}cols}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{unique}\PY{p}{(}\PY{p}{)}
+            \PY{k}{for} \PY{n}{val} \PY{o+ow}{in} \PY{n}{groupby\PYZus{}values}\PY{p}{:} \PY{c+c1}{\PYZsh{}\PYZsh{} in each district}
+                
+                \PY{k}{for} \PY{n}{lag\PYZus{}term} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{n\PYZus{}lag\PYZus{}terms}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{:} \PY{c+c1}{\PYZsh{}\PYZsh{} For each year lagged}
+                    \PY{c+c1}{\PYZsh{}\PYZsh{} Get the right column name \PYZhy{}\PYZhy{} matches the one above}
+                    \PY{n}{new\PYZus{}col\PYZus{}name} \PY{o}{=} \PY{n}{lag\PYZus{}cols}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZus{}lag}\PY{l+s+s2}{\PYZdq{}}\PY{o}{+}\PY{n+nb}{str}\PY{p}{(}\PY{n}{lag\PYZus{}term}\PY{p}{)}
+                    \PY{c+c1}{\PYZsh{}\PYZsh{} Shift values using pd.DataFrame.shift()}
+                    \PY{n}{lagged\PYZus{}vals} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{p}{[}\PY{n}{by\PYZus{}cols}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]} \PY{o}{==} \PY{n}{val}\PY{p}{]}\PY{p}{[}\PY{n}{lag\PYZus{}cols}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{shift}\PY{p}{(}\PY{n}{lag\PYZus{}term}\PY{p}{)}\PY{o}{.}\PY{n}{values}
+                    \PY{c+c1}{\PYZsh{}\PYZsh{} Insert lagged values back into the main data frame}
+                    \PY{c+c1}{\PYZsh{}\PYZsh{} This is where the problem is}
+                    \PY{n}{new\PYZus{}columns\PYZus{}dict}\PY{p}{[}\PY{n}{new\PYZus{}col\PYZus{}name}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{lagged\PYZus{}vals}\PY{p}{)}
             
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}221}]:} \PY{c+c1}{\PYZsh{}index of data in CSV}
-          \PY{n}{medage\PYZus{}index}\PY{o}{=}\PY{l+m+mi}{16}
-          \PY{n}{unemprate\PYZus{}index}\PY{o}{=}\PY{l+m+mi}{96}
-          \PY{n}{medhhincome\PYZus{}index}\PY{o}{=}\PY{l+m+mi}{198}
-          \PY{n}{bachdeg\PYZus{}index}\PY{o}{=}\PY{l+m+mi}{240}
-          \PY{n}{totpop\PYZus{}index} \PY{o}{=} \PY{l+m+mi}{19}
-          \PY{n}{black\PYZus{}index} \PY{o}{=} \PY{l+m+mi}{22}
-          \PY{n}{asian\PYZus{}index} \PY{o}{=} \PY{l+m+mi}{24}
-          \PY{n}{hispanic\PYZus{}index} \PY{o}{=} \PY{l+m+mi}{29}
+            \PY{k}{for} \PY{n}{key} \PY{o+ow}{in} \PY{n}{new\PYZus{}columns\PYZus{}dict}\PY{p}{:}
+                \PY{n}{df}\PY{p}{[}\PY{n}{key}\PY{p}{]} \PY{o}{=} \PY{n}{new\PYZus{}columns\PYZus{}dict}\PY{p}{[}\PY{n}{key}\PY{p}{]}
+                
+            \PY{k}{return}\PY{p}{(}\PY{n}{df}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}226}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Dictionary to hold data from districts}
-          \PY{n}{data\PYZus{}dict} \PY{o}{=} \PY{p}{\PYZob{}}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}num}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unemp\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}HH\PYZus{}income}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bachelor\PYZus{}deg\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{asian\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}\PY{p}{,}
-          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{hispanic\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{p}{]}
-          \PY{p}{\PYZcb{}}
-          
-          \PY{k}{for} \PY{n}{csv\PYZus{}end} \PY{o+ow}{in} \PY{n}{state\PYZus{}csv\PYZus{}files}\PY{p}{:}
-              \PY{n}{full\PYZus{}file\PYZus{}path} \PY{o}{=} \PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Socio\PYZhy{}economicData/2018/}\PY{l+s+s2}{\PYZdq{}} \PY{o}{+}\PY{n}{csv\PYZus{}end}
-              
-              \PY{n}{state\PYZus{}name} \PY{o}{=} \PY{n}{csv\PYZus{}end}\PY{o}{.}\PY{n}{partition}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZus{}District}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
-              
-              \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{full\PYZus{}file\PYZus{}path}\PY{p}{)}
-              \PY{n}{data\PYZus{}columns} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{columns}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
-          
-              \PY{c+c1}{\PYZsh{}\PYZsh{} Getting variables of interest from each data frame}
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{medage\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unemp\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{unemprate\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)} 
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}HH\PYZus{}income}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{medhhincome\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)} 
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bachelor\PYZus{}deg\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{bachdeg\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{totpop\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)} 
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{black\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{asian\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{asian\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{hispanic\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{hispanic\PYZus{}index}\PY{p}{,}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)} 
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{p}{[}\PY{n}{state\PYZus{}name} \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{data\PYZus{}columns}\PY{p}{)}\PY{p}{)}\PY{p}{]}\PY{p}{)}
-              
-              \PY{n}{district\PYZus{}names} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{columns}\PY{p}{[}\PY{n}{data\PYZus{}columns}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}
-              \PY{n}{data\PYZus{}dict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}num}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{extend}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{data\PYZus{}columns}\PY{p}{)}\PY{p}{)}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}
-          
-          \PY{n}{SE\PYZus{}data\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{data\PYZus{}dict}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Lagged vote share}
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology} \PY{o}{=} \PY{n}{lag\PYZus{}columns}\PY{p}{(}\PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{,}
+                                                \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
+                                                \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology} \PY{o}{=} \PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{o}{.}\PY{n}{rename}\PY{p}{(}
+            \PY{n}{columns}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share\PYZus{}lag1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}227}]:} \PY{n}{state\PYZus{}abbs}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{5}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}227}]:}    state\_name state\_abb state\_name\_lower
-          0     Alabama        AL          alabama
-          1      Alaska        AK           alaska
-          2     Arizona        AZ          arizona
-          3    Arkansas        AR         arkansas
-          4  California        CA       california
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}228}]:} \PY{n}{SE\PYZus{}data\PYZus{}merged} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{SE\PYZus{}data\PYZus{}df}\PY{p}{,} \PY{n}{state\PYZus{}abbs}\PY{p}{,} \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                                    \PY{n}{on} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{state\PYZus{}name}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}abb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZus{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{+}\PYZbs{}
-          \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}num}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{n+nb}{str}\PY{p}{)}
-          \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{5}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}228}]:}   state\_name  district\_num median\_age unemp\_rate median\_HH\_income  \textbackslash{}
-          0    Alabama             1       40.0        5.8            47984   
-          1    Alabama             2       38.5        6.2            46579   
-          2    Alabama             3       38.1        5.3            46484   
-          3    Alabama             4       40.7        6.0            43218   
-          4    Alabama             5       39.5        4.7            54707   
-          
-            bachelor\_deg\_perc total\_pop black\_pop asian\_pop hispanic\_pop state\_abb  \textbackslash{}
-          0              25.0    713410    198799     10717        21976        AL   
-          1              23.1    673776    207087      7686        24457        AL   
-          2              21.7    710488    187176     11727        20464        AL   
-          3              17.9    685553     49177      3863        45965        AL   
-          4              31.9    718713    129234     12993        37350        AL   
-          
-            state\_name\_lower dist\_id  
-          0          alabama    AL\_1  
-          1          alabama    AL\_2  
-          2          alabama    AL\_3  
-          3          alabama    AL\_4  
-          4          alabama    AL\_5  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}237}]:} \PY{n}{population\PYZus{}columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{total\PYZus{}pop}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{black\PYZus{}pop}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{asian\PYZus{}pop}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{hispanic\PYZus{}pop}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}
-          \PY{k}{for} \PY{n}{col} \PY{o+ow}{in} \PY{n}{population\PYZus{}columns}\PY{p}{:}
-              \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{n}{col}\PY{p}{]} \PY{o}{=} \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{n}{col}\PY{p}{]}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{n+nb}{float}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{ntl\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{national\PYZus{}government\PYZus{}makeup.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{merged\PYZus{}elections\PYZus{}ideology} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{,} \PY{n}{ntl\PYZus{}df}\PY{p}{,}
+                                             \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{on} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{year}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}\PYZsh{} President = binary(0,1) = [Republican, Democrat]}
+        \PY{c+c1}{\PYZsh{}\PYZsh{} House, Senate = float(0,1) = proportion seats held by Democrats}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}230}]:} \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{/}\PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-          \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{asian\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{asian\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{/}\PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-          \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{hispanic\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{hispanic\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{/}\PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-\end{Verbatim}
-
-
-    Below, we see histograms of demographic predictors in 2017 -\/-
-interestingly, we see slight right-skewed distributions in all of these
-variables, except for median age, potentially. This indicates that we
-might need to transform our variables (especially racial/ethnic
-variables, which appear most skewed) to help ensure that our errors are
-normally distributed and that our models are not overly influenced by
-outliers.
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}245}]:} \PY{n}{fig}\PY{p}{,} \PY{n}{ax} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{n}{nrows}\PY{o}{=}\PY{l+m+mi}{3}\PY{p}{,} \PY{n}{ncols}\PY{o}{=}\PY{l+m+mi}{3}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,}\PY{l+m+mi}{10}\PY{p}{)}\PY{p}{)}
-          \PY{n}{ax} \PY{o}{=} \PY{n}{ax}\PY{o}{.}\PY{n}{flatten}\PY{p}{(}\PY{p}{)}
-          \PY{n}{fig}\PY{o}{.}\PY{n}{suptitle}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Distribution of predictors across 435 districts (2017)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{y}\PY{o}{=}\PY{l+m+mf}{1.03}\PY{p}{)}
-          \PY{n}{labels}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Median Age (yrs)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Unemployment Rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Median Household Income (X1000 \PYZdl{})}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                  \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{ with bachelors degree}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
-                  \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{ Black}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{ Asian}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{ Hispanic}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-          
-          \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{col\PYZus{}i} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{13}\PY{p}{,} \PY{l+m+mi}{14}\PY{p}{,} \PY{l+m+mi}{15}\PY{p}{]}\PY{p}{)}\PY{p}{:}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{n}{col\PYZus{}i}\PY{p}{]}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{n+nb}{float}\PY{p}{)}\PY{p}{,} \PY{n}{alpha}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{District Count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{n}{labels}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{p}{)}
-              
-          \PY{n}{plt}\PY{o}{.}\PY{n}{tight\PYZus{}layout}\PY{p}{(}\PY{p}{)}
-\end{Verbatim}
-
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_33_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}256}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} This data applies for the 2018 election (it is the most recent)}
-          
-          \PY{n}{SE\PYZus{}data\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{l+m+mi}{2018}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{ACS\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ACS\PYZus{}2005\PYZus{}2017.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}\PYZsh{} Scaling columns to be proportions, not absolute numbers}
+        \PY{n}{columns\PYZus{}to\PYZus{}scale} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bach\PYZus{}deg\PYZus{}num}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{high\PYZus{}school\PYZus{}num}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{white\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{new\PYZus{}column\PYZus{}names} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bachelor\PYZus{}deg\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{HS\PYZus{}diploma\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{white\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{colname} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{columns\PYZus{}to\PYZus{}scale}\PY{p}{)}\PY{p}{:}
+            \PY{n}{ACS\PYZus{}data}\PY{p}{[}\PY{n}{new\PYZus{}column\PYZus{}names}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{p}{]} \PY{o}{=} \PY{n}{ACS\PYZus{}data}\PY{p}{[}\PY{n}{colname}\PY{p}{]}\PY{o}{/}\PY{n}{ACS\PYZus{}data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{n}{ACS\PYZus{}data} \PY{o}{=} \PY{n}{ACS\PYZus{}data}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns\PYZus{}to\PYZus{}scale}\PY{p}{,} \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}259}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Merging in current socioeconomic data \PYZhy{}\PYZhy{} will do }
-          \PY{c+c1}{\PYZsh{}\PYZsh{} when we have more data than 2018}
-          \PY{c+c1}{\PYZsh{} combined\PYZus{}data = pd.merge(merged\PYZus{}elections\PYZus{}ideology, }
-          \PY{c+c1}{\PYZsh{}                         SE\PYZus{}data\PYZus{}merged,}
-          \PY{c+c1}{\PYZsh{}                         on = [\PYZdq{}dist\PYZus{}id\PYZdq{}, \PYZdq{}year\PYZdq{}],}
-          \PY{c+c1}{\PYZsh{}                         how = \PYZdq{}left\PYZdq{})}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{ACS\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{ACS\PYZus{}data}\PY{p}{,} \PY{n}{state\PYZus{}abbs}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}abb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{p}{,}
+                           \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{on} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{state\PYZus{}name}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}378}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Data for 2005 \PYZhy{} 2017}
-          \PY{n}{unemp\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} 
-                                 \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{congressional\PYZus{}district\PYZus{}unemployment\PYZus{}2005\PYZhy{}2017.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{ACS\PYZus{}data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{ACS\PYZus{}data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}abb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZus{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{+} \PYZbs{}
+        \PY{n}{ACS\PYZus{}data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}num}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{n+nb}{str}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}255}]:} \PY{n}{unemp\PYZus{}df}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{5}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}255}]:}   dist\_id  year  unemployment
-          0    AL\_1  2005           6.3
-          1    AL\_2  2005           6.7
-          2    AL\_3  2005           8.8
-          3    AL\_4  2005           6.9
-          4    AL\_5  2005           7.0
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}334}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Merging in unemployment data}
-          \PY{n}{combined\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{,} 
-                                  \PY{n}{unemp\PYZus{}df}\PY{p}{,}
-                                  \PY{n}{on} \PY{o}{=} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{dist\PYZus{}id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{year}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{,}
-                                  \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{drop\PYZus{}duplicates}\PY{p}{(}\PY{n}{inplace} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{cols\PYZus{}to\PYZus{}drop} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{district\PYZus{}num}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{state\PYZus{}abb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{ACS\PYZus{}data} \PY{o}{=} \PY{n}{ACS\PYZus{}data}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{cols\PYZus{}to\PYZus{}drop}\PY{p}{,} \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}335}]:} \PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{l+m+mi}{10}\PY{p}{:}\PY{l+m+mi}{15}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}335}]:}     year dist\_id  dem\_vote\_share  dem\_won\_2016  congress    icpsr  party\_code  \textbackslash{}
-          10  2000    AK\_1        0.192064           0.0     106.0  14066.0       200.0   
-          11  2002    AK\_1        0.188273           0.0     107.0  14066.0       200.0   
-          12  2004    AK\_1        0.239302           0.0     108.0  14066.0       200.0   
-          13  2006    AK\_1        0.414254           0.0     109.0  14066.0       200.0   
-          16  2008    AK\_1        0.472837           0.0     110.0  14066.0       200.0   
-          
-              nominate\_dim1  nominate\_dim2  nokken\_poole\_dim1  nokken\_poole\_dim2   age  \textbackslash{}
-          10          0.279          0.014              0.295              0.181  67.0   
-          11          0.279          0.014              0.383              0.215  69.0   
-          12          0.279          0.014              0.353              0.142  71.0   
-          13          0.279          0.014              0.367             -0.047  73.0   
-          16          0.279          0.014              0.291              0.269  75.0   
-          
-              unemployment  
-          10           NaN  
-          11           NaN  
-          12           NaN  
-          13           9.4  
-          16           7.7  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}336}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Dropping some columns for the scatter matrix}
-          \PY{n}{cols\PYZus{}to\PYZus{}drop\PYZus{}for\PYZus{}scatter} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{congress}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{icpsr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-          
-          \PY{n}{to\PYZus{}scatter\PYZus{}df} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{cols\PYZus{}to\PYZus{}drop\PYZus{}for\PYZus{}scatter}\PY{p}{,}
-                                             \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,}
-                                            \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
-\end{Verbatim}
-
-
-    Below, we see a scatter matrix for all of the predictors in the dataset.
-One interesting aspect of the scatter matrix is that the ideological
-measures are split at 0.5 -\/- that is, there are few observations at
-the median of the distribution. This may prove problematic, as voting
-records are likely highly collinear with the incumbent's party.
-Interestingly, however, there is a high level of variance between
-ideological scores and the ultimate democratic vote share, indicating
-that incumbent ideology is a good, though not perfect, predictor of the
-election outcome.
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}337}]:} \PY{n}{pd}\PY{o}{.}\PY{n}{plotting}\PY{o}{.}\PY{n}{scatter\PYZus{}matrix}\PY{p}{(}\PY{n}{to\PYZus{}scatter\PYZus{}df}\PY{p}{,} \PY{n}{alpha} \PY{o}{=} \PY{l+m+mf}{0.2}\PY{p}{,}
-                                     \PY{n}{figsize} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{20}\PY{p}{,}\PY{l+m+mi}{20}\PY{p}{)}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{scatter\PYZus{}matrix.png}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{;}
-\end{Verbatim}
-
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_42_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}306}]:} \PY{n}{years\PYZus{}no\PYZus{}NA\PYZus{}unemp} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{2006}\PY{p}{,} \PY{l+m+mi}{2017}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}
-          
-          \PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{row\PYZus{}n} \PY{o}{=} \PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{2}
-          
-          \PY{n}{fig}\PY{p}{,} \PY{n}{ax}  \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{n}{nrows}\PY{o}{=}\PY{n}{row\PYZus{}n}\PY{p}{,} \PY{n}{ncols}\PY{o}{=}\PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{col\PYZus{}n}\PY{p}{,}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{row\PYZus{}n}\PY{p}{)}\PY{p}{)}
-          \PY{c+c1}{\PYZsh{} plt.tight\PYZus{}layout()}
-          \PY{n}{ax} \PY{o}{=} \PY{n}{ax}\PY{o}{.}\PY{n}{flatten}\PY{p}{(}\PY{p}{)}
-          \PY{n}{fig}\PY{o}{.}\PY{n}{suptitle}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Unemployment versus Democratic Vote Share over Time}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{y} \PY{o}{=} \PY{l+m+mf}{0.93}\PY{p}{)}
-          \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{year\PYZus{}i} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{years\PYZus{}no\PYZus{}NA\PYZus{}unemp}\PY{p}{)}\PY{p}{:}
-              \PY{n}{this\PYZus{}year\PYZus{}df} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{n}{year\PYZus{}i}\PY{p}{]}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{this\PYZus{}year\PYZus{}df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unemployment}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
-                           \PY{n}{this\PYZus{}year\PYZus{}df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{o}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{n}{year\PYZus{}i}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xlim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{28}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Democratic Vote Share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-              \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{District Unemployment Rate}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-              
-          \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
-\end{Verbatim}
-
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_43_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
-    Interestingly, we see above that the relationship between district-level
-unemployment and the percent of the vote that the Democratic candidate
-obtains might not be linear. Particularly, when there is greater
-variation in unemployment, the apparent relationship between
-unemployment and greater success for Democratic candidates is stronger.
-We see this in particular in comparing the elections in 2010 and 2016:
-in 2010, unemployment surpassed 25\% in two districts, while it was no
-higher than 15\% in 2016. These scatterplots suggest that we should
-include a measure of variation in nationwide unemployment and the
-unemployment rate itself, or that especially high unemployment rates may
-be outliers that could bias our results. In any case, care should be
-taken with these data.
-
-    Below, we fit a basic logistic model to predict the 2016 election
-outcomes (the 2018 outcomes are not yet available in full, as discussed
-above). We base this model solely on the election outcomes in the
-district since 1980. Impressively, this baseline model already performs
-fairly well. However, future models that incorporate more covariates
-will likely do better.
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}350}]:} \PY{c+c1}{\PYZsh{} Fit logistic regression on training data }
-          
-          \PY{n}{data\PYZus{}to\PYZus{}fit} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
-          
-          \PY{c+c1}{\PYZsh{}\PYZsh{} Can\PYZsq{}t predict 2016 results with 2016 results...}
-          \PY{n}{x\PYZus{}train} \PY{o}{=} \PY{n}{data\PYZus{}to\PYZus{}fit}\PY{p}{[}\PY{n}{data\PYZus{}to\PYZus{}fit}\PY{o}{.}\PY{n}{year} \PY{o}{\PYZlt{}} \PY{l+m+mi}{2016}\PY{p}{]}
-          \PY{n}{y\PYZus{}train} \PY{o}{=} \PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}won\PYZus{}2016}\PY{o}{.}\PY{n}{values}
-          
-          \PY{n}{logreg1} \PY{o}{=} \PY{n}{LogisticRegression}\PY{p}{(}\PY{n}{C}\PY{o}{=}\PY{l+m+mi}{100000}\PY{p}{)}
-          \PY{n}{logreg1}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}\PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
-                      \PY{n}{y\PYZus{}train}\PY{p}{)}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}350}]:} LogisticRegression(C=100000, class\_weight=None, dual=False,
-                    fit\_intercept=True, intercept\_scaling=1, max\_iter=100,
-                    multi\_class='ovr', n\_jobs=1, penalty='l2', random\_state=None,
-                    solver='liblinear', tol=0.0001, verbose=0, warm\_start=False)
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}361}]:} \PY{c+c1}{\PYZsh{} Make Prediction and check the accuracy}
-          \PY{n}{y\PYZus{}train\PYZus{}probs}\PY{o}{=}\PY{p}{(}\PY{n}{logreg1}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}\PYZbs{}
-                                               \PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}
-          
-          \PY{n}{train\PYZus{}accuracy} \PY{o}{=} \PY{n}{logreg1}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}\PYZbs{}
-                                         \PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
-                                      \PY{n}{y\PYZus{}train}\PY{p}{)}\PY{o}{*}\PY{l+m+mi}{100}
-          
-          \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Accuracy of logistic regression classifier on train set: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                \PY{n}{np}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{n}{train\PYZus{}accuracy}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{sep} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Using earliest data (2017) to predict the 2018 election}
+        \PY{c+c1}{\PYZsh{}\PYZsh{} So for the merge to work, we have to recode the year of }
+        \PY{c+c1}{\PYZsh{}\PYZsh{} the 2017 data for 2018.}
+        
+        \PY{n}{ACS\PYZus{}data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{[}\PY{n}{ACS\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2017}\PY{p}{]} \PY{o}{=} \PY{l+m+mi}{2018}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-Accuracy of logistic regression classifier on train set: 82.83\%
-
-    \end{Verbatim}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}376}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} True outcomes:}
-          \PY{n}{x\PYZus{}train\PYZus{}true} \PY{o}{=} \PY{n}{data\PYZus{}to\PYZus{}fit}\PY{p}{[}\PY{n}{data\PYZus{}to\PYZus{}fit}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2016}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{values}
-          \PY{n}{y\PYZus{}train\PYZus{}true} \PY{o}{=} \PY{n}{data\PYZus{}to\PYZus{}fit}\PY{p}{[}\PY{n}{data\PYZus{}to\PYZus{}fit}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2016}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}won\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{values}
-          
-          \PY{c+c1}{\PYZsh{} Plot predicted probabilities}
-          
-          \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}\PY{o}{.}\PY{n}{values}\PY{p}{,}
-                   \PY{n}{y\PYZus{}train\PYZus{}probs}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{o}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{label}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Training Data}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}train\PYZus{}true}\PY{p}{,} \PY{n}{y\PYZus{}train\PYZus{}true}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{*}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{red}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
-                  \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{True 2016 Results}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Former Election Results}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Predicted probability}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Predicted Probabilities of Democrat Winning, 2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{)}
-          
-          \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{combined\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{merged\PYZus{}elections\PYZus{}ideology}\PY{p}{,} \PY{n}{ACS\PYZus{}data}\PY{p}{,}
+                                \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{on} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
 \end{Verbatim}
 
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_48_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Dropping NAs}
+        \PY{n}{combined\PYZus{}data} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Redistricting variable}
+        \PY{k}{def} \PY{n+nf}{merge\PYZus{}redist}\PY{p}{(}\PY{n}{df}\PY{p}{,} \PY{n}{redist\PYZus{}df}\PY{p}{,} \PY{n}{year\PYZus{}col}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{dist\PYZus{}id\PYZus{}col}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+            \PY{n}{merged\PYZus{}df} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{redist\PYZus{}df}\PY{p}{,} \PY{n}{on}\PY{o}{=}\PY{p}{(}\PY{n}{year\PYZus{}col}\PY{p}{,} \PY{n}{dist\PYZus{}id\PYZus{}col}\PY{p}{)}\PY{p}{,} \PY{n}{how}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{left}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            \PY{n}{merged\PYZus{}df}\PY{o}{.}\PY{n}{redistricted}\PY{o}{.}\PY{n}{fillna}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+            \PY{k}{return} \PY{n}{merged\PYZus{}df}
+        
+        \PY{n}{redist\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{redist\PYZus{}2000\PYZhy{}2018.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{n}{combined\PYZus{}data} \PY{o}{=} \PY{n}{merge\PYZus{}redist}\PY{p}{(}\PY{n}{combined\PYZus{}data}\PY{p}{,} \PY{n}{redist\PYZus{}df}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{combined\PYZus{}data.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                             \PY{n}{index}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    \subsection{EDA}\label{eda}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{combined\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{combined\PYZus{}data.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{violin\PYZus{}plot\PYZus{}vars} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}HH\PYZus{}income}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{mortgage\PYZus{}cost}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unemp\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bachelor\PYZus{}deg\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{HS\PYZus{}diploma\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{white\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{n}{years} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{unique}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{row\PYZus{}n} \PY{o}{=} \PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{4}
+        
+        \PY{n}{fig}\PY{p}{,} \PY{n}{ax}  \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{n}{nrows}\PY{o}{=}\PY{n}{row\PYZus{}n}\PY{p}{,} \PY{n}{ncols}\PY{o}{=}\PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{col\PYZus{}n}\PY{p}{,}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{row\PYZus{}n}\PY{p}{)}\PY{p}{)}
+        \PY{n}{fig}\PY{o}{.}\PY{n}{suptitle}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Distribution of Predictor Variables Over Time, 2006 \PYZhy{} 2018}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                    \PY{n}{y} \PY{o}{=} \PY{l+m+mf}{0.95}\PY{p}{,} \PY{n}{fontsize} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{xx\PYZhy{}large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{fig}\PY{o}{.}\PY{n}{subplots\PYZus{}adjust}\PY{p}{(}\PY{n}{left}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{bottom}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{right}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,}
+                            \PY{n}{top}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{wspace}\PY{o}{=}\PY{l+m+mf}{0.2}\PY{p}{,} \PY{n}{hspace}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
+        \PY{n}{ax} \PY{o}{=} \PY{n}{ax}\PY{o}{.}\PY{n}{flatten}\PY{p}{(}\PY{p}{)}
+        \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{var} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{violin\PYZus{}plot\PYZus{}vars}\PY{p}{)}\PY{p}{:}
+            \PY{n}{medians} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            \PY{n}{medians\PYZus{}x} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            \PY{k}{for} \PY{n}{j}\PY{p}{,} \PY{n}{y} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{years}\PY{p}{)}\PY{p}{:}
+                \PY{n}{violin\PYZus{}plot\PYZus{}data} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{var}\PY{p}{]}\PY{p}{[}\PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{n}{y}\PY{p}{]}
+                \PY{n}{medians\PYZus{}x}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{j}\PY{p}{)}
+                \PY{n}{medians}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{median}\PY{p}{(}\PY{n}{violin\PYZus{}plot\PYZus{}data}\PY{o}{.}\PY{n}{values}\PY{p}{)}\PY{p}{)}
+                \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{violinplot}\PY{p}{(}\PY{n}{violin\PYZus{}plot\PYZus{}data}\PY{o}{.}\PY{n}{values}\PY{p}{,}
+                                 \PY{n}{positions} \PY{o}{=} \PY{p}{[}\PY{n}{j}\PY{p}{]}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{medians\PYZus{}x}\PY{p}{,} \PY{n}{medians}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{o\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Median}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xticks}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{,}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{6}\PY{p}{,}\PY{l+m+mi}{7}\PY{p}{]}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xticklabels}\PY{p}{(}\PY{n}{years}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{n}{var}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Year}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{min\PYZus{}val} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{min}\PY{p}{(}\PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{var}\PY{p}{]}\PY{p}{)}
+            \PY{n}{max\PYZus{}val} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{max}\PY{p}{(}\PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{var}\PY{p}{]}\PY{p}{)}
+            \PY{n}{min\PYZus{}max\PYZus{}range} \PY{o}{=} \PY{n}{max\PYZus{}val} \PY{o}{\PYZhy{}} \PY{n}{min\PYZus{}val}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylim}\PY{p}{(}\PY{n}{min\PYZus{}val} \PY{o}{\PYZhy{}} \PY{l+m+mf}{0.05}\PY{o}{*}\PY{n}{min\PYZus{}max\PYZus{}range}\PY{p}{,}
+                          \PY{n}{max\PYZus{}val} \PY{o}{+} \PY{l+m+mf}{0.2}\PY{o}{*}\PY{n}{min\PYZus{}max\PYZus{}range}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{row\PYZus{}n} \PY{o}{=} \PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{3}
+        
+        \PY{n}{fig}\PY{p}{,} \PY{n}{ax}  \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{n}{nrows}\PY{o}{=}\PY{n}{row\PYZus{}n}\PY{p}{,} \PY{n}{ncols}\PY{o}{=}\PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{col\PYZus{}n}\PY{p}{,}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{row\PYZus{}n}\PY{p}{)}\PY{p}{)}
+        \PY{n}{fig}\PY{o}{.}\PY{n}{suptitle}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Histogram of Election Winners by Margin of Victory, 2006 \PYZhy{} 2018}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                    \PY{n}{y} \PY{o}{=} \PY{l+m+mf}{0.95}\PY{p}{,} \PY{n}{fontsize} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{xx\PYZhy{}large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{fig}\PY{o}{.}\PY{n}{subplots\PYZus{}adjust}\PY{p}{(}\PY{n}{left}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{bottom}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{right}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,}
+                            \PY{n}{top}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{wspace}\PY{o}{=}\PY{l+m+mf}{0.2}\PY{p}{,} \PY{n}{hspace}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
+        \PY{n}{ax} \PY{o}{=} \PY{n}{ax}\PY{o}{.}\PY{n}{flatten}\PY{p}{(}\PY{p}{)}
+        \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{year} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year}\PY{o}{.}\PY{n}{unique}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+            \PY{n}{histogram\PYZus{}values} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}\PY{p}{[}
+                \PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{n}{year}\PY{p}{]}\PY{o}{.}\PY{n}{values}
+            \PY{n}{republican\PYZus{}winners} \PY{o}{=} \PY{p}{[}\PY{n}{x} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{histogram\PYZus{}values} \PY{k}{if} \PY{n}{x} \PY{o}{\PYZlt{}} \PY{l+m+mf}{0.5}\PY{p}{]}
+            \PY{n}{democrat\PYZus{}winners} \PY{o}{=} \PY{p}{[}\PY{n}{x} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{histogram\PYZus{}values} \PY{k}{if} \PY{n}{x} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mf}{0.5}\PY{p}{]}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{republican\PYZus{}winners}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{red}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                   \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Rep. winner}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{democrat\PYZus{}winners}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{blue}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                   \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Dem. winner}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylim}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{65}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{n}{year}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Margin of Victory}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Count of Districts}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xticks}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mf}{0.25}\PY{p}{,} \PY{l+m+mf}{0.5}\PY{p}{,} \PY{l+m+mf}{0.75}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xticklabels}\PY{p}{(}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tie}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \subsection{Baseline model}\label{baseline-model}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Fit logistic regression on training data }
+        
+        \PY{c+c1}{\PYZsh{}\PYZsh{} Extracting 2016 data to use as training outcome}
+        \PY{n}{results\PYZus{}2016} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2016}\PY{p}{]}\PYZbs{}
+        \PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}
+        
+        \PY{n}{results\PYZus{}2016}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{results\PYZus{}2016}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}won\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{n}{results\PYZus{}2016}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share\PYZus{}2016}\PY{p}{)}
+        \PY{n}{results\PYZus{}2016} \PY{o}{=} \PY{n}{results\PYZus{}2016}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,}
+                                        \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+        
+        \PY{n}{train\PYZus{}data} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{\PYZlt{}}\PY{l+m+mi}{2018}\PY{p}{]}
+        
+        \PY{n}{train\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{train\PYZus{}data}\PY{p}{,} \PY{n}{results\PYZus{}2016}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}won\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{p}{,}
+                             \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{on} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{n}{results\PYZus{}2016} \PY{o}{=} \PY{n}{train\PYZus{}data}\PY{p}{[}\PY{n}{train\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2016}\PY{p}{]}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}
+        \PY{n}{results\PYZus{}2016}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{n}{train\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{merge}\PY{p}{(}\PY{n}{train\PYZus{}data}\PY{p}{,} \PY{n}{results\PYZus{}2016}\PY{p}{,}
+                             \PY{n}{how} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{on} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{dist\PYZus{}id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{n}{train\PYZus{}data} \PY{o}{=} \PY{n}{train\PYZus{}data}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,}
+                                    \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{train\PYZus{}data}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{n}{local\PYZus{}data\PYZus{}folder} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{train\PYZus{}data.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                         \PY{n}{index} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Dropping unnecessary columns}
+        \PY{n}{cols\PYZus{}to\PYZus{}drop\PYZus{}for\PYZus{}train} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{congress}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{icpsr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{c+c1}{\PYZsh{} Fit logistic regression on training data }
+        \PY{n}{data\PYZus{}to\PYZus{}fit\PYZus{}base} \PY{o}{=} \PY{n}{train\PYZus{}data}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{cols\PYZus{}to\PYZus{}drop\PYZus{}for\PYZus{}train}\PY{p}{,}
+                                              \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,}
+                                              \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+        \PY{n}{data\PYZus{}to\PYZus{}fit\PYZus{}base} \PY{o}{=} \PY{n}{data\PYZus{}to\PYZus{}fit\PYZus{}base}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+        \PY{n}{data\PYZus{}to\PYZus{}fit\PYZus{}base}\PY{o}{.}\PY{n}{columns}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} TRAINING SETS}
+        \PY{n}{x\PYZus{}train} \PY{o}{=} \PY{n}{data\PYZus{}to\PYZus{}fit\PYZus{}base}
+        \PY{n}{y\PYZus{}train} \PY{o}{=} \PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}won\PYZus{}2016}\PY{o}{.}\PY{n}{values}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{logreg\PYZus{}base} \PY{o}{=} \PY{n}{LogisticRegression}\PY{p}{(}\PY{n}{C}\PY{o}{=}\PY{l+m+mi}{100000}\PY{p}{)}
+        \PY{n}{logreg\PYZus{}base}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
+                    \PY{n}{y\PYZus{}train}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Make Prediction and check the accuracy}
+        \PY{n}{y\PYZus{}train\PYZus{}probs}\PY{o}{=}\PY{p}{(}\PY{n}{logreg\PYZus{}base}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PYZbs{}
+                                             \PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+        
+        \PY{n}{train\PYZus{}accuracy} \PY{o}{=} \PY{n}{logreg\PYZus{}base}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{o}{.}\PY{n}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PYZbs{}
+                                       \PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
+                                    \PY{n}{y\PYZus{}train}\PY{p}{)}\PY{o}{*}\PY{l+m+mi}{100}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Accuracy of baseline logistic regression classifier on train set: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+              \PY{n}{np}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{n}{train\PYZus{}accuracy}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{sep} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Test results}
+        \PY{n}{y\PYZus{}test\PYZus{}continuous} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2018}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{y\PYZus{}test} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}continuous}\PY{p}{,} \PY{l+m+mi}{0}\PY{p}{)}
+        \PY{n}{x\PYZus{}test} \PY{o}{=} \PY{n}{combined\PYZus{}data}\PY{p}{[}\PY{n}{combined\PYZus{}data}\PY{o}{.}\PY{n}{year} \PY{o}{==} \PY{l+m+mi}{2018}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{n}{test\PYZus{}accuracy} \PY{o}{=} \PY{n}{logreg\PYZus{}base}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{x\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
+                                          \PY{n}{y\PYZus{}test}\PY{p}{)}\PY{o}{*}\PY{l+m+mi}{100}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Accuracy of baseline logistic regression classifier on test set: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+              \PY{n}{np}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{n}{test\PYZus{}accuracy}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{sep} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        
+        \PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}probs}\PY{o}{=}\PY{p}{(}\PY{n}{logreg\PYZus{}base}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{x\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+        \PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}bool} \PY{o}{=} \PY{p}{(}\PY{n}{logreg\PYZus{}base}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{x\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} True outcomes:}
+        
+        \PY{n}{x\PYZus{}train\PYZus{}true} \PY{o}{=} \PY{n}{x\PYZus{}train}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{values}
+        \PY{n}{y\PYZus{}train\PYZus{}true} \PY{o}{=} \PY{n}{x\PYZus{}train}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share\PYZus{}2016}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{values}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{x\PYZus{}train\PYZus{}true}\PY{p}{)} \PY{o}{==} \PY{n+nb}{len}\PY{p}{(}\PY{n}{y\PYZus{}train\PYZus{}true}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Plot predicted probabilities}
+        \PY{n}{accurate} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{where}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}bool} \PY{o}{==} \PY{n}{y\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+        \PY{n}{inaccurate} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{where}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}bool} \PY{o}{!=} \PY{n}{y\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{p}{)}
+        \PY{c+c1}{\PYZsh{}\PYZsh{} Data}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{accurate}\PY{p}{]}\PY{p}{,}
+                 \PY{n}{y\PYZus{}test\PYZus{}continuous}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{accurate}\PY{p}{]}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{o}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Accurate}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{inaccurate}\PY{p}{]}\PY{p}{,}
+                 \PY{n}{y\PYZus{}test\PYZus{}continuous}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{inaccurate}\PY{p}{]}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{o}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Inaccurate}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{np}\PY{o}{.}\PY{n}{argsort}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}probs}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{p}{,}
+                 \PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}probs}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{n}{np}\PY{o}{.}\PY{n}{argsort}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}probs}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{p}{,}
+                 \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZhy{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{linewidth} \PY{o}{=} \PY{l+m+mi}{3}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{k}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                 \PY{n}{label}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Predicted probabilities}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{c+c1}{\PYZsh{}\PYZsh{} 50\PYZpc{} lines}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{axhline}\PY{p}{(}\PY{l+m+mf}{0.5}\PY{p}{,} \PY{n}{linestyle} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{black}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{axvline}\PY{p}{(}\PY{l+m+mf}{0.5}\PY{p}{,} \PY{n}{linestyle} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{color} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{black}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{2016 Election Results}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{2018 Election Result}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{(Actual and Predicted)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Baseline Model:}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Predicted Probabilities of Democrat Winning, 2018}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{xticks}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mf}{0.25}\PY{p}{,} \PY{l+m+mf}{0.5}\PY{p}{,} \PY{l+m+mf}{0.75}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
+                  \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tie}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{yticks}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mf}{0.25}\PY{p}{,} \PY{l+m+mf}{0.5}\PY{p}{,} \PY{l+m+mf}{0.75}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}
+                  \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tie}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{xlim}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.03}\PY{p}{,} \PY{l+m+mf}{1.03}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{ylim}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{0.03}\PY{p}{,} \PY{l+m+mf}{1.03}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{n}{bbox\PYZus{}to\PYZus{}anchor}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mf}{0.66}\PY{p}{)}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Lowest former vote share that predicts Democrat wins}
+        \PY{n}{left\PYZus{}bound} \PY{o}{=} \PY{l+m+mi}{255}
+        \PY{n}{right\PYZus{}bound} \PY{o}{=} \PY{n}{left\PYZus{}bound} \PY{o}{+} \PY{l+m+mi}{1}
+        \PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}probs}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{n}{np}\PY{o}{.}\PY{n}{argsort}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}probs}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{x\PYZus{}test}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{np}\PY{o}{.}\PY{n}{argsort}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}probs}\PY{p}{[}\PY{p}{:}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{]}\PY{p}{[}\PY{n}{right\PYZus{}bound}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \subsection{Further Analysis}\label{further-analysis}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Test Data = Data for year 2018}
+        \PY{n}{testdata}\PY{o}{=}\PY{n}{comb\PYZus{}data}\PY{p}{[}\PY{n}{comb\PYZus{}data}\PY{o}{.}\PY{n}{year}\PY{o}{==}\PY{l+m+mi}{2018}\PY{p}{]}
+        
+        \PY{c+c1}{\PYZsh{}Train Data = Data for years other than 2018}
+        \PY{n}{traindata}\PY{o}{=}\PY{n}{comb\PYZus{}data}\PY{p}{[}\PY{n}{comb\PYZus{}data}\PY{o}{.}\PY{n}{year}\PY{o}{!=}\PY{l+m+mi}{2018}\PY{p}{]}
+        
+        \PY{n}{testdata}\PY{o}{.}\PY{n}{shape}\PY{p}{,} \PY{n}{traindata}\PY{o}{.}\PY{n}{shape}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}List of predictors we want to use}
+        \PY{n}{predictors}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nokken\PYZus{}poole\PYZus{}dim1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nokken\PYZus{}poole\PYZus{}dim2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}incumbent}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{president}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{house}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{senate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}HH\PYZus{}income}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{mortgage\PYZus{}cost}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unemp\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bachelor\PYZus{}deg\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{HS\PYZus{}diploma\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{white\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{redistricted}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{c+c1}{\PYZsh{}Columns to drop in Xtest and Xtrain}
+        \PY{n}{columns\PYZus{}to\PYZus{}drop}\PY{o}{=}\PY{n+nb}{set}\PY{p}{(}\PY{n}{comb\PYZus{}data}\PY{o}{.}\PY{n}{columns}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{n+nb}{set}\PY{p}{(}\PY{n}{predictors}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Response Variable for test and train data sets = Democrat Vote Share}
+        \PY{n}{ytest}\PY{o}{=}\PY{n}{testdata}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}
+        \PY{n}{ytrain}\PY{o}{=}\PY{n}{traindata}\PY{o}{.}\PY{n}{dem\PYZus{}vote\PYZus{}share}
+        
+        
+        \PY{c+c1}{\PYZsh{}Xdata for test and train data}
+        \PY{n}{xtest}\PY{o}{=}\PY{n}{testdata}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns\PYZus{}to\PYZus{}drop}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+        \PY{n}{xtrain}\PY{o}{=}\PY{n}{traindata}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns\PYZus{}to\PYZus{}drop}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{corr\PYZus{}table\PYZus{}cols\PYZus{}to\PYZus{}drop} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dist\PYZus{}id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{congress}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{icpsr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                  \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nominate\PYZus{}dim1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nominate\PYZus{}dim2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{corr\PYZus{}table\PYZus{}data} \PY{o}{=} \PY{n}{comb\PYZus{}data}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{corr\PYZus{}table\PYZus{}cols\PYZus{}to\PYZus{}drop}\PY{p}{,}
+                                        \PY{n}{axis} \PY{o}{=} \PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+        \PY{c+c1}{\PYZsh{}\PYZsh{} Reordering columns}
+        \PY{n}{corr\PYZus{}table\PYZus{}data} \PY{o}{=} \PY{n}{corr\PYZus{}table\PYZus{}data}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}prior\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}incumbent}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{redistricted}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{president}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{house}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{senate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nokken\PYZus{}poole\PYZus{}dim1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nokken\PYZus{}poole\PYZus{}dim2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{white\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{black\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{HS\PYZus{}diploma\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bachelor\PYZus{}deg\PYZus{}perc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unemp\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{mortgage\PYZus{}cost}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}HH\PYZus{}income}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{median\PYZus{}age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{mask} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{zeros\PYZus{}like}\PY{p}{(}\PY{n}{corr\PYZus{}table\PYZus{}data}\PY{o}{.}\PY{n}{corr}\PY{p}{(}\PY{p}{)}\PY{p}{,} \PY{n}{dtype}\PY{o}{=}\PY{n}{np}\PY{o}{.}\PY{n}{bool}\PY{p}{)}
+        \PY{n}{mask}\PY{p}{[}\PY{n}{np}\PY{o}{.}\PY{n}{triu\PYZus{}indices\PYZus{}from}\PY{p}{(}\PY{n}{mask}\PY{p}{)}\PY{p}{]} \PY{o}{=} \PY{k+kc}{True}
+        
+        \PY{c+c1}{\PYZsh{} Set up the matplotlib figure}
+        \PY{n}{f}\PY{p}{,} \PY{n}{ax} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{,} \PY{l+m+mi}{15}\PY{p}{)}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Generate a custom diverging colormap}
+        \PY{n}{cmap} \PY{o}{=} \PY{n}{sns}\PY{o}{.}\PY{n}{diverging\PYZus{}palette}\PY{p}{(}\PY{l+m+mi}{220}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{n}{as\PYZus{}cmap}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Draw the heatmap with the mask and correct aspect ratio}
+        \PY{n}{sns}\PY{o}{.}\PY{n}{heatmap}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{n}{corr\PYZus{}table\PYZus{}data}\PY{o}{.}\PY{n}{corr}\PY{p}{(}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,}
+                    \PY{n}{mask}\PY{o}{=}\PY{n}{mask}\PY{p}{,} \PY{n}{cmap}\PY{o}{=}\PY{n}{cmap}\PY{p}{,}
+                    \PY{n}{center}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{,}\PY{n}{annot}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,}
+                    \PY{n}{square}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,}
+                    \PY{n}{linewidths}\PY{o}{=}\PY{o}{.}\PY{l+m+mi}{5}\PY{p}{,}
+                    \PY{n}{cbar\PYZus{}kws}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{shrink}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{o}{.}\PY{l+m+mi}{5}\PY{p}{\PYZcb{}}\PY{p}{)}
+        \PY{n}{ax}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Correlation heatmap between predictors and }\PY{l+s+se}{\PYZbs{}}
+        \PY{l+s+s1}{continuous outcome (`dem\PYZus{}vote\PYZus{}share`)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Convert the dem\PYZus{}vote\PYZus{}share to binary output}
+        \PY{k}{def} \PY{n+nf}{get\PYZus{}binary}\PY{p}{(}\PY{n}{response}\PY{p}{)}\PY{p}{:}
+            \PY{n}{binary}\PY{o}{=}\PY{p}{[}\PY{p}{]}
+            \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{response}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+                \PY{k}{if} \PY{n}{response}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{\PYZlt{}}\PY{l+m+mf}{0.5}\PY{p}{:}
+                    \PY{n}{out}\PY{o}{=}\PY{l+m+mi}{0} 
+                \PY{k}{else}\PY{p}{:}
+                    \PY{n}{out} \PY{o}{=} \PY{l+m+mi}{1} 
+                \PY{n}{binary}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{out}\PY{p}{)}
+            \PY{n}{binary}\PY{o}{=}\PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{binary}\PY{p}{)}
+            \PY{k}{return} \PY{n}{binary}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}binary response data}
+        \PY{n}{binarytest}\PY{o}{=}\PY{n}{get\PYZus{}binary}\PY{p}{(}\PY{n}{ytest}\PY{p}{)}
+        \PY{n}{binarytrain}\PY{o}{=}\PY{n}{get\PYZus{}binary}\PY{p}{(}\PY{n}{ytrain}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{} Fit logistic regression on training data }
+        
+        \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{linear\PYZus{}model} \PY{k}{import} \PY{n}{LogisticRegression}
+        
+        \PY{n}{logreg1} \PY{o}{=} \PY{n}{LogisticRegression}\PY{p}{(} \PY{n}{C}\PY{o}{=}\PY{l+m+mi}{100000}\PY{p}{)}
+        \PY{n}{logreg1}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Make Prediction and check the accuracy}
+        \PY{n}{y\PYZus{}test\PYZus{}probs}\PY{o}{=}\PY{p}{(}\PY{n}{logreg1}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{xtest}\PY{p}{)}\PY{p}{)}
+        \PY{n}{y\PYZus{}train\PYZus{}probs}\PY{o}{=}\PY{p}{(}\PY{n}{logreg1}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{xtrain}\PY{p}{)}\PY{p}{)}
+        
+        \PY{n}{logreg1\PYZus{}testscore}\PY{o}{=}\PY{n}{logreg1}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtest}\PY{p}{,} \PY{n}{binarytest}\PY{p}{)}
+        \PY{n}{logreg1\PYZus{}trainscore}\PY{o}{=}\PY{n}{logreg1}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Accuracy of logistic regression classifier on }\PY{l+s+se}{\PYZbs{}}
+        \PY{l+s+s1}{train set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logreg1\PYZus{}trainscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Accuracy of logistic regression classifier on }\PY{l+s+se}{\PYZbs{}}
+        \PY{l+s+s1}{test set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logreg1\PYZus{}testscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{scoretrain}\PY{o}{=}\PY{p}{[}\PY{p}{]}
+        \PY{n}{scoretest}\PY{o}{=}\PY{p}{[}\PY{p}{]}
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{25}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{:}
+            \PY{n}{RF1}\PY{o}{=} \PY{n}{RandomForestClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth}\PY{o}{=}\PY{n}{i}\PY{p}{,} \PY{n}{n\PYZus{}estimators}\PY{o}{=}\PY{l+m+mi}{40}\PY{p}{)}
+            \PY{n}{RF1}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+            \PY{n}{scoretrain}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{accuracy\PYZus{}score}\PY{p}{(}\PY{n}{binarytrain}\PY{p}{,}  \PY{n}{RF1}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{xtrain}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+            \PY{n}{scoretest}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{accuracy\PYZus{}score}\PY{p}{(}\PY{n}{binarytest}\PY{p}{,}  \PY{n}{RF1}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{xtest}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{25}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{n}{scoretrain}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{o}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{25}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{n}{scoretest}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{o}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Test and Training accuracies as a function of tree depth}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tree Depth}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Accuracy}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}The best tree depth = 3}
+        \PY{n}{RF2}\PY{o}{=} \PY{n}{RandomForestClassifier}\PY{p}{(}\PY{n}{max\PYZus{}depth}\PY{o}{=}\PY{l+m+mi}{15}\PY{p}{,} \PY{n}{n\PYZus{}estimators}\PY{o}{=}\PY{l+m+mi}{40}\PY{p}{)}
+        \PY{n}{RF2}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        
+        \PY{n}{y\PYZus{}predRF\PYZus{}train} \PY{o}{=} \PY{n}{RF2}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{xtrain}\PY{p}{)}
+        \PY{n}{y\PYZus{}predRF\PYZus{}test} \PY{o}{=} \PY{n}{RF2}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{xtest}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{}Perfromance Evaluation}
+        \PY{n}{trainRF\PYZus{}score} \PY{o}{=} \PY{n}{accuracy\PYZus{}score}\PY{p}{(}\PY{n}{binarytrain}\PY{p}{,} \PY{n}{y\PYZus{}predRF\PYZus{}train}\PY{p}{)}
+        \PY{n}{testRF\PYZus{}score} \PY{o}{=} \PY{n}{accuracy\PYZus{}score}\PY{p}{(}\PY{n}{binarytest}\PY{p}{,} \PY{n}{y\PYZus{}predRF\PYZus{}test}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Random Forest Accuracy, Training Set : }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{trainRF\PYZus{}score}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Random Forest Accuracy, Testing Set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{testRF\PYZus{}score}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Bagging Classifier}
+        \PY{n}{bag1} \PY{o}{=} \PY{n}{BaggingClassifier}\PY{p}{(}\PY{n}{tree}\PY{o}{.}\PY{n}{DecisionTreeClassifier}\PY{p}{(}\PY{n}{random\PYZus{}state}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}
+        \PY{n}{bag1}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        \PY{n}{bag1\PYZus{}trainscore}\PY{o}{=}\PY{n}{bag1}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,}\PY{n}{binarytrain}\PY{p}{)}
+        \PY{n}{bag1\PYZus{}testscore}\PY{o}{=}\PY{n}{bag1}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtest}\PY{p}{,}\PY{n}{binarytest}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bagging Accuracy, Training Set : }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{bag1\PYZus{}trainscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bagging Accuracy, Testing Set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{bag1\PYZus{}testscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Scale Data to have mean = 1 and std =1}
+        \PY{c+c1}{\PYZsh{}Ridge regression on Scaled Data}
+        \PY{n}{xtrain\PYZus{}scaled}\PY{o}{=}\PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{preprocessing}\PY{o}{.}\PY{n}{scale}\PY{p}{(}\PY{n}{xtrain}\PY{p}{)}\PY{p}{)}
+        \PY{n}{xtest\PYZus{}scaled}\PY{o}{=}\PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{preprocessing}\PY{o}{.}\PY{n}{scale}\PY{p}{(}\PY{n}{xtest}\PY{p}{)}\PY{p}{)}
+        \PY{n}{ridge1}\PY{o}{=} \PY{n}{linear\PYZus{}model}\PY{o}{.}\PY{n}{Ridge}\PY{p}{(}\PY{n}{alpha}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
+        \PY{n}{ridge1}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,}\PY{n}{ytrain}\PY{p}{)}
+        
+        \PY{n}{ridge1\PYZus{}testpred}\PY{o}{=}\PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{ridge1}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{xtest}\PY{p}{)}\PY{p}{)}
+        \PY{n}{binarytest\PYZus{}ridgepred}\PY{o}{=}\PY{n}{get\PYZus{}binary}\PY{p}{(}\PY{n}{ridge1\PYZus{}testpred}\PY{p}{)}
+        
+        \PY{n}{ridge1\PYZus{}trainpred}\PY{o}{=}\PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{ridge1}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{xtrain}\PY{p}{)}\PY{p}{)}
+        \PY{n}{binarytrain\PYZus{}ridgepred}\PY{o}{=}\PY{n}{get\PYZus{}binary}\PY{p}{(}\PY{n}{ridge1\PYZus{}trainpred}\PY{p}{)}
+        
+        
+        \PY{n}{ridge1\PYZus{}testscore}\PY{o}{=}\PY{n}{accuracy\PYZus{}score}\PY{p}{(}\PY{n}{binarytest\PYZus{}ridgepred}\PY{p}{,}\PY{n}{binarytest}\PY{p}{)}
+        \PY{n}{ridge1\PYZus{}trainscore}\PY{o}{=}\PY{n}{accuracy\PYZus{}score}\PY{p}{(}\PY{n}{binarytrain\PYZus{}ridgepred}\PY{p}{,}\PY{n}{binarytrain}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Ridge Accuracy, Training Set : }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{ridge1\PYZus{}trainscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Ridge Accuracy, Testing Set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{ridge1\PYZus{}testscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Logistic Regression with cross\PYZhy{}validation and L1 regularization (Lasso)}
+        
+        \PY{n}{logregcv1} \PY{o}{=} \PY{n}{LogisticRegressionCV}\PY{p}{(}\PY{n}{cv}\PY{o}{=}\PY{l+m+mi}{5}\PY{p}{,} \PY{n}{penalty}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{l1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                         \PY{n}{solver}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{liblinear}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        \PY{n}{logregcvlasso\PYZus{}testscore}\PY{o}{=} \PY{n}{logregcv1}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtest}\PY{p}{,} \PY{n}{binarytest}\PY{p}{)} 
+        \PY{n}{logregcvlasso\PYZus{}trainscore}\PY{o}{=} \PY{n}{logregcv1}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)} 
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lasso with CV Accuracy, Training Set : }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logregcvlasso\PYZus{}trainscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lasso with CV Accuracy, Testing Set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logregcvlasso\PYZus{}testscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Logistic Regression with cross\PYZhy{}validation and L2 regularization (Ridge)}
+        
+        \PY{n}{logregcv2} \PY{o}{=} \PY{n}{LogisticRegressionCV}\PY{p}{(}\PY{n}{cv}\PY{o}{=}\PY{l+m+mi}{5}\PY{p}{,} \PY{n}{penalty}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{l2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PYZbs{}
+            \PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        
+        \PY{n}{logregcvridge\PYZus{}testscore}\PY{o}{=} \PY{n}{logregcv2}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtest}\PY{p}{,} \PY{n}{binarytest}\PY{p}{)} 
+        \PY{n}{logregcvridge\PYZus{}trainscore}\PY{o}{=} \PY{n}{logregcv2}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtrain}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)} 
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Ridge with CV Accuracy, Training Set : }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logregcvridge\PYZus{}trainscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Ridge with CV Accuracy, Testing Set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{\PYZdq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logregcvridge\PYZus{}testscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{accuracies\PYZus{}table} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{classifier}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Logistic Regression}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Logistic Regression with CV (Lasso)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Logistic Regression with CV (Ridge)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Linear Regression (Ridge)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Bagging}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Random Forest}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}                    
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{training accuracy}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{n}{logreg1\PYZus{}trainscore}\PY{p}{,}
+                                                 \PY{n}{logregcvlasso\PYZus{}testscore}\PY{p}{,}
+                                                 \PY{n}{logregcvridge\PYZus{}trainscore}\PY{p}{,}
+                                                 \PY{n}{ridge1\PYZus{}trainscore}\PY{p}{,}                    
+                                                 \PY{n}{bag1\PYZus{}trainscore}\PY{p}{,}
+                                                 \PY{n}{trainRF\PYZus{}score}\PY{p}{]}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{test accuracy}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{[}\PY{n}{logreg1\PYZus{}testscore}\PY{p}{,}
+                                             \PY{n}{logregcvlasso\PYZus{}testscore}\PY{p}{,} 
+                                             \PY{n}{logregcvridge\PYZus{}testscore}\PY{p}{,}
+                                             \PY{n}{ridge1\PYZus{}testscore}\PY{p}{,}
+                                             \PY{n}{bag1\PYZus{}testscore}\PY{p}{,}
+                                             \PY{n}{testRF\PYZus{}score}\PY{p}{]}\PY{p}{\PYZcb{}}
+        
+        \PY{n}{accuracies\PYZus{}table\PYZus{}df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{accuracies\PYZus{}table}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Summary of Models used:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{accuracies\PYZus{}table\PYZus{}df}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Add Interaction Terms}
+        \PY{n}{poly} \PY{o}{=} \PY{n}{PolynomialFeatures}\PY{p}{(}\PY{n}{degree}\PY{o}{=}\PY{l+m+mi}{3}\PY{p}{,} \PY{n}{interaction\PYZus{}only}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+        \PY{n}{xtrain\PYZus{}interact}\PY{o}{=}\PY{n}{poly}\PY{o}{.}\PY{n}{fit\PYZus{}transform}\PY{p}{(}\PY{n}{xtrain}\PY{p}{)}
+        \PY{n}{xtest\PYZus{}interact}\PY{o}{=}\PY{n}{poly}\PY{o}{.}\PY{n}{fit\PYZus{}transform}\PY{p}{(}\PY{n}{xtest}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Fit Logistic regression with interaction terms}
+        \PY{n}{logreg2} \PY{o}{=} \PY{n}{LogisticRegression}\PY{p}{(}\PY{n}{C}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+        \PY{n}{logreg2}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{xtrain\PYZus{}interact}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Make Prediction and check the accuracy}
+        \PY{n}{y\PYZus{}test\PYZus{}probs2}\PY{o}{=}\PY{p}{(}\PY{n}{logreg2}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{xtest\PYZus{}interact}\PY{p}{)}\PY{p}{)}
+        \PY{n}{y\PYZus{}train\PYZus{}probs2}\PY{o}{=}\PY{p}{(}\PY{n}{logreg2}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{xtrain\PYZus{}interact}\PY{p}{)}\PY{p}{)}
+        
+        \PY{n}{logreg2\PYZus{}testscore}\PY{o}{=}\PY{n}{logreg2}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtest\PYZus{}interact}\PY{p}{,} \PY{n}{binarytest}\PY{p}{)}
+        \PY{n}{logreg2\PYZus{}trainscore}\PY{o}{=}\PY{n}{logreg2}\PY{o}{.}\PY{n}{score}\PY{p}{(}\PY{n}{xtrain\PYZus{}interact}\PY{p}{,} \PY{n}{binarytrain}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Accuracy of logistic regression classifier on train set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{\PYZsq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logreg2\PYZus{}trainscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Accuracy of logistic regression classifier on test set: }\PY{l+s+si}{\PYZob{}0:.2f\PYZcb{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{\PYZsq{}}\PYZbs{}
+              \PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{logreg2\PYZus{}testscore}\PY{o}{*}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Test results}
+        \PY{n}{y\PYZus{}test\PYZus{}continuous} \PY{o}{=} \PY{n}{ytest}
+        \PY{n}{y\PYZus{}test} \PY{o}{=} \PY{n}{binarytest}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{.}\PY{n}{values}
+        
+        \PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}bool} \PY{o}{=} \PY{p}{(}\PY{n}{logreg2}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{xtest\PYZus{}interact}\PY{p}{)}\PY{p}{)}
+        \PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}cont} \PY{o}{=} \PY{p}{(}\PY{n}{logreg2}\PY{o}{.}\PY{n}{predict\PYZus{}proba}\PY{p}{(}\PY{n}{xtest\PYZus{}interact}\PY{p}{)}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Plot predicted probabilities}
+        \PY{n}{accurate\PYZus{}indices} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{where}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}bool} \PY{o}{==} \PY{n}{y\PYZus{}test}\PY{p}{)}
+        \PY{n}{inaccurate\PYZus{}indices} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{where}\PY{p}{(}\PY{n}{y\PYZus{}test\PYZus{}predict\PYZus{}bool} \PY{o}{!=} \PY{n}{y\PYZus{}test}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{plot\PYZus{}cols} \PY{o}{=} \PY{n}{corr\PYZus{}table\PYZus{}data}\PY{o}{.}\PY{n}{columns}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dem\PYZus{}vote\PYZus{}share}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                                 \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{president}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{house}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{senate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{row\PYZus{}n} \PY{o}{=} \PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{5}
+        
+        \PY{n}{fig}\PY{p}{,} \PY{n}{ax}  \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{n}{nrows}\PY{o}{=}\PY{n}{row\PYZus{}n}\PY{p}{,} \PY{n}{ncols}\PY{o}{=}\PY{n}{col\PYZus{}n}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{col\PYZus{}n}\PY{p}{,}\PY{l+m+mi}{5}\PY{o}{*}\PY{n}{row\PYZus{}n}\PY{p}{)}\PY{p}{)}
+        \PY{n}{fig}\PY{o}{.}\PY{n}{suptitle}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{2018 Predictions by Predictor Variable}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                    \PY{n}{y} \PY{o}{=} \PY{l+m+mf}{0.91}\PY{p}{,} \PY{n}{fontsize} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{xx\PYZhy{}large}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{fig}\PY{o}{.}\PY{n}{subplots\PYZus{}adjust}\PY{p}{(}\PY{n}{left}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{bottom}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{right}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,}
+                            \PY{n}{top}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{wspace}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{,} \PY{n}{hspace}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
+        \PY{n}{ax} \PY{o}{=} \PY{n}{ax}\PY{o}{.}\PY{n}{flatten}\PY{p}{(}\PY{p}{)}
+        
+        \PY{k}{for} \PY{n}{i}\PY{p}{,} \PY{n}{col} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{plot\PYZus{}cols}\PY{p}{)}\PY{p}{:}
+            \PY{n}{x\PYZus{}values} \PY{o}{=} \PY{n}{xtest}\PY{p}{[}\PY{n}{col}\PY{p}{]}\PY{o}{.}\PY{n}{values}
+            \PY{c+c1}{\PYZsh{}\PYZsh{} Data}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}values}\PY{p}{[}\PY{n}{accurate}\PY{p}{]}\PY{p}{,}
+                     \PY{n}{ytest}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{accurate}\PY{p}{]}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{o}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                    \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Accurate}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x\PYZus{}values}\PY{p}{[}\PY{n}{inaccurate}\PY{p}{]}\PY{p}{,}
+                     \PY{n}{ytest}\PY{o}{.}\PY{n}{values}\PY{p}{[}\PY{n}{inaccurate}\PY{p}{]}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{+}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                    \PY{n}{label} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Inaccurate}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{n}{col}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Data Values}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{2018 Election Outcome (Observed)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}yticks}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mf}{0.25}\PY{p}{,} \PY{l+m+mf}{0.5}\PY{p}{,} \PY{l+m+mf}{0.75}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{set\PYZus{}yticklabels}\PY{p}{(}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{R+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tie}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+50}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{D+100}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+            \PY{n}{ax}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{legend}\PY{p}{(}\PY{p}{)}
+        \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
 
     % Add a bibliography block to the postdoc
     

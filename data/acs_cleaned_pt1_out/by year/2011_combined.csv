@@ -1,0 +1,438 @@
+year,district,black_pop,total_pop,white_pop,mortgage_cost,median_age,bach_deg_num,median_HH_income,high_school_num,unemp_rate
+2011,"Congressional District 1 (112th Congress), Alabama",195366,693871,469202,793,38.6,64308.0,23254.0,154277.0,11.3
+2011,"Congressional District 2 (112th Congress), Alabama",215736,675534,433488,683,37.7,58075.0,21170.0,144827.0,12.0
+2011,"Congressional District 3 (112th Congress), Alabama",220342,683940,440065,686,36.9,55126.0,19326.0,138814.0,13.0
+2011,"Congressional District 4 (112th Congress), Alabama",36302,663272,598410,574,40.9,36112.0,20033.0,153360.0,11.6
+2011,"Congressional District 5 (112th Congress), Alabama",132512,724822,548779,721,39.4,80818.0,23140.0,143429.0,10.0
+2011,"Congressional District 6 (112th Congress), Alabama",99060,756153,618563,964,38.2,109104.0,27764.0,130987.0,8.8
+2011,"Congressional District 7 (112th Congress), Alabama",381777,605148,209603,705,34.6,39945.0,16759.0,119756.0,15.8
+2011,"Congressional District (at Large) (112th Congress), Alaska",23143,722718,482698,1186,33.9,77153.0,30234.0,128373.0,8.8
+2011,"Congressional District 1 (112th Congress), Arizona",11525,782847,554034,721,39.8,66454.0,19950.0,148343.0,13.6
+2011,"Congressional District 2 (112th Congress), Arizona",35257,977812,836588,982,40.7,101424.0,26490.0,191810.0,10.9
+2011,"Congressional District 3 (112th Congress), Arizona",25376,744992,634457,1132,36.8,114705.0,30094.0,104995.0,9.4
+2011,"Congressional District 4 (112th Congress), Arizona",61293,706413,494054,829,28.8,37029.0,20403.0,109394.0,13.7
+2011,"Congressional District 5 (112th Congress), Arizona",29496,670825,555543,1113,36.5,116369.0,30639.0,79004.0,8.1
+2011,"Congressional District 6 (112th Congress), Arizona",36529,976065,820528,1095,35.3,125763.0,29427.0,145123.0,9.6
+2011,"Congressional District 7 (112th Congress), Arizona",36789,848389,606217,786,31.9,49841.0,19334.0,140643.0,15.2
+2011,"Congressional District 8 (112th Congress), Arizona",29675,775162,639606,918,41.8,107961.0,26214.0,117275.0,9.9
+2011,"Congressional District 1 (112th Congress), Arkansas",115828,689463,553463,586,38.7,47133.0,19160.0,185842.0,11.5
+2011,"Congressional District 2 (112th Congress), Arkansas",162731,761152,557714,777,36.5,86422.0,24204.0,156786.0,8.8
+2011,"Congressional District 3 (112th Congress), Arkansas",23280,835605,721911,700,35.7,80227.0,21606.0,177035.0,7.5
+2011,"Congressional District 4 (112th Congress), Arkansas",161525,651759,463160,538,40.2,41121.0,18352.0,173553.0,10.3
+2011,"Congressional District 1 (112th Congress), California",11986,706481,544284,1158,37.4,86225.0,23339.0,106705.0,12.1
+2011,"Congressional District 2 (112th Congress), California",11758,706272,575471,923,38.3,62123.0,20871.0,116575.0,15.6
+2011,"Congressional District 3 (112th Congress), California",49472,794092,561630,1341,39.0,101600.0,29259.0,119017.0,13.6
+2011,"Congressional District 4 (112th Congress), California",10487,782874,664869,1362,42.2,113942.0,27785.0,114747.0,12.9
+2011,"Congressional District 5 (112th Congress), California",94920,714409,361859,1046,32.8,72516.0,22250.0,101997.0,16.5
+2011,"Congressional District 6 (112th Congress), California",14748,670074,534184,1540,41.6,116227.0,31342.0,87306.0,9.8
+2011,"Congressional District 7 (112th Congress), California",96471,665450,358480,1386,37.0,84096.0,28897.0,107968.0,13.6
+2011,"Congressional District 8 (112th Congress), California",45454,679309,341888,1561,38.0,168923.0,32599.0,74689.0,7.4
+2011,"Congressional District 9 (112th Congress), California",133075,653676,319163,1329,36.4,106496.0,29327.0,71966.0,10.8
+2011,"Congressional District 10 (112th Congress), California",57598,725592,480798,1736,38.6,117186.0,35116.0,95513.0,10.4
+2011,"Congressional District 11 (112th Congress), California",34898,796102,544581,1632,36.4,109161.0,31737.0,106806.0,13.4
+2011,"Congressional District 12 (112th Congress), California",14473,654689,342182,1848,40.3,134929.0,37030.0,80423.0,8.4
+2011,"Congressional District 13 (112th Congress), California",49824,678312,253858,1621,36.8,106352.0,31670.0,111974.0,10.7
+2011,"Congressional District 14 (112th Congress), California",16282,665921,442677,1806,38.0,127528.0,42178.0,56259.0,8.8
+2011,"Congressional District 15 (112th Congress), California",16947,696695,336336,1775,36.8,126542.0,37171.0,78929.0,9.6
+2011,"Congressional District 16 (112th Congress), California",22485,675185,333830,1670,35.4,96741.0,27650.0,94133.0,11.2
+2011,"Congressional District 17 (112th Congress), California",15705,672672,513631,1362,33.3,68553.0,22273.0,79548.0,11.7
+2011,"Congressional District 18 (112th Congress), California",46826,740984,481920,949,30.3,31063.0,17842.0,114093.0,19.9
+2011,"Congressional District 19 (112th Congress), California",23903,767195,580098,1070,34.6,66723.0,22739.0,126257.0,15.1
+2011,"Congressional District 20 (112th Congress), California",41955,742267,456332,848,28.6,25532.0,15637.0,99769.0,18.0
+2011,"Congressional District 21 (112th Congress), California",22910,798337,556259,961,30.6,57957.0,20550.0,108141.0,15.3
+2011,"Congressional District 22 (112th Congress), California",56057,801041,614476,1101,34.6,64543.0,24449.0,138399.0,13.0
+2011,"Congressional District 23 (112th Congress), California",13227,697463,534518,1423,31.8,74425.0,22290.0,74596.0,10.2
+2011,"Congressional District 24 (112th Congress), California",12761,694489,537963,1787,39.8,101030.0,31153.0,87593.0,10.9
+2011,"Congressional District 25 (112th Congress), California",76997,854447,527396,1367,31.9,69117.0,26101.0,123531.0,13.6
+2011,"Congressional District 26 (112th Congress), California",29294,699167,411069,1598,39.2,110790.0,32013.0,88163.0,8.8
+2011,"Congressional District 27 (112th Congress), California",26336,703110,436680,1518,36.6,101057.0,24992.0,105741.0,10.3
+2011,"Congressional District 28 (112th Congress), California",27324,644752,437365,1377,33.2,78065.0,22408.0,85775.0,13.5
+2011,"Congressional District 29 (112th Congress), California",27216,647037,382273,1380,40.4,110946.0,25441.0,89800.0,10.3
+2011,"Congressional District 30 (112th Congress), California",22354,685737,525878,1822,39.1,169699.0,40006.0,61612.0,9.3
+2011,"Congressional District 31 (112th Congress), California",25095,614639,230623,994,33.8,59193.0,16296.0,81486.0,15.1
+2011,"Congressional District 32 (112th Congress), California",13670,634455,287146,1234,34.3,51576.0,20493.0,103425.0,15.1
+2011,"Congressional District 33 (112th Congress), California",155552,644532,225897,1222,35.4,97399.0,21424.0,84893.0,12.8
+2011,"Congressional District 34 (112th Congress), California",32827,653918,385643,1080,30.6,34756.0,17352.0,90284.0,14.5
+2011,"Congressional District 35 (112th Congress), California",188018,657373,257828,1149,31.7,46419.0,19902.0,91600.0,12.1
+2011,"Congressional District 36 (112th Congress), California",28370,668270,438824,1573,37.2,130391.0,32384.0,80131.0,10.0
+2011,"Congressional District 37 (112th Congress), California",137193,664264,287508,1178,31.2,54702.0,20360.0,87628.0,15.8
+2011,"Congressional District 38 (112th Congress), California",22618,646263,371329,1287,33.0,47085.0,21228.0,102847.0,11.7
+2011,"Congressional District 39 (112th Congress), California",33564,645865,282781,1361,32.5,45129.0,21854.0,98141.0,12.1
+2011,"Congressional District 40 (112th Congress), California",19487,694328,409612,1568,35.7,95716.0,26493.0,97228.0,10.1
+2011,"Congressional District 41 (112th Congress), California",56025,787838,555248,1097,35.6,60584.0,24261.0,147156.0,15.7
+2011,"Congressional District 42 (112th Congress), California",15803,672041,427132,1951,38.3,118406.0,35531.0,84298.0,9.4
+2011,"Congressional District 43 (112th Congress), California",68543,759934,443291,1203,28.1,30093.0,19505.0,115293.0,20.8
+2011,"Congressional District 44 (112th Congress), California",48073,868555,585459,1615,32.8,88903.0,26793.0,122957.0,13.6
+2011,"Congressional District 45 (112th Congress), California",67323,936555,640128,1241,36.1,81611.0,23275.0,151740.0,15.9
+2011,"Congressional District 46 (112th Congress), California",13831,656732,433723,1610,41.5,120513.0,33898.0,79261.0,9.6
+2011,"Congressional District 47 (112th Congress), California",10936,637759,336459,1351,30.3,41267.0,20395.0,88548.0,11.4
+2011,"Congressional District 48 (112th Congress), California",8855,736274,505293,1918,38.7,167028.0,40881.0,62676.0,8.0
+2011,"Congressional District 49 (112th Congress), California",35618,812538,559932,1467,32.4,66706.0,24948.0,120540.0,13.8
+2011,"Congressional District 50 (112th Congress), California",16147,774700,576514,1723,38.3,138046.0,32311.0,76315.0,8.2
+2011,"Congressional District 51 (112th Congress), California",57596,774308,468667,1208,32.6,63450.0,21999.0,106302.0,15.3
+2011,"Congressional District 52 (112th Congress), California",26919,671425,533905,1502,38.0,94188.0,31587.0,98720.0,10.4
+2011,"Congressional District 53 (112th Congress), California",48099,665515,463503,1277,31.5,104174.0,26317.0,71500.0,11.3
+2011,"Congressional District 1 (112th Congress), Colorado",64023,680107,491425,998,33.8,117927.0,28814.0,88331.0,9.4
+2011,"Congressional District 2 (112th Congress), Colorado",8901,740269,646663,1299,34.6,130690.0,30951.0,96981.0,9.0
+2011,"Congressional District 3 (112th Congress), Colorado",6295,705110,623223,869,39.6,88583.0,23378.0,127713.0,10.6
+2011,"Congressional District 4 (112th Congress), Colorado",8950,740121,669507,989,35.9,95527.0,25425.0,114225.0,8.3
+2011,"Congressional District 5 (112th Congress), Colorado",41407,738236,611129,1072,35.8,97765.0,27340.0,114642.0,11.0
+2011,"Congressional District 6 (112th Congress), Colorado",26112,816759,718557,1541,39.3,172984.0,39819.0,94242.0,7.0
+2011,"Congressional District 7 (112th Congress), Colorado",47555,696194,557683,1057,35.0,86383.0,27772.0,121566.0,10.5
+2011,"Congressional District 1 (112th Congress), Connecticut",102310,712871,516847,1209,40.5,94144.0,30745.0,136838.0,11.0
+2011,"Congressional District 2 (112th Congress), Connecticut",30245,725192,634309,1292,41.2,92160.0,31938.0,151296.0,8.9
+2011,"Congressional District 3 (112th Congress), Connecticut",93133,714225,542290,1327,39.4,84500.0,30391.0,151101.0,11.9
+2011,"Congressional District 4 (112th Congress), Connecticut",87114,719739,533051,1794,39.3,130000.0,34574.0,102646.0,10.8
+2011,"Congressional District 5 (112th Congress), Connecticut",46881,708682,560674,1296,40.9,99299.0,30680.0,134632.0,10.5
+2011,"Congressional District (at Large) (112th Congress), Delaware",193899,907135,636680,1113,39.1,104599.0,29766.0,192931.0,8.9
+2011,"Delegate District (at Large) (112th Congress), District of Columbia",309845,617996,246505,1401,33.4,99622.0,40030.0,75897.0,11.4
+2011,"Congressional District 1 (112th Congress), Florida",95314,699207,542468,907,38.2,69711.0,23265.0,142122.0,10.5
+2011,"Congressional District 2 (112th Congress), Florida",167435,744899,530189,899,36.7,83315.0,23328.0,149020.0,11.6
+2011,"Congressional District 3 (112th Congress), Florida",358016,666695,249719,837,34.0,41239.0,18526.0,154374.0,17.7
+2011,"Congressional District 4 (112th Congress), Florida",112002,742076,571259,1016,38.5,95787.0,27576.0,141609.0,11.6
+2011,"Congressional District 5 (112th Congress), Florida",63764,958669,846560,788,46.9,88711.0,22701.0,254112.0,14.6
+2011,"Congressional District 6 (112th Congress), Florida",122133,822600,638199,890,38.8,76800.0,22645.0,171499.0,11.6
+2011,"Congressional District 7 (112th Congress), Florida",85882,821830,672733,995,43.1,102649.0,24249.0,164607.0,10.9
+2011,"Congressional District 8 (112th Congress), Florida",81460,815476,625490,1044,37.6,106907.0,23058.0,152177.0,11.3
+2011,"Congressional District 9 (112th Congress), Florida",45999,768718,659259,1013,43.3,95992.0,25810.0,170253.0,10.6
+2011,"Congressional District 10 (112th Congress), Florida",35675,624011,543230,934,47.0,84333.0,25513.0,144776.0,11.2
+2011,"Congressional District 11 (112th Congress), Florida",196161,690906,424820,921,36.0,71029.0,21347.0,142491.0,14.4
+2011,"Congressional District 12 (112th Congress), Florida",137417,846004,636803,878,38.3,77847.0,22312.0,194938.0,11.5
+2011,"Congressional District 13 (112th Congress), Florida",40412,764425,676466,891,49.9,94508.0,24878.0,186138.0,11.3
+2011,"Congressional District 14 (112th Congress), Florida",58965,875767,752932,942,49.1,114725.0,24434.0,210939.0,13.0
+2011,"Congressional District 15 (112th Congress), Florida",79389,843723,694846,941,42.8,90444.0,23074.0,176131.0,13.2
+2011,"Congressional District 16 (112th Congress), Florida",74097,794835,654200,902,46.9,81834.0,22555.0,189989.0,13.7
+2011,"Congressional District 17 (112th Congress), Florida",390715,661558,228604,1035,34.9,46771.0,18300.0,145868.0,16.9
+2011,"Congressional District 18 (112th Congress), Florida",60519,727502,610551,1151,39.7,91601.0,20457.0,134254.0,11.3
+2011,"Congressional District 19 (112th Congress), Florida",96696,760894,612529,1085,45.4,114743.0,24838.0,164530.0,11.3
+2011,"Congressional District 20 (112th Congress), Florida",91673,700307,536637,1306,40.8,105769.0,27674.0,122764.0,11.4
+2011,"Congressional District 21 (112th Congress), Florida",53680,701854,604034,1237,39.8,83636.0,20358.0,147491.0,12.3
+2011,"Congressional District 22 (112th Congress), Florida",48135,695449,608637,1320,46.0,127668.0,30994.0,127790.0,9.6
+2011,"Congressional District 23 (112th Congress), Florida",391140,689070,252623,984,34.3,50927.0,18481.0,142747.0,17.8
+2011,"Congressional District 24 (112th Congress), Florida",66177,789790,651166,1100,39.8,98935.0,25253.0,152299.0,11.1
+2011,"Congressional District 25 (112th Congress), Florida",93772,851277,711943,1340,36.6,94899.0,21545.0,150156.0,11.3
+2011,"Congressional District 1 (112th Congress), Georgia",184997,735383,501617,755,35.6,59241.0,22192.0,164738.0,11.2
+2011,"Congressional District 2 (112th Congress), Georgia",306359,632258,293234,663,35.5,30596.0,18039.0,143153.0,15.0
+2011,"Congressional District 3 (112th Congress), Georgia",207485,829671,578353,1035,37.9,89717.0,25564.0,168510.0,12.1
+2011,"Congressional District 4 (112th Congress), Georgia",374049,685281,196507,1048,32.9,87549.0,23207.0,111262.0,15.4
+2011,"Congressional District 5 (112th Congress), Georgia",323134,644292,270161,1055,33.5,122233.0,25741.0,86455.0,12.9
+2011,"Congressional District 6 (112th Congress), Georgia",84931,780376,601618,1325,37.4,181625.0,36254.0,83114.0,7.8
+2011,"Congressional District 7 (112th Congress), Georgia",211877,916989,542622,1231,35.5,133553.0,29148.0,139023.0,11.0
+2011,"Congressional District 8 (112th Congress), Georgia",249477,713489,426987,758,36.5,52210.0,22154.0,163369.0,12.1
+2011,"Congressional District 9 (112th Congress), Georgia",34164,836056,753297,843,37.7,75006.0,22092.0,174670.0,13.0
+2011,"Congressional District 10 (112th Congress), Georgia",150873,742206,551044,822,36.1,70481.0,22066.0,156480.0,9.2
+2011,"Congressional District 11 (112th Congress), Georgia",134919,788188,607539,950,36.3,84405.0,24483.0,167244.0,12.2
+2011,"Congressional District 12 (112th Congress), Georgia",307187,704835,364791,750,33.4,49880.0,20480.0,156878.0,10.8
+2011,"Congressional District 13 (112th Congress), Georgia",452475,806186,274191,1016,33.2,83152.0,24549.0,134245.0,16.0
+2011,"Congressional District 1 (112th Congress), Hawaii",14826,667617,116245,1454,39.1,99955.0,31032.0,123622.0,5.9
+2011,"Congressional District 2 (112th Congress), Hawaii",11455,707193,227107,1392,37.8,80276.0,27291.0,143841.0,9.4
+2011,"Congressional District 1 (112th Congress), Idaho",3216,851403,794796,869,36.7,97135.0,22338.0,159164.0,11.5
+2011,"Congressional District 2 (112th Congress), Idaho",5176,733582,670688,729,32.7,77511.0,21085.0,115869.0,8.3
+2011,"Congressional District 1 (112th Congress), Illinois",356304,583816,179948,971,35.9,52833.0,21687.0,107831.0,20.0
+2011,"Congressional District 2 (112th Congress), Illinois",422404,608841,139679,1055,37.2,49239.0,23885.0,114740.0,19.8
+2011,"Congressional District 3 (112th Congress), Illinois",40255,666107,482083,1105,36.3,65603.0,26475.0,132809.0,13.0
+2011,"Congressional District 4 (112th Congress), Illinois",26109,614968,365636,983,30.2,59330.0,21410.0,104597.0,13.7
+2011,"Congressional District 5 (112th Congress), Illinois",15871,653260,484057,1156,34.3,117430.0,29814.0,104924.0,9.8
+2011,"Congressional District 6 (112th Congress), Illinois",28454,660925,510781,1414,37.6,117827.0,31873.0,102604.0,9.2
+2011,"Congressional District 7 (112th Congress), Illinois",329562,628811,223433,1281,32.9,102468.0,28741.0,89740.0,14.7
+2011,"Congressional District 8 (112th Congress), Illinois",36590,737203,580851,1466,37.2,113019.0,32472.0,122837.0,10.1
+2011,"Congressional District 9 (112th Congress), Illinois",66418,631864,435679,1162,39.7,119663.0,28189.0,86639.0,9.0
+2011,"Congressional District 10 (112th Congress), Illinois",29327,650130,528463,1601,40.2,128062.0,32463.0,77468.0,8.7
+2011,"Congressional District 11 (112th Congress), Illinois",67350,762753,638229,1036,36.5,74945.0,26507.0,163989.0,10.9
+2011,"Congressional District 12 (112th Congress), Illinois",118496,666076,521555,743,38.2,59287.0,23232.0,140998.0,9.8
+2011,"Congressional District 13 (112th Congress), Illinois",49882,781761,622924,1639,38.1,140439.0,36057.0,105427.0,8.9
+2011,"Congressional District 14 (112th Congress), Illinois",43472,845843,651355,1326,34.6,105709.0,28233.0,134111.0,9.6
+2011,"Congressional District 15 (112th Congress), Illinois",48901,677007,583387,764,36.0,73698.0,24328.0,136914.0,8.9
+2011,"Congressional District 16 (112th Congress), Illinois",47589,721004,620093,998,39.3,75446.0,26505.0,156110.0,11.9
+2011,"Congressional District 17 (112th Congress), Illinois",59755,643777,550578,658,39.6,51606.0,22469.0,156568.0,9.1
+2011,"Congressional District 18 (112th Congress), Illinois",52790,653506,576144,732,40.5,73089.0,26824.0,152592.0,8.6
+2011,"Congressional District 19 (112th Congress), Illinois",27775,681607,633563,720,40.9,65641.0,25534.0,160424.0,7.9
+2011,"Congressional District 1 (112th Congress), Indiana",132378,705758,503551,879,37.6,66292.0,25461.0,168722.0,11.0
+2011,"Congressional District 2 (112th Congress), Indiana",60597,686072,576784,728,38.2,52439.0,22696.0,172880.0,11.3
+2011,"Congressional District 3 (112th Congress), Indiana",45106,718604,625596,750,36.0,66551.0,25196.0,154343.0,9.9
+2011,"Congressional District 4 (112th Congress), Indiana",33304,804045,725206,888,35.8,90631.0,26463.0,173748.0,7.7
+2011,"Congressional District 5 (112th Congress), Indiana",34606,825246,739002,929,37.6,133430.0,30528.0,153197.0,7.9
+2011,"Congressional District 6 (112th Congress), Indiana",20864,680697,631455,689,39.0,48395.0,22503.0,184382.0,11.1
+2011,"Congressional District 7 (112th Congress), Indiana",215097,671536,391438,777,33.1,60210.0,21537.0,138120.0,14.2
+2011,"Congressional District 8 (112th Congress), Indiana",29024,695733,641837,707,38.9,55254.0,23398.0,180747.0,8.3
+2011,"Congressional District 9 (112th Congress), Indiana",18133,729231,677154,762,37.8,54971.0,22769.0,183634.0,9.7
+2011,"Congressional District 1 (112th Congress), Iowa",29216,597898,544886,729,39.1,66310.0,25723.0,138730.0,6.3
+2011,"Congressional District 2 (112th Congress), Iowa",18999,626228,565763,780,36.8,75319.0,26687.0,124538.0,6.1
+2011,"Congressional District 3 (112th Congress), Iowa",27776,649031,576547,865,36.5,94492.0,28163.0,128976.0,6.9
+2011,"Congressional District 4 (112th Congress), Iowa",6895,612554,576005,690,38.6,70433.0,25173.0,134346.0,5.9
+2011,"Congressional District 5 (112th Congress), Iowa",5372,576598,537611,644,40.4,51497.0,24556.0,143513.0,4.7
+2011,"Congressional District 1 (112th Congress), Kansas",17680,658771,587770,633,38.3,61735.0,23362.0,134211.0,5.8
+2011,"Congressional District 2 (112th Congress), Kansas",35951,714748,628436,757,36.7,77764.0,24436.0,151424.0,7.2
+2011,"Congressional District 3 (112th Congress), Kansas",66644,776317,632434,1080,34.8,142906.0,30606.0,98165.0,7.3
+2011,"Congressional District 4 (112th Congress), Kansas",47394,721402,593891,787,36.1,83136.0,25596.0,132683.0,9.3
+2011,"Congressional District 1 (112th Congress), Kentucky",49163,686014,618810,575,39.9,40669.0,20260.0,179648.0,9.9
+2011,"Congressional District 2 (112th Congress), Kentucky",46253,773234,689889,693,37.1,50255.0,22073.0,196500.0,10.1
+2011,"Congressional District 3 (112th Congress), Kentucky",150504,724376,528531,808,38.0,85049.0,25054.0,139345.0,12.0
+2011,"Congressional District 4 (112th Congress), Kentucky",24300,746978,695146,800,38.3,71115.0,24025.0,168789.0,8.4
+2011,"Congressional District 5 (112th Congress), Kentucky",9262,670805,648697,474,39.7,27914.0,15841.0,166156.0,12.3
+2011,"Congressional District 6 (112th Congress), Kentucky",69296,767949,656532,772,36.2,84973.0,22563.0,146491.0,10.3
+2011,"Congressional District 1 (112th Congress), Louisiana",108711,693096,545213,891,38.4,88003.0,26068.0,133938.0,8.1
+2011,"Congressional District 2 (112th Congress), Louisiana",305706,511371,164977,889,35.2,46489.0,20659.0,103017.0,11.5
+2011,"Congressional District 3 (112th Congress), Louisiana",173419,638003,424949,653,35.8,34099.0,22247.0,169476.0,9.6
+2011,"Congressional District 4 (112th Congress), Louisiana",227768,673825,409564,662,35.8,56590.0,22382.0,160577.0,7.5
+2011,"Congressional District 5 (112th Congress), Louisiana",225028,643773,399659,557,36.4,41190.0,18263.0,155860.0,10.3
+2011,"Congressional District 6 (112th Congress), Louisiana",253826,734876,451142,833,34.2,88580.0,24294.0,139220.0,9.1
+2011,"Congressional District 7 (112th Congress), Louisiana",175418,679892,479335,630,35.7,60464.0,21554.0,162737.0,9.4
+2011,"Congressional District 1 (112th Congress), Maine",8979,673209,638729,1008,43.0,103291.0,26113.0,141835.0,7.1
+2011,"Congressional District 2 (112th Congress), Maine",4619,654979,625765,720,43.5,65314.0,20850.0,172621.0,10.3
+2011,"Congressional District 1 (112th Congress), Maryland",91611,751406,619520,1261,41.5,105458.0,31673.0,152561.0,9.0
+2011,"Congressional District 2 (112th Congress), Maryland",230919,694751,407218,1151,37.4,71418.0,29455.0,152275.0,11.0
+2011,"Congressional District 3 (112th Congress), Maryland",160390,735625,490385,1425,36.8,121359.0,37360.0,111017.0,7.3
+2011,"Congressional District 4 (112th Congress), Maryland",402585,719128,196324,1606,36.3,95058.0,36961.0,114412.0,9.6
+2011,"Congressional District 5 (112th Congress), Maryland",294489,775536,409487,1705,36.8,99398.0,40571.0,142930.0,7.7
+2011,"Congressional District 6 (112th Congress), Maryland",54458,739136,642547,1269,40.9,88278.0,31043.0,157647.0,7.4
+2011,"Congressional District 7 (112th Congress), Maryland",362345,658937,224503,1144,35.9,85437.0,26878.0,108586.0,13.9
+2011,"Congressional District 8 (112th Congress), Maryland",129126,753770,424316,1724,38.0,133771.0,40981.0,71415.0,6.5
+2011,"Congressional District 1 (112th Congress), Massachusetts",17338,648063,574967,972,40.8,75370.0,24703.0,142275.0,10.5
+2011,"Congressional District 2 (112th Congress), Massachusetts",39588,655658,547604,1075,40.2,79726.0,27123.0,131562.0,9.6
+2011,"Congressional District 3 (112th Congress), Massachusetts",30425,672598,574990,1213,39.0,109389.0,30721.0,110011.0,9.0
+2011,"Congressional District 4 (112th Congress), Massachusetts",21838,661996,572936,1363,40.8,96390.0,31156.0,111310.0,8.9
+2011,"Congressional District 5 (112th Congress), Massachusetts",19107,667862,522205,1387,40.1,94996.0,31193.0,119189.0,9.0
+2011,"Congressional District 6 (112th Congress), Massachusetts",19984,652842,565548,1473,41.7,110376.0,34519.0,116506.0,8.6
+2011,"Congressional District 7 (112th Congress), Massachusetts",38781,657928,516094,1444,39.2,114283.0,33425.0,116820.0,7.9
+2011,"Congressional District 8 (112th Congress), Massachusetts",148161,655956,361048,1392,30.0,98418.0,24544.0,82079.0,10.2
+2011,"Congressional District 9 (112th Congress), Massachusetts",100462,657358,476093,1489,39.4,108906.0,33102.0,111714.0,10.0
+2011,"Congressional District 10 (112th Congress), Massachusetts",15443,657275,594463,1469,44.4,116279.0,32934.0,124225.0,8.8
+2011,"Congressional District 1 (112th Congress), Michigan",9074,646517,600166,628,45.6,56291.0,20347.0,170991.0,12.5
+2011,"Congressional District 2 (112th Congress), Michigan",34040,697415,620855,776,38.9,66951.0,21657.0,152880.0,11.3
+2011,"Congressional District 3 (112th Congress), Michigan",60403,698502,584655,874,35.5,85893.0,24398.0,130273.0,10.5
+2011,"Congressional District 4 (112th Congress), Michigan",19020,692584,643948,753,40.1,63925.0,21368.0,164427.0,11.7
+2011,"Congressional District 5 (112th Congress), Michigan",117897,631658,482758,753,39.0,47104.0,21756.0,146706.0,16.4
+2011,"Congressional District 6 (112th Congress), Michigan",61465,673706,570541,782,38.6,67021.0,21457.0,139220.0,12.1
+2011,"Congressional District 7 (112th Congress), Michigan",42175,673032,600798,828,40.5,60858.0,23015.0,154197.0,12.2
+2011,"Congressional District 8 (112th Congress), Michigan",34940,706174,622467,1009,37.5,90305.0,26320.0,117602.0,9.3
+2011,"Congressional District 9 (112th Congress), Michigan",78648,664940,508014,1159,40.6,121232.0,32617.0,86539.0,9.7
+2011,"Congressional District 10 (112th Congress), Michigan",19699,715353,661525,941,41.0,70747.0,25623.0,165278.0,11.8
+2011,"Congressional District 11 (112th Congress), Michigan",66225,696264,577299,1069,39.9,105002.0,29994.0,125165.0,10.7
+2011,"Congressional District 12 (112th Congress), Michigan",137179,639945,458279,890,40.3,64232.0,23747.0,144577.0,15.6
+2011,"Congressional District 13 (112th Congress), Michigan",291961,506036,178526,741,35.7,31260.0,17019.0,97506.0,25.9
+2011,"Congressional District 14 (112th Congress), Michigan",320836,553362,201897,801,36.8,36694.0,18326.0,113056.0,22.5
+2011,"Congressional District 15 (112th Congress), Michigan",94577,680699,519175,965,35.3,70087.0,24745.0,119787.0,12.9
+2011,"Congressional District 1 (112th Congress), Minnesota",14107,646327,599845,791,38.0,75201.0,26380.0,134962.0,5.8
+2011,"Congressional District 2 (112th Congress), Minnesota",26495,742930,654089,1338,36.9,124583.0,35151.0,118500.0,6.7
+2011,"Congressional District 3 (112th Congress), Minnesota",49450,655479,530613,1305,38.9,131530.0,35602.0,86435.0,8.1
+2011,"Congressional District 4 (112th Congress), Minnesota",57494,620182,454545,986,35.4,93639.0,27639.0,95802.0,8.5
+2011,"Congressional District 5 (112th Congress), Minnesota",98500,628437,443656,1005,34.0,118374.0,27928.0,83343.0,9.4
+2011,"Congressional District 6 (112th Congress), Minnesota",20906,767191,699745,1223,36.1,103121.0,31984.0,136532.0,7.2
+2011,"Congressional District 7 (112th Congress), Minnesota",4993,625525,578390,722,40.7,63489.0,24433.0,146594.0,6.5
+2011,"Congressional District 8 (112th Congress), Minnesota",7197,658790,616992,782,42.2,67402.0,23173.0,156075.0,9.3
+2011,"Congressional District 1 (112th Congress), Mississippi",220511,791282,547437,661,37.2,55945.0,20049.0,170489.0,10.6
+2011,"Congressional District 2 (112th Congress), Mississippi",450474,671249,207349,613,34.1,53115.0,17525.0,118304.0,14.9
+2011,"Congressional District 3 (112th Congress), Mississippi",267232,756237,465824,645,36.8,71261.0,21291.0,144957.0,9.7
+2011,"Congressional District 4 (112th Congress), Mississippi",177142,759744,549936,733,36.0,60405.0,21010.0,144523.0,10.8
+2011,"Congressional District 1 (112th Congress), Missouri",321404,576980,222629,875,36.7,56959.0,22735.0,110437.0,15.5
+2011,"Congressional District 2 (112th Congress), Missouri",26482,719910,653929,1199,39.7,132993.0,33620.0,107892.0,6.6
+2011,"Congressional District 3 (112th Congress), Missouri",53253,627631,539535,885,37.0,77552.0,26405.0,119995.0,10.0
+2011,"Congressional District 4 (112th Congress), Missouri",25901,678768,624252,696,38.8,53538.0,22053.0,171655.0,9.0
+2011,"Congressional District 5 (112th Congress), Missouri",158615,639741,418451,870,36.5,72387.0,25346.0,122284.0,10.5
+2011,"Congressional District 6 (112th Congress), Missouri",28413,697885,630810,841,38.0,78626.0,26020.0,156706.0,8.4
+2011,"Congressional District 7 (112th Congress), Missouri",11272,724077,672220,704,37.4,75323.0,21353.0,149830.0,8.4
+2011,"Congressional District 8 (112th Congress), Missouri",33890,658889,602299,556,40.5,40782.0,18284.0,170505.0,10.1
+2011,"Congressional District 9 (112th Congress), Missouri",29149,686807,627385,736,37.2,68062.0,22649.0,151319.0,7.7
+2011,"Congressional District (at Large) (112th Congress), Montana",4305,998199,891294,726,39.7,132946.0,22583.0,206699.0,7.9
+2011,"Congressional District 1 (112th Congress), Nebraska",13877,630440,571122,791,35.9,77162.0,26024.0,115945.0,6.2
+2011,"Congressional District 2 (112th Congress), Nebraska",64623,648049,517352,949,33.8,96102.0,28485.0,100469.0,7.6
+2011,"Congressional District 3 (112th Congress), Nebraska",5193,564152,536411,615,40.5,52558.0,23757.0,130809.0,4.8
+2011,"Congressional District 1 (112th Congress), Nevada",103106,814286,518622,982,34.5,60162.0,22954.0,167645.0,14.3
+2011,"Congressional District 2 (112th Congress), Nevada",28358,848385,685915,991,39.4,89387.0,25966.0,158219.0,11.4
+2011,"Congressional District 3 (112th Congress), Nevada",91087,1060651,743926,1174,36.4,119912.0,28512.0,202528.0,12.4
+2011,"Congressional District 1 (112th Congress), New Hampshire",7853,661538,623829,1251,41.0,96602.0,30565.0,137058.0,6.4
+2011,"Congressional District 2 (112th Congress), New Hampshire",6802,656656,617039,1192,41.9,95146.0,29953.0,130668.0,7.4
+2011,"Congressional District 1 (112th Congress), New Jersey",109737,663175,464186,1259,38.2,76365.0,30017.0,151105.0,13.7
+2011,"Congressional District 2 (112th Congress), New Jersey",100946,694375,506176,1240,40.2,72893.0,27479.0,162351.0,13.2
+2011,"Congressional District 3 (112th Congress), New Jersey",67367,680528,551375,1485,43.2,100319.0,31872.0,154315.0,10.8
+2011,"Congressional District 4 (112th Congress), New Jersey",60310,726663,598839,1486,39.2,98972.0,31360.0,155476.0,10.3
+2011,"Congressional District 5 (112th Congress), New Jersey",15596,667593,564467,1975,42.5,126969.0,39023.0,118482.0,8.4
+2011,"Congressional District 6 (112th Congress), New Jersey",94316,670769,443218,1496,36.6,99368.0,31454.0,136463.0,10.3
+2011,"Congressional District 7 (112th Congress), New Jersey",42226,686790,514634,1965,41.0,128544.0,42992.0,116692.0,8.9
+2011,"Congressional District 8 (112th Congress), New Jersey",85636,657473,434407,1443,37.3,86171.0,30182.0,137474.0,11.3
+2011,"Congressional District 9 (112th Congress), New Jersey",51828,673641,435927,1450,39.2,119040.0,32580.0,136862.0,9.3
+2011,"Congressional District 10 (112th Congress), New Jersey",365677,628454,157745,1201,35.4,57245.0,24447.0,142428.0,16.5
+2011,"Congressional District 11 (112th Congress), New Jersey",21019,671685,554953,1968,42.2,136250.0,42115.0,112762.0,8.7
+2011,"Congressional District 12 (112th Congress), New Jersey",87157,707192,474887,1713,40.7,129168.0,37644.0,109434.0,9.2
+2011,"Congressional District 13 (112th Congress), New Jersey",81090,692817,403729,1215,33.5,90921.0,25916.0,133373.0,12.3
+2011,"Congressional District 1 (112th Congress), New Mexico",19369,712510,487873,850,36.8,79488.0,24592.0,118227.0,10.9
+2011,"Congressional District 2 (112th Congress), New Mexico",11340,679634,550519,604,35.5,51724.0,19912.0,122409.0,11.4
+2011,"Congressional District 3 (112th Congress), New Mexico",13656,690080,454398,811,37.4,64315.0,23192.0,118992.0,11.3
+2011,"Congressional District 1 (112th Congress), New York",32742,708867,621236,1889,40.4,85817.0,35748.0,154706.0,6.6
+2011,"Congressional District 2 (112th Congress), New York",73081,680232,493572,2042,39.6,90157.0,34269.0,123144.0,7.6
+2011,"Congressional District 3 (112th Congress), New York",22853,646527,550732,2106,43.0,97342.0,39755.0,129323.0,7.3
+2011,"Congressional District 4 (112th Congress), New York",132187,668106,401739,1972,38.9,94410.0,33965.0,116754.0,8.1
+2011,"Congressional District 5 (112th Congress), New York",28701,671449,334849,1431,39.5,106953.0,26213.0,109969.0,7.7
+2011,"Congressional District 6 (112th Congress), New York",341063,675765,117148,1418,36.2,66035.0,25458.0,143204.0,12.3
+2011,"Congressional District 7 (112th Congress), New York",116116,655324,242052,1177,37.4,71228.0,24438.0,126719.0,10.9
+2011,"Congressional District 8 (112th Congress), New York",28246,717316,535608,1556,35.7,157552.0,36756.0,91676.0,7.6
+2011,"Congressional District 9 (112th Congress), New York",35269,658221,424213,1262,40.1,105911.0,30094.0,128442.0,9.9
+2011,"Congressional District 10 (112th Congress), New York",423013,686869,170788,1175,32.9,62680.0,24004.0,133137.0,14.5
+2011,"Congressional District 11 (112th Congress), New York",354619,653752,194313,1185,34.4,88187.0,26637.0,111820.0,12.8
+2011,"Congressional District 12 (112th Congress), New York",70417,674825,330585,1187,33.4,88740.0,22200.0,104968.0,9.9
+2011,"Congressional District 13 (112th Congress), New York",56364,698405,502510,1378,38.6,88003.0,31595.0,149331.0,8.8
+2011,"Congressional District 14 (112th Congress), New York",29206,634597,475999,1666,36.7,177170.0,47741.0,58420.0,7.4
+2011,"Congressional District 15 (112th Congress), New York",206276,662062,209900,1035,34.7,85391.0,20278.0,93213.0,13.5
+2011,"Congressional District 16 (112th Congress), New York",235096,700474,115366,934,29.7,29366.0,13485.0,112080.0,19.0
+2011,"Congressional District 17 (112th Congress), New York",222606,679509,284458,1299,35.8,77671.0,28041.0,119006.0,12.1
+2011,"Congressional District 18 (112th Congress), New York",74619,682571,482544,1850,39.8,113551.0,37095.0,94774.0,7.8
+2011,"Congressional District 19 (112th Congress), New York",41770,709399,581477,1732,40.6,95686.0,33783.0,127860.0,9.6
+2011,"Congressional District 20 (112th Congress), New York",17352,673344,626272,1013,43.7,82703.0,28880.0,149786.0,8.6
+2011,"Congressional District 21 (112th Congress), New York",64701,681413,557842,946,38.9,76015.0,27866.0,138914.0,8.4
+2011,"Congressional District 22 (112th Congress), New York",62712,675843,531614,998,38.4,68607.0,23606.0,133758.0,10.1
+2011,"Congressional District 23 (112th Congress), New York",17850,664625,614883,771,38.8,47639.0,23764.0,169296.0,9.2
+2011,"Congressional District 24 (112th Congress), New York",26702,661421,601703,755,41.3,60808.0,24164.0,148633.0,8.2
+2011,"Congressional District 25 (112th Congress), New York",56055,664715,566444,909,40.9,80001.0,28234.0,122517.0,6.9
+2011,"Congressional District 26 (112th Congress), New York",26398,671603,607067,888,41.2,77252.0,26949.0,141593.0,6.6
+2011,"Congressional District 27 (112th Congress), New York",40383,634821,552872,731,41.0,62212.0,24425.0,142664.0,9.0
+2011,"Congressional District 28 (112th Congress), New York",176549,607308,376076,756,36.3,60353.0,21398.0,117997.0,11.6
+2011,"Congressional District 29 (112th Congress), New York",23153,665834,606520,827,41.1,70096.0,25831.0,141845.0,7.8
+2011,"Congressional District 1 (112th Congress), North Carolina",315084,630163,275046,688,39.9,39854.0,18385.0,142061.0,17.4
+2011,"Congressional District 2 (112th Congress), North Carolina",216070,746908,467487,848,34.2,63984.0,21939.0,133799.0,14.5
+2011,"Congressional District 3 (112th Congress), North Carolina",130722,750658,571212,885,35.5,75257.0,23897.0,137509.0,11.1
+2011,"Congressional District 4 (112th Congress), North Carolina",157528,845233,582611,1108,35.9,161625.0,32423.0,90235.0,6.8
+2011,"Congressional District 5 (112th Congress), North Carolina",52950,682476,588798,711,41.5,74273.0,22588.0,138757.0,10.2
+2011,"Congressional District 6 (112th Congress), North Carolina",83263,727931,596053,826,40.7,87056.0,25512.0,148682.0,9.8
+2011,"Congressional District 7 (112th Congress), North Carolina",161744,759230,495859,791,38.8,74976.0,21311.0,148775.0,12.8
+2011,"Congressional District 8 (112th Congress), North Carolina",200901,718632,444111,827,34.1,62249.0,21855.0,142600.0,14.5
+2011,"Congressional District 9 (112th Congress), North Carolina",143038,879730,666365,1105,36.8,169116.0,31114.0,122751.0,10.3
+2011,"Congressional District 10 (112th Congress), North Carolina",60112,692489,592516,703,40.9,64166.0,21866.0,137855.0,12.2
+2011,"Congressional District 11 (112th Congress), North Carolina",30779,707916,638575,688,43.2,79459.0,21890.0,141770.0,10.6
+2011,"Congressional District 12 (112th Congress), North Carolina",317503,736885,356865,835,34.4,81412.0,20671.0,130971.0,15.1
+2011,"Congressional District 13 (112th Congress), North Carolina",221864,778150,493025,882,35.0,103051.0,24473.0,129486.0,10.0
+2011,"Congressional District (at Large) (112th Congress), North Dakota",6857,683932,614327,671,36.6,86615.0,26817.0,120688.0,3.1
+2011,"Congressional District 1 (112th Congress), Ohio",181167,603510,396351,829,36.6,64003.0,22822.0,123677.0,13.6
+2011,"Congressional District 2 (112th Congress), Ohio",29565,673992,615134,971,38.7,94843.0,28264.0,130870.0,8.7
+2011,"Congressional District 3 (112th Congress), Ohio",108327,643432,503739,861,39.9,68671.0,24352.0,133402.0,10.9
+2011,"Congressional District 4 (112th Congress), Ohio",33582,631042,577608,698,39.7,40074.0,22709.0,184111.0,11.4
+2011,"Congressional District 5 (112th Congress), Ohio",10591,623169,586042,748,39.3,45115.0,23957.0,176396.0,9.7
+2011,"Congressional District 6 (112th Congress), Ohio",17011,617408,582402,612,42.0,44273.0,20991.0,184243.0,9.9
+2011,"Congressional District 7 (112th Congress), Ohio",67121,687905,581133,855,38.0,61636.0,25144.0,161897.0,10.3
+2011,"Congressional District 8 (112th Congress), Ohio",42245,663607,589644,854,37.8,55976.0,24165.0,167613.0,10.1
+2011,"Congressional District 9 (112th Congress), Ohio",94052,619886,485121,766,38.9,53761.0,21667.0,142991.0,12.5
+2011,"Congressional District 10 (112th Congress), Ohio",51587,596533,503609,814,40.4,74888.0,24726.0,127494.0,10.0
+2011,"Congressional District 11 (112th Congress), Ohio",317430,534223,188169,786,39.1,51972.0,20860.0,104927.0,16.5
+2011,"Congressional District 12 (112th Congress), Ohio",158683,758257,539696,1028,36.5,126236.0,30720.0,125379.0,8.0
+2011,"Congressional District 13 (112th Congress), Ohio",74064,645037,532258,871,40.8,75214.0,25994.0,144272.0,11.0
+2011,"Congressional District 14 (112th Congress), Ohio",23270,643128,597406,962,42.5,84322.0,27650.0,144608.0,7.8
+2011,"Congressional District 15 (112th Congress), Ohio",70606,695016,563852,950,33.3,98354.0,26547.0,116742.0,8.2
+2011,"Congressional District 16 (112th Congress), Ohio",30383,646259,595504,784,40.8,67594.0,23567.0,169052.0,10.0
+2011,"Congressional District 17 (112th Congress), Ohio",73262,602458,501251,689,40.6,50112.0,21910.0,166951.0,11.3
+2011,"Congressional District 18 (112th Congress), Ohio",13537,660089,627928,686,39.8,39853.0,21540.0,191110.0,10.6
+2011,"Congressional District 1 (112th Congress), Oklahoma",69421,767958,562554,819,36.1,102674.0,25701.0,136417.0,6.8
+2011,"Congressional District 2 (112th Congress), Oklahoma",25495,734292,495536,562,39.0,51479.0,19485.0,174422.0,10.5
+2011,"Congressional District 3 (112th Congress), Oklahoma",27672,728797,587496,624,37.3,67855.0,22220.0,166220.0,7.7
+2011,"Congressional District 4 (112th Congress), Oklahoma",48826,796956,616676,770,35.3,82967.0,24553.0,168401.0,5.8
+2011,"Congressional District 5 (112th Congress), Oklahoma",103978,763505,529832,780,34.3,91244.0,22399.0,129500.0,7.5
+2011,"Congressional District 1 (112th Congress), Oregon",13365,814663,651070,1143,36.7,128935.0,28620.0,120731.0,9.7
+2011,"Congressional District 2 (112th Congress), Oregon",4707,774335,699896,857,41.0,79658.0,21243.0,146533.0,14.5
+2011,"Congressional District 3 (112th Congress), Oregon",41128,771352,608219,1065,36.1,108528.0,24791.0,126661.0,10.8
+2011,"Congressional District 4 (112th Congress), Oregon",4387,743851,672261,822,41.5,75027.0,20443.0,142854.0,13.2
+2011,"Congressional District 5 (112th Congress), Oregon",6480,767658,647911,1000,38.9,94169.0,24959.0,125770.0,12.3
+2011,"Congressional District 1 (112th Congress), Pennsylvania",312255,659102,208804,821,32.5,47834.0,18139.0,142150.0,18.0
+2011,"Congressional District 2 (112th Congress), Pennsylvania",349433,633492,219244,876,32.4,69495.0,21285.0,122077.0,15.4
+2011,"Congressional District 3 (112th Congress), Pennsylvania",27688,634900,586689,675,41.1,60042.0,21761.0,188430.0,9.1
+2011,"Congressional District 4 (112th Congress), Pennsylvania",22222,655674,611490,862,43.7,98174.0,28611.0,158061.0,6.5
+2011,"Congressional District 5 (112th Congress), Pennsylvania",12146,650083,616394,662,40.5,52412.0,21009.0,197250.0,7.8
+2011,"Congressional District 6 (112th Congress), Pennsylvania",61192,748191,623863,1293,39.1,118971.0,32501.0,143892.0,8.6
+2011,"Congressional District 7 (112th Congress), Pennsylvania",69848,682525,556754,1347,39.8,111250.0,34900.0,134883.0,7.4
+2011,"Congressional District 8 (112th Congress), Pennsylvania",29254,682536,606173,1407,42.2,101107.0,33646.0,155885.0,7.8
+2011,"Congressional District 9 (112th Congress), Pennsylvania",14974,671061,640841,682,42.0,49290.0,22904.0,227506.0,8.5
+2011,"Congressional District 10 (112th Congress), Pennsylvania",19114,671025,629963,779,43.1,61686.0,23237.0,201461.0,8.5
+2011,"Congressional District 11 (112th Congress), Pennsylvania",40168,685581,609191,805,41.7,58759.0,21492.0,195738.0,10.5
+2011,"Congressional District 12 (112th Congress), Pennsylvania",25600,604439,561843,598,43.7,50813.0,21095.0,198135.0,8.6
+2011,"Congressional District 13 (112th Congress), Pennsylvania",67453,665238,517348,1127,39.8,93858.0,29441.0,146267.0,11.4
+2011,"Congressional District 14 (112th Congress), Pennsylvania",143293,579600,398220,703,38.3,59176.0,21596.0,144800.0,10.9
+2011,"Congressional District 15 (112th Congress), Pennsylvania",36603,723116,621892,1082,40.5,81310.0,25775.0,175621.0,9.3
+2011,"Congressional District 16 (112th Congress), Pennsylvania",32384,717480,625759,1000,37.8,75057.0,25135.0,173578.0,8.2
+2011,"Congressional District 17 (112th Congress), Pennsylvania",55516,681395,578724,848,41.5,64141.0,26756.0,205411.0,9.1
+2011,"Congressional District 18 (112th Congress), Pennsylvania",18013,664899,622639,866,44.1,109300.0,28488.0,154898.0,6.7
+2011,"Congressional District 19 (112th Congress), Pennsylvania",35529,732549,650079,992,40.6,80408.0,27516.0,204295.0,8.4
+2011,"Congressional District 1 (112th Congress), Rhode Island",32774,518897,430276,1107,39.6,67156.0,27375.0,90219.0,9.3
+2011,"Congressional District 2 (112th Congress), Rhode Island",30623,532405,428724,1169,39.5,66893.0,27172.0,97747.0,11.2
+2011,"Congressional District 1 (112th Congress), South Carolina",166990,868789,649491,961,37.9,116540.0,25094.0,171359.0,10.3
+2011,"Congressional District 2 (112th Congress), South Carolina",231998,833216,548525,912,37.4,101701.0,25839.0,150729.0,9.8
+2011,"Congressional District 3 (112th Congress), South Carolina",137406,727344,560202,674,40.4,66021.0,21027.0,161915.0,11.7
+2011,"Congressional District 4 (112th Congress), South Carolina",154409,779528,581412,779,37.8,84672.0,23724.0,149236.0,10.9
+2011,"Congressional District 5 (112th Congress), South Carolina",238638,773938,499392,707,38.5,69609.0,21605.0,168327.0,13.6
+2011,"Congressional District 6 (112th Congress), South Carolina",375652,696415,296194,657,36.1,48026.0,16782.0,153943.0,16.4
+2011,"Congressional District (at Large) (112th Congress), South Dakota",9517,824082,707944,693,37.1,97956.0,25306.0,168906.0,5.5
+2011,"Congressional District 1 (112th Congress), Tennessee",16489,684084,644742,606,42.0,55272.0,19520.0,184561.0,9.6
+2011,"Congressional District 2 (112th Congress), Tennessee",50115,733740,653205,801,39.6,83434.0,23641.0,154252.0,8.3
+2011,"Congressional District 3 (112th Congress), Tennessee",80098,703989,595908,697,40.6,62817.0,21035.0,162332.0,12.0
+2011,"Congressional District 4 (112th Congress), Tennessee",25733,680748,628891,597,41.8,49307.0,18666.0,188528.0,11.0
+2011,"Congressional District 5 (112th Congress), Tennessee",179236,718004,466419,919,34.6,101514.0,24702.0,131072.0,9.4
+2011,"Congressional District 6 (112th Congress), Tennessee",65284,803686,699775,816,36.4,75150.0,23767.0,184356.0,9.3
+2011,"Congressional District 7 (112th Congress), Tennessee",115177,807019,643561,1026,37.4,118556.0,29122.0,144795.0,8.7
+2011,"Congressional District 8 (112th Congress), Tennessee",148471,656373,480011,662,38.9,42594.0,19624.0,173224.0,14.2
+2011,"Congressional District 9 (112th Congress), Tennessee",390860,615710,177556,870,33.4,66907.0,21218.0,112766.0,14.0
+2011,"Congressional District 1 (112th Congress), Texas",134425,731785,563963,683,36.3,61123.0,21916.0,140433.0,8.1
+2011,"Congressional District 2 (112th Congress), Texas",182749,798167,527395,969,35.7,85480.0,27851.0,144076.0,10.1
+2011,"Congressional District 3 (112th Congress), Texas",92042,871241,557765,1220,33.8,155292.0,32326.0,93622.0,7.3
+2011,"Congressional District 4 (112th Congress), Texas",93351,856105,690690,870,37.5,98493.0,26338.0,164110.0,8.4
+2011,"Congressional District 5 (112th Congress), Texas",101542,745295,553232,850,36.6,66311.0,23559.0,146962.0,8.8
+2011,"Congressional District 6 (112th Congress), Texas",147190,828785,581059,983,33.7,89598.0,27123.0,143650.0,9.2
+2011,"Congressional District 7 (112th Congress), Texas",97243,815993,550965,1185,34.9,158215.0,37039.0,92829.0,6.0
+2011,"Congressional District 8 (112th Congress), Texas",68523,848871,725696,850,37.6,84105.0,24831.0,175406.0,9.2
+2011,"Congressional District 9 (112th Congress), Texas",249084,727126,302484,841,31.4,64239.0,21236.0,110239.0,11.3
+2011,"Congressional District 10 (112th Congress), Texas",105582,990575,718346,1143,33.5,152916.0,31394.0,144387.0,7.0
+2011,"Congressional District 11 (112th Congress), Texas",29682,719736,637183,686,36.3,61823.0,22760.0,136716.0,5.3
+2011,"Congressional District 12 (112th Congress), Texas",56073,853353,712062,951,34.0,94285.0,27092.0,141121.0,8.5
+2011,"Congressional District 13 (112th Congress), Texas",42907,671422,572663,666,36.6,58814.0,23046.0,132814.0,6.7
+2011,"Congressional District 14 (112th Congress), Texas",84226,809324,651649,892,36.6,93560.0,27325.0,138434.0,8.1
+2011,"Congressional District 15 (112th Congress), Texas",12743,807923,733117,592,30.5,55441.0,16010.0,124106.0,11.0
+2011,"Congressional District 16 (112th Congress), Texas",26717,782650,621429,765,31.4,65042.0,19324.0,109328.0,8.1
+2011,"Congressional District 17 (112th Congress), Texas",73730,769321,637017,782,33.0,64924.0,20732.0,133731.0,9.2
+2011,"Congressional District 18 (112th Congress), Texas",261943,743364,365150,817,30.4,57997.0,21149.0,124497.0,11.4
+2011,"Congressional District 19 (112th Congress), Texas",39252,709266,594030,673,32.7,62132.0,21069.0,125078.0,7.1
+2011,"Congressional District 20 (112th Congress), Texas",60029,737617,554493,766,31.4,48228.0,20076.0,123505.0,9.9
+2011,"Congressional District 21 (112th Congress), Texas",51389,877671,722633,1077,37.8,153017.0,29320.0,110079.0,7.1
+2011,"Congressional District 22 (112th Congress), Texas",116642,919304,602112,1204,35.1,135737.0,35068.0,131087.0,6.1
+2011,"Congressional District 23 (112th Congress), Texas",20777,849085,686384,813,33.1,86234.0,22470.0,135099.0,9.3
+2011,"Congressional District 24 (112th Congress), Texas",117021,803050,546067,1091,35.0,139530.0,31993.0,110029.0,7.1
+2011,"Congressional District 25 (112th Congress), Texas",66481,844491,618997,976,33.0,121100.0,25230.0,123472.0,8.5
+2011,"Congressional District 26 (112th Congress), Texas",121993,940985,718554,1158,33.2,135977.0,29939.0,133971.0,9.1
+2011,"Congressional District 27 (112th Congress), Texas",18094,747362,658568,726,32.6,53727.0,19168.0,119370.0,9.5
+2011,"Congressional District 28 (112th Congress), Texas",12908,874870,801834,687,30.8,53595.0,17071.0,128352.0,6.8
+2011,"Congressional District 29 (112th Congress), Texas",70062,701190,473067,741,29.0,22866.0,18767.0,112626.0,11.4
+2011,"Congressional District 30 (112th Congress), Texas",287793,721643,304871,867,31.4,54662.0,22251.0,119278.0,11.6
+2011,"Congressional District 31 (112th Congress), Texas",115804,928874,710396,995,32.6,114962.0,29561.0,152223.0,9.8
+2011,"Congressional District 32 (112th Congress), Texas",53798,648237,455286,974,33.3,98076.0,27609.0,78889.0,7.7
+2011,"Congressional District 1 (112th Congress), Utah",14341,921315,798063,958,30.1,106389.0,24621.0,131736.0,7.9
+2011,"Congressional District 2 (112th Congress), Utah",7016,900009,807847,980,32.3,118880.0,24850.0,121298.0,8.1
+2011,"Congressional District 3 (112th Congress), Utah",11167,995898,880959,1118,26.6,97714.0,22600.0,128517.0,8.0
+2011,"Congressional District (at Large) (112th Congress), Vermont",5194,626431,596253,1042,42.0,93188.0,26681.0,131219.0,6.4
+2011,"Congressional District 1 (112th Congress), Virginia",161211,803039,568019,1317,37.4,101404.0,31751.0,149759.0,7.5
+2011,"Congressional District 2 (112th Congress), Virginia",143712,649047,435366,1281,34.0,79534.0,29517.0,104420.0,7.2
+2011,"Congressional District 3 (112th Congress), Virginia",360989,658851,250172,989,33.7,60493.0,22409.0,126778.0,13.4
+2011,"Congressional District 4 (112th Congress), Virginia",249246,746992,454595,1153,38.4,76218.0,27752.0,154294.0,9.5
+2011,"Congressional District 5 (112th Congress), Virginia",156450,684075,502182,751,41.3,65933.0,22685.0,148443.0,9.1
+2011,"Congressional District 6 (112th Congress), Virginia",86388,711308,590509,817,39.4,77053.0,23009.0,156888.0,7.1
+2011,"Congressional District 7 (112th Congress), Virginia",131139,763850,571756,1168,40.2,122675.0,31139.0,130939.0,6.6
+2011,"Congressional District 8 (112th Congress), Virginia",100288,712513,460417,1730,35.2,158064.0,50417.0,66278.0,4.9
+2011,"Congressional District 9 (112th Congress), Virginia",28622,655644,608756,563,41.5,50443.0,18791.0,155698.0,9.4
+2011,"Congressional District 10 (112th Congress), Virginia",71280,895272,647252,1803,36.3,162585.0,44103.0,109099.0,5.5
+2011,"Congressional District 11 (112th Congress), Virginia",92127,816013,526718,1963,37.3,156823.0,43232.0,86017.0,5.6
+2011,"Congressional District 1 (112th Congress), Washington",18836,750505,578068,1506,38.6,142420.0,36471.0,99045.0,8.7
+2011,"Congressional District 2 (112th Congress), Washington",10834,770876,669114,1191,38.7,88575.0,27961.0,132782.0,11.0
+2011,"Congressional District 3 (112th Congress), Washington",10038,781617,685410,1059,39.4,87585.0,26868.0,131006.0,11.9
+2011,"Congressional District 4 (112th Congress), Washington",7246,794559,598536,814,33.7,67699.0,22732.0,130273.0,9.9
+2011,"Congressional District 5 (112th Congress), Washington",12388,726852,639045,814,37.5,82084.0,22627.0,127364.0,10.8
+2011,"Congressional District 6 (112th Congress), Washington",32877,712566,552550,975,40.2,73334.0,25188.0,139576.0,14.5
+2011,"Congressional District 7 (112th Congress), Washington",63666,721921,490771,1246,35.8,164184.0,31430.0,68429.0,8.0
+2011,"Congressional District 8 (112th Congress), Washington",25116,835459,628070,1666,37.7,144455.0,38978.0,118119.0,8.8
+2011,"Congressional District 9 (112th Congress), Washington",58664,735683,515597,1169,35.4,74759.0,29415.0,145914.0,10.7
+2011,"Congressional District 1 (112th Congress), West Virginia",14295,614309,584366,548,41.0,54360.0,20813.0,176415.0,8.4
+2011,"Congressional District 2 (112th Congress), West Virginia",20266,653767,605524,635,41.7,56393.0,21996.0,191428.0,9.5
+2011,"Congressional District 3 (112th Congress), West Virginia",21617,587288,552025,482,41.6,40163.0,18962.0,171180.0,8.6
+2011,"Congressional District 1 (112th Congress), Wisconsin",40371,727376,646267,994,39.3,83068.0,28946.0,167360.0,9.7
+2011,"Congressional District 2 (112th Congress), Wisconsin",32790,757809,668683,1035,35.8,110033.0,29159.0,127727.0,6.6
+2011,"Congressional District 3 (112th Congress), Wisconsin",6478,734360,695902,851,37.7,74012.0,24638.0,167642.0,6.2
+2011,"Congressional District 4 (112th Congress), Wisconsin",235975,674811,353369,829,31.6,62725.0,20549.0,126743.0,15.1
+2011,"Congressional District 5 (112th Congress), Wisconsin",17766,710474,657989,1179,41.3,131665.0,32608.0,121533.0,6.4
+2011,"Congressional District 6 (112th Congress), Wisconsin",10619,708000,661982,824,40.7,71230.0,25387.0,185889.0,6.9
+2011,"Congressional District 7 (112th Congress), Wisconsin",3031,686560,645653,742,42.7,61733.0,23560.0,189848.0,8.5
+2011,"Congressional District 8 (112th Congress), Wisconsin",9520,712377,650650,840,40.6,73978.0,25610.0,180153.0,7.1
+2011,"Congressional District (at Large) (112th Congress), Wyoming",5079,568158,515335,826,36.8,61815.0,27843.0,115521.0,5.1
+2011,"Resident Commissioner District (at Large) (112th Congress), Puerto Rico",290083,3706690,2539680,325,37.5,,,,18.5

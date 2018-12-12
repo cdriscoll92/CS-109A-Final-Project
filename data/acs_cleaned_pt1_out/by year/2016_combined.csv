@@ -1,0 +1,438 @@
+year,district,black_pop,total_pop,white_pop,mortgage_cost,median_age,bach_deg_num,high_school_num,median_HH_income,unemp_rate
+2016,"Congressional District 1 (115th Congress), Alabama",192647,704457,474871,793,39.6,73720.0,158178.0,25500.0,5.7
+2016,"Congressional District 2 (115th Congress), Alabama",219450,681621,429562,724,38.2,64329.0,148183.0,23108.0,6.1
+2016,"Congressional District 3 (115th Congress), Alabama",186240,709482,492798,694,38.3,64031.0,144060.0,22907.0,6.6
+2016,"Congressional District 4 (115th Congress), Alabama",48274,683273,603756,588,40.7,51327.0,157757.0,22069.0,6.1
+2016,"Congressional District 5 (115th Congress), Alabama",127192,712529,541334,769,40.1,90532.0,137219.0,26753.0,5.2
+2016,"Congressional District 6 (115th Congress), Alabama",104942,706308,554343,943,39.0,109930.0,119956.0,31291.0,4.4
+2016,"Congressional District 7 (115th Congress), Alabama",422357,665630,219720,701,36.5,52811.0,145883.0,19440.0,10.9
+2016,"Congressional District (at Large) (115th Congress), Alaska",23753,741894,477895,1278,33.5,90861.0,133928.0,31981.0,8.0
+2016,"Congressional District 1 (115th Congress), Arizona",17994,766924,501533,790,37.5,71911.0,129997.0,23997.0,9.0
+2016,"Congressional District 2 (115th Congress), Arizona",29259,722770,589720,852,40.8,97801.0,107850.0,25908.0,6.6
+2016,"Congressional District 3 (115th Congress), Arizona",33567,752284,483361,881,32.7,50853.0,125460.0,21896.0,9.5
+2016,"Congressional District 4 (115th Congress), Arizona",12380,753807,661739,810,47.9,66553.0,164128.0,24763.0,7.1
+2016,"Congressional District 5 (115th Congress), Arizona",27576,785110,664846,1257,37.5,117145.0,108817.0,33273.0,5.0
+2016,"Congressional District 6 (115th Congress), Arizona",16806,764776,647628,1175,42.3,158682.0,98763.0,35935.0,5.0
+2016,"Congressional District 7 (115th Congress), Arizona",80721,818387,469488,889,29.7,43889.0,131581.0,21835.0,6.4
+2016,"Congressional District 8 (115th Congress), Arizona",30356,782511,659281,1115,42.6,107049.0,132930.0,31315.0,5.4
+2016,"Congressional District 9 (115th Congress), Arizona",51015,784502,577348,1039,33.5,121896.0,105971.0,30582.0,5.5
+2016,"Congressional District 1 (115th Congress), Arkansas",128849,725733,564015,582,39.9,53291.0,188548.0,21826.0,7.2
+2016,"Congressional District 2 (115th Congress), Arkansas",169451,758929,538884,804,36.9,92424.0,153864.0,26855.0,4.7
+2016,"Congressional District 3 (115th Congress), Arkansas",24659,794237,659604,756,35.3,86672.0,156727.0,25715.0,3.3
+2016,"Congressional District 4 (115th Congress), Arkansas",141557,709349,527563,555,40.8,50221.0,182830.0,21343.0,5.8
+2016,"Congressional District 1 (115th Congress), California",9277,703162,612131,994,43.0,74088.0,123490.0,23679.0,7.4
+2016,"Congressional District 2 (115th Congress), California",9593,716202,570621,1525,44.1,128218.0,95315.0,31246.0,5.9
+2016,"Congressional District 3 (115th Congress), California",46680,740253,492473,1266,35.0,75409.0,107743.0,27183.0,6.3
+2016,"Congressional District 4 (115th Congress), California",10067,737169,622130,1451,44.2,113568.0,109052.0,34947.0,5.4
+2016,"Congressional District 5 (115th Congress), California",47037,735968,457424,1560,40.4,106891.0,103142.0,31892.0,6.2
+2016,"Congressional District 6 (115th Congress), California",98366,763987,399978,1145,33.9,91108.0,124467.0,26842.0,7.6
+2016,"Congressional District 7 (115th Congress), California",51534,738468,465884,1363,38.5,106181.0,100091.0,33332.0,5.7
+2016,"Congressional District 8 (115th Congress), California",65440,723600,548716,1092,34.5,48196.0,131187.0,24185.0,9.5
+2016,"Congressional District 9 (115th Congress), California",72228,760794,415860,1267,35.1,63096.0,124854.0,27265.0,8.5
+2016,"Congressional District 10 (115th Congress), California",25270,744989,532992,1249,34.4,54502.0,134339.0,26325.0,9.2
+2016,"Congressional District 11 (115th Congress), California",57698,756337,464397,1769,39.7,140399.0,82285.0,37547.0,6.1
+2016,"Congressional District 12 (115th Congress), California",39062,756991,369650,1940,37.8,214645.0,69146.0,51055.0,4.3
+2016,"Congressional District 13 (115th Congress), California",129791,755243,315788,1575,37.0,139750.0,75232.0,34901.0,5.2
+2016,"Congressional District 14 (115th Congress), California",20072,749041,332808,2227,39.6,158041.0,89655.0,41653.0,3.8
+2016,"Congressional District 15 (115th Congress), California",38862,769371,360658,2149,38.6,145648.0,101042.0,43528.0,4.0
+2016,"Congressional District 16 (115th Congress), California",45607,730141,423478,927,30.2,34442.0,103628.0,20071.0,12.5
+2016,"Congressional District 17 (115th Congress), California",21590,774647,222446,2331,36.0,166589.0,82759.0,49468.0,4.3
+2016,"Congressional District 18 (115th Congress), California",14992,739012,457582,2342,40.2,156598.0,59177.0,53091.0,3.5
+2016,"Congressional District 19 (115th Congress), California",21105,762005,326934,2038,36.0,118685.0,97891.0,32097.0,5.6
+2016,"Congressional District 20 (115th Congress), California",13614,743764,471702,1529,34.6,77389.0,89082.0,26058.0,5.3
+2016,"Congressional District 21 (115th Congress), California",28228,726385,508060,909,29.3,22020.0,111966.0,19942.0,11.3
+2016,"Congressional District 22 (115th Congress), California",18265,755289,556374,1115,32.9,72310.0,107966.0,26043.0,8.1
+2016,"Congressional District 23 (115th Congress), California",46979,725299,509317,1091,33.8,64134.0,126372.0,26785.0,9.8
+2016,"Congressional District 24 (115th Congress), California",13487,738700,587967,1512,35.8,97129.0,84312.0,28913.0,5.1
+2016,"Congressional District 25 (115th Congress), California",50867,728858,470038,1631,36.3,85760.0,102501.0,32221.0,6.4
+2016,"Congressional District 26 (115th Congress), California",12638,726532,585872,1775,37.4,99382.0,84878.0,30338.0,5.1
+2016,"Congressional District 27 (115th Congress), California",36874,724293,272728,1557,42.2,129785.0,103175.0,29887.0,4.8
+2016,"Congressional District 28 (115th Congress), California",22690,709613,470995,1550,39.7,168414.0,92044.0,31238.0,7.3
+2016,"Congressional District 29 (115th Congress), California",23707,726264,418322,1399,34.4,69559.0,128471.0,22452.0,6.7
+2016,"Congressional District 30 (115th Congress), California",45261,759943,517383,1851,39.9,151465.0,92691.0,34427.0,6.6
+2016,"Congressional District 31 (115th Congress), California",75512,742627,456559,1319,32.3,66283.0,106789.0,25795.0,8.5
+2016,"Congressional District 32 (115th Congress), California",23671,719488,290839,1453,36.1,73695.0,129898.0,24314.0,6.2
+2016,"Congressional District 33 (115th Congress), California",22501,712919,517760,2214,41.7,196763.0,47356.0,52135.0,5.3
+2016,"Congressional District 34 (115th Congress), California",34628,758622,316876,1149,34.5,95654.0,109057.0,20675.0,6.6
+2016,"Congressional District 35 (115th Congress), California",47079,744729,344122,1394,32.3,55605.0,124808.0,22391.0,8.5
+2016,"Congressional District 36 (115th Congress), California",33439,749841,515188,1097,41.1,64351.0,146720.0,22511.0,9.3
+2016,"Congressional District 37 (115th Congress), California",159397,729010,305751,1511,35.7,110932.0,92677.0,27827.0,6.4
+2016,"Congressional District 38 (115th Congress), California",32845,708889,304070,1485,37.0,78309.0,121875.0,27028.0,6.1
+2016,"Congressional District 39 (115th Congress), California",17724,729909,353478,1766,38.2,138477.0,91287.0,31903.0,5.4
+2016,"Congressional District 40 (115th Congress), California",30650,723345,358263,1198,30.6,31452.0,108505.0,20326.0,7.9
+2016,"Congressional District 41 (115th Congress), California",73014,760165,349650,1381,30.9,50108.0,124144.0,25421.0,8.7
+2016,"Congressional District 42 (115th Congress), California",39691,793044,488486,1768,35.2,85883.0,121557.0,30496.0,7.0
+2016,"Congressional District 43 (115th Congress), California",160363,724077,244752,1340,35.2,86734.0,106935.0,25960.0,6.7
+2016,"Congressional District 44 (115th Congress), California",110038,723685,323837,1279,32.3,37921.0,114164.0,21668.0,8.2
+2016,"Congressional District 45 (115th Congress), California",12535,774130,486619,2169,38.9,181876.0,66345.0,42661.0,4.9
+2016,"Congressional District 46 (115th Congress), California",12620,736031,436360,1515,32.1,65970.0,107756.0,23714.0,5.5
+2016,"Congressional District 47 (115th Congress), California",55075,714311,375467,1443,36.4,100086.0,92616.0,29820.0,5.9
+2016,"Congressional District 48 (115th Congress), California",9740,727100,506299,1897,41.8,149881.0,78455.0,37790.0,4.4
+2016,"Congressional District 49 (115th Congress), California",16624,739697,602947,1932,37.2,137148.0,74032.0,36040.0,4.2
+2016,"Congressional District 50 (115th Congress), California",27060,751527,565672,1608,36.9,94410.0,114463.0,29662.0,6.2
+2016,"Congressional District 51 (115th Congress), California",50698,747202,497387,1140,32.5,46855.0,116472.0,20360.0,11.0
+2016,"Congressional District 52 (115th Congress), California",21469,750537,522076,1943,36.6,174580.0,62037.0,41305.0,4.8
+2016,"Congressional District 53 (115th Congress), California",62026,766812,497068,1594,35.3,129790.0,95034.0,34691.0,6.6
+2016,"Congressional District 1 (115th Congress), Colorado",70294,812843,629230,1279,35.0,169278.0,104775.0,35820.0,4.2
+2016,"Congressional District 2 (115th Congress), Colorado",7832,803470,721991,1368,37.7,172763.0,86491.0,32717.0,4.7
+2016,"Congressional District 3 (115th Congress), Colorado",7341,738119,655140,907,40.2,96434.0,141168.0,26431.0,6.3
+2016,"Congressional District 4 (115th Congress), Colorado",11425,795836,731835,1243,37.1,119608.0,129506.0,32335.0,4.5
+2016,"Congressional District 5 (115th Congress), Colorado",46332,786939,642994,1131,35.5,117285.0,110609.0,30980.0,5.8
+2016,"Congressional District 6 (115th Congress), Colorado",76749,813566,584127,1421,36.6,142503.0,117395.0,35759.0,4.0
+2016,"Congressional District 7 (115th Congress), Colorado",14169,789772,689604,1283,35.9,116402.0,132200.0,33065.0,4.1
+2016,"Congressional District 1 (115th Congress), Connecticut",110578,712461,492998,1241,40.2,105070.0,138673.0,36068.0,6.1
+2016,"Congressional District 2 (115th Congress), Connecticut",28710,705034,609068,1233,41.9,98611.0,143463.0,33586.0,6.1
+2016,"Congressional District 3 (115th Congress), Connecticut",100372,717162,520873,1367,39.5,93200.0,153898.0,34043.0,6.6
+2016,"Congressional District 4 (115th Congress), Connecticut",92198,732469,536758,1894,39.8,135613.0,100786.0,37106.0,7.3
+2016,"Congressional District 5 (115th Congress), Connecticut",47074,709326,582195,1266,43.2,108875.0,141956.0,35143.0,5.9
+2016,"Congressional District (at Large) (115th Congress), Delaware",209911,952065,659091,1074,40.6,121717.0,212474.0,31366.0,5.7
+2016,"Delegate District (at Large) (115th Congress), District of Columbia",320554,681170,277268,1543,33.9,115097.0,85248.0,42082.0,6.9
+2016,"Congressional District 1 (115th Congress), Florida",105270,762506,585415,915,38.7,92389.0,138161.0,26329.0,6.0
+2016,"Congressional District 2 (115th Congress), Florida",91756,720418,588570,771,43.2,70145.0,173358.0,24608.0,6.6
+2016,"Congressional District 3 (115th Congress), Florida",113730,732088,558389,848,37.8,71249.0,156648.0,23340.0,5.8
+2016,"Congressional District 4 (115th Congress), Florida",68651,778620,638296,1180,39.8,142234.0,127241.0,34877.0,3.9
+2016,"Congressional District 5 (115th Congress), Florida",347373,728346,327600,844,33.0,67873.0,145158.0,22288.0,8.2
+2016,"Congressional District 6 (115th Congress), Florida",78484,765005,643603,868,47.5,85887.0,177606.0,25241.0,6.0
+2016,"Congressional District 7 (115th Congress), Florida",81270,762326,593834,1157,36.5,127196.0,109301.0,29885.0,5.0
+2016,"Congressional District 8 (115th Congress), Florida",69137,744430,619383,885,48.1,100480.0,157050.0,25081.0,6.1
+2016,"Congressional District 9 (115th Congress), Florida",117306,832753,620837,1029,37.4,95690.0,168690.0,24323.0,6.4
+2016,"Congressional District 10 (115th Congress), Florida",223260,791447,451551,1117,35.5,110363.0,142930.0,26222.0,6.6
+2016,"Congressional District 11 (115th Congress), Florida",64055,758331,659339,664,55.6,75644.0,213588.0,22793.0,6.8
+2016,"Congressional District 12 (115th Congress), Florida",37040,760472,673398,899,46.6,101848.0,181179.0,26091.0,6.6
+2016,"Congressional District 13 (115th Congress), Florida",89432,728996,575932,959,46.5,99671.0,154928.0,26649.0,6.1
+2016,"Congressional District 14 (115th Congress), Florida",150976,769968,530438,1070,36.2,114065.0,138321.0,26819.0,6.2
+2016,"Congressional District 15 (115th Congress), Florida",106063,762822,580409,993,38.4,88857.0,170998.0,26444.0,5.2
+2016,"Congressional District 16 (115th Congress), Florida",62183,803454,672814,1036,47.0,111446.0,173202.0,27747.0,5.5
+2016,"Congressional District 17 (115th Congress), Florida",57744,768138,666637,745,51.3,80130.0,218793.0,23961.0,7.5
+2016,"Congressional District 18 (115th Congress), Florida",93925,754652,613642,1110,47.1,108032.0,151069.0,27146.0,4.4
+2016,"Congressional District 19 (115th Congress), Florida",63887,799332,687450,1058,50.2,121545.0,171853.0,27131.0,5.6
+2016,"Congressional District 20 (115th Congress), Florida",421052,794621,314070,1120,36.4,69583.0,168604.0,22544.0,7.1
+2016,"Congressional District 21 (115th Congress), Florida",122644,758201,582382,1190,45.4,119505.0,137908.0,26976.0,6.5
+2016,"Congressional District 22 (115th Congress), Florida",116739,737019,553571,1321,45.2,126858.0,133416.0,31567.0,6.0
+2016,"Congressional District 23 (115th Congress), Florida",100461,749377,556073,1434,41.6,127455.0,119905.0,31368.0,5.2
+2016,"Congressional District 24 (115th Congress), Florida",365096,749624,316828,1073,37.1,66140.0,166330.0,21329.0,8.5
+2016,"Congressional District 25 (115th Congress), Florida",35268,763628,683958,1129,42.5,81860.0,162043.0,21381.0,4.8
+2016,"Congressional District 26 (115th Congress), Florida",88692,788816,640954,1328,38.4,102471.0,153386.0,23709.0,5.4
+2016,"Congressional District 27 (115th Congress), Florida",38934,747049,638792,1359,41.9,117291.0,138067.0,25950.0,4.5
+2016,"Congressional District 1 (115th Congress), Georgia",217769,734172,462488,910,35.8,78181.0,142657.0,26516.0,8.2
+2016,"Congressional District 2 (115th Congress), Georgia",348632,672244,284006,703,36.1,46899.0,148766.0,20769.0,9.0
+2016,"Congressional District 3 (115th Congress), Georgia",179905,729810,502554,910,38.3,81139.0,148385.0,27040.0,6.2
+2016,"Congressional District 4 (115th Congress), Georgia",446019,752273,226266,1057,35.3,92663.0,132386.0,28002.0,7.2
+2016,"Congressional District 5 (115th Congress), Georgia",431485,747809,238907,1070,33.8,119002.0,112644.0,27204.0,7.5
+2016,"Congressional District 6 (115th Congress), Georgia",112868,756004,511912,1385,38.4,189570.0,66576.0,41303.0,3.7
+2016,"Congressional District 7 (115th Congress), Georgia",166522,789864,424829,1256,36.5,130527.0,102521.0,32281.0,3.2
+2016,"Congressional District 8 (115th Congress), Georgia",219329,710108,450574,714,36.7,58035.0,158170.0,23895.0,5.9
+2016,"Congressional District 9 (115th Congress), Georgia",52938,736075,641704,784,40.8,67430.0,163302.0,24071.0,4.0
+2016,"Congressional District 10 (115th Congress), Georgia",184353,741464,509454,872,36.3,70313.0,150966.0,24999.0,5.8
+2016,"Congressional District 11 (115th Congress), Georgia",125955,764184,556071,1162,36.3,135515.0,106114.0,32739.0,4.6
+2016,"Congressional District 12 (115th Congress), Georgia",256413,719970,419272,736,35.7,55841.0,160942.0,22781.0,7.2
+2016,"Congressional District 13 (115th Congress), Georgia",444523,746218,227609,1045,35.2,89167.0,135734.0,30060.0,6.8
+2016,"Congressional District 14 (115th Congress), Georgia",67784,710176,599215,755,38.1,55993.0,154917.0,24747.0,5.6
+2016,"Congressional District 1 (115th Congress), Hawaii",14769,706501,123477,1659,39.2,119760.0,119625.0,35153.0,3.4
+2016,"Congressional District 2 (115th Congress), Hawaii",11129,722056,234517,1406,38.5,92090.0,158118.0,30871.0,5.5
+2016,"Congressional District 1 (115th Congress), Idaho",3819,864758,775188,863,38.0,100256.0,170670.0,25167.0,5.1
+2016,"Congressional District 2 (115th Congress), Idaho",7618,818382,734931,819,34.0,103107.0,132196.0,25216.0,4.3
+2016,"Congressional District 1 (115th Congress), Illinois",345746,691474,292771,1081,39.4,81301.0,125429.0,27536.0,9.9
+2016,"Congressional District 2 (115th Congress), Illinois",406653,713917,264797,982,38.0,66729.0,127905.0,25307.0,12.9
+2016,"Congressional District 3 (115th Congress), Illinois",38014,720930,529893,1144,37.7,87308.0,146668.0,30716.0,7.2
+2016,"Congressional District 4 (115th Congress), Illinois",26083,695098,385144,1074,33.2,75181.0,124622.0,26117.0,6.5
+2016,"Congressional District 5 (115th Congress), Illinois",18194,723373,593685,1466,35.0,174745.0,90974.0,41811.0,3.7
+2016,"Congressional District 6 (115th Congress), Illinois",19108,722323,599312,1585,40.5,160506.0,79891.0,41154.0,3.9
+2016,"Congressional District 7 (115th Congress), Illinois",341264,723481,256647,1294,34.5,112564.0,117978.0,30353.0,9.3
+2016,"Congressional District 8 (115th Congress), Illinois",33339,717789,465992,1247,37.3,106702.0,127058.0,32125.0,5.0
+2016,"Congressional District 9 (115th Congress), Illinois",72697,724071,514493,1281,40.1,156475.0,81653.0,35111.0,4.1
+2016,"Congressional District 10 (115th Congress), Illinois",48352,710610,505898,1359,38.2,117347.0,100194.0,32450.0,5.2
+2016,"Congressional District 11 (115th Congress), Illinois",77608,730480,478688,1316,36.1,106110.0,107163.0,31838.0,5.0
+2016,"Congressional District 12 (115th Congress), Illinois",117759,693736,541201,768,39.4,68519.0,146815.0,26328.0,6.8
+2016,"Congressional District 13 (115th Congress), Illinois",77940,704699,573421,775,36.9,81266.0,138575.0,27105.0,5.7
+2016,"Congressional District 14 (115th Congress), Illinois",25846,736397,636375,1511,38.9,129455.0,103710.0,37090.0,4.9
+2016,"Congressional District 15 (115th Congress), Illinois",31367,700549,648770,654,40.5,63579.0,164869.0,26993.0,5.5
+2016,"Congressional District 16 (115th Congress), Illinois",23523,687998,623579,856,41.0,65897.0,158206.0,27933.0,6.4
+2016,"Congressional District 17 (115th Congress), Illinois",80747,691212,565738,710,40.2,59898.0,159173.0,25246.0,7.8
+2016,"Congressional District 18 (115th Congress), Illinois",29237,713402,647359,830,40.6,100258.0,149509.0,31941.0,5.0
+2016,"Congressional District 1 (115th Congress), Indiana",133408,711958,495472,876,38.7,70421.0,167957.0,27544.0,5.9
+2016,"Congressional District 2 (115th Congress), Indiana",50456,724060,627056,712,38.0,62443.0,173090.0,25830.0,6.2
+2016,"Congressional District 3 (115th Congress), Indiana",46951,740262,649021,720,37.2,72616.0,162784.0,27411.0,4.4
+2016,"Congressional District 4 (115th Congress), Indiana",33629,749049,663509,796,36.6,78619.0,169645.0,27152.0,4.9
+2016,"Congressional District 5 (115th Congress), Indiana",56547,768412,651499,1000,37.9,147652.0,119720.0,35108.0,3.7
+2016,"Congressional District 6 (115th Congress), Indiana",19415,720656,669635,736,40.1,62943.0,192329.0,26815.0,4.7
+2016,"Congressional District 7 (115th Congress), Indiana",230133,751554,437278,837,33.8,76422.0,152881.0,25371.0,6.4
+2016,"Congressional District 8 (115th Congress), Indiana",28035,717028,656813,689,39.4,66367.0,175874.0,26041.0,4.2
+2016,"Congressional District 9 (115th Congress), Indiana",19171,750074,686135,823,38.0,78810.0,167602.0,27007.0,4.9
+2016,"Congressional District 1 (115th Congress), Iowa",29621,771008,705007,780,38.8,96715.0,168259.0,30235.0,3.9
+2016,"Congressional District 2 (115th Congress), Iowa",34726,778964,698797,787,38.0,91740.0,171816.0,28019.0,4.0
+2016,"Congressional District 3 (115th Congress), Iowa",35400,824082,726471,934,36.9,124679.0,146218.0,32570.0,4.2
+2016,"Congressional District 4 (115th Congress), Iowa",12120,760639,703887,690,39.1,85108.0,163239.0,27932.0,3.6
+2016,"Congressional District 1 (115th Congress), Kansas",21369,708078,631156,701,35.4,70035.0,130522.0,25565.0,4.6
+2016,"Congressional District 2 (115th Congress), Kansas",35163,716597,618279,761,37.5,80689.0,147309.0,26636.0,4.3
+2016,"Congressional District 3 (115th Congress), Kansas",62701,759978,613550,1116,36.8,150611.0,91141.0,36150.0,4.1
+2016,"Congressional District 4 (115th Congress), Kansas",47318,722636,595981,797,36.3,89526.0,127322.0,28259.0,4.9
+2016,"Congressional District 1 (115th Congress), Kentucky",54793,717739,639695,602,40.2,45830.0,185966.0,21895.0,5.7
+2016,"Congressional District 2 (115th Congress), Kentucky",44108,754967,672175,741,38.4,60792.0,169587.0,25237.0,5.4
+2016,"Congressional District 3 (115th Congress), Kentucky",163432,740860,530806,872,38.2,94622.0,135588.0,29095.0,5.8
+2016,"Congressional District 4 (115th Congress), Kentucky",26014,754502,693615,883,38.5,91382.0,150480.0,30419.0,4.5
+2016,"Congressional District 5 (115th Congress), Kentucky",10587,703315,680953,487,41.0,33630.0,182741.0,17684.0,9.7
+2016,"Congressional District 6 (115th Congress), Kentucky",67223,765591,649089,811,36.7,92825.0,143937.0,25836.0,6.0
+2016,"Congressional District 1 (115th Congress), Louisiana",112625,803427,628111,947,38.4,107513.0,158932.0,28844.0,5.4
+2016,"Congressional District 2 (115th Congress), Louisiana",490790,792390,245248,842,35.9,79609.0,167216.0,21918.0,9.3
+2016,"Congressional District 3 (115th Congress), Louisiana",197216,785686,550599,681,36.0,73318.0,191678.0,25176.0,7.6
+2016,"Congressional District 4 (115th Congress), Louisiana",262993,753181,453897,657,36.7,63568.0,180310.0,21419.0,7.7
+2016,"Congressional District 5 (115th Congress), Louisiana",258834,748306,465878,571,37.4,54235.0,192895.0,20361.0,6.9
+2016,"Congressional District 6 (115th Congress), Louisiana",192297,798676,557762,886,35.2,95056.0,168242.0,30586.0,5.1
+2016,"Congressional District 1 (115th Congress), Maine",12358,676165,636468,1058,44.3,111473.0,142220.0,30443.0,3.2
+2016,"Congressional District 2 (115th Congress), Maine",7605,655314,620652,730,44.7,69961.0,176149.0,23611.0,5.9
+2016,"Congressional District 1 (115th Congress), Maryland",89143,735590,600511,1202,42.5,92853.0,164294.0,31976.0,5.3
+2016,"Congressional District 2 (115th Congress), Maryland",261405,764948,421691,1282,36.2,105826.0,146561.0,34591.0,5.2
+2016,"Congressional District 3 (115th Congress), Maryland",169607,764166,480300,1520,38.2,127785.0,116413.0,40601.0,4.6
+2016,"Congressional District 4 (115th Congress), Maryland",395026,755108,230153,1548,36.8,98762.0,129172.0,38081.0,5.8
+2016,"Congressional District 5 (115th Congress), Maryland",293872,758857,371890,1715,38.3,91788.0,141522.0,41691.0,5.1
+2016,"Congressional District 6 (115th Congress), Maryland",107650,757889,526311,1398,38.9,106517.0,127103.0,34119.0,5.0
+2016,"Congressional District 7 (115th Congress), Maryland",382414,722745,259420,1170,37.7,101984.0,132879.0,32159.0,7.7
+2016,"Congressional District 8 (115th Congress), Maryland",94476,757144,506979,1739,40.4,134976.0,88526.0,46075.0,4.6
+2016,"Congressional District 1 (115th Congress), Massachusetts",45618,729294,628922,1009,40.9,88810.0,149822.0,28786.0,6.3
+2016,"Congressional District 2 (115th Congress), Massachusetts",38992,749202,619606,1180,39.0,108785.0,135725.0,31567.0,5.3
+2016,"Congressional District 3 (115th Congress), Massachusetts",28000,761611,603805,1368,39.3,105005.0,133395.0,32333.0,5.3
+2016,"Congressional District 4 (115th Congress), Massachusetts",26123,753156,646441,1651,41.4,135046.0,101565.0,41555.0,4.0
+2016,"Congressional District 5 (115th Congress), Massachusetts",38795,759165,583376,1716,39.4,148990.0,102732.0,41825.0,3.9
+2016,"Congressional District 6 (115th Congress), Massachusetts",29223,766310,648461,1585,42.8,139650.0,130422.0,37957.0,4.4
+2016,"Congressional District 7 (115th Congress), Massachusetts",206206,779173,383951,1549,31.8,125872.0,119332.0,30595.0,7.2
+2016,"Congressional District 8 (115th Congress), Massachusetts",75120,773806,584673,1646,39.3,155118.0,130647.0,40453.0,5.6
+2016,"Congressional District 9 (115th Congress), Massachusetts",18600,740062,650940,1266,45.5,117019.0,152856.0,32183.0,5.6
+2016,"Congressional District 1 (115th Congress), Michigan",9521,699621,645443,677,46.4,78681.0,170443.0,23887.0,6.0
+2016,"Congressional District 2 (115th Congress), Michigan",47411,734965,622641,800,36.8,78621.0,157067.0,25687.0,5.0
+2016,"Congressional District 3 (115th Congress), Michigan",58558,733618,617675,867,37.2,100751.0,141608.0,27460.0,4.5
+2016,"Congressional District 4 (115th Congress), Michigan",12155,700487,657934,711,41.4,65127.0,167318.0,23724.0,5.8
+2016,"Congressional District 5 (115th Congress), Michigan",118690,681278,526471,712,41.0,56996.0,160113.0,24090.0,9.5
+2016,"Congressional District 6 (115th Congress), Michigan",57049,716163,604729,786,38.8,80072.0,137398.0,25873.0,4.6
+2016,"Congressional District 7 (115th Congress), Michigan",30593,700983,637876,844,41.9,77745.0,152023.0,29213.0,5.0
+2016,"Congressional District 8 (115th Congress), Michigan",41615,734008,624088,1018,38.1,113624.0,105963.0,30710.0,5.8
+2016,"Congressional District 9 (115th Congress), Michigan",100828,711069,549342,938,40.5,98819.0,147361.0,30804.0,5.3
+2016,"Congressional District 10 (115th Congress), Michigan",17570,714802,665867,910,43.6,75427.0,164180.0,30054.0,5.5
+2016,"Congressional District 11 (115th Congress), Michigan",36890,732690,601872,1162,41.5,138145.0,96991.0,38519.0,4.1
+2016,"Congressional District 12 (115th Congress), Michigan",77203,708880,557103,952,35.3,79630.0,115010.0,29027.0,5.3
+2016,"Congressional District 13 (115th Congress), Michigan",361585,658383,248084,725,36.3,39681.0,139976.0,21041.0,11.3
+2016,"Congressional District 14 (115th Congress), Michigan",393668,701353,234356,890,37.7,79418.0,122892.0,24860.0,11.4
+2016,"Congressional District 1 (115th Congress), Minnesota",20467,672415,606853,833,38.3,81916.0,135852.0,31087.0,3.9
+2016,"Congressional District 2 (115th Congress), Minnesota",31558,700264,591403,1241,37.7,123794.0,104272.0,37594.0,3.4
+2016,"Congressional District 3 (115th Congress), Minnesota",58565,709906,567960,1369,40.1,156474.0,80111.0,41631.0,2.7
+2016,"Congressional District 4 (115th Congress), Minnesota",68539,702162,493306,1125,36.0,121293.0,101030.0,33136.0,4.3
+2016,"Congressional District 5 (115th Congress), Minnesota",117792,708082,477182,1093,34.0,139083.0,94283.0,31895.0,5.1
+2016,"Congressional District 6 (115th Congress), Minnesota",20269,696720,632472,1128,37.1,95442.0,126439.0,35570.0,3.0
+2016,"Congressional District 7 (115th Congress), Minnesota",7226,668049,611864,739,40.2,70866.0,147049.0,28397.0,3.9
+2016,"Congressional District 8 (115th Congress), Minnesota",6892,662354,615526,819,43.4,71257.0,148901.0,27243.0,4.5
+2016,"Congressional District 1 (115th Congress), Mississippi",214570,764223,524228,689,37.9,66259.0,158980.0,23234.0,5.4
+2016,"Congressional District 2 (115th Congress), Mississippi",470163,705911,217330,623,36.2,54807.0,142855.0,20023.0,11.2
+2016,"Congressional District 3 (115th Congress), Mississippi",268814,751004,457221,671,37.1,76632.0,149392.0,23488.0,6.2
+2016,"Congressional District 4 (115th Congress), Mississippi",181411,767588,549955,724,37.5,67167.0,152108.0,22344.0,8.6
+2016,"Congressional District 1 (115th Congress), Missouri",360343,735410,318745,874,35.5,87682.0,126677.0,26021.0,7.6
+2016,"Congressional District 2 (115th Congress), Missouri",31386,763176,681910,1153,43.2,157192.0,104691.0,38538.0,3.2
+2016,"Congressional District 3 (115th Congress), Missouri",26446,783679,725198,898,38.7,91695.0,165114.0,30901.0,3.8
+2016,"Congressional District 4 (115th Congress), Missouri",35588,761860,677392,721,36.6,72222.0,169602.0,24126.0,4.6
+2016,"Congressional District 5 (115th Congress), Missouri",170350,763288,522123,847,37.1,94550.0,162633.0,27549.0,5.6
+2016,"Congressional District 6 (115th Congress), Missouri",29725,767878,694426,818,38.7,98925.0,173877.0,28498.0,4.0
+2016,"Congressional District 7 (115th Congress), Missouri",14450,776586,712301,721,37.7,80124.0,165431.0,23763.0,4.9
+2016,"Congressional District 8 (115th Congress), Missouri",34658,741123,679412,608,40.8,47121.0,197361.0,21301.0,6.1
+2016,"Congressional District (at Large) (115th Congress), Montana",3949,1042520,927374,784,40.1,148944.0,206415.0,25985.0,4.8
+2016,"Congressional District 1 (115th Congress), Nebraska",19529,639048,569839,849,35.4,86535.0,108078.0,30197.0,3.7
+2016,"Congressional District 2 (115th Congress), Nebraska",63537,661142,541346,1041,34.8,112941.0,94258.0,33430.0,3.8
+2016,"Congressional District 3 (115th Congress), Nebraska",6813,606926,563678,659,39.8,62455.0,126012.0,27047.0,3.6
+2016,"Congressional District 1 (115th Congress), Nevada",83272,722331,383045,881,36.0,53786.0,157013.0,23043.0,7.5
+2016,"Congressional District 2 (115th Congress), Nevada",12389,713779,577546,1002,39.5,76462.0,130074.0,29412.0,5.9
+2016,"Congressional District 3 (115th Congress), Nevada",52566,779908,530453,1244,39.0,113806.0,152750.0,34648.0,6.2
+2016,"Congressional District 4 (115th Congress), Nevada",112766,724040,475646,1068,37.0,64493.0,145220.0,28629.0,7.2
+2016,"Congressional District 1 (115th Congress), New Hampshire",8607,671625,627367,1273,41.9,112839.0,123774.0,33064.0,3.6
+2016,"Congressional District 2 (115th Congress), New Hampshire",8064,663170,619788,1222,43.6,100622.0,132471.0,32308.0,3.6
+2016,"Congressional District 1 (115th Congress), New Jersey",124284,731932,496612,1332,38.8,100423.0,164877.0,32284.0,6.4
+2016,"Congressional District 2 (115th Congress), New Jersey",88141,725217,546696,1251,41.4,86854.0,172226.0,27340.0,8.1
+2016,"Congressional District 3 (115th Congress), New Jersey",80013,739696,589354,1473,43.3,113783.0,164326.0,35722.0,6.1
+2016,"Congressional District 4 (115th Congress), New Jersey",49719,732142,620052,1608,41.3,119636.0,131301.0,36014.0,5.2
+2016,"Congressional District 5 (115th Congress), New Jersey",40044,742865,590674,1888,42.3,154756.0,118044.0,43964.0,5.4
+2016,"Congressional District 6 (115th Congress), New Jersey",75216,750419,478266,1604,37.6,120126.0,143668.0,34874.0,5.8
+2016,"Congressional District 7 (115th Congress), New Jersey",36403,732070,577034,1923,42.7,149382.0,112470.0,47357.0,3.9
+2016,"Congressional District 8 (115th Congress), New Jersey",80266,778294,446678,1377,35.0,111141.0,149906.0,29325.0,6.4
+2016,"Congressional District 9 (115th Congress), New Jersey",76785,760005,472714,1461,38.3,113234.0,158585.0,31342.0,4.7
+2016,"Congressional District 10 (115th Congress), New Jersey",390048,758062,219967,1265,35.3,89974.0,157831.0,27333.0,9.2
+2016,"Congressional District 11 (115th Congress), New Jersey",23824,733706,601372,2007,43.4,169299.0,109487.0,47159.0,4.7
+2016,"Congressional District 12 (115th Congress), New Jersey",129842,760061,451489,1562,39.4,131910.0,123352.0,38484.0,6.6
+2016,"Congressional District 1 (115th Congress), New Mexico",19223,702719,501221,875,38.3,88934.0,116859.0,26591.0,5.8
+2016,"Congressional District 2 (115th Congress), New Mexico",13080,691695,589953,654,36.6,58516.0,128151.0,20693.0,8.4
+2016,"Congressional District 3 (115th Congress), New Mexico",8740,686601,448460,801,38.2,68241.0,125498.0,25077.0,8.6
+2016,"Congressional District 1 (115th Congress), New York",39657,718175,623731,1953,41.7,87110.0,149215.0,39023.0,5.0
+2016,"Congressional District 2 (115th Congress), New York",69655,714040,528448,2031,40.3,94122.0,148018.0,35814.0,5.0
+2016,"Congressional District 3 (115th Congress), New York",20258,732591,549318,2205,44.5,141827.0,108397.0,45211.0,3.7
+2016,"Congressional District 4 (115th Congress), New York",105446,723377,468263,2052,40.3,114902.0,115927.0,40354.0,4.3
+2016,"Congressional District 5 (115th Congress), New York",387596,794154,140669,1549,37.3,87427.0,156750.0,28941.0,8.2
+2016,"Congressional District 6 (115th Congress), New York",30535,753744,329853,1430,40.4,117229.0,143276.0,29890.0,5.3
+2016,"Congressional District 7 (115th Congress), New York",85111,763468,361054,1429,33.2,110060.0,117980.0,26675.0,6.2
+2016,"Congressional District 8 (115th Congress), New York",412351,771711,229400,1353,36.2,112146.0,150414.0,27846.0,8.6
+2016,"Congressional District 9 (115th Congress), New York",365421,738674,256461,1357,36.4,108133.0,130690.0,30004.0,6.8
+2016,"Congressional District 10 (115th Congress), New York",25223,708960,497928,1810,37.1,153757.0,76660.0,48907.0,5.1
+2016,"Congressional District 11 (115th Congress), New York",54851,735452,515460,1467,39.0,106775.0,143873.0,34988.0,5.6
+2016,"Congressional District 12 (115th Congress), New York",33880,715471,525079,2047,35.7,221836.0,55944.0,62621.0,4.1
+2016,"Congressional District 13 (115th Congress), New York",241085,812752,232672,1130,34.4,103641.0,130274.0,22116.0,8.7
+2016,"Congressional District 14 (115th Congress), New York",78757,691715,314005,1391,37.6,83255.0,157135.0,27615.0,5.4
+2016,"Congressional District 15 (115th Congress), New York",244516,768801,118476,1061,30.7,42846.0,127480.0,16998.0,11.1
+2016,"Congressional District 16 (115th Congress), New York",251405,736806,342847,1478,40.0,105948.0,113892.0,33232.0,7.4
+2016,"Congressional District 17 (115th Congress), New York",79765,744406,510069,1978,39.1,114830.0,97119.0,36905.0,5.6
+2016,"Congressional District 18 (115th Congress), New York",67372,722617,552745,1562,39.6,95298.0,127244.0,34468.0,4.9
+2016,"Congressional District 19 (115th Congress), New York",31425,698185,619777,997,44.6,80832.0,152337.0,29606.0,6.0
+2016,"Congressional District 20 (115th Congress), New York",65567,723416,573867,1056,38.9,106069.0,123519.0,31969.0,5.2
+2016,"Congressional District 21 (115th Congress), New York",21246,711798,654596,800,40.6,63053.0,176575.0,27101.0,6.0
+2016,"Congressional District 22 (115th Congress), New York",30036,703464,629055,778,41.0,72352.0,159447.0,26586.0,5.8
+2016,"Congressional District 23 (115th Congress), New York",22094,703717,636916,734,40.2,63790.0,163887.0,24786.0,6.0
+2016,"Congressional District 24 (115th Congress), New York",59776,707479,596076,857,39.6,82816.0,135706.0,28971.0,5.8
+2016,"Congressional District 25 (115th Congress), New York",113474,720963,544995,938,38.5,104275.0,112116.0,28460.0,5.9
+2016,"Congressional District 26 (115th Congress), New York",125935,709220,508727,786,38.4,86129.0,141261.0,26976.0,5.3
+2016,"Congressional District 27 (115th Congress), New York",18097,720133,669976,897,43.6,89161.0,159678.0,31861.0,3.6
+2016,"Congressional District 1 (115th Congress), North Carolina",337080,750278,351832,788,38.0,83427.0,144056.0,23290.0,7.4
+2016,"Congressional District 2 (115th Congress), North Carolina",164858,819899,584858,1034,37.8,130943.0,121978.0,31298.0,5.5
+2016,"Congressional District 3 (115th Congress), North Carolina",148353,754350,548218,857,37.2,70344.0,141357.0,25199.0,8.3
+2016,"Congressional District 4 (115th Congress), North Carolina",185919,847032,524537,1141,34.9,178800.0,74469.0,35700.0,4.3
+2016,"Congressional District 5 (115th Congress), North Carolina",110330,751232,593578,731,40.5,85978.0,149090.0,23907.0,5.7
+2016,"Congressional District 6 (115th Congress), North Carolina",153787,763491,545204,756,41.1,85170.0,147300.0,25495.0,6.2
+2016,"Congressional District 7 (115th Congress), North Carolina",148252,780442,585311,848,42.1,92099.0,164210.0,23583.0,7.5
+2016,"Congressional District 8 (115th Congress), North Carolina",181626,774967,509184,846,36.3,89548.0,135730.0,26677.0,7.2
+2016,"Congressional District 9 (115th Congress), North Carolina",151442,778477,510668,944,39.0,116434.0,126484.0,28562.0,6.2
+2016,"Congressional District 10 (115th Congress), North Carolina",88811,759453,614796,756,41.8,85559.0,155452.0,24670.0,6.6
+2016,"Congressional District 11 (115th Congress), North Carolina",25988,749597,678534,650,45.3,82393.0,163798.0,23233.0,5.5
+2016,"Congressional District 12 (115th Congress), North Carolina",318876,849357,404846,1076,33.6,151340.0,104895.0,31358.0,5.5
+2016,"Congressional District 13 (115th Congress), North Carolina",166890,768213,537499,805,39.5,93580.0,147067.0,25340.0,6.3
+2016,"Congressional District (at Large) (115th Congress), North Dakota",19250,757953,660919,769,35.0,107578.0,134178.0,32224.0,2.8
+2016,"Congressional District 1 (115th Congress), Ohio",162407,739216,520167,943,36.8,103841.0,141504.0,30226.0,6.3
+2016,"Congressional District 2 (115th Congress), Ohio",61736,724451,631322,899,40.1,95441.0,155053.0,29979.0,4.8
+2016,"Congressional District 3 (115th Congress), Ohio",261689,787306,444180,894,32.2,93720.0,156345.0,25996.0,7.1
+2016,"Congressional District 4 (115th Congress), Ohio",39056,714115,641125,734,40.7,55266.0,198416.0,26322.0,4.9
+2016,"Congressional District 5 (115th Congress), Ohio",19041,720730,663424,793,39.9,79032.0,171294.0,29998.0,4.4
+2016,"Congressional District 6 (115th Congress), Ohio",17918,703190,668912,646,43.4,51041.0,211366.0,23734.0,5.8
+2016,"Congressional District 7 (115th Congress), Ohio",28795,728336,676090,767,41.0,66562.0,195784.0,26828.0,5.3
+2016,"Congressional District 8 (115th Congress), Ohio",43445,727853,645438,840,38.5,73768.0,173261.0,28674.0,5.2
+2016,"Congressional District 9 (115th Congress), Ohio",120288,706201,515806,742,38.0,64004.0,150599.0,24286.0,8.1
+2016,"Congressional District 10 (115th Congress), Ohio",122567,720354,553044,824,39.2,82244.0,136111.0,26658.0,6.3
+2016,"Congressional District 11 (115th Congress), Ohio",364553,692226,272086,763,38.5,70501.0,145894.0,22551.0,10.4
+2016,"Congressional District 12 (115th Congress), Ohio",36849,758614,661114,1050,38.9,132967.0,133943.0,32305.0,3.6
+2016,"Congressional District 13 (115th Congress), Ohio",83485,709683,587038,697,40.6,77754.0,188151.0,23854.0,6.9
+2016,"Congressional District 14 (115th Congress), Ohio",31967,710875,645356,949,44.7,104357.0,152681.0,32219.0,3.8
+2016,"Congressional District 15 (115th Congress), Ohio",32387,743623,672078,933,38.0,103489.0,167947.0,30922.0,4.3
+2016,"Congressional District 16 (115th Congress), Ohio",17327,727600,679041,912,42.9,108218.0,160679.0,31551.0,3.9
+2016,"Congressional District 1 (115th Congress), Oklahoma",68469,796981,564445,860,36.2,108669.0,144225.0,29040.0,5.9
+2016,"Congressional District 2 (115th Congress), Oklahoma",25146,749490,497803,574,39.5,57441.0,188112.0,21807.0,8.0
+2016,"Congressional District 3 (115th Congress), Oklahoma",27377,779596,616508,674,36.6,79335.0,171287.0,25367.0,5.4
+2016,"Congressional District 4 (115th Congress), Oklahoma",55355,781940,595384,802,35.8,85169.0,160205.0,27785.0,5.4
+2016,"Congressional District 5 (115th Congress), Oklahoma",111026,815554,567327,819,34.7,102308.0,138700.0,26930.0,5.6
+2016,"Congressional District 1 (115th Congress), Oregon",12444,830772,660825,1328,37.7,143667.0,111825.0,33728.0,4.3
+2016,"Congressional District 2 (115th Congress), Oregon",6170,809980,728420,899,41.6,83101.0,162452.0,25169.0,7.0
+2016,"Congressional District 3 (115th Congress), Oregon",45731,835143,661685,1305,37.0,150741.0,107543.0,31275.0,5.1
+2016,"Congressional District 4 (115th Congress), Oregon",6187,795499,708840,909,41.3,88759.0,141259.0,23209.0,7.8
+2016,"Congressional District 5 (115th Congress), Oregon",9043,822071,696040,1103,39.5,106240.0,132814.0,29047.0,4.9
+2016,"Congressional District 1 (115th Congress), Pennsylvania",255923,721901,335417,953,33.7,82811.0,163332.0,25125.0,9.3
+2016,"Congressional District 2 (115th Congress), Pennsylvania",401447,711404,225072,939,34.1,89599.0,129416.0,25149.0,8.9
+2016,"Congressional District 3 (115th Congress), Pennsylvania",31997,693850,637132,718,43.3,81247.0,198447.0,26058.0,5.5
+2016,"Congressional District 4 (115th Congress), Pennsylvania",58343,726738,615250,1016,40.8,85935.0,190401.0,30539.0,4.8
+2016,"Congressional District 5 (115th Congress), Pennsylvania",19557,700472,654366,694,40.6,71949.0,208494.0,23719.0,5.8
+2016,"Congressional District 6 (115th Congress), Pennsylvania",30587,737397,636242,1321,40.8,136238.0,140020.0,36765.0,4.6
+2016,"Congressional District 7 (115th Congress), Pennsylvania",41498,712330,613745,1430,42.6,123465.0,137346.0,38226.0,5.2
+2016,"Congressional District 8 (115th Congress), Pennsylvania",25086,709746,622195,1429,43.6,120846.0,150305.0,35980.0,3.7
+2016,"Congressional District 9 (115th Congress), Pennsylvania",21341,689669,649653,682,43.5,58105.0,229056.0,25114.0,6.7
+2016,"Congressional District 10 (115th Congress), Pennsylvania",22391,689108,637125,793,43.8,66302.0,202143.0,25809.0,5.2
+2016,"Congressional District 11 (115th Congress), Pennsylvania",40530,707150,628731,807,42.5,79784.0,198160.0,28382.0,5.0
+2016,"Congressional District 12 (115th Congress), Pennsylvania",19519,697773,645157,803,45.2,105551.0,170266.0,30807.0,4.6
+2016,"Congressional District 13 (115th Congress), Pennsylvania",146967,731754,453831,1127,37.7,108837.0,148676.0,30133.0,7.3
+2016,"Congressional District 14 (115th Congress), Pennsylvania",144644,696529,500892,772,38.4,104508.0,152477.0,26606.0,6.7
+2016,"Congressional District 15 (115th Congress), Pennsylvania",38886,725473,611339,1071,40.3,89200.0,177952.0,30628.0,5.5
+2016,"Congressional District 16 (115th Congress), Pennsylvania",47383,725915,603670,999,37.6,78336.0,172873.0,27356.0,5.1
+2016,"Congressional District 17 (115th Congress), Pennsylvania",42771,699918,613333,841,42.2,73232.0,197692.0,26159.0,6.1
+2016,"Congressional District 18 (115th Congress), Pennsylvania",18177,707100,657727,875,44.4,121026.0,165388.0,31588.0,4.5
+2016,"Congressional District 1 (115th Congress), Rhode Island",48990,536871,409930,1086,38.9,76918.0,97936.0,29908.0,6.2
+2016,"Congressional District 2 (115th Congress), Rhode Island",18536,519555,440175,1174,41.3,74277.0,106109.0,30881.0,5.7
+2016,"Congressional District 1 (115th Congress), South Carolina",138444,761869,575670,1173,38.6,133870.0,114222.0,32462.0,4.3
+2016,"Congressional District 2 (115th Congress), South Carolina",165121,703246,493859,911,38.9,97987.0,128715.0,30092.0,5.9
+2016,"Congressional District 3 (115th Congress), South Carolina",123091,684619,528975,675,39.5,65059.0,143838.0,22789.0,5.9
+2016,"Congressional District 4 (115th Congress), South Carolina",135589,716552,531230,818,38.3,95526.0,122935.0,26551.0,4.7
+2016,"Congressional District 5 (115th Congress), South Carolina",186508,704256,479673,760,40.3,74267.0,158087.0,25668.0,6.6
+2016,"Congressional District 6 (115th Congress), South Carolina",389399,680469,258967,718,35.4,57069.0,150913.0,20578.0,9.3
+2016,"Congressional District 7 (115th Congress), South Carolina",199492,710108,474178,713,43.0,67308.0,162959.0,23189.0,8.0
+2016,"Congressional District (at Large) (115th Congress), South Dakota",14524,865454,732939,767,36.8,111002.0,163910.0,29401.0,3.9
+2016,"Congressional District 1 (115th Congress), Tennessee",14410,714504,671967,620,43.2,60599.0,195662.0,21447.0,5.8
+2016,"Congressional District 2 (115th Congress), Tennessee",46941,740182,657955,788,40.0,97901.0,144325.0,25605.0,4.6
+2016,"Congressional District 3 (115th Congress), Tennessee",79536,728254,620620,720,41.7,78020.0,178585.0,24081.0,5.6
+2016,"Congressional District 4 (115th Congress), Tennessee",70879,767655,652091,817,37.2,76562.0,180539.0,25666.0,5.0
+2016,"Congressional District 5 (115th Congress), Tennessee",189499,762535,515652,1002,34.8,122435.0,126184.0,30471.0,4.1
+2016,"Congressional District 6 (115th Congress), Tennessee",34335,761538,698934,764,41.1,75323.0,190208.0,25985.0,4.4
+2016,"Congressional District 7 (115th Congress), Tennessee",75319,765730,646913,831,37.7,94722.0,159587.0,26618.0,6.2
+2016,"Congressional District 8 (115th Congress), Tennessee",137633,706468,531337,815,40.7,82945.0,160236.0,26811.0,6.2
+2016,"Congressional District 9 (115th Congress), Tennessee",465882,704328,182009,872,33.6,67548.0,130611.0,23657.0,8.3
+2016,"Congressional District 1 (115th Congress), Texas",129794,717735,548138,751,36.8,66676.0,131291.0,22936.0,7.2
+2016,"Congressional District 2 (115th Congress), Texas",98647,779662,519314,1293,35.0,135377.0,102825.0,37353.0,5.2
+2016,"Congressional District 3 (115th Congress), Texas",81354,842800,580112,1477,36.7,189348.0,75934.0,45604.0,3.9
+2016,"Congressional District 4 (115th Congress), Texas",77019,735554,600780,765,39.6,74267.0,157387.0,26678.0,5.8
+2016,"Congressional District 5 (115th Congress), Texas",114144,764456,581587,868,35.6,69724.0,149145.0,26286.0,5.2
+2016,"Congressional District 6 (115th Congress), Texas",156540,770255,506922,1108,35.2,94429.0,124285.0,31746.0,4.5
+2016,"Congressional District 7 (115th Congress), Texas",98677,770606,518515,1302,34.9,162805.0,80122.0,40366.0,4.8
+2016,"Congressional District 8 (115th Congress), Texas",73354,813519,675178,1074,37.2,105431.0,148220.0,30611.0,4.7
+2016,"Congressional District 9 (115th Congress), Texas",294728,793923,294780,942,32.0,76498.0,142428.0,24179.0,7.9
+2016,"Congressional District 10 (115th Congress), Texas",89491,823296,605730,1224,35.8,136208.0,120334.0,35810.0,5.3
+2016,"Congressional District 11 (115th Congress), Texas",31355,759136,671305,781,34.9,70151.0,150127.0,26206.0,6.7
+2016,"Congressional District 12 (115th Congress), Texas",66350,770350,608659,1078,35.7,101510.0,139238.0,31526.0,4.8
+2016,"Congressional District 13 (115th Congress), Texas",36046,707421,605427,736,36.1,64813.0,136912.0,25994.0,4.7
+2016,"Congressional District 14 (115th Congress), Texas",150526,753147,545161,915,36.6,74334.0,149106.0,29791.0,6.3
+2016,"Congressional District 15 (115th Congress), Texas",12246,776887,621756,669,30.7,62205.0,115626.0,20239.0,6.2
+2016,"Congressional District 16 (115th Congress), Texas",29397,735784,601497,821,32.1,71532.0,102052.0,22125.0,5.7
+2016,"Congressional District 17 (115th Congress), Texas",99936,761922,569015,926,32.3,85695.0,121108.0,26277.0,4.6
+2016,"Congressional District 18 (115th Congress), Texas",286167,787352,379834,916,32.4,69841.0,129808.0,23959.0,8.1
+2016,"Congressional District 19 (115th Congress), Texas",44849,734532,614355,759,33.1,67362.0,137154.0,24457.0,4.8
+2016,"Congressional District 20 (115th Congress), Texas",42816,791141,654066,915,32.2,81183.0,133730.0,25265.0,6.5
+2016,"Congressional District 21 (115th Congress), Texas",30006,804470,694123,1205,37.8,157338.0,108665.0,33589.0,3.8
+2016,"Congressional District 22 (115th Congress), Texas",117562,881407,532428,1451,35.8,157049.0,102832.0,40287.0,6.2
+2016,"Congressional District 23 (115th Congress), Texas",29792,772944,620655,815,33.5,66085.0,118774.0,22216.0,6.7
+2016,"Congressional District 24 (115th Congress), Texas",92917,790319,495045,1197,35.6,160673.0,92931.0,37145.0,3.4
+2016,"Congressional District 25 (115th Congress), Texas",57573,762897,637706,1114,37.1,122048.0,123262.0,32037.0,4.8
+2016,"Congressional District 26 (115th Congress), Texas",60804,845376,662384,1414,35.2,162971.0,96468.0,37644.0,3.9
+2016,"Congressional District 27 (115th Congress), Texas",40305,736778,621318,847,36.4,63239.0,142734.0,26073.0,5.5
+2016,"Congressional District 28 (115th Congress), Texas",29559,736150,647918,765,31.4,51740.0,119754.0,20494.0,7.5
+2016,"Congressional District 29 (115th Congress), Texas",81208,765403,590819,827,31.2,32612.0,133714.0,22192.0,6.5
+2016,"Congressional District 30 (115th Congress), Texas",326398,749289,365296,925,33.0,61698.0,124362.0,25789.0,6.0
+2016,"Congressional District 31 (115th Congress), Texas",93422,830908,627321,1161,34.6,124403.0,119672.0,32326.0,6.0
+2016,"Congressional District 32 (115th Congress), Texas",108449,753715,518302,1225,35.2,137024.0,89421.0,36030.0,4.4
+2016,"Congressional District 33 (115th Congress), Texas",120217,764730,510928,807,29.7,27932.0,128231.0,21690.0,5.4
+2016,"Congressional District 34 (115th Congress), Texas",9560,723156,667875,607,32.3,45197.0,123345.0,19404.0,7.3
+2016,"Congressional District 35 (115th Congress), Texas",83699,822601,599752,971,31.2,70787.0,145960.0,24990.0,4.9
+2016,"Congressional District 36 (115th Congress), Texas",67376,732975,608708,848,36.5,62493.0,157754.0,27600.0,7.3
+2016,"Congressional District 1 (115th Congress), Utah",7787,757558,679259,1012,30.5,84628.0,111634.0,28799.0,3.5
+2016,"Congressional District 2 (115th Congress), Utah",10820,749217,619637,1022,33.2,95546.0,106982.0,27031.0,4.8
+2016,"Congressional District 3 (115th Congress), Utah",3944,751776,686210,1122,27.7,111085.0,65410.0,26180.0,4.3
+2016,"Congressional District 4 (115th Congress), Utah",10249,792666,648177,1186,31.0,89871.0,120579.0,29896.0,3.7
+2016,"Congressional District (at Large) (115th Congress), Vermont",7893,624594,589379,1065,43.1,92871.0,128767.0,29787.0,3.9
+2016,"Congressional District 1 (115th Congress), Virginia",123188,776836,559406,1396,39.3,120068.0,131556.0,36426.0,4.3
+2016,"Congressional District 2 (115th Congress), Virginia",148928,745816,501282,1279,35.9,107636.0,113585.0,31613.0,5.5
+2016,"Congressional District 3 (115th Congress), Virginia",338913,739169,333518,1096,34.4,77026.0,138109.0,27487.0,6.5
+2016,"Congressional District 4 (115th Congress), Virginia",314395,764301,398787,1053,37.5,99120.0,143661.0,27592.0,6.8
+2016,"Congressional District 5 (115th Congress), Virginia",145240,735178,547945,811,42.7,80755.0,152189.0,26608.0,5.2
+2016,"Congressional District 6 (115th Congress), Virginia",86332,754859,628429,807,40.3,80854.0,161950.0,25753.0,5.1
+2016,"Congressional District 7 (115th Congress), Virginia",133253,775369,555523,1228,39.9,127780.0,129086.0,35828.0,5.0
+2016,"Congressional District 8 (115th Congress), Virginia",110391,783079,492598,1863,36.1,165675.0,67963.0,51747.0,3.5
+2016,"Congressional District 9 (115th Congress), Virginia",38228,707012,641649,588,43.0,61873.0,167985.0,21034.0,6.6
+2016,"Congressional District 10 (115th Congress), Virginia",55034,827279,595156,1975,37.9,160420.0,85305.0,50024.0,3.9
+2016,"Congressional District 11 (115th Congress), Virginia",107966,802910,452742,1866,36.9,160544.0,81447.0,46170.0,4.0
+2016,"Congressional District 1 (115th Congress), Washington",9808,738149,579779,1641,38.5,141566.0,102093.0,40721.0,5.0
+2016,"Congressional District 2 (115th Congress), Washington",24245,728550,557294,1285,38.2,98925.0,122024.0,31765.0,5.1
+2016,"Congressional District 3 (115th Congress), Washington",9372,722277,624307,1097,39.8,81559.0,131890.0,30147.0,5.8
+2016,"Congressional District 4 (115th Congress), Washington",9844,715254,529482,857,34.0,54519.0,118709.0,25267.0,6.5
+2016,"Congressional District 5 (115th Congress), Washington",11088,708228,618474,868,37.4,89001.0,114075.0,26378.0,5.7
+2016,"Congressional District 6 (115th Congress), Washington",26400,699178,561148,1111,41.6,94834.0,126188.0,30545.0,6.3
+2016,"Congressional District 7 (115th Congress), Washington",31687,766221,558071,1589,36.6,198514.0,60990.0,44711.0,4.2
+2016,"Congressional District 8 (115th Congress), Washington",20682,738218,577876,1470,38.0,111743.0,113410.0,36328.0,4.5
+2016,"Congressional District 9 (115th Congress), Washington",80185,739873,373885,1481,37.3,134364.0,99053.0,35905.0,4.8
+2016,"Congressional District 10 (115th Congress), Washington",43666,732052,536286,1223,36.1,93484.0,123354.0,31969.0,7.1
+2016,"Congressional District 1 (115th Congress), West Virginia",17465,617131,581788,582,41.4,60233.0,167466.0,23512.0,6.8
+2016,"Congressional District 2 (115th Congress), West Virginia",30779,622850,569457,686,42.6,55529.0,174676.0,25843.0,6.9
+2016,"Congressional District 3 (115th Congress), West Virginia",21477,591121,552950,520,42.9,46481.0,170086.0,21243.0,9.5
+2016,"Congressional District 1 (115th Congress), Wisconsin",38654,715327,623123,996,40.8,89089.0,151632.0,31070.0,5.0
+2016,"Congressional District 2 (115th Congress), Wisconsin",32543,757511,648982,1081,36.6,129562.0,118386.0,32155.0,3.2
+2016,"Congressional District 3 (115th Congress), Wisconsin",8751,721847,675090,795,38.4,79895.0,158010.0,26802.0,4.0
+2016,"Congressional District 4 (115th Congress), Wisconsin",239957,713297,358739,880,32.8,78455.0,132269.0,24272.0,7.1
+2016,"Congressional District 5 (115th Congress), Wisconsin",14882,722739,661605,1079,41.4,122104.0,137756.0,35150.0,3.4
+2016,"Congressional District 6 (115th Congress), Wisconsin",11529,711318,660137,842,41.8,89697.0,174415.0,30292.0,3.2
+2016,"Congressional District 7 (115th Congress), Wisconsin",5448,708541,661768,757,44.6,78599.0,175864.0,27455.0,3.5
+2016,"Congressional District 8 (115th Congress), Wisconsin",9889,728129,652244,837,40.5,91102.0,174275.0,30535.0,3.5
+2016,"Congressional District (at Large) (115th Congress), Wyoming",5970,585501,538819,868,37.2,67845.0,114624.0,29223.0,5.6
+2016,"Resident Commissioner District (at Large) (115th Congress), Puerto Rico",395069,3411307,2278731,328,40.7,,,,16.2

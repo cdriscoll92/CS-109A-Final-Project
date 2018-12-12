@@ -1,0 +1,115 @@
+year,table,code,should be,new_descriptions
+2005,S0701,HC01_EST_VC52,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2006,S0701,HC01_EST_VC43,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2007,S0701,HC01_EST_VC43,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2008,S0701,HC01_EST_VC43,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2009,S0701,HC01_EST_VC43,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2010,S0701,HC01_EST_VC52,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree
+2011,S0701,HC01_EST_VC52,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree
+2012,S0701,HC01_EST_VC52,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree
+2013,S0701,HC01_EST_VC50,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2014,S0701,HC01_EST_VC50,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2015,S0701,HC01_EST_VC50,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2016,S0701,HC01_EST_VC50,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2017,S0701,HC01_EST_VC50,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+2005,B02001,HD01_VD03,black_pop,Estimate; Black or African American alone
+2006,B02001,HD01_VD03,black_pop,Estimate; Black or African American alone
+2007,B02001,HD01_VD03,black_pop,Estimate; Black or African American alone
+2008,B02001,HD01_VD03,black_pop,Estimate; Black or African American alone
+2010,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2011,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2012,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2013,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2014,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2015,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2016,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2017,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+2005,S0701,HC01_EST_VC50,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2006,S0701,HC01_EST_VC41,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2007,S0701,HC01_EST_VC41,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2008,S0701,HC01_EST_VC41,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2009,S0701,HC01_EST_VC41,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2010,S0701,HC01_EST_VC50,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+2011,S0701,HC01_EST_VC50,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+2012,S0701,HC01_EST_VC50,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+2013,S0701,HC01_EST_VC48,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2014,S0701,HC01_EST_VC48,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2015,S0701,HC01_EST_VC48,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2016,S0701,HC01_EST_VC48,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2017,S0701,HC01_EST_VC48,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+2005,S0101,HC01_EST_VC33,median_age,Total; Estimate; Total population - SUMMARY INDICATORS - Median age (years)
+2006,S0101,HC01_EST_VC33,median_age,Total; Estimate; Total population - SUMMARY INDICATORS - Median age (years)
+2007,S0101,HC01_EST_VC33,median_age,Total; Estimate; Total population - SUMMARY INDICATORS - Median age (years)
+2008,S0101,HC01_EST_VC33,median_age,Total; Estimate; Total population - SUMMARY INDICATORS - Median age (years)
+2009,S0101,HC01_EST_VC33,median_age,Total; Estimate; Total population - SUMMARY INDICATORS - Median age (years)
+2010,S0101,HC01_EST_VC35,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2011,S0101,HC01_EST_VC35,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2012,S0101,HC01_EST_VC35,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2013,S0101,HC01_EST_VC35,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2014,S0101,HC01_EST_VC35,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2015,S0101,HC01_EST_VC35,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2016,S0101,HC01_EST_VC35,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2017,S0101,HC01_EST_VC37,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+2005,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; INDIVIDUAL INCOME IN THE PAST 12 MONTHS (IN 2005 INFLATION-ADJUSTED DOLLARS) - Population 15 years and over - Median income (dollars)
+2006,S0701,HC01_EST_VC55,median_HH_income,Total; Estimate; INDIVIDUAL INCOME IN THE PAST 12 MONTHS (IN 2006 INFLATION-ADJUSTED DOLLARS) - Population 15 years and over - Median income (dollars)
+2007,S0701,HC01_EST_VC55,median_HH_income,Total; Estimate; INDIVIDUAL INCOME IN THE PAST 12 MONTHS (IN 2007 INFLATION-ADJUSTED DOLLARS) - Population 15 years and over - Median income (dollars)
+2008,S0701,HC01_EST_VC55,median_HH_income,Total; Estimate; INDIVIDUAL INCOME IN THE PAST 12 MONTHS (IN 2008 INFLATION-ADJUSTED DOLLARS) - Population 15 years and over - Median income (dollars)
+2009,S0701,HC01_EST_VC55,median_HH_income,Total; Estimate; INDIVIDUAL INCOME IN THE PAST 12 MONTHS (IN 2009 INFLATION-ADJUSTED DOLLARS) - Population 15 years and over - Median income (dollars)
+2010,S0701,HC01_EST_VC67,median_HH_income,Total; Estimate; Median income (dollars)
+2011,S0701,HC01_EST_VC67,median_HH_income,Total; Estimate; Median income (dollars)
+2012,S0701,HC01_EST_VC67,median_HH_income,Total; Estimate; Median income (dollars)
+2013,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; Median income (dollars)
+2014,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; Median income (dollars)
+2015,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; Median income (dollars)
+2016,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; Median income (dollars)
+2017,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; Median income (dollars)
+2005,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2006,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2007,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2008,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2009,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2010,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2011,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2012,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2013,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2014,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2015,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2016,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2017,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+2005,B02001,HD01_VD01,total_pop,Estimate; Total:
+2006,B02001,HD01_VD01,total_pop,Estimate; Total:
+2007,B02001,HD01_VD01,total_pop,Estimate; Total:
+2008,B02001,HD01_VD01,total_pop,Estimate; Total:
+2010,B02001,HD01_VD01,total_pop,Estimate; Total:
+2011,B02001,HD01_VD01,total_pop,Estimate; Total:
+2012,B02001,HD01_VD01,total_pop,Estimate; Total:
+2013,B02001,HD01_VD01,total_pop,Estimate; Total:
+2014,B02001,HD01_VD01,total_pop,Estimate; Total:
+2015,B02001,HD01_VD01,total_pop,Estimate; Total:
+2016,B02001,HD01_VD01,total_pop,Estimate; Total:
+2017,B02001,HD01_VD01,total_pop,Estimate; Total:
+2005,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2006,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2007,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2008,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2009,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2010,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2011,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2012,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2013,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2014,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2015,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2016,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2017,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over
+2005,B02001,HD01_VD02,white_pop,Estimate; White alone
+2006,B02001,HD01_VD02,white_pop,Estimate; White alone
+2007,B02001,HD01_VD02,white_pop,Estimate; White alone
+2008,B02001,HD01_VD02,white_pop,Estimate; White alone
+2010,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+2011,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+2012,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+2013,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+2014,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+2015,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+2016,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+2017,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone

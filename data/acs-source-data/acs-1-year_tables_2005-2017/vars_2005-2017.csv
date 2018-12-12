@@ -1,74 +1,10 @@
-Topic,Table,Variable,Annotation
-Race,B02001,HD01_VD01,Estimate; Total:
-Race,B02001,HD01_VD02,Estimate; Total: - White alone
-Race,B02001,HD01_VD03,Estimate; Total: - Black or African American alone
-Race,B02001,HD01_VD04,Estimate; Total: - American Indian and Alaska Native alone
-Race,B02001,HD01_VD05,Estimate; Total: - Asian alone
-Race,B02001,HD01_VD06,Estimate; Total: - Native Hawaiian and Other Pacific Islander alone
-Race,B02001,HD01_VD07,Estimate; Total: - Some other race alone
-Race,B02001,HD01_VD08,Estimate; Total: - Two or more races:
-Citizenship,B05001,HD01_VD02,"Estimate; Total: - U.S. citizen, born in the United States"
-Citizenship,B05001,HD01_VD03,"Estimate; Total: - U.S. citizen, born in Puerto Rico or U.S. Island Areas"
-Citizenship,B05001,HD01_VD04,"Estimate; Total: - U.S. citizen, born abroad of American parent(s)"
-Citizenship,B05001,HD01_VD05,Estimate; Total: - U.S. citizen by naturalization
-Citizenship,B05001,HD01_VD06,Estimate; Total: - Not a U.S. citizen
-Housing Costs,B25105,HD01_VD01,Estimate; Median monthly housing costs
-Housing Costs,B25105,HD02_VD01,Margin of Error; Median monthly housing costs
-Age and Sex,S0101,HC01_EST_VC37,Total; Estimate; SUMMARY INDICATORS - Median age (years)
-Age and Sex,S0101,HC01_EST_VC38,Total; Estimate; SUMMARY INDICATORS - Sex ratio (males per 100 females)
-Age and Sex,S0101,HC01_EST_VC39,Total; Estimate; SUMMARY INDICATORS - Age dependency ratio
-Age and Sex,S0101,HC01_EST_VC40,Total; Estimate; SUMMARY INDICATORS - Old-age dependency ratio
-Age and Sex,S0101,HC01_EST_VC41,Total; Estimate; SUMMARY INDICATORS - Child dependency ratio
-Age and Sex,S0101,HC02_EST_VC37,Percent; Estimate; SUMMARY INDICATORS - Median age (years)
-Age and Sex,S0101,HC02_EST_VC38,Percent; Estimate; SUMMARY INDICATORS - Sex ratio (males per 100 females)
-Age and Sex,S0101,HC02_EST_VC39,Percent; Estimate; SUMMARY INDICATORS - Age dependency ratio
-Age and Sex,S0101,HC02_EST_VC40,Percent; Estimate; SUMMARY INDICATORS - Old-age dependency ratio
-Age and Sex,S0101,HC02_EST_VC41,Percent; Estimate; SUMMARY INDICATORS - Child dependency ratio
-Age and Sex,S0101,HC03_EST_VC37,Male; Estimate; SUMMARY INDICATORS - Median age (years)
-Age and Sex,S0101,HC03_EST_VC38,Male; Estimate; SUMMARY INDICATORS - Sex ratio (males per 100 females)
-Age and Sex,S0101,HC03_EST_VC39,Male; Estimate; SUMMARY INDICATORS - Age dependency ratio
-Age and Sex,S0101,HC03_EST_VC40,Male; Estimate; SUMMARY INDICATORS - Old-age dependency ratio
-Age and Sex,S0101,HC03_EST_VC41,Male; Estimate; SUMMARY INDICATORS - Child dependency ratio
-Age and Sex,S0101,HC04_EST_VC37,Percent Male; Estimate; SUMMARY INDICATORS - Median age (years)
-Age and Sex,S0101,HC04_EST_VC38,Percent Male; Estimate; SUMMARY INDICATORS - Sex ratio (males per 100 females)
-Age and Sex,S0101,HC04_EST_VC39,Percent Male; Estimate; SUMMARY INDICATORS - Age dependency ratio
-Age and Sex,S0101,HC04_EST_VC40,Percent Male; Estimate; SUMMARY INDICATORS - Old-age dependency ratio
-Age and Sex,S0101,HC04_EST_VC41,Percent Male; Estimate; SUMMARY INDICATORS - Child dependency ratio
-Age and Sex,S0101,HC05_EST_VC37,Female; Estimate; SUMMARY INDICATORS - Median age (years)
-Age and Sex,S0101,HC05_EST_VC38,Female; Estimate; SUMMARY INDICATORS - Sex ratio (males per 100 females)
-Age and Sex,S0101,HC05_EST_VC39,Female; Estimate; SUMMARY INDICATORS - Age dependency ratio
-Age and Sex,S0101,HC05_EST_VC40,Female; Estimate; SUMMARY INDICATORS - Old-age dependency ratio
-Age and Sex,S0101,HC05_EST_VC41,Female; Estimate; SUMMARY INDICATORS - Child dependency ratio
-Age and Sex,S0101,HC06_EST_VC37,Percent Female; Estimate; SUMMARY INDICATORS - Median age (years)
-Age and Sex,S0101,HC06_EST_VC38,Percent Female; Estimate; SUMMARY INDICATORS - Sex ratio (males per 100 females)
-Age and Sex,S0101,HC06_EST_VC39,Percent Female; Estimate; SUMMARY INDICATORS - Age dependency ratio
-Age and Sex,S0101,HC06_EST_VC40,Percent Female; Estimate; SUMMARY INDICATORS - Old-age dependency ratio
-Age and Sex,S0101,HC06_EST_VC41,Percent Female; Estimate; SUMMARY INDICATORS - Child dependency ratio
-Educational,S0701,HC01_EST_VC39,Total; Estimate; MARITAL STATUS - Population 15 years and over
-Educational,S0701,HC01_EST_VC40,Total; Estimate; MARITAL STATUS - Population 15 years and over - Never married
-Educational,S0701,HC01_EST_VC41,"Total; Estimate; MARITAL STATUS - Population 15 years and over - Now married, except separated"
-Educational,S0701,HC01_EST_VC42,Total; Estimate; MARITAL STATUS - Population 15 years and over - Divorced or separated
-Educational,S0701,HC01_EST_VC43,Total; Estimate; MARITAL STATUS - Population 15 years and over - Widowed
-Educational,S0701,HC01_EST_VC47,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Less than high school graduate
-Educational,S0701,HC01_EST_VC48,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
-Educational,S0701,HC01_EST_VC49,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Some college or associate's degree
-Educational,S0701,HC01_EST_VC50,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
-Educational,S0701,HC01_EST_VC51,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Graduate or professional degree
-Educational,S0701,HC01_EST_VC64,Total; Estimate; Median income (dollars)
-Educational,S0701,HC01_EST_VC68,Total; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Population 1 year and over for whom poverty status is determined - Below 100 percent of the poverty level
-Educational,S0701,HC01_EST_VC69,Total; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Population 1 year and over for whom poverty status is determined - 100 to 149 percent of the poverty level
-Educational,S0701,HC01_EST_VC70,Total; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Population 1 year and over for whom poverty status is determined - At or above 150 percent of the poverty level
-Educational,S0701,HC01_EST_VC74,Total; Estimate; HOUSING TENURE - Population 1 year and over in housing units - Householder lived in owner-occupied housing units
-Educational,S0701,HC01_EST_VC75,Total; Estimate; HOUSING TENURE - Population 1 year and over in housing units - Householder lived in renter-occupied housing units
-Educational,S0701,HC02_EST_VC01,Moved; within same county; Estimate; Population 1 year and over
-Educational,S0701,HC03_EST_VC01,"Moved; from different county, same state; Estimate; Population 1 year and over"
-Educational,S0701,HC04_EST_VC01,Moved; from different  state; Estimate; Population 1 year and over
-Educational,S0701,HC05_EST_VC01,Moved; from abroad; Estimate; Population 1 year and over
-Language,S1601,HC03_EST_VC01,"Percent of specified language speakers  - Speak English only or speak English ""very well""; Estimate; Population 5 years and over"
-Language,S1601,HC04_EST_VC01,"Percent of specified language speakers  - Percent speak English only or speak English ""very well""; Estimate; Population 5 years and over"
-Language,S1601,HC05_EST_VC01,"Percent of specified language speakers  - Speak English  less than ""very well""; Estimate; Population 5 years and over"
-Language,S1601,HC06_EST_VC01,"Percent of specified language speakers  - Percent speak English less than ""very well""; Estimate; Population 5 years and over"
-Employment,S2301,HC01_EST_VC01,Total; Estimate; Population 16 years and over
-Employment,S2301,HC02_EST_VC01,Labor Force Participation Rate; Estimate; Population 16 years and over
-Employment,S2301,HC03_EST_VC01,Employment/Population Ratio; Estimate; Population 16 years and over
-Employment,S2301,HC04_EST_VC01,Unemployment rate; Estimate; Population 16 years and over
+Topic,Table,Variable,new_name,Annotation
+Race,B02001,HD01_VD01,total_pop,Estimate; Total:
+Race,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+Race,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+Housing Costs,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+Age and Sex,S0101,HC01_EST_VC37,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+Educational,S0701,HC01_EST_VC48,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+Educational,S0701,HC01_EST_VC50,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+Educational,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; Median income (dollars)
+Employment,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over

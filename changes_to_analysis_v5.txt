@@ -1,0 +1,18 @@
+Changes made to data_analysis_v5
+Added year to predictors — see change over time
+Removed ‘congress’ and ‘icpsr’ - these are just IDs
+
+Dropping columns - adding `inplace = False`. It wasn’t dropping the columns as written
+
+Correlation plot:
+ - Reordering columns for the correlations table so it’s easier to make/write observations
+ - Rounded the reported correlations in the correlation plot to improve readability
+ - Added title
+ - Added p-values (Appendix)
+
+Cleaned up code to fit the page
+Multiplied scores by 100 to fit percentage formatting
+
+Added polynomial terms of degree 3 with interactions
+
+ - Compare accurate/inaccurate predictions across predictor variables

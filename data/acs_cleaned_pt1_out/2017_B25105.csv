@@ -1,0 +1,438 @@
+year,district,mortgage_cost
+2017,"Congressional District 1 (115th Congress), Alabama",796
+2017,"Congressional District 2 (115th Congress), Alabama",733
+2017,"Congressional District 3 (115th Congress), Alabama",655
+2017,"Congressional District 4 (115th Congress), Alabama",578
+2017,"Congressional District 5 (115th Congress), Alabama",754
+2017,"Congressional District 6 (115th Congress), Alabama",972
+2017,"Congressional District 7 (115th Congress), Alabama",701
+2017,"Congressional District (at Large) (115th Congress), Alaska",1285
+2017,"Congressional District 1 (115th Congress), Arizona",820
+2017,"Congressional District 2 (115th Congress), Arizona",885
+2017,"Congressional District 3 (115th Congress), Arizona",918
+2017,"Congressional District 4 (115th Congress), Arizona",838
+2017,"Congressional District 5 (115th Congress), Arizona",1271
+2017,"Congressional District 6 (115th Congress), Arizona",1229
+2017,"Congressional District 7 (115th Congress), Arizona",930
+2017,"Congressional District 8 (115th Congress), Arizona",1145
+2017,"Congressional District 9 (115th Congress), Arizona",1089
+2017,"Congressional District 1 (115th Congress), Arkansas",604
+2017,"Congressional District 2 (115th Congress), Arkansas",811
+2017,"Congressional District 3 (115th Congress), Arkansas",760
+2017,"Congressional District 4 (115th Congress), Arkansas",569
+2017,"Congressional District 1 (115th Congress), California",1014
+2017,"Congressional District 2 (115th Congress), California",1613
+2017,"Congressional District 3 (115th Congress), California",1357
+2017,"Congressional District 4 (115th Congress), California",1494
+2017,"Congressional District 5 (115th Congress), California",1657
+2017,"Congressional District 6 (115th Congress), California",1226
+2017,"Congressional District 7 (115th Congress), California",1458
+2017,"Congressional District 8 (115th Congress), California",1096
+2017,"Congressional District 9 (115th Congress), California",1380
+2017,"Congressional District 10 (115th Congress), California",1272
+2017,"Congressional District 11 (115th Congress), California",1918
+2017,"Congressional District 12 (115th Congress), California",1982
+2017,"Congressional District 13 (115th Congress), California",1696
+2017,"Congressional District 14 (115th Congress), California",2343
+2017,"Congressional District 15 (115th Congress), California",2240
+2017,"Congressional District 16 (115th Congress), California",974
+2017,"Congressional District 17 (115th Congress), California",2399
+2017,"Congressional District 18 (115th Congress), California",2523
+2017,"Congressional District 19 (115th Congress), California",2203
+2017,"Congressional District 20 (115th Congress), California",1633
+2017,"Congressional District 21 (115th Congress), California",921
+2017,"Congressional District 22 (115th Congress), California",1129
+2017,"Congressional District 23 (115th Congress), California",1114
+2017,"Congressional District 24 (115th Congress), California",1570
+2017,"Congressional District 25 (115th Congress), California",1673
+2017,"Congressional District 26 (115th Congress), California",1825
+2017,"Congressional District 27 (115th Congress), California",1646
+2017,"Congressional District 28 (115th Congress), California",1647
+2017,"Congressional District 29 (115th Congress), California",1444
+2017,"Congressional District 30 (115th Congress), California",1941
+2017,"Congressional District 31 (115th Congress), California",1381
+2017,"Congressional District 32 (115th Congress), California",1501
+2017,"Congressional District 33 (115th Congress), California",2272
+2017,"Congressional District 34 (115th Congress), California",1242
+2017,"Congressional District 35 (115th Congress), California",1408
+2017,"Congressional District 36 (115th Congress), California",1121
+2017,"Congressional District 37 (115th Congress), California",1595
+2017,"Congressional District 38 (115th Congress), California",1575
+2017,"Congressional District 39 (115th Congress), California",1835
+2017,"Congressional District 40 (115th Congress), California",1238
+2017,"Congressional District 41 (115th Congress), California",1442
+2017,"Congressional District 42 (115th Congress), California",1868
+2017,"Congressional District 43 (115th Congress), California",1393
+2017,"Congressional District 44 (115th Congress), California",1314
+2017,"Congressional District 45 (115th Congress), California",2201
+2017,"Congressional District 46 (115th Congress), California",1570
+2017,"Congressional District 47 (115th Congress), California",1522
+2017,"Congressional District 48 (115th Congress), California",1940
+2017,"Congressional District 49 (115th Congress), California",1997
+2017,"Congressional District 50 (115th Congress), California",1706
+2017,"Congressional District 51 (115th Congress), California",1212
+2017,"Congressional District 52 (115th Congress), California",2093
+2017,"Congressional District 53 (115th Congress), California",1682
+2017,"Congressional District 1 (115th Congress), Colorado",1371
+2017,"Congressional District 2 (115th Congress), Colorado",1450
+2017,"Congressional District 3 (115th Congress), Colorado",920
+2017,"Congressional District 4 (115th Congress), Colorado",1271
+2017,"Congressional District 5 (115th Congress), Colorado",1192
+2017,"Congressional District 6 (115th Congress), Colorado",1490
+2017,"Congressional District 7 (115th Congress), Colorado",1373
+2017,"Congressional District 1 (115th Congress), Connecticut",1290
+2017,"Congressional District 2 (115th Congress), Connecticut",1260
+2017,"Congressional District 3 (115th Congress), Connecticut",1355
+2017,"Congressional District 4 (115th Congress), Connecticut",1868
+2017,"Congressional District 5 (115th Congress), Connecticut",1312
+2017,"Congressional District (at Large) (115th Congress), Delaware",1126
+2017,"Delegate District (at Large) (115th Congress), District of Columbia",1641
+2017,"Congressional District 1 (115th Congress), Florida",973
+2017,"Congressional District 2 (115th Congress), Florida",784
+2017,"Congressional District 3 (115th Congress), Florida",846
+2017,"Congressional District 4 (115th Congress), Florida",1199
+2017,"Congressional District 5 (115th Congress), Florida",861
+2017,"Congressional District 6 (115th Congress), Florida",904
+2017,"Congressional District 7 (115th Congress), Florida",1182
+2017,"Congressional District 8 (115th Congress), Florida",900
+2017,"Congressional District 9 (115th Congress), Florida",1047
+2017,"Congressional District 10 (115th Congress), Florida",1139
+2017,"Congressional District 11 (115th Congress), Florida",684
+2017,"Congressional District 12 (115th Congress), Florida",938
+2017,"Congressional District 13 (115th Congress), Florida",970
+2017,"Congressional District 14 (115th Congress), Florida",1098
+2017,"Congressional District 15 (115th Congress), Florida",1009
+2017,"Congressional District 16 (115th Congress), Florida",1083
+2017,"Congressional District 17 (115th Congress), Florida",752
+2017,"Congressional District 18 (115th Congress), Florida",1132
+2017,"Congressional District 19 (115th Congress), Florida",1080
+2017,"Congressional District 20 (115th Congress), Florida",1117
+2017,"Congressional District 21 (115th Congress), Florida",1204
+2017,"Congressional District 22 (115th Congress), Florida",1372
+2017,"Congressional District 23 (115th Congress), Florida",1423
+2017,"Congressional District 24 (115th Congress), Florida",1119
+2017,"Congressional District 25 (115th Congress), Florida",1181
+2017,"Congressional District 26 (115th Congress), Florida",1384
+2017,"Congressional District 27 (115th Congress), Florida",1414
+2017,"Congressional District 1 (115th Congress), Georgia",919
+2017,"Congressional District 2 (115th Congress), Georgia",695
+2017,"Congressional District 3 (115th Congress), Georgia",952
+2017,"Congressional District 4 (115th Congress), Georgia",1081
+2017,"Congressional District 5 (115th Congress), Georgia",1111
+2017,"Congressional District 6 (115th Congress), Georgia",1444
+2017,"Congressional District 7 (115th Congress), Georgia",1316
+2017,"Congressional District 8 (115th Congress), Georgia",743
+2017,"Congressional District 9 (115th Congress), Georgia",791
+2017,"Congressional District 10 (115th Congress), Georgia",897
+2017,"Congressional District 11 (115th Congress), Georgia",1218
+2017,"Congressional District 12 (115th Congress), Georgia",733
+2017,"Congressional District 13 (115th Congress), Georgia",1052
+2017,"Congressional District 14 (115th Congress), Georgia",769
+2017,"Congressional District 1 (115th Congress), Hawaii",1698
+2017,"Congressional District 2 (115th Congress), Hawaii",1465
+2017,"Congressional District 1 (115th Congress), Idaho",938
+2017,"Congressional District 2 (115th Congress), Idaho",826
+2017,"Congressional District 1 (115th Congress), Illinois",1077
+2017,"Congressional District 2 (115th Congress), Illinois",987
+2017,"Congressional District 3 (115th Congress), Illinois",1170
+2017,"Congressional District 4 (115th Congress), Illinois",1112
+2017,"Congressional District 5 (115th Congress), Illinois",1483
+2017,"Congressional District 6 (115th Congress), Illinois",1628
+2017,"Congressional District 7 (115th Congress), Illinois",1302
+2017,"Congressional District 8 (115th Congress), Illinois",1269
+2017,"Congressional District 9 (115th Congress), Illinois",1346
+2017,"Congressional District 10 (115th Congress), Illinois",1398
+2017,"Congressional District 11 (115th Congress), Illinois",1339
+2017,"Congressional District 12 (115th Congress), Illinois",763
+2017,"Congressional District 13 (115th Congress), Illinois",792
+2017,"Congressional District 14 (115th Congress), Illinois",1546
+2017,"Congressional District 15 (115th Congress), Illinois",668
+2017,"Congressional District 16 (115th Congress), Illinois",891
+2017,"Congressional District 17 (115th Congress), Illinois",717
+2017,"Congressional District 18 (115th Congress), Illinois",834
+2017,"Congressional District 1 (115th Congress), Indiana",884
+2017,"Congressional District 2 (115th Congress), Indiana",756
+2017,"Congressional District 3 (115th Congress), Indiana",738
+2017,"Congressional District 4 (115th Congress), Indiana",813
+2017,"Congressional District 5 (115th Congress), Indiana",1012
+2017,"Congressional District 6 (115th Congress), Indiana",756
+2017,"Congressional District 7 (115th Congress), Indiana",858
+2017,"Congressional District 8 (115th Congress), Indiana",724
+2017,"Congressional District 9 (115th Congress), Indiana",829
+2017,"Congressional District 1 (115th Congress), Iowa",811
+2017,"Congressional District 2 (115th Congress), Iowa",822
+2017,"Congressional District 3 (115th Congress), Iowa",975
+2017,"Congressional District 4 (115th Congress), Iowa",713
+2017,"Congressional District 1 (115th Congress), Kansas",726
+2017,"Congressional District 2 (115th Congress), Kansas",786
+2017,"Congressional District 3 (115th Congress), Kansas",1135
+2017,"Congressional District 4 (115th Congress), Kansas",819
+2017,"Congressional District 1 (115th Congress), Kentucky",615
+2017,"Congressional District 2 (115th Congress), Kentucky",762
+2017,"Congressional District 3 (115th Congress), Kentucky",883
+2017,"Congressional District 4 (115th Congress), Kentucky",891
+2017,"Congressional District 5 (115th Congress), Kentucky",483
+2017,"Congressional District 6 (115th Congress), Kentucky",812
+2017,"Congressional District 1 (115th Congress), Louisiana",943
+2017,"Congressional District 2 (115th Congress), Louisiana",865
+2017,"Congressional District 3 (115th Congress), Louisiana",721
+2017,"Congressional District 4 (115th Congress), Louisiana",666
+2017,"Congressional District 5 (115th Congress), Louisiana",596
+2017,"Congressional District 6 (115th Congress), Louisiana",904
+2017,"Congressional District 1 (115th Congress), Maine",1060
+2017,"Congressional District 2 (115th Congress), Maine",738
+2017,"Congressional District 1 (115th Congress), Maryland",1187
+2017,"Congressional District 2 (115th Congress), Maryland",1263
+2017,"Congressional District 3 (115th Congress), Maryland",1560
+2017,"Congressional District 4 (115th Congress), Maryland",1549
+2017,"Congressional District 5 (115th Congress), Maryland",1729
+2017,"Congressional District 6 (115th Congress), Maryland",1426
+2017,"Congressional District 7 (115th Congress), Maryland",1199
+2017,"Congressional District 8 (115th Congress), Maryland",1773
+2017,"Congressional District 1 (115th Congress), Massachusetts",1009
+2017,"Congressional District 2 (115th Congress), Massachusetts",1226
+2017,"Congressional District 3 (115th Congress), Massachusetts",1412
+2017,"Congressional District 4 (115th Congress), Massachusetts",1684
+2017,"Congressional District 5 (115th Congress), Massachusetts",1808
+2017,"Congressional District 6 (115th Congress), Massachusetts",1626
+2017,"Congressional District 7 (115th Congress), Massachusetts",1619
+2017,"Congressional District 8 (115th Congress), Massachusetts",1707
+2017,"Congressional District 9 (115th Congress), Massachusetts",1322
+2017,"Congressional District 1 (115th Congress), Michigan",700
+2017,"Congressional District 2 (115th Congress), Michigan",832
+2017,"Congressional District 3 (115th Congress), Michigan",887
+2017,"Congressional District 4 (115th Congress), Michigan",713
+2017,"Congressional District 5 (115th Congress), Michigan",710
+2017,"Congressional District 6 (115th Congress), Michigan",807
+2017,"Congressional District 7 (115th Congress), Michigan",849
+2017,"Congressional District 8 (115th Congress), Michigan",1074
+2017,"Congressional District 9 (115th Congress), Michigan",943
+2017,"Congressional District 10 (115th Congress), Michigan",911
+2017,"Congressional District 11 (115th Congress), Michigan",1216
+2017,"Congressional District 12 (115th Congress), Michigan",970
+2017,"Congressional District 13 (115th Congress), Michigan",726
+2017,"Congressional District 14 (115th Congress), Michigan",904
+2017,"Congressional District 1 (115th Congress), Minnesota",854
+2017,"Congressional District 2 (115th Congress), Minnesota",1295
+2017,"Congressional District 3 (115th Congress), Minnesota",1383
+2017,"Congressional District 4 (115th Congress), Minnesota",1154
+2017,"Congressional District 5 (115th Congress), Minnesota",1148
+2017,"Congressional District 6 (115th Congress), Minnesota",1206
+2017,"Congressional District 7 (115th Congress), Minnesota",757
+2017,"Congressional District 8 (115th Congress), Minnesota",837
+2017,"Congressional District 1 (115th Congress), Mississippi",665
+2017,"Congressional District 2 (115th Congress), Mississippi",611
+2017,"Congressional District 3 (115th Congress), Mississippi",670
+2017,"Congressional District 4 (115th Congress), Mississippi",730
+2017,"Congressional District 1 (115th Congress), Missouri",883
+2017,"Congressional District 2 (115th Congress), Missouri",1163
+2017,"Congressional District 3 (115th Congress), Missouri",912
+2017,"Congressional District 4 (115th Congress), Missouri",746
+2017,"Congressional District 5 (115th Congress), Missouri",889
+2017,"Congressional District 6 (115th Congress), Missouri",813
+2017,"Congressional District 7 (115th Congress), Missouri",740
+2017,"Congressional District 8 (115th Congress), Missouri",601
+2017,"Congressional District (at Large) (115th Congress), Montana",816
+2017,"Congressional District 1 (115th Congress), Nebraska",892
+2017,"Congressional District 2 (115th Congress), Nebraska",1093
+2017,"Congressional District 3 (115th Congress), Nebraska",696
+2017,"Congressional District 1 (115th Congress), Nevada",912
+2017,"Congressional District 2 (115th Congress), Nevada",1037
+2017,"Congressional District 3 (115th Congress), Nevada",1310
+2017,"Congressional District 4 (115th Congress), Nevada",1117
+2017,"Congressional District 1 (115th Congress), New Hampshire",1337
+2017,"Congressional District 2 (115th Congress), New Hampshire",1229
+2017,"Congressional District 1 (115th Congress), New Jersey",1324
+2017,"Congressional District 2 (115th Congress), New Jersey",1277
+2017,"Congressional District 3 (115th Congress), New Jersey",1526
+2017,"Congressional District 4 (115th Congress), New Jersey",1613
+2017,"Congressional District 5 (115th Congress), New Jersey",1862
+2017,"Congressional District 6 (115th Congress), New Jersey",1599
+2017,"Congressional District 7 (115th Congress), New Jersey",1976
+2017,"Congressional District 8 (115th Congress), New Jersey",1416
+2017,"Congressional District 9 (115th Congress), New Jersey",1460
+2017,"Congressional District 10 (115th Congress), New Jersey",1318
+2017,"Congressional District 11 (115th Congress), New Jersey",2014
+2017,"Congressional District 12 (115th Congress), New Jersey",1631
+2017,"Congressional District 1 (115th Congress), New Mexico",898
+2017,"Congressional District 2 (115th Congress), New Mexico",628
+2017,"Congressional District 3 (115th Congress), New Mexico",804
+2017,"Congressional District 1 (115th Congress), New York",1868
+2017,"Congressional District 2 (115th Congress), New York",2060
+2017,"Congressional District 3 (115th Congress), New York",2149
+2017,"Congressional District 4 (115th Congress), New York",2134
+2017,"Congressional District 5 (115th Congress), New York",1634
+2017,"Congressional District 6 (115th Congress), New York",1432
+2017,"Congressional District 7 (115th Congress), New York",1470
+2017,"Congressional District 8 (115th Congress), New York",1354
+2017,"Congressional District 9 (115th Congress), New York",1384
+2017,"Congressional District 10 (115th Congress), New York",1746
+2017,"Congressional District 11 (115th Congress), New York",1507
+2017,"Congressional District 12 (115th Congress), New York",2120
+2017,"Congressional District 13 (115th Congress), New York",1186
+2017,"Congressional District 14 (115th Congress), New York",1449
+2017,"Congressional District 15 (115th Congress), New York",1088
+2017,"Congressional District 16 (115th Congress), New York",1571
+2017,"Congressional District 17 (115th Congress), New York",2001
+2017,"Congressional District 18 (115th Congress), New York",1648
+2017,"Congressional District 19 (115th Congress), New York",1026
+2017,"Congressional District 20 (115th Congress), New York",1066
+2017,"Congressional District 21 (115th Congress), New York",826
+2017,"Congressional District 22 (115th Congress), New York",771
+2017,"Congressional District 23 (115th Congress), New York",757
+2017,"Congressional District 24 (115th Congress), New York",883
+2017,"Congressional District 25 (115th Congress), New York",968
+2017,"Congressional District 26 (115th Congress), New York",801
+2017,"Congressional District 27 (115th Congress), New York",923
+2017,"Congressional District 1 (115th Congress), North Carolina",828
+2017,"Congressional District 2 (115th Congress), North Carolina",1060
+2017,"Congressional District 3 (115th Congress), North Carolina",861
+2017,"Congressional District 4 (115th Congress), North Carolina",1173
+2017,"Congressional District 5 (115th Congress), North Carolina",718
+2017,"Congressional District 6 (115th Congress), North Carolina",753
+2017,"Congressional District 7 (115th Congress), North Carolina",830
+2017,"Congressional District 8 (115th Congress), North Carolina",873
+2017,"Congressional District 9 (115th Congress), North Carolina",931
+2017,"Congressional District 10 (115th Congress), North Carolina",756
+2017,"Congressional District 11 (115th Congress), North Carolina",685
+2017,"Congressional District 12 (115th Congress), North Carolina",1094
+2017,"Congressional District 13 (115th Congress), North Carolina",831
+2017,"Congressional District (at Large) (115th Congress), North Dakota",799
+2017,"Congressional District 1 (115th Congress), Ohio",946
+2017,"Congressional District 2 (115th Congress), Ohio",870
+2017,"Congressional District 3 (115th Congress), Ohio",914
+2017,"Congressional District 4 (115th Congress), Ohio",739
+2017,"Congressional District 5 (115th Congress), Ohio",790
+2017,"Congressional District 6 (115th Congress), Ohio",629
+2017,"Congressional District 7 (115th Congress), Ohio",754
+2017,"Congressional District 8 (115th Congress), Ohio",827
+2017,"Congressional District 9 (115th Congress), Ohio",754
+2017,"Congressional District 10 (115th Congress), Ohio",825
+2017,"Congressional District 11 (115th Congress), Ohio",775
+2017,"Congressional District 12 (115th Congress), Ohio",1080
+2017,"Congressional District 13 (115th Congress), Ohio",719
+2017,"Congressional District 14 (115th Congress), Ohio",966
+2017,"Congressional District 15 (115th Congress), Ohio",979
+2017,"Congressional District 16 (115th Congress), Ohio",916
+2017,"Congressional District 1 (115th Congress), Oklahoma",875
+2017,"Congressional District 2 (115th Congress), Oklahoma",587
+2017,"Congressional District 3 (115th Congress), Oklahoma",686
+2017,"Congressional District 4 (115th Congress), Oklahoma",833
+2017,"Congressional District 5 (115th Congress), Oklahoma",853
+2017,"Congressional District 1 (115th Congress), Oregon",1433
+2017,"Congressional District 2 (115th Congress), Oregon",951
+2017,"Congressional District 3 (115th Congress), Oregon",1332
+2017,"Congressional District 4 (115th Congress), Oregon",968
+2017,"Congressional District 5 (115th Congress), Oregon",1171
+2017,"Congressional District 1 (115th Congress), Pennsylvania",955
+2017,"Congressional District 2 (115th Congress), Pennsylvania",971
+2017,"Congressional District 3 (115th Congress), Pennsylvania",728
+2017,"Congressional District 4 (115th Congress), Pennsylvania",1031
+2017,"Congressional District 5 (115th Congress), Pennsylvania",696
+2017,"Congressional District 6 (115th Congress), Pennsylvania",1328
+2017,"Congressional District 7 (115th Congress), Pennsylvania",1418
+2017,"Congressional District 8 (115th Congress), Pennsylvania",1437
+2017,"Congressional District 9 (115th Congress), Pennsylvania",690
+2017,"Congressional District 10 (115th Congress), Pennsylvania",812
+2017,"Congressional District 11 (115th Congress), Pennsylvania",841
+2017,"Congressional District 12 (115th Congress), Pennsylvania",810
+2017,"Congressional District 13 (115th Congress), Pennsylvania",1169
+2017,"Congressional District 14 (115th Congress), Pennsylvania",810
+2017,"Congressional District 15 (115th Congress), Pennsylvania",1084
+2017,"Congressional District 16 (115th Congress), Pennsylvania",1031
+2017,"Congressional District 17 (115th Congress), Pennsylvania",845
+2017,"Congressional District 18 (115th Congress), Pennsylvania",903
+2017,"Congressional District 1 (115th Congress), Rhode Island",1132
+2017,"Congressional District 2 (115th Congress), Rhode Island",1267
+2017,"Congressional District 1 (115th Congress), South Carolina",1210
+2017,"Congressional District 2 (115th Congress), South Carolina",884
+2017,"Congressional District 3 (115th Congress), South Carolina",676
+2017,"Congressional District 4 (115th Congress), South Carolina",838
+2017,"Congressional District 5 (115th Congress), South Carolina",763
+2017,"Congressional District 6 (115th Congress), South Carolina",728
+2017,"Congressional District 7 (115th Congress), South Carolina",707
+2017,"Congressional District (at Large) (115th Congress), South Dakota",774
+2017,"Congressional District 1 (115th Congress), Tennessee",626
+2017,"Congressional District 2 (115th Congress), Tennessee",816
+2017,"Congressional District 3 (115th Congress), Tennessee",703
+2017,"Congressional District 4 (115th Congress), Tennessee",833
+2017,"Congressional District 5 (115th Congress), Tennessee",1072
+2017,"Congressional District 6 (115th Congress), Tennessee",753
+2017,"Congressional District 7 (115th Congress), Tennessee",858
+2017,"Congressional District 8 (115th Congress), Tennessee",809
+2017,"Congressional District 9 (115th Congress), Tennessee",872
+2017,"Congressional District 1 (115th Congress), Texas",743
+2017,"Congressional District 2 (115th Congress), Texas",1251
+2017,"Congressional District 3 (115th Congress), Texas",1534
+2017,"Congressional District 4 (115th Congress), Texas",803
+2017,"Congressional District 5 (115th Congress), Texas",896
+2017,"Congressional District 6 (115th Congress), Texas",1134
+2017,"Congressional District 7 (115th Congress), Texas",1327
+2017,"Congressional District 8 (115th Congress), Texas",1139
+2017,"Congressional District 9 (115th Congress), Texas",953
+2017,"Congressional District 10 (115th Congress), Texas",1274
+2017,"Congressional District 11 (115th Congress), Texas",808
+2017,"Congressional District 12 (115th Congress), Texas",1148
+2017,"Congressional District 13 (115th Congress), Texas",754
+2017,"Congressional District 14 (115th Congress), Texas",937
+2017,"Congressional District 15 (115th Congress), Texas",673
+2017,"Congressional District 16 (115th Congress), Texas",865
+2017,"Congressional District 17 (115th Congress), Texas",934
+2017,"Congressional District 18 (115th Congress), Texas",923
+2017,"Congressional District 19 (115th Congress), Texas",780
+2017,"Congressional District 20 (115th Congress), Texas",940
+2017,"Congressional District 21 (115th Congress), Texas",1222
+2017,"Congressional District 22 (115th Congress), Texas",1496
+2017,"Congressional District 23 (115th Congress), Texas",782
+2017,"Congressional District 24 (115th Congress), Texas",1256
+2017,"Congressional District 25 (115th Congress), Texas",1175
+2017,"Congressional District 26 (115th Congress), Texas",1469
+2017,"Congressional District 27 (115th Congress), Texas",851
+2017,"Congressional District 28 (115th Congress), Texas",772
+2017,"Congressional District 29 (115th Congress), Texas",830
+2017,"Congressional District 30 (115th Congress), Texas",993
+2017,"Congressional District 31 (115th Congress), Texas",1200
+2017,"Congressional District 32 (115th Congress), Texas",1295
+2017,"Congressional District 33 (115th Congress), Texas",835
+2017,"Congressional District 34 (115th Congress), Texas",604
+2017,"Congressional District 35 (115th Congress), Texas",993
+2017,"Congressional District 36 (115th Congress), Texas",834
+2017,"Congressional District 1 (115th Congress), Utah",1035
+2017,"Congressional District 2 (115th Congress), Utah",1042
+2017,"Congressional District 3 (115th Congress), Utah",1176
+2017,"Congressional District 4 (115th Congress), Utah",1239
+2017,"Congressional District (at Large) (115th Congress), Vermont",1088
+2017,"Congressional District 1 (115th Congress), Virginia",1442
+2017,"Congressional District 2 (115th Congress), Virginia",1310
+2017,"Congressional District 3 (115th Congress), Virginia",1120
+2017,"Congressional District 4 (115th Congress), Virginia",1075
+2017,"Congressional District 5 (115th Congress), Virginia",821
+2017,"Congressional District 6 (115th Congress), Virginia",847
+2017,"Congressional District 7 (115th Congress), Virginia",1229
+2017,"Congressional District 8 (115th Congress), Virginia",1915
+2017,"Congressional District 9 (115th Congress), Virginia",575
+2017,"Congressional District 10 (115th Congress), Virginia",2036
+2017,"Congressional District 11 (115th Congress), Virginia",1889
+2017,"Congressional District 1 (115th Congress), Washington",1693
+2017,"Congressional District 2 (115th Congress), Washington",1362
+2017,"Congressional District 3 (115th Congress), Washington",1161
+2017,"Congressional District 4 (115th Congress), Washington",901
+2017,"Congressional District 5 (115th Congress), Washington",928
+2017,"Congressional District 6 (115th Congress), Washington",1162
+2017,"Congressional District 7 (115th Congress), Washington",1689
+2017,"Congressional District 8 (115th Congress), Washington",1538
+2017,"Congressional District 9 (115th Congress), Washington",1601
+2017,"Congressional District 10 (115th Congress), Washington",1282
+2017,"Congressional District 1 (115th Congress), West Virginia",583
+2017,"Congressional District 2 (115th Congress), West Virginia",686
+2017,"Congressional District 3 (115th Congress), West Virginia",502
+2017,"Congressional District 1 (115th Congress), Wisconsin",1011
+2017,"Congressional District 2 (115th Congress), Wisconsin",1116
+2017,"Congressional District 3 (115th Congress), Wisconsin",816
+2017,"Congressional District 4 (115th Congress), Wisconsin",883
+2017,"Congressional District 5 (115th Congress), Wisconsin",1093
+2017,"Congressional District 6 (115th Congress), Wisconsin",840
+2017,"Congressional District 7 (115th Congress), Wisconsin",778
+2017,"Congressional District 8 (115th Congress), Wisconsin",838
+2017,"Congressional District (at Large) (115th Congress), Wyoming",890
+2017,"Resident Commissioner District (at Large) (115th Congress), Puerto Rico",329

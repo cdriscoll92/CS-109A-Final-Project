@@ -1,0 +1,10 @@
+Topic,Table,Variable,new_name,Annotation
+Race,B02001,HD01_VD01,total_pop,Estimate; Total:
+Race,B02001,HD01_VD02,white_pop,Estimate; Total: - White alone
+Race,B02001,HD01_VD03,black_pop,Estimate; Total: - Black or African American alone
+Housing Costs,B25105,HD01_VD01,mortgage_cost,Estimate; Median monthly housing costs
+Age and Sex,S0101,HC01_EST_VC37,median_age,Total; Estimate; SUMMARY INDICATORS - Median age (years)
+Educational,S0701,HC01_EST_VC50,high_school_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - High school graduate (includes equivalency)
+Educational,S0701,HC01_EST_VC50,bach_deg_num,Total; Estimate; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+Educational,S0701,HC01_EST_VC64,median_HH_income,Total; Estimate; Median income (dollars)
+Employment,S2301,HC04_EST_VC01,unemp_rate,Unemployment rate; Estimate; Population 16 years and over

@@ -1,0 +1,1331 @@
+var_name
+constant
+year
+nokken_poole_dim1
+nokken_poole_dim2
+age
+dem_incumbent
+dem_prior_vote_share
+president
+house
+senate
+median_HH_income
+median_age
+mortgage_cost
+unemp_rate
+bachelor_deg_perc
+black_perc
+HS_diploma_perc
+white_perc
+redistricted
+year^2
+year nokken_poole_dim1
+year nokken_poole_dim2
+year age
+year dem_incumbent
+year dem_prior_vote_share
+year president
+year house
+year senate
+year median_HH_income
+year median_age
+year mortgage_cost
+year unemp_rate
+year bachelor_deg_perc
+year black_perc
+year HS_diploma_perc
+year white_perc
+year redistricted
+nokken_poole_dim1^2
+nokken_poole_dim1 nokken_poole_dim2
+nokken_poole_dim1 age
+nokken_poole_dim1 dem_incumbent
+nokken_poole_dim1 dem_prior_vote_share
+nokken_poole_dim1 president
+nokken_poole_dim1 house
+nokken_poole_dim1 senate
+nokken_poole_dim1 median_HH_income
+nokken_poole_dim1 median_age
+nokken_poole_dim1 mortgage_cost
+nokken_poole_dim1 unemp_rate
+nokken_poole_dim1 bachelor_deg_perc
+nokken_poole_dim1 black_perc
+nokken_poole_dim1 HS_diploma_perc
+nokken_poole_dim1 white_perc
+nokken_poole_dim1 redistricted
+nokken_poole_dim2^2
+nokken_poole_dim2 age
+nokken_poole_dim2 dem_incumbent
+nokken_poole_dim2 dem_prior_vote_share
+nokken_poole_dim2 president
+nokken_poole_dim2 house
+nokken_poole_dim2 senate
+nokken_poole_dim2 median_HH_income
+nokken_poole_dim2 median_age
+nokken_poole_dim2 mortgage_cost
+nokken_poole_dim2 unemp_rate
+nokken_poole_dim2 bachelor_deg_perc
+nokken_poole_dim2 black_perc
+nokken_poole_dim2 HS_diploma_perc
+nokken_poole_dim2 white_perc
+nokken_poole_dim2 redistricted
+age^2
+age dem_incumbent
+age dem_prior_vote_share
+age president
+age house
+age senate
+age median_HH_income
+age median_age
+age mortgage_cost
+age unemp_rate
+age bachelor_deg_perc
+age black_perc
+age HS_diploma_perc
+age white_perc
+age redistricted
+dem_incumbent^2
+dem_incumbent dem_prior_vote_share
+dem_incumbent president
+dem_incumbent house
+dem_incumbent senate
+dem_incumbent median_HH_income
+dem_incumbent median_age
+dem_incumbent mortgage_cost
+dem_incumbent unemp_rate
+dem_incumbent bachelor_deg_perc
+dem_incumbent black_perc
+dem_incumbent HS_diploma_perc
+dem_incumbent white_perc
+dem_incumbent redistricted
+dem_prior_vote_share^2
+dem_prior_vote_share president
+dem_prior_vote_share house
+dem_prior_vote_share senate
+dem_prior_vote_share median_HH_income
+dem_prior_vote_share median_age
+dem_prior_vote_share mortgage_cost
+dem_prior_vote_share unemp_rate
+dem_prior_vote_share bachelor_deg_perc
+dem_prior_vote_share black_perc
+dem_prior_vote_share HS_diploma_perc
+dem_prior_vote_share white_perc
+dem_prior_vote_share redistricted
+president^2
+president house
+president senate
+president median_HH_income
+president median_age
+president mortgage_cost
+president unemp_rate
+president bachelor_deg_perc
+president black_perc
+president HS_diploma_perc
+president white_perc
+president redistricted
+house^2
+house senate
+house median_HH_income
+house median_age
+house mortgage_cost
+house unemp_rate
+house bachelor_deg_perc
+house black_perc
+house HS_diploma_perc
+house white_perc
+house redistricted
+senate^2
+senate median_HH_income
+senate median_age
+senate mortgage_cost
+senate unemp_rate
+senate bachelor_deg_perc
+senate black_perc
+senate HS_diploma_perc
+senate white_perc
+senate redistricted
+median_HH_income^2
+median_HH_income median_age
+median_HH_income mortgage_cost
+median_HH_income unemp_rate
+median_HH_income bachelor_deg_perc
+median_HH_income black_perc
+median_HH_income HS_diploma_perc
+median_HH_income white_perc
+median_HH_income redistricted
+median_age^2
+median_age mortgage_cost
+median_age unemp_rate
+median_age bachelor_deg_perc
+median_age black_perc
+median_age HS_diploma_perc
+median_age white_perc
+median_age redistricted
+mortgage_cost^2
+mortgage_cost unemp_rate
+mortgage_cost bachelor_deg_perc
+mortgage_cost black_perc
+mortgage_cost HS_diploma_perc
+mortgage_cost white_perc
+mortgage_cost redistricted
+unemp_rate^2
+unemp_rate bachelor_deg_perc
+unemp_rate black_perc
+unemp_rate HS_diploma_perc
+unemp_rate white_perc
+unemp_rate redistricted
+bachelor_deg_perc^2
+bachelor_deg_perc black_perc
+bachelor_deg_perc HS_diploma_perc
+bachelor_deg_perc white_perc
+bachelor_deg_perc redistricted
+black_perc^2
+black_perc HS_diploma_perc
+black_perc white_perc
+black_perc redistricted
+HS_diploma_perc^2
+HS_diploma_perc white_perc
+HS_diploma_perc redistricted
+white_perc^2
+white_perc redistricted
+redistricted^2
+year^3
+year^2 nokken_poole_dim1
+year^2 nokken_poole_dim2
+year^2 age
+year^2 dem_incumbent
+year^2 dem_prior_vote_share
+year^2 president
+year^2 house
+year^2 senate
+year^2 median_HH_income
+year^2 median_age
+year^2 mortgage_cost
+year^2 unemp_rate
+year^2 bachelor_deg_perc
+year^2 black_perc
+year^2 HS_diploma_perc
+year^2 white_perc
+year^2 redistricted
+year nokken_poole_dim1^2
+year nokken_poole_dim1 nokken_poole_dim2
+year nokken_poole_dim1 age
+year nokken_poole_dim1 dem_incumbent
+year nokken_poole_dim1 dem_prior_vote_share
+year nokken_poole_dim1 president
+year nokken_poole_dim1 house
+year nokken_poole_dim1 senate
+year nokken_poole_dim1 median_HH_income
+year nokken_poole_dim1 median_age
+year nokken_poole_dim1 mortgage_cost
+year nokken_poole_dim1 unemp_rate
+year nokken_poole_dim1 bachelor_deg_perc
+year nokken_poole_dim1 black_perc
+year nokken_poole_dim1 HS_diploma_perc
+year nokken_poole_dim1 white_perc
+year nokken_poole_dim1 redistricted
+year nokken_poole_dim2^2
+year nokken_poole_dim2 age
+year nokken_poole_dim2 dem_incumbent
+year nokken_poole_dim2 dem_prior_vote_share
+year nokken_poole_dim2 president
+year nokken_poole_dim2 house
+year nokken_poole_dim2 senate
+year nokken_poole_dim2 median_HH_income
+year nokken_poole_dim2 median_age
+year nokken_poole_dim2 mortgage_cost
+year nokken_poole_dim2 unemp_rate
+year nokken_poole_dim2 bachelor_deg_perc
+year nokken_poole_dim2 black_perc
+year nokken_poole_dim2 HS_diploma_perc
+year nokken_poole_dim2 white_perc
+year nokken_poole_dim2 redistricted
+year age^2
+year age dem_incumbent
+year age dem_prior_vote_share
+year age president
+year age house
+year age senate
+year age median_HH_income
+year age median_age
+year age mortgage_cost
+year age unemp_rate
+year age bachelor_deg_perc
+year age black_perc
+year age HS_diploma_perc
+year age white_perc
+year age redistricted
+year dem_incumbent^2
+year dem_incumbent dem_prior_vote_share
+year dem_incumbent president
+year dem_incumbent house
+year dem_incumbent senate
+year dem_incumbent median_HH_income
+year dem_incumbent median_age
+year dem_incumbent mortgage_cost
+year dem_incumbent unemp_rate
+year dem_incumbent bachelor_deg_perc
+year dem_incumbent black_perc
+year dem_incumbent HS_diploma_perc
+year dem_incumbent white_perc
+year dem_incumbent redistricted
+year dem_prior_vote_share^2
+year dem_prior_vote_share president
+year dem_prior_vote_share house
+year dem_prior_vote_share senate
+year dem_prior_vote_share median_HH_income
+year dem_prior_vote_share median_age
+year dem_prior_vote_share mortgage_cost
+year dem_prior_vote_share unemp_rate
+year dem_prior_vote_share bachelor_deg_perc
+year dem_prior_vote_share black_perc
+year dem_prior_vote_share HS_diploma_perc
+year dem_prior_vote_share white_perc
+year dem_prior_vote_share redistricted
+year president^2
+year president house
+year president senate
+year president median_HH_income
+year president median_age
+year president mortgage_cost
+year president unemp_rate
+year president bachelor_deg_perc
+year president black_perc
+year president HS_diploma_perc
+year president white_perc
+year president redistricted
+year house^2
+year house senate
+year house median_HH_income
+year house median_age
+year house mortgage_cost
+year house unemp_rate
+year house bachelor_deg_perc
+year house black_perc
+year house HS_diploma_perc
+year house white_perc
+year house redistricted
+year senate^2
+year senate median_HH_income
+year senate median_age
+year senate mortgage_cost
+year senate unemp_rate
+year senate bachelor_deg_perc
+year senate black_perc
+year senate HS_diploma_perc
+year senate white_perc
+year senate redistricted
+year median_HH_income^2
+year median_HH_income median_age
+year median_HH_income mortgage_cost
+year median_HH_income unemp_rate
+year median_HH_income bachelor_deg_perc
+year median_HH_income black_perc
+year median_HH_income HS_diploma_perc
+year median_HH_income white_perc
+year median_HH_income redistricted
+year median_age^2
+year median_age mortgage_cost
+year median_age unemp_rate
+year median_age bachelor_deg_perc
+year median_age black_perc
+year median_age HS_diploma_perc
+year median_age white_perc
+year median_age redistricted
+year mortgage_cost^2
+year mortgage_cost unemp_rate
+year mortgage_cost bachelor_deg_perc
+year mortgage_cost black_perc
+year mortgage_cost HS_diploma_perc
+year mortgage_cost white_perc
+year mortgage_cost redistricted
+year unemp_rate^2
+year unemp_rate bachelor_deg_perc
+year unemp_rate black_perc
+year unemp_rate HS_diploma_perc
+year unemp_rate white_perc
+year unemp_rate redistricted
+year bachelor_deg_perc^2
+year bachelor_deg_perc black_perc
+year bachelor_deg_perc HS_diploma_perc
+year bachelor_deg_perc white_perc
+year bachelor_deg_perc redistricted
+year black_perc^2
+year black_perc HS_diploma_perc
+year black_perc white_perc
+year black_perc redistricted
+year HS_diploma_perc^2
+year HS_diploma_perc white_perc
+year HS_diploma_perc redistricted
+year white_perc^2
+year white_perc redistricted
+year redistricted^2
+nokken_poole_dim1^3
+nokken_poole_dim1^2 nokken_poole_dim2
+nokken_poole_dim1^2 age
+nokken_poole_dim1^2 dem_incumbent
+nokken_poole_dim1^2 dem_prior_vote_share
+nokken_poole_dim1^2 president
+nokken_poole_dim1^2 house
+nokken_poole_dim1^2 senate
+nokken_poole_dim1^2 median_HH_income
+nokken_poole_dim1^2 median_age
+nokken_poole_dim1^2 mortgage_cost
+nokken_poole_dim1^2 unemp_rate
+nokken_poole_dim1^2 bachelor_deg_perc
+nokken_poole_dim1^2 black_perc
+nokken_poole_dim1^2 HS_diploma_perc
+nokken_poole_dim1^2 white_perc
+nokken_poole_dim1^2 redistricted
+nokken_poole_dim1 nokken_poole_dim2^2
+nokken_poole_dim1 nokken_poole_dim2 age
+nokken_poole_dim1 nokken_poole_dim2 dem_incumbent
+nokken_poole_dim1 nokken_poole_dim2 dem_prior_vote_share
+nokken_poole_dim1 nokken_poole_dim2 president
+nokken_poole_dim1 nokken_poole_dim2 house
+nokken_poole_dim1 nokken_poole_dim2 senate
+nokken_poole_dim1 nokken_poole_dim2 median_HH_income
+nokken_poole_dim1 nokken_poole_dim2 median_age
+nokken_poole_dim1 nokken_poole_dim2 mortgage_cost
+nokken_poole_dim1 nokken_poole_dim2 unemp_rate
+nokken_poole_dim1 nokken_poole_dim2 bachelor_deg_perc
+nokken_poole_dim1 nokken_poole_dim2 black_perc
+nokken_poole_dim1 nokken_poole_dim2 HS_diploma_perc
+nokken_poole_dim1 nokken_poole_dim2 white_perc
+nokken_poole_dim1 nokken_poole_dim2 redistricted
+nokken_poole_dim1 age^2
+nokken_poole_dim1 age dem_incumbent
+nokken_poole_dim1 age dem_prior_vote_share
+nokken_poole_dim1 age president
+nokken_poole_dim1 age house
+nokken_poole_dim1 age senate
+nokken_poole_dim1 age median_HH_income
+nokken_poole_dim1 age median_age
+nokken_poole_dim1 age mortgage_cost
+nokken_poole_dim1 age unemp_rate
+nokken_poole_dim1 age bachelor_deg_perc
+nokken_poole_dim1 age black_perc
+nokken_poole_dim1 age HS_diploma_perc
+nokken_poole_dim1 age white_perc
+nokken_poole_dim1 age redistricted
+nokken_poole_dim1 dem_incumbent^2
+nokken_poole_dim1 dem_incumbent dem_prior_vote_share
+nokken_poole_dim1 dem_incumbent president
+nokken_poole_dim1 dem_incumbent house
+nokken_poole_dim1 dem_incumbent senate
+nokken_poole_dim1 dem_incumbent median_HH_income
+nokken_poole_dim1 dem_incumbent median_age
+nokken_poole_dim1 dem_incumbent mortgage_cost
+nokken_poole_dim1 dem_incumbent unemp_rate
+nokken_poole_dim1 dem_incumbent bachelor_deg_perc
+nokken_poole_dim1 dem_incumbent black_perc
+nokken_poole_dim1 dem_incumbent HS_diploma_perc
+nokken_poole_dim1 dem_incumbent white_perc
+nokken_poole_dim1 dem_incumbent redistricted
+nokken_poole_dim1 dem_prior_vote_share^2
+nokken_poole_dim1 dem_prior_vote_share president
+nokken_poole_dim1 dem_prior_vote_share house
+nokken_poole_dim1 dem_prior_vote_share senate
+nokken_poole_dim1 dem_prior_vote_share median_HH_income
+nokken_poole_dim1 dem_prior_vote_share median_age
+nokken_poole_dim1 dem_prior_vote_share mortgage_cost
+nokken_poole_dim1 dem_prior_vote_share unemp_rate
+nokken_poole_dim1 dem_prior_vote_share bachelor_deg_perc
+nokken_poole_dim1 dem_prior_vote_share black_perc
+nokken_poole_dim1 dem_prior_vote_share HS_diploma_perc
+nokken_poole_dim1 dem_prior_vote_share white_perc
+nokken_poole_dim1 dem_prior_vote_share redistricted
+nokken_poole_dim1 president^2
+nokken_poole_dim1 president house
+nokken_poole_dim1 president senate
+nokken_poole_dim1 president median_HH_income
+nokken_poole_dim1 president median_age
+nokken_poole_dim1 president mortgage_cost
+nokken_poole_dim1 president unemp_rate
+nokken_poole_dim1 president bachelor_deg_perc
+nokken_poole_dim1 president black_perc
+nokken_poole_dim1 president HS_diploma_perc
+nokken_poole_dim1 president white_perc
+nokken_poole_dim1 president redistricted
+nokken_poole_dim1 house^2
+nokken_poole_dim1 house senate
+nokken_poole_dim1 house median_HH_income
+nokken_poole_dim1 house median_age
+nokken_poole_dim1 house mortgage_cost
+nokken_poole_dim1 house unemp_rate
+nokken_poole_dim1 house bachelor_deg_perc
+nokken_poole_dim1 house black_perc
+nokken_poole_dim1 house HS_diploma_perc
+nokken_poole_dim1 house white_perc
+nokken_poole_dim1 house redistricted
+nokken_poole_dim1 senate^2
+nokken_poole_dim1 senate median_HH_income
+nokken_poole_dim1 senate median_age
+nokken_poole_dim1 senate mortgage_cost
+nokken_poole_dim1 senate unemp_rate
+nokken_poole_dim1 senate bachelor_deg_perc
+nokken_poole_dim1 senate black_perc
+nokken_poole_dim1 senate HS_diploma_perc
+nokken_poole_dim1 senate white_perc
+nokken_poole_dim1 senate redistricted
+nokken_poole_dim1 median_HH_income^2
+nokken_poole_dim1 median_HH_income median_age
+nokken_poole_dim1 median_HH_income mortgage_cost
+nokken_poole_dim1 median_HH_income unemp_rate
+nokken_poole_dim1 median_HH_income bachelor_deg_perc
+nokken_poole_dim1 median_HH_income black_perc
+nokken_poole_dim1 median_HH_income HS_diploma_perc
+nokken_poole_dim1 median_HH_income white_perc
+nokken_poole_dim1 median_HH_income redistricted
+nokken_poole_dim1 median_age^2
+nokken_poole_dim1 median_age mortgage_cost
+nokken_poole_dim1 median_age unemp_rate
+nokken_poole_dim1 median_age bachelor_deg_perc
+nokken_poole_dim1 median_age black_perc
+nokken_poole_dim1 median_age HS_diploma_perc
+nokken_poole_dim1 median_age white_perc
+nokken_poole_dim1 median_age redistricted
+nokken_poole_dim1 mortgage_cost^2
+nokken_poole_dim1 mortgage_cost unemp_rate
+nokken_poole_dim1 mortgage_cost bachelor_deg_perc
+nokken_poole_dim1 mortgage_cost black_perc
+nokken_poole_dim1 mortgage_cost HS_diploma_perc
+nokken_poole_dim1 mortgage_cost white_perc
+nokken_poole_dim1 mortgage_cost redistricted
+nokken_poole_dim1 unemp_rate^2
+nokken_poole_dim1 unemp_rate bachelor_deg_perc
+nokken_poole_dim1 unemp_rate black_perc
+nokken_poole_dim1 unemp_rate HS_diploma_perc
+nokken_poole_dim1 unemp_rate white_perc
+nokken_poole_dim1 unemp_rate redistricted
+nokken_poole_dim1 bachelor_deg_perc^2
+nokken_poole_dim1 bachelor_deg_perc black_perc
+nokken_poole_dim1 bachelor_deg_perc HS_diploma_perc
+nokken_poole_dim1 bachelor_deg_perc white_perc
+nokken_poole_dim1 bachelor_deg_perc redistricted
+nokken_poole_dim1 black_perc^2
+nokken_poole_dim1 black_perc HS_diploma_perc
+nokken_poole_dim1 black_perc white_perc
+nokken_poole_dim1 black_perc redistricted
+nokken_poole_dim1 HS_diploma_perc^2
+nokken_poole_dim1 HS_diploma_perc white_perc
+nokken_poole_dim1 HS_diploma_perc redistricted
+nokken_poole_dim1 white_perc^2
+nokken_poole_dim1 white_perc redistricted
+nokken_poole_dim1 redistricted^2
+nokken_poole_dim2^3
+nokken_poole_dim2^2 age
+nokken_poole_dim2^2 dem_incumbent
+nokken_poole_dim2^2 dem_prior_vote_share
+nokken_poole_dim2^2 president
+nokken_poole_dim2^2 house
+nokken_poole_dim2^2 senate
+nokken_poole_dim2^2 median_HH_income
+nokken_poole_dim2^2 median_age
+nokken_poole_dim2^2 mortgage_cost
+nokken_poole_dim2^2 unemp_rate
+nokken_poole_dim2^2 bachelor_deg_perc
+nokken_poole_dim2^2 black_perc
+nokken_poole_dim2^2 HS_diploma_perc
+nokken_poole_dim2^2 white_perc
+nokken_poole_dim2^2 redistricted
+nokken_poole_dim2 age^2
+nokken_poole_dim2 age dem_incumbent
+nokken_poole_dim2 age dem_prior_vote_share
+nokken_poole_dim2 age president
+nokken_poole_dim2 age house
+nokken_poole_dim2 age senate
+nokken_poole_dim2 age median_HH_income
+nokken_poole_dim2 age median_age
+nokken_poole_dim2 age mortgage_cost
+nokken_poole_dim2 age unemp_rate
+nokken_poole_dim2 age bachelor_deg_perc
+nokken_poole_dim2 age black_perc
+nokken_poole_dim2 age HS_diploma_perc
+nokken_poole_dim2 age white_perc
+nokken_poole_dim2 age redistricted
+nokken_poole_dim2 dem_incumbent^2
+nokken_poole_dim2 dem_incumbent dem_prior_vote_share
+nokken_poole_dim2 dem_incumbent president
+nokken_poole_dim2 dem_incumbent house
+nokken_poole_dim2 dem_incumbent senate
+nokken_poole_dim2 dem_incumbent median_HH_income
+nokken_poole_dim2 dem_incumbent median_age
+nokken_poole_dim2 dem_incumbent mortgage_cost
+nokken_poole_dim2 dem_incumbent unemp_rate
+nokken_poole_dim2 dem_incumbent bachelor_deg_perc
+nokken_poole_dim2 dem_incumbent black_perc
+nokken_poole_dim2 dem_incumbent HS_diploma_perc
+nokken_poole_dim2 dem_incumbent white_perc
+nokken_poole_dim2 dem_incumbent redistricted
+nokken_poole_dim2 dem_prior_vote_share^2
+nokken_poole_dim2 dem_prior_vote_share president
+nokken_poole_dim2 dem_prior_vote_share house
+nokken_poole_dim2 dem_prior_vote_share senate
+nokken_poole_dim2 dem_prior_vote_share median_HH_income
+nokken_poole_dim2 dem_prior_vote_share median_age
+nokken_poole_dim2 dem_prior_vote_share mortgage_cost
+nokken_poole_dim2 dem_prior_vote_share unemp_rate
+nokken_poole_dim2 dem_prior_vote_share bachelor_deg_perc
+nokken_poole_dim2 dem_prior_vote_share black_perc
+nokken_poole_dim2 dem_prior_vote_share HS_diploma_perc
+nokken_poole_dim2 dem_prior_vote_share white_perc
+nokken_poole_dim2 dem_prior_vote_share redistricted
+nokken_poole_dim2 president^2
+nokken_poole_dim2 president house
+nokken_poole_dim2 president senate
+nokken_poole_dim2 president median_HH_income
+nokken_poole_dim2 president median_age
+nokken_poole_dim2 president mortgage_cost
+nokken_poole_dim2 president unemp_rate
+nokken_poole_dim2 president bachelor_deg_perc
+nokken_poole_dim2 president black_perc
+nokken_poole_dim2 president HS_diploma_perc
+nokken_poole_dim2 president white_perc
+nokken_poole_dim2 president redistricted
+nokken_poole_dim2 house^2
+nokken_poole_dim2 house senate
+nokken_poole_dim2 house median_HH_income
+nokken_poole_dim2 house median_age
+nokken_poole_dim2 house mortgage_cost
+nokken_poole_dim2 house unemp_rate
+nokken_poole_dim2 house bachelor_deg_perc
+nokken_poole_dim2 house black_perc
+nokken_poole_dim2 house HS_diploma_perc
+nokken_poole_dim2 house white_perc
+nokken_poole_dim2 house redistricted
+nokken_poole_dim2 senate^2
+nokken_poole_dim2 senate median_HH_income
+nokken_poole_dim2 senate median_age
+nokken_poole_dim2 senate mortgage_cost
+nokken_poole_dim2 senate unemp_rate
+nokken_poole_dim2 senate bachelor_deg_perc
+nokken_poole_dim2 senate black_perc
+nokken_poole_dim2 senate HS_diploma_perc
+nokken_poole_dim2 senate white_perc
+nokken_poole_dim2 senate redistricted
+nokken_poole_dim2 median_HH_income^2
+nokken_poole_dim2 median_HH_income median_age
+nokken_poole_dim2 median_HH_income mortgage_cost
+nokken_poole_dim2 median_HH_income unemp_rate
+nokken_poole_dim2 median_HH_income bachelor_deg_perc
+nokken_poole_dim2 median_HH_income black_perc
+nokken_poole_dim2 median_HH_income HS_diploma_perc
+nokken_poole_dim2 median_HH_income white_perc
+nokken_poole_dim2 median_HH_income redistricted
+nokken_poole_dim2 median_age^2
+nokken_poole_dim2 median_age mortgage_cost
+nokken_poole_dim2 median_age unemp_rate
+nokken_poole_dim2 median_age bachelor_deg_perc
+nokken_poole_dim2 median_age black_perc
+nokken_poole_dim2 median_age HS_diploma_perc
+nokken_poole_dim2 median_age white_perc
+nokken_poole_dim2 median_age redistricted
+nokken_poole_dim2 mortgage_cost^2
+nokken_poole_dim2 mortgage_cost unemp_rate
+nokken_poole_dim2 mortgage_cost bachelor_deg_perc
+nokken_poole_dim2 mortgage_cost black_perc
+nokken_poole_dim2 mortgage_cost HS_diploma_perc
+nokken_poole_dim2 mortgage_cost white_perc
+nokken_poole_dim2 mortgage_cost redistricted
+nokken_poole_dim2 unemp_rate^2
+nokken_poole_dim2 unemp_rate bachelor_deg_perc
+nokken_poole_dim2 unemp_rate black_perc
+nokken_poole_dim2 unemp_rate HS_diploma_perc
+nokken_poole_dim2 unemp_rate white_perc
+nokken_poole_dim2 unemp_rate redistricted
+nokken_poole_dim2 bachelor_deg_perc^2
+nokken_poole_dim2 bachelor_deg_perc black_perc
+nokken_poole_dim2 bachelor_deg_perc HS_diploma_perc
+nokken_poole_dim2 bachelor_deg_perc white_perc
+nokken_poole_dim2 bachelor_deg_perc redistricted
+nokken_poole_dim2 black_perc^2
+nokken_poole_dim2 black_perc HS_diploma_perc
+nokken_poole_dim2 black_perc white_perc
+nokken_poole_dim2 black_perc redistricted
+nokken_poole_dim2 HS_diploma_perc^2
+nokken_poole_dim2 HS_diploma_perc white_perc
+nokken_poole_dim2 HS_diploma_perc redistricted
+nokken_poole_dim2 white_perc^2
+nokken_poole_dim2 white_perc redistricted
+nokken_poole_dim2 redistricted^2
+age^3
+age^2 dem_incumbent
+age^2 dem_prior_vote_share
+age^2 president
+age^2 house
+age^2 senate
+age^2 median_HH_income
+age^2 median_age
+age^2 mortgage_cost
+age^2 unemp_rate
+age^2 bachelor_deg_perc
+age^2 black_perc
+age^2 HS_diploma_perc
+age^2 white_perc
+age^2 redistricted
+age dem_incumbent^2
+age dem_incumbent dem_prior_vote_share
+age dem_incumbent president
+age dem_incumbent house
+age dem_incumbent senate
+age dem_incumbent median_HH_income
+age dem_incumbent median_age
+age dem_incumbent mortgage_cost
+age dem_incumbent unemp_rate
+age dem_incumbent bachelor_deg_perc
+age dem_incumbent black_perc
+age dem_incumbent HS_diploma_perc
+age dem_incumbent white_perc
+age dem_incumbent redistricted
+age dem_prior_vote_share^2
+age dem_prior_vote_share president
+age dem_prior_vote_share house
+age dem_prior_vote_share senate
+age dem_prior_vote_share median_HH_income
+age dem_prior_vote_share median_age
+age dem_prior_vote_share mortgage_cost
+age dem_prior_vote_share unemp_rate
+age dem_prior_vote_share bachelor_deg_perc
+age dem_prior_vote_share black_perc
+age dem_prior_vote_share HS_diploma_perc
+age dem_prior_vote_share white_perc
+age dem_prior_vote_share redistricted
+age president^2
+age president house
+age president senate
+age president median_HH_income
+age president median_age
+age president mortgage_cost
+age president unemp_rate
+age president bachelor_deg_perc
+age president black_perc
+age president HS_diploma_perc
+age president white_perc
+age president redistricted
+age house^2
+age house senate
+age house median_HH_income
+age house median_age
+age house mortgage_cost
+age house unemp_rate
+age house bachelor_deg_perc
+age house black_perc
+age house HS_diploma_perc
+age house white_perc
+age house redistricted
+age senate^2
+age senate median_HH_income
+age senate median_age
+age senate mortgage_cost
+age senate unemp_rate
+age senate bachelor_deg_perc
+age senate black_perc
+age senate HS_diploma_perc
+age senate white_perc
+age senate redistricted
+age median_HH_income^2
+age median_HH_income median_age
+age median_HH_income mortgage_cost
+age median_HH_income unemp_rate
+age median_HH_income bachelor_deg_perc
+age median_HH_income black_perc
+age median_HH_income HS_diploma_perc
+age median_HH_income white_perc
+age median_HH_income redistricted
+age median_age^2
+age median_age mortgage_cost
+age median_age unemp_rate
+age median_age bachelor_deg_perc
+age median_age black_perc
+age median_age HS_diploma_perc
+age median_age white_perc
+age median_age redistricted
+age mortgage_cost^2
+age mortgage_cost unemp_rate
+age mortgage_cost bachelor_deg_perc
+age mortgage_cost black_perc
+age mortgage_cost HS_diploma_perc
+age mortgage_cost white_perc
+age mortgage_cost redistricted
+age unemp_rate^2
+age unemp_rate bachelor_deg_perc
+age unemp_rate black_perc
+age unemp_rate HS_diploma_perc
+age unemp_rate white_perc
+age unemp_rate redistricted
+age bachelor_deg_perc^2
+age bachelor_deg_perc black_perc
+age bachelor_deg_perc HS_diploma_perc
+age bachelor_deg_perc white_perc
+age bachelor_deg_perc redistricted
+age black_perc^2
+age black_perc HS_diploma_perc
+age black_perc white_perc
+age black_perc redistricted
+age HS_diploma_perc^2
+age HS_diploma_perc white_perc
+age HS_diploma_perc redistricted
+age white_perc^2
+age white_perc redistricted
+age redistricted^2
+dem_incumbent^3
+dem_incumbent^2 dem_prior_vote_share
+dem_incumbent^2 president
+dem_incumbent^2 house
+dem_incumbent^2 senate
+dem_incumbent^2 median_HH_income
+dem_incumbent^2 median_age
+dem_incumbent^2 mortgage_cost
+dem_incumbent^2 unemp_rate
+dem_incumbent^2 bachelor_deg_perc
+dem_incumbent^2 black_perc
+dem_incumbent^2 HS_diploma_perc
+dem_incumbent^2 white_perc
+dem_incumbent^2 redistricted
+dem_incumbent dem_prior_vote_share^2
+dem_incumbent dem_prior_vote_share president
+dem_incumbent dem_prior_vote_share house
+dem_incumbent dem_prior_vote_share senate
+dem_incumbent dem_prior_vote_share median_HH_income
+dem_incumbent dem_prior_vote_share median_age
+dem_incumbent dem_prior_vote_share mortgage_cost
+dem_incumbent dem_prior_vote_share unemp_rate
+dem_incumbent dem_prior_vote_share bachelor_deg_perc
+dem_incumbent dem_prior_vote_share black_perc
+dem_incumbent dem_prior_vote_share HS_diploma_perc
+dem_incumbent dem_prior_vote_share white_perc
+dem_incumbent dem_prior_vote_share redistricted
+dem_incumbent president^2
+dem_incumbent president house
+dem_incumbent president senate
+dem_incumbent president median_HH_income
+dem_incumbent president median_age
+dem_incumbent president mortgage_cost
+dem_incumbent president unemp_rate
+dem_incumbent president bachelor_deg_perc
+dem_incumbent president black_perc
+dem_incumbent president HS_diploma_perc
+dem_incumbent president white_perc
+dem_incumbent president redistricted
+dem_incumbent house^2
+dem_incumbent house senate
+dem_incumbent house median_HH_income
+dem_incumbent house median_age
+dem_incumbent house mortgage_cost
+dem_incumbent house unemp_rate
+dem_incumbent house bachelor_deg_perc
+dem_incumbent house black_perc
+dem_incumbent house HS_diploma_perc
+dem_incumbent house white_perc
+dem_incumbent house redistricted
+dem_incumbent senate^2
+dem_incumbent senate median_HH_income
+dem_incumbent senate median_age
+dem_incumbent senate mortgage_cost
+dem_incumbent senate unemp_rate
+dem_incumbent senate bachelor_deg_perc
+dem_incumbent senate black_perc
+dem_incumbent senate HS_diploma_perc
+dem_incumbent senate white_perc
+dem_incumbent senate redistricted
+dem_incumbent median_HH_income^2
+dem_incumbent median_HH_income median_age
+dem_incumbent median_HH_income mortgage_cost
+dem_incumbent median_HH_income unemp_rate
+dem_incumbent median_HH_income bachelor_deg_perc
+dem_incumbent median_HH_income black_perc
+dem_incumbent median_HH_income HS_diploma_perc
+dem_incumbent median_HH_income white_perc
+dem_incumbent median_HH_income redistricted
+dem_incumbent median_age^2
+dem_incumbent median_age mortgage_cost
+dem_incumbent median_age unemp_rate
+dem_incumbent median_age bachelor_deg_perc
+dem_incumbent median_age black_perc
+dem_incumbent median_age HS_diploma_perc
+dem_incumbent median_age white_perc
+dem_incumbent median_age redistricted
+dem_incumbent mortgage_cost^2
+dem_incumbent mortgage_cost unemp_rate
+dem_incumbent mortgage_cost bachelor_deg_perc
+dem_incumbent mortgage_cost black_perc
+dem_incumbent mortgage_cost HS_diploma_perc
+dem_incumbent mortgage_cost white_perc
+dem_incumbent mortgage_cost redistricted
+dem_incumbent unemp_rate^2
+dem_incumbent unemp_rate bachelor_deg_perc
+dem_incumbent unemp_rate black_perc
+dem_incumbent unemp_rate HS_diploma_perc
+dem_incumbent unemp_rate white_perc
+dem_incumbent unemp_rate redistricted
+dem_incumbent bachelor_deg_perc^2
+dem_incumbent bachelor_deg_perc black_perc
+dem_incumbent bachelor_deg_perc HS_diploma_perc
+dem_incumbent bachelor_deg_perc white_perc
+dem_incumbent bachelor_deg_perc redistricted
+dem_incumbent black_perc^2
+dem_incumbent black_perc HS_diploma_perc
+dem_incumbent black_perc white_perc
+dem_incumbent black_perc redistricted
+dem_incumbent HS_diploma_perc^2
+dem_incumbent HS_diploma_perc white_perc
+dem_incumbent HS_diploma_perc redistricted
+dem_incumbent white_perc^2
+dem_incumbent white_perc redistricted
+dem_incumbent redistricted^2
+dem_prior_vote_share^3
+dem_prior_vote_share^2 president
+dem_prior_vote_share^2 house
+dem_prior_vote_share^2 senate
+dem_prior_vote_share^2 median_HH_income
+dem_prior_vote_share^2 median_age
+dem_prior_vote_share^2 mortgage_cost
+dem_prior_vote_share^2 unemp_rate
+dem_prior_vote_share^2 bachelor_deg_perc
+dem_prior_vote_share^2 black_perc
+dem_prior_vote_share^2 HS_diploma_perc
+dem_prior_vote_share^2 white_perc
+dem_prior_vote_share^2 redistricted
+dem_prior_vote_share president^2
+dem_prior_vote_share president house
+dem_prior_vote_share president senate
+dem_prior_vote_share president median_HH_income
+dem_prior_vote_share president median_age
+dem_prior_vote_share president mortgage_cost
+dem_prior_vote_share president unemp_rate
+dem_prior_vote_share president bachelor_deg_perc
+dem_prior_vote_share president black_perc
+dem_prior_vote_share president HS_diploma_perc
+dem_prior_vote_share president white_perc
+dem_prior_vote_share president redistricted
+dem_prior_vote_share house^2
+dem_prior_vote_share house senate
+dem_prior_vote_share house median_HH_income
+dem_prior_vote_share house median_age
+dem_prior_vote_share house mortgage_cost
+dem_prior_vote_share house unemp_rate
+dem_prior_vote_share house bachelor_deg_perc
+dem_prior_vote_share house black_perc
+dem_prior_vote_share house HS_diploma_perc
+dem_prior_vote_share house white_perc
+dem_prior_vote_share house redistricted
+dem_prior_vote_share senate^2
+dem_prior_vote_share senate median_HH_income
+dem_prior_vote_share senate median_age
+dem_prior_vote_share senate mortgage_cost
+dem_prior_vote_share senate unemp_rate
+dem_prior_vote_share senate bachelor_deg_perc
+dem_prior_vote_share senate black_perc
+dem_prior_vote_share senate HS_diploma_perc
+dem_prior_vote_share senate white_perc
+dem_prior_vote_share senate redistricted
+dem_prior_vote_share median_HH_income^2
+dem_prior_vote_share median_HH_income median_age
+dem_prior_vote_share median_HH_income mortgage_cost
+dem_prior_vote_share median_HH_income unemp_rate
+dem_prior_vote_share median_HH_income bachelor_deg_perc
+dem_prior_vote_share median_HH_income black_perc
+dem_prior_vote_share median_HH_income HS_diploma_perc
+dem_prior_vote_share median_HH_income white_perc
+dem_prior_vote_share median_HH_income redistricted
+dem_prior_vote_share median_age^2
+dem_prior_vote_share median_age mortgage_cost
+dem_prior_vote_share median_age unemp_rate
+dem_prior_vote_share median_age bachelor_deg_perc
+dem_prior_vote_share median_age black_perc
+dem_prior_vote_share median_age HS_diploma_perc
+dem_prior_vote_share median_age white_perc
+dem_prior_vote_share median_age redistricted
+dem_prior_vote_share mortgage_cost^2
+dem_prior_vote_share mortgage_cost unemp_rate
+dem_prior_vote_share mortgage_cost bachelor_deg_perc
+dem_prior_vote_share mortgage_cost black_perc
+dem_prior_vote_share mortgage_cost HS_diploma_perc
+dem_prior_vote_share mortgage_cost white_perc
+dem_prior_vote_share mortgage_cost redistricted
+dem_prior_vote_share unemp_rate^2
+dem_prior_vote_share unemp_rate bachelor_deg_perc
+dem_prior_vote_share unemp_rate black_perc
+dem_prior_vote_share unemp_rate HS_diploma_perc
+dem_prior_vote_share unemp_rate white_perc
+dem_prior_vote_share unemp_rate redistricted
+dem_prior_vote_share bachelor_deg_perc^2
+dem_prior_vote_share bachelor_deg_perc black_perc
+dem_prior_vote_share bachelor_deg_perc HS_diploma_perc
+dem_prior_vote_share bachelor_deg_perc white_perc
+dem_prior_vote_share bachelor_deg_perc redistricted
+dem_prior_vote_share black_perc^2
+dem_prior_vote_share black_perc HS_diploma_perc
+dem_prior_vote_share black_perc white_perc
+dem_prior_vote_share black_perc redistricted
+dem_prior_vote_share HS_diploma_perc^2
+dem_prior_vote_share HS_diploma_perc white_perc
+dem_prior_vote_share HS_diploma_perc redistricted
+dem_prior_vote_share white_perc^2
+dem_prior_vote_share white_perc redistricted
+dem_prior_vote_share redistricted^2
+president^3
+president^2 house
+president^2 senate
+president^2 median_HH_income
+president^2 median_age
+president^2 mortgage_cost
+president^2 unemp_rate
+president^2 bachelor_deg_perc
+president^2 black_perc
+president^2 HS_diploma_perc
+president^2 white_perc
+president^2 redistricted
+president house^2
+president house senate
+president house median_HH_income
+president house median_age
+president house mortgage_cost
+president house unemp_rate
+president house bachelor_deg_perc
+president house black_perc
+president house HS_diploma_perc
+president house white_perc
+president house redistricted
+president senate^2
+president senate median_HH_income
+president senate median_age
+president senate mortgage_cost
+president senate unemp_rate
+president senate bachelor_deg_perc
+president senate black_perc
+president senate HS_diploma_perc
+president senate white_perc
+president senate redistricted
+president median_HH_income^2
+president median_HH_income median_age
+president median_HH_income mortgage_cost
+president median_HH_income unemp_rate
+president median_HH_income bachelor_deg_perc
+president median_HH_income black_perc
+president median_HH_income HS_diploma_perc
+president median_HH_income white_perc
+president median_HH_income redistricted
+president median_age^2
+president median_age mortgage_cost
+president median_age unemp_rate
+president median_age bachelor_deg_perc
+president median_age black_perc
+president median_age HS_diploma_perc
+president median_age white_perc
+president median_age redistricted
+president mortgage_cost^2
+president mortgage_cost unemp_rate
+president mortgage_cost bachelor_deg_perc
+president mortgage_cost black_perc
+president mortgage_cost HS_diploma_perc
+president mortgage_cost white_perc
+president mortgage_cost redistricted
+president unemp_rate^2
+president unemp_rate bachelor_deg_perc
+president unemp_rate black_perc
+president unemp_rate HS_diploma_perc
+president unemp_rate white_perc
+president unemp_rate redistricted
+president bachelor_deg_perc^2
+president bachelor_deg_perc black_perc
+president bachelor_deg_perc HS_diploma_perc
+president bachelor_deg_perc white_perc
+president bachelor_deg_perc redistricted
+president black_perc^2
+president black_perc HS_diploma_perc
+president black_perc white_perc
+president black_perc redistricted
+president HS_diploma_perc^2
+president HS_diploma_perc white_perc
+president HS_diploma_perc redistricted
+president white_perc^2
+president white_perc redistricted
+president redistricted^2
+house^3
+house^2 senate
+house^2 median_HH_income
+house^2 median_age
+house^2 mortgage_cost
+house^2 unemp_rate
+house^2 bachelor_deg_perc
+house^2 black_perc
+house^2 HS_diploma_perc
+house^2 white_perc
+house^2 redistricted
+house senate^2
+house senate median_HH_income
+house senate median_age
+house senate mortgage_cost
+house senate unemp_rate
+house senate bachelor_deg_perc
+house senate black_perc
+house senate HS_diploma_perc
+house senate white_perc
+house senate redistricted
+house median_HH_income^2
+house median_HH_income median_age
+house median_HH_income mortgage_cost
+house median_HH_income unemp_rate
+house median_HH_income bachelor_deg_perc
+house median_HH_income black_perc
+house median_HH_income HS_diploma_perc
+house median_HH_income white_perc
+house median_HH_income redistricted
+house median_age^2
+house median_age mortgage_cost
+house median_age unemp_rate
+house median_age bachelor_deg_perc
+house median_age black_perc
+house median_age HS_diploma_perc
+house median_age white_perc
+house median_age redistricted
+house mortgage_cost^2
+house mortgage_cost unemp_rate
+house mortgage_cost bachelor_deg_perc
+house mortgage_cost black_perc
+house mortgage_cost HS_diploma_perc
+house mortgage_cost white_perc
+house mortgage_cost redistricted
+house unemp_rate^2
+house unemp_rate bachelor_deg_perc
+house unemp_rate black_perc
+house unemp_rate HS_diploma_perc
+house unemp_rate white_perc
+house unemp_rate redistricted
+house bachelor_deg_perc^2
+house bachelor_deg_perc black_perc
+house bachelor_deg_perc HS_diploma_perc
+house bachelor_deg_perc white_perc
+house bachelor_deg_perc redistricted
+house black_perc^2
+house black_perc HS_diploma_perc
+house black_perc white_perc
+house black_perc redistricted
+house HS_diploma_perc^2
+house HS_diploma_perc white_perc
+house HS_diploma_perc redistricted
+house white_perc^2
+house white_perc redistricted
+house redistricted^2
+senate^3
+senate^2 median_HH_income
+senate^2 median_age
+senate^2 mortgage_cost
+senate^2 unemp_rate
+senate^2 bachelor_deg_perc
+senate^2 black_perc
+senate^2 HS_diploma_perc
+senate^2 white_perc
+senate^2 redistricted
+senate median_HH_income^2
+senate median_HH_income median_age
+senate median_HH_income mortgage_cost
+senate median_HH_income unemp_rate
+senate median_HH_income bachelor_deg_perc
+senate median_HH_income black_perc
+senate median_HH_income HS_diploma_perc
+senate median_HH_income white_perc
+senate median_HH_income redistricted
+senate median_age^2
+senate median_age mortgage_cost
+senate median_age unemp_rate
+senate median_age bachelor_deg_perc
+senate median_age black_perc
+senate median_age HS_diploma_perc
+senate median_age white_perc
+senate median_age redistricted
+senate mortgage_cost^2
+senate mortgage_cost unemp_rate
+senate mortgage_cost bachelor_deg_perc
+senate mortgage_cost black_perc
+senate mortgage_cost HS_diploma_perc
+senate mortgage_cost white_perc
+senate mortgage_cost redistricted
+senate unemp_rate^2
+senate unemp_rate bachelor_deg_perc
+senate unemp_rate black_perc
+senate unemp_rate HS_diploma_perc
+senate unemp_rate white_perc
+senate unemp_rate redistricted
+senate bachelor_deg_perc^2
+senate bachelor_deg_perc black_perc
+senate bachelor_deg_perc HS_diploma_perc
+senate bachelor_deg_perc white_perc
+senate bachelor_deg_perc redistricted
+senate black_perc^2
+senate black_perc HS_diploma_perc
+senate black_perc white_perc
+senate black_perc redistricted
+senate HS_diploma_perc^2
+senate HS_diploma_perc white_perc
+senate HS_diploma_perc redistricted
+senate white_perc^2
+senate white_perc redistricted
+senate redistricted^2
+median_HH_income^3
+median_HH_income^2 median_age
+median_HH_income^2 mortgage_cost
+median_HH_income^2 unemp_rate
+median_HH_income^2 bachelor_deg_perc
+median_HH_income^2 black_perc
+median_HH_income^2 HS_diploma_perc
+median_HH_income^2 white_perc
+median_HH_income^2 redistricted
+median_HH_income median_age^2
+median_HH_income median_age mortgage_cost
+median_HH_income median_age unemp_rate
+median_HH_income median_age bachelor_deg_perc
+median_HH_income median_age black_perc
+median_HH_income median_age HS_diploma_perc
+median_HH_income median_age white_perc
+median_HH_income median_age redistricted
+median_HH_income mortgage_cost^2
+median_HH_income mortgage_cost unemp_rate
+median_HH_income mortgage_cost bachelor_deg_perc
+median_HH_income mortgage_cost black_perc
+median_HH_income mortgage_cost HS_diploma_perc
+median_HH_income mortgage_cost white_perc
+median_HH_income mortgage_cost redistricted
+median_HH_income unemp_rate^2
+median_HH_income unemp_rate bachelor_deg_perc
+median_HH_income unemp_rate black_perc
+median_HH_income unemp_rate HS_diploma_perc
+median_HH_income unemp_rate white_perc
+median_HH_income unemp_rate redistricted
+median_HH_income bachelor_deg_perc^2
+median_HH_income bachelor_deg_perc black_perc
+median_HH_income bachelor_deg_perc HS_diploma_perc
+median_HH_income bachelor_deg_perc white_perc
+median_HH_income bachelor_deg_perc redistricted
+median_HH_income black_perc^2
+median_HH_income black_perc HS_diploma_perc
+median_HH_income black_perc white_perc
+median_HH_income black_perc redistricted
+median_HH_income HS_diploma_perc^2
+median_HH_income HS_diploma_perc white_perc
+median_HH_income HS_diploma_perc redistricted
+median_HH_income white_perc^2
+median_HH_income white_perc redistricted
+median_HH_income redistricted^2
+median_age^3
+median_age^2 mortgage_cost
+median_age^2 unemp_rate
+median_age^2 bachelor_deg_perc
+median_age^2 black_perc
+median_age^2 HS_diploma_perc
+median_age^2 white_perc
+median_age^2 redistricted
+median_age mortgage_cost^2
+median_age mortgage_cost unemp_rate
+median_age mortgage_cost bachelor_deg_perc
+median_age mortgage_cost black_perc
+median_age mortgage_cost HS_diploma_perc
+median_age mortgage_cost white_perc
+median_age mortgage_cost redistricted
+median_age unemp_rate^2
+median_age unemp_rate bachelor_deg_perc
+median_age unemp_rate black_perc
+median_age unemp_rate HS_diploma_perc
+median_age unemp_rate white_perc
+median_age unemp_rate redistricted
+median_age bachelor_deg_perc^2
+median_age bachelor_deg_perc black_perc
+median_age bachelor_deg_perc HS_diploma_perc
+median_age bachelor_deg_perc white_perc
+median_age bachelor_deg_perc redistricted
+median_age black_perc^2
+median_age black_perc HS_diploma_perc
+median_age black_perc white_perc
+median_age black_perc redistricted
+median_age HS_diploma_perc^2
+median_age HS_diploma_perc white_perc
+median_age HS_diploma_perc redistricted
+median_age white_perc^2
+median_age white_perc redistricted
+median_age redistricted^2
+mortgage_cost^3
+mortgage_cost^2 unemp_rate
+mortgage_cost^2 bachelor_deg_perc
+mortgage_cost^2 black_perc
+mortgage_cost^2 HS_diploma_perc
+mortgage_cost^2 white_perc
+mortgage_cost^2 redistricted
+mortgage_cost unemp_rate^2
+mortgage_cost unemp_rate bachelor_deg_perc
+mortgage_cost unemp_rate black_perc
+mortgage_cost unemp_rate HS_diploma_perc
+mortgage_cost unemp_rate white_perc
+mortgage_cost unemp_rate redistricted
+mortgage_cost bachelor_deg_perc^2
+mortgage_cost bachelor_deg_perc black_perc
+mortgage_cost bachelor_deg_perc HS_diploma_perc
+mortgage_cost bachelor_deg_perc white_perc
+mortgage_cost bachelor_deg_perc redistricted
+mortgage_cost black_perc^2
+mortgage_cost black_perc HS_diploma_perc
+mortgage_cost black_perc white_perc
+mortgage_cost black_perc redistricted
+mortgage_cost HS_diploma_perc^2
+mortgage_cost HS_diploma_perc white_perc
+mortgage_cost HS_diploma_perc redistricted
+mortgage_cost white_perc^2
+mortgage_cost white_perc redistricted
+mortgage_cost redistricted^2
+unemp_rate^3
+unemp_rate^2 bachelor_deg_perc
+unemp_rate^2 black_perc
+unemp_rate^2 HS_diploma_perc
+unemp_rate^2 white_perc
+unemp_rate^2 redistricted
+unemp_rate bachelor_deg_perc^2
+unemp_rate bachelor_deg_perc black_perc
+unemp_rate bachelor_deg_perc HS_diploma_perc
+unemp_rate bachelor_deg_perc white_perc
+unemp_rate bachelor_deg_perc redistricted
+unemp_rate black_perc^2
+unemp_rate black_perc HS_diploma_perc
+unemp_rate black_perc white_perc
+unemp_rate black_perc redistricted
+unemp_rate HS_diploma_perc^2
+unemp_rate HS_diploma_perc white_perc
+unemp_rate HS_diploma_perc redistricted
+unemp_rate white_perc^2
+unemp_rate white_perc redistricted
+unemp_rate redistricted^2
+bachelor_deg_perc^3
+bachelor_deg_perc^2 black_perc
+bachelor_deg_perc^2 HS_diploma_perc
+bachelor_deg_perc^2 white_perc
+bachelor_deg_perc^2 redistricted
+bachelor_deg_perc black_perc^2
+bachelor_deg_perc black_perc HS_diploma_perc
+bachelor_deg_perc black_perc white_perc
+bachelor_deg_perc black_perc redistricted
+bachelor_deg_perc HS_diploma_perc^2
+bachelor_deg_perc HS_diploma_perc white_perc
+bachelor_deg_perc HS_diploma_perc redistricted
+bachelor_deg_perc white_perc^2
+bachelor_deg_perc white_perc redistricted
+bachelor_deg_perc redistricted^2
+black_perc^3
+black_perc^2 HS_diploma_perc
+black_perc^2 white_perc
+black_perc^2 redistricted
+black_perc HS_diploma_perc^2
+black_perc HS_diploma_perc white_perc
+black_perc HS_diploma_perc redistricted
+black_perc white_perc^2
+black_perc white_perc redistricted
+black_perc redistricted^2
+HS_diploma_perc^3
+HS_diploma_perc^2 white_perc
+HS_diploma_perc^2 redistricted
+HS_diploma_perc white_perc^2
+HS_diploma_perc white_perc redistricted
+HS_diploma_perc redistricted^2
+white_perc^3
+white_perc^2 redistricted
+white_perc redistricted^2
+redistricted^3

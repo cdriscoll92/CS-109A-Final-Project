@@ -1,0 +1,6 @@
+﻿filename,year,total_pop,median_age,white_pop,black_pop,hispanic_pop,high_school_perc,bachelor_deg_perc,unemp_rate,median_HH_income,mortgage_cost,rent_cost
+/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/data/acs-source-data/acs-1-year_tables_2000-2004/Profiles5002000.csv,2000,1001,1017,1025,1026,1052,2010,2013,3006,3060,4074,4107
+/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/data/acs-source-data/acs-1-year_tables_2000-2004/Profiles5002001.csv,2001,1001,1017,1025,1026,1052,2010,2013,3006,3063,4074,4107
+/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/data/acs-source-data/acs-1-year_tables_2000-2004/Profiles5002002.csv,2002,1002,1020,1031,1032,1062,2014,2017,3008,3079,4094,4131
+/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/data/acs-source-data/acs-1-year_tables_2000-2004/Profiles5002003.csv,2003,1002,1020,1031,1032,1062,2014,2017,3008,3079,4094,4131
+/Users/colleendriscoll/Dropbox/Classes/CS 109A/CS 109A Final project/data/acs-source-data/acs-1-year_tables_2000-2004/Profiles5002004.csv,2004,1001,1019,1040,1041,1079,2013,2016,3011,3081,4115,4152

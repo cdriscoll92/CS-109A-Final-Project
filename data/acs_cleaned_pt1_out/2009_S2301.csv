@@ -1,0 +1,438 @@
+year,district,unemp_rate
+2009,"Congressional District 1 (111th Congress), Alabama",11.4
+2009,"Congressional District 2 (111th Congress), Alabama",10.3
+2009,"Congressional District 3 (111th Congress), Alabama",13.7
+2009,"Congressional District 4 (111th Congress), Alabama",11.2
+2009,"Congressional District 5 (111th Congress), Alabama",10.8
+2009,"Congressional District 6 (111th Congress), Alabama",7.7
+2009,"Congressional District 7 (111th Congress), Alabama",13.6
+2009,"Congressional District (at Large) (111th Congress), Alaska",9.5
+2009,"Congressional District 1 (111th Congress), Arizona",12.4
+2009,"Congressional District 2 (111th Congress), Arizona",10.9
+2009,"Congressional District 3 (111th Congress), Arizona",9.8
+2009,"Congressional District 4 (111th Congress), Arizona",14.0
+2009,"Congressional District 5 (111th Congress), Arizona",8.3
+2009,"Congressional District 6 (111th Congress), Arizona",9.7
+2009,"Congressional District 7 (111th Congress), Arizona",12.4
+2009,"Congressional District 8 (111th Congress), Arizona",8.5
+2009,"Congressional District 1 (111th Congress), Arkansas",10.1
+2009,"Congressional District 2 (111th Congress), Arkansas",9.3
+2009,"Congressional District 3 (111th Congress), Arkansas",7.6
+2009,"Congressional District 4 (111th Congress), Arkansas",10.0
+2009,"Congressional District 1 (111th Congress), California",9.8
+2009,"Congressional District 2 (111th Congress), California",14.3
+2009,"Congressional District 3 (111th Congress), California",11.2
+2009,"Congressional District 4 (111th Congress), California",10.6
+2009,"Congressional District 5 (111th Congress), California",14.9
+2009,"Congressional District 6 (111th Congress), California",8.9
+2009,"Congressional District 7 (111th Congress), California",11.6
+2009,"Congressional District 8 (111th Congress), California",9.9
+2009,"Congressional District 9 (111th Congress), California",10.5
+2009,"Congressional District 10 (111th Congress), California",9.8
+2009,"Congressional District 11 (111th Congress), California",11.8
+2009,"Congressional District 12 (111th Congress), California",8.7
+2009,"Congressional District 13 (111th Congress), California",11.2
+2009,"Congressional District 14 (111th Congress), California",8.3
+2009,"Congressional District 15 (111th Congress), California",10.0
+2009,"Congressional District 16 (111th Congress), California",11.7
+2009,"Congressional District 17 (111th Congress), California",12.5
+2009,"Congressional District 18 (111th Congress), California",19.1
+2009,"Congressional District 19 (111th Congress), California",12.1
+2009,"Congressional District 20 (111th Congress), California",16.7
+2009,"Congressional District 21 (111th Congress), California",12.9
+2009,"Congressional District 22 (111th Congress), California",11.9
+2009,"Congressional District 23 (111th Congress), California",9.0
+2009,"Congressional District 24 (111th Congress), California",8.8
+2009,"Congressional District 25 (111th Congress), California",12.4
+2009,"Congressional District 26 (111th Congress), California",9.5
+2009,"Congressional District 27 (111th Congress), California",10.2
+2009,"Congressional District 28 (111th Congress), California",12.8
+2009,"Congressional District 29 (111th Congress), California",10.0
+2009,"Congressional District 30 (111th Congress), California",8.6
+2009,"Congressional District 31 (111th Congress), California",11.7
+2009,"Congressional District 32 (111th Congress), California",11.2
+2009,"Congressional District 33 (111th Congress), California",12.4
+2009,"Congressional District 34 (111th Congress), California",11.0
+2009,"Congressional District 35 (111th Congress), California",12.6
+2009,"Congressional District 36 (111th Congress), California",9.1
+2009,"Congressional District 37 (111th Congress), California",13.6
+2009,"Congressional District 38 (111th Congress), California",10.6
+2009,"Congressional District 39 (111th Congress), California",11.0
+2009,"Congressional District 40 (111th Congress), California",9.6
+2009,"Congressional District 41 (111th Congress), California",13.7
+2009,"Congressional District 42 (111th Congress), California",9.2
+2009,"Congressional District 43 (111th Congress), California",15.8
+2009,"Congressional District 44 (111th Congress), California",12.7
+2009,"Congressional District 45 (111th Congress), California",14.3
+2009,"Congressional District 46 (111th Congress), California",9.5
+2009,"Congressional District 47 (111th Congress), California",11.4
+2009,"Congressional District 48 (111th Congress), California",7.7
+2009,"Congressional District 49 (111th Congress), California",13.4
+2009,"Congressional District 50 (111th Congress), California",8.0
+2009,"Congressional District 51 (111th Congress), California",12.6
+2009,"Congressional District 52 (111th Congress), California",9.1
+2009,"Congressional District 53 (111th Congress), California",9.6
+2009,"Congressional District 1 (111th Congress), Colorado",9.7
+2009,"Congressional District 2 (111th Congress), Colorado",8.1
+2009,"Congressional District 3 (111th Congress), Colorado",8.5
+2009,"Congressional District 4 (111th Congress), Colorado",8.3
+2009,"Congressional District 5 (111th Congress), Colorado",8.5
+2009,"Congressional District 6 (111th Congress), Colorado",7.3
+2009,"Congressional District 7 (111th Congress), Colorado",9.4
+2009,"Congressional District 1 (111th Congress), Connecticut",9.1
+2009,"Congressional District 2 (111th Congress), Connecticut",8.2
+2009,"Congressional District 3 (111th Congress), Connecticut",9.2
+2009,"Congressional District 4 (111th Congress), Connecticut",9.9
+2009,"Congressional District 5 (111th Congress), Connecticut",9.8
+2009,"Congressional District (at Large) (111th Congress), Delaware",8.6
+2009,"Delegate District (at Large) (111th Congress), District of Columbia",11.1
+2009,"Congressional District 1 (111th Congress), Florida",12.0
+2009,"Congressional District 2 (111th Congress), Florida",11.6
+2009,"Congressional District 3 (111th Congress), Florida",18.9
+2009,"Congressional District 4 (111th Congress), Florida",9.6
+2009,"Congressional District 5 (111th Congress), Florida",13.9
+2009,"Congressional District 6 (111th Congress), Florida",10.3
+2009,"Congressional District 7 (111th Congress), Florida",10.6
+2009,"Congressional District 8 (111th Congress), Florida",11.1
+2009,"Congressional District 9 (111th Congress), Florida",10.5
+2009,"Congressional District 10 (111th Congress), Florida",10.4
+2009,"Congressional District 11 (111th Congress), Florida",14.4
+2009,"Congressional District 12 (111th Congress), Florida",11.9
+2009,"Congressional District 13 (111th Congress), Florida",13.2
+2009,"Congressional District 14 (111th Congress), Florida",13.4
+2009,"Congressional District 15 (111th Congress), Florida",13.0
+2009,"Congressional District 16 (111th Congress), Florida",14.4
+2009,"Congressional District 17 (111th Congress), Florida",15.6
+2009,"Congressional District 18 (111th Congress), Florida",8.6
+2009,"Congressional District 19 (111th Congress), Florida",11.7
+2009,"Congressional District 20 (111th Congress), Florida",10.5
+2009,"Congressional District 21 (111th Congress), Florida",11.4
+2009,"Congressional District 22 (111th Congress), Florida",10.3
+2009,"Congressional District 23 (111th Congress), Florida",16.0
+2009,"Congressional District 24 (111th Congress), Florida",10.2
+2009,"Congressional District 25 (111th Congress), Florida",10.6
+2009,"Congressional District 1 (111th Congress), Georgia",10.7
+2009,"Congressional District 2 (111th Congress), Georgia",12.4
+2009,"Congressional District 3 (111th Congress), Georgia",10.5
+2009,"Congressional District 4 (111th Congress), Georgia",15.7
+2009,"Congressional District 5 (111th Congress), Georgia",12.9
+2009,"Congressional District 6 (111th Congress), Georgia",7.9
+2009,"Congressional District 7 (111th Congress), Georgia",10.4
+2009,"Congressional District 8 (111th Congress), Georgia",9.3
+2009,"Congressional District 9 (111th Congress), Georgia",10.4
+2009,"Congressional District 10 (111th Congress), Georgia",10.0
+2009,"Congressional District 11 (111th Congress), Georgia",10.6
+2009,"Congressional District 12 (111th Congress), Georgia",10.1
+2009,"Congressional District 13 (111th Congress), Georgia",14.1
+2009,"Congressional District 1 (111th Congress), Hawaii",5.2
+2009,"Congressional District 2 (111th Congress), Hawaii",9.0
+2009,"Congressional District 1 (111th Congress), Idaho",10.6
+2009,"Congressional District 2 (111th Congress), Idaho",8.5
+2009,"Congressional District 1 (111th Congress), Illinois",18.3
+2009,"Congressional District 2 (111th Congress), Illinois",19.0
+2009,"Congressional District 3 (111th Congress), Illinois",11.2
+2009,"Congressional District 4 (111th Congress), Illinois",12.8
+2009,"Congressional District 5 (111th Congress), Illinois",9.7
+2009,"Congressional District 6 (111th Congress), Illinois",9.4
+2009,"Congressional District 7 (111th Congress), Illinois",13.6
+2009,"Congressional District 8 (111th Congress), Illinois",9.5
+2009,"Congressional District 9 (111th Congress), Illinois",8.5
+2009,"Congressional District 10 (111th Congress), Illinois",8.1
+2009,"Congressional District 11 (111th Congress), Illinois",10.8
+2009,"Congressional District 12 (111th Congress), Illinois",10.4
+2009,"Congressional District 13 (111th Congress), Illinois",9.8
+2009,"Congressional District 14 (111th Congress), Illinois",9.6
+2009,"Congressional District 15 (111th Congress), Illinois",8.6
+2009,"Congressional District 16 (111th Congress), Illinois",11.5
+2009,"Congressional District 17 (111th Congress), Illinois",8.9
+2009,"Congressional District 18 (111th Congress), Illinois",7.0
+2009,"Congressional District 19 (111th Congress), Illinois",8.0
+2009,"Congressional District 1 (111th Congress), Indiana",12.0
+2009,"Congressional District 2 (111th Congress), Indiana",12.2
+2009,"Congressional District 3 (111th Congress), Indiana",13.5
+2009,"Congressional District 4 (111th Congress), Indiana",8.8
+2009,"Congressional District 5 (111th Congress), Indiana",8.4
+2009,"Congressional District 6 (111th Congress), Indiana",12.3
+2009,"Congressional District 7 (111th Congress), Indiana",15.2
+2009,"Congressional District 8 (111th Congress), Indiana",7.3
+2009,"Congressional District 9 (111th Congress), Indiana",9.8
+2009,"Congressional District 1 (111th Congress), Iowa",5.8
+2009,"Congressional District 2 (111th Congress), Iowa",6.8
+2009,"Congressional District 3 (111th Congress), Iowa",6.0
+2009,"Congressional District 4 (111th Congress), Iowa",5.8
+2009,"Congressional District 5 (111th Congress), Iowa",5.3
+2009,"Congressional District 1 (111th Congress), Kansas",5.0
+2009,"Congressional District 2 (111th Congress), Kansas",7.2
+2009,"Congressional District 3 (111th Congress), Kansas",7.9
+2009,"Congressional District 4 (111th Congress), Kansas",8.6
+2009,"Congressional District 1 (111th Congress), Kentucky",10.8
+2009,"Congressional District 2 (111th Congress), Kentucky",10.3
+2009,"Congressional District 3 (111th Congress), Kentucky",10.3
+2009,"Congressional District 4 (111th Congress), Kentucky",9.2
+2009,"Congressional District 5 (111th Congress), Kentucky",11.8
+2009,"Congressional District 6 (111th Congress), Kentucky",8.9
+2009,"Congressional District 1 (111th Congress), Louisiana",7.4
+2009,"Congressional District 2 (111th Congress), Louisiana",12.7
+2009,"Congressional District 3 (111th Congress), Louisiana",6.9
+2009,"Congressional District 4 (111th Congress), Louisiana",8.9
+2009,"Congressional District 5 (111th Congress), Louisiana",9.8
+2009,"Congressional District 6 (111th Congress), Louisiana",6.9
+2009,"Congressional District 7 (111th Congress), Louisiana",7.3
+2009,"Congressional District 1 (111th Congress), Maine",6.6
+2009,"Congressional District 2 (111th Congress), Maine",7.8
+2009,"Congressional District 1 (111th Congress), Maryland",7.8
+2009,"Congressional District 2 (111th Congress), Maryland",9.2
+2009,"Congressional District 3 (111th Congress), Maryland",7.3
+2009,"Congressional District 4 (111th Congress), Maryland",10.5
+2009,"Congressional District 5 (111th Congress), Maryland",7.3
+2009,"Congressional District 6 (111th Congress), Maryland",6.9
+2009,"Congressional District 7 (111th Congress), Maryland",9.4
+2009,"Congressional District 8 (111th Congress), Maryland",6.2
+2009,"Congressional District 1 (111th Congress), Massachusetts",9.7
+2009,"Congressional District 2 (111th Congress), Massachusetts",9.6
+2009,"Congressional District 3 (111th Congress), Massachusetts",10.1
+2009,"Congressional District 4 (111th Congress), Massachusetts",9.1
+2009,"Congressional District 5 (111th Congress), Massachusetts",7.7
+2009,"Congressional District 6 (111th Congress), Massachusetts",8.1
+2009,"Congressional District 7 (111th Congress), Massachusetts",7.8
+2009,"Congressional District 8 (111th Congress), Massachusetts",10.8
+2009,"Congressional District 9 (111th Congress), Massachusetts",8.7
+2009,"Congressional District 10 (111th Congress), Massachusetts",8.7
+2009,"Congressional District 1 (111th Congress), Michigan",13.1
+2009,"Congressional District 2 (111th Congress), Michigan",13.8
+2009,"Congressional District 3 (111th Congress), Michigan",12.3
+2009,"Congressional District 4 (111th Congress), Michigan",13.3
+2009,"Congressional District 5 (111th Congress), Michigan",15.8
+2009,"Congressional District 6 (111th Congress), Michigan",15.0
+2009,"Congressional District 7 (111th Congress), Michigan",13.8
+2009,"Congressional District 8 (111th Congress), Michigan",12.0
+2009,"Congressional District 9 (111th Congress), Michigan",11.4
+2009,"Congressional District 10 (111th Congress), Michigan",15.1
+2009,"Congressional District 11 (111th Congress), Michigan",11.5
+2009,"Congressional District 12 (111th Congress), Michigan",15.9
+2009,"Congressional District 13 (111th Congress), Michigan",25.9
+2009,"Congressional District 14 (111th Congress), Michigan",23.5
+2009,"Congressional District 15 (111th Congress), Michigan",13.5
+2009,"Congressional District 1 (111th Congress), Minnesota",6.1
+2009,"Congressional District 2 (111th Congress), Minnesota",7.7
+2009,"Congressional District 3 (111th Congress), Minnesota",7.4
+2009,"Congressional District 4 (111th Congress), Minnesota",9.2
+2009,"Congressional District 5 (111th Congress), Minnesota",9.3
+2009,"Congressional District 6 (111th Congress), Minnesota",8.6
+2009,"Congressional District 7 (111th Congress), Minnesota",7.1
+2009,"Congressional District 8 (111th Congress), Minnesota",9.9
+2009,"Congressional District 1 (111th Congress), Mississippi",10.7
+2009,"Congressional District 2 (111th Congress), Mississippi",14.9
+2009,"Congressional District 3 (111th Congress), Mississippi",8.2
+2009,"Congressional District 4 (111th Congress), Mississippi",9.7
+2009,"Congressional District 1 (111th Congress), Missouri",13.7
+2009,"Congressional District 2 (111th Congress), Missouri",6.7
+2009,"Congressional District 3 (111th Congress), Missouri",9.2
+2009,"Congressional District 4 (111th Congress), Missouri",8.5
+2009,"Congressional District 5 (111th Congress), Missouri",10.7
+2009,"Congressional District 6 (111th Congress), Missouri",5.8
+2009,"Congressional District 7 (111th Congress), Missouri",10.0
+2009,"Congressional District 8 (111th Congress), Missouri",10.0
+2009,"Congressional District 9 (111th Congress), Missouri",7.7
+2009,"Congressional District (at Large) (111th Congress), Montana",7.9
+2009,"Congressional District 1 (111th Congress), Nebraska",6.8
+2009,"Congressional District 2 (111th Congress), Nebraska",6.9
+2009,"Congressional District 3 (111th Congress), Nebraska",4.2
+2009,"Congressional District 1 (111th Congress), Nevada",13.5
+2009,"Congressional District 2 (111th Congress), Nevada",11.7
+2009,"Congressional District 3 (111th Congress), Nevada",11.2
+2009,"Congressional District 1 (111th Congress), New Hampshire",7.6
+2009,"Congressional District 2 (111th Congress), New Hampshire",8.1
+2009,"Congressional District 1 (111th Congress), New Jersey",11.5
+2009,"Congressional District 2 (111th Congress), New Jersey",12.3
+2009,"Congressional District 3 (111th Congress), New Jersey",10.1
+2009,"Congressional District 4 (111th Congress), New Jersey",9.1
+2009,"Congressional District 5 (111th Congress), New Jersey",7.9
+2009,"Congressional District 6 (111th Congress), New Jersey",10.4
+2009,"Congressional District 7 (111th Congress), New Jersey",7.8
+2009,"Congressional District 8 (111th Congress), New Jersey",8.9
+2009,"Congressional District 9 (111th Congress), New Jersey",7.8
+2009,"Congressional District 10 (111th Congress), New Jersey",14.6
+2009,"Congressional District 11 (111th Congress), New Jersey",7.3
+2009,"Congressional District 12 (111th Congress), New Jersey",9.1
+2009,"Congressional District 13 (111th Congress), New Jersey",10.6
+2009,"Congressional District 1 (111th Congress), New Mexico",7.2
+2009,"Congressional District 2 (111th Congress), New Mexico",11.2
+2009,"Congressional District 3 (111th Congress), New Mexico",9.1
+2009,"Congressional District 1 (111th Congress), New York",6.8
+2009,"Congressional District 2 (111th Congress), New York",7.6
+2009,"Congressional District 3 (111th Congress), New York",6.8
+2009,"Congressional District 4 (111th Congress), New York",7.7
+2009,"Congressional District 5 (111th Congress), New York",9.1
+2009,"Congressional District 6 (111th Congress), New York",11.2
+2009,"Congressional District 7 (111th Congress), New York",9.2
+2009,"Congressional District 8 (111th Congress), New York",8.1
+2009,"Congressional District 9 (111th Congress), New York",9.3
+2009,"Congressional District 10 (111th Congress), New York",10.0
+2009,"Congressional District 11 (111th Congress), New York",11.1
+2009,"Congressional District 12 (111th Congress), New York",9.7
+2009,"Congressional District 13 (111th Congress), New York",8.1
+2009,"Congressional District 14 (111th Congress), New York",8.2
+2009,"Congressional District 15 (111th Congress), New York",13.1
+2009,"Congressional District 16 (111th Congress), New York",16.1
+2009,"Congressional District 17 (111th Congress), New York",10.3
+2009,"Congressional District 18 (111th Congress), New York",7.6
+2009,"Congressional District 19 (111th Congress), New York",7.3
+2009,"Congressional District 20 (111th Congress), New York",7.7
+2009,"Congressional District 21 (111th Congress), New York",8.5
+2009,"Congressional District 22 (111th Congress), New York",7.6
+2009,"Congressional District 23 (111th Congress), New York",9.3
+2009,"Congressional District 24 (111th Congress), New York",7.4
+2009,"Congressional District 25 (111th Congress), New York",7.8
+2009,"Congressional District 26 (111th Congress), New York",8.2
+2009,"Congressional District 27 (111th Congress), New York",9.0
+2009,"Congressional District 28 (111th Congress), New York",11.0
+2009,"Congressional District 29 (111th Congress), New York",8.1
+2009,"Congressional District 1 (111th Congress), North Carolina",15.2
+2009,"Congressional District 2 (111th Congress), North Carolina",11.7
+2009,"Congressional District 3 (111th Congress), North Carolina",9.8
+2009,"Congressional District 4 (111th Congress), North Carolina",7.1
+2009,"Congressional District 5 (111th Congress), North Carolina",9.9
+2009,"Congressional District 6 (111th Congress), North Carolina",11.3
+2009,"Congressional District 7 (111th Congress), North Carolina",10.6
+2009,"Congressional District 8 (111th Congress), North Carolina",12.7
+2009,"Congressional District 9 (111th Congress), North Carolina",10.0
+2009,"Congressional District 10 (111th Congress), North Carolina",13.8
+2009,"Congressional District 11 (111th Congress), North Carolina",9.9
+2009,"Congressional District 12 (111th Congress), North Carolina",14.0
+2009,"Congressional District 13 (111th Congress), North Carolina",9.5
+2009,"Congressional District (at Large) (111th Congress), North Dakota",3.8
+2009,"Congressional District 1 (111th Congress), Ohio",10.2
+2009,"Congressional District 2 (111th Congress), Ohio",9.6
+2009,"Congressional District 3 (111th Congress), Ohio",12.2
+2009,"Congressional District 4 (111th Congress), Ohio",10.7
+2009,"Congressional District 5 (111th Congress), Ohio",12.4
+2009,"Congressional District 6 (111th Congress), Ohio",10.7
+2009,"Congressional District 7 (111th Congress), Ohio",10.6
+2009,"Congressional District 8 (111th Congress), Ohio",11.8
+2009,"Congressional District 9 (111th Congress), Ohio",14.7
+2009,"Congressional District 10 (111th Congress), Ohio",12.8
+2009,"Congressional District 11 (111th Congress), Ohio",16.4
+2009,"Congressional District 12 (111th Congress), Ohio",7.9
+2009,"Congressional District 13 (111th Congress), Ohio",11.5
+2009,"Congressional District 14 (111th Congress), Ohio",8.7
+2009,"Congressional District 15 (111th Congress), Ohio",8.2
+2009,"Congressional District 16 (111th Congress), Ohio",9.9
+2009,"Congressional District 17 (111th Congress), Ohio",12.9
+2009,"Congressional District 18 (111th Congress), Ohio",10.9
+2009,"Congressional District 1 (111th Congress), Oklahoma",6.2
+2009,"Congressional District 2 (111th Congress), Oklahoma",8.3
+2009,"Congressional District 3 (111th Congress), Oklahoma",6.1
+2009,"Congressional District 4 (111th Congress), Oklahoma",6.4
+2009,"Congressional District 5 (111th Congress), Oklahoma",7.2
+2009,"Congressional District 1 (111th Congress), Oregon",11.4
+2009,"Congressional District 2 (111th Congress), Oregon",12.1
+2009,"Congressional District 3 (111th Congress), Oregon",11.6
+2009,"Congressional District 4 (111th Congress), Oregon",13.3
+2009,"Congressional District 5 (111th Congress), Oregon",10.7
+2009,"Congressional District 1 (111th Congress), Pennsylvania",16.0
+2009,"Congressional District 2 (111th Congress), Pennsylvania",12.4
+2009,"Congressional District 3 (111th Congress), Pennsylvania",9.9
+2009,"Congressional District 4 (111th Congress), Pennsylvania",7.5
+2009,"Congressional District 5 (111th Congress), Pennsylvania",9.7
+2009,"Congressional District 6 (111th Congress), Pennsylvania",7.9
+2009,"Congressional District 7 (111th Congress), Pennsylvania",7.6
+2009,"Congressional District 8 (111th Congress), Pennsylvania",8.1
+2009,"Congressional District 9 (111th Congress), Pennsylvania",9.1
+2009,"Congressional District 10 (111th Congress), Pennsylvania",8.7
+2009,"Congressional District 11 (111th Congress), Pennsylvania",9.1
+2009,"Congressional District 12 (111th Congress), Pennsylvania",9.1
+2009,"Congressional District 13 (111th Congress), Pennsylvania",9.9
+2009,"Congressional District 14 (111th Congress), Pennsylvania",10.2
+2009,"Congressional District 15 (111th Congress), Pennsylvania",8.9
+2009,"Congressional District 16 (111th Congress), Pennsylvania",9.3
+2009,"Congressional District 17 (111th Congress), Pennsylvania",7.8
+2009,"Congressional District 18 (111th Congress), Pennsylvania",7.0
+2009,"Congressional District 19 (111th Congress), Pennsylvania",7.5
+2009,"Congressional District 1 (111th Congress), Rhode Island",8.7
+2009,"Congressional District 2 (111th Congress), Rhode Island",10.5
+2009,"Congressional District 1 (111th Congress), South Carolina",11.1
+2009,"Congressional District 2 (111th Congress), South Carolina",9.8
+2009,"Congressional District 3 (111th Congress), South Carolina",12.1
+2009,"Congressional District 4 (111th Congress), South Carolina",11.3
+2009,"Congressional District 5 (111th Congress), South Carolina",12.5
+2009,"Congressional District 6 (111th Congress), South Carolina",14.3
+2009,"Congressional District (at Large) (111th Congress), South Dakota",5.2
+2009,"Congressional District 1 (111th Congress), Tennessee",12.1
+2009,"Congressional District 2 (111th Congress), Tennessee",9.1
+2009,"Congressional District 3 (111th Congress), Tennessee",12.1
+2009,"Congressional District 4 (111th Congress), Tennessee",11.5
+2009,"Congressional District 5 (111th Congress), Tennessee",9.7
+2009,"Congressional District 6 (111th Congress), Tennessee",10.1
+2009,"Congressional District 7 (111th Congress), Tennessee",8.3
+2009,"Congressional District 8 (111th Congress), Tennessee",13.6
+2009,"Congressional District 9 (111th Congress), Tennessee",14.7
+2009,"Congressional District 1 (111th Congress), Texas",8.7
+2009,"Congressional District 2 (111th Congress), Texas",7.6
+2009,"Congressional District 3 (111th Congress), Texas",7.4
+2009,"Congressional District 4 (111th Congress), Texas",8.6
+2009,"Congressional District 5 (111th Congress), Texas",7.8
+2009,"Congressional District 6 (111th Congress), Texas",8.6
+2009,"Congressional District 7 (111th Congress), Texas",5.0
+2009,"Congressional District 8 (111th Congress), Texas",7.6
+2009,"Congressional District 9 (111th Congress), Texas",9.6
+2009,"Congressional District 10 (111th Congress), Texas",6.9
+2009,"Congressional District 11 (111th Congress), Texas",7.0
+2009,"Congressional District 12 (111th Congress), Texas",9.9
+2009,"Congressional District 13 (111th Congress), Texas",6.8
+2009,"Congressional District 14 (111th Congress), Texas",8.1
+2009,"Congressional District 15 (111th Congress), Texas",10.6
+2009,"Congressional District 16 (111th Congress), Texas",6.9
+2009,"Congressional District 17 (111th Congress), Texas",8.1
+2009,"Congressional District 18 (111th Congress), Texas",8.5
+2009,"Congressional District 19 (111th Congress), Texas",6.3
+2009,"Congressional District 20 (111th Congress), Texas",8.9
+2009,"Congressional District 21 (111th Congress), Texas",6.2
+2009,"Congressional District 22 (111th Congress), Texas",6.5
+2009,"Congressional District 23 (111th Congress), Texas",9.0
+2009,"Congressional District 24 (111th Congress), Texas",8.3
+2009,"Congressional District 25 (111th Congress), Texas",8.4
+2009,"Congressional District 26 (111th Congress), Texas",8.9
+2009,"Congressional District 27 (111th Congress), Texas",9.0
+2009,"Congressional District 28 (111th Congress), Texas",8.6
+2009,"Congressional District 29 (111th Congress), Texas",11.6
+2009,"Congressional District 30 (111th Congress), Texas",11.3
+2009,"Congressional District 31 (111th Congress), Texas",8.2
+2009,"Congressional District 32 (111th Congress), Texas",9.4
+2009,"Congressional District 1 (111th Congress), Utah",8.1
+2009,"Congressional District 2 (111th Congress), Utah",7.1
+2009,"Congressional District 3 (111th Congress), Utah",8.3
+2009,"Congressional District (at Large) (111th Congress), Vermont",7.6
+2009,"Congressional District 1 (111th Congress), Virginia",7.6
+2009,"Congressional District 2 (111th Congress), Virginia",7.4
+2009,"Congressional District 3 (111th Congress), Virginia",11.9
+2009,"Congressional District 4 (111th Congress), Virginia",8.4
+2009,"Congressional District 5 (111th Congress), Virginia",8.2
+2009,"Congressional District 6 (111th Congress), Virginia",7.0
+2009,"Congressional District 7 (111th Congress), Virginia",6.1
+2009,"Congressional District 8 (111th Congress), Virginia",6.4
+2009,"Congressional District 9 (111th Congress), Virginia",9.6
+2009,"Congressional District 10 (111th Congress), Virginia",5.3
+2009,"Congressional District 11 (111th Congress), Virginia",5.7
+2009,"Congressional District 1 (111th Congress), Washington",7.8
+2009,"Congressional District 2 (111th Congress), Washington",9.8
+2009,"Congressional District 3 (111th Congress), Washington",11.4
+2009,"Congressional District 4 (111th Congress), Washington",10.2
+2009,"Congressional District 5 (111th Congress), Washington",9.9
+2009,"Congressional District 6 (111th Congress), Washington",11.6
+2009,"Congressional District 7 (111th Congress), Washington",7.8
+2009,"Congressional District 8 (111th Congress), Washington",8.3
+2009,"Congressional District 9 (111th Congress), Washington",9.9
+2009,"Congressional District 1 (111th Congress), West Virginia",7.7
+2009,"Congressional District 2 (111th Congress), West Virginia",8.1
+2009,"Congressional District 3 (111th Congress), West Virginia",7.3
+2009,"Congressional District 1 (111th Congress), Wisconsin",9.0
+2009,"Congressional District 2 (111th Congress), Wisconsin",7.2
+2009,"Congressional District 3 (111th Congress), Wisconsin",6.4
+2009,"Congressional District 4 (111th Congress), Wisconsin",12.8
+2009,"Congressional District 5 (111th Congress), Wisconsin",6.7
+2009,"Congressional District 6 (111th Congress), Wisconsin",7.8
+2009,"Congressional District 7 (111th Congress), Wisconsin",8.1
+2009,"Congressional District 8 (111th Congress), Wisconsin",7.9
+2009,"Congressional District (at Large) (111th Congress), Wyoming",5.9
+2009,"Resident Commissioner District (at Large) (111th Congress), Puerto Rico",18.9

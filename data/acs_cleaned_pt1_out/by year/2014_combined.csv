@@ -1,0 +1,438 @@
+year,district,black_pop,total_pop,white_pop,mortgage_cost,median_age,bach_deg_num,high_school_num,median_HH_income,unemp_rate
+2014,"Congressional District 1 (114th Congress), Alabama",194320,696783,468456,798,39.5,71101.0,154423.0,23349.0,8.3
+2014,"Congressional District 2 (114th Congress), Alabama",209361,678622,443780,698,38.0,59726.0,146658.0,22063.0,9.2
+2014,"Congressional District 3 (114th Congress), Alabama",183400,706574,492627,684,38.0,58202.0,154346.0,21601.0,9.1
+2014,"Congressional District 4 (114th Congress), Alabama",46899,683372,596472,590,40.9,46150.0,163907.0,20821.0,7.6
+2014,"Congressional District 5 (114th Congress), Alabama",121562,706373,542208,741,39.4,89911.0,128197.0,25580.0,7.6
+2014,"Congressional District 6 (114th Congress), Alabama",100977,696788,552743,935,39.3,100772.0,126435.0,28759.0,6.2
+2014,"Congressional District 7 (114th Congress), Alabama",435307,680865,223987,702,35.2,52196.0,154699.0,17611.0,12.4
+2014,"Congressional District (at Large) (114th Congress), Alaska",24790,736732,483584,1258,33.3,85634.0,131987.0,31557.0,7.6
+2014,"Congressional District 1 (114th Congress), Arizona",18230,739373,486153,770,37.0,67744.0,131291.0,22818.0,10.6
+2014,"Congressional District 2 (114th Congress), Arizona",25792,713036,580233,843,40.9,94657.0,106740.0,25887.0,7.9
+2014,"Congressional District 3 (114th Congress), Arizona",33858,757119,562263,844,31.0,47727.0,117556.0,20035.0,10.2
+2014,"Congressional District 4 (114th Congress), Arizona",13189,734258,650401,788,47.2,64237.0,163251.0,22619.0,9.4
+2014,"Congressional District 5 (114th Congress), Arizona",20944,781441,670857,1134,36.5,109458.0,113631.0,31803.0,6.1
+2014,"Congressional District 6 (114th Congress), Arizona",16303,737185,633444,1104,41.4,140789.0,94687.0,33507.0,6.3
+2014,"Congressional District 7 (114th Congress), Arizona",72178,763089,480612,814,28.8,40177.0,119270.0,20334.0,10.3
+2014,"Congressional District 8 (114th Congress), Arizona",39115,760904,640193,1070,42.0,92411.0,140171.0,31051.0,6.0
+2014,"Congressional District 9 (114th Congress), Arizona",40909,745079,569179,955,33.6,108584.0,93215.0,27933.0,6.1
+2014,"Congressional District 1 (114th Congress), Arkansas",132462,723492,570516,612,39.6,50446.0,185076.0,20450.0,7.2
+2014,"Congressional District 2 (114th Congress), Arkansas",168144,756326,552349,783,36.6,92135.0,155401.0,24738.0,6.3
+2014,"Congressional District 3 (114th Congress), Arkansas",23716,767904,661353,736,35.4,78498.0,155326.0,24013.0,5.3
+2014,"Congressional District 4 (114th Congress), Arkansas",143909,718647,538254,559,40.0,51332.0,190983.0,20458.0,8.5
+2014,"Congressional District 1 (114th Congress), California",10733,710428,609675,927,42.6,75321.0,121296.0,22840.0,9.2
+2014,"Congressional District 2 (114th Congress), California",11582,720049,574227,1436,43.4,122237.0,101360.0,30266.0,6.9
+2014,"Congressional District 3 (114th Congress), California",42871,720104,470612,1191,35.2,67591.0,107876.0,25601.0,9.4
+2014,"Congressional District 4 (114th Congress), California",8767,719688,620463,1353,44.1,108512.0,109762.0,31298.0,7.9
+2014,"Congressional District 5 (114th Congress), California",48319,722814,468352,1426,39.5,106919.0,100933.0,30256.0,7.6
+2014,"Congressional District 6 (114th Congress), California",97571,737671,379085,1041,33.5,80514.0,110045.0,23737.0,10.5
+2014,"Congressional District 7 (114th Congress), California",52695,736555,486767,1299,37.9,107774.0,105598.0,30826.0,9.3
+2014,"Congressional District 8 (114th Congress), California",58369,715953,541202,1028,34.2,43074.0,125667.0,22305.0,13.2
+2014,"Congressional District 9 (114th Congress), California",72607,738320,403121,1204,34.8,61651.0,122031.0,23657.0,11.2
+2014,"Congressional District 10 (114th Congress), California",18508,732084,537662,1149,33.7,55539.0,129553.0,24993.0,12.6
+2014,"Congressional District 11 (114th Congress), California",56275,739693,458725,1525,39.5,134504.0,96195.0,33337.0,8.1
+2014,"Congressional District 12 (114th Congress), California",38702,736123,367300,1719,38.6,197068.0,71932.0,41882.0,5.7
+2014,"Congressional District 13 (114th Congress), California",129675,743310,331662,1413,36.2,128210.0,76000.0,31328.0,7.3
+2014,"Congressional District 14 (114th Congress), California",25732,753002,347939,1940,39.1,154225.0,87279.0,38813.0,5.6
+2014,"Congressional District 15 (114th Congress), California",49314,753911,360146,1868,37.9,126847.0,103916.0,37153.0,6.1
+2014,"Congressional District 16 (114th Congress), California",42512,718849,409083,888,30.0,33869.0,105477.0,17796.0,12.3
+2014,"Congressional District 17 (114th Congress), California",20377,756995,250694,2015,36.3,149863.0,82967.0,44435.0,5.5
+2014,"Congressional District 18 (114th Congress), California",16564,734378,478871,2044,40.3,152504.0,60280.0,48241.0,5.5
+2014,"Congressional District 19 (114th Congress), California",20800,746211,352028,1834,36.2,105579.0,99724.0,30568.0,7.1
+2014,"Congressional District 20 (114th Congress), California",13877,732074,569208,1420,34.1,73909.0,96433.0,24526.0,6.8
+2014,"Congressional District 21 (114th Congress), California",26559,712295,507568,863,29.3,20986.0,107034.0,17011.0,13.2
+2014,"Congressional District 22 (114th Congress), California",26582,739418,538102,1073,32.4,69726.0,106162.0,24466.0,9.1
+2014,"Congressional District 23 (114th Congress), California",54909,747914,566921,1052,32.9,59891.0,131631.0,25583.0,9.1
+2014,"Congressional District 24 (114th Congress), California",14076,726519,589206,1436,35.6,91685.0,85855.0,25421.0,6.4
+2014,"Congressional District 25 (114th Congress), California",59327,718796,454790,1594,35.7,82753.0,106704.0,30948.0,8.8
+2014,"Congressional District 26 (114th Congress), California",12625,725795,583740,1665,36.7,95072.0,89263.0,28910.0,8.3
+2014,"Congressional District 27 (114th Congress), California",29000,714911,283221,1444,41.0,124204.0,98915.0,27917.0,5.9
+2014,"Congressional District 28 (114th Congress), California",15682,721435,482278,1433,38.7,158418.0,97265.0,29859.0,8.2
+2014,"Congressional District 29 (114th Congress), California",27285,718633,398751,1311,33.2,62824.0,120486.0,20732.0,10.1
+2014,"Congressional District 30 (114th Congress), California",40637,754331,503027,1704,39.2,150843.0,95217.0,31774.0,8.1
+2014,"Congressional District 31 (114th Congress), California",76524,738321,456059,1267,31.8,65421.0,120262.0,24444.0,10.8
+2014,"Congressional District 32 (114th Congress), California",24177,735945,333747,1373,36.1,68802.0,125096.0,22276.0,8.8
+2014,"Congressional District 33 (114th Congress), California",15178,714411,533125,2081,41.2,190919.0,49243.0,50517.0,6.5
+2014,"Congressional District 34 (114th Congress), California",29134,720406,307589,1064,34.7,83281.0,99990.0,17833.0,8.8
+2014,"Congressional District 35 (114th Congress), California",45163,732845,351243,1315,31.3,43944.0,119341.0,21726.0,10.8
+2014,"Congressional District 36 (114th Congress), California",31410,746522,509325,1034,38.9,64789.0,135614.0,22363.0,11.2
+2014,"Congressional District 37 (114th Congress), California",161195,723724,323503,1397,35.8,109884.0,86766.0,25546.0,8.9
+2014,"Congressional District 38 (114th Congress), California",26218,720208,356390,1406,36.3,69616.0,124530.0,25063.0,7.0
+2014,"Congressional District 39 (114th Congress), California",17252,716854,381654,1715,37.7,128542.0,87566.0,31534.0,6.5
+2014,"Congressional District 40 (114th Congress), California",35286,713940,387047,1105,30.6,28372.0,96859.0,17444.0,10.2
+2014,"Congressional District 41 (114th Congress), California",62459,739287,391578,1291,30.7,41710.0,124262.0,22316.0,13.3
+2014,"Congressional District 42 (114th Congress), California",48344,754191,507575,1634,34.9,74071.0,117881.0,28875.0,10.8
+2014,"Congressional District 43 (114th Congress), California",174988,731916,275481,1245,34.4,80906.0,104939.0,23313.0,10.5
+2014,"Congressional District 44 (114th Congress), California",114881,726147,329140,1223,30.6,35332.0,108168.0,19505.0,11.6
+2014,"Congressional District 45 (114th Congress), California",14889,763368,485882,1971,38.1,163802.0,69552.0,40625.0,6.0
+2014,"Congressional District 46 (114th Congress), California",10311,730783,441838,1419,31.6,59349.0,106179.0,22036.0,7.2
+2014,"Congressional District 47 (114th Congress), California",50753,718747,409600,1360,37.1,95462.0,94962.0,26870.0,8.0
+2014,"Congressional District 48 (114th Congress), California",7985,726491,473787,1800,41.1,144469.0,79148.0,36793.0,6.1
+2014,"Congressional District 49 (114th Congress), California",17386,728456,582666,1825,37.4,130917.0,77144.0,34123.0,5.7
+2014,"Congressional District 50 (114th Congress), California",20508,737332,572093,1502,37.2,92578.0,111173.0,27673.0,7.9
+2014,"Congressional District 51 (114th Congress), California",50510,720935,464135,1093,31.6,46315.0,109934.0,19740.0,13.4
+2014,"Congressional District 52 (114th Congress), California",23841,759602,523582,1839,36.2,178168.0,63186.0,40324.0,5.8
+2014,"Congressional District 53 (114th Congress), California",58757,753810,492579,1481,35.2,121401.0,96202.0,31124.0,7.6
+2014,"Congressional District 1 (114th Congress), Colorado",65822,788694,630280,1129,34.8,150921.0,99348.0,32210.0,4.7
+2014,"Congressional District 2 (114th Congress), Colorado",6821,765721,695480,1283,37.5,158539.0,82297.0,31673.0,4.8
+2014,"Congressional District 3 (114th Congress), Colorado",6581,729368,643028,892,38.9,101713.0,133526.0,25639.0,6.7
+2014,"Congressional District 4 (114th Congress), Colorado",12349,768242,683435,1162,36.8,108342.0,124013.0,30986.0,5.1
+2014,"Congressional District 5 (114th Congress), Colorado",40619,759664,613785,1080,35.3,102192.0,111698.0,27806.0,7.2
+2014,"Congressional District 6 (114th Congress), Colorado",70636,772966,575067,1292,35.8,141985.0,98697.0,35112.0,5.1
+2014,"Congressional District 7 (114th Congress), Colorado",12618,771211,679306,1158,36.3,98466.0,134237.0,31134.0,5.0
+2014,"Congressional District 1 (114th Congress), Connecticut",108744,711205,502787,1235,40.9,104682.0,134955.0,32490.0,9.2
+2014,"Congressional District 2 (114th Congress), Connecticut",30758,710798,612355,1264,41.9,92948.0,146318.0,31812.0,6.4
+2014,"Congressional District 3 (114th Congress), Connecticut",95010,720986,539395,1344,39.4,94701.0,150653.0,31733.0,8.1
+2014,"Congressional District 4 (114th Congress), Connecticut",89499,740215,536542,1897,38.9,135233.0,101672.0,37161.0,8.5
+2014,"Congressional District 5 (114th Congress), Connecticut",47846,713473,572870,1282,41.5,99908.0,146676.0,33138.0,7.4
+2014,"Congressional District (at Large) (114th Congress), Delaware",203326,935614,647533,1093,39.6,116931.0,199747.0,30173.0,6.7
+2014,"Delegate District (at Large) (114th Congress), District of Columbia",321346,658893,265077,1513,33.8,112706.0,84213.0,40094.0,8.9
+2014,"Congressional District 1 (114th Congress), Florida",100582,743897,571711,932,38.2,91010.0,143506.0,25709.0,6.9
+2014,"Congressional District 2 (114th Congress), Florida",177955,711296,493170,844,36.8,77662.0,137141.0,24186.0,10.1
+2014,"Congressional District 3 (114th Congress), Florida",90160,716034,573217,803,38.8,69457.0,150450.0,23359.0,10.3
+2014,"Congressional District 4 (114th Congress), Florida",97417,714880,554431,1047,38.1,97773.0,140314.0,29376.0,6.9
+2014,"Congressional District 5 (114th Congress), Florida",392641,742217,288736,836,34.0,54758.0,164616.0,19255.0,12.3
+2014,"Congressional District 6 (114th Congress), Florida",67929,736069,627765,892,46.8,92588.0,168314.0,24985.0,6.5
+2014,"Congressional District 7 (114th Congress), Florida",77123,735643,588945,1081,37.4,108192.0,128547.0,25994.0,6.8
+2014,"Congressional District 8 (114th Congress), Florida",74102,715672,596149,865,47.7,88701.0,156666.0,24667.0,9.1
+2014,"Congressional District 9 (114th Congress), Florida",80574,769993,569188,1069,35.4,86293.0,140646.0,22035.0,8.4
+2014,"Congressional District 10 (114th Congress), Florida",89276,758350,591441,993,41.0,102355.0,154161.0,25779.0,7.4
+2014,"Congressional District 11 (114th Congress), Florida",62350,728133,629693,685,52.8,68879.0,204487.0,21167.0,8.9
+2014,"Congressional District 12 (114th Congress), Florida",38081,729937,642401,934,44.6,99366.0,156773.0,26114.0,6.5
+2014,"Congressional District 13 (114th Congress), Florida",42667,707503,610496,913,47.9,99848.0,155023.0,26407.0,6.4
+2014,"Congressional District 14 (114th Congress), Florida",191383,757963,474776,931,36.1,90625.0,149256.0,24321.0,8.2
+2014,"Congressional District 15 (114th Congress), Florida",102476,724176,538561,920,37.4,81462.0,152690.0,26167.0,8.2
+2014,"Congressional District 16 (114th Congress), Florida",49965,744076,658645,908,51.1,107476.0,173221.0,26957.0,5.7
+2014,"Congressional District 17 (114th Congress), Florida",64507,725251,608499,730,47.2,62999.0,184228.0,21978.0,10.4
+2014,"Congressional District 18 (114th Congress), Florida",94271,731704,591226,1083,47.2,94101.0,161322.0,26880.0,7.2
+2014,"Congressional District 19 (114th Congress), Florida",61153,753542,652444,971,50.0,111048.0,157183.0,26173.0,6.3
+2014,"Congressional District 20 (114th Congress), Florida",387128,745656,307618,993,36.6,64055.0,173307.0,20527.0,11.4
+2014,"Congressional District 21 (114th Congress), Florida",95012,742664,579711,1175,44.4,116273.0,144293.0,27486.0,7.0
+2014,"Congressional District 22 (114th Congress), Florida",91699,731165,585590,1181,44.8,132215.0,129074.0,29810.0,7.4
+2014,"Congressional District 23 (114th Congress), Florida",86427,730033,565313,1316,41.2,113031.0,129499.0,27562.0,7.0
+2014,"Congressional District 24 (114th Congress), Florida",427161,741950,266289,1058,35.8,65558.0,150631.0,20454.0,12.1
+2014,"Congressional District 25 (114th Congress), Florida",54302,745358,637143,1148,39.5,90566.0,149582.0,21512.0,6.6
+2014,"Congressional District 26 (114th Congress), Florida",70410,749692,646991,1299,40.1,90344.0,143678.0,23190.0,6.0
+2014,"Congressional District 27 (114th Congress), Florida",54409,760443,663711,1140,39.9,92028.0,152692.0,20821.0,7.8
+2014,"Congressional District 1 (114th Congress), Georgia",217114,729328,454517,901,35.0,72918.0,146772.0,25251.0,8.1
+2014,"Congressional District 2 (114th Congress), Georgia",352856,685342,294263,700,35.6,45886.0,147114.0,20328.0,13.4
+2014,"Congressional District 3 (114th Congress), Georgia",177251,725530,503728,923,37.0,73625.0,144146.0,25459.0,8.7
+2014,"Congressional District 4 (114th Congress), Georgia",416824,728367,228266,1000,35.7,88332.0,121684.0,24560.0,11.1
+2014,"Congressional District 5 (114th Congress), Georgia",428900,738016,244573,1015,33.5,113332.0,108592.0,25476.0,11.0
+2014,"Congressional District 6 (114th Congress), Georgia",100526,732089,518393,1273,37.5,183003.0,74002.0,40254.0,4.5
+2014,"Congressional District 7 (114th Congress), Georgia",141798,752996,442553,1186,35.5,127381.0,106437.0,30591.0,5.2
+2014,"Congressional District 8 (114th Congress), Georgia",217811,705698,456101,703,36.6,56334.0,156150.0,22200.0,8.4
+2014,"Congressional District 9 (114th Congress), Georgia",53367,717371,620486,786,39.7,62132.0,154983.0,22566.0,5.8
+2014,"Congressional District 10 (114th Congress), Georgia",190746,713570,489442,865,37.1,66487.0,151539.0,22312.0,8.1
+2014,"Congressional District 11 (114th Congress), Georgia",127756,725169,530232,1111,35.9,122558.0,107205.0,31526.0,6.4
+2014,"Congressional District 12 (114th Congress), Georgia",250356,701628,412025,726,35.0,57142.0,159527.0,20995.0,9.7
+2014,"Congressional District 13 (114th Congress), Georgia",420245,741383,253307,1022,35.1,78619.0,137760.0,26710.0,9.7
+2014,"Congressional District 14 (114th Congress), Georgia",68070,700856,596031,770,37.2,51984.0,154056.0,22453.0,7.3
+2014,"Congressional District 1 (114th Congress), Hawaii",16599,707541,131131,1591,38.6,108314.0,130997.0,31986.0,4.5
+2014,"Congressional District 2 (114th Congress), Hawaii",14130,712020,229580,1379,37.5,92001.0,146670.0,30234.0,6.4
+2014,"Congressional District 1 (114th Congress), Idaho",3262,834295,777990,853,37.9,86946.0,161423.0,23982.0,5.9
+2014,"Congressional District 2 (114th Congress), Idaho",8092,800169,720117,766,34.1,88162.0,133439.0,22739.0,5.2
+2014,"Congressional District 1 (114th Congress), Illinois",366890,717741,294595,1040,38.1,77768.0,136842.0,26195.0,13.8
+2014,"Congressional District 2 (114th Congress), Illinois",393634,707817,275773,990,38.2,64969.0,138680.0,24832.0,15.4
+2014,"Congressional District 3 (114th Congress), Illinois",30458,730269,560358,1150,37.5,80938.0,150265.0,28761.0,8.2
+2014,"Congressional District 4 (114th Congress), Illinois",34949,725616,424266,985,31.9,68530.0,119647.0,22199.0,9.1
+2014,"Congressional District 5 (114th Congress), Illinois",19244,717666,585330,1389,35.0,167261.0,94707.0,40355.0,5.3
+2014,"Congressional District 6 (114th Congress), Illinois",20728,734700,613230,1567,41.2,155077.0,86728.0,40437.0,4.9
+2014,"Congressional District 7 (114th Congress), Illinois",361907,727478,243309,1228,33.6,103260.0,102065.0,26478.0,12.5
+2014,"Congressional District 8 (114th Congress), Illinois",29460,725320,493417,1253,36.7,105757.0,121642.0,30775.0,7.5
+2014,"Congressional District 9 (114th Congress), Illinois",65233,710295,514862,1262,39.7,152893.0,91062.0,32908.0,6.7
+2014,"Congressional District 10 (114th Congress), Illinois",46338,711698,549483,1353,38.1,117718.0,102474.0,31507.0,6.2
+2014,"Congressional District 11 (114th Congress), Illinois",85268,712657,452899,1318,34.9,94196.0,105496.0,30956.0,6.8
+2014,"Congressional District 12 (114th Congress), Illinois",117807,701698,553900,717,39.3,60255.0,154263.0,26068.0,7.8
+2014,"Congressional District 13 (114th Congress), Illinois",83759,715374,581452,762,35.9,83920.0,141503.0,24632.0,6.9
+2014,"Congressional District 14 (114th Congress), Illinois",21684,725522,634856,1536,39.5,120973.0,109811.0,36011.0,5.2
+2014,"Congressional District 15 (114th Congress), Illinois",30309,705504,657420,661,40.5,59820.0,172923.0,25366.0,7.7
+2014,"Congressional District 16 (114th Congress), Illinois",27848,699582,633351,842,40.3,64496.0,163269.0,26595.0,8.4
+2014,"Congressional District 17 (114th Congress), Illinois",77981,701014,572850,683,39.7,57361.0,165109.0,24081.0,8.7
+2014,"Congressional District 18 (114th Congress), Illinois",24218,710629,649094,802,40.4,101830.0,149195.0,30608.0,5.7
+2014,"Congressional District 1 (114th Congress), Indiana",139622,718064,502079,884,38.9,70535.0,166918.0,26519.0,10.0
+2014,"Congressional District 2 (114th Congress), Indiana",48799,721627,624564,740,37.1,62196.0,175678.0,24323.0,6.6
+2014,"Congressional District 3 (114th Congress), Indiana",44145,734384,639346,723,37.0,72082.0,162648.0,25899.0,6.2
+2014,"Congressional District 4 (114th Congress), Indiana",27312,742958,667284,819,37.0,74310.0,166286.0,26121.0,6.2
+2014,"Congressional District 5 (114th Congress), Indiana",55555,743454,637700,976,37.9,140351.0,113378.0,32132.0,5.3
+2014,"Congressional District 6 (114th Congress), Indiana",20758,720106,671660,750,40.0,62350.0,192138.0,25578.0,6.6
+2014,"Congressional District 7 (114th Congress), Indiana",225416,756223,460140,803,33.4,70114.0,157446.0,22331.0,10.2
+2014,"Congressional District 8 (114th Congress), Indiana",29918,723064,666492,712,39.3,58894.0,187601.0,24734.0,5.8
+2014,"Congressional District 9 (114th Congress), Indiana",21365,736975,678125,830,37.6,72061.0,165920.0,25536.0,6.7
+2014,"Congressional District 1 (114th Congress), Iowa",27029,770612,704896,774,38.6,91409.0,173484.0,28882.0,4.0
+2014,"Congressional District 2 (114th Congress), Iowa",29303,776785,701868,788,38.4,92377.0,166227.0,27014.0,4.8
+2014,"Congressional District 3 (114th Congress), Iowa",32053,801039,722087,925,37.0,119797.0,151250.0,31359.0,4.6
+2014,"Congressional District 4 (114th Congress), Iowa",9489,758690,708907,670,39.1,80360.0,163929.0,25799.0,4.3
+2014,"Congressional District 1 (114th Congress), Kansas",22038,718346,628657,708,35.1,72544.0,133733.0,25066.0,5.2
+2014,"Congressional District 2 (114th Congress), Kansas",34196,715446,626053,779,37.2,78974.0,144487.0,25478.0,5.3
+2014,"Congressional District 3 (114th Congress), Kansas",64226,749250,610852,1074,36.2,141352.0,90565.0,32432.0,4.9
+2014,"Congressional District 4 (114th Congress), Kansas",51516,720979,600576,788,36.4,88422.0,129965.0,27082.0,5.5
+2014,"Congressional District 1 (114th Congress), Kentucky",50571,724041,645577,606,39.5,44652.0,185148.0,21103.0,8.3
+2014,"Congressional District 2 (114th Congress), Kentucky",38276,742858,664275,718,37.7,54161.0,181430.0,22632.0,6.9
+2014,"Congressional District 3 (114th Congress), Kentucky",159762,736532,531206,819,37.7,88480.0,137460.0,26129.0,6.8
+2014,"Congressional District 4 (114th Congress), Kentucky",23874,748191,692270,856,38.2,79044.0,166374.0,26462.0,6.4
+2014,"Congressional District 5 (114th Congress), Kentucky",11478,712274,688429,487,41.0,29505.0,188679.0,17239.0,11.2
+2014,"Congressional District 6 (114th Congress), Kentucky",66180,749561,636504,786,36.9,91121.0,144492.0,24388.0,7.4
+2014,"Congressional District 1 (114th Congress), Louisiana",108175,796858,630097,907,37.3,101304.0,162768.0,27692.0,6.5
+2014,"Congressional District 2 (114th Congress), Louisiana",483709,775807,249041,838,35.7,72427.0,168229.0,21831.0,9.3
+2014,"Congressional District 3 (114th Congress), Louisiana",194534,777665,550804,663,35.4,73575.0,175501.0,23693.0,6.7
+2014,"Congressional District 4 (114th Congress), Louisiana",254401,756663,463426,657,36.3,61675.0,177026.0,22500.0,8.1
+2014,"Congressional District 5 (114th Congress), Louisiana",267648,750819,462421,581,37.1,56494.0,189766.0,19785.0,9.3
+2014,"Congressional District 6 (114th Congress), Louisiana",193717,791864,563353,871,35.2,98385.0,160238.0,28231.0,5.5
+2014,"Congressional District 1 (114th Congress), Maine",11579,673835,636471,1019,43.7,114439.0,135982.0,27980.0,4.8
+2014,"Congressional District 2 (114th Congress), Maine",4978,656254,623807,730,44.6,71451.0,174305.0,22181.0,7.0
+2014,"Congressional District 1 (114th Congress), Maryland",88624,728405,603248,1165,42.1,89416.0,161065.0,31330.0,4.9
+2014,"Congressional District 2 (114th Congress), Maryland",251717,743321,413514,1203,36.1,88519.0,152492.0,31260.0,7.8
+2014,"Congressional District 3 (114th Congress), Maryland",180941,768378,484512,1492,36.9,134781.0,117790.0,39737.0,6.2
+2014,"Congressional District 4 (114th Congress), Maryland",390819,742761,253917,1481,36.9,93106.0,131499.0,36541.0,8.5
+2014,"Congressional District 5 (114th Congress), Maryland",283227,753079,389615,1707,38.3,98371.0,137626.0,39919.0,7.7
+2014,"Congressional District 6 (114th Congress), Maryland",92578,755369,513374,1394,38.7,109808.0,121762.0,33900.0,6.8
+2014,"Congressional District 7 (114th Congress), Maryland",396411,738431,264827,1150,37.4,97296.0,134290.0,29858.0,9.3
+2014,"Congressional District 8 (114th Congress), Maryland",90301,746663,509575,1717,40.4,130018.0,87402.0,41388.0,6.3
+2014,"Congressional District 1 (114th Congress), Massachusetts",46699,733426,614854,975,41.0,81880.0,146784.0,25903.0,8.8
+2014,"Congressional District 2 (114th Congress), Massachusetts",36702,736475,624547,1166,39.1,108952.0,140256.0,29062.0,6.9
+2014,"Congressional District 3 (114th Congress), Massachusetts",19546,755778,579456,1292,38.7,108130.0,139733.0,31678.0,6.8
+2014,"Congressional District 4 (114th Congress), Massachusetts",21330,748190,653912,1579,41.0,130462.0,110678.0,39270.0,5.5
+2014,"Congressional District 5 (114th Congress), Massachusetts",40036,755944,592584,1595,38.7,143293.0,106517.0,39164.0,5.2
+2014,"Congressional District 6 (114th Congress), Massachusetts",22847,757309,648304,1488,42.7,136823.0,130234.0,36090.0,5.7
+2014,"Congressional District 7 (114th Congress), Massachusetts",191881,769929,395110,1437,31.3,116616.0,111974.0,25909.0,8.4
+2014,"Congressional District 8 (114th Congress), Massachusetts",74762,751768,586750,1517,39.7,143512.0,129126.0,36856.0,6.9
+2014,"Congressional District 9 (114th Congress), Massachusetts",23724,736589,651903,1185,45.1,108325.0,145730.0,30406.0,6.3
+2014,"Congressional District 1 (114th Congress), Michigan",11962,703687,649927,706,46.0,77670.0,172701.0,22467.0,7.8
+2014,"Congressional District 2 (114th Congress), Michigan",43140,724843,615780,801,36.6,78119.0,148298.0,23372.0,7.4
+2014,"Congressional District 3 (114th Congress), Michigan",64386,725487,609903,841,37.1,90847.0,139850.0,25595.0,6.6
+2014,"Congressional District 4 (114th Congress), Michigan",12686,702630,661426,730,40.9,63277.0,167880.0,22596.0,7.8
+2014,"Congressional District 5 (114th Congress), Michigan",118792,687292,531937,731,40.9,58640.0,155610.0,22461.0,11.4
+2014,"Congressional District 6 (114th Congress), Michigan",59469,712100,604262,774,38.5,77263.0,142830.0,24730.0,6.9
+2014,"Congressional District 7 (114th Congress), Michigan",28765,702894,642782,841,41.9,68963.0,160609.0,26708.0,6.7
+2014,"Congressional District 8 (114th Congress), Michigan",42983,725201,619643,1016,37.7,102221.0,103623.0,29833.0,6.4
+2014,"Congressional District 9 (114th Congress), Michigan",95165,720485,573407,897,40.4,89847.0,140872.0,27744.0,7.6
+2014,"Congressional District 10 (114th Congress), Michigan",17479,706525,657917,909,42.8,71577.0,162242.0,27281.0,6.9
+2014,"Congressional District 11 (114th Congress), Michigan",38053,718435,593200,1136,41.1,130374.0,102575.0,36396.0,5.6
+2014,"Congressional District 12 (114th Congress), Michigan",74524,705207,554225,951,35.7,78740.0,116011.0,27357.0,7.8
+2014,"Congressional District 13 (114th Congress), Michigan",378544,687170,264609,720,35.8,40572.0,150890.0,18122.0,15.7
+2014,"Congressional District 14 (114th Congress), Michigan",389246,687921,237568,885,39.5,77252.0,116856.0,22846.0,13.3
+2014,"Congressional District 1 (114th Congress), Minnesota",19394,666946,610937,812,38.5,77146.0,133605.0,28747.0,4.2
+2014,"Congressional District 2 (114th Congress), Minnesota",30464,689759,587696,1218,37.5,118123.0,108060.0,36841.0,3.8
+2014,"Congressional District 3 (114th Congress), Minnesota",45519,685736,557031,1294,40.1,148536.0,83753.0,39793.0,3.4
+2014,"Congressional District 4 (114th Congress), Minnesota",66896,695920,501721,1049,35.5,119358.0,96847.0,31203.0,5.7
+2014,"Congressional District 5 (114th Congress), Minnesota",116252,706584,490587,1031,33.8,132086.0,94122.0,29860.0,6.4
+2014,"Congressional District 6 (114th Congress), Minnesota",18276,684784,627024,1152,36.1,95876.0,119951.0,32482.0,4.7
+2014,"Congressional District 7 (114th Congress), Minnesota",9146,662682,613159,745,40.8,70111.0,151846.0,26839.0,3.7
+2014,"Congressional District 8 (114th Congress), Minnesota",6485,664762,618804,808,43.1,72858.0,155193.0,25873.0,5.6
+2014,"Congressional District 1 (114th Congress), Mississippi",207262,760275,528166,685,37.1,61311.0,154551.0,21964.0,8.9
+2014,"Congressional District 2 (114th Congress), Mississippi",478701,722640,227787,639,35.6,52834.0,137636.0,19097.0,14.1
+2014,"Congressional District 3 (114th Congress), Mississippi",264661,749430,459890,677,37.5,74423.0,141219.0,22138.0,7.0
+2014,"Congressional District 4 (114th Congress), Mississippi",181932,761734,545352,711,36.7,65682.0,152530.0,22277.0,9.5
+2014,"Congressional District 1 (114th Congress), Missouri",366252,744782,329319,843,35.6,88274.0,127888.0,24125.0,10.8
+2014,"Congressional District 2 (114th Congress), Missouri",25825,758288,679555,1154,42.2,152577.0,104377.0,35898.0,4.2
+2014,"Congressional District 3 (114th Congress), Missouri",28169,766993,709357,889,38.5,80145.0,172395.0,27685.0,5.8
+2014,"Congressional District 4 (114th Congress), Missouri",37622,763003,677735,731,36.7,72471.0,170963.0,22268.0,6.4
+2014,"Congressional District 5 (114th Congress), Missouri",168247,758442,510277,838,36.9,87374.0,164578.0,25761.0,6.9
+2014,"Congressional District 6 (114th Congress), Missouri",32556,760291,691037,785,38.9,89942.0,177211.0,26779.0,5.2
+2014,"Congressional District 7 (114th Congress), Missouri",16305,765669,708459,720,38.3,76287.0,167599.0,21984.0,6.6
+2014,"Congressional District 8 (114th Congress), Missouri",36625,746121,684532,599,41.1,49599.0,194744.0,20244.0,8.7
+2014,"Congressional District (at Large) (114th Congress), Montana",5812,1023579,914571,744,39.6,135401.0,213165.0,24232.0,4.9
+2014,"Congressional District 1 (114th Congress), Nebraska",18766,634290,567672,836,35.4,84480.0,110319.0,27163.0,3.9
+2014,"Congressional District 2 (114th Congress), Nebraska",62753,641045,525423,1005,34.0,102883.0,90280.0,30346.0,5.0
+2014,"Congressional District 3 (114th Congress), Nebraska",7101,606168,567881,657,40.3,60366.0,132961.0,25420.0,3.6
+2014,"Congressional District 1 (114th Congress), Nevada",80435,693623,380587,855,35.8,48581.0,151809.0,22156.0,11.4
+2014,"Congressional District 2 (114th Congress), Nevada",11261,697426,580111,949,38.7,77675.0,128512.0,27119.0,7.6
+2014,"Congressional District 3 (114th Congress), Nevada",48128,734973,499767,1187,38.5,106806.0,125316.0,32337.0,7.1
+2014,"Congressional District 4 (114th Congress), Nevada",103170,713077,470799,1020,36.6,58411.0,135177.0,26573.0,9.7
+2014,"Congressional District 1 (114th Congress), New Hampshire",8785,665612,621376,1242,42.3,105571.0,129674.0,31686.0,5.2
+2014,"Congressional District 2 (114th Congress), New Hampshire",8224,661201,618034,1215,42.6,96152.0,136319.0,30981.0,5.0
+2014,"Congressional District 1 (114th Congress), New Jersey",127865,732232,493899,1282,38.7,100842.0,164321.0,30573.0,8.2
+2014,"Congressional District 2 (114th Congress), New Jersey",96040,733973,546140,1249,41.4,78864.0,176245.0,26441.0,9.4
+2014,"Congressional District 3 (114th Congress), New Jersey",74738,734551,590511,1505,43.0,117115.0,160873.0,34495.0,8.1
+2014,"Congressional District 4 (114th Congress), New Jersey",49545,748864,641020,1560,41.6,118565.0,136000.0,35110.0,6.3
+2014,"Congressional District 5 (114th Congress), New Jersey",40299,745147,577207,1824,43.0,143284.0,133657.0,39523.0,5.7
+2014,"Congressional District 6 (114th Congress), New Jersey",76167,748924,476633,1540,36.9,117431.0,141775.0,34567.0,6.7
+2014,"Congressional District 7 (114th Congress), New Jersey",37160,748182,598504,1919,42.4,152145.0,108701.0,43533.0,5.1
+2014,"Congressional District 8 (114th Congress), New Jersey",77982,762249,437554,1276,34.4,103228.0,154357.0,26797.0,8.5
+2014,"Congressional District 9 (114th Congress), New Jersey",78475,759352,435583,1412,37.2,110665.0,160163.0,31014.0,5.8
+2014,"Congressional District 10 (114th Congress), New Jersey",398692,742855,215409,1237,35.6,87305.0,158193.0,26281.0,13.3
+2014,"Congressional District 11 (114th Congress), New Jersey",28359,739014,606493,1926,43.2,164301.0,115634.0,43977.0,6.2
+2014,"Congressional District 12 (114th Congress), New Jersey",126732,742832,434703,1567,39.5,122228.0,119804.0,35455.0,7.3
+2014,"Congressional District 1 (114th Congress), New Mexico",18139,699493,507433,892,37.7,85528.0,114913.0,25023.0,8.3
+2014,"Congressional District 2 (114th Congress), New Mexico",13100,699424,575111,640,36.1,57498.0,125049.0,19921.0,8.9
+2014,"Congressional District 3 (114th Congress), New Mexico",10038,686655,442915,776,38.0,63921.0,122322.0,24277.0,9.0
+2014,"Congressional District 1 (114th Congress), New York",38755,725932,629036,1925,41.8,95551.0,145379.0,36335.0,5.6
+2014,"Congressional District 2 (114th Congress), New York",73335,724171,554025,2012,39.1,86511.0,163819.0,35384.0,5.7
+2014,"Congressional District 3 (114th Congress), New York",19893,718780,539795,2139,44.4,138533.0,101543.0,41314.0,5.0
+2014,"Congressional District 4 (114th Congress), New York",105226,721920,475570,2060,40.3,108021.0,123014.0,36815.0,5.7
+2014,"Congressional District 5 (114th Congress), New York",389545,760487,132469,1490,37.4,76460.0,151529.0,26808.0,9.7
+2014,"Congressional District 6 (114th Congress), New York",27343,733419,329763,1350,41.3,113540.0,144440.0,30144.0,6.5
+2014,"Congressional District 7 (114th Congress), New York",87049,732079,351153,1315,33.4,97718.0,118057.0,24369.0,7.9
+2014,"Congressional District 8 (114th Congress), New York",417241,758543,220944,1211,35.8,94425.0,149353.0,25428.0,9.8
+2014,"Congressional District 9 (114th Congress), New York",374373,755073,260056,1295,35.7,108832.0,137285.0,28456.0,8.7
+2014,"Congressional District 10 (114th Congress), New York",26500,736997,508244,1753,35.7,162772.0,78754.0,45716.0,5.2
+2014,"Congressional District 11 (114th Congress), New York",53504,726893,523059,1392,39.3,103247.0,147307.0,30412.0,6.7
+2014,"Congressional District 12 (114th Congress), New York",37546,729253,534814,1925,35.5,227788.0,48745.0,58695.0,5.3
+2014,"Congressional District 13 (114th Congress), New York",234865,782199,189494,1103,34.4,92593.0,122890.0,20613.0,11.6
+2014,"Congressional District 14 (114th Congress), New York",84903,752344,363006,1361,35.5,88065.0,147532.0,25622.0,7.9
+2014,"Congressional District 15 (114th Congress), New York",257226,750915,93823,1010,30.6,39736.0,120454.0,15479.0,12.4
+2014,"Congressional District 16 (114th Congress), New York",224213,732521,364206,1441,38.9,101340.0,116846.0,32294.0,8.9
+2014,"Congressional District 17 (114th Congress), New York",79590,739263,514553,1901,39.1,119489.0,95310.0,37027.0,6.0
+2014,"Congressional District 18 (114th Congress), New York",68909,720115,550462,1526,39.6,93133.0,128165.0,32466.0,6.8
+2014,"Congressional District 19 (114th Congress), New York",32276,708116,635037,1050,44.3,76474.0,158097.0,27818.0,7.2
+2014,"Congressional District 20 (114th Congress), New York",65056,727913,587787,1064,39.1,96826.0,131055.0,31395.0,6.1
+2014,"Congressional District 21 (114th Congress), New York",22198,713276,654195,853,40.3,62614.0,167762.0,25461.0,7.5
+2014,"Congressional District 22 (114th Congress), New York",27807,709851,640473,796,41.4,64181.0,162637.0,25003.0,6.6
+2014,"Congressional District 23 (114th Congress), New York",21339,715663,651106,760,40.0,65252.0,166499.0,24414.0,7.0
+2014,"Congressional District 24 (114th Congress), New York",61125,715188,604070,868,39.4,81688.0,139656.0,27004.0,7.9
+2014,"Congressional District 25 (114th Congress), New York",112173,721227,546173,939,38.8,100670.0,122574.0,27166.0,7.3
+2014,"Congressional District 26 (114th Congress), New York",130219,717332,515978,774,38.9,79386.0,139751.0,24508.0,6.5
+2014,"Congressional District 27 (114th Congress), New York",21267,716757,665021,883,43.7,76305.0,171454.0,29934.0,5.4
+2014,"Congressional District 1 (114th Congress), North Carolina",397405,742851,290863,740,37.6,62177.0,157583.0,20275.0,11.8
+2014,"Congressional District 2 (114th Congress), North Carolina",131030,774723,554735,871,36.4,95880.0,131104.0,26570.0,7.5
+2014,"Congressional District 3 (114th Congress), North Carolina",144442,759653,559981,893,34.8,73107.0,133821.0,24280.0,10.3
+2014,"Congressional District 4 (114th Congress), North Carolina",236871,795798,452826,965,33.1,119747.0,95748.0,26833.0,6.7
+2014,"Congressional District 5 (114th Congress), North Carolina",97030,750233,611522,757,40.3,83669.0,146977.0,23464.0,9.2
+2014,"Congressional District 6 (114th Congress), North Carolina",118747,755280,582565,838,42.1,96692.0,150927.0,26488.0,6.8
+2014,"Congressional District 7 (114th Congress), North Carolina",134007,772311,578050,818,41.4,87584.0,150521.0,23572.0,7.6
+2014,"Congressional District 8 (114th Congress), North Carolina",143366,746671,498903,734,39.0,64127.0,163505.0,22069.0,10.3
+2014,"Congressional District 9 (114th Congress), North Carolina",101463,805960,621879,1200,38.3,177469.0,88320.0,36516.0,6.5
+2014,"Congressional District 10 (114th Congress), North Carolina",88315,744808,607265,734,41.9,80471.0,152313.0,22696.0,8.4
+2014,"Congressional District 11 (114th Congress), North Carolina",27553,744956,664853,649,44.4,81846.0,154145.0,22231.0,7.0
+2014,"Congressional District 12 (114th Congress), North Carolina",397337,778251,281070,848,32.2,81353.0,133630.0,21396.0,11.3
+2014,"Congressional District 13 (114th Congress), North Carolina",136821,772469,564695,1039,39.0,135735.0,113691.0,31543.0,5.7
+2014,"Congressional District (at Large) (114th Congress), North Dakota",14910,739482,654375,733,35.1,94873.0,133393.0,30609.0,3.0
+2014,"Congressional District 1 (114th Congress), Ohio",161172,729726,520929,899,36.6,99784.0,140513.0,27189.0,8.7
+2014,"Congressional District 2 (114th Congress), Ohio",61531,724587,632706,851,39.4,93903.0,166320.0,27422.0,6.8
+2014,"Congressional District 3 (114th Congress), Ohio",245826,755499,431238,868,31.9,86768.0,138117.0,23839.0,7.4
+2014,"Congressional District 4 (114th Congress), Ohio",36412,709882,636815,731,40.9,51771.0,201557.0,23754.0,6.8
+2014,"Congressional District 5 (114th Congress), Ohio",21035,730503,674732,791,39.9,78345.0,177711.0,26869.0,5.1
+2014,"Congressional District 6 (114th Congress), Ohio",17145,713457,680310,633,43.1,48996.0,222077.0,22463.0,8.2
+2014,"Congressional District 7 (114th Congress), Ohio",27707,725548,669900,748,41.0,59035.0,204592.0,24504.0,6.2
+2014,"Congressional District 8 (114th Congress), Ohio",45578,722889,641380,824,38.8,68516.0,175291.0,26559.0,6.5
+2014,"Congressional District 9 (114th Congress), Ohio",109793,709813,533743,750,38.1,65709.0,161718.0,22703.0,9.4
+2014,"Congressional District 10 (114th Congress), Ohio",124013,720794,555234,822,39.4,80506.0,139049.0,25868.0,8.3
+2014,"Congressional District 11 (114th Congress), Ohio",380172,699736,276982,756,38.1,67218.0,132983.0,20651.0,13.8
+2014,"Congressional District 12 (114th Congress), Ohio",29447,755978,670849,1053,38.3,125890.0,134422.0,32256.0,4.6
+2014,"Congressional District 13 (114th Congress), Ohio",84546,707940,587070,699,41.2,69442.0,193234.0,23134.0,7.8
+2014,"Congressional District 14 (114th Congress), Ohio",29419,722474,660841,962,43.8,105001.0,156744.0,30820.0,5.3
+2014,"Congressional District 15 (114th Congress), Ohio",30057,740854,671472,942,38.6,94727.0,164374.0,28381.0,6.1
+2014,"Congressional District 16 (114th Congress), Ohio",15361,724483,678063,905,42.9,106136.0,157861.0,31145.0,5.0
+2014,"Congressional District 1 (114th Congress), Oklahoma",66581,781067,561789,858,36.0,104316.0,140250.0,27983.0,5.1
+2014,"Congressional District 2 (114th Congress), Oklahoma",26624,749768,501360,577,40.1,54051.0,190634.0,20926.0,6.7
+2014,"Congressional District 3 (114th Congress), Oklahoma",31668,776896,619767,674,36.2,75196.0,174226.0,24865.0,5.1
+2014,"Congressional District 4 (114th Congress), Oklahoma",54681,773994,589200,789,35.0,75353.0,161002.0,26514.0,5.2
+2014,"Congressional District 5 (114th Congress), Oklahoma",107700,796326,555365,801,34.8,96883.0,135323.0,25723.0,6.3
+2014,"Congressional District 1 (114th Congress), Oregon",13140,805943,653786,1190,37.5,130391.0,114131.0,30754.0,6.9
+2014,"Congressional District 2 (114th Congress), Oregon",3674,784114,700351,838,41.7,80947.0,151720.0,22358.0,7.7
+2014,"Congressional District 3 (114th Congress), Oregon",39226,806382,630754,1155,37.2,137522.0,116482.0,26260.0,7.7
+2014,"Congressional District 4 (114th Congress), Oregon",6217,775615,696204,878,42.0,81600.0,146080.0,21873.0,8.9
+2014,"Congressional District 5 (114th Congress), Oregon",8785,798185,677155,1020,39.3,97604.0,138365.0,26182.0,8.0
+2014,"Congressional District 1 (114th Congress), Pennsylvania",260809,716072,350648,959,34.1,74140.0,165954.0,23598.0,11.9
+2014,"Congressional District 2 (114th Congress), Pennsylvania",415447,716892,227955,913,32.9,78746.0,143517.0,22146.0,13.6
+2014,"Congressional District 3 (114th Congress), Pennsylvania",33165,702323,643403,702,42.6,77408.0,204755.0,24680.0,6.2
+2014,"Congressional District 4 (114th Congress), Pennsylvania",56024,719504,613141,980,40.9,81533.0,196581.0,28712.0,5.9
+2014,"Congressional District 5 (114th Congress), Pennsylvania",17715,700531,655480,679,40.9,67158.0,207337.0,22725.0,6.1
+2014,"Congressional District 6 (114th Congress), Pennsylvania",33383,716612,622923,1306,40.8,124286.0,136047.0,35525.0,5.4
+2014,"Congressional District 7 (114th Congress), Pennsylvania",40861,714577,625551,1395,41.8,119780.0,141684.0,35576.0,5.6
+2014,"Congressional District 8 (114th Congress), Pennsylvania",28142,713387,629322,1395,43.2,115726.0,153800.0,35807.0,6.0
+2014,"Congressional District 9 (114th Congress), Pennsylvania",20409,694973,657304,660,43.0,53301.0,226332.0,22935.0,6.5
+2014,"Congressional District 10 (114th Congress), Pennsylvania",25916,696416,645270,792,43.6,61093.0,207966.0,23813.0,6.6
+2014,"Congressional District 11 (114th Congress), Pennsylvania",37828,700342,627688,839,42.4,72354.0,201047.0,26779.0,5.6
+2014,"Congressional District 12 (114th Congress), Pennsylvania",23238,704560,653438,790,45.0,95570.0,183111.0,28823.0,5.8
+2014,"Congressional District 13 (114th Congress), Pennsylvania",127266,725185,474577,1124,38.6,98685.0,154009.0,28669.0,7.8
+2014,"Congressional District 14 (114th Congress), Pennsylvania",150702,701362,501029,765,38.7,93501.0,164694.0,24503.0,8.3
+2014,"Congressional District 15 (114th Congress), Pennsylvania",34408,722560,603405,1033,40.7,84942.0,177390.0,28463.0,7.5
+2014,"Congressional District 16 (114th Congress), Pennsylvania",51622,722837,582383,971,37.6,77048.0,179258.0,26665.0,6.6
+2014,"Congressional District 17 (114th Congress), Pennsylvania",42473,707062,627687,869,42.5,67749.0,198500.0,24422.0,7.5
+2014,"Congressional District 18 (114th Congress), Pennsylvania",17457,712014,667643,833,44.2,111100.0,178345.0,30904.0,4.5
+2014,"Congressional District 1 (114th Congress), Rhode Island",45994,532145,416401,1078,38.2,64109.0,100221.0,26522.0,7.9
+2014,"Congressional District 2 (114th Congress), Rhode Island",24606,523028,441835,1173,41.5,67299.0,108145.0,28521.0,7.6
+2014,"Congressional District 1 (114th Congress), South Carolina",133800,728626,550128,1126,38.7,118014.0,118029.0,30394.0,5.7
+2014,"Congressional District 2 (114th Congress), South Carolina",159494,686952,485612,866,38.1,96717.0,121109.0,27413.0,6.0
+2014,"Congressional District 3 (114th Congress), South Carolina",122523,666489,513017,663,40.3,57565.0,151753.0,20933.0,8.3
+2014,"Congressional District 4 (114th Congress), South Carolina",136981,703720,526573,785,37.8,87540.0,133561.0,24184.0,6.5
+2014,"Congressional District 5 (114th Congress), South Carolina",183718,684083,464559,721,39.9,65312.0,150194.0,23405.0,9.8
+2014,"Congressional District 6 (114th Congress), South Carolina",382011,673637,258089,716,35.0,52078.0,145617.0,18721.0,11.6
+2014,"Congressional District 7 (114th Congress), South Carolina",201846,688975,456167,708,41.9,66691.0,168960.0,21341.0,9.9
+2014,"Congressional District (at Large) (114th Congress), South Dakota",14830,853175,724768,713,36.6,111108.0,170122.0,26916.0,3.9
+2014,"Congressional District 1 (114th Congress), Tennessee",15639,713317,669519,603,43.1,62800.0,191181.0,20371.0,8.3
+2014,"Congressional District 2 (114th Congress), Tennessee",47748,726315,647641,773,39.9,92221.0,155018.0,22889.0,7.0
+2014,"Congressional District 3 (114th Congress), Tennessee",80249,716365,609815,699,41.4,71435.0,170698.0,22450.0,8.1
+2014,"Congressional District 4 (114th Congress), Tennessee",60790,747195,634819,778,37.2,71581.0,174227.0,22962.0,7.6
+2014,"Congressional District 5 (114th Congress), Tennessee",187017,751222,496065,960,34.8,115818.0,130239.0,26468.0,6.5
+2014,"Congressional District 6 (114th Congress), Tennessee",32358,733467,668026,739,40.9,68471.0,190377.0,24305.0,7.0
+2014,"Congressional District 7 (114th Congress), Tennessee",78264,743173,628772,815,37.9,83690.0,160866.0,24479.0,8.1
+2014,"Congressional District 8 (114th Congress), Tennessee",138177,710910,540489,840,39.7,89728.0,155904.0,25792.0,7.0
+2014,"Congressional District 9 (114th Congress), Tennessee",465076,707388,189258,864,33.6,62057.0,145037.0,20775.0,10.7
+2014,"Congressional District 1 (114th Congress), Texas",132379,712779,547425,704,36.6,64186.0,141768.0,22178.0,6.7
+2014,"Congressional District 2 (114th Congress), Texas",71159,737492,520828,1197,35.0,125741.0,96779.0,35863.0,4.6
+2014,"Congressional District 3 (114th Congress), Texas",71861,792608,562418,1384,36.2,168578.0,71156.0,42264.0,5.0
+2014,"Congressional District 4 (114th Congress), Texas",73903,719372,581866,752,39.3,63675.0,159087.0,23983.0,7.3
+2014,"Congressional District 5 (114th Congress), Texas",115299,734553,548690,841,35.6,62308.0,144978.0,23982.0,6.7
+2014,"Congressional District 6 (114th Congress), Texas",144855,737480,503636,1049,34.7,89860.0,117301.0,30690.0,5.4
+2014,"Congressional District 7 (114th Congress), Texas",102380,770950,532116,1221,34.5,139578.0,82731.0,36799.0,4.0
+2014,"Congressional District 8 (114th Congress), Texas",61773,767431,638843,1035,36.6,99450.0,127945.0,29281.0,4.3
+2014,"Congressional District 9 (114th Congress), Texas",297064,772152,268930,893,32.2,74424.0,117548.0,22921.0,8.5
+2014,"Congressional District 10 (114th Congress), Texas",75550,771009,594753,1133,36.0,124905.0,116284.0,33107.0,4.7
+2014,"Congressional District 11 (114th Congress), Texas",28120,741069,641043,759,35.8,69046.0,150069.0,26231.0,4.2
+2014,"Congressional District 12 (114th Congress), Texas",67640,750952,595369,1079,35.1,96154.0,125960.0,30356.0,5.8
+2014,"Congressional District 13 (114th Congress), Texas",38531,707803,602037,722,36.0,63657.0,135838.0,24514.0,4.6
+2014,"Congressional District 14 (114th Congress), Texas",145065,724881,524080,834,36.9,70938.0,143010.0,26990.0,6.0
+2014,"Congressional District 15 (114th Congress), Texas",14456,764850,677387,666,30.3,63256.0,110503.0,18324.0,8.3
+2014,"Congressional District 16 (114th Congress), Texas",31910,735246,606900,773,32.1,69970.0,110132.0,20716.0,7.5
+2014,"Congressional District 17 (114th Congress), Texas",98134,740151,551347,893,32.3,81228.0,117356.0,24181.0,4.8
+2014,"Congressional District 18 (114th Congress), Texas",295399,750812,336708,883,31.8,65451.0,129985.0,23895.0,7.1
+2014,"Congressional District 19 (114th Congress), Texas",44438,719594,581063,736,32.9,62822.0,128729.0,22544.0,4.9
+2014,"Congressional District 20 (114th Congress), Texas",41648,762801,613448,888,31.5,71405.0,120370.0,22429.0,7.6
+2014,"Congressional District 21 (114th Congress), Texas",24830,766190,673943,1128,37.8,147927.0,100136.0,31672.0,5.1
+2014,"Congressional District 22 (114th Congress), Texas",110878,814594,508767,1366,35.5,143316.0,92754.0,41724.0,4.0
+2014,"Congressional District 23 (114th Congress), Texas",25110,743201,634400,762,32.8,60748.0,115702.0,22761.0,6.9
+2014,"Congressional District 24 (114th Congress), Texas",83438,759022,510456,1142,35.6,148113.0,93675.0,35502.0,5.0
+2014,"Congressional District 25 (114th Congress), Texas",53281,748022,621393,1069,35.8,108944.0,106539.0,28896.0,6.1
+2014,"Congressional District 26 (114th Congress), Texas",50145,783257,633699,1346,34.8,138491.0,101663.0,36024.0,4.8
+2014,"Congressional District 27 (114th Congress), Texas",39267,726394,630289,806,36.3,59760.0,143802.0,23599.0,6.6
+2014,"Congressional District 28 (114th Congress), Texas",29495,725977,641325,739,31.5,48310.0,118080.0,20439.0,7.2
+2014,"Congressional District 29 (114th Congress), Texas",85624,749098,550169,789,30.4,27272.0,122044.0,21767.0,7.5
+2014,"Congressional District 30 (114th Congress), Texas",320792,744247,356920,920,33.0,57198.0,128347.0,22483.0,8.0
+2014,"Congressional District 31 (114th Congress), Texas",87442,776518,591783,1076,34.4,110273.0,114818.0,31017.0,5.7
+2014,"Congressional District 32 (114th Congress), Texas",91510,747437,524310,1168,36.4,132517.0,89428.0,32495.0,5.9
+2014,"Congressional District 33 (114th Congress), Texas",126886,742701,497928,773,29.8,26953.0,122490.0,19845.0,8.8
+2014,"Congressional District 34 (114th Congress), Texas",9555,717582,664202,603,32.5,46157.0,112847.0,17912.0,7.9
+2014,"Congressional District 35 (114th Congress), Texas",78850,767436,593871,884,31.4,60694.0,132231.0,21653.0,6.7
+2014,"Congressional District 36 (114th Congress), Texas",66231,731297,603518,787,36.7,61542.0,156769.0,26394.0,6.2
+2014,"Congressional District 1 (114th Congress), Utah",7380,727828,655306,968,30.6,84027.0,108069.0,26842.0,5.0
+2014,"Congressional District 2 (114th Congress), Utah",8365,729552,604994,935,31.6,82061.0,106477.0,23747.0,6.4
+2014,"Congressional District 3 (114th Congress), Utah",5568,721048,653941,1081,28.4,100328.0,71314.0,25064.0,4.5
+2014,"Congressional District 4 (114th Congress), Utah",12207,764474,653777,1124,30.7,87416.0,106002.0,27996.0,4.1
+2014,"Congressional District (at Large) (114th Congress), Vermont",6164,626562,591853,1058,42.8,91472.0,134352.0,26799.0,5.5
+2014,"Congressional District 1 (114th Congress), Virginia",129276,770044,559315,1346,37.9,104503.0,127798.0,34567.0,5.2
+2014,"Congressional District 2 (114th Congress), Virginia",158414,732346,491575,1216,35.2,101068.0,114049.0,30907.0,6.1
+2014,"Congressional District 3 (114th Congress), Virginia",430493,753380,263378,976,32.9,66838.0,143357.0,23349.0,10.2
+2014,"Congressional District 4 (114th Congress), Virginia",236780,746976,457312,1142,38.3,80468.0,152572.0,30014.0,7.7
+2014,"Congressional District 5 (114th Congress), Virginia",146995,733330,546017,800,42.8,75472.0,157445.0,24542.0,5.6
+2014,"Congressional District 6 (114th Congress), Virginia",82427,746357,624845,840,39.8,83805.0,161221.0,24484.0,5.5
+2014,"Congressional District 7 (114th Congress), Virginia",114758,769995,580958,1211,40.0,129042.0,126416.0,35508.0,5.2
+2014,"Congressional District 8 (114th Congress), Virginia",105189,774065,500276,1839,35.4,170529.0,67803.0,51373.0,4.2
+2014,"Congressional District 9 (114th Congress), Virginia",40742,715465,651815,593,42.0,61430.0,164743.0,20210.0,7.9
+2014,"Congressional District 10 (114th Congress), Virginia",55243,802127,587601,1965,37.6,155452.0,82850.0,47161.0,4.9
+2014,"Congressional District 11 (114th Congress), Virginia",101132,782204,476589,1839,36.1,145265.0,84122.0,45047.0,5.2
+2014,"Congressional District 1 (114th Congress), Washington",7645,713399,581171,1518,37.8,127876.0,93378.0,37102.0,6.0
+2014,"Congressional District 2 (114th Congress), Washington",20153,708323,555014,1204,38.3,95430.0,119558.0,29190.0,6.9
+2014,"Congressional District 3 (114th Congress), Washington",9538,697884,602833,1008,39.6,70860.0,127343.0,26993.0,8.2
+2014,"Congressional District 4 (114th Congress), Washington",7683,704219,550204,848,33.6,54483.0,114635.0,24068.0,6.2
+2014,"Congressional District 5 (114th Congress), Washington",10881,690518,609439,858,37.4,78038.0,116187.0,24012.0,6.6
+2014,"Congressional District 6 (114th Congress), Washington",25525,676910,556302,1059,42.1,86621.0,121611.0,27913.0,7.6
+2014,"Congressional District 7 (114th Congress), Washington",30612,732733,559471,1403,37.2,186368.0,62886.0,40017.0,4.3
+2014,"Congressional District 8 (114th Congress), Washington",23052,711629,571399,1385,37.4,97570.0,114550.0,35350.0,6.2
+2014,"Congressional District 9 (114th Congress), Washington",73822,711466,370584,1342,37.0,125843.0,95863.0,31492.0,6.0
+2014,"Congressional District 10 (114th Congress), Washington",42425,714449,528580,1140,35.8,82596.0,124713.0,30486.0,8.0
+2014,"Congressional District 1 (114th Congress), West Virginia",15871,616232,583607,571,41.3,55206.0,172416.0,22875.0,6.0
+2014,"Congressional District 2 (114th Congress), West Virginia",28916,628276,579286,641,42.1,57311.0,180000.0,24287.0,7.1
+2014,"Congressional District 3 (114th Congress), West Virginia",23492,605818,568571,491,42.5,39917.0,180502.0,20017.0,7.6
+2014,"Congressional District 1 (114th Congress), Wisconsin",40600,712072,627841,1013,40.3,92166.0,153339.0,29676.0,5.7
+2014,"Congressional District 2 (114th Congress), Wisconsin",32427,740988,639685,1033,36.5,124845.0,118520.0,30272.0,5.0
+2014,"Congressional District 3 (114th Congress), Wisconsin",7076,718518,674641,811,38.3,74714.0,162819.0,24994.0,4.4
+2014,"Congressional District 4 (114th Congress), Wisconsin",245282,717657,379841,875,32.8,76739.0,129294.0,22393.0,9.9
+2014,"Congressional District 5 (114th Congress), Wisconsin",13609,722537,666082,1083,40.9,120900.0,139056.0,31951.0,4.3
+2014,"Congressional District 6 (114th Congress), Wisconsin",11464,712031,662755,843,41.9,84434.0,175553.0,27477.0,4.3
+2014,"Congressional District 7 (114th Congress), Wisconsin",4085,711006,664903,799,43.9,76060.0,187520.0,26248.0,5.0
+2014,"Congressional District 8 (114th Congress), Wisconsin",9373,722755,650534,839,40.0,86686.0,178567.0,28368.0,4.2
+2014,"Congressional District (at Large) (114th Congress), Wyoming",6320,584153,531680,831,36.6,69557.0,106759.0,29681.0,4.3
+2014,"Resident Commissioner District (at Large) (114th Congress), Puerto Rico",299398,3548397,2520447,363,39.3,,,,18.5

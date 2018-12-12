@@ -1,0 +1,438 @@
+year,district,black_pop,total_pop,white_pop,mortgage_cost,median_age,bach_deg_num,high_school_num,median_HH_income,unemp_rate
+2013,"Congressional District 1 (113th Congress), Alabama",194215,695176,470677,752,38.5,72934.0,151709.0,22002.0,11.3
+2013,"Congressional District 2 (113th Congress), Alabama",216113,690074,445267,672,37.9,57610.0,151310.0,22185.0,9.5
+2013,"Congressional District 3 (113th Congress), Alabama",178428,697761,485491,664,37.4,55675.0,149501.0,22077.0,10.0
+2013,"Congressional District 4 (113th Congress), Alabama",49936,685175,607896,585,40.3,46061.0,157292.0,20421.0,9.5
+2013,"Congressional District 5 (113th Congress), Alabama",121651,701220,540055,728,38.7,90232.0,128814.0,25516.0,9.1
+2013,"Congressional District 6 (113th Congress), Alabama",104159,697436,555776,931,38.7,101090.0,123833.0,30209.0,5.7
+2013,"Congressional District 7 (113th Congress), Alabama",419600,666880,225316,671,35.7,52414.0,138675.0,17908.0,12.7
+2013,"Congressional District (at Large) (113th Congress), Alaska",25077,735132,487762,1201,33.1,84038.0,129029.0,31103.0,8.7
+2013,"Congressional District 1 (113th Congress), Arizona",15508,723969,479847,801,36.5,64852.0,123666.0,23103.0,12.0
+2013,"Congressional District 2 (113th Congress), Arizona",29446,717970,572388,836,40.2,91298.0,103862.0,24514.0,9.2
+2013,"Congressional District 3 (113th Congress), Arizona",34069,722963,549555,825,31.7,41668.0,123551.0,20501.0,12.3
+2013,"Congressional District 4 (113th Congress), Arizona",14790,732689,648799,779,46.1,56904.0,168408.0,22320.0,10.7
+2013,"Congressional District 5 (113th Congress), Arizona",23161,759102,647918,1129,37.3,110765.0,104988.0,31878.0,5.8
+2013,"Congressional District 6 (113th Congress), Arizona",22729,737884,635220,1091,41.2,136977.0,104098.0,32197.0,6.9
+2013,"Congressional District 7 (113th Congress), Arizona",73411,749222,496677,823,28.4,37990.0,115286.0,19358.0,11.8
+2013,"Congressional District 8 (113th Congress), Arizona",27030,741374,640410,1031,42.0,94723.0,138699.0,29907.0,6.1
+2013,"Congressional District 9 (113th Congress), Arizona",37829,741451,562652,944,32.9,106805.0,96591.0,26946.0,7.2
+2013,"Congressional District 1 (113th Congress), Arkansas",131617,729971,573842,587,39.3,51794.0,188951.0,19625.0,10.0
+2013,"Congressional District 2 (113th Congress), Arkansas",163794,751463,546937,764,36.4,84551.0,157620.0,24400.0,7.0
+2013,"Congressional District 3 (113th Congress), Arkansas",25575,757765,645079,703,34.9,76110.0,152955.0,22485.0,6.3
+2013,"Congressional District 4 (113th Congress), Arkansas",142942,720174,539868,558,40.7,50300.0,192288.0,19685.0,9.5
+2013,"Congressional District 1 (113th Congress), California",10138,707992,612506,945,42.4,71974.0,121412.0,21947.0,10.2
+2013,"Congressional District 2 (113th Congress), California",10379,713816,572803,1377,43.1,119850.0,95979.0,30012.0,8.7
+2013,"Congressional District 3 (113th Congress), California",46842,714407,465608,1204,34.4,66547.0,107737.0,24892.0,11.5
+2013,"Congressional District 4 (113th Congress), California",9259,703377,599100,1330,43.8,103309.0,113140.0,30649.0,10.4
+2013,"Congressional District 5 (113th Congress), California",42602,715332,480460,1392,40.2,97950.0,105495.0,29063.0,9.4
+2013,"Congressional District 6 (113th Congress), California",89862,729428,391073,1048,33.5,77776.0,115330.0,23522.0,13.2
+2013,"Congressional District 7 (113th Congress), California",54000,721042,476287,1295,37.8,99943.0,106050.0,30306.0,11.4
+2013,"Congressional District 8 (113th Congress), California",57978,709384,535817,1013,33.7,37981.0,132420.0,21867.0,13.1
+2013,"Congressional District 9 (113th Congress), California",61842,724907,394902,1185,34.5,61304.0,112139.0,23013.0,12.7
+2013,"Congressional District 10 (113th Congress), California",23289,722266,510112,1121,33.4,49928.0,126811.0,23252.0,14.4
+2013,"Congressional District 11 (113th Congress), California",65661,733916,459824,1513,39.3,132749.0,88617.0,32158.0,9.4
+2013,"Congressional District 12 (113th Congress), California",42096,734662,370270,1623,38.4,186499.0,69940.0,41112.0,6.9
+2013,"Congressional District 13 (113th Congress), California",135824,732753,328917,1369,36.7,122074.0,80016.0,30039.0,10.6
+2013,"Congressional District 14 (113th Congress), California",23838,721245,352598,1874,39.7,140141.0,93683.0,35788.0,7.2
+2013,"Congressional District 15 (113th Congress), California",42714,734837,358217,1766,37.9,127459.0,102140.0,35630.0,7.4
+2013,"Congressional District 16 (113th Congress), California",43374,715257,408040,875,29.6,33098.0,97285.0,17396.0,16.2
+2013,"Congressional District 17 (113th Congress), California",21158,732118,242807,1928,36.5,147223.0,77798.0,43967.0,7.8
+2013,"Congressional District 18 (113th Congress), California",11360,731201,497767,1986,40.3,152144.0,55714.0,48998.0,6.7
+2013,"Congressional District 19 (113th Congress), California",26544,746071,327308,1729,35.3,96775.0,96569.0,30059.0,9.5
+2013,"Congressional District 20 (113th Congress), California",14431,725199,567103,1380,33.6,70021.0,92719.0,24157.0,8.7
+2013,"Congressional District 21 (113th Congress), California",30461,711414,508949,827,28.5,23562.0,103509.0,17128.0,14.0
+2013,"Congressional District 22 (113th Congress), California",23832,730271,552179,1061,32.8,66426.0,100610.0,22522.0,11.6
+2013,"Congressional District 23 (113th Congress), California",41983,726292,555989,1048,33.9,55413.0,123027.0,24979.0,11.1
+2013,"Congressional District 24 (113th Congress), California",14558,722008,524598,1350,35.9,90651.0,78466.0,25368.0,7.0
+2013,"Congressional District 25 (113th Congress), California",56346,716815,468855,1532,35.7,79443.0,99748.0,30827.0,9.8
+2013,"Congressional District 26 (113th Congress), California",12724,712804,561067,1711,36.2,87424.0,89329.0,28309.0,8.0
+2013,"Congressional District 27 (113th Congress), California",33832,716835,292939,1471,41.0,129745.0,87171.0,28722.0,8.0
+2013,"Congressional District 28 (113th Congress), California",20539,708212,480929,1375,39.2,162192.0,84979.0,27567.0,9.4
+2013,"Congressional District 29 (113th Congress), California",28658,692267,405149,1280,33.0,61093.0,105373.0,20131.0,11.9
+2013,"Congressional District 30 (113th Congress), California",30296,744617,488605,1643,38.9,138972.0,101412.0,31352.0,8.4
+2013,"Congressional District 31 (113th Congress), California",81239,725024,462001,1215,31.8,65090.0,100486.0,23690.0,12.1
+2013,"Congressional District 32 (113th Congress), California",23123,706167,352076,1335,35.1,67183.0,129390.0,21718.0,11.4
+2013,"Congressional District 33 (113th Congress), California",20393,717954,534563,1964,40.8,180015.0,56250.0,46902.0,7.0
+2013,"Congressional District 34 (113th Congress), California",31221,712425,269444,1032,33.7,78135.0,92880.0,17225.0,11.4
+2013,"Congressional District 35 (113th Congress), California",53785,728298,409676,1308,31.1,47146.0,109909.0,21399.0,11.8
+2013,"Congressional District 36 (113th Congress), California",30220,722653,487100,1019,38.6,60741.0,127392.0,21361.0,13.5
+2013,"Congressional District 37 (113th Congress), California",168280,732610,310617,1399,34.6,109294.0,85476.0,23503.0,10.3
+2013,"Congressional District 38 (113th Congress), California",30340,725481,425266,1402,36.0,71003.0,122244.0,24524.0,7.6
+2013,"Congressional District 39 (113th Congress), California",16729,721014,398670,1668,37.7,128473.0,89767.0,30772.0,7.7
+2013,"Congressional District 40 (113th Congress), California",33569,718451,386174,1106,29.3,24684.0,94569.0,17228.0,11.6
+2013,"Congressional District 41 (113th Congress), California",66604,734942,425860,1273,30.4,46420.0,113084.0,21902.0,14.4
+2013,"Congressional District 42 (113th Congress), California",40629,746215,501879,1610,34.6,76878.0,119717.0,30155.0,11.4
+2013,"Congressional District 43 (113th Congress), California",163215,730217,260963,1244,34.2,79672.0,106026.0,22189.0,13.2
+2013,"Congressional District 44 (113th Congress), California",118233,706791,337769,1217,31.5,35967.0,101175.0,19125.0,14.2
+2013,"Congressional District 45 (113th Congress), California",14303,733706,472326,1936,39.9,154514.0,73481.0,38674.0,6.2
+2013,"Congressional District 46 (113th Congress), California",12753,726686,424827,1372,31.4,54015.0,103621.0,21104.0,9.5
+2013,"Congressional District 47 (113th Congress), California",56653,721957,397440,1314,35.8,88625.0,95970.0,26159.0,9.3
+2013,"Congressional District 48 (113th Congress), California",7213,723140,485041,1776,40.3,145614.0,76530.0,36037.0,7.3
+2013,"Congressional District 49 (113th Congress), California",27121,717823,559745,1719,37.9,119537.0,82589.0,31698.0,7.7
+2013,"Congressional District 50 (113th Congress), California",19781,730427,579893,1450,36.9,77713.0,113912.0,26940.0,9.4
+2013,"Congressional District 51 (113th Congress), California",51834,743982,482413,1036,30.4,42932.0,108100.0,19975.0,14.2
+2013,"Congressional District 52 (113th Congress), California",21313,713904,494718,1748,35.6,154034.0,60362.0,40136.0,6.5
+2013,"Congressional District 53 (113th Congress), California",54050,741909,491780,1414,35.0,108117.0,101345.0,30477.0,8.7
+2013,"Congressional District 1 (113th Congress), Colorado",66092,772255,609212,1073,34.8,147323.0,101241.0,30860.0,6.1
+2013,"Congressional District 2 (113th Congress), Colorado",7226,755671,684942,1251,36.9,149189.0,80456.0,31760.0,5.3
+2013,"Congressional District 3 (113th Congress), Colorado",8972,721617,632435,886,40.0,95971.0,138803.0,24330.0,7.8
+2013,"Congressional District 4 (113th Congress), Colorado",8974,748624,644084,1112,37.3,111455.0,115660.0,29652.0,7.2
+2013,"Congressional District 5 (113th Congress), Colorado",41239,749815,610070,1059,35.4,101203.0,101709.0,27584.0,8.6
+2013,"Congressional District 6 (113th Congress), Colorado",66905,765338,568235,1261,35.6,127970.0,100998.0,32165.0,7.6
+2013,"Congressional District 7 (113th Congress), Colorado",10147,755047,666874,1095,35.9,104802.0,122236.0,30952.0,6.9
+2013,"Congressional District 1 (113th Congress), Connecticut",108479,716580,507916,1212,40.6,101883.0,138285.0,32590.0,10.3
+2013,"Congressional District 2 (113th Congress), Connecticut",27086,714637,622753,1275,41.0,89115.0,147677.0,31073.0,9.0
+2013,"Congressional District 3 (113th Congress), Connecticut",98562,716738,529883,1249,39.6,94889.0,149756.0,30513.0,8.8
+2013,"Congressional District 4 (113th Congress), Connecticut",90237,735823,536689,1820,39.2,128856.0,98105.0,34473.0,9.6
+2013,"Congressional District 5 (113th Congress), Connecticut",46634,712302,581440,1252,41.6,93744.0,139632.0,31712.0,8.5
+2013,"Congressional District (at Large) (113th Congress), Delaware",200249,925749,637606,1068,39.1,108075.0,196726.0,28900.0,8.6
+2013,"Delegate District (at Large) (113th Congress), District of Columbia",315504,646449,264080,1477,33.8,102958.0,84220.0,40397.0,10.4
+2013,"Congressional District 1 (113th Congress), Florida",98175,729553,564429,897,38.3,80522.0,134716.0,24377.0,9.1
+2013,"Congressional District 2 (113th Congress), Florida",178280,710751,495094,826,36.6,71685.0,134091.0,22273.0,10.8
+2013,"Congressional District 3 (113th Congress), Florida",94953,707112,561978,771,37.9,65750.0,141728.0,22486.0,9.9
+2013,"Congressional District 4 (113th Congress), Florida",89385,705007,556631,1049,38.3,101932.0,134609.0,30281.0,8.1
+2013,"Congressional District 5 (113th Congress), Florida",380490,729368,280477,833,34.1,54209.0,159227.0,19506.0,13.7
+2013,"Congressional District 6 (113th Congress), Florida",60106,722788,617816,869,46.4,89733.0,158195.0,23752.0,8.1
+2013,"Congressional District 7 (113th Congress), Florida",66725,716811,578988,1062,37.8,115348.0,119911.0,25573.0,9.8
+2013,"Congressional District 8 (113th Congress), Florida",72043,704053,590716,845,47.7,85826.0,148745.0,23866.0,11.4
+2013,"Congressional District 9 (113th Congress), Florida",82592,768459,570759,1057,35.0,84518.0,148494.0,21653.0,8.0
+2013,"Congressional District 10 (113th Congress), Florida",88039,732296,549957,951,40.7,110690.0,149073.0,25669.0,8.1
+2013,"Congressional District 11 (113th Congress), Florida",64988,715956,623317,678,52.3,71472.0,195255.0,21673.0,11.8
+2013,"Congressional District 12 (113th Congress), Florida",32471,719044,638524,891,44.5,96457.0,154853.0,25610.0,7.8
+2013,"Congressional District 13 (113th Congress), Florida",42592,699288,601901,888,48.0,96048.0,161288.0,26215.0,8.6
+2013,"Congressional District 14 (113th Congress), Florida",185821,733381,467325,935,35.6,89736.0,150160.0,23948.0,10.0
+2013,"Congressional District 15 (113th Congress), Florida",100569,718325,549878,916,37.9,80744.0,147800.0,25237.0,8.6
+2013,"Congressional District 16 (113th Congress), Florida",50432,727073,644922,872,50.5,101998.0,165613.0,25284.0,8.8
+2013,"Congressional District 17 (113th Congress), Florida",69042,721297,609142,697,46.7,61735.0,181527.0,21285.0,10.9
+2013,"Congressional District 18 (113th Congress), Florida",92611,705469,563551,1071,46.5,96164.0,153822.0,26107.0,8.7
+2013,"Congressional District 19 (113th Congress), Florida",57264,738554,638124,956,49.1,106265.0,157339.0,24531.0,9.3
+2013,"Congressional District 20 (113th Congress), Florida",389096,728883,295648,990,36.8,62175.0,163369.0,20200.0,13.2
+2013,"Congressional District 21 (113th Congress), Florida",95934,738875,572964,1152,43.1,109175.0,135122.0,27414.0,9.7
+2013,"Congressional District 22 (113th Congress), Florida",86798,734319,595941,1188,45.2,126452.0,132171.0,28295.0,9.4
+2013,"Congressional District 23 (113th Congress), Florida",76832,719732,556190,1266,41.4,119156.0,121215.0,27996.0,8.3
+2013,"Congressional District 24 (113th Congress), Florida",396071,725282,282988,1071,35.6,67489.0,151499.0,20393.0,12.9
+2013,"Congressional District 25 (113th Congress), Florida",58709,740305,639525,1136,39.5,76008.0,157366.0,21317.0,9.2
+2013,"Congressional District 26 (113th Congress), Florida",77369,741247,621390,1290,40.3,98955.0,151533.0,22146.0,9.9
+2013,"Congressional District 27 (113th Congress), Florida",54165,719632,629607,1113,39.9,88920.0,133987.0,20482.0,9.0
+2013,"Congressional District 1 (113th Congress), Georgia",215503,721388,459033,843,34.7,73090.0,143640.0,22952.0,10.8
+2013,"Congressional District 2 (113th Congress), Georgia",357041,696006,301039,683,35.3,44862.0,145799.0,19227.0,14.8
+2013,"Congressional District 3 (113th Congress), Georgia",171515,713143,496992,914,37.2,70884.0,149705.0,26174.0,9.7
+2013,"Congressional District 4 (113th Congress), Georgia",423282,721682,216536,1016,35.7,87618.0,117209.0,25571.0,12.3
+2013,"Congressional District 5 (113th Congress), Georgia",417590,719920,242947,989,33.2,111196.0,109591.0,25373.0,12.8
+2013,"Congressional District 6 (113th Congress), Georgia",108912,726129,512458,1241,37.8,175430.0,66045.0,37418.0,5.8
+2013,"Congressional District 7 (113th Congress), Georgia",134314,735051,438036,1186,35.1,116518.0,99116.0,29741.0,8.7
+2013,"Congressional District 8 (113th Congress), Georgia",211278,696584,445356,699,36.2,49604.0,160276.0,22292.0,10.2
+2013,"Congressional District 9 (113th Congress), Georgia",51844,711655,616279,775,39.9,62124.0,157923.0,21993.0,9.4
+2013,"Congressional District 10 (113th Congress), Georgia",174109,699534,486581,851,36.7,62699.0,147298.0,23045.0,9.0
+2013,"Congressional District 11 (113th Congress), Georgia",113654,730150,543609,1100,35.5,120162.0,117804.0,30533.0,8.0
+2013,"Congressional District 12 (113th Congress), Georgia",249721,706182,415748,687,35.1,56282.0,147122.0,21316.0,11.4
+2013,"Congressional District 13 (113th Congress), Georgia",405406,718624,261447,999,35.2,72597.0,133878.0,26288.0,12.7
+2013,"Congressional District 14 (113th Congress), Georgia",61807,696119,599098,738,37.3,46781.0,154657.0,22630.0,9.8
+2013,"Congressional District 1 (113th Congress), Hawaii",19087,702026,127722,1578,39.0,112905.0,120586.0,31945.0,4.5
+2013,"Congressional District 2 (113th Congress), Hawaii",11219,702028,231255,1423,37.0,86324.0,142725.0,27637.0,7.7
+2013,"Congressional District 1 (113th Congress), Idaho",3994,812462,753548,859,37.6,89862.0,151131.0,24189.0,7.7
+2013,"Congressional District 2 (113th Congress), Idaho",5103,799674,722083,774,34.0,95354.0,130638.0,22373.0,6.8
+2013,"Congressional District 1 (113th Congress), Illinois",368283,718967,290289,1013,38.9,75466.0,137393.0,24145.0,15.4
+2013,"Congressional District 2 (113th Congress), Illinois",389648,699363,274587,944,38.2,63147.0,137941.0,22845.0,17.5
+2013,"Congressional District 3 (113th Congress), Illinois",38963,737806,563817,1133,36.7,74944.0,147739.0,27118.0,10.4
+2013,"Congressional District 4 (113th Congress), Illinois",31787,712077,439584,962,31.3,57167.0,117953.0,22106.0,10.4
+2013,"Congressional District 5 (113th Congress), Illinois",21444,734664,599931,1295,34.8,165983.0,100999.0,37364.0,6.3
+2013,"Congressional District 6 (113th Congress), Illinois",16956,727718,616895,1548,40.1,147880.0,86774.0,40036.0,6.5
+2013,"Congressional District 7 (113th Congress), Illinois",368714,720325,248110,1216,33.7,96634.0,110358.0,26124.0,14.4
+2013,"Congressional District 8 (113th Congress), Illinois",35120,715255,485128,1220,36.0,100795.0,118837.0,29504.0,7.9
+2013,"Congressional District 9 (113th Congress), Illinois",61866,709590,514692,1224,39.9,151713.0,91188.0,31706.0,7.3
+2013,"Congressional District 10 (113th Congress), Illinois",48476,716308,536091,1332,37.3,116801.0,96017.0,31448.0,7.7
+2013,"Congressional District 11 (113th Congress), Illinois",76589,709493,468015,1284,34.9,103079.0,102614.0,31148.0,8.6
+2013,"Congressional District 12 (113th Congress), Illinois",117647,702625,556502,737,38.7,64280.0,151710.0,25241.0,9.5
+2013,"Congressional District 13 (113th Congress), Illinois",77860,715907,586184,756,34.8,81972.0,146072.0,23884.0,9.1
+2013,"Congressional District 14 (113th Congress), Illinois",20957,729162,643435,1532,38.5,112770.0,115836.0,35563.0,7.8
+2013,"Congressional District 15 (113th Congress), Illinois",26185,705563,660695,622,41.1,57812.0,173736.0,25158.0,8.7
+2013,"Congressional District 16 (113th Congress), Illinois",27060,697856,638808,855,40.2,65836.0,165495.0,26438.0,9.7
+2013,"Congressional District 17 (113th Congress), Illinois",78801,710667,583203,679,39.3,60829.0,169860.0,23821.0,9.8
+2013,"Congressional District 18 (113th Congress), Illinois",27204,718789,656450,777,40.4,101497.0,150751.0,30190.0,6.1
+2013,"Congressional District 1 (113th Congress), Indiana",141039,719164,503981,870,38.4,63840.0,172259.0,25752.0,8.9
+2013,"Congressional District 2 (113th Congress), Indiana",46459,719730,625700,700,37.5,60962.0,168776.0,22118.0,8.5
+2013,"Congressional District 3 (113th Congress), Indiana",43863,729747,641730,701,36.9,63690.0,165412.0,25433.0,7.5
+2013,"Congressional District 4 (113th Congress), Indiana",25446,738647,671183,793,36.5,70834.0,169057.0,26066.0,6.6
+2013,"Congressional District 5 (113th Congress), Indiana",57559,743062,629946,971,37.6,131220.0,118098.0,30799.0,5.9
+2013,"Congressional District 6 (113th Congress), Indiana",19141,724638,675653,728,40.2,60487.0,184511.0,23539.0,8.7
+2013,"Congressional District 7 (113th Congress), Indiana",220584,743136,437538,793,33.2,66247.0,149391.0,21844.0,11.7
+2013,"Congressional District 8 (113th Congress), Indiana",29173,720976,666721,684,39.7,64944.0,180356.0,23863.0,6.4
+2013,"Congressional District 9 (113th Congress), Indiana",20257,731802,677143,809,37.1,73052.0,170303.0,24960.0,6.3
+2013,"Congressional District 1 (113th Congress), Iowa",28346,766821,704857,739,38.6,80868.0,178736.0,27188.0,4.9
+2013,"Congressional District 2 (113th Congress), Iowa",31376,774072,701132,733,37.9,92017.0,164821.0,26622.0,4.8
+2013,"Congressional District 3 (113th Congress), Iowa",32126,788588,706117,875,36.7,117990.0,154229.0,30828.0,5.1
+2013,"Congressional District 4 (113th Congress), Iowa",10582,760935,711802,654,39.4,79313.0,172559.0,25326.0,4.5
+2013,"Congressional District 1 (113th Congress), Kansas",21543,722463,636914,668,35.0,72559.0,136465.0,24631.0,4.9
+2013,"Congressional District 2 (113th Congress), Kansas",31793,715785,628690,743,37.1,76145.0,145743.0,24672.0,6.4
+2013,"Congressional District 3 (113th Congress), Kansas",64789,738508,602586,1088,36.0,137001.0,89881.0,32130.0,5.8
+2013,"Congressional District 4 (113th Congress), Kansas",50121,717201,607840,757,35.8,88713.0,126337.0,26059.0,6.4
+2013,"Congressional District 1 (113th Congress), Kentucky",49788,723347,650850,557,39.9,43748.0,178589.0,20383.0,8.7
+2013,"Congressional District 2 (113th Congress), Kentucky",41665,737296,660967,692,38.5,56450.0,182100.0,23171.0,7.8
+2013,"Congressional District 3 (113th Congress), Kentucky",156359,739047,539475,812,38.1,88502.0,139788.0,26437.0,7.8
+2013,"Congressional District 4 (113th Congress), Kentucky",25175,736293,678842,847,38.4,82338.0,158276.0,26439.0,7.5
+2013,"Congressional District 5 (113th Congress), Kentucky",9330,714729,692710,471,40.5,35982.0,185092.0,16593.0,11.4
+2013,"Congressional District 6 (113th Congress), Kentucky",67847,744583,631730,775,36.1,85590.0,135186.0,23526.0,8.0
+2013,"Congressional District 1 (113th Congress), Louisiana",98950,781134,633322,912,37.9,92281.0,158306.0,27108.0,7.2
+2013,"Congressional District 2 (113th Congress), Louisiana",489500,784928,246703,814,35.3,71403.0,165414.0,21085.0,9.9
+2013,"Congressional District 3 (113th Congress), Louisiana",190709,769331,543668,634,35.8,67405.0,169609.0,23708.0,7.7
+2013,"Congressional District 4 (113th Congress), Louisiana",257076,762517,470751,631,36.0,69111.0,177100.0,22159.0,6.9
+2013,"Congressional District 5 (113th Congress), Louisiana",269012,754131,465229,564,36.1,56490.0,188559.0,19474.0,10.0
+2013,"Congressional District 6 (113th Congress), Louisiana",187668,773429,547623,846,35.1,96657.0,160034.0,30005.0,6.5
+2013,"Congressional District 1 (113th Congress), Maine",10031,670714,633750,992,44.0,106952.0,141395.0,26817.0,6.3
+2013,"Congressional District 2 (113th Congress), Maine",3586,657588,626720,712,44.1,65546.0,181460.0,21452.0,7.7
+2013,"Congressional District 1 (113th Congress), Maryland",85892,723716,599804,1158,42.4,89742.0,156673.0,31193.0,7.4
+2013,"Congressional District 2 (113th Congress), Maryland",247501,745135,415253,1182,36.8,87390.0,151537.0,32170.0,8.6
+2013,"Congressional District 3 (113th Congress), Maryland",161388,740451,481714,1457,37.3,126359.0,109800.0,38401.0,6.2
+2013,"Congressional District 4 (113th Congress), Maryland",390608,739293,240823,1473,36.5,88590.0,131372.0,35831.0,8.8
+2013,"Congressional District 5 (113th Congress), Maryland",288534,752393,390564,1673,37.8,97048.0,136128.0,40497.0,7.1
+2013,"Congressional District 6 (113th Congress), Maryland",99811,747058,509038,1390,38.1,110334.0,124522.0,33782.0,7.0
+2013,"Congressional District 7 (113th Congress), Maryland",393876,724692,260116,1118,37.1,91254.0,123861.0,29501.0,9.4
+2013,"Congressional District 8 (113th Congress), Maryland",87354,756076,519023,1688,40.3,124275.0,96958.0,41784.0,5.4
+2013,"Congressional District 1 (113th Congress), Massachusetts",47607,729965,607404,955,40.4,79656.0,156182.0,26488.0,9.4
+2013,"Congressional District 2 (113th Congress), Massachusetts",37976,738642,627444,1154,38.2,100983.0,138586.0,28322.0,7.5
+2013,"Congressional District 3 (113th Congress), Massachusetts",30358,742932,566124,1231,40.0,106261.0,139718.0,30717.0,8.8
+2013,"Congressional District 4 (113th Congress), Massachusetts",19754,746358,652514,1524,40.4,125729.0,109144.0,38003.0,6.4
+2013,"Congressional District 5 (113th Congress), Massachusetts",37548,754065,602379,1591,38.0,144813.0,105888.0,38026.0,6.1
+2013,"Congressional District 6 (113th Congress), Massachusetts",25623,750623,643619,1425,42.4,135198.0,133585.0,35153.0,6.8
+2013,"Congressional District 7 (113th Congress), Massachusetts",186429,751062,384466,1381,32.0,105757.0,121534.0,26204.0,9.0
+2013,"Congressional District 8 (113th Congress), Massachusetts",71697,759336,597538,1501,39.0,138066.0,138244.0,36996.0,7.2
+2013,"Congressional District 9 (113th Congress), Massachusetts",17435,719841,648893,1155,45.4,100952.0,147989.0,28911.0,9.2
+2013,"Congressional District 1 (113th Congress), Michigan",11417,704991,648551,667,45.8,74083.0,180368.0,21593.0,9.6
+2013,"Congressional District 2 (113th Congress), Michigan",39876,717114,624294,769,36.4,77937.0,147688.0,23144.0,7.8
+2013,"Congressional District 3 (113th Congress), Michigan",65835,720731,605450,842,37.1,88513.0,130914.0,25486.0,8.4
+2013,"Congressional District 4 (113th Congress), Michigan",15335,709423,664626,716,40.8,62178.0,167467.0,21375.0,10.8
+2013,"Congressional District 5 (113th Congress), Michigan",119555,682848,531329,703,40.7,52559.0,154535.0,21669.0,11.5
+2013,"Congressional District 6 (113th Congress), Michigan",59926,709976,603919,763,38.8,74047.0,145961.0,22952.0,8.9
+2013,"Congressional District 7 (113th Congress), Michigan",32868,703537,642781,815,41.1,71534.0,157830.0,25557.0,8.9
+2013,"Congressional District 8 (113th Congress), Michigan",36021,713867,616504,987,38.3,105393.0,102352.0,29172.0,8.0
+2013,"Congressional District 9 (113th Congress), Michigan",84057,713212,574857,883,39.9,89094.0,139510.0,27127.0,8.6
+2013,"Congressional District 10 (113th Congress), Michigan",19944,711342,662449,891,42.7,70965.0,162080.0,26422.0,8.4
+2013,"Congressional District 11 (113th Congress), Michigan",35925,717393,594691,1137,41.2,132847.0,100818.0,36225.0,5.8
+2013,"Congressional District 12 (113th Congress), Michigan",72681,711313,566575,936,35.8,78541.0,118460.0,26908.0,8.7
+2013,"Congressional District 13 (113th Congress), Michigan",378188,673446,248017,714,36.5,37935.0,141084.0,18114.0,19.1
+2013,"Congressional District 14 (113th Congress), Michigan",406609,706429,245013,864,38.8,73403.0,122858.0,22301.0,15.8
+2013,"Congressional District 1 (113th Congress), Minnesota",16486,668726,613260,808,38.3,78078.0,137053.0,27910.0,5.1
+2013,"Congressional District 2 (113th Congress), Minnesota",27596,681195,588799,1187,37.3,114707.0,106922.0,35935.0,4.9
+2013,"Congressional District 3 (113th Congress), Minnesota",48495,685092,563451,1265,38.9,147963.0,86937.0,38273.0,5.1
+2013,"Congressional District 4 (113th Congress), Minnesota",65546,686098,500645,1061,35.7,117495.0,97239.0,30700.0,6.6
+2013,"Congressional District 5 (113th Congress), Minnesota",106696,697725,476356,1009,34.1,131228.0,96225.0,28987.0,7.2
+2013,"Congressional District 6 (113th Congress), Minnesota",16489,675687,622943,1143,36.2,86512.0,123765.0,32195.0,4.4
+2013,"Congressional District 7 (113th Congress), Minnesota",6004,662860,612716,705,40.9,67238.0,149279.0,26300.0,4.4
+2013,"Congressional District 8 (113th Congress), Minnesota",7215,662997,617917,773,42.9,70016.0,157659.0,24930.0,5.8
+2013,"Congressional District 1 (113th Congress), Mississippi",208389,756459,527919,656,37.8,57524.0,152898.0,21183.0,9.8
+2013,"Congressional District 2 (113th Congress), Mississippi",474860,726159,231665,600,35.4,54544.0,137397.0,17763.0,13.3
+2013,"Congressional District 3 (113th Congress), Mississippi",263930,750332,459041,656,37.2,75726.0,146511.0,21549.0,9.5
+2013,"Congressional District 4 (113th Congress), Mississippi",181101,758257,546015,706,36.1,60694.0,154434.0,21541.0,10.1
+2013,"Congressional District 1 (113th Congress), Missouri",359831,737033,326759,839,35.5,86086.0,121365.0,24376.0,11.3
+2013,"Congressional District 2 (113th Congress), Missouri",30723,768428,687327,1121,42.0,160962.0,102721.0,35876.0,4.8
+2013,"Congressional District 3 (113th Congress), Missouri",24162,760643,710248,867,38.3,83165.0,173714.0,26981.0,7.1
+2013,"Congressional District 4 (113th Congress), Missouri",31311,756407,678874,708,36.6,69904.0,166956.0,21453.0,7.3
+2013,"Congressional District 5 (113th Congress), Missouri",163411,758911,525821,812,36.8,82097.0,164316.0,25743.0,6.8
+2013,"Congressional District 6 (113th Congress), Missouri",33892,754588,683363,768,38.2,84386.0,179300.0,26353.0,6.1
+2013,"Congressional District 7 (113th Congress), Missouri",13377,759566,699108,697,37.6,73008.0,171604.0,21511.0,7.9
+2013,"Congressional District 8 (113th Congress), Missouri",35581,748595,692471,575,40.4,46383.0,196309.0,20000.0,8.7
+2013,"Congressional District (at Large) (113th Congress), Montana",3221,1015165,904740,730,39.6,135518.0,200303.0,23787.0,6.5
+2013,"Congressional District 1 (113th Congress), Nebraska",18439,628082,559161,821,35.2,80629.0,109525.0,27090.0,4.8
+2013,"Congressional District 2 (113th Congress), Nebraska",60948,634418,521950,960,34.1,97418.0,85768.0,28952.0,4.5
+2013,"Congressional District 3 (113th Congress), Nebraska",6623,606016,569247,642,40.9,60113.0,134302.0,24397.0,4.5
+2013,"Congressional District 1 (113th Congress), Nevada",74983,673794,393782,855,35.7,45654.0,147779.0,21597.0,12.9
+2013,"Congressional District 2 (113th Congress), Nevada",13658,690786,576536,937,38.7,76379.0,119993.0,26967.0,9.7
+2013,"Congressional District 3 (113th Congress), Nevada",48961,720438,506711,1202,39.2,103346.0,122532.0,32028.0,8.1
+2013,"Congressional District 4 (113th Congress), Nevada",96577,705118,429835,1052,34.8,56904.0,142148.0,25833.0,13.5
+2013,"Congressional District 1 (113th Congress), New Hampshire",8504,662473,620249,1236,41.9,105852.0,129664.0,31294.0,5.9
+2013,"Congressional District 2 (113th Congress), New Hampshire",7596,660986,616508,1170,42.7,96643.0,141162.0,30228.0,6.2
+2013,"Congressional District 1 (113th Congress), New Jersey",129320,730895,497632,1254,38.6,92299.0,167746.0,29318.0,10.1
+2013,"Congressional District 2 (113th Congress), New Jersey",96607,732764,548990,1216,41.2,83085.0,182866.0,26012.0,12.0
+2013,"Congressional District 3 (113th Congress), New Jersey",78577,742640,601561,1472,42.9,106858.0,174551.0,34074.0,8.3
+2013,"Congressional District 4 (113th Congress), New Jersey",47248,735064,627418,1521,42.3,116880.0,140764.0,34048.0,7.7
+2013,"Congressional District 5 (113th Congress), New Jersey",39359,733032,570730,1813,42.8,143353.0,126082.0,39463.0,7.0
+2013,"Congressional District 6 (113th Congress), New Jersey",74947,738398,478926,1492,37.2,114252.0,132464.0,32689.0,9.0
+2013,"Congressional District 7 (113th Congress), New Jersey",34099,748580,601227,1866,42.2,150674.0,114116.0,43283.0,6.1
+2013,"Congressional District 8 (113th Congress), New Jersey",80631,758406,422061,1235,34.3,90471.0,153264.0,25827.0,10.2
+2013,"Congressional District 9 (113th Congress), New Jersey",86243,760064,459605,1424,37.2,107121.0,164501.0,29637.0,8.0
+2013,"Congressional District 10 (113th Congress), New Jersey",390300,733056,220801,1227,35.2,86275.0,152537.0,25488.0,14.6
+2013,"Congressional District 11 (113th Congress), New Jersey",25249,735846,615745,1948,42.6,158816.0,116877.0,44319.0,7.3
+2013,"Congressional District 12 (113th Congress), New Jersey",133256,750594,423779,1497,39.2,124532.0,125568.0,32798.0,8.9
+2013,"Congressional District 1 (113th Congress), New Mexico",21054,694442,539341,872,36.9,84344.0,111264.0,25649.0,8.1
+2013,"Congressional District 2 (113th Congress), New Mexico",11436,697027,577796,628,35.8,52834.0,123439.0,20419.0,10.5
+2013,"Congressional District 3 (113th Congress), New Mexico",9243,693818,452448,763,38.1,67048.0,126850.0,23034.0,9.0
+2013,"Congressional District 1 (113th Congress), New York",35334,722480,633228,1905,41.0,91058.0,145040.0,35647.0,6.4
+2013,"Congressional District 2 (113th Congress), New York",73883,718587,532873,1934,40.3,78040.0,162854.0,34137.0,6.7
+2013,"Congressional District 3 (113th Congress), New York",25903,724490,551719,2115,43.4,139480.0,99411.0,41477.0,6.0
+2013,"Congressional District 4 (113th Congress), New York",95884,715109,476069,1938,40.5,108071.0,119273.0,35596.0,7.2
+2013,"Congressional District 5 (113th Congress), New York",381439,768603,147058,1457,36.6,78091.0,154589.0,26202.0,12.1
+2013,"Congressional District 6 (113th Congress), New York",24206,721108,349295,1320,41.1,121639.0,130393.0,30114.0,7.4
+2013,"Congressional District 7 (113th Congress), New York",88142,760308,372574,1251,33.4,94219.0,117104.0,23101.0,10.1
+2013,"Congressional District 8 (113th Congress), New York",423763,737529,202683,1228,36.0,89573.0,138036.0,25928.0,12.5
+2013,"Congressional District 9 (113th Congress), New York",372606,735408,252087,1222,35.4,100700.0,135565.0,27084.0,10.2
+2013,"Congressional District 10 (113th Congress), New York",34951,716682,498838,1718,35.0,161136.0,80125.0,44128.0,6.6
+2013,"Congressional District 11 (113th Congress), New York",56520,728307,535695,1355,39.3,100455.0,150592.0,32417.0,7.8
+2013,"Congressional District 12 (113th Congress), New York",38100,720538,530626,1802,36.2,221595.0,59979.0,53587.0,5.1
+2013,"Congressional District 13 (113th Congress), New York",224458,765391,210190,1060,34.4,93827.0,121077.0,19683.0,13.4
+2013,"Congressional District 14 (113th Congress), New York",82135,727544,347405,1310,35.7,82643.0,140946.0,24874.0,8.8
+2013,"Congressional District 15 (113th Congress), New York",246281,747271,109094,991,31.0,41969.0,128041.0,14825.0,15.8
+2013,"Congressional District 16 (113th Congress), New York",232330,730795,359248,1404,39.4,96279.0,115216.0,33087.0,10.3
+2013,"Congressional District 17 (113th Congress), New York",82346,742344,505269,1852,38.1,113796.0,99900.0,35666.0,8.2
+2013,"Congressional District 18 (113th Congress), New York",68138,718210,558570,1579,39.3,89749.0,126284.0,31333.0,7.8
+2013,"Congressional District 19 (113th Congress), New York",29635,709970,640456,1039,43.9,72643.0,159419.0,26816.0,8.7
+2013,"Congressional District 20 (113th Congress), New York",66293,724345,591058,1000,38.6,97477.0,130526.0,30076.0,7.0
+2013,"Congressional District 21 (113th Congress), New York",21857,716340,657450,808,40.4,57805.0,174534.0,25186.0,9.6
+2013,"Congressional District 22 (113th Congress), New York",29453,713145,643929,736,40.8,64614.0,171513.0,23800.0,7.5
+2013,"Congressional District 23 (113th Congress), New York",21472,716427,656095,719,40.0,58585.0,168632.0,22659.0,8.0
+2013,"Congressional District 24 (113th Congress), New York",58756,715192,606298,836,39.6,78681.0,145702.0,26796.0,7.8
+2013,"Congressional District 25 (113th Congress), New York",116913,724587,540531,919,38.2,96792.0,121605.0,26886.0,8.8
+2013,"Congressional District 26 (113th Congress), New York",131734,715554,517616,766,38.7,78991.0,140152.0,25524.0,8.6
+2013,"Congressional District 27 (113th Congress), New York",17050,714863,669326,857,43.2,81983.0,158204.0,28645.0,6.8
+2013,"Congressional District 1 (113th Congress), North Carolina",393917,724668,280538,739,36.2,58271.0,143021.0,19603.0,12.7
+2013,"Congressional District 2 (113th Congress), North Carolina",124989,777683,563952,865,36.0,94343.0,128580.0,26722.0,9.6
+2013,"Congressional District 3 (113th Congress), North Carolina",135547,749521,561438,853,34.9,65664.0,134836.0,23663.0,10.5
+2013,"Congressional District 4 (113th Congress), North Carolina",242488,769734,424359,936,32.7,123234.0,92410.0,26649.0,8.5
+2013,"Congressional District 5 (113th Congress), North Carolina",95511,745928,605768,737,40.6,87332.0,150805.0,22951.0,9.5
+2013,"Congressional District 6 (113th Congress), North Carolina",121656,760762,586902,794,41.7,100811.0,146481.0,26159.0,8.0
+2013,"Congressional District 7 (113th Congress), North Carolina",134024,762540,559825,817,40.3,83328.0,144586.0,22586.0,10.3
+2013,"Congressional District 8 (113th Congress), North Carolina",137110,744074,508436,708,38.5,61387.0,158092.0,22283.0,11.1
+2013,"Congressional District 9 (113th Congress), North Carolina",99412,780211,608345,1179,38.2,170006.0,94083.0,34367.0,6.2
+2013,"Congressional District 10 (113th Congress), North Carolina",83866,739282,603780,717,41.2,84791.0,147979.0,22599.0,9.9
+2013,"Congressional District 11 (113th Congress), North Carolina",21358,737318,662147,627,44.3,73867.0,157140.0,20851.0,9.1
+2013,"Congressional District 12 (113th Congress), North Carolina",399088,773617,267505,814,32.0,78432.0,129791.0,20815.0,13.8
+2013,"Congressional District 13 (113th Congress), North Carolina",132746,782722,578506,1034,39.4,130018.0,115791.0,30992.0,7.1
+2013,"Congressional District (at Large) (113th Congress), North Dakota",10827,723393,643478,715,35.5,93470.0,128539.0,29921.0,2.6
+2013,"Congressional District 1 (113th Congress), Ohio",159103,724914,523486,873,37.3,91002.0,138838.0,26432.0,9.9
+2013,"Congressional District 2 (113th Congress), Ohio",60771,727391,637029,824,40.0,95064.0,158551.0,26591.0,6.2
+2013,"Congressional District 3 (113th Congress), Ohio",238827,739980,423279,846,32.5,82047.0,142802.0,23602.0,8.5
+2013,"Congressional District 4 (113th Congress), Ohio",34799,709122,644608,747,40.7,51760.0,201873.0,24126.0,8.0
+2013,"Congressional District 5 (113th Congress), Ohio",23317,730642,668201,751,38.6,71238.0,175495.0,25633.0,6.9
+2013,"Congressional District 6 (113th Congress), Ohio",14797,713464,681071,591,42.6,47669.0,218873.0,21717.0,7.3
+2013,"Congressional District 7 (113th Congress), Ohio",30032,719276,664028,728,40.6,63151.0,195987.0,23815.0,7.4
+2013,"Congressional District 8 (113th Congress), Ohio",41036,721486,645117,823,38.7,70780.0,176186.0,25525.0,7.4
+2013,"Congressional District 9 (113th Congress), Ohio",110341,715447,546641,725,38.4,68497.0,159404.0,21936.0,10.8
+2013,"Congressional District 10 (113th Congress), Ohio",122647,723987,559644,807,38.9,76931.0,138802.0,24579.0,9.6
+2013,"Congressional District 11 (113th Congress), Ohio",373011,692794,275240,755,38.1,69654.0,134208.0,21246.0,15.1
+2013,"Congressional District 12 (113th Congress), Ohio",34796,744647,656446,995,37.8,119832.0,138692.0,30487.0,5.5
+2013,"Congressional District 13 (113th Congress), Ohio",87539,719201,597291,699,40.9,72446.0,196566.0,21942.0,9.9
+2013,"Congressional District 14 (113th Congress), Ohio",30256,725681,664084,947,43.3,106284.0,158833.0,29237.0,6.1
+2013,"Congressional District 15 (113th Congress), Ohio",28107,742133,681762,895,38.1,91736.0,171244.0,27056.0,6.9
+2013,"Congressional District 16 (113th Congress), Ohio",15769,720643,673347,912,42.9,101587.0,162472.0,30602.0,5.4
+2013,"Congressional District 1 (113th Congress), Oklahoma",65501,773208,560016,824,36.0,99453.0,140896.0,26166.0,6.5
+2013,"Congressional District 2 (113th Congress), Oklahoma",26304,747973,503502,562,39.6,54931.0,193869.0,20681.0,7.8
+2013,"Congressional District 3 (113th Congress), Oklahoma",28249,767552,611033,647,36.2,75258.0,175850.0,24698.0,4.3
+2013,"Congressional District 4 (113th Congress), Oklahoma",50538,776394,595866,784,35.4,76793.0,166917.0,25050.0,6.4
+2013,"Congressional District 5 (113th Congress), Oklahoma",106424,785441,545291,788,34.4,96521.0,132260.0,25138.0,6.3
+2013,"Congressional District 1 (113th Congress), Oregon",13324,796901,659627,1173,37.4,125405.0,114577.0,29602.0,7.9
+2013,"Congressional District 2 (113th Congress), Oregon",4248,778062,703302,838,42.1,83986.0,153426.0,22269.0,9.6
+2013,"Congressional District 3 (113th Congress), Oregon",41607,797199,630680,1134,36.8,131592.0,114282.0,26618.0,9.3
+2013,"Congressional District 4 (113th Congress), Oregon",6797,772196,692075,863,41.4,83625.0,143969.0,21183.0,10.5
+2013,"Congressional District 5 (113th Congress), Oregon",6679,785707,684707,1018,39.2,96423.0,129616.0,25835.0,9.0
+2013,"Congressional District 1 (113th Congress), Pennsylvania",261235,725059,327740,922,32.7,75637.0,161541.0,22314.0,13.4
+2013,"Congressional District 2 (113th Congress), Pennsylvania",416549,712372,234204,884,34.0,76472.0,141935.0,21639.0,13.6
+2013,"Congressional District 3 (113th Congress), Pennsylvania",33277,703010,647233,693,42.5,76390.0,201903.0,23419.0,7.0
+2013,"Congressional District 4 (113th Congress), Pennsylvania",56040,710120,607408,951,40.9,76153.0,190944.0,27405.0,8.0
+2013,"Congressional District 5 (113th Congress), Pennsylvania",17052,701630,658469,666,40.4,64567.0,210282.0,21951.0,6.7
+2013,"Congressional District 6 (113th Congress), Pennsylvania",29918,721522,633260,1268,40.6,125227.0,139234.0,33870.0,6.2
+2013,"Congressional District 7 (113th Congress), Pennsylvania",38260,722495,634374,1396,41.4,116444.0,141672.0,36549.0,6.9
+2013,"Congressional District 8 (113th Congress), Pennsylvania",25690,708333,627460,1369,42.7,112551.0,156906.0,33262.0,7.7
+2013,"Congressional District 9 (113th Congress), Pennsylvania",20578,701622,664904,635,42.7,55852.0,233174.0,23416.0,7.6
+2013,"Congressional District 10 (113th Congress), Pennsylvania",24241,707291,660406,801,42.9,62161.0,211891.0,23737.0,8.2
+2013,"Congressional District 11 (113th Congress), Pennsylvania",36053,705647,628549,811,42.1,71459.0,199020.0,26428.0,6.6
+2013,"Congressional District 12 (113th Congress), Pennsylvania",20904,703938,657245,767,44.7,100053.0,183421.0,28676.0,6.2
+2013,"Congressional District 13 (113th Congress), Pennsylvania",135635,710615,469753,1087,39.0,95492.0,157387.0,28300.0,10.3
+2013,"Congressional District 14 (113th Congress), Pennsylvania",151519,704276,507979,735,38.4,92695.0,163754.0,23705.0,9.2
+2013,"Congressional District 15 (113th Congress), Pennsylvania",34197,713008,601389,1007,41.3,82886.0,175803.0,27644.0,8.0
+2013,"Congressional District 16 (113th Congress), Pennsylvania",47543,712447,584299,974,37.7,78800.0,169420.0,26037.0,8.7
+2013,"Congressional District 17 (113th Congress), Pennsylvania",42749,699632,616489,829,42.0,65999.0,199664.0,23763.0,8.7
+2013,"Congressional District 18 (113th Congress), Pennsylvania",17581,710784,666533,823,44.5,111390.0,171850.0,30048.0,6.1
+2013,"Congressional District 1 (113th Congress), Rhode Island",47517,528341,399472,1031,39.4,67796.0,96260.0,25922.0,10.0
+2013,"Congressional District 2 (113th Congress), Rhode Island",20024,523170,446630,1185,40.5,74802.0,95594.0,30022.0,8.4
+2013,"Congressional District 1 (113th Congress), South Carolina",137808,715200,530230,1087,37.7,116681.0,107485.0,30514.0,7.4
+2013,"Congressional District 2 (113th Congress), South Carolina",157526,671907,477567,858,38.5,91187.0,118316.0,26904.0,8.7
+2013,"Congressional District 3 (113th Congress), South Carolina",125191,663437,510634,635,40.3,57455.0,143499.0,21167.0,9.4
+2013,"Congressional District 4 (113th Congress), South Carolina",133579,690796,517291,770,37.8,87838.0,119804.0,23598.0,7.9
+2013,"Congressional District 5 (113th Congress), South Carolina",179409,678788,468217,713,39.6,64924.0,148242.0,23530.0,9.4
+2013,"Congressional District 6 (113th Congress), South Carolina",390373,678025,253688,709,34.6,48833.0,145417.0,18931.0,13.2
+2013,"Congressional District 7 (113th Congress), South Carolina",196245,676686,452273,685,41.5,63026.0,156284.0,20597.0,11.0
+2013,"Congressional District (at Large) (113th Congress), South Dakota",13001,844877,719112,699,36.6,104240.0,172701.0,25803.0,4.0
+2013,"Congressional District 1 (113th Congress), Tennessee",16715,709547,664504,589,42.9,55105.0,194960.0,19886.0,8.2
+2013,"Congressional District 2 (113th Congress), Tennessee",47257,722761,645787,779,39.5,84804.0,151594.0,23521.0,8.1
+2013,"Congressional District 3 (113th Congress), Tennessee",80607,721988,615964,685,41.1,64920.0,169981.0,21118.0,8.8
+2013,"Congressional District 4 (113th Congress), Tennessee",62883,726649,627093,761,37.0,67394.0,168846.0,23213.0,8.5
+2013,"Congressional District 5 (113th Congress), Tennessee",183734,739937,486440,930,34.7,109988.0,130342.0,26352.0,7.2
+2013,"Congressional District 6 (113th Congress), Tennessee",33274,724274,667084,718,40.8,62509.0,186645.0,22158.0,7.8
+2013,"Congressional District 7 (113th Congress), Tennessee",69537,728823,618422,789,37.1,87642.0,153304.0,25407.0,8.3
+2013,"Congressional District 8 (113th Congress), Tennessee",144446,710335,534981,795,40.4,82734.0,152380.0,25313.0,8.5
+2013,"Congressional District 9 (113th Congress), Tennessee",464002,711664,199854,851,32.9,66379.0,129706.0,21728.0,13.3
+2013,"Congressional District 1 (113th Congress), Texas",127336,712524,550059,693,36.3,62205.0,136933.0,21783.0,7.3
+2013,"Congressional District 2 (113th Congress), Texas",58790,722575,523607,1144,35.1,121279.0,96046.0,35131.0,5.3
+2013,"Congressional District 3 (113th Congress), Texas",68452,765486,560096,1354,35.9,162678.0,71973.0,40791.0,5.1
+2013,"Congressional District 4 (113th Congress), Texas",78296,710641,581236,725,39.0,61698.0,159669.0,23365.0,8.3
+2013,"Congressional District 5 (113th Congress), Texas",104445,726896,536745,803,35.8,60562.0,141230.0,23644.0,7.8
+2013,"Congressional District 6 (113th Congress), Texas",141631,730955,505058,1025,34.9,97590.0,117282.0,30386.0,7.3
+2013,"Congressional District 7 (113th Congress), Texas",105476,741599,500384,1193,34.3,144079.0,79575.0,37880.0,5.0
+2013,"Congressional District 8 (113th Congress), Texas",65590,761764,624689,975,36.1,93293.0,151823.0,30041.0,5.7
+2013,"Congressional District 9 (113th Congress), Texas",290767,736852,270283,875,32.1,82686.0,111479.0,22017.0,10.0
+2013,"Congressional District 10 (113th Congress), Texas",83468,758585,579313,1075,35.4,120563.0,108539.0,31465.0,5.7
+2013,"Congressional District 11 (113th Congress), Texas",27120,729613,624166,716,35.6,67724.0,138368.0,25203.0,4.8
+2013,"Congressional District 12 (113th Congress), Texas",51918,732246,592370,1004,35.2,101054.0,121855.0,30393.0,5.6
+2013,"Congressional District 13 (113th Congress), Texas",39370,700874,602463,712,35.7,64022.0,134378.0,24758.0,5.4
+2013,"Congressional District 14 (113th Congress), Texas",141187,716592,513792,821,36.6,71948.0,139176.0,25685.0,7.2
+2013,"Congressional District 15 (113th Congress), Texas",14896,731065,651010,657,30.4,54411.0,103985.0,18870.0,7.8
+2013,"Congressional District 16 (113th Congress), Texas",28314,728654,608673,769,31.6,68015.0,98008.0,20310.0,8.4
+2013,"Congressional District 17 (113th Congress), Texas",93960,726128,537726,847,31.7,77638.0,116675.0,23288.0,6.7
+2013,"Congressional District 18 (113th Congress), Texas",278499,741385,343483,838,32.0,59647.0,134541.0,22288.0,9.4
+2013,"Congressional District 19 (113th Congress), Texas",43741,719455,601494,696,33.1,61035.0,128276.0,22028.0,6.5
+2013,"Congressional District 20 (113th Congress), Texas",42219,752996,598996,854,32.6,70554.0,126980.0,21776.0,7.6
+2013,"Congressional District 21 (113th Congress), Texas",26208,743443,660109,1083,37.9,146031.0,96750.0,31476.0,5.7
+2013,"Congressional District 22 (113th Congress), Texas",110356,783172,487463,1365,35.4,139226.0,88384.0,38495.0,4.6
+2013,"Congressional District 23 (113th Congress), Texas",20602,723867,611205,712,33.0,57774.0,123578.0,21239.0,8.1
+2013,"Congressional District 24 (113th Congress), Texas",77858,741164,490514,1079,35.4,142349.0,82995.0,35239.0,5.5
+2013,"Congressional District 25 (113th Congress), Texas",47564,731689,628049,1023,36.1,107351.0,104845.0,30184.0,7.2
+2013,"Congressional District 26 (113th Congress), Texas",54631,768246,617503,1320,34.4,133506.0,91579.0,35342.0,5.3
+2013,"Congressional District 27 (113th Congress), Texas",38458,714527,601042,773,36.5,53977.0,147957.0,23640.0,5.3
+2013,"Congressional District 28 (113th Congress), Texas",26625,724080,641699,734,31.4,48155.0,111693.0,20321.0,8.3
+2013,"Congressional District 29 (113th Congress), Texas",77197,729827,539848,747,28.4,27366.0,121743.0,20172.0,9.3
+2013,"Congressional District 30 (113th Congress), Texas",323849,746336,353006,906,32.6,59922.0,121086.0,23304.0,8.5
+2013,"Congressional District 31 (113th Congress), Texas",89732,767721,584177,1066,33.5,106934.0,113767.0,30981.0,8.0
+2013,"Congressional District 32 (113th Congress), Texas",96631,718713,450102,1135,35.7,128679.0,84818.0,31500.0,7.1
+2013,"Congressional District 33 (113th Congress), Texas",124085,725761,455074,741,28.9,26276.0,116778.0,20037.0,10.3
+2013,"Congressional District 34 (113th Congress), Texas",7840,720005,662467,554,32.1,42696.0,107678.0,17443.0,10.4
+2013,"Congressional District 35 (113th Congress), Texas",74400,752749,576000,862,30.4,61018.0,130120.0,21033.0,7.6
+2013,"Congressional District 36 (113th Congress), Texas",61355,710008,576466,774,37.7,60980.0,147107.0,26711.0,9.1
+2013,"Congressional District 1 (113th Congress), Utah",8256,720959,652841,987,30.1,82639.0,106200.0,25733.0,5.4
+2013,"Congressional District 2 (113th Congress), Utah",8235,715552,607433,933,31.9,85742.0,105156.0,24731.0,5.5
+2013,"Congressional District 3 (113th Congress), Utah",3819,718575,650154,1066,27.7,97465.0,67225.0,23717.0,5.6
+2013,"Congressional District 4 (113th Congress), Utah",12444,745786,624106,1117,30.5,82656.0,103618.0,27031.0,5.7
+2013,"Congressional District (at Large) (113th Congress), Vermont",7184,626630,595148,1004,42.5,93427.0,133439.0,26334.0,5.8
+2013,"Congressional District 1 (113th Congress), Virginia",131670,763763,564870,1352,38.5,110346.0,128341.0,34696.0,6.2
+2013,"Congressional District 2 (113th Congress), Virginia",158304,738759,499946,1215,35.0,100002.0,117120.0,29829.0,6.7
+2013,"Congressional District 3 (113th Congress), Virginia",422656,742782,264397,938,32.9,69386.0,142681.0,22326.0,10.1
+2013,"Congressional District 4 (113th Congress), Virginia",235128,739602,450336,1144,38.9,76030.0,150293.0,28678.0,9.0
+2013,"Congressional District 5 (113th Congress), Virginia",146965,735799,554297,794,41.7,78659.0,156549.0,25504.0,6.0
+2013,"Congressional District 6 (113th Congress), Virginia",76446,735143,618631,810,39.9,79796.0,161432.0,23035.0,7.2
+2013,"Congressional District 7 (113th Congress), Virginia",113006,760928,575908,1197,39.6,124799.0,127492.0,32280.0,6.3
+2013,"Congressional District 8 (113th Congress), Virginia",114294,774396,491667,1797,35.6,168288.0,69325.0,50548.0,4.7
+2013,"Congressional District 9 (113th Congress), Virginia",38129,721531,658448,572,41.9,54144.0,167877.0,20929.0,7.0
+2013,"Congressional District 10 (113th Congress), Virginia",55343,781947,575653,1937,36.8,159581.0,81390.0,45740.0,5.4
+2013,"Congressional District 11 (113th Congress), Virginia",100485,765755,472733,1819,35.6,151278.0,77986.0,44307.0,5.2
+2013,"Congressional District 1 (113th Congress), Washington",8554,709693,577229,1487,38.4,126480.0,91139.0,35656.0,6.7
+2013,"Congressional District 2 (113th Congress), Washington",21188,692085,557007,1180,37.4,95790.0,107571.0,29475.0,8.2
+2013,"Congressional District 3 (113th Congress), Washington",11223,691968,600993,988,39.1,68959.0,135772.0,26209.0,9.4
+2013,"Congressional District 4 (113th Congress), Washington",7935,698426,519499,829,33.5,52726.0,114826.0,23264.0,8.9
+2013,"Congressional District 5 (113th Congress), Washington",12517,681812,606766,823,37.5,77180.0,122426.0,22861.0,8.2
+2013,"Congressional District 6 (113th Congress), Washington",21965,682280,561334,1062,42.0,86811.0,116800.0,27763.0,8.7
+2013,"Congressional District 7 (113th Congress), Washington",28165,706603,537785,1379,36.9,179414.0,61619.0,37387.0,5.8
+2013,"Congressional District 8 (113th Congress), Washington",24699,701614,556709,1381,38.6,98218.0,123210.0,33966.0,6.9
+2013,"Congressional District 9 (113th Congress), Washington",75211,705731,400516,1272,36.7,121938.0,102032.0,30651.0,7.2
+2013,"Congressional District 10 (113th Congress), Washington",47880,701194,521867,1136,35.3,76957.0,120194.0,29120.0,10.3
+2013,"Congressional District 1 (113th Congress), West Virginia",16046,617842,585837,555,40.7,51847.0,175269.0,21984.0,7.2
+2013,"Congressional District 2 (113th Congress), West Virginia",23182,626979,578389,640,42.0,54912.0,173975.0,23308.0,9.1
+2013,"Congressional District 3 (113th Congress), West Virginia",23560,609483,573457,493,42.2,39973.0,171291.0,19894.0,9.3
+2013,"Congressional District 1 (113th Congress), Wisconsin",39607,709472,621874,999,39.9,82885.0,158098.0,29589.0,8.4
+2013,"Congressional District 2 (113th Congress), Wisconsin",31338,733541,639351,1002,36.4,114500.0,118144.0,29642.0,5.1
+2013,"Congressional District 3 (113th Congress), Wisconsin",6814,711620,669994,763,38.7,73568.0,162754.0,24427.0,5.9
+2013,"Congressional District 4 (113th Congress), Wisconsin",241387,715840,385910,857,32.5,77230.0,127491.0,22127.0,10.4
+2013,"Congressional District 5 (113th Congress), Wisconsin",12735,723153,669374,1042,40.7,120204.0,142017.0,31263.0,5.1
+2013,"Congressional District 6 (113th Congress), Wisconsin",9603,713224,665614,819,41.7,83513.0,177072.0,26689.0,5.1
+2013,"Congressional District 7 (113th Congress), Wisconsin",6238,715263,670472,771,43.4,71187.0,186562.0,25233.0,6.3
+2013,"Congressional District 8 (113th Congress), Wisconsin",10177,720600,650360,833,39.8,88764.0,171020.0,27168.0,6.1
+2013,"Congressional District (at Large) (113th Congress), Wyoming",7435,582658,528303,833,36.6,68225.0,109099.0,29697.0,5.1
+2013,"Resident Commissioner District (at Large) (113th Congress), Puerto Rico",280579,3615086,2596735,348,38.6,,,,18.1
